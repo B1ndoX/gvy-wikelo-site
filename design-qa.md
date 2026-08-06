@@ -14,6 +14,8 @@
 - 当前 2K 页头与卡片：`/tmp/gvy-wikelo-2560x1440.png`
 - 当前手机查询页：`/tmp/gvy-wikelo-390x844.png`、`/tmp/gvy-wikelo-320x568.png`
 - 当前手机材料弹窗：`/tmp/gvy-wikelo-material-390x844.png`
+- EdgeOne 生产预览首屏：`/tmp/gvy-wikelo-production-home.png`
+- EdgeOne 生产预览材料弹窗：`/tmp/gvy-wikelo-production-material.png`
 
 ## 视口与归一化
 
@@ -61,6 +63,6 @@
 - 分类、搜索、筛选、排序、材料弹窗、交易详情抽屉、空状态重置和备案外链均已验证。
 - 页面控制台只有 Vite 连接和 React 开发提示，没有站点 error 或 warning。
 - 38 项自动化测试通过；87 笔交易通过严格数据校验；生产构建通过。
-- 发布前检查已通过；正式发布仍须以 GitHub、EdgeOne 构建与正式域名验证结果为准。
+- 正式发布检查已通过：EdgeOne 构建成功，正式域名 HTTP 301 / HTTPS 200；87 笔交易与 4.9.0 LIVE 正常，390×844 无页面级横向溢出，已加载图片无损坏，材料搜索与弹窗正常，生产控制台无 error 或 warning。
 
 final result: passed

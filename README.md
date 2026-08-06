@@ -21,7 +21,7 @@
 
 ## 本地运行
 
-需要 Node.js 20+。
+需要 Node.js >= 22.12。EdgeOne 当前固定使用其受支持的 Node.js `22.21.1`（见 `edgeone.json`）。
 
 ```bash
 npm install
@@ -112,3 +112,15 @@ tests/                       数据、本地化与查询交互回归测试
 ```
 
 更完整的来源矩阵、字段含义、发布门禁和接手检查见 [维科洛站相关.md](./维科洛站相关.md)。
+
+## 正式部署状态
+
+- 正式站：<https://wikelo.gvyvoyagers.vip>
+- GitHub：<https://github.com/B1ndoX/gvy-wikelo-site>
+- EdgeOne Makers 项目：`gvy-wikelo-site`，生产分支 `main`，构建输出 `dist`
+- DNS：仅新增 `wikelo` CNAME，指向 `wikelo.gvyvoyagers.vip.pages.dnsoe4.com`
+- HTTPS：EdgeOne 免费证书已部署并自动续期；HTTP 使用 301 跳转 HTTPS
+- 传输安全：HSTS 为 365 天，不包含子域名且未加入 preload；OCSP 装订已开启
+- 首次正式部署提交：`807d33c`
+
+正式域名已核验返回 87 笔交易与 `4.9.0 LIVE` 数据；桌面与 390×844 手机视口均无页面级横向溢出，已加载图片无损坏，材料检索与获取方式弹窗正常，浏览器控制台无 error 或 warning。GitHub Pages 未启用。
