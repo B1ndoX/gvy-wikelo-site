@@ -2,7 +2,7 @@
   "buildCommand": "npm run build",
   "installCommand": "npm install --ignore-scripts",
   "outputDirectory": "./dist",
-  "nodeVersion": "22.22.2",
+  "nodeVersion": "22.21.1",
   "headers": [
     {
       "source": "/*",
