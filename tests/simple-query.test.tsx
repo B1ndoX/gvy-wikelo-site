@@ -75,6 +75,29 @@ describe("simple material query flow", () => {
     expect(within(dialog).getByText("全部奖励")).toBeInTheDocument();
   });
 
+  it("enlarges images only inside detail dialogs and closes the preview safely", () => {
+    render(<App />);
+
+    expect(screen.queryByRole("button", { name: /放大查看.*图片/ })).not.toBeInTheDocument();
+    fireEvent.change(screen.getByPlaceholderText("搜索合同、物品、奖励、飞船或地点"), {
+      target: { value: "Armor with Vanduul" },
+    });
+    fireEvent.click(screen.getByRole("button", { name: /查看交易/ }));
+
+    const tradeDialog = screen.getByRole("dialog", { name: "交易详情" });
+    const zoomButton = within(tradeDialog).getByRole("button", { name: /放大查看.*图片/ });
+    fireEvent.click(zoomButton);
+    expect(screen.getByRole("dialog", { name: /图片预览/ })).toBeInTheDocument();
+
+    fireEvent.keyDown(window, { key: "Escape" });
+    expect(screen.queryByRole("dialog", { name: /图片预览/ })).not.toBeInTheDocument();
+    expect(screen.getByRole("dialog", { name: "交易详情" })).toBeInTheDocument();
+
+    fireEvent.click(zoomButton);
+    fireEvent.mouseDown(screen.getByTestId("image-lightbox-backdrop"));
+    expect(screen.queryByRole("dialog", { name: /图片预览/ })).not.toBeInTheDocument();
+  });
+
   it("shows every requirement directly on long trade cards", () => {
     render(<App />);
 

@@ -5,9 +5,10 @@ type Props = {
   src: string | null | undefined;
   alt: string;
   className?: string;
+  onNaturalSize?: (width: number, height: number) => void;
 };
 
-export function ItemImage({ src, alt, className = "" }: Props) {
+export function ItemImage({ src, alt, className = "", onNaturalSize }: Props) {
   const [failed, setFailed] = useState(false);
   if (!src || failed) {
     return (
@@ -17,5 +18,14 @@ export function ItemImage({ src, alt, className = "" }: Props) {
       </span>
     );
   }
-  return <img className={className} src={src} alt={alt} loading="lazy" onError={() => setFailed(true)} />;
+  return (
+    <img
+      className={className}
+      src={src}
+      alt={alt}
+      loading="lazy"
+      onLoad={(event) => onNaturalSize?.(event.currentTarget.naturalWidth, event.currentTarget.naturalHeight)}
+      onError={() => setFailed(true)}
+    />
+  );
 }

@@ -1,12 +1,13 @@
 import {
   CheckCircle2,
   ChevronRight,
+  Maximize2,
   RotateCcw,
   Search,
   SlidersHorizontal,
   X,
 } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 import versionedDataJson from "./data/generated/versioned-data.json";
 import { CustomSelect, type SelectOption } from "./components/CustomSelect";
 import { ItemImage } from "./components/ItemImage";
@@ -95,6 +96,28 @@ function readableUnit(unit: string) {
   return unit === "x" ? "个" : unit;
 }
 
+type MediaShape = "landscape" | "portrait" | "square";
+
+type ExpandedImage = {
+  src: string;
+  alt: string;
+};
+
+function preferredMediaShape(category: string | null | undefined): MediaShape {
+  const value = category?.toLocaleLowerCase("en-US") ?? "";
+  if (/armor|helmet|arms|torso|legs|backpack|undersuit/.test(value)) return "portrait";
+  if (/ship|vehicle|weapon|gun|attachment|cargo|transporter|currency|ground|地面|打击/.test(value)) return "landscape";
+  return "square";
+}
+
+function sourceAwareMediaShape(preferred: MediaShape, width: number, height: number): MediaShape {
+  if (!width || !height) return preferred;
+  const ratio = width / height;
+  if (ratio >= 1.48) return "landscape";
+  if (ratio <= 0.72) return "portrait";
+  return preferred === "landscape" || preferred === "portrait" ? "square" : preferred;
+}
+
 export default function App() {
   const [query, setQuery] = useState("");
   const [rewardCategory, setRewardCategory] = useState("all");
@@ -105,6 +128,7 @@ export default function App() {
   const [selectedTradeId, setSelectedTradeId] = useState("");
   const [selectedItemId, setSelectedItemId] = useState<string | null>(null);
   const [tradeDetailOpen, setTradeDetailOpen] = useState(false);
+  const [expandedImage, setExpandedImage] = useState<ExpandedImage | null>(null);
   const activeDataset = versionDatasets.find((dataset) => dataset.gameVersion === versionFilter) ?? versionDatasets[0];
   const trades = activeDataset?.trades ?? [];
   const items = activeDataset?.items ?? [];
@@ -182,10 +206,21 @@ export default function App() {
   }, [filteredTrades, selectedTradeId]);
 
   useEffect(() => {
-    const anyOverlay = Boolean(selectedItem || tradeDetailOpen);
+    const anyOverlay = Boolean(selectedItem || tradeDetailOpen || expandedImage);
     document.body.classList.toggle("overlay-open", anyOverlay);
     return () => document.body.classList.remove("overlay-open");
-  }, [selectedItem, tradeDetailOpen]);
+  }, [expandedImage, selectedItem, tradeDetailOpen]);
+
+  useEffect(() => {
+    const handler = (event: KeyboardEvent) => {
+      if (event.key !== "Escape") return;
+      if (expandedImage) setExpandedImage(null);
+      else if (selectedItemId) setSelectedItemId(null);
+      else if (tradeDetailOpen) setTradeDetailOpen(false);
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, [expandedImage, selectedItemId, tradeDetailOpen]);
 
   function selectTrade(id: string) {
     setSelectedTradeId(id);
@@ -302,6 +337,7 @@ export default function App() {
               trade={selectedTrade}
               itemById={itemById}
               onItemClick={setSelectedItemId}
+              onImageOpen={setExpandedImage}
             />
           </section>
         </div>
@@ -313,7 +349,12 @@ export default function App() {
           tradeById={tradeById}
           onClose={() => setSelectedItemId(null)}
           onTradeClick={selectTrade}
+          onImageOpen={setExpandedImage}
         />
+      )}
+
+      {expandedImage && (
+        <ImageLightbox image={expandedImage} onClose={() => setExpandedImage(null)} />
       )}
     </div>
   );
@@ -331,10 +372,14 @@ function TradeCard({ trade, itemById, onOpen, onItemClick }: {
   return (
     <article className="trade-card">
       <button className="trade-card-summary" type="button" onClick={onOpen} aria-label={`查看交易 ${primaryName(trade.name)}`}>
-        <span className="trade-card-image-wrap">
-          <ItemImage className="trade-card-image" src={rewardItem?.imagePath} alt={primaryReward ? primaryName(primaryReward.name) : primaryName(trade.name)} />
-          {imageLabel && <small className={`reference-badge ${rewardItem?.imageKind}`}>{imageLabel}</small>}
-        </span>
+        <ClassifiedImageFrame
+          className="trade-card-image-stage"
+          imageClassName="trade-card-image"
+          src={rewardItem?.imagePath}
+          alt={primaryReward ? primaryName(primaryReward.name) : primaryName(trade.name)}
+          preferredShape={preferredMediaShape(rewardItem?.category ?? trade.category)}
+          badge={imageLabel ? <small className={`reference-badge ${rewardItem?.imageKind}`}>{imageLabel}</small> : null}
+        />
         <span className="trade-card-heading">
           <span className="trade-card-topline"><span className="category-chip">{categoryLabel(trade.category)}</span><small>{formatVersion(trade.gameVersion)}</small></span>
           <strong>{primaryName(trade.name)}</strong>
@@ -363,22 +408,29 @@ function TradeCard({ trade, itemById, onOpen, onItemClick }: {
   );
 }
 
-function TradeDetail({ trade, itemById, onItemClick }: {
+function TradeDetail({ trade, itemById, onItemClick, onImageOpen }: {
   trade: Trade;
   itemById: Map<string, ItemRecord>;
   onItemClick: (id: string) => void;
+  onImageOpen: (image: ExpandedImage) => void;
 }) {
   const primaryReward = trade.rewards[0];
   const rewardItem = primaryReward ? itemById.get(primaryReward.id) : null;
   const rewardImage = rewardItem?.imagePath ?? null;
   const imageLabel = rewardItem ? imageKindLabel(rewardItem.imageKind) : null;
+  const imageAlt = primaryReward ? primaryName(primaryReward.name) : primaryName(trade.name);
   return (
     <div className="detail-content">
       <div className="detail-hero">
-        <div className="detail-hero-visual">
-          <ItemImage className="reward-hero" src={rewardImage} alt={primaryReward ? primaryName(primaryReward.name) : primaryName(trade.name)} />
-          {imageLabel && <small className={`reference-badge ${rewardItem?.imageKind}`}>{imageLabel}</small>}
-        </div>
+        <ClassifiedImageFrame
+          className="detail-hero-visual"
+          imageClassName="reward-hero"
+          src={rewardImage}
+          alt={imageAlt}
+          preferredShape={preferredMediaShape(rewardItem?.category ?? trade.category)}
+          onOpen={rewardImage ? () => onImageOpen({ src: rewardImage, alt: imageAlt }) : undefined}
+          badge={imageLabel ? <small className={`reference-badge ${rewardItem?.imageKind}`}>{imageLabel}</small> : null}
+        />
         <div className="detail-heading">
           <h2>{primaryName(trade.name)}</h2>
           {secondaryName(trade.name) && <p>{secondaryName(trade.name)}</p>}
@@ -436,13 +488,13 @@ function EntryRow({ entry, itemById, isRequirement, onClick }: {
   );
 }
 
-function ItemDialog({ item, tradeById, onClose, onTradeClick }: {
+function ItemDialog({ item, tradeById, onClose, onTradeClick, onImageOpen }: {
   item: ItemRecord;
   tradeById: Map<string, Trade>;
   onClose: () => void;
   onTradeClick: (id: string) => void;
+  onImageOpen: (image: ExpandedImage) => void;
 }) {
-  useEscape(onClose);
   const imageLabel = imageKindLabel(item.imageKind);
   const otherAcquisition = item.crafting ? item.acquisition.filter((method) => method.type !== "craft") : item.acquisition;
   const craftingUnlocks = (item.crafting?.unlocks ?? []).map((unlock) => {
@@ -454,10 +506,15 @@ function ItemDialog({ item, tradeById, onClose, onTradeClick }: {
       <section className="modal item-modal" role="dialog" aria-modal="true" aria-labelledby="item-title">
         <button className="modal-close" type="button" aria-label="关闭物品详情" onClick={onClose}><X /></button>
         <div className="item-modal-head">
-          <div className="item-modal-visual">
-            <ItemImage className="item-modal-image" src={item.imagePath} alt={primaryName(item.name)} />
-            {imageLabel && <span className={`image-kind-badge ${item.imageKind}`}>{imageLabel}</span>}
-          </div>
+          <ClassifiedImageFrame
+            className="item-modal-visual"
+            imageClassName="item-modal-image"
+            src={item.imagePath}
+            alt={primaryName(item.name)}
+            preferredShape={preferredMediaShape(item.category)}
+            onOpen={item.imagePath ? () => onImageOpen({ src: item.imagePath!, alt: primaryName(item.name) }) : undefined}
+            badge={imageLabel ? <span className={`image-kind-badge ${item.imageKind}`}>{imageLabel}</span> : null}
+          />
           <div>
             <span className="category-chip">{categoryLabel(item.category)}</span>
             <h2 id="item-title">{primaryName(item.name)}</h2>
@@ -573,6 +630,57 @@ function ItemDialog({ item, tradeById, onClose, onTradeClick }: {
   );
 }
 
+function ClassifiedImageFrame({ className, imageClassName, src, alt, preferredShape, onOpen, badge }: {
+  className: string;
+  imageClassName: string;
+  src: string | null | undefined;
+  alt: string;
+  preferredShape: MediaShape;
+  onOpen?: () => void;
+  badge?: ReactNode;
+}) {
+  const [shape, setShape] = useState(preferredShape);
+
+  useEffect(() => setShape(preferredShape), [preferredShape, src]);
+
+  const image = (
+    <ItemImage
+      className={imageClassName}
+      src={src}
+      alt={alt}
+      onNaturalSize={(width, height) => setShape(sourceAwareMediaShape(preferredShape, width, height))}
+    />
+  );
+
+  return (
+    <span className={`classified-image ${className} media-${shape}`}>
+      {onOpen && src ? (
+        <button className="image-zoom-trigger" type="button" aria-label={`放大查看${alt}图片`} onClick={onOpen}>
+          {image}
+          <Maximize2 className="image-zoom-icon" aria-hidden="true" />
+        </button>
+      ) : <span className="image-frame-surface">{image}</span>}
+      {badge}
+    </span>
+  );
+}
+
+function ImageLightbox({ image, onClose }: { image: ExpandedImage; onClose: () => void }) {
+  return (
+    <div
+      className="image-lightbox"
+      data-testid="image-lightbox-backdrop"
+      role="presentation"
+      onMouseDown={(event) => event.target === event.currentTarget && onClose()}
+    >
+      <section className="image-lightbox-content" role="dialog" aria-modal="true" aria-label={`${image.alt}图片预览`}>
+        <button className="image-lightbox-close" type="button" aria-label="关闭图片预览" autoFocus onClick={onClose}><X /></button>
+        <img className="image-lightbox-image" src={image.src} alt={image.alt} />
+      </section>
+    </div>
+  );
+}
+
 function SiteFooter() {
   return (
     <footer className="site-footer">
@@ -591,12 +699,4 @@ function SiteFooter() {
       </div>
     </footer>
   );
-}
-
-function useEscape(onEscape: () => void) {
-  useEffect(() => {
-    const handler = (event: KeyboardEvent) => event.key === "Escape" && onEscape();
-    window.addEventListener("keydown", handler);
-    return () => window.removeEventListener("keydown", handler);
-  }, [onEscape]);
 }
