@@ -14,6 +14,14 @@ async function readJson(name) {
   return JSON.parse(await readFile(path.join(generatedDir, name), "utf8"));
 }
 
+async function readOptionalJson(name) {
+  try {
+    return await readJson(name);
+  } catch {
+    return null;
+  }
+}
+
 function hasUnbalancedBrackets(value) {
   const text = String(value ?? "");
   return (text.match(/[（(]/g)?.length ?? 0) !== (text.match(/[）)]/g)?.length ?? 0);
@@ -31,11 +39,19 @@ function publicStrings(trade) {
 }
 
 async function main() {
-  const [{ trades }, { items }, metadata] = await Promise.all([
+  const [currentTrades, currentItems, metadata, versionedData] = await Promise.all([
     readJson("trades.json"),
     readJson("items.json"),
     readJson("metadata.json"),
+    readOptionalJson("versioned-data.json"),
   ]);
+  const datasets = versionedData?.datasets?.length ? versionedData.datasets : [{
+    gameVersion: currentTrades.gameVersion,
+    trades: currentTrades.trades,
+    items: currentItems.items,
+  }];
+  const trades = datasets.flatMap((dataset) => dataset.trades);
+  const items = datasets.flatMap((dataset) => dataset.items);
   const requirementIds = new Set(trades.flatMap((trade) => trade.requirements.map((item) => item.id)));
   const requirements = items.filter((item) => requirementIds.has(item.id));
   const errors = [];

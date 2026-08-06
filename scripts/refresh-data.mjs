@@ -8,6 +8,7 @@ import { downloadBinary, fetchJson, fetchText, sha256 } from "./lib/http.mjs";
 import { loadOfficialLocalization } from "./lib/localization.mjs";
 import { normalizeTrades, summarizeValidation } from "./lib/normalize.mjs";
 import { parseAssignedLiteral } from "./lib/parse-static.mjs";
+import { anomalyBaselineForVersion, mergeVersionDatasets } from "./lib/version-datasets.mjs";
 import { semanticPatch, versionFromHtml } from "./lib/version.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -57,7 +58,7 @@ function localizationCoverage(trades) {
 }
 
 async function backupStableData() {
-  const currentFiles = ["trades.json", "items.json", "metadata.json", "localization.json"];
+  const currentFiles = ["trades.json", "items.json", "metadata.json", "localization.json", "versioned-data.json"];
   const existing = [];
   for (const name of currentFiles) {
     try {
@@ -91,8 +92,10 @@ async function pruneBackups() {
 async function main() {
   await mkdir(generatedDir, { recursive: true });
   const previousTrades = await readJson(path.join(generatedDir, "trades.json"));
+  const previousItems = await readJson(path.join(generatedDir, "items.json"));
   const previousMetadata = await readJson(path.join(generatedDir, "metadata.json"));
   const previousLocalization = await readJson(path.join(generatedDir, "localization.json"));
+  const previousVersionedData = await readJson(path.join(generatedDir, "versioned-data.json"));
 
   const dumperPage = await fetchText(sources.dumper, { cacheDir, timeoutMs: 35_000 });
   const bundlePath = dumperPage.text.match(/\/assets\/index-[A-Za-z0-9_-]+\.js/)?.[0];
@@ -183,12 +186,43 @@ async function main() {
   if (!validate(tradeDocument)) throw new Error(`Schema validation failed: ${JSON.stringify(validate.errors)}`);
 
   const coverage = localizationCoverage(trades);
-  const anomalies = detectDataAnomalies({ previousTrades, previousMetadata, trades, gameVersion, localizationCoverage: coverage });
+  const anomalyBaseline = anomalyBaselineForVersion(previousVersionedData?.datasets ?? [], previousTrades, gameVersion);
+  const anomalies = detectDataAnomalies({ previousTrades: anomalyBaseline, previousMetadata, trades, gameVersion, localizationCoverage: coverage });
   const refreshBlockers = blockingRefreshReasons(anomalies, sourceStatus);
   if (refreshBlockers.length) throw new Error(`Stable-data replacement blocked: ${refreshBlockers.join("; ")}`);
   const partialSources = sourceStatus.filter((source) => source.status === "partial" || source.status === "failed");
   const publishEligible = anomalies.length === 0 && partialSources.length === 0;
   if (publishCheck && !publishEligible) throw new Error(`Publish check blocked: ${[...anomalies, ...partialSources.map((source) => `${source.url}: ${source.status}`)].join("; ")}`);
+
+  const fallbackDatasets = previousTrades?.trades?.length && previousItems?.items?.length ? [{
+    gameVersion: previousTrades.gameVersion,
+    generatedAt: previousTrades.generatedAt,
+    sourceStatus: previousTrades.sourceStatus ?? [],
+    trades: previousTrades.trades,
+    items: previousItems.items,
+  }] : [];
+  const versionDatasets = mergeVersionDatasets(previousVersionedData?.datasets ?? fallbackDatasets, {
+    gameVersion,
+    generatedAt: fetchedAt,
+    sourceStatus,
+    trades,
+    items,
+  });
+  for (const dataset of versionDatasets) {
+    const snapshotDocument = {
+      schemaVersion: "1.0.0",
+      gameVersion: dataset.gameVersion,
+      generatedAt: dataset.generatedAt,
+      sourceStatus: dataset.sourceStatus,
+      trades: dataset.trades,
+    };
+    if (!validate(snapshotDocument)) throw new Error(`Version snapshot validation failed for ${dataset.gameVersion}: ${JSON.stringify(validate.errors)}`);
+  }
+  const versionedData = {
+    schemaVersion: "1.0.0",
+    generatedAt: fetchedAt,
+    datasets: versionDatasets,
+  };
 
   const localizationDictionary = Object.fromEntries(items.map((item) => [item.id, item.name]));
   const candidateLocalization = { ...official.metadata, generatedAt: fetchedAt, entries: localizationDictionary };
@@ -199,12 +233,18 @@ async function main() {
     gameVersion,
     trades: trades.map(({ fetchedAt: _fetchedAt, ...trade }) => trade),
     items,
+    versionDatasets: versionDatasets.map((dataset) => ({
+      gameVersion: dataset.gameVersion,
+      trades: dataset.trades.map(({ fetchedAt: _fetchedAt, ...trade }) => trade),
+      items: dataset.items,
+    })),
     localizationDictionary,
     officialLocalizationHash: official.metadata.sourceSha256,
     sourceVersions: sourceStatus.map(({ url, updatedAt }) => ({ url, updatedAt })),
   }));
   const metadata = {
     gameVersion,
+    availableVersions: versionDatasets.map((dataset) => dataset.gameVersion),
     generatedAt: fetchedAt,
     totalTrades: trades.length,
     totalItems: items.length,
@@ -228,6 +268,7 @@ async function main() {
   const changed = [];
   if (await writeJsonAtomically(path.join(generatedDir, "trades.json"), tradeDocument)) changed.push("trades.json");
   if (await writeJsonAtomically(path.join(generatedDir, "items.json"), { schemaVersion: "1.0.0", generatedAt: fetchedAt, items })) changed.push("items.json");
+  if (await writeJsonAtomically(path.join(generatedDir, "versioned-data.json"), versionedData)) changed.push("versioned-data.json");
   if (await writeJsonAtomically(path.join(generatedDir, "localization.json"), candidateLocalization)) changed.push("localization.json");
   if (await writeJsonAtomically(path.join(generatedDir, "metadata.json"), metadata)) changed.push("metadata.json");
   await pruneBackups();

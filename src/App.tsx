@@ -7,29 +7,20 @@ import {
   X,
 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
-import itemsData from "./data/generated/items.json";
-import tradesData from "./data/generated/trades.json";
+import versionedDataJson from "./data/generated/versioned-data.json";
 import { CustomSelect, type SelectOption } from "./components/CustomSelect";
 import { ItemImage } from "./components/ItemImage";
 import { formatAmount, formatVersion, primaryName, reputationLabel, secondaryName } from "./lib/display";
-import type { ItemRecord, Trade, TradeEntry } from "./types";
+import type { ItemRecord, Trade, TradeEntry, VersionedData } from "./types";
 
-const trades = tradesData.trades as Trade[];
-const items = itemsData.items as ItemRecord[];
-const itemById = new Map(items.map((item) => [item.id, item]));
-const tradeById = new Map(trades.map((trade) => [trade.id, trade]));
-
-const repOptions: SelectOption[] = [
-  { value: "all", label: "全部声望" },
-  { value: "none", label: "无要求" },
-  ...Array.from(new Set(trades.map((trade) => trade.minReputation).filter((value): value is string => value !== null)))
-    .sort((a, b) => reputationRank(a) - reputationRank(b))
-    .map((value) => ({ value, label: reputationLabel(value) })),
-];
+const versionedData = versionedDataJson as VersionedData;
+const versionDatasets = versionedData.datasets;
+const defaultVersion = versionDatasets.find((dataset) => /\bLIVE\b/i.test(dataset.gameVersion))?.gameVersion
+  ?? versionDatasets[0]?.gameVersion
+  ?? "";
 
 const versionOptions: SelectOption[] = [
-  { value: "all", label: "全部版本" },
-  ...Array.from(new Set(trades.map((trade) => trade.gameVersion))).map((version) => ({ value: version, label: formatVersion(version) })),
+  ...versionDatasets.map((dataset) => ({ value: dataset.gameVersion, label: formatVersion(dataset.gameVersion) })),
 ];
 
 const sortOptions: SelectOption[] = [
@@ -77,15 +68,6 @@ function categoryLabel(value: string) {
 }
 
 const categoryOrder = ["ship", "ground_vehicle", "armor", "weapon", "gear", "favor", "introduction", "food"];
-const categoryTabs = [
-  { value: "all", label: "全部", count: trades.length },
-  ...categoryOrder.map((category) => ({
-    value: category,
-    label: categoryLabel(category),
-    count: trades.filter((trade) => trade.category === category).length,
-  })),
-];
-
 function normalizedSearch(value: string) {
   return value.trim().toLocaleLowerCase("zh-CN");
 }
@@ -118,11 +100,31 @@ export default function App() {
   const [rewardCategory, setRewardCategory] = useState("all");
   const [repFilter, setRepFilter] = useState("all");
   const [requirementFilter, setRequirementFilter] = useState("all");
-  const [versionFilter, setVersionFilter] = useState("all");
+  const [versionFilter, setVersionFilter] = useState(defaultVersion);
   const [sort, setSort] = useState("recommended");
   const [selectedTradeId, setSelectedTradeId] = useState("");
   const [selectedItemId, setSelectedItemId] = useState<string | null>(null);
   const [tradeDetailOpen, setTradeDetailOpen] = useState(false);
+  const activeDataset = versionDatasets.find((dataset) => dataset.gameVersion === versionFilter) ?? versionDatasets[0];
+  const trades = activeDataset?.trades ?? [];
+  const items = activeDataset?.items ?? [];
+  const itemById = useMemo(() => new Map(items.map((item) => [item.id, item])), [items]);
+  const tradeById = useMemo(() => new Map(trades.map((trade) => [trade.id, trade])), [trades]);
+  const repOptions = useMemo<SelectOption[]>(() => [
+    { value: "all", label: "全部声望" },
+    { value: "none", label: "无要求" },
+    ...Array.from(new Set(trades.map((trade) => trade.minReputation).filter((value): value is string => value !== null)))
+      .sort((a, b) => reputationRank(a) - reputationRank(b))
+      .map((value) => ({ value, label: reputationLabel(value) })),
+  ], [trades]);
+  const categoryTabs = useMemo(() => [
+    { value: "all", label: "全部", count: trades.length },
+    ...categoryOrder.map((category) => ({
+      value: category,
+      label: categoryLabel(category),
+      count: trades.filter((trade) => trade.category === category).length,
+    })),
+  ], [trades]);
 
   const requirementOptions = useMemo<SelectOption[]>(() => {
     const required = new Map<string, TradeEntry>();
@@ -152,8 +154,7 @@ export default function App() {
         matchesSearch &&
         (rewardCategory === "all" || trade.category === rewardCategory) &&
         matchesRep &&
-        (requirementFilter === "all" || trade.requirements.some((entry) => entry.id === requirementFilter)) &&
-        (versionFilter === "all" || trade.gameVersion === versionFilter)
+        (requirementFilter === "all" || trade.requirements.some((entry) => entry.id === requirementFilter))
       );
     });
 
@@ -170,7 +171,7 @@ export default function App() {
       const validationRank = { verified: 0, single_source: 1, conflict: 2, pending: 3 };
       return validationRank[a.validationStatus] - validationRank[b.validationStatus];
     });
-  }, [query, repFilter, requirementFilter, rewardCategory, sort, versionFilter]);
+  }, [query, repFilter, requirementFilter, rewardCategory, sort, trades]);
 
   const selectedTrade = trades.find((trade) => trade.id === selectedTradeId) ?? filteredTrades[0] ?? null;
   const selectedItem = selectedItemId ? itemById.get(selectedItemId) ?? null : null;
@@ -197,8 +198,18 @@ export default function App() {
     setRewardCategory("all");
     setRepFilter("all");
     setRequirementFilter("all");
-    setVersionFilter("all");
+    setVersionFilter(defaultVersion);
     setSort("recommended");
+  }
+
+  function changeVersion(value: string) {
+    setVersionFilter(value);
+    setRewardCategory("all");
+    setRepFilter("all");
+    setRequirementFilter("all");
+    setSelectedTradeId("");
+    setSelectedItemId(null);
+    setTradeDetailOpen(false);
   }
 
   return (
@@ -249,7 +260,7 @@ export default function App() {
           <CustomSelect label="最低声望" value={repFilter} options={repOptions} onChange={setRepFilter} />
           <CustomSelect label="所需物品" value={requirementFilter} options={requirementOptions} onChange={setRequirementFilter} />
           <CustomSelect label="交易站" value="unbound" options={[{ value: "unbound", label: "逐条地点暂无" }]} onChange={() => undefined} />
-          <CustomSelect label="游戏版本" value={versionFilter} options={versionOptions} onChange={setVersionFilter} />
+          <CustomSelect label="游戏版本" value={versionFilter} options={versionOptions} onChange={changeVersion} />
           <CustomSelect label="排序" value={sort} options={sortOptions} onChange={setSort} />
         </section>
 
@@ -264,6 +275,7 @@ export default function App() {
                 <TradeCard
                   key={trade.id}
                   trade={trade}
+                  itemById={itemById}
                   onOpen={() => selectTrade(trade.id)}
                   onItemClick={setSelectedItemId}
                 />
@@ -288,6 +300,7 @@ export default function App() {
             <button className="modal-close" type="button" aria-label="关闭详情" onClick={() => setTradeDetailOpen(false)}><X /></button>
             <TradeDetail
               trade={selectedTrade}
+              itemById={itemById}
               onItemClick={setSelectedItemId}
             />
           </section>
@@ -297,6 +310,7 @@ export default function App() {
       {selectedItem && (
         <ItemDialog
           item={selectedItem}
+          tradeById={tradeById}
           onClose={() => setSelectedItemId(null)}
           onTradeClick={selectTrade}
         />
@@ -305,8 +319,9 @@ export default function App() {
   );
 }
 
-function TradeCard({ trade, onOpen, onItemClick }: {
+function TradeCard({ trade, itemById, onOpen, onItemClick }: {
   trade: Trade;
+  itemById: Map<string, ItemRecord>;
   onOpen: () => void;
   onItemClick: (id: string) => void;
 }) {
@@ -348,8 +363,9 @@ function TradeCard({ trade, onOpen, onItemClick }: {
   );
 }
 
-function TradeDetail({ trade, onItemClick }: {
+function TradeDetail({ trade, itemById, onItemClick }: {
   trade: Trade;
+  itemById: Map<string, ItemRecord>;
   onItemClick: (id: string) => void;
 }) {
   const primaryReward = trade.rewards[0];
@@ -374,7 +390,7 @@ function TradeDetail({ trade, onItemClick }: {
         <div className="section-heading"><h3>需要上交</h3><span>{trade.requirements.length} 项</span></div>
         <div className="entry-list">
           {trade.requirements.length ? trade.requirements.map((entry) => (
-            <EntryRow key={entry.id} entry={entry} isRequirement onClick={() => onItemClick(entry.id)} />
+            <EntryRow key={entry.id} entry={entry} itemById={itemById} isRequirement onClick={() => onItemClick(entry.id)} />
           )) : <p className="field-empty">暂无</p>}
         </div>
       </section>
@@ -383,7 +399,7 @@ function TradeDetail({ trade, onItemClick }: {
         <div className="section-heading"><h3>全部奖励</h3><span>{trade.rewards.length} 项</span></div>
         <div className="entry-list reward-list">
           {trade.rewards.length ? trade.rewards.map((entry) => (
-            <EntryRow key={entry.id} entry={entry} isRequirement={false} onClick={() => onItemClick(entry.id)} />
+            <EntryRow key={entry.id} entry={entry} itemById={itemById} isRequirement={false} onClick={() => onItemClick(entry.id)} />
           )) : <p className="field-empty">暂无</p>}
         </div>
       </section>
@@ -398,8 +414,9 @@ function TradeDetail({ trade, onItemClick }: {
   );
 }
 
-function EntryRow({ entry, isRequirement, onClick }: {
+function EntryRow({ entry, itemById, isRequirement, onClick }: {
   entry: TradeEntry;
+  itemById: Map<string, ItemRecord>;
   isRequirement: boolean;
   onClick: () => void;
 }) {
@@ -419,8 +436,9 @@ function EntryRow({ entry, isRequirement, onClick }: {
   );
 }
 
-function ItemDialog({ item, onClose, onTradeClick }: {
+function ItemDialog({ item, tradeById, onClose, onTradeClick }: {
   item: ItemRecord;
+  tradeById: Map<string, Trade>;
   onClose: () => void;
   onTradeClick: (id: string) => void;
 }) {

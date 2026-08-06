@@ -11,6 +11,15 @@ describe("simple material query flow", () => {
     expect(screen.queryByText("数据说明")).not.toBeInTheDocument();
   });
 
+  it("shows only Wikelo versions backed by a captured trade dataset", () => {
+    render(<App />);
+
+    fireEvent.click(screen.getByRole("button", { name: "4.9.0 LIVE" }));
+    const versionMenu = screen.getByRole("listbox", { name: "游戏版本" });
+    expect(within(versionMenu).getByRole("option", { name: "4.9.0 LIVE" })).toBeInTheDocument();
+    expect(within(versionMenu).queryByRole("option", { name: /PTU/ })).not.toBeInTheDocument();
+  });
+
   it("keeps public pages free of source links and internal validation language", () => {
     render(<App />);
 

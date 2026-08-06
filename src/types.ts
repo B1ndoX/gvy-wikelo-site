@@ -94,6 +94,7 @@ export type ItemRecord = {
 
 export type Metadata = {
   gameVersion: string;
+  availableVersions?: string[];
   generatedAt: string;
   totalTrades: number;
   totalItems: number;
@@ -111,4 +112,18 @@ export type Metadata = {
   publishEligible: boolean;
   usageMode: string;
   sourceFingerprint?: string;
+};
+
+export type VersionDataset = {
+  gameVersion: string;
+  generatedAt: string;
+  sourceStatus: Metadata["sources"];
+  trades: Trade[];
+  items: ItemRecord[];
+};
+
+export type VersionedData = {
+  schemaVersion: string;
+  generatedAt: string;
+  datasets: VersionDataset[];
 };

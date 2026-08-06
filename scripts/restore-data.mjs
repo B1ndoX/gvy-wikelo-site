@@ -1,4 +1,4 @@
-import { copyFile, readFile, readdir, rename } from "node:fs/promises";
+import { access, copyFile, readFile, readdir, rename } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -18,6 +18,12 @@ if (!available.includes(selected)) {
   process.exitCode = 1;
 } else {
   const names = ["trades.json", "items.json", "metadata.json", "localization.json"];
+  try {
+    await access(path.join(backups, selected, "versioned-data.json"));
+    names.push("versioned-data.json");
+  } catch {
+    // Older backups predate separate LIVE/PTU snapshots and remain restorable.
+  }
   for (const name of names) {
     JSON.parse(await readFile(path.join(backups, selected, name), "utf8"));
   }

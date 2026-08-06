@@ -21,5 +21,9 @@ export function isVersionOlder(next, previous) {
     if (/\bEPTU\b/i.test(version)) return 0;
     return -1;
   };
-  return channelRank(next) < channelRank(previous);
+  const nextChannel = channelRank(next);
+  const previousChannel = channelRank(previous);
+  if (nextChannel !== previousChannel) return nextChannel < previousChannel;
+  const build = (version) => Number(String(version).match(/\.(\d+)$/)?.[1] ?? 0);
+  return build(next) < build(previous);
 }
