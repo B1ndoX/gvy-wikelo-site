@@ -7,7 +7,7 @@
         {
           "type": "barter",
           "label": "完成维科洛兑换合同",
-          "location": "4 笔兑换合同，所需材料与数量见下方“来自这些合同”",
+          "location": "可从 4 笔兑换合同获得，具体合同与数量见下方",
           "price": null,
           "currency": null,
           "sourceUrl": "https://starcitizen.tools/Wikelo_Favor",
@@ -33,7 +33,7 @@
         {
           "type": "loot",
           "label": "战利品拾取",
-          "location": "公开数据确认可拾取，但尚未提供可靠的固定掉落点",
+          "location": "可通过拾取获得，但没有已确认的固定掉落点",
           "price": null,
           "currency": null,
           "sourceUrl": "https://starcitizen.tools/Tevarin_War_Service_Marker_(Pristine)",

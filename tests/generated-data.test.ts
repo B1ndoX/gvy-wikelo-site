@@ -232,6 +232,16 @@ describe("generated stable data", () => {
       .filter((ingredient) => ingredient.name.localizationSource === "english_fallback")).toEqual([]);
   });
 
+  it("keeps acquisition copy player-facing while retaining sources only in data", () => {
+    const internalCopy = /公开(?:数据|资料|来源|商品接口)|结构化来源|来源合同|来自这些合同|内部任务占位|主数据|交叉校验|单一来源|待核验|物品资料版本/;
+    const leaked = itemsData.items.filter((item) => item.acquisition
+      .flatMap((method) => [method.label, method.location])
+      .filter(Boolean)
+      .some((value) => internalCopy.test(value)));
+    expect(leaked).toEqual([]);
+    expect(itemsData.items.some((item) => item.acquisition.some((method) => Boolean(method.sourceUrl)))).toBe(true);
+  });
+
   it("bundles exact public images for the newly audited requirement items", () => {
     const ids = [
       "argo_atls_geo",

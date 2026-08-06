@@ -216,7 +216,7 @@ function acquisitionFrom(record, commodity, rewardTrades, crafting, overrides = 
     });
   }
   if (record?.is_craftable && !methods.some((method) => method.type === "craft")) {
-    methods.push({ type: "craft", label: "使用蓝图制作", location: crafting ? "完整配方见下方“制作配方”" : "公开数据暂未返回完整配方", price: null, currency: null, sourceUrl: crafting?.sourceUrl || record.web_url || null, sourceUpdatedAt: record.updated_at || null });
+    methods.push({ type: "craft", label: "使用蓝图制作", location: crafting ? "完整配方见下方“制作配方”" : "完整配方暂无", price: null, currency: null, sourceUrl: crafting?.sourceUrl || record.web_url || null, sourceUpdatedAt: record.updated_at || null });
   }
   if (commodity && !methods.some((method) => method.type === "mine" || method.type === "harvest")) {
     const locations = unique((commodity.locations || []).slice(0, 8).map((location) => {
@@ -229,7 +229,7 @@ function acquisitionFrom(record, commodity, rewardTrades, crafting, overrides = 
       label: harvesting ? "现场采集" : "采矿获取",
       location: locations.length
         ? `已确认地点：${locations.join("、")}${(commodity.locations || []).length > locations.length ? ` 等 ${(commodity.locations || []).length} 处` : ""}`
-        : "公开数据确认可采集，但当前版本没有公布固定矿点",
+        : "可通过采集获得，但当前版本没有已确认的固定矿点",
       price: null,
       currency: null,
       sourceUrl: commodity.web_url || null,
@@ -237,12 +237,12 @@ function acquisitionFrom(record, commodity, rewardTrades, crafting, overrides = 
     });
   }
   if (rewardTrades.length && !methods.some((method) => method.type === "wikelo" || method.type === "barter")) {
-    methods.push({ type: "wikelo", label: "完成维科洛合同", location: `${rewardTrades.length} 笔来源合同，见下方列表`, price: null, currency: null, sourceUrl: "https://starcitizen.tools/Wikelo", sourceUpdatedAt: null });
+    methods.push({ type: "wikelo", label: "完成维科洛合同", location: `可从 ${rewardTrades.length} 笔交易获得，具体交易见下方`, price: null, currency: null, sourceUrl: "https://starcitizen.tools/Wikelo", sourceUpdatedAt: null });
   }
   if (record?.is_lootable && !methods.length) {
-    methods.push({ type: "loot", label: "随机战利品", location: "可从战利品箱或敌人身上获得；当前公开数据没有可保证的固定掉落点", price: null, currency: null, sourceUrl: record.web_url || null, sourceUpdatedAt: record.updated_at || null });
+    methods.push({ type: "loot", label: "随机战利品", location: "可从战利品箱或敌人身上获得，但没有已确认的固定掉落点", price: null, currency: null, sourceUrl: record.web_url || null, sourceUpdatedAt: record.updated_at || null });
   }
-  if (!methods.length) methods.push({ type: "unknown", label: "暂无可靠获取方式", location: "公开来源尚未给出获取路径", price: null, currency: null, sourceUrl: record?.web_url || null, sourceUpdatedAt: record?.updated_at || null });
+  if (!methods.length) methods.push({ type: "unknown", label: "获取方式暂无", location: "具体获取路径暂无", price: null, currency: null, sourceUrl: record?.web_url || null, sourceUpdatedAt: record?.updated_at || null });
   return methods.map((method) => ({
     ...method,
     label: localizeLocationText(method.label),

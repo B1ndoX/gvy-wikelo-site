@@ -11,6 +11,25 @@ describe("simple material query flow", () => {
     expect(screen.queryByText("数据说明")).not.toBeInTheDocument();
   });
 
+  it("keeps public pages free of source links and internal validation language", () => {
+    render(<App />);
+
+    fireEvent.click(screen.getAllByRole("button", { name: /查看交易/ })[0]);
+    const tradeDialog = screen.getByRole("dialog", { name: "交易详情" });
+    for (const internalCopy of ["已交叉校验", "单一来源", "待核验", "结构化来源", "主数据"]) {
+      expect(within(tradeDialog).queryByText(new RegExp(internalCopy))).not.toBeInTheDocument();
+    }
+
+    fireEvent.click(within(tradeDialog).getAllByRole("button", { name: /查看获取方式/ })[0]);
+    const itemDialog = screen.getByRole("dialog", { name: "维科洛人情" });
+    expect(within(itemDialog).queryByRole("link", { name: /图片来源|资料来源|配方来源/ })).not.toBeInTheDocument();
+    expect(itemDialog).not.toHaveTextContent(/公开来源|内部任务占位|物品资料版本/);
+
+    const allowedLinks = screen.getAllByRole("link").map((link) => link.textContent?.trim());
+    expect(allowedLinks).toEqual(expect.arrayContaining(["舰队官网", "蓝图站", "陕ICP备2026017597号-1", "陕公网安备61019702000690号"]));
+    expect(allowedLinks).toHaveLength(4);
+  });
+
   it("shows exact requirements and opens a material acquisition dialog without inventory states", () => {
     render(<App />);
 

@@ -1,13 +1,8 @@
 import {
-  AlertTriangle,
   CheckCircle2,
   ChevronRight,
-  CircleHelp,
-  ExternalLink,
-  Info,
   RotateCcw,
   Search,
-  ShieldCheck,
   SlidersHorizontal,
   X,
 } from "lucide-react";
@@ -23,13 +18,6 @@ const trades = tradesData.trades as Trade[];
 const items = itemsData.items as ItemRecord[];
 const itemById = new Map(items.map((item) => [item.id, item]));
 const tradeById = new Map(trades.map((trade) => [trade.id, trade]));
-
-const validationCopy = {
-  verified: { label: "已交叉校验", icon: ShieldCheck },
-  single_source: { label: "单一来源", icon: Info },
-  conflict: { label: "待核验", icon: AlertTriangle },
-  pending: { label: "待核验", icon: CircleHelp },
-};
 
 const repOptions: SelectOption[] = [
   { value: "all", label: "全部声望" },
@@ -107,8 +95,7 @@ function cleanGameMarkup(value: string) {
 }
 
 function imageKindLabel(kind: ItemRecord["imageKind"], compact = false) {
-  if (kind === "base_model") return compact ? "基础型号" : "基础型号参考图";
-  if (kind === "community") return compact ? "社区截图" : "玩家社区实拍";
+  if (kind === "base_model") return compact ? "参考图" : "参考图";
   return null;
 }
 
@@ -369,8 +356,6 @@ function TradeDetail({ trade, onItemClick }: {
   const rewardItem = primaryReward ? itemById.get(primaryReward.id) : null;
   const rewardImage = rewardItem?.imagePath ?? null;
   const imageLabel = rewardItem ? imageKindLabel(rewardItem.imageKind) : null;
-  const validation = validationCopy[trade.validationStatus];
-  const ValidationIcon = validation.icon;
   return (
     <div className="detail-content">
       <div className="detail-hero">
@@ -409,11 +394,6 @@ function TradeDetail({ trade, onItemClick }: {
         <div><dt>声望增量</dt><dd>{trade.reputationGain === null ? "暂无" : `+${formatAmount(trade.reputationGain)}`}</dd></div>
         <div><dt>适用版本</dt><dd>{formatVersion(trade.gameVersion)}</dd></div>
       </dl>
-
-      <div className={`validation-note ${trade.validationStatus}`}>
-        <ValidationIcon size={16} />
-        <div><strong>{validation.label}</strong><span>{trade.validationStatus === "conflict" ? `记录了 ${trade.conflicts.length} 处来源差异，详情以 4.9.0 主数据展示。` : trade.validationStatus === "single_source" ? "当前仅有一个结构化来源，已保留来源状态。" : "重要字段已有来源交叉校验。"}</span></div>
-      </div>
     </div>
   );
 }
@@ -459,13 +439,11 @@ function ItemDialog({ item, onClose, onTradeClick }: {
           <div className="item-modal-visual">
             <ItemImage className="item-modal-image" src={item.imagePath} alt={primaryName(item.name)} />
             {imageLabel && <span className={`image-kind-badge ${item.imageKind}`}>{imageLabel}</span>}
-            {item.imageSourceUrl && <a className="image-source-link" href={item.imageSourceUrl} target="_blank" rel="noreferrer">图片来源 <ExternalLink size={11} /></a>}
           </div>
           <div>
             <span className="category-chip">{categoryLabel(item.category)}</span>
             <h2 id="item-title">{primaryName(item.name)}</h2>
             {secondaryName(item.name) && <p>{secondaryName(item.name)}</p>}
-            {item.sourceGameVersion && <small>物品资料版本 {formatVersion(item.sourceGameVersion)}</small>}
           </div>
         </div>
 
@@ -478,8 +456,7 @@ function ItemDialog({ item, onClose, onTradeClick }: {
                 {otherAcquisition.map((method, index) => (
                   <div className="acquisition" key={`${method.type}-${index}`}>
                     <span><CheckCircle2 size={16} />{method.label}</span>
-                    <strong>{method.location || (method.price !== null ? `${formatAmount(method.price)} ${method.currency ?? ""}` : "公开来源尚未给出具体地点")}</strong>
-                    {method.sourceUrl && <a href={method.sourceUrl} target="_blank" rel="noreferrer">查看资料来源 <ExternalLink size={12} /></a>}
+                    <strong>{method.location || (method.price !== null ? `${formatAmount(method.price)} ${method.currency ?? ""}` : "具体地点暂无")}</strong>
                   </div>
                 ))}
               </div>
@@ -504,7 +481,7 @@ function ItemDialog({ item, onClose, onTradeClick }: {
                         </button>
                       ) : null;
                     }) : (
-                      <small>完成游戏内对应的蓝图解锁任务；公开数据中的内部任务占位名称不在这里展示</small>
+                      <small>完成游戏内对应的蓝图解锁任务</small>
                     )}
                   </div>
                 </div>
@@ -525,7 +502,6 @@ function ItemDialog({ item, onClose, onTradeClick }: {
                 </div>
                 <div className="crafting-meta">
                   <span>{item.crafting.craftTimeSeconds ? `预计制作耗时：${item.crafting.craftTimeSeconds} 秒` : "制作时间暂无"}</span>
-                  {item.crafting.sourceUrl && <a href={item.crafting.sourceUrl} target="_blank" rel="noreferrer">查看配方来源 <ExternalLink size={12} /></a>}
                 </div>
               </div>
             </section>
@@ -538,8 +514,7 @@ function ItemDialog({ item, onClose, onTradeClick }: {
                 {otherAcquisition.map((method, index) => (
                   <div className="acquisition" key={`${method.type}-${index}`}>
                     <span><CheckCircle2 size={16} />{method.label}</span>
-                    <strong>{method.location || (method.price !== null ? `${formatAmount(method.price)} ${method.currency ?? ""}` : "公开来源尚未给出具体地点")}</strong>
-                    {method.sourceUrl && <a href={method.sourceUrl} target="_blank" rel="noreferrer">查看资料来源 <ExternalLink size={12} /></a>}
+                    <strong>{method.location || (method.price !== null ? `${formatAmount(method.price)} ${method.currency ?? ""}` : "具体地点暂无")}</strong>
                   </div>
                 ))}
               </div>

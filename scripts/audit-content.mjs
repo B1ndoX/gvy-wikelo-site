@@ -8,6 +8,7 @@ const generatedDir = path.join(projectRoot, "src/data/generated");
 const reportPath = path.join(projectRoot, "data/audits/content-audit.json");
 const CJK_RE = /[\u3400-\u9fff]/;
 const INTERNAL_RE = /<\/?(?:EM\d*|TUT\w*)>|\b(?:TheCollector_|carryable_|harvestable_|bp_reward_|fps_consumable_)|(?:static-bundle|source-snapshots|\.cache\/)/i;
+const PLAYER_FACING_INTERNAL_RE = /公开(?:数据|资料|来源|商品接口)|结构化来源|来源合同|来自这些合同|内部任务占位|主数据|交叉校验|单一来源|待核验|物品资料版本/;
 
 async function readJson(name) {
   return JSON.parse(await readFile(path.join(generatedDir, name), "utf8"));
@@ -61,6 +62,11 @@ async function main() {
   if (internalTradeText.length) errors.push({ code: "internal-trade-text", ids: internalTradeText.map((trade) => trade.id) });
   const internalItemText = items.filter((item) => [item.name.zh, item.name.en, item.descriptionZh, ...item.acquisition.flatMap((method) => [method.label, method.location])].filter(Boolean).some((value) => INTERNAL_RE.test(value)));
   if (internalItemText.length) errors.push({ code: "internal-item-text", ids: internalItemText.map((item) => item.id) });
+  const internalAcquisitionCopy = items.filter((item) => item.acquisition
+    .flatMap((method) => [method.label, method.location])
+    .filter(Boolean)
+    .some((value) => PLAYER_FACING_INTERNAL_RE.test(value)));
+  if (internalAcquisitionCopy.length) errors.push({ code: "internal-acquisition-copy", ids: internalAcquisitionCopy.map((item) => item.id) });
 
   const unknownRoutes = requirements.filter((item) => item.acquisition.length === 0 || item.acquisition.some((method) => method.type === "unknown"));
   if (unknownRoutes.length) errors.push({ code: "unknown-requirement-acquisition", ids: unknownRoutes.map((item) => item.id) });
