@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wikelo.gvyvoyagers.vip/schema/trades.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "gameVersion", "generatedAt", "sourceStatus", "trades"],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "gameVersion": { "type": "string", "minLength": 1 },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "sourceStatus": { "type": "array", "items": { "$ref": "#/$defs/source" }, "minItems": 1 },
+    "trades": { "type": "array", "items": { "$ref": "#/$defs/trade" }, "minItems": 1 }
+  },
+  "$defs": {
+    "localizedName": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["zh", "en", "localizationSource"],
+      "properties": {
+        "zh": { "type": ["string", "null"] },
+        "en": { "type": "string", "minLength": 1 },
+        "localizationSource": { "enum": ["official_global_ini", "manual", "citizen_zh", "english_fallback"] }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "status", "checkedAt"],
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "status": { "enum": ["ok", "partial", "failed", "snapshot"] },
+        "updatedAt": { "type": ["string", "null"] },
+        "checkedAt": { "type": "string", "format": "date-time" },
+        "note": { "type": ["string", "null"] }
+      }
+    },
+    "lineItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "quantity", "unit", "category", "isBlueprint", "isGameBound"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "$ref": "#/$defs/localizedName" },
+        "quantity": { "type": "number", "minimum": 0 },
+        "unit": { "enum": ["x", "SCU", "套", "件"] },
+        "category": { "type": "string", "minLength": 1 },
+        "isBlueprint": { "type": "boolean" },
+        "isGameBound": { "type": "boolean" }
+      }
+    },
+    "conflict": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field", "values", "sources"],
+      "properties": {
+        "field": { "type": "string" },
+        "values": { "type": "array", "items": {} },
+        "sources": { "type": "array", "items": { "type": "string", "format": "uri" } },
+        "note": { "type": ["string", "null"] }
+      }
+    },
+    "trade": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "debugName", "name", "category", "gameVersion", "status", "minReputation", "reputationGain", "station", "requirements", "rewards", "hasBlueprint", "sourceUrls", "sourceUpdatedAt", "fetchedAt", "validationStatus", "conflicts"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "debugName": { "type": "string", "minLength": 1 },
+        "name": { "$ref": "#/$defs/localizedName" },
+        "category": { "enum": ["ship", "ground_vehicle", "armor", "weapon", "gear", "favor", "introduction", "food", "other"] },
+        "gameVersion": { "type": "string", "minLength": 1 },
+        "status": { "enum": ["active", "inactive", "unknown"] },
+        "minReputation": { "type": ["string", "null"] },
+        "reputationGain": { "type": ["number", "null"] },
+        "station": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["zh", "en", "status"],
+          "properties": {
+            "zh": { "type": ["string", "null"] },
+            "en": { "type": ["string", "null"] },
+            "status": { "enum": ["verified", "general_only", "missing"] }
+          }
+        },
+        "requirements": { "type": "array", "items": { "$ref": "#/$defs/lineItem" } },
+        "rewards": { "type": "array", "items": { "$ref": "#/$defs/lineItem" } },
+        "hasBlueprint": { "type": "boolean" },
+        "sourceUrls": { "type": "array", "items": { "type": "string", "format": "uri" }, "minItems": 1 },
+        "sourceUpdatedAt": { "type": ["string", "null"] },
+        "fetchedAt": { "type": "string", "format": "date-time" },
+        "validationStatus": { "enum": ["verified", "single_source", "conflict", "pending"] },
+        "conflicts": { "type": "array", "items": { "$ref": "#/$defs/conflict" } }
+      }
+    }
+  }
+}

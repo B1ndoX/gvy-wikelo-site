@@ -1,0 +1,3458 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourcePath": "/Users/bindox/Documents/data/localization/chinese_(simplified)/global.ini",
+  "sourceSha256": "f978665610ab3d45587b66831883efaa6ce61c4031a13c1abcd4f08dcbc9a027",
+  "sourceUpdatedAt": "2026-07-17T07:29:26.000Z",
+  "generatedAt": "2026-08-05T19:18:02.652Z",
+  "note": "Project-scoped derivative of the read-only official Simplified Chinese global.ini. Used by remote refresh when the local source path is unavailable.",
+  "entries": {
+    "blueprints": {
+      "key": "Blueprints",
+      "value": "蓝图"
+    },
+    "hockrow_facilitydelve_p3m1_sample01_name": {
+      "key": "Hockrow_FacilityDelve_P3M1_Sample01_Name",
+      "value": "RCMBNT-XTL-1"
+    },
+    "hockrow_facilitydelve_p3m1_sample02_name": {
+      "key": "Hockrow_FacilityDelve_P3M1_Sample02_Name",
+      "value": "RCMBNT-XTL-2"
+    },
+    "hockrow_facilitydelve_p3m1_sample03_name": {
+      "key": "Hockrow_FacilityDelve_P3M1_Sample03_Name",
+      "value": "RCMBNT-XTL-3"
+    },
+    "hockrow_facilitydelve_p3m1_sample04_name": {
+      "key": "Hockrow_FacilityDelve_P3M1_Sample04_Name",
+      "value": "RCMBNT-PWL-1"
+    },
+    "hockrow_facilitydelve_p3m1_sample05_name": {
+      "key": "Hockrow_FacilityDelve_P3M1_Sample05_Name",
+      "value": "RCMBNT-PWL-2"
+    },
+    "hockrow_facilitydelve_p3m1_sample06_name": {
+      "key": "Hockrow_FacilityDelve_P3M1_Sample06_Name",
+      "value": "RCMBNT-PWL-3"
+    },
+    "hockrow_facilitydelve_p3m1_sample07_name": {
+      "key": "Hockrow_FacilityDelve_P3M1_Sample07_Name",
+      "value": "RCMBNT-RGL-1"
+    },
+    "hockrow_facilitydelve_p3m1_sample08_name": {
+      "key": "Hockrow_FacilityDelve_P3M1_Sample08_Name",
+      "value": "RCMBNT-RGL-2"
+    },
+    "hockrow_facilitydelve_p3m1_sample09_name": {
+      "key": "Hockrow_FacilityDelve_P3M1_Sample09_Name",
+      "value": "RCMBNT-RGL-3"
+    },
+    "hockrow_facilitydelve_p3m1_journal_experiement_body": {
+      "key": "Hockrow_FacilityDelve_P3M1_journal_experiement_body",
+      "value": "站点-B, 玛瑙设施\\n作者：洛根·约里特博士\\n\\n假设\\n尽管人类已经欣然接受了“创建印记”这一科技奇迹，却忽略了我们从剜度人那里偷来的这项技术身上最重要的一课 - 重组进化。剜度人会自由地将最优秀战士的印记与基因信息结合，用以创造下一代战士。因此，我提出，人类只需进行一些轻微的基因调整，同样可以通过修改印记实现进化上的飞跃。试想一下，每一次印记，我们都得以自我完善、持续进化。\\n\\n实验\\n利用剜度人生物流体的独特性质，我将通过引入催化剂和反应物来改造人类印记。结果将产生一个可行的重组体，不仅适应再生，而且比原始个体更优秀。\\n\\n材料\\n剜度生物流体 - 重要的是这必须来自新鲜的宿主。幸运的是，我已经找到了提供者。\\n\\n催化剂 - 利用该设施之前完成的研究，我已经能够配制出三种强有力的候选物：\\n* 催化剂-XTL\\n* 催化剂-PWL\\n* 催化剂-RGL\\n\\n反应物 - 能源核心独特的能量信号已被证明非常适合制造出足够活跃的试剂，以触发剜度生物流体中的必要反应。目前有三种试剂配方表现最为合适：\\n* 反应物-01\\n* 反应物-02\\n* 反应物-03\\n\\n实验步骤\\n- 在终端上选择一种催化剂和一种反应物。\\n- 重组完成后，数据将可供下载，实体样本将被送至设施的货运电梯进行存储，直到准备就绪进入下一步处理。\\n\\n结论\\n截至目前，这九种重组样本展现出最大的潜力：\\n* RCMBNT-XTL-1\\n* RCMBNT-XTL-2\\n* RCMBNT-XTL-3\\n* RCMBNT-PWL-1\\n* RCMBNT-PWL-2\\n* RCMBNT-PWL-3\\n* RCMBNT-RGL-1\\n* RCMBNT-RGL-2\\n* RCMBNT-RGL-3"
+    },
+    "human_nicknames_0290": {
+      "key": "Human_Nicknames_0290",
+      "value": "Hot Shot"
+    },
+    "itemgathering_asd_harddrive_name": {
+      "key": "ItemGathering_ASD_HardDrive_Name",
+      "value": "ASD 安全驱动器\\nASD Secure Drive"
+    },
+    "thecollector_coin_name": {
+      "key": "TheCollector_Coin_Name",
+      "value": "维科洛人情Wikelo Favor"
+    },
+    "thecollector_conversion_favors_title": {
+      "key": "TheCollector_Conversion_Favors_Title",
+      "value": "东西换人情\\n[兑换 - 维科洛人情]"
+    },
+    "thecollector_conversion_specialfavors_title": {
+      "key": "TheCollector_Conversion_SpecialFavors_Title",
+      "value": "想要北极星吗？需要点特别的东西。\\n[兑换 - 北极星点数]"
+    },
+    "thecollector_intro_title": {
+      "key": "TheCollector_Intro_Title",
+      "value": "维科洛抵达这个星系"
+    },
+    "thecollector_lunch_title": {
+      "key": "TheCollector_Lunch_Title",
+      "value": "非常饥饿\\n[兑换 - 随机衣服、武器]"
+    },
+    "thecollector_menu_title_desertarm": {
+      "key": "TheCollector_Menu_Title_DesertArm",
+      "value": "望着沙漠看不见你\\n[兑换 - DCP 护甲 猎人迷彩]"
+    },
+    "thecollector_menu_title_desertvolt": {
+      "key": "TheCollector_Menu_Title_DesertVolt",
+      "value": "把枪做成沙色\\n[兑换 - 石英 “猎人迷彩” 能量冲锋枪]"
+    },
+    "thecollector_menu_title_junglearm": {
+      "key": "TheCollector_Menu_Title_JungleArm",
+      "value": "想要树皮一样的护甲？\\n[兑换 - DCP 护甲 丛林迷彩]"
+    },
+    "thecollector_menu_title_junglevolt": {
+      "key": "TheCollector_Menu_Title_JungleVolt",
+      "value": "把滋滋枪变得更像木头\\n[兑换 - 石英 “丛林迷彩” 能量冲锋枪]"
+    },
+    "thecollector_menu_title_navyarm": {
+      "key": "TheCollector_Menu_Title_NavyArm",
+      "value": "打造太空海军护甲\\n[兑换 - DCP 护甲 钴蓝迷彩]"
+    },
+    "thecollector_menu_title_navyvolt": {
+      "key": "TheCollector_Menu_Title_NavyVolt",
+      "value": "更像海军的电击枪\\n[兑换 - 石英 “钴蓝迷彩” 能量冲锋枪]"
+    },
+    "thecollector_menu_title_polarisship": {
+      "key": "TheCollector_Menu_Title_PolarisShip",
+      "value": "现在可以造北极星了。限时交易。\\n[兑换 - 北极星 维科洛版]"
+    },
+    "thecollector_mod_atls_geo_grad1_name": {
+      "key": "TheCollector_Mod_ATLS_Geo_Grad1_Name,P",
+      "value": "ATLS 雪地"
+    },
+    "thecollector_mod_atls_geo_grad2_name": {
+      "key": "TheCollector_Mod_ATLS_Geo_Grad2_Name,P",
+      "value": "ATLS 警示线"
+    },
+    "thecollector_mod_atls_geo_grad3_name": {
+      "key": "TheCollector_Mod_ATLS_Geo_Grad3_Name,P",
+      "value": "ATLS 冷铁"
+    },
+    "thecollector_polarisbit_name": {
+      "key": "TheCollector_PolarisBit_Name",
+      "value": "北极星点数"
+    },
+    "thecollector_recipes_title_apolloskin": {
+      "key": "TheCollector_Recipes_Title_ApolloSkin",
+      "value": "红色战斗阿波罗\\n[兑换 - 阿波罗 分诊 维科洛鬼祟版]"
+    },
+    "thecollector_recipes_title_atlsjump": {
+      "key": "TheCollector_Recipes_Title_AtlsJump",
+      "value": "让 ATLS 能跳又能射\\n[兑换 - ATLS GEO IKTI]"
+    },
+    "thecollector_recipes_title_atlspew": {
+      "key": "TheCollector_Recipes_Title_AtlsPew",
+      "value": "让 ATLS 能射击\\n[兑换 - ATLS IKTI]"
+    },
+    "thecollector_recipes_title_battle": {
+      "key": "TheCollector_Recipes_Title_Battle",
+      "value": "测试护甲\\n[兑换 - 帕拉蒂诺护甲 I 型]"
+    },
+    "thecollector_recipes_title_bigbooma": {
+      "key": "TheCollector_Recipes_Title_BigBooma",
+      "value": "稀奇武器\\n[兑换 - 爆破筒 “氏卫” 发射器]"
+    },
+    "thecollector_recipes_title_bino": {
+      "key": "TheCollector_Recipes_Title_Bino",
+      "value": "想要更好的眼睛？\\n[兑换 - XDL “I 型” 单筒测距仪]"
+    },
+    "thecollector_recipes_title_drakeclipper": {
+      "key": "TheCollector_Recipes_Title_DrakeClipper",
+      "value": "快船现在主打战斗\\n[兑换 - 等待数据]"
+    },
+    "thecollector_recipes_title_f55": {
+      "key": "TheCollector_Recipes_Title_F55",
+      "value": "F55 更好看\\n[兑换 - F55 “I 型” 轻机枪]"
+    },
+    "thecollector_recipes_title_gmni_shotgun": {
+      "key": "TheCollector_Recipes_Title_GMNI_Shotgun",
+      "value": "红色战斗霰弹枪\\n[兑换 - R97 “猩红迷彩” 霰弹枪]"
+    },
+    "thecollector_recipes_title_heavyutil": {
+      "key": "TheCollector_Recipes_Title_HeavyUtil",
+      "value": "闪亮的工装服\\n[兑换 - 拱石护甲 碎裂]"
+    },
+    "thecollector_recipes_title_hush": {
+      "key": "TheCollector_Recipes_Title_Hush",
+      "value": "躲藏雪地套装\\n[兑换 - 幽影护甲 雪地迷彩]"
+    },
+    "thecollector_recipes_title_irrarm": {
+      "key": "TheCollector_Recipes_Title_IrrArm",
+      "value": "制作发光的护甲\\n[兑换 - 阿纳护甲 辐照]"
+    },
+    "thecollector_recipes_title_kopskull": {
+      "key": "TheCollector_Recipes_Title_KopSkull",
+      "value": "趣味寇骈犬头骨枪\\n[兑换 - 视差 “趣味寇骈犬头骨” 能量突击步枪]"
+    },
+    "thecollector_recipes_title_koptooth": {
+      "key": "TheCollector_Recipes_Title_KopTooth",
+      "value": "趣味寇骈犬牙齿枪\\n[兑换 - 视差 “趣味寇骈犬牙齿” 能量突击步枪]"
+    },
+    "thecollector_recipes_title_l22wolf": {
+      "key": "TheCollector_Recipes_Title_L22Wolf",
+      "value": "格外特别的狼\\n[兑换 - L-22 头狼 维科洛战争版]"
+    },
+    "thecollector_recipes_title_lotsofzipzap": {
+      "key": "TheCollector_Recipes_Title_LotsOfZipZap",
+      "value": "重型 Volt 滋滋枪\\n[兑换 - 菲涅尔 “深水” 能量轻机枪]"
+    },
+    "thecollector_recipes_title_miltskull": {
+      "key": "TheCollector_Recipes_Title_MiltSkull",
+      "value": "趣味军用头骨枪\\n[兑换 - 视差 “趣味军用头骨” 能量突击步枪]"
+    },
+    "thecollector_recipes_title_milttooth": {
+      "key": "TheCollector_Recipes_Title_MiltTooth",
+      "value": "趣味军用牙齿枪\\n[兑换 - 视差 “趣味军用牙齿” 能量突击步枪]"
+    },
+    "thecollector_recipes_title_molten": {
+      "key": "TheCollector_Recipes_Title_Molten",
+      "value": "做熔岩套装\\n[兑换 - 岩层护甲 热浪]"
+    },
+    "thecollector_recipes_title_nonear": {
+      "key": "TheCollector_Recipes_Title_NoneAR",
+      "value": "你的最好的枪\\n[兑换 - 绝杀 “统御迷彩” 步枪]"
+    },
+    "thecollector_recipes_title_nonepistol": {
+      "key": "TheCollector_Recipes_Title_NonePistol",
+      "value": "热辣射击手枪\\n[兑换 - 三重击 “热浪” 手枪]"
+    },
+    "thecollector_recipes_title_redhunterarmor": {
+      "key": "TheCollector_Recipes_Title_RedHunterArmor",
+      "value": "红色战斗护甲\\n[兑换 - 蒙德护甲 猩红迷彩]"
+    },
+    "thecollector_recipes_title_sandarmour": {
+      "key": "TheCollector_Recipes_Title_SandArmour",
+      "value": "有角和绳子的护甲\\n[兑换 - 阿纳护甲 大地]"
+    },
+    "thecollector_recipes_title_slimylmg": {
+      "key": "TheCollector_Recipes_Title_SlimyLMG",
+      "value": "约曼迪枪\\n[兑换 - 菲涅尔 “约曼迪” 轻机枪]"
+    },
+    "thecollector_recipes_title_spikeyarmor": {
+      "key": "TheCollector_Recipes_Title_SpikeyArmor",
+      "value": "剜度护甲\\n[兑换 - 龟甲护甲 氏卫]"
+    },
+    "thecollector_recipes_title_superheavycombat": {
+      "key": "TheCollector_Recipes_Title_SuperHeavyCombat",
+      "value": "沉重又明亮\\n[兑换 - 等待数据]"
+    },
+    "thecollector_recipes_title_vglflightsuit": {
+      "key": "TheCollector_Recipes_Title_VGLflightsuit",
+      "value": "穿搭好再起飞\\n[兑换 - 顺风 飞行服 统御迷彩]"
+    },
+    "thecollector_recipes_title_voltthwack": {
+      "key": "TheCollector_Recipes_Title_VoltThwack",
+      "value": "让 VOLT 霰弹枪更愤怒\\n[兑换 - 棱镜 “辐照” 激光霰弹枪]"
+    },
+    "thecollector_recipes_title_zipzap": {
+      "key": "TheCollector_Recipes_Title_ZipZap",
+      "value": "雪天狙击\\n[兑换 - 天顶 “雪地迷彩” 激光狙击步枪]"
+    },
+    "thecollector_recipes_title_apargatlinggun": {
+      "key": "TheCollector_Recipes_Title_aparGatlingGun",
+      "value": "枪太多了\\n[兑换 - 等待数据]"
+    },
+    "thecollector_shipmod_f7_hornet_vehiclename": {
+      "key": "TheCollector_ShipMod_F7_Hornet_VehicleName",
+      "value": "铁砧 F7C-M 超级大黄蜂 Mk II 维科洛 特别版\\nAnvil F7C-M Super Hornet Mk II Wikelo Special"
+    },
+    "thecollector_shipmod_misc_fortune_vehiclename": {
+      "key": "TheCollector_ShipMod_MISC_Fortune_VehicleName",
+      "value": "武藏 财运 维科洛 特别版\\nMISC Fortune Wikelo Special"
+    },
+    "thecollector_shipmod_mrai_guardianqi_vehiclename": {
+      "key": "TheCollector_ShipMod_MRAI_GuardianQI_VehicleName",
+      "value": "未来 守护者 QI 维科洛 特别版\\nMirai Guardian QI Wikelo Special"
+    },
+    "thecollector_shipmod_mrai_pulse_vehiclename": {
+      "key": "TheCollector_ShipMod_MRAI_Pulse_VehicleName",
+      "value": "未来 脉冲 维科洛 特别版\\nMirai Pulse Wikelo Special"
+    },
+    "thecollector_shipmod_ursa_medivac_vehiclename": {
+      "key": "TheCollector_ShipMod_URSA_Medivac_VehicleName",
+      "value": "RSI 大熊座 医疗 维科洛 特别版\\nRSI Ursa Medivac Wikelo Special"
+    },
+    "thecollector_shipmod_xian_nox_vehiclename": {
+      "key": "TheCollector_ShipMod_XIAN_Nox_VehicleName",
+      "value": "奥波亚 Nox 维科洛 特别版\\nAopoa Nox Wikelo Special"
+    },
+    "thecollector_ships_argo_raft_title": {
+      "key": "TheCollector_Ships_ARGO_Raft_Title",
+      "value": "准备好木筏了吗？\\n[兑换 - 木筏 维科洛工作版]"
+    },
+    "thecollector_ships_anvil_asgard_title": {
+      "key": "TheCollector_Ships_Anvil_Asgard_Title",
+      "value": "阿斯加德战斗改款\\n[兑换 - 阿斯加德 维科洛战争版]"
+    },
+    "thecollector_ships_constellation_taurus_title": {
+      "key": "TheCollector_Ships_Constellation_Taurus_TItle",
+      "value": "想要金牛座飞船\\n[兑换 - 金牛座 维科洛战争版]"
+    },
+    "thecollector_ships_crusader_a2_title": {
+      "key": "TheCollector_Ships_Crusader_A2_Title",
+      "value": "星际运输船 A2 战争改款\\n[兑换 - A2 大力神 维科洛战争版]"
+    },
+    "thecollector_ships_drake_golem_title": {
+      "key": "TheCollector_Ships_Drake_Golem_Title",
+      "value": "魔像石头\\n[兑换 - 魔像 维科洛工作版]"
+    },
+    "thecollector_ships_f7_mk2_title": {
+      "key": "TheCollector_Ships_F7_MK2_TItle",
+      "value": "维科洛海军 F7\\n[兑换 - F7C-M Mk II 维科洛版]"
+    },
+    "thecollector_ships_f8c_milt_title": {
+      "key": "TheCollector_Ships_F8C_Milt_TItle",
+      "value": "F8 战争改款\\n[兑换 - F8C 闪电 维科洛战争版]"
+    },
+    "thecollector_ships_f8c_stealth_title": {
+      "key": "TheCollector_Ships_F8C_Stealth_TItle",
+      "value": "鬼鬼祟祟刺客\\n[兑换 - F8C 闪电 维科洛鬼祟版]"
+    },
+    "thecollector_ships_firebird_title": {
+      "key": "TheCollector_Ships_Firebird_TItle",
+      "value": "火鸟改款\\n[兑换 - 军刀 火鸟 维科洛战争版]"
+    },
+    "thecollector_ships_fortune_indus_title": {
+      "key": "TheCollector_Ships_Fortune_Indus_TItle",
+      "value": "给你财运飞船\\n[兑换 - 财运 维科洛版]"
+    },
+    "thecollector_ships_guardianmx_title": {
+      "key": "TheCollector_Ships_GuardianMX_Title",
+      "value": "守护者 Wik-X\\n[兑换 - 守护者 MX 维科洛战争版]"
+    },
+    "thecollector_ships_guardianqi_title": {
+      "key": "TheCollector_Ships_GuardianQI_TItle",
+      "value": "守护者击落飞船\\n[兑换 - 守护者 QI 维科洛版]"
+    },
+    "thecollector_ships_guardian_title": {
+      "key": "TheCollector_Ships_Guardian_TItle",
+      "value": "守护者战斗改款\\n[兑换 - 守护者 维科洛战争版]"
+    },
+    "thecollector_ships_idris_title": {
+      "key": "TheCollector_Ships_Idris_Title",
+      "value": "用于杀人的特别款伊德里斯\\n[兑换 - 伊德里斯 维科洛战争版]"
+    },
+    "thecollector_ships_intrepid_title": {
+      "key": "TheCollector_Ships_Intrepid_TItle",
+      "value": "升级的无畏\\n[兑换 - 无畏 维科洛工作版]"
+    },
+    "thecollector_ships_kruger_wolf_title": {
+      "key": "TheCollector_Ships_Kruger_Wolf_Title",
+      "value": "狼在哪？狼在这\\n[兑换 - 狼式 维科洛鬼祟版]"
+    },
+    "thecollector_ships_misc_prospector_title": {
+      "key": "TheCollector_Ships_MISC_Prospector_Title",
+      "value": "勘探者看起来不错\\n[兑换 - 勘探者 维科洛工作版]"
+    },
+    "thecollector_ships_meteor_title": {
+      "key": "TheCollector_Ships_Meteor_Title",
+      "value": "RSI 流星改款\\n[兑换 - 流星 维科洛鬼祟版]"
+    },
+    "thecollector_ships_nox_title": {
+      "key": "TheCollector_Ships_Nox_TItle",
+      "value": "Nox 改款\\n[兑换 - Nox 维科洛版]"
+    },
+    "thecollector_ships_peregrine_title": {
+      "key": "TheCollector_Ships_Peregrine_TItle",
+      "value": "游隼维科洛改款\\n[兑换 - 军刀 游隼 维科洛极速版]"
+    },
+    "thecollector_ships_prowler_util_title": {
+      "key": "TheCollector_Ships_Prowler_Util_Title",
+      "value": "徘徊者更加多功能\\n[兑换 - 徘徊者 多功能 维科洛工作版]"
+    },
+    "thecollector_ships_pulse_title": {
+      "key": "TheCollector_Ships_Pulse_TItle",
+      "value": "脉冲 Plus\\n[兑换 - 脉冲 维科洛版]"
+    },
+    "thecollector_ships_scorpius_title": {
+      "key": "TheCollector_Ships_Scorpius_TItle",
+      "value": "造一个改款天蝎座\\n[兑换 - 天蝎座 维科洛鬼祟版]"
+    },
+    "thecollector_ships_spirit_c1_title": {
+      "key": "TheCollector_Ships_Spirit_C1_TItle",
+      "value": "星灵货运改款\\n[兑换 - C1 星灵 维科洛版]"
+    },
+    "thecollector_ships_starfighter_inferno_title": {
+      "key": "TheCollector_Ships_Starfighter_Inferno_Title",
+      "value": "星际战斗机地狱火特别版\\n[兑换 - 战神 地狱火 维科洛战争版]"
+    },
+    "thecollector_ships_starfighter_ion_title": {
+      "key": "TheCollector_Ships_Starfighter_Ion_Title",
+      "value": "鬼鬼祟祟星际战斗机离子光\\n[兑换 - 战神 离子光 维科洛鬼祟版]"
+    },
+    "thecollector_ships_starlancer_atc_title": {
+      "key": "TheCollector_Ships_Starlancer_ATC_Title",
+      "value": "新技巧大型星际枪骑兵飞船\\n[兑换 - 星际枪骑兵 TAC 维科洛战争版]"
+    },
+    "thecollector_ships_starlift_max_title": {
+      "key": "TheCollector_Ships_Starlift_Max_TItle",
+      "value": "不仅仅是 MAX\\n[兑换 - 星际枪骑兵 MAX 维科洛工作版]"
+    },
+    "thecollector_ships_terrapin_medic_title": {
+      "key": "TheCollector_Ships_Terrapin_Medic_Title",
+      "value": "水龟是啥？\\n[兑换 - 水龟 医疗 维科洛拯救者版]"
+    },
+    "thecollector_ships_ursa_title": {
+      "key": "TheCollector_Ships_Ursa_TItle",
+      "value": "做一个大熊座改款\\n[兑换 - 大熊座 医疗 维科洛版]"
+    },
+    "thecollector_ships_wolf_unique_title": {
+      "key": "TheCollector_Ships_Wolf_Unique_Title",
+      "value": "最特别的狼\\n[兑换 - 狼式 维科洛战争版]"
+    },
+    "thecollector_ships_zeuscl_title": {
+      "key": "TheCollector_Ships_ZeusCL_TItle",
+      "value": "宙斯货运特别版\\n[兑换 - 宙斯 MK II CL 维科洛工作版]"
+    },
+    "thecollector_ships_zeuses_title": {
+      "key": "TheCollector_Ships_ZeusES_TItle",
+      "value": "宙斯特别版\\n[兑换 - 宙斯 MK II ES 维科洛工作版]"
+    },
+    "thecollector_trade_gg_coda_name": {
+      "key": "TheCollector_Trade_GG_Coda_Name",
+      "value": "改进终曲枪\\n[兑换 - 终曲 “升天” 手枪]"
+    },
+    "thecollector_trade_gg_expolrationsuit_name": {
+      "key": "TheCollector_Trade_GG_ExpolrationSuit_Name",
+      "value": "在危险中行走。看起来很棒。\\n[兑换 - 诺维科夫 探索服 升天]"
+    },
+    "thecollector_trade_gg_karna_name": {
+      "key": "TheCollector_Trade_GG_Karna_Name",
+      "value": "卡纳枪变漂亮\\n[兑换 - 卡纳 “升天” 步枪]"
+    },
+    "thecollector_trade_gg_s71_name": {
+      "key": "TheCollector_Trade_GG_S71_Name",
+      "value": "改造 S71 步枪\\n[兑换 - S71 “升天” 步枪]"
+    },
+    "thecollector_trade_gg_venturesuilt_name": {
+      "key": "TheCollector_Trade_GG_VentureSuilt_Name",
+      "value": "冒险探险家\\n[兑换 - 探险家护甲 升天]"
+    },
+    "thecollector_trade_gg_xanthulesuit_name": {
+      "key": "TheCollector_Trade_GG_XanthuleSuit_Name",
+      "value": "希安贤梭服装变更好\\n[兑换 - 贤梭 套装 升天]"
+    },
+    "harvestable_armillaria": {
+      "key": "harvestable_Armillaria",
+      "value": "蓝月菌Bluemoon Fungus"
+    },
+    "harvestable_armillaria_lev": {
+      "key": "harvestable_Armillaria_Lev",
+      "value": "矿工角菌Miner's Horn"
+    },
+    "harvestable_armillaria_lev_desc": {
+      "key": "harvestable_Armillaria_Lev_desc",
+      "value": "这种生长迅速的真菌最初在尼克斯的德拉玛小行星 QV 采矿站的污水管道中被发现。由于其强韧的菌丝纤维可以干燥并用于多种用途，它已成为列夫斯基定居者的实用制造材料。"
+    },
+    "harvestable_armillaria_desc": {
+      "key": "harvestable_Armillaria_desc",
+      "value": "蓝月菌喜欢在黑暗洞穴的深处产生孢子，其成熟的蘑菇常被采集作为一种高价值的无石油润滑剂，广泛应用于各个行业。"
+    },
+    "item_desc20mm_tungsten": {
+      "key": "item_Desc20mm_Tungsten",
+      "value": "<-=MISSING=->"
+    },
+    "item_descammobox_20mm_tungsten_ammo": {
+      "key": "item_DescAmmoBox_20mm_Tungsten_AMMO",
+      "value": "内含用于实弹武器的20毫米弹药。"
+    },
+    "item_descasgard_paint_vip_copper": {
+      "key": "item_DescAsgard_Paint_vip_copper",
+      "value": "英灵殿涂装将耀眼的铜色表面与绿色点缀相结合，赋予阿斯加德真正独特的外观。"
+    },
+    "item_desccarryable_1h_cy_armor_vanduul_1_a": {
+      "key": "item_DescCarryable_1H_CY_armor_vanduul_1_a",
+      "value": "通常被剜度人作为护甲穿着的一块镀层"
+    },
+    "item_desccarryable_1h_cy_armor_vanduul_1_b": {
+      "key": "item_DescCarryable_1H_CY_armor_vanduul_1_b",
+      "value": "来自剜度的一块金属。"
+    },
+    "item_desccarryable_tbo_missionitem_tsg_fueltank": {
+      "key": "item_DescCarryable_TBO_MissionItem_TSG_FuelTank",
+      "value": "这个容器来自 QV 采矿站设施运营时期，里面装着由于储存不当导致燃料化学异常的量子燃料。"
+    },
+    "item_descdrink_bottle_smoothie_01_a": {
+      "key": "item_DescDrink_bottle_smoothie_01_a",
+      "value": "HEI：35\\nNDR：14\\n效果：免疫增强\\n\\n由一些新鲜浆果混合而成的冰沙。"
+    },
+    "item_descdrink_bottle_vestal_01_a": {
+      "key": "item_DescDrink_bottle_vestal_01_a",
+      "value": "HEI：44\\n效果：保水\\n\\n这款如水晶般纯净的矿泉水的水源取自精心挑选、富含水分的小行星，含有天然的矿物质。入口顺滑、清爽，是满足您保水需求的最佳选择。"
+    },
+    "item_descfood_icecream_eff_01_fatfree_a": {
+      "key": "item_DescFood_icecream_eff_01_fatfree_a",
+      "value": "NDR：10\\n效果：精力充沛，快速代谢\\n\\n这款优质的冰激凌采用100%纯无脂乳制品与天然香草，由埃尔默农庄的熟练工匠手工制作而成。"
+    },
+    "item_descfortune_paint_copper_black": {
+      "key": "item_DescFortune_Paint_Copper_Black",
+      "value": "在星际航行中，使用这款横财涂装的惊艳铜色涂层，让财运给人留下深刻印象。"
+    },
+    "item_descfortune_paint_green_copper": {
+      "key": "item_DescFortune_Paint_Green_Copper",
+      "value": "深沉的大地绿色主导了财运高地人涂装，独特的铜色驾驶舱相伴而生。"
+    },
+    "item_descgmni_rifle_ballistic_01": {
+      "key": "item_DescGMNI_rifle_ballistic_01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：突击步枪\\n分类：实弹\\n\\n弹匣容量：30\\n射速：300 rpm / 900 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S2)，枪管 (S2)，下挂 (S2)\\n\\nS71是双子座为中距离战斗设计的符合人体工程学的理想突击步枪。S71的口径比同级别中的其他武器更小，因其时尚的外观和高精度的性能而受到私人军事专业人员的欢迎。"
+    },
+    "item_descgmni_rifle_ballistic_01_collector01": {
+      "key": "item_DescGMNI_rifle_ballistic_01_collector01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：突击步枪\\n分类：实弹\\n\\n弹匣容量：30\\n射速：300 rpm / 900 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S2)，枪管 (S2)，下挂 (S2)\\n\\nS71是双子座为中距离战斗设计的符合人体工程学的理想突击步枪。S71的口径比同级别中的其他武器更小，因其时尚的外观和高精度的性能而受到私人军事专业人员的欢迎。\\n\\n这款铁杉迷彩版采用绿色迷彩图案。"
+    },
+    "item_descgmni_rifle_ballistic_01_grey_red01": {
+      "key": "item_DescGMNI_rifle_ballistic_01_grey_red01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：突击步枪\\n分类：实弹\\n\\n弹匣容量：30\\n射速：300 rpm / 900 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S2)，枪管 (S2)，下挂 (S2)\\n\\nS71是双子座为中距离战斗设计的符合人体工程学的理想突击步枪。S71的口径比同级别中的其他武器更小，因其时尚的外观和高精度的性能而受到私人军事专业人员的欢迎。这款“制裁”版本采用冷灰色和亮红色的高光设计。"
+    },
+    "item_descgmni_rifle_ballistic_01_yellow_blue01": {
+      "key": "item_DescGMNI_rifle_ballistic_01_yellow_blue01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：突击步枪\\n分类：实弹\\n\\n弹匣容量：30\\n射速：300 rpm / 900 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S2)，枪管 (S2)，下挂 (S2)\\n\\nS71是双子座为中距离战斗设计的符合人体工程学的理想突击步枪。S71的口径比同级别中的其他武器更小，因其时尚的外观和高精度的性能而受到私人军事专业人员的欢迎。醒目的霓虹黄与鲜艳的蓝色相结合，让官方的穆雷杯竞速步枪在人群中格外引人注目。"
+    },
+    "item_deschoverquad_paint_copperhead_white_bronze": {
+      "key": "item_DescHoverQuad_Paint_Copperhead_White_Bronze",
+      "value": "为悬浮驷换上这款由白色，红铜色及黑色构成的铜斑蛇涂装，再骑上它于壮丽的景致间飞驰吧。"
+    },
+    "item_descksar_pistol_ballistic_01": {
+      "key": "item_DescKSAR_pistol_ballistic_01",
+      "value": "制造商：卡斯塔克武器 (Kastak Arms)\\n物品类型：手枪\\n分类：实弹\\n\\n弹匣容量：6\\n射速：180 rpm\\n有效射程：100 米\\n\\n附件：瞄具 (S1)，枪管 (S1)，下挂 (S1)\\n\\n这把常被称作卡斯塔克“手炮”的终曲实弹手枪，尽管强大的后坐力难以驾驭，但它通常用一颗.50口径子弹就能结束战斗。考虑到它有限的弹匣容量和较大的后坐力，建议采用更精准的单发点射，不建议连续射击。"
+    },
+    "item_descksar_rifle_energy_01_blue_gold_01": {
+      "key": "item_DescKsar_rifle_energy_01_blue_gold_01",
+      "value": "制造商：卡斯塔克武器 (Kastak Arms)\\n物品类型：突击步枪\\n分类：能量 (电浆)\\n\\n电池容量：35\\n射速：500 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S2)，枪管 (S2)，下挂 (S2)\\n\\n“卡纳”是卡斯塔克武器公司生产的一款经典的电浆突击步枪。这支中距离突击步枪具有充能和全自动射击模式，各种模式之间的切换也极为简单方便。其硬朗的外观线条和经久耐用的可靠性与其强大的火力相得益彰，使得“卡纳”突击步枪成为卡斯塔克武器公司最受欢迎的武器之一。大胆的蓝金配色赋予了“英勇”版本果敢且庄严的外观。"
+    },
+    "item_descmxox_neutroncannon_s1": {
+      "key": "item_DescMXOX_NeutronCannon_S1",
+      "value": "制造商：蛮牛 (MaxOx)\\n物品类型：中子加农炮\\n尺寸：1\\n\\n蛮牛的 NN-13 中子加农炮以牺牲速度和能量效率为代价提供了大量的能量负载。有人会争论速度、射率和射程的好处大于单次伤害，但如果你只需命中一次，这个论点就变得无关紧要了。"
+    },
+    "item_desc_carryable_2h_cy_collectormaterial_001": {
+      "key": "item_Desc_Carryable_2H_CY_CollectorMaterial_001",
+      "value": "这是维科洛设计的一种新型超材料测试。它轻便又坚固，但也许不是！正好测试一下。"
+    },
+    "item_desc_grin_utility_medium_arms_03_04_01": {
+      "key": "item_Desc_GRIN_utility_medium_arms_03_04_01",
+      "value": "物品类型：中型护甲\\n伤害减免：30%\\n适用温度：-61 / 91 摄氏度\\n辐射防护：26400 REM\\n辐射清除率：145.8 REM/s\\n\\n专为矿工打造，但也适合任何冒险，灰猫工业的岩层护甲提供了顶级的防护和便捷的功能。每一块护甲都采用棱角分明、精准的设计，能在最需要的地方提供保护。配有方便的袋子和加固的背包的工具腰带提供了充足的存储空间。这个获奖的头盔设计虽已被其他制造商模仿，但原版依然凭借其高品质材料和下一代空气过滤系统独占鳌头，无论是在深矿井还是在恶劣的大气环境中都能保证呼吸清新。这款热浪版以黑色为主色调，带有发光的红色点缀。"
+    },
+    "item_desc_grin_utility_medium_backpack_03_04_01": {
+      "key": "item_Desc_GRIN_utility_medium_backpack_03_04_01",
+      "value": "物品类型：中型背包\\n储物空间：127.5K uSCU\\n可适配胸甲类型：中型 & 重型\\n\\n专为矿工打造，但也适合任何冒险，灰猫工业的岩层护甲提供了顶级的防护和便捷的功能。每一块护甲都采用棱角分明、精准的设计，能在最需要的地方提供保护。配有方便的袋子和加固的背包的工具腰带提供了充足的存储空间。这个获奖的头盔设计虽已被其他制造商模仿，但原版依然凭借其高品质材料和下一代空气过滤系统独占鳌头，无论是在深矿井还是在恶劣的大气环境中都能保证呼吸清新。这款热浪版以黑色为主色调，带有发光的红色点缀。"
+    },
+    "item_desc_grin_utility_medium_core_03_04_01": {
+      "key": "item_Desc_GRIN_utility_medium_core_03_04_01",
+      "value": "物品类型：中型护甲\\n伤害减免：30%\\n储物空间：15K uSCU\\n适用温度：-61 / 91 摄氏度\\n辐射防护：26400 REM\\n辐射清除率：145.8 REM/s\\n可挂载背包类型：轻型 & 中型\\n\\n专为矿工打造，但也适合任何冒险，灰猫工业的岩层护甲提供了顶级的防护和便捷的功能。每一块护甲都采用棱角分明、精准的设计，能在最需要的地方提供保护。配有方便的袋子和加固的背包的工具腰带提供了充足的存储空间。这个获奖的头盔设计虽已被其他制造商模仿，但原版依然凭借其高品质材料和下一代空气过滤系统独占鳌头，无论是在深矿井还是在恶劣的大气环境中都能保证呼吸清新。这款热浪版以黑色为主色调，带有发光的红色点缀。"
+    },
+    "item_desc_grin_utility_medium_legs_03_04_01": {
+      "key": "item_Desc_GRIN_utility_medium_legs_03_04_01",
+      "value": "物品类型：中型护甲\\n伤害减免：30%\\n储物空间：10K uSCU\\n适用温度：-61 / 91 摄氏度\\n辐射防护：26400 REM\\n辐射清除率：145.8 REM/s\\n\\n专为矿工打造，但也适合任何冒险，灰猫工业的岩层护甲提供了顶级的防护和便捷的功能。每一块护甲都采用棱角分明、精准的设计，能在最需要的地方提供保护。配有方便的袋子和加固的背包的工具腰带提供了充足的存储空间。这个获奖的头盔设计虽已被其他制造商模仿，但原版依然凭借其高品质材料和下一代空气过滤系统独占鳌头，无论是在深矿井还是在恶劣的大气环境中都能保证呼吸清新。这款热浪版以黑色为主色调，带有发光的红色点缀。"
+    },
+    "item_desc_basl_combat_light_helmet_02_01_01": {
+      "key": "item_Desc_basl_combat_light_helmet_02_01_01",
+      "value": "物品类型：竞速头盔\\n伤害减免：5%\\n适用温度：-35 / 65 摄氏度\\n辐射防护：26000 REM\\n辐射清除率：145.8 REM/s\\n\\n“王牌截击者”头盔采用独特的开放式设计，为大气层内作战提供轻量化无拘束的佩戴体验。精密电镀叠层能有效抵御各类战斗与环境伤害，眼部配备抗冲击防眩光面罩。面罩兼容 AR 十字准星。"
+    },
+    "item_desc_cds_combat_light_backpack_01_03_01": {
+      "key": "item_Desc_cds_combat_light_backpack_01_03_01",
+      "value": "物品类型：轻型背包\\n储物空间：54K uSCU\\n可适配胸甲类型：全部\\n\\n这款背包是集力量与科技于一体的理想之作，这款幽影隐身护甲采用军用级碳纤材料制作，这些材料来自为 UEE 特种部队提供防护装备的同一批制造商。编织进面料中的超细纤维可以掩盖穿戴者的信号特征，使其无法被雷达探测到，而鞋底内置的特殊管路则能减弱脚步声。\\n\\nASD 版采用了暗色城市迷彩图案，并配有联合科学与开发公司的署名标志。"
+    },
+    "item_desc_cds_combat_light_backpack_01_04_01": {
+      "key": "item_Desc_cds_combat_light_backpack_01_04_01",
+      "value": "物品类型：轻型背包\\n储物空间：54K uSCU\\n可适配胸甲类型：全部\\n\\n这款背包是集力量与科技于一体的理想之作，这款幽影隐身护甲采用军用级碳纤材料制作，这些材料来自为 UEE 特种部队提供防护装备的同一批制造商。编织进面料中的超细纤维可以掩盖穿戴者的信号特征，使其无法被雷达探测到，而鞋底内置的特殊管路则能减弱脚步声。\\n\\n这款雪地迷彩版配有带帽兜的披肩和白色数码迷彩图案，是在冰冻环境中追踪猎物的完美选择。"
+    },
+    "item_desc_cds_combat_superheavy_backpack_01_01_01": {
+      "key": "item_Desc_cds_combat_superheavy_backpack_01_01_01",
+      "value": "物品类型：弹药携具\\n可适配胸甲类型：中型 & 重型\\n储物空间：150K uSCU\\n\\n专为重型机枪额外弹药打造的携具，该携具通过弹链直接与你的武器连接，确保长时间连续射击时性能不受影响。"
+    },
+    "item_desc_cds_combat_superheavy_helmet_01_01_01": {
+      "key": "item_Desc_cds_combat_superheavy_helmet_01_01_01",
+      "value": "物品类型：超重型护甲\\n伤害减免：90%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n\\n以 BUL-H4 系列重新定义个人防护。卡拉克防御系统专有的 PROWL 硬件将四目镜插槽的视频输入整合为单一画面，在确保安全的前提下提供了无遮挡的视野。"
+    },
+    "item_desc_cds_combat_superheavy_suit_01_01_01": {
+      "key": "item_Desc_cds_combat_superheavy_suit_01_01_01",
+      "value": "物品类型：超重型护甲\\n伤害减免：90%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n储物空间：4.0 uSCU\\n\\n以 BUL-H4 系列重新定义个人防护。采用先进的合成聚合物，显著减轻冲击，将穿戴者变成坚不可摧的防御堡垒。护甲的动力辅助框架抵消了护甲自身的沉重重量，有助于保持机动性。"
+    },
+    "item_desc_clda_env_heavy_backpack_01_02_16": {
+      "key": "item_Desc_clda_env_heavy_backpack_01_02_16",
+      "value": "物品类型：重型背包\\n储物空间：180K uSCU\\n可适配胸甲类型：重型\\n\\n穿着诺维科夫自信探索寒冷环境。火山臼设计了一个宽敞的背包来搭配这款先进的探索服，因此那些探索未知地域的冒险者可以给其旅途携带足够的补给了。\\n\\n泥沼版采用了天然绿色和工业灰色。"
+    },
+    "item_desc_clda_env_heavy_backpack_01_03_01": {
+      "key": "item_Desc_clda_env_heavy_backpack_01_03_01",
+      "value": "物品类型：重型背包\\n储物空间：180K uSCU\\n可适配胸甲类型：重型\\n\\n穿着诺维科夫自信探索寒冷环境。火山臼设计了一个宽敞的背包来搭配这款先进的探索服，因此那些探索未知地域的冒险者可以给其旅途携带足够的补给。\\n\\n碎裂版由抛光的黑色金属组成，搭配磨砂青铜细节。"
+    },
+    "item_desc_clda_env_heavy_backpack_01_iae2023_01": {
+      "key": "item_Desc_clda_env_heavy_backpack_01_iae2023_01",
+      "value": "物品类型：重型背包\\n储物空间：180K uSCU\\n可适配胸甲类型：重型\\n\\n穿着诺维科夫自信探索寒冷环境。火山臼设计了一个宽敞的背包来搭配这款先进的探索服，因此那些探索未知地域的冒险者可以给其旅途携带足够的补给了。这个特殊的IAE2953版的铜和白色大马士革图案的灵感来自于盖塔克制造的飞船——速伦。"
+    },
+    "item_desc_clda_env_heavy_helmet_01_iae2023_01": {
+      "key": "item_Desc_clda_env_heavy_helmet_01_iae2023_01",
+      "value": "物品类型：重型多功能\\n伤害减免：25%\\n适用温度：-225 / 75 摄氏度\\n辐射防护：33600 REM\\n辐射清除率：147.42 REM/s\\n\\n为了能在寒冷的环境中自信地探索，火山臼使用了先进的传感器套件来打造诺维科夫探索服，该探索服可智能地适应环境条件，使穿戴者的体温保持稳定。其还配备了先进的生命维持系统和宽敞的背包，使那些穿越未知地域的冒险者可以依靠诺维科夫来帮助他们度过其旅程。这个特殊的IAE2953版的铜和白色装饰的灵感来自于盖塔克制造的飞船——速伦。"
+    },
+    "item_desc_clda_env_heavy_unified_01_iae2023_01": {
+      "key": "item_Desc_clda_env_heavy_unified_01_iae2023_01",
+      "value": "物品类型：重型护甲\\n伤害减免：25%\\n适用温度：-225 / 75 摄氏度\\n辐射防护：33600 REM\\n辐射清除率：147.42 REM/s\\n储物空间：8.0 uSCU\\n可挂载背包类型：全部\\n\\n为了能在寒冷的环境中自信地探索，火山臼使用了先进的传感器套件来打造诺维科夫探索服，该探索服可智能地适应环境条件，使穿戴者的体温保持稳定。其还配备了先进的生命维持系统，使那些穿越未知地域的冒险者可以依靠诺维科夫来帮助他们度过其旅程。其还配备了先进的生命维持系统和宽敞的背包，使那些穿越未知地域的冒险者可以依靠诺维科夫来帮助他们度过其旅程。这个特殊的IAE2953版的铜和白色装饰的灵感来自于盖塔克制造的飞船——速伦。"
+    },
+    "item_desc_fta_medium_helmet_01_01_05": {
+      "key": "item_Desc_fta_medium_helmet_01_01_05",
+      "value": "物品类型：中型护甲\\n伤害减免：30%\\n适用温度：-50 / 80 摄氏度\\n辐射防护：26400 REM\\n辐射清除率：145.8 REM/s\\n\\n专为矿工打造，但也适合任何冒险，灰猫工业的岩层护甲提供了顶级的防护和便捷的功能。每一块护甲都采用棱角分明、精准的设计，能在最需要的地方提供保护。配有方便的袋子和加固的背包的工具腰带提供了充足的存储空间。这个获奖的头盔设计采用高品质材料和新一代的空气过滤系统，无论是在深矿井还是在恶劣的大气环境中都能保证呼吸清新。"
+    },
+    "item_desc_fta_medium_helmet_02_01_01": {
+      "key": "item_Desc_fta_medium_helmet_02_01_01",
+      "value": "物品类型：中型护甲\\n伤害减免：30%\\n适用温度：-50 / 80 摄氏度\\n辐射防护：26400 REM\\n辐射清除率：145.8 REM/s\\n\\n专为矿工打造，但也适合任何冒险，灰猫工业的岩层护甲提供了顶级的防护和便捷的功能。每一块护甲都采用棱角分明、精准的设计，能在最需要的地方提供保护。配有方便的袋子和加固的背包的工具腰带提供了充足的存储空间。这个获奖的头盔设计采用高品质材料和新一代的空气过滤系统，无论是在深矿井还是在恶劣的大气环境中都能保证呼吸清新。这款热浪版以黑色为主色调，带有发光的红色点缀。"
+    },
+    "item_desc_kap_combat_heavy_arms_02_01_01": {
+      "key": "item_Desc_kap_combat_heavy_arms_02_01_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-77 / 107 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n储物空间：7.5 uSCU\\n\\n来自大师级设计师基尔戈 & 普尔之手的蒙德重型护甲，将三层复合装甲板与最新防御技术完美融合，不仅提供战备级防护，还配备了次世代舒适系统与特制柔性关节。"
+    },
+    "item_desc_kap_combat_heavy_arms_02_06_01": {
+      "key": "item_Desc_kap_combat_heavy_arms_02_06_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-77 / 107 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n储物空间：7.5 uSCU\\n\\n来自大师级设计师基尔戈 & 普尔之手的蒙德重型护甲，将三层复合装甲板与最新防御技术完美融合，不仅提供战备级防护，还配备了次世代舒适系统与特制柔性关节。\\n\\n这款采用了鲜红色数码迷彩图案。"
+    },
+    "item_desc_kap_combat_heavy_core_02_01_01": {
+      "key": "item_Desc_kap_combat_heavy_core_02_01_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-77 / 107 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n储物空间：12.0 uSCU\\n可挂载背包类型：全部\\n\\n来自大师级设计师基尔戈 & 普尔之手的蒙德重型护甲，将三层复合装甲板与最新防御技术完美融合，不仅提供战备级防护，还配备了次世代舒适系统与特制柔性关节。"
+    },
+    "item_desc_kap_combat_heavy_core_02_06_01": {
+      "key": "item_Desc_kap_combat_heavy_core_02_06_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-77 / 107 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n储物空间：12.0 uSCU\\n可挂载背包类型：全部\\n\\n来自大师级设计师基尔戈 & 普尔之手的蒙德重型护甲，将三层复合装甲板与最新防御技术完美融合，不仅提供战备级防护，还配备了次世代舒适系统与特制柔性关节。\\n\\n这款采用了鲜红色数码迷彩图案。"
+    },
+    "item_desc_kap_combat_heavy_helmet_02_01_01": {
+      "key": "item_Desc_kap_combat_heavy_helmet_02_01_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-77 / 107 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n\\n来自大师级设计师基尔戈 & 普尔之手的蒙德头盔，将三层复合装甲板与最新防御技术完美融合，不仅提供战备级防护，还配备了次世代舒适系统。"
+    },
+    "item_desc_kap_combat_heavy_helmet_02_06_01": {
+      "key": "item_Desc_kap_combat_heavy_helmet_02_06_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-77 / 107 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n\\n来自大师级设计师基尔戈 & 普尔之手的蒙德头盔，将三层复合装甲板与最新防御技术完美融合，不仅提供战备级防护，还配备了次世代舒适系统。\\n\\n这款采用了鲜红色数码迷彩图案。"
+    },
+    "item_desc_kap_combat_heavy_legs_02_01_01": {
+      "key": "item_Desc_kap_combat_heavy_legs_02_01_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-77 / 107 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n储物空间：7.5 uSCU\\n\\n来自大师级设计师基尔戈 & 普尔之手的蒙德重型护甲，将三层复合装甲板与最新防御技术完美融合，不仅提供战备级防护，还配备了次世代舒适系统与特制柔性关节。"
+    },
+    "item_desc_kap_combat_heavy_legs_02_06_01": {
+      "key": "item_Desc_kap_combat_heavy_legs_02_06_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-77 / 107 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n储物空间：7.5 uSCU\\n\\n来自大师级设计师基尔戈 & 普尔之手的蒙德重型护甲，将三层复合装甲板与最新防御技术完美融合，不仅提供战备级防护，还配备了次世代舒适系统与特制柔性关节。\\n\\n这款采用了鲜红色数码迷彩图案。"
+    },
+    "item_desc_kap_combat_light_arms_02_01_01": {
+      "key": "item_Desc_kap_combat_light_arms_02_01_01",
+      "value": "物品类型：轻型护甲\\n伤害减免：20%\\n适用温度：-35 / 65 摄氏度\\n辐射防护：26000 REM\\n辐射清除率：145.8 REM/s\\n\\n集力量与科技于一体的理想之作，这款幽影隐身护甲采用军用级碳纤材料制作，这些材料来自为 UEE 特种部队提供防护装备的同一批制造商。编织进面料中的超细纤维可以掩盖穿戴者的信号特征，使其无法被雷达探测到，而鞋底内置的特殊管路则能减弱脚步声。\\n\\nASD 版配有印有暗色城市迷彩图案的带帽斗篷，还配有 ASD 标志性的徽标。"
+    },
+    "item_desc_kap_combat_light_arms_02_02_01": {
+      "key": "item_Desc_kap_combat_light_arms_02_02_01",
+      "value": "物品类型：轻型护甲\\n伤害减免：20%\\n适用温度：-35 / 65 摄氏度\\n辐射防护：26000 REM\\n辐射清除率：145.8 REM/s\\n\\n集力量与科技于一体的理想之作，这款幽影隐身护甲采用军用级碳纤材料制作，这些材料来自为 UEE 特种部队提供防护装备的同一批制造商。编织进面料中的超细纤维可以掩盖穿戴者的信号特征，使其无法被雷达探测到，而鞋底内置的特殊管路则能减弱脚步声。\\n\\n这款雪地迷彩版配有带帽兜的披肩和白色数码迷彩图案，是在冰冻环境中追踪猎物的完美选择。"
+    },
+    "item_desc_kap_combat_light_core_02_01_01": {
+      "key": "item_Desc_kap_combat_light_core_02_01_01",
+      "value": "物品类型：轻型护甲\\n伤害减免：20%\\n储物空间：8k uSCU\\n适用温度：-35 / 65 摄氏度\\n辐射防护：26000 REM\\n辐射清除率：145.8 REM/s\\n可挂载背包类型：轻型\\n\\n集力量与科技于一体的理想之作，这款幽影隐身护甲采用军用级碳纤材料制作，这些材料来自为 UEE 特种部队提供防护装备的同一批制造商。编织进面料中的超细纤维可以掩盖穿戴者的信号特征，使其无法被雷达探测到，而鞋底内置的特殊管路则能减弱脚步声。\\n\\nASD 版配有印有暗色城市迷彩图案的带帽斗篷，还配有 ASD 标志性的徽标。"
+    },
+    "item_desc_kap_combat_light_core_02_02_01": {
+      "key": "item_Desc_kap_combat_light_core_02_02_01",
+      "value": "物品类型：轻型护甲\\n伤害减免：20%\\n储物空间：8k uSCU\\n适用温度：-35 / 65 摄氏度\\n辐射防护：26000 REM\\n辐射清除率：145.8 REM/s\\n可挂载背包类型：轻型\\n\\n集力量与科技于一体的理想之作，这款幽影隐身护甲采用军用级碳纤材料制作，这些材料来自为 UEE 特种部队提供防护装备的同一批制造商。编织进面料中的超细纤维可以掩盖穿戴者的信号特征，使其无法被雷达探测到，而鞋底内置的特殊管路则能减弱脚步声。\\n\\n这款雪地迷彩版配有带帽兜的披肩和白色数码迷彩图案，是在冰冻环境中追踪猎物的完美选择。"
+    },
+    "item_desc_kap_combat_light_helmet_02_01_01": {
+      "key": "item_Desc_kap_combat_light_helmet_02_01_01",
+      "value": "物品类型：轻型护甲\\n伤害减免：20%\\n适用温度：-35 / 65 摄氏度\\n辐射防护：26000 REM\\n辐射清除率：145.8 REM/s\\n\\n集力量与科技于一体的理想之作，这款幽影隐身护甲采用军用级碳纤材料制作，这些材料来自为 UEE 特种部队提供防护装备的同一批制造商。编织进面料中的超细纤维可以掩盖穿戴者的信号特征，使其无法被雷达探测到，而鞋底内置的特殊管路则能减弱脚步声。\\n\\nASD 版配有印有暗色城市迷彩图案的带帽斗篷，还配有 ASD 标志性的徽标。"
+    },
+    "item_desc_kap_combat_light_helmet_02_02_01": {
+      "key": "item_Desc_kap_combat_light_helmet_02_02_01",
+      "value": "物品类型：轻型护甲\\n伤害减免：20%\\n适用温度：-35 / 65 摄氏度\\n辐射防护：26000 REM\\n辐射清除率：145.8 REM/s\\n\\n集力量与科技于一体的理想之作，这款幽影隐身护甲采用军用级碳纤材料制作，这些材料来自为 UEE 特种部队提供防护装备的同一批制造商。编织进面料中的超细纤维可以掩盖穿戴者的信号特征，使其无法被雷达探测到，而鞋底内置的特殊管路则能减弱脚步声。\\n\\n这款雪地迷彩版配有带帽兜的披肩和白色数码迷彩图案，是在冰冻环境中追踪猎物的完美选择。"
+    },
+    "item_desc_kap_combat_light_legs_02_01_01": {
+      "key": "item_Desc_kap_combat_light_legs_02_01_01",
+      "value": "物品类型：轻型护甲\\n伤害减免：20%\\n储物空间：2.5k uSCU\\n适用温度：-35 / 65 摄氏度\\n辐射防护：26000 REM\\n辐射清除率：145.8 REM/s\\n\\n集力量与科技于一体的理想之作，这款幽影隐身护甲采用军用级碳纤材料制作，这些材料来自为 UEE 特种部队提供防护装备的同一批制造商。编织进面料中的超细纤维可以掩盖穿戴者的信号特征，使其无法被雷达探测到，而鞋底内置的特殊管路则能减弱脚步声。\\n\\nASD 版配有印有暗色城市迷彩图案的带帽斗篷，还配有 ASD 标志性的徽标。"
+    },
+    "item_desc_kap_combat_light_legs_02_02_01": {
+      "key": "item_Desc_kap_combat_light_legs_02_02_01",
+      "value": "物品类型：轻型护甲\\n伤害减免：20%\\n储物空间：2.5k uSCU\\n适用温度：-35 / 65 摄氏度\\n辐射防护：26000 REM\\n辐射清除率：145.8 REM/s\\n\\n集力量与科技于一体的理想之作，这款幽影隐身护甲采用军用级碳纤材料制作，这些材料来自为 UEE 特种部队提供防护装备的同一批制造商。编织进面料中的超细纤维可以掩盖穿戴者的信号特征，使其无法被雷达探测到，而鞋底内置的特殊管路则能减弱脚步声。\\n\\n这款雪地迷彩版配有带帽兜的披肩和白色数码迷彩图案，是在冰冻环境中追踪猎物的完美选择。"
+    },
+    "item_desc_omc_utility_heavy_arms_01_01_16": {
+      "key": "item_Desc_omc_utility_heavy_arms_01_01_16",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n\\n最初，CDS 被设计为一种力量增强套装，旨在帮助工厂工人提升搬运能力。后来 CDS 发现它的防护能力有更广泛的用途。这套装备的三重加固装甲板提供了极高的物理防护，材料经过精心布局，重点保护身体最脆弱的部分。一系列气动杠杆增加了关节的灵活性，减轻了关键部位的压力和重量，使得这套护甲尽管很沉重，但依然易于使用且防护力极强。\\n\\n泥沼版采用了天然绿色和工业灰色。"
+    },
+    "item_desc_omc_utility_heavy_arms_01_02_01": {
+      "key": "item_Desc_omc_utility_heavy_arms_01_02_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n\\n最初，CDS 被设计为一种力量增强套装，旨在帮助工厂工人提升搬运能力。后来 CDS 发现它的防护能力有更广泛的用途。这套装备的三重加固装甲板提供了极高的物理防护，材料经过精心布局，重点保护身体最脆弱的部分。一系列气动杠杆增加了关节的灵活性，减轻了关键部位的压力和重量，使得这套护甲尽管很沉重，但依然易于使用且防护力极强。\\n\\n碎裂版由抛光的黑色金属组成，搭配磨砂青铜细节。"
+    },
+    "item_desc_omc_utility_heavy_core_01_01_16": {
+      "key": "item_Desc_omc_utility_heavy_core_01_01_16",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n储物空间：8.0 uSCU\\n可挂载背包类型：全部\\n\\n最初，CDS 被设计为一种力量增强套装，旨在帮助工厂工人提升搬运能力。后来 CDS 发现它的防护能力有更广泛的用途。这套装备的三重加固装甲板提供了极高的物理防护，材料经过精心布局，重点保护身体最脆弱的部分。一系列气动杠杆增加了关节的灵活性，减轻了关键部位的压力和重量，使得这套护甲尽管很沉重，但依然易于使用且防护力极强。\\n\\n泥沼版采用了天然绿色和工业灰色。"
+    },
+    "item_desc_omc_utility_heavy_core_01_02_01": {
+      "key": "item_Desc_omc_utility_heavy_core_01_02_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n储物空间：8.0 uSCU\\n可挂载背包类型：全部\\n\\n最初，CDS 被设计为一种力量增强套装，旨在帮助工厂工人提升搬运能力。后来 CDS 发现它的防护能力有更广泛的用途。这套装备的三重加固装甲板提供了极高的物理防护，材料经过精心布局，重点保护身体最脆弱的部分。一系列气动杠杆增加了关节的灵活性，减轻了关键部位的压力和重量，使得这套护甲尽管很沉重，但依然易于使用且防护力极强。\\n\\n碎裂版由抛光的黑色金属组成，搭配磨砂青铜细节。"
+    },
+    "item_desc_omc_utility_heavy_helmet_01_01_16": {
+      "key": "item_Desc_omc_utility_heavy_helmet_01_01_16",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n\\n最初，CDS 被设计为一种力量增强套装，旨在帮助工厂工人提升搬运能力。后来 CDS 发现它的防护能力有更广泛的用途。这套装备的三重加固装甲板提供了极高的物理防护，材料经过精心布局，重点保护身体最脆弱的部分。一系列气动杠杆增加了关节的灵活性，减轻了关键部位的压力和重量，使得这套护甲尽管很沉重，但依然易于使用且防护力极强。\\n\\n泥沼版采用了天然绿色和工业灰色。"
+    },
+    "item_desc_omc_utility_heavy_helmet_01_02_01": {
+      "key": "item_Desc_omc_utility_heavy_helmet_01_02_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n\\n最初，CDS 被设计为一种力量增强套装，旨在帮助工厂工人提升搬运能力。后来 CDS 发现它的防护能力有更广泛的用途。这套装备的三重加固装甲板提供了极高的物理防护，材料经过精心布局，重点保护身体最脆弱的部分。一系列气动杠杆增加了关节的灵活性，减轻了关键部位的压力和重量，使得这套护甲尽管很沉重，但依然易于使用且防护力极强。\\n\\n碎裂版由抛光的黑色金属组成，搭配磨砂青铜细节。"
+    },
+    "item_desc_omc_utility_heavy_legs_01_01_16": {
+      "key": "item_Desc_omc_utility_heavy_legs_01_01_16",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n储物空间：8.0 uSCU\\n\\n最初，CDS 被设计为一种力量增强套装，旨在帮助工厂工人提升搬运能力。后来 CDS 发现它的防护能力有更广泛的用途。这套装备的三重加固装甲板提供了极高的物理防护，材料经过精心布局，重点保护身体最脆弱的部分。一系列气动杠杆增加了关节的灵活性，减轻了关键部位的压力和重量，使得这套护甲尽管很沉重，但依然易于使用且防护力极强。\\n\\n泥沼版采用了天然绿色和工业灰色。"
+    },
+    "item_desc_omc_utility_heavy_legs_01_02_01": {
+      "key": "item_Desc_omc_utility_heavy_legs_01_02_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n储物空间：8.0 uSCU\\n\\n最初，CDS 被设计为一种力量增强套装，旨在帮助工厂工人提升搬运能力。后来 CDS 发现它的防护能力有更广泛的用途。这套装备的三重加固装甲板提供了极高的物理防护，材料经过精心布局，重点保护身体最脆弱的部分。一系列气动杠杆增加了关节的灵活性，减轻了关键部位的压力和重量，使得这套护甲尽管很沉重，但依然易于使用且防护力极强。\\n\\n碎裂版由抛光的黑色金属组成，搭配磨砂青铜细节。"
+    },
+    "item_desc_qrt_combat_heavy_arms_02_01_01": {
+      "key": "item_Desc_qrt_combat_heavy_arms_02_01_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-95 /120 摄氏度\\n辐射防护：52800 REM\\n辐射清除率：251.1 REM/s\\n\\n这套安腾护甲是在原来的基础上进行改装。精心挑选的獠牙和骨头，让它看起来更有原始感。"
+    },
+    "item_desc_qrt_combat_heavy_core_02_01_01": {
+      "key": "item_Desc_qrt_combat_heavy_core_02_01_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-95 /120 摄氏度\\n辐射防护：52800 REM\\n辐射清除率：251.1 REM/s\\n储物空间：8.0 uSCU\\n可挂载背包类型：全部\\n\\n这套安腾护甲是在原来的基础上进行改装。精心挑选的獠牙和骨头，让它看起来更有原始感。"
+    },
+    "item_desc_qrt_combat_heavy_helmet_02_01_01": {
+      "key": "item_Desc_qrt_combat_heavy_helmet_02_01_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-95 /120 摄氏度\\n辐射防护：52800 REM\\n辐射清除率：251.1 REM/s\\n\\n这套安腾护甲是在原来的基础上进行改装。精心挑选的獠牙和骨头，让它看起来更有原始感。"
+    },
+    "item_desc_qrt_combat_heavy_legs_02_01_01": {
+      "key": "item_Desc_qrt_combat_heavy_legs_02_01_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-95 /120 摄氏度\\n辐射防护：52800 REM\\n辐射清除率：251.1 REM/s\\n储物空间：8.0 uSCU\\n\\n这套安腾护甲是在原来的基础上进行改装。精心挑选的獠牙和骨头，让它看起来更有原始感。"
+    },
+    "item_desc_qrt_combat_medium_arms_01_01_16": {
+      "key": "item_Desc_qrt_combat_medium_arms_01_01_16",
+      "value": "物品类型：中型护甲\\n伤害减免：30%\\n适用温度：-50 / 80 摄氏度\\n辐射防护：26400 REM\\n辐射清除率：145.8 REM/s\\n\\n奎里努斯科技的龟甲护甲结合了战场上的耐用性和日常穿着的舒适性。它采用坚韧且轻便的超强合成纤维编织而成，提供卓越的防护性能。护甲内层采用专有的微模态面料，触感柔软且具有出色的吸湿排汗功能，确保佩戴者的极致舒适。"
+    },
+    "item_desc_qrt_combat_medium_arms_02_01_01": {
+      "key": "item_Desc_qrt_combat_medium_arms_02_01_01",
+      "value": "物品类型：中型护甲\\n伤害减免：30%\\n适用温度：-50 / 80 摄氏度\\n辐射防护：26400 REM\\n辐射清除率：145.8 REM/s\\n\\n奎里努斯科技的龟甲护甲结合了战场上的耐用性和日常穿着的舒适性。它采用坚韧且轻便的超强合成纤维编织而成，提供卓越的防护性能。护甲内层采用专有的微模态面料，触感柔软且具有出色的吸湿排汗功能，确保佩戴者的极致舒适。\\n\\n这款氏卫版经过改良，加入了剜度材料和外星文物。"
+    },
+    "item_desc_qrt_combat_medium_backpack_01_01_16": {
+      "key": "item_Desc_qrt_combat_medium_backpack_01_01_16",
+      "value": "物品类型：中型背包\\n储物空间：105K uSCU\\n可适配胸甲类型：中型 & 重型\\n\\n龟甲背包拿在手里可能轻如羽毛，但由于采用了与护甲相同的坚韧且轻便的合金材料，它能够承载相当大的重量。"
+    },
+    "item_desc_qrt_combat_medium_backpack_02_01_01": {
+      "key": "item_Desc_qrt_combat_medium_backpack_02_01_01",
+      "value": "物品类型：中型背包\\n储物空间：105K uSCU\\n可适配胸甲类型：中型 & 重型\\n\\n龟甲背包拿在手里可能轻如羽毛，但由于采用了与护甲相同的坚韧且轻便的合金材料，它能够承载相当大的重量。\\n\\n这款氏卫版经过改良，加入了剜度材料和外星文物。"
+    },
+    "item_desc_qrt_combat_medium_core_01_01_16": {
+      "key": "item_Desc_qrt_combat_medium_core_01_01_16",
+      "value": "物品类型：中型护甲\\n伤害减免：30%\\n适用温度：-50 / 80 摄氏度\\n辐射防护：26400 REM\\n辐射清除率：145.8 REM/s\\n储物空间：8K uSCU\\n可挂载背包类型：轻型 & 中型\\n\\n奎里努斯科技的龟甲护甲结合了战场上的耐用性和日常穿着的舒适性。它采用坚韧且轻便的超强合成纤维编织而成，提供卓越的防护性能。护甲内层采用专有的微模态面料，触感柔软且具有出色的吸湿排汗功能，确保佩戴者的极致舒适。"
+    },
+    "item_desc_qrt_combat_medium_core_02_01_01": {
+      "key": "item_Desc_qrt_combat_medium_core_02_01_01",
+      "value": "物品类型：中型护甲\\n伤害减免：30%\\n适用温度：-50 / 80 摄氏度\\n辐射防护：26400 REM\\n辐射清除率：145.8 REM/s\\n储物空间：8K uSCU\\n可挂载背包类型：轻型 & 中型\\n\\n奎里努斯科技的龟甲护甲结合了战场上的耐用性和日常穿着的舒适性。它采用坚韧且轻便的超强合成纤维编织而成，提供卓越的防护性能。护甲内层采用专有的微模态面料，触感柔软且具有出色的吸湿排汗功能，确保佩戴者的极致舒适。\\n\\n这款氏卫版经过改良，加入了剜度材料和外星文物。"
+    },
+    "item_desc_qrt_combat_medium_helmet_01_01_16": {
+      "key": "item_Desc_qrt_combat_medium_helmet_01_01_16",
+      "value": "物品类型：中型护甲\\n伤害减免：30%\\n适用温度：-50 / 80 摄氏度\\n辐射防护：26400 REM\\n辐射清除率：145.8 REM/s\\n\\n专注于目标，同时用龟甲头盔保护你的头部。它配备了一个宽大的面甲和一种耐用的外壳，外壳在前额部分凸起，这种设计专门用于吸收和有效分散冲击能量。"
+    },
+    "item_desc_qrt_combat_medium_helmet_02_01_01": {
+      "key": "item_Desc_qrt_combat_medium_helmet_02_01_01",
+      "value": "物品类型：中型护甲\\n伤害减免：30%\\n适用温度：-50 / 80 摄氏度\\n辐射防护：26400 REM\\n辐射清除率：145.8 REM/s\\n\\n专注于目标，同时用龟甲头盔保护你的头部。它配备了一个宽大的面甲和一种耐用的外壳，外壳在前额部分凸起，这种设计专门用于吸收和有效分散冲击能量。\\n\\n这款氏卫版经过改良，加入了剜度材料和外星文物。"
+    },
+    "item_desc_qrt_combat_medium_legs_01_01_16": {
+      "key": "item_Desc_qrt_combat_medium_legs_01_01_16",
+      "value": "物品类型：中型护甲\\n伤害减免：30%\\n适用温度：-50 / 80 摄氏度\\n辐射防护：26400 REM\\n辐射清除率：145.8 REM/s\\n储物空间：4K uSCU\\n\\n奎里努斯科技的龟甲护甲结合了战场上的耐用性和日常穿着的舒适性。它采用坚韧且轻便的超强合成纤维编织而成，提供卓越的防护性能。护甲内层采用专有的微模态面料，触感柔软且具有出色的吸湿排汗功能，确保佩戴者的极致舒适。"
+    },
+    "item_desc_qrt_combat_medium_legs_02_01_01": {
+      "key": "item_Desc_qrt_combat_medium_legs_02_01_01",
+      "value": "物品类型：中型护甲\\n伤害减免：30%\\n适用温度：-50 / 80 摄氏度\\n辐射防护：26400 REM\\n辐射清除率：145.8 REM/s\\n储物空间：4K uSCU\\n\\n奎里努斯科技的龟甲护甲结合了战场上的耐用性和日常穿着的舒适性。它采用坚韧且轻便的超强合成纤维编织而成，提供卓越的防护性能。护甲内层采用专有的微模态面料，触感柔软且具有出色的吸湿排汗功能，确保佩戴者的极致舒适。\\n\\n这款氏卫版经过改良，加入了剜度材料和外星文物。"
+    },
+    "item_desc_qrt_utility_heavy_arms_01_01_01": {
+      "key": "item_Desc_qrt_utility_heavy_arms_01_01_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n\\n奎里努斯科技的帕拉蒂诺护甲将优雅设计与创新科技完美结合。该护甲系列巧妙融合了加固装甲板与专利新型材料，质地轻便又柔韧，防护等级却足以抵御猛烈攻击。让穿戴者既时尚出众又行动敏捷，同时还能够承受火力猛攻。"
+    },
+    "item_desc_qrt_utility_heavy_arms_02_01_01": {
+      "key": "item_Desc_qrt_utility_heavy_arms_02_01_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n\\n奎里努斯科技的帕拉蒂诺护甲将优雅设计与创新科技完美结合。该护甲系列巧妙融合了加固装甲板与专利新型材料，质地轻便又柔韧，防护等级却足以抵御猛烈攻击。让穿戴者既时尚出众又行动敏捷，同时还能够承受火力猛攻。\\n\\nI 型变体主色调为冰白色，搭配蓝色和红色点缀。"
+    },
+    "item_desc_qrt_utility_heavy_backpack_01_01_01": {
+      "key": "item_Desc_qrt_utility_heavy_backpack_01_01_01",
+      "value": "物品类型：重型背包\\n储物空间：180K uSCU\\n可适配胸甲类型：重型\\n\\n奎里努斯科技的帕拉蒂诺护甲将优雅设计与创新技术完美结合。配套的背包与护甲无缝衔接，轮廓协调一致，同时还提供了充足的储物空间。"
+    },
+    "item_desc_qrt_utility_heavy_backpack_02_01_01": {
+      "key": "item_Desc_qrt_utility_heavy_backpack_02_01_01",
+      "value": "物品类型：重型背包\\n储物空间：180K uSCU\\n可适配胸甲类型：重型\\n\\n奎里努斯科技的帕拉蒂诺护甲将优雅设计与创新技术完美结合。配套的背包与护甲无缝衔接，轮廓协调一致，同时还提供了充足的储物空间。\\n\\nI 型变体主色调为冰白色，搭配蓝色和红色点缀。"
+    },
+    "item_desc_qrt_utility_heavy_core_01_01_01": {
+      "key": "item_Desc_qrt_utility_heavy_core_01_01_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n储物空间：8K uSCU\\n可挂载背包类型：全部\\n\\n奎里努斯科技的帕拉蒂诺护甲将优雅设计与创新科技完美结合。该护甲系列巧妙融合了加固装甲板与专利新型材料，质地轻便又柔韧，防护等级却足以抵御猛烈攻击。让穿戴者既时尚出众又行动敏捷，同时还能够承受火力猛攻。"
+    },
+    "item_desc_qrt_utility_heavy_core_02_01_01": {
+      "key": "item_Desc_qrt_utility_heavy_core_02_01_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n储物空间：8K uSCU\\n可挂载背包类型：全部\\n\\n奎里努斯科技的帕拉蒂诺护甲将优雅设计与创新科技完美结合。该护甲系列巧妙融合了加固装甲板与专利新型材料，质地轻便又柔韧，防护等级却足以抵御猛烈攻击。让穿戴者既时尚出众又行动敏捷，同时还能够承受火力猛攻。\\n\\nI 型变体主色调为冰白色，搭配蓝色和红色点缀。"
+    },
+    "item_desc_qrt_utility_heavy_helmet_01_01_01": {
+      "key": "item_Desc_qrt_utility_heavy_helmet_01_01_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n\\n奎里努斯科技的帕拉蒂诺护甲将优雅设计与创新科技完美结合。全封闭式头盔配备了多种传感器，让你与外界保持连接的同时，获得顶级防护。面罩兼容 AR 十字准星。"
+    },
+    "item_desc_qrt_utility_heavy_helmet_02_01_01": {
+      "key": "item_Desc_qrt_utility_heavy_helmet_02_01_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\n\\n奎里努斯科技的帕拉蒂诺护甲将优雅设计与创新科技完美结合。全封闭式头盔配备了多种传感器，让你与外界保持连接的同时，获得顶级防护。面罩兼容 AR 十字准星。\\n\\nI 型变体主色调为冰白色，搭配蓝色和红色点缀。"
+    },
+    "item_desc_qrt_utility_heavy_legs_01_01_01": {
+      "key": "item_Desc_qrt_utility_heavy_legs_01_01_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\nCarrying Capacity: 8K uSCU\\n\\n奎里努斯科技的帕拉蒂诺护甲将优雅设计与创新科技完美结合。该护甲系列巧妙融合了加固装甲板与专利新型材料，质地轻便又柔韧，防护等级却足以抵御猛烈攻击。让穿戴者既时尚出众又行动敏捷，同时还能够承受火力猛攻。"
+    },
+    "item_desc_qrt_utility_heavy_legs_02_01_01": {
+      "key": "item_Desc_qrt_utility_heavy_legs_02_01_01",
+      "value": "物品类型：重型护甲\\n伤害减免：40%\\n适用温度：-70 / 100 摄氏度\\n辐射防护：26800 REM\\n辐射清除率：145.8 REM/s\\nCarrying Capacity: 8K uSCU\\n\\n奎里努斯科技的帕拉蒂诺护甲将优雅设计与创新科技完美结合。该护甲系列巧妙融合了加固装甲板与专利新型材料，质地轻便又柔韧，防护等级却足以抵御猛烈攻击。让穿戴者既时尚出众又行动敏捷，同时还能够承受火力猛攻。\\n\\nI 型变体主色调为冰白色，搭配蓝色和红色点缀。"
+    },
+    "item_desc_rsi_explorer_light_core_01_iae2023_01": {
+      "key": "item_Desc_rsi_explorer_light_core_01_iae2023_01",
+      "value": "物品类型：轻型护甲\\n伤害减免：20%\\n适用温度：-38 / 68 摄氏度\\n辐射防护：26000 REM\\n辐射清除率：145.8 REM/s\\n储物空间：2.0 uSCU\\n可挂载背包类型：轻型\\n\\nRSI的探险家冒险套装可提供出色的保护对抗太空中的威胁。该套装专为那些前路未知的探险者而设计，在不牺牲灵活性的前提下，将舒适性与安全性完美融合。这款特别的恋慕版本的灵感源自科拉爱人节，采用了充满活力的粉红与紫色的配色方案，很适合那些热恋中的情侣。"
+    },
+    "item_desc_syfb_flightsuit_helmet_01_01_01": {
+      "key": "item_Desc_syfb_flightsuit_helmet_01_01_01",
+      "value": "物品类型：飞行头盔\\n伤害减免：15%\\n适用温度：-30 / 60 摄氏度\\n辐射防护：15200 REM\\n辐射清除率：81 REM/s\\n\\n贤梭头盔由丝扬制造公司改造，以满足人类体质的独特要求，忠实地再现了希安人偏爱的大胆轮廓。与贤梭套装配套穿搭将组成独特又引人注目的外观。"
+    },
+    "item_desc_syfb_flightsuit_helmet_01_iae2023_01": {
+      "key": "item_Desc_syfb_flightsuit_helmet_01_iae2023_01",
+      "value": "物品类型：飞行头盔\\n伤害减免：15%\\n适用温度：-30 / 60 摄氏度\\n辐射防护：15200 REM\\n辐射清除率：81 REM/s\\n\\n贤梭头盔由丝扬制造公司改造，以满足人类体质的独特要求，忠实地再现了希安人偏爱的大胆轮廓。与贤梭套装配套穿搭将组成独特又引人注目的外观。这个特殊的IAE2953版的铜和白色装饰的灵感来自于盖塔克制造的飞船——速伦。"
+    },
+    "item_desc_syfb_flightsuit_suit_01_01_01": {
+      "key": "item_Desc_syfb_flightsuit_suit_01_01_01",
+      "value": "物品类型：飞行服\\n伤害减免：15%\\n适用温度：-30 / 60 摄氏度\\n辐射防护：15200 REM\\n辐射清除率：81 REM/s\\nG 力耐受度：+97.5%\\n储物空间：6.5 uSCU\\n可挂载背包类型：轻型\\n\\n经过几个世纪的创新，丝扬制造的具有流线型设计的时尚贤梭飞行服已经完美匹配人类的体形。贤梭套装的特点是使用透气且轻质的碳纤维编织，提供可靠的保护，同时保持了这个著名家族标志性的美学风格。"
+    },
+    "item_desc_vgl_combat_heavy_backpack_01_08_01": {
+      "key": "item_Desc_vgl_combat_heavy_backpack_01_08_01",
+      "value": "物品类型：重型背包\\n储物空间：150K uSCU\\n可适配胸甲类型：重型\\n\\n这款来自维吉尔有限公司的硬壳背包让旅行变得轻松。无论你需要一个地方来装武器，还是决定为长途旅行多带些干粮，这款背包都能应付各种场合。内部有一个宽敞的可闭合口袋，可以防止小物件掉出来或乱跑。\\n\\n这款采用了鲜红色数码迷彩图案。"
+    },
+    "item_desc_vgl_flightsuit_01_01_01": {
+      "key": "item_Desc_vgl_flightsuit_01_01_01",
+      "value": "物品类型：飞行服\\n伤害减免：15%\\n适用温度：-30 / 60 °C\\n辐射防护：15200 REM\\n辐射清除率：81 REM/s\\nG 力耐受度：+97.5%\\n\\n其设计灵感源自航空早期，顺风飞行服将功能性置于首位。采用薄层羊毛隔热层、绗缝领口以及关键部位的透气材料，让每位飞行员都能获得最佳的成功机会。"
+    },
+    "item_desc_vgl_flightsuit_01_02_01": {
+      "key": "item_Desc_vgl_flightsuit_01_02_01",
+      "value": "物品类型：飞行服\\n伤害减免：15%\\n适用温度：-30 / 60 °C\\n辐射防护：15200 REM\\n辐射清除率：81 REM/s\\nG 力耐受度：+97.5%\\n\\n其设计灵感源自航空早期，顺风飞行服将功能性置于首位。采用薄层羊毛隔热层、绗缝领口以及关键部位的透气材料，让每位飞行员都能获得最佳的成功机会。\\n\\n这款统御迷彩版为飞行服增添了深绿色迷彩图案。"
+    },
+    "item_desc_vgl_flightsuit_helmet_01_01_01": {
+      "key": "item_Desc_vgl_flightsuit_helmet_01_01_01",
+      "value": "物品类型：飞行头盔\\n伤害减免：15%\\n适用温度：-30 / 60 °C\\n辐射防护：15200 REM\\n辐射清除率：81 REM/s\\n\\n灵感源自经典赛车头盔的顺风头盔，为驾驶舱内的严酷环境提供了关键的隔热与颈部支撑。双层面罩在有效阻挡眩光的同时，确保头盔气密性完好，且佩戴者视野不受阻碍。"
+    },
+    "item_desc_vgl_flightsuit_helmet_01_02_01": {
+      "key": "item_Desc_vgl_flightsuit_helmet_01_02_01",
+      "value": "物品类型：飞行头盔\\n伤害减免：15%\\n适用温度：-30 / 60 °C\\n辐射防护：15200 REM\\n辐射清除率：81 REM/s\\n\\n灵感源自经典赛车头盔的顺风头盔，为驾驶舱内的严酷环境提供了关键的隔热与颈部支撑。双层面罩在有效阻挡眩光的同时，确保头盔气密性完好，且佩戴者视野不受阻碍。\\n\\n这款统御迷彩版为飞行头盔增添了深绿色迷彩图案。"
+    },
+    "item_descapar_hmg_ballistic_01": {
+      "key": "item_Descapar_hmg_ballistic_01",
+      "value": "制造商：启示录军备 (Apocalypse Arms)\\n物品类型：重机枪\\n类别：实弹\\n\\n弹匣容量：1000\\n射速：1000 rpm\\n有效射程：35 m\\n\\n附件：N/A\\n\\n由于体型过大，除非穿上重型外骨骼外无法使用。来自启示录军备的世仇是一款使用弹链供弹的死亡乐器。它的精度不足，却以极高的射速弥补了这一点，足以实现饱和的目标覆盖与战场统治。"
+    },
+    "item_descapar_hmg_ballistic_01_collector01": {
+      "key": "item_Descapar_hmg_ballistic_01_collector01",
+      "value": "制造商：启示录军备 (Apocalypse Arms)\\n物品类型：重机枪\\n类别：实弹\\n\\n弹匣容量：1000\\n射速：1000 rpm\\n有效射程：35 m\\n\\n附件：N/A\\n\\n由于体型过大，除非穿上重型外骨骼外无法使用。来自启示录军备的世仇是一款使用弹链供弹的死亡乐器。它的精度不足，却以极高的射速弥补了这一点，足以实现饱和的目标覆盖与战场统治。\\n\\n采用白色数码迷彩图案的雪地迷彩版，非常适合在冰冻环境中潜伏狩猎。"
+    },
+    "item_descapar_hmg_ballistic_01_mag": {
+      "key": "item_Descapar_hmg_ballistic_01_mag",
+      "value": "物品类型：弹匣\\n容量：1000\\n\\n这款用于启示录世仇重机枪的弹匣预装了 1000 枚子弹。"
+    },
+    "item_descapar_hmg_ballistic_01_mr01": {
+      "key": "item_Descapar_hmg_ballistic_01_mr01",
+      "value": "制造商：启示录军备 (Apocalypse Arms)\\n物品类型：重机枪\\n类别：实弹\\n\\n弹匣容量：1000\\n射速：1000 rpm\\n有效射程：35 m\\n\\n附件：N/A\\n\\n由于体型过大，除非穿上重型外骨骼外无法使用。来自启示录军备的世仇是一款使用弹链供弹的死亡乐器。它的精度不足，却以极高的射速弥补了这一点，足以实现饱和的目标覆盖与战场统治。\\n\\n这款突围者版采用双色灰迷彩搭配醒目的黄色点缀。"
+    },
+    "item_descapar_hmg_ballistic_01_mr02": {
+      "key": "item_Descapar_hmg_ballistic_01_mr02",
+      "value": "制造商：启示录军备 (Apocalypse Arms)\\n物品类型：重机枪\\n类别：实弹\\n\\n弹匣容量：1000\\n射速：1000 rpm\\n有效射程：35 m\\n\\n附件：N/A\\n\\n由于体型过大，除非穿上重型外骨骼外无法使用。来自启示录军备的世仇是一款使用弹链供弹的死亡乐器。它的精度不足，却以极高的射速弥补了这一点，足以实现饱和的目标覆盖与战场统治。\\n\\n这款据点版采用九尾的凶猛图腾，搭配醒目的霓虹粉色点缀。"
+    },
+    "item_descapar_hmg_ballistic_01_store01": {
+      "key": "item_Descapar_hmg_ballistic_01_store01",
+      "value": "制造商：启示录军备 (Apocalypse Arms)\\n物品类型：重机枪\\n类别：实弹\\n\\n弹匣容量：1000\\n射速：1000 rpm\\n有效射程：35 m\\n\\n附件：N/A\\n\\n由于体型过大，除非穿上重型外骨骼外无法使用。来自启示录军备的世仇是一款使用弹链供弹的死亡乐器。它的精度不足，却以极高的射速弥补了这一点，足以实现饱和的目标覆盖与战场统治。\\n\\n这款钢纹版采用闪亮的金属涂层，表面饰有大马士革花纹。"
+    },
+    "item_descapar_hmg_ballistic_01_tint01": {
+      "key": "item_Descapar_hmg_ballistic_01_tint01",
+      "value": "制造商：启示录军备 (Apocalypse Arms)\\n物品类型：重机枪\\n类别：实弹\\n\\n弹匣容量：1000\\n射速：1000 rpm\\n有效射程：35 m\\n\\n附件：N/A\\n\\n由于体型过大，除非穿上重型外骨骼外无法使用。来自启示录军备的世仇是一款使用弹链供弹的死亡乐器。它的精度不足，却以极高的射速弥补了这一点，足以实现饱和的目标覆盖与战场统治。\\n\\n这款战壕兵版采用深绿色搭配金属光泽点缀，非常适合在战场上彰显你的存在。"
+    },
+    "item_descapar_hmg_ballistic_01_tint02": {
+      "key": "item_Descapar_hmg_ballistic_01_tint02",
+      "value": "制造商：启示录军备 (Apocalypse Arms)\\n物品类型：重机枪\\n类别：实弹\\n\\n弹匣容量：1000\\n射速：1000 rpm\\n有效射程：35 m\\n\\n附件：N/A\\n\\n由于体型过大，除非穿上重型外骨骼外无法使用。来自启示录军备的世仇是一款使用弹链供弹的死亡乐器。它的精度不足，却以极高的射速弥补了这一点，足以实现饱和的目标覆盖与战场统治。\\n\\n这款暗猎者版采用深黑色涂装，既低调又令人生畏。"
+    },
+    "item_descapar_hmg_ballistic_01_tint03": {
+      "key": "item_Descapar_hmg_ballistic_01_tint03",
+      "value": "制造商：启示录军备 (Apocalypse Arms)\\n物品类型：重机枪\\n类别：实弹\\n\\n弹匣容量：1000\\n射速：1000 rpm\\n有效射程：35 m\\n\\n附件：N/A\\n\\n由于体型过大，除非穿上重型外骨骼外无法使用。来自启示录军备的世仇是一款使用弹链供弹的死亡乐器。它的精度不足，却以极高的射速弥补了这一点，足以实现饱和的目标覆盖与战场统治。\\n\\n这款灿星采用金属框架搭配皇家蓝点缀，随时准备让任何英雄挺身而出。"
+    },
+    "item_descbehr_binoculars_01_collector01": {
+      "key": "item_Descbehr_binoculars_01_collector01",
+      "value": "贝林出品的 XDL 单筒测距仪精度极高，无论是在探险途中还是战场上都同样适用。它结构坚固，配备高品质镜片、清晰易读的显示屏以及光线增强模式，支持 10 倍变焦，能可靠地对远处目标进行精准的激光测距。\\n\\n这款 I 型采用灰色与钢蓝相间的外观设计。"
+    },
+    "item_descgmni_lmg_ballistic_01": {
+      "key": "item_Descgmni_lmg_ballistic_01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：轻机枪\\n类别：实弹\\n\\n弹容量：150\\n射速：1000 rpm\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，枪管 (N/A)，下挂 (S3)\\n\\n高达1000 rpm的射速，再加上双子座公司专业的流线造型，F55这把轻机枪适用于那些独具慧眼的客户，让其他人知道他们可不是好对付的。"
+    },
+    "item_descgmni_lmg_ballistic_01_blue_gold_01": {
+      "key": "item_Descgmni_lmg_ballistic_01_blue_gold_01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：轻机枪\\n分类：实弹\\n\\n弹容量：150\\n射速：1000 rpm\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，枪管 (N/A)，下挂 (S3)\\n\\n高达1000 rpm的射速，再加上双子座公司专业的流线造型，F55这把轻机枪适用于那些独具慧眼的客户，让其他人知道他们可不是好对付的。大胆的蓝金配色赋予了“英勇”版本果敢且庄严的外观。"
+    },
+    "item_descgmni_lmg_ballistic_01_collector01": {
+      "key": "item_Descgmni_lmg_ballistic_01_collector01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：轻机枪\\n类别：实弹\\n\\n弹容量：150\\n射速：1000 rpm\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，枪管 (N/A)，下挂 (S3)\\n\\n高达1000 rpm的射速，再加上双子座公司专业的流线造型，F55这把轻机枪适用于那些独具慧眼的客户，让其他人知道他们可不是好对付的。\\n\\n这款 I 型采用白色外观，搭配蓝红色点缀。"
+    },
+    "item_descgmni_lmg_ballistic_01_firerats01": {
+      "key": "item_Descgmni_lmg_ballistic_01_firerats01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：轻机枪\\n分类：实弹\\n\\n弹容量：150\\n射速：1000 rpm\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，枪管 (N/A)，下挂 (S3)\\n\\n高达1000 rpm的射速，再加上双子座公司专业的流线造型，F55这把轻机枪适用于那些独具慧眼的客户，让其他人知道他们可不是好对付的。大胆的蓝金配色赋予了“英勇”版本果敢且庄严的外观。这款焦炎版有着独特的火焰光泽。"
+    },
+    "item_descgmni_lmg_ballistic_01_green_red01": {
+      "key": "item_Descgmni_lmg_ballistic_01_green_red01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：轻机枪\\n类别：实弹\\n\\n弹匣容量：150\\n射速：1000 rpm\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，枪管 (N/A)，下挂 (S3)\\n\\n高达1000 rpm的射速，再加上双子座公司专业的流线造型，F55这把轻机枪适用于那些独具慧眼的客户，让其他人知道他们可不是好对付的。这款特殊的绿红色日落阿尔卑斯版必将成为送给你爱人的一份很棒的光灯节礼物。"
+    },
+    "item_descgmni_lmg_ballistic_01_mag": {
+      "key": "item_Descgmni_lmg_ballistic_01_mag",
+      "value": "物品类型：弹匣\\n容量：150\\n\\n这个是双子座F55轻机枪的弹匣，可以容纳150发5毫米子弹。"
+    },
+    "item_descgmni_lmg_ballistic_01_purple01": {
+      "key": "item_Descgmni_lmg_ballistic_01_purple01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：轻机枪\\n类别：实弹\\n\\n弹匣容量：150\\n射速：1000 rpm\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，枪管 (N/A)，下挂 (S3)\\n\\n高达1000 rpm的射速，再加上双子座公司专业的流线造型，F55这把轻机枪适用于那些独具慧眼的客户，让其他人知道他们可不是好对付的。\\n\\n为了庆祝 2954 年的星际航空航天博览会，这款逐星者版本采用鲜艳的紫色，并辅以白色和黑色的点缀。"
+    },
+    "item_descgmni_lmg_ballistic_01_store01": {
+      "key": "item_Descgmni_lmg_ballistic_01_store01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：轻机枪\\n类别：实弹\\n\\n弹匣容量：150\\n射速：1000 rpm\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，枪管 (N/A)，下挂 (S3)\\n\\n高达1000 rpm的射速，再加上双子座公司专业的流线造型，F55这把轻机枪适用于那些独具慧眼的客户，让其他人知道他们可不是好对付的。\\n\\n这款僵局变体采用采用灰色迷彩图案。"
+    },
+    "item_descgmni_rifle_ballistic_01_iae2023": {
+      "key": "item_Descgmni_rifle_ballistic_01_IAE2023",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：突击步枪\\n分类：实弹\\n\\n弹匣容量：30\\n射速：300 rpm / 900 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S2)，枪管 (S2)，下挂 (S2)\\n\\nS71是双子座为中距离战斗设计的符合人体工程学的理想突击步枪。S71的口径比同级别中的其他武器更小，因其时尚的外观和高精度的性能而受到私人军事专业人员的欢迎。“升天”版是为纪念2953星际航空航天博览会而设计的，其钢和铜装饰的灵感来自于盖塔克制造的飞船——速伦。"
+    },
+    "item_descgmni_rifle_ballistic_01_firerats01": {
+      "key": "item_Descgmni_rifle_ballistic_01_firerats01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：突击步枪\\n类别：实弹\\n\\n弹匣容量：30\\n射速：300 rpm / 900 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S2)，枪管 (S2)，下挂 (S2)\\n\\nS71是双子座为中距离战斗设计的符合人体工程学的理想突击步枪。S71的口径比同级别中的其他武器更小，因其时尚的外观和高精度的性能而受到私人军事专业人员的欢迎。著名的派罗本地赏金猎人“靶心”那拉戈维亚对传奇赏金猎人系列的贡献是，给她最喜欢的武器配上了红黑配色，以代表她所在星系中心的耀斑星。"
+    },
+    "item_descgmni_rifle_ballistic_01_firerats02": {
+      "key": "item_Descgmni_rifle_ballistic_01_firerats02",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：突击步枪\\n类别：实弹\\n\\n弹匣容量：30\\n射速：300 rpm / 900 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S2)，枪管 (S2)，下挂 (S2)\\n\\nS71是双子座为中距离战斗设计的符合人体工程学的理想突击步枪。S71的口径比同级别中的其他武器更小，因其时尚的外观和高精度的性能而受到私人军事专业人员的欢迎。这款焦炎版有着独特的火焰光泽。"
+    },
+    "item_descgmni_rifle_ballistic_01_mag": {
+      "key": "item_Descgmni_rifle_ballistic_01_mag",
+      "value": "物品类型：弹匣\\n容量：30\\n\\n这个弹匣是为双子座S71步枪容纳30发5毫米子弹而设计的。"
+    },
+    "item_descgmni_rifle_ballistic_01_mr01": {
+      "key": "item_Descgmni_rifle_ballistic_01_mr01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：突击步枪\\n类别：实弹\\n\\n弹匣容量：30\\n射速：300 rpm / 900 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S2)，枪管 (S2)，下挂 (S2)\\n\\nS71是双子座为中距离战斗设计的符合人体工程学的理想突击步枪。S71的口径比同级别中的其他武器更小，因其时尚的外观和高精度的性能而受到私人军事专业人员的欢迎。\\n\\n这款炼狱迷彩版拥有时尚的单色外观风格。"
+    },
+    "item_descgmni_shotgun_ballistic_01": {
+      "key": "item_Descgmni_shotgun_ballistic_01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：霰弹枪\\n类别：实弹\\n\\n弹匣容量：18\\n射速：120 rpm / 60 rpm\\n有效射程：15 米 / 35 米\\n\\n附件：瞄具 (S1)，枪管 (N/A)，下挂 (S2)\\n\\nR97拥有流线型造型和强大的停止效力，是一种优雅而致命的近距离作战武器。这款来自双子座的实弹霰弹枪拥有两种射击模式 — 半自动的散布模式非常适合快速攻击，而聚焦模式则以牺牲一定的威力为代价来换取更长的射程。这种作战灵活性使R97成为整个帝国中广受欢迎的个人防御武器。"
+    },
+    "item_descgmni_shotgun_ballistic_01_firerats01": {
+      "key": "item_Descgmni_shotgun_ballistic_01_firerats01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：霰弹枪\\n类别：实弹\\n\\n弹匣容量：18\\n射速：120 rpm / 60 rpm\\n有效射程：15 米 / 35 米\\n\\n附件：瞄具 (S1)，枪管 (N/A)，下挂 (S2)\\n\\nR97拥有流线型造型和强大的停止效力，是一种优雅而致命的近距离作战武器。这款来自双子座的实弹霰弹枪拥有两种射击模式 — 半自动的散布模式非常适合快速攻击，而聚焦模式则以牺牲一定的威力为代价来换取更长的射程。这种作战灵活性使R97成为整个帝国中广受欢迎的个人防御武器。这款焦炎版有着独特的火焰光泽。"
+    },
+    "item_descgmni_shotgun_ballistic_01_mag": {
+      "key": "item_Descgmni_shotgun_ballistic_01_mag",
+      "value": "物品类型：弹匣\\n容量：18\\n\\n这个弹匣为双子座R97实弹霰弹枪预装了10枚12号的子弹。"
+    },
+    "item_descgmni_shotgun_ballistic_01_pink_red01": {
+      "key": "item_Descgmni_shotgun_ballistic_01_pink_red01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：霰弹枪\\n分类：实弹\\n\\n弹匣容量：18\\n射速：120 rpm / 60 rpm\\n有效射程：15 米 / 35 米\\n\\n附件：瞄具 (S1)，枪管 (N/A)，下挂 (S2)\\n\\nR97拥有流线型造型和强大的停止效力，是一种优雅而致命的近距离作战武器。这款来自双子座的实弹霰弹枪拥有两种射击模式 — 半自动的散布模式非常适合快速攻击，而聚焦模式则以牺牲一定的威力为代价来换取更长的射程。这种作战灵活性使R97成为整个帝国中广受欢迎的个人防御武器。使用R97的特殊天命版本来保护自己和你所爱的人，其粉红色和黑色的配色让人想起经典影片《科拉爱人》中尤里·伊林在寻找失踪的爱人科拉松·谭时所驾驶的飞船。"
+    },
+    "item_descgmni_shotgun_ballistic_01_red_black01": {
+      "key": "item_Descgmni_shotgun_ballistic_01_red_black01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：霰弹枪\\n类别：实弹\\n\\n弹匣容量：18\\n射速：120 rpm / 60 rpm\\n有效射程：15 米 / 35 米\\n\\n附件：瞄具 (S1)，枪管 (N/A)，下挂 (S2)\\n\\nR97拥有流线型造型和强大的停止效力，是一种优雅而致命的近距离作战武器。这款来自双子座的实弹霰弹枪拥有两种射击模式 — 半自动的散布模式非常适合快速攻击，而聚焦模式则以牺牲一定的威力为代价来换取更长的射程。这种作战灵活性使R97成为整个帝国中广受欢迎的个人防御武器。这款“正义”版采用大胆的红色涂装，完美展现你对战斗的热忱。"
+    },
+    "item_descgmni_shotgun_ballistic_01_reward01": {
+      "key": "item_Descgmni_shotgun_ballistic_01_reward01",
+      "value": "制造商：双子座 (Gemini)\\n物品类型：霰弹枪\\n类别：实弹\\n\\n弹匣容量：18\\n射速：120 rpm / 60 rpm\\n有效射程：15 米 / 35 米\\n\\n附件：瞄具 (S1)，枪管 (N/A)，下挂 (S2)\\n\\nR97拥有流线型造型和强大的停止效力，是一种优雅而致命的近距离作战武器。这款来自双子座的实弹霰弹枪拥有两种射击模式 — 半自动的散布模式非常适合快速攻击，而聚焦模式则以牺牲一定的威力为代价来换取更长的射程。这种作战灵活性使R97成为整个帝国中广受欢迎的个人防御武器。\\n\\n这款采用了鲜红色数码迷彩图案。"
+    },
+    "item_descksar_pistol_ballistic_01_iae2023": {
+      "key": "item_Descksar_pistol_ballistic_01_IAE2023",
+      "value": "制造商：卡斯塔克武器 (Kastak Arms)\\n物品类型：手枪\\n类别：实弹\\n\\n弹匣容量：6\\n射速：180 rpm\\n有效射程：100 米\\n\\n附件：瞄具 (S1)，枪管 (S1)，下挂 (S1)\\n\\n这把常被称作卡斯塔克“手炮”的终曲实弹手枪，尽管强大的后坐力难以驾驭，但它通常用一颗.50口径子弹就能结束战斗。考虑到它有限的弹匣容量和较大的后坐力，建议采用更精准的单发点射，不建议连续射击。为了纪念IAE 2953，升天版采用钢和铜的外观，灵感来自Gatac制造的Syulen。"
+    },
+    "item_descksar_pistol_ballistic_01_headhunters01": {
+      "key": "item_Descksar_pistol_ballistic_01_headhunters01",
+      "value": "制造商：卡斯塔克武器 (Kastak Arms)\\n物品类型：手枪\\n类别：实弹\\n\\n弹匣容量：6\\n射速：180 rpm\\n有效射程：100 米\\n\\n附件：瞄具 (S1)，枪管 (S1)，下挂 (S1)\\n\\n这把常被称作卡斯塔克“手炮”的终曲实弹手枪，尽管强大的后坐力难以驾驭，但它通常用一颗.50口径子弹就能结束战斗。考虑到它有限的弹匣容量和较大的后坐力，建议采用更精准的单发点射，不建议连续射击。一贯大胆的“夜鹰”伊西德罗·雷纳德将他的意志融入了这个传奇赏金猎人系列中的紫色与黑色涂装设计。"
+    },
+    "item_descksar_pistol_ballistic_01_mag": {
+      "key": "item_Descksar_pistol_ballistic_01_mag",
+      "value": "物品类型：弹匣\\n容量：6\\n\\n这款卡斯塔克武器终曲实弹手枪的弹匣有6发点50口径子弹。"
+    },
+    "item_descksar_pistol_ballistic_01_purple_pink01": {
+      "key": "item_Descksar_pistol_ballistic_01_purple_pink01",
+      "value": "制造商：卡斯塔克武器 (Kastak Arms)\\n物品类型：手枪\\n分类：实弹\\n\\n弹匣容量：6\\n射速：180 rpm\\n有效射程：100 米\\n\\n附件：瞄具 (S1)，枪管 (S1)，下挂 (S1)\\n\\n这把常被称作卡斯塔克“手炮”的终曲实弹手枪，尽管强大的后坐力难以驾驭，但它通常用一颗.50口径子弹就能结束战斗。考虑到它有限的弹匣容量和较大的后坐力，建议采用更精准的单发点射，不建议连续射击。紫外光版本采用引人注目的紫罗兰色和兰花色。"
+    },
+    "item_descksar_pistol_ballistic_01_yellow_black01": {
+      "key": "item_Descksar_pistol_ballistic_01_yellow_black01",
+      "value": "制造商：卡斯塔克武器 (Kastak Arms)\\n物品类型：手枪\\n分类：实弹\\n\\n弹匣容量：6\\n射速：180 rpm\\n有效射程：100 米\\n\\n附件：瞄具 (S1)，枪管 (S1)，下挂 (S1)\\n\\n这把常被称作卡斯塔克“手炮”的终曲实弹手枪，尽管强大的后坐力难以驾驭，但它通常用一颗.50口径子弹就能结束战斗。考虑到它有限的弹匣容量和较大的后坐力，建议采用更精准的单发点射，不建议连续射击。这款“巨贾”版以流畅的黑色和惊艳的绿色配色，赋予其标志性的外观。"
+    },
+    "item_descksar_rifle_energy_01": {
+      "key": "item_Descksar_rifle_energy_01",
+      "value": "制造商：卡斯塔克武器 (Kastak Arms)\\n物品类型：突击步枪\\n类型：能量 (电浆)\\n\\n电池容量：35\\n射速：500 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S2)，枪管 (S2)，下挂 (S2)\\n\\n “卡纳” 是卡斯塔克武器公司生产的一款经典的电浆突击步枪。这支中距离突击步枪具有充能和全自动射击模式，各种模式之间的切换也极为简单方便。其硬朗的外观线条和经久耐用的可靠性与其强大的火力相得益彰，使得 “卡纳” 突击步枪成为卡斯塔克武器公司最受欢迎的武器之一。"
+    },
+    "item_descksar_rifle_energy_01_iae2023": {
+      "key": "item_Descksar_rifle_energy_01_IAE2023",
+      "value": "制造商：卡斯塔克武器 (Kastak Arms)\\n物品类型：突击步枪\\n类别：能量 (电浆)\\n\\n电池容量：35\\n开火速率：500 rpm\\n有效射程：50米\\n\\n附件：光学(S2)，枪管(S2)，下挂(S2)\\n\\n“卡纳”是卡斯塔克武器公司生产的一款经典的电浆突击步枪。这支中距离突击步枪具有充能和全自动射击模式，各种模式之间的切换也极为简单方便。其硬朗的外观线条和经久耐用的可靠性与其强大的火力相得益彰，使得 “卡纳” 突击步枪成为卡斯塔克武器公司最受欢迎的武器之一。“升天”版是为纪念2953星际航空航天博览会而设计的，其钢和铜装饰的灵感来自于盖塔克制造的飞船——速伦。"
+    },
+    "item_descksar_rifle_energy_01_cian_black01": {
+      "key": "item_Descksar_rifle_energy_01_cian_black01",
+      "value": "制造商：卡斯塔克武器 (Kastak Arms)\\n物品类型：突击步枪\\n类型：能量 (电浆)\\n\\n电池容量：35\\n射速：500 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S2)，枪管 (S2)，下挂 (S2)\\n\\n “卡纳” 是卡斯塔克武器公司生产的一款经典的电浆突击步枪。这支中距离突击步枪具有充能和全自动射击模式，各种模式之间的切换也极为简单方便。其硬朗的外观线条和经久耐用的可靠性与其强大的火力相得益彰，使得 “卡纳” 突击步枪成为卡斯塔克武器公司最受欢迎的武器之一。黑色、青色与紫色的大胆组合，为“狂怒者”版更添一份美好时光。"
+    },
+    "item_descksar_rifle_energy_01_firerats01": {
+      "key": "item_Descksar_rifle_energy_01_firerats01",
+      "value": "制造商：卡斯塔克武器 (Kastak Arms)\\n物品类型：突击步枪\\n类别：能量 (电浆)\\n\\n电池容量：35\\n开火速率：500 rpm\\n有效射程：50米\\n\\n附件：光学(S2)，枪管(S2)，下挂(S2)\\n\\n“卡纳”是卡斯塔克武器公司生产的一款经典的电浆突击步枪。这支中距离突击步枪具有充能和全自动射击模式，各种模式之间的切换也极为简单方便。其硬朗的外观线条和经久耐用的可靠性与其强大的火力相得益彰，使得 “卡纳” 突击步枪成为卡斯塔克武器公司最受欢迎的武器之一。这款焦炎版有着独特的火焰光泽。"
+    },
+    "item_descksar_rifle_energy_01_mag": {
+      "key": "item_Descksar_rifle_energy_01_mag",
+      "value": "物品类型：电池\\n容量：35\\n\\n这是卡斯塔克电浆突击步枪卡纳的替换用电池。"
+    },
+    "item_descksar_rifle_energy_01_pink_red01": {
+      "key": "item_Descksar_rifle_energy_01_pink_red01",
+      "value": "制造商：卡斯塔克武器 (Kastak Arms)\\n物品类型：突击步枪\\n分类：能量 (电浆)\\n\\n电池容量：35\\n射速：500 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S2)，枪管 (S2)，下挂 (S2)\\n\\n “卡纳” 是卡斯塔克武器公司生产的一款经典的电浆突击步枪。这支中距离突击步枪具有充能和全自动射击模式，各种模式之间的切换也极为简单方便。其硬朗的外观线条和经久耐用的可靠性与其强大的火力相得益彰，使得 “卡纳” 突击步枪成为卡斯塔克武器公司最受欢迎的武器之一。用这款命运版本的卡纳展现你对科拉爱人节的热情，配色采用了大胆的紫红色和灰色装饰。"
+    },
+    "item_descksar_rifle_energy_01_red01": {
+      "key": "item_Descksar_rifle_energy_01_red01",
+      "value": "制造商：卡斯塔克武器 (Kastak Arms)\\n物品类型：突击步枪\\n分类：能量 (电浆)\\n\\n电池容量：35\\n射速：500 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S2)，枪管 (S2)，下挂 (S2)\\n\\n “卡纳” 是卡斯塔克武器公司生产的一款经典的电浆突击步枪。这支中距离突击步枪具有充能和全自动射击模式，各种模式之间的切换也极为简单方便。其硬朗的外观线条和经久耐用的可靠性与其强大的火力相得益彰，使得 “卡纳” 突击步枪成为卡斯塔克武器公司最受欢迎的武器之一。悍妇特别版的特点是其大胆的红色顶部装饰和武器下半部分的灰色饰面。"
+    },
+    "item_descksar_rifle_energy_01_red_green01": {
+      "key": "item_Descksar_rifle_energy_01_red_green01",
+      "value": "制造商：卡斯塔克武器 (Kastak Arms)\\n物品类型：突击步枪\\n分类：能量 (电浆)\\n\\n电池容量：35\\n射速：500 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S2)，枪管 (S2)，下挂 (S2)\\n\\n “卡纳” 是卡斯塔克武器公司生产的一款经典的电浆突击步枪。这支中距离突击步枪具有充能和全自动射击模式，各种模式之间的切换也极为简单方便。其硬朗的外观线条和经久耐用的可靠性与其强大的火力相得益彰，使得 “卡纳” 突击步枪成为卡斯塔克武器公司最受欢迎的武器之一。这款特殊的绿红色日落阿尔卑斯版必将成为送给你爱人的一份很棒的光灯节礼物。"
+    },
+    "item_descksar_rifle_energy_01_store01": {
+      "key": "item_Descksar_rifle_energy_01_store01",
+      "value": "制造商：卡斯塔克武器 (Kastak Arms)\\n物品类型：突击步枪\\n分类：能量 (电浆)\\n\\n电池容量：35\\n射速：500 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S2)，枪管 (S2)，下挂 (S2)\\n\\n “卡纳” 是卡斯塔克武器公司生产的一款经典的电浆突击步枪。这支中距离突击步枪具有充能和全自动射击模式，各种模式之间的切换也极为简单方便。其硬朗的外观线条和经久耐用的可靠性与其强大的火力相得益彰，使得 “卡纳” 突击步枪成为卡斯塔克武器公司最受欢迎的武器之一。\\n\\n这款统御迷彩版为步枪增添了深绿色迷彩图案。"
+    },
+    "item_descnone_pistol_ballistic_01": {
+      "key": "item_Descnone_pistol_ballistic_01",
+      "value": "制造商：未知\\n物品类型：手枪\\n分类：实弹\\n\\n弹匣容量：12\\n射速：185 rpm\\n有效射程：10 米\\n\\n可搭载附件：瞄具 (S1)，枪管  (N/A)，下挂 (S1)\\n\\n由于采用了三管结构，每次扣动扳机时这把栓动式三重击手枪可以发射三发霰弹，足以应对从小争执到大规模斗殴等各种情况。"
+    },
+    "item_descnone_pistol_ballistic_01_collector01": {
+      "key": "item_Descnone_pistol_ballistic_01_collector01",
+      "value": "制造商：未知\\n物品类型：手枪\\n分类：实弹\\n\\n弹匣容量：12\\n射速：185 rpm\\n有效射程：10 米\\n\\n可搭载附件：瞄具 (S1)，枪管  (N/A)，下挂 (S1)\\n\\n由于采用了三管结构，每次扣动扳机时这把栓动式三重击手枪可以发射三发霰弹，足以应对从小争执到大规模斗殴等各种情况。\\n\\n“热浪”版以黑色为主，配有发光的红色装饰。"
+    },
+    "item_descnone_pistol_ballistic_01_mag": {
+      "key": "item_Descnone_pistol_ballistic_01_mag",
+      "value": "物品类型：弹匣\\n容量：12\\n\\n这款用于三重击手枪的弹匣预装了 12 枚 鹿弹。"
+    },
+    "item_descnone_pistol_ballistic_01_tint01": {
+      "key": "item_Descnone_pistol_ballistic_01_tint01",
+      "value": "制造商：未知\\n物品类型：手枪\\n分类：实弹\\n\\n弹匣容量：12\\n射速：185 rpm\\n有效射程：10 米\\n\\n可搭载附件：瞄具 (S1)，枪管  (N/A)，下挂 (S1)\\n\\n由于采用了三管结构，每次扣动扳机时这把栓动式三重击手枪可以发射三发霰弹，足以应对从小争执到大规模斗殴等各种情况。\\n\\n这款暗黑版采用灰色金属材质，握把上有黄色装饰线条。"
+    },
+    "item_descnone_pistol_ballistic_01_tint02": {
+      "key": "item_Descnone_pistol_ballistic_01_tint02",
+      "value": "制造商：未知\\n物品类型：手枪\\n分类：实弹\\n\\n弹匣容量：12\\n射速：185 rpm\\n有效射程：10 米\\n\\n可搭载附件：瞄具 (S1)，枪管  (N/A)，下挂 (S1)\\n\\n由于采用了三管结构，每次扣动扳机时这把栓动式三重击手枪可以发射三发霰弹，足以应对从小争执到大规模斗殴等各种情况。\\n\\n这款重金属版采用闪亮金属材质，握把上有灰色装饰线条。"
+    },
+    "item_descnone_pistol_ballistic_01_tint03": {
+      "key": "item_Descnone_pistol_ballistic_01_tint03",
+      "value": "制造商：未知\\n物品类型：手枪\\n分类：实弹\\n\\n弹匣容量：12\\n射速：185 rpm\\n有效射程：10 米\\n\\n可搭载附件：瞄具 (S1)，枪管  (N/A)，下挂 (S1)\\n\\n由于采用了三管结构，每次扣动扳机时这把栓动式三重击手枪可以发射三发霰弹，足以应对从小争执到大规模斗殴等各种情况。\\n\\n这款岭背版采用蓝色涂装，握把上有橙色装饰线条。"
+    },
+    "item_descnone_rifle_multi_01": {
+      "key": "item_Descnone_rifle_multi_01",
+      "value": "制造商：未知\\n物品类型：突击步枪\\n分类：实弹\\n\\n弹匣容量：45\\n射速：525 rpm\\n有效射程：50 米\\n\\n情人眼里出西施，而如果你瞄得够准，敌人眼里也会长出绝杀突击步枪的子弹来。这把枪的经典设计虽然缺少了点优雅，但有着自己独特的硬汉魅力。"
+    },
+    "item_descnone_rifle_multi_01_collector01": {
+      "key": "item_Descnone_rifle_multi_01_collector01",
+      "value": "制造商：未知\\n物品类型：突击步枪\\n分类：实弹\\n\\n弹匣容量：45\\n射速：525 rpm\\n有效射程：50 米\\n\\n情人眼里出西施，而如果你瞄得够准，敌人眼里也会长出绝杀突击步枪的子弹来。这把枪的经典设计虽然缺少了点优雅，但有着自己独特的硬汉魅力。\\n\\n这款统御迷彩版为步枪增添了深绿色迷彩图案。"
+    },
+    "item_descnone_rifle_multi_01_mag": {
+      "key": "item_Descnone_rifle_multi_01_mag",
+      "value": "物品类型：弹匣\\n容量：45\\n\\n这款用于绝杀突击步枪的弹匣预装了 45 枚子弹。"
+    },
+    "item_descnone_rifle_multi_01_store01": {
+      "key": "item_Descnone_rifle_multi_01_store01",
+      "value": "制造商：未知\\n物品类型：突击步枪\\n分类：实弹\\n\\n弹匣容量：45\\n射速：525 rpm\\n有效射程：50 米\\n\\n情人眼里出西施，而如果你瞄得够准，敌人眼里也会长出绝杀突击步枪的子弹来。这把枪的经典设计虽然缺少了点优雅，但有着自己独特的硬汉魅力。\\n\\n这款血偿版被喷上了红色油漆，还用骨头碎片和剜度护甲部件做了装饰。"
+    },
+    "item_descnone_rifle_multi_01_tint01": {
+      "key": "item_Descnone_rifle_multi_01_tint01",
+      "value": "制造商：未知\\n物品类型：突击步枪\\n分类：实弹\\n\\n弹匣容量：45\\n射速：525 rpm\\n有效射程：50 米\\n\\n情人眼里出西施，而如果你瞄得够准，敌人眼里也会长出绝杀突击步枪的子弹来。这把枪的经典设计虽然缺少了点优雅，但有着自己独特的硬汉魅力。\\n\\n这款褪色版采用白色涂装。"
+    },
+    "item_descnone_rifle_multi_01_tint02": {
+      "key": "item_Descnone_rifle_multi_01_tint02",
+      "value": "制造商：未知\\n物品类型：突击步枪\\n分类：实弹\\n\\n弹匣容量：45\\n射速：525 rpm\\n有效射程：50 米\\n\\n情人眼里出西施，而如果你瞄得够准，敌人眼里也会长出绝杀突击步枪的子弹来。这把枪的经典设计虽然缺少了点优雅，但有着自己独特的硬汉魅力。\\n\\n这款好梦版采用深海军蓝涂装。"
+    },
+    "item_descnone_rifle_multi_01_tint03": {
+      "key": "item_Descnone_rifle_multi_01_tint03",
+      "value": "制造商：未知\\n物品类型：突击步枪\\n分类：实弹\\n\\n弹匣容量：45\\n射速：525 rpm\\n有效射程：50 米\\n\\n情人眼里出西施，而如果你瞄得够准，敌人眼里也会长出绝杀突击步枪的子弹来。这把枪的经典设计虽然缺少了点优雅，但有着自己独特的硬汉魅力。\\n\\n这款血腥版采用红色涂装。"
+    },
+    "item_descnone_special_ballistic_01": {
+      "key": "item_Descnone_special_ballistic_01",
+      "value": "制造商：未知\\n物品类型：发射器\\n类型：火箭\\n\\n弹匣容量：1\\n射速：20 rpm\\n有效射程：100 m\\n\\n谁有时间去瞄准啊？只要你有足够的空间来避开射击距离，就把爆破筒发射器对准你不喜欢的任何东西，扣动扳机，然后看着三弹头火箭玩意儿把剩下的都解决了。有时候简单就是最好的。"
+    },
+    "item_descnone_special_ballistic_01_collector01": {
+      "key": "item_Descnone_special_ballistic_01_collector01",
+      "value": "制造商：未知\\n物品类型：发射器\\n类型：火箭\\n\\n弹匣容量：1\\n射速：20 rpm\\n有效射程：100 m\\n\\n谁有时间去瞄准啊？只要你有足够的空间来避开射击距离，就把爆破筒发射器对准你不喜欢的任何东西，扣动扳机，然后看着三弹头火箭玩意儿把剩下的都解决了。有时候简单就是最好的。\\n\\n这款氏卫版经过改良，加入了剜度材料和外星文物。"
+    },
+    "item_descnone_special_ballistic_01_rocket": {
+      "key": "item_Descnone_special_ballistic_01_rocket",
+      "value": "物品类型：火箭\\n弹匣容量：1\\n\\n这“火箭”是专为爆破筒设计的，基本上就是把三个手榴弹绑在了一起。祝你好运！"
+    },
+    "item_descnone_special_ballistic_01_store01": {
+      "key": "item_Descnone_special_ballistic_01_store01",
+      "value": "制造商：未知\\n物品类型：发射器\\n类型：火箭\\n\\n弹匣容量：1\\n射速：20 rpm\\n有效射程：100 m\\n\\n谁有时间去瞄准啊？只要你有足够的空间来避开射击距离，就把爆破筒发射器对准你不喜欢的任何东西，扣动扳机，然后看着三弹头火箭玩意儿把剩下的都解决了。有时候简单就是最好的。"
+    },
+    "item_descnone_special_ballistic_01_tint01": {
+      "key": "item_Descnone_special_ballistic_01_tint01",
+      "value": "制造商：未知\\n物品类型：发射器\\n类型：火箭\\n\\n弹匣容量：1\\n射速：20 rpm\\n有效射程：100 m\\n\\n谁有时间去瞄准啊？只要你有足够的空间来避开射击距离，就把爆破筒发射器对准你不喜欢的任何东西，扣动扳机，然后看着三弹头火箭玩意儿把剩下的都解决了。有时候简单就是最好的。\\n\\n这款红宝石版带有红色色调。"
+    },
+    "item_descnone_special_ballistic_01_tint02": {
+      "key": "item_Descnone_special_ballistic_01_tint02",
+      "value": "制造商：未知\\n物品类型：发射器\\n类型：火箭\\n\\n弹匣容量：1\\n射速：20 rpm\\n有效射程：100 m\\n\\n谁有时间去瞄准啊？只要你有足够的空间来避开射击距离，就把爆破筒发射器对准你不喜欢的任何东西，扣动扳机，然后看着三弹头火箭玩意儿把剩下的都解决了。有时候简单就是最好的。\\n\\n这款绿钞版带有绿色色调。"
+    },
+    "item_descvolt_lmg_energy_01": {
+      "key": "item_Descvolt_lmg_energy_01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：轻机枪\\n分类：能量 (电子)\\n\\n电池容量：165\\n射速：550 rpm - 220 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S3)，下挂 (S3)\\n\\nVOLT 的工程师们打造了菲涅耳轻机枪，把一款威力强大的能量武器带到了前线，让它能用一连串迅猛的致命火力率先拉开战斗序幕。随着武器温度升高，射击速度会变慢，但威力会更强，不过要小心别过热。如此威力的武器需要稳固的支撑；建议操作者采用蹲姿射击，以便更好地控制后坐力。"
+    },
+    "item_descvolt_lmg_energy_01_collector01": {
+      "key": "item_Descvolt_lmg_energy_01_collector01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：轻机枪\\n分类：能量 (电子)\\n\\n电池容量：165\\n射速：550 rpm - 220 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S3)，下挂 (S3)\\n\\nVOLT 的工程师们打造了菲涅耳轻机枪，把一款威力强大的能量武器带到了前线，让它能用一连串迅猛的致命火力率先拉开战斗序幕。随着武器温度升高，射击速度会变慢，但威力会更强，不过要小心别过热。如此威力的武器需要稳固的支撑；建议操作者采用蹲姿射击，以便更好地控制后坐力。\\n\\n深水版将褪色的蓝色与深邃的黑色元素相结合。"
+    },
+    "item_descvolt_lmg_energy_01_collector02": {
+      "key": "item_Descvolt_lmg_energy_01_collector02",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：轻机枪\\n分类：能量 (电子)\\n\\n电池容量：165\\n射速：550 rpm - 220 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S3)，下挂 (S3)\\n\\nVOLT 的工程师们打造了菲涅耳轻机枪，把一款威力强大的能量武器带到了前线，让它能用一连串迅猛的致命火力率先拉开战斗序幕。随着武器温度升高，射击速度会变慢，但威力会更强，不过要小心别过热。如此威力的武器需要稳固的支撑；建议操作者采用蹲姿射击，以便更好地控制后坐力。\\n\\n这款约曼迪版主体呈现斑驳的绿色，侧面印有这种凶猛爬行动物的图案。"
+    },
+    "item_descvolt_lmg_energy_01_mag": {
+      "key": "item_Descvolt_lmg_energy_01_mag",
+      "value": "物品类型：电池\\n容量：165\\n\\n这款电池用于菲涅耳轻机枪，储存的能量足够进行 165 次射击。"
+    },
+    "item_descvolt_lmg_energy_01_store01": {
+      "key": "item_Descvolt_lmg_energy_01_store01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：轻机枪\\n分类：能量 (电子)\\n\\n电池容量：165\\n射速：550 rpm - 220 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S3)，下挂 (S3)\\n\\nVOLT 的工程师们打造了菲涅耳轻机枪，把一款威力强大的能量武器带到了前线，让它能用一连串迅猛的致命火力率先拉开战斗序幕。随着武器温度升高，射击速度会变慢，但威力会更强，不过要小心别过热。如此威力的武器需要稳固的支撑；建议操作者采用蹲姿射击，以便更好地控制后坐力。\\n\\n极乐版将金色的带翼骷髅花纹与深蓝色相融合。"
+    },
+    "item_descvolt_lmg_energy_01_store02": {
+      "key": "item_Descvolt_lmg_energy_01_store02",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：轻机枪\\n分类：能量 (电子)\\n\\n电池容量：165\\n射速：550 rpm - 220 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S3)，下挂 (S3)\\n\\nVOLT 的工程师们打造了菲涅耳轻机枪，把一款威力强大的能量武器带到了前线，让它能用一连串迅猛的致命火力率先拉开战斗序幕。随着武器温度升高，射击速度会变慢，但威力会更强，不过要小心别过热。如此威力的武器需要稳固的支撑；建议操作者采用蹲姿射击，以便更好地控制后坐力。\\n\\n这款鎏影版采用深灰色，并配有时尚的金色点缀。"
+    },
+    "item_descvolt_lmg_energy_01_tint01": {
+      "key": "item_Descvolt_lmg_energy_01_tint01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：轻机枪\\n分类：能量 (电子)\\n\\n电池容量：165\\n射速：550 rpm - 220 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S3)，下挂 (S3)\\n\\nVOLT 的工程师们打造了菲涅耳轻机枪，把一款威力强大的能量武器带到了前线，让它能用一连串迅猛的致命火力率先拉开战斗序幕。随着武器温度升高，射击速度会变慢，但威力会更强，不过要小心别过热。如此威力的武器需要稳固的支撑；建议操作者采用蹲姿射击，以便更好地控制后坐力。\\n\\n熔火版采用深邃的黑色，其间贯穿一道猩红色的条纹。"
+    },
+    "item_descvolt_lmg_energy_01_tint02": {
+      "key": "item_Descvolt_lmg_energy_01_tint02",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：轻机枪\\n分类：能量 (电子)\\n\\n电池容量：165\\n射速：550 rpm - 220 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S3)，下挂 (S3)\\n\\nVOLT 的工程师们打造了菲涅耳轻机枪，把一款威力强大的能量武器带到了前线，让它能用一连串迅猛的致命火力率先拉开战斗序幕。随着武器温度升高，射击速度会变慢，但威力会更强，不过要小心别过热。如此威力的武器需要稳固的支撑；建议操作者采用蹲姿射击，以便更好地控制后坐力。\\n\\n冰牢版采用冰冷的白色搭配冷蓝色元素。"
+    },
+    "item_descvolt_lmg_energy_01_tint03": {
+      "key": "item_Descvolt_lmg_energy_01_tint03",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：轻机枪\\n分类：能量 (电子)\\n\\n电池容量：165\\n射速：550 rpm - 220 rpm\\n有效射程：50 米\\n\\n附件：瞄具 (S3)，下挂 (S3)\\n\\nVOLT 的工程师们打造了菲涅耳轻机枪，把一款威力强大的能量武器带到了前线，让它能用一连串迅猛的致命火力率先拉开战斗序幕。随着武器温度升高，射击速度会变慢，但威力会更强，不过要小心别过热。如此威力的武器需要稳固的支撑；建议操作者采用蹲姿射击，以便更好地控制后坐力。\\n\\n岩崩版呈现出粗犷的绿色，并带有自然风格的装饰细节。"
+    },
+    "item_descvolt_rifle_energy_01": {
+      "key": "item_Descvolt_rifle_energy_01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：突击步枪\\n分类：能量 (电子)\\n\\n电池容量：80\\n射速：200 rpm - 光束\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n凭借视差，VOLT 为消费者提供了一款坚固的突击步枪设计，具有超大电池和独特的作动器等特点，使得武器在射击时能够转变为持续的光束。"
+    },
+    "item_descvolt_rifle_energy_01_black01": {
+      "key": "item_Descvolt_rifle_energy_01_black01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：突击步枪\\n分类：能量 (电子)\\n\\n电池容量：80\\n射速：200 rpm - 光束\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n凭借视差，VOLT 为消费者提供了一款坚固的突击步枪设计，具有超大电池和独特的作动器等特点，使得武器在射击时能够转变为持续的光束。这款特别版带有赫斯顿的标志。"
+    },
+    "item_descvolt_rifle_energy_01_black_gold01": {
+      "key": "item_Descvolt_rifle_energy_01_black_gold01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：突击步枪\\n分类：能量 (电子)\\n\\n电池容量：80\\n射速：200 rpm - 光束\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n凭借视差，VOLT 为消费者提供了一款坚固的突击步枪设计，具有超大电池和独特的作动器等特点，使得武器在射击时能够转变为持续的光束。\\n\\n“暴流迷彩”版以其大胆的黑色外观和优雅的金色细节为特色。"
+    },
+    "item_descvolt_rifle_energy_01_blue01": {
+      "key": "item_Descvolt_rifle_energy_01_blue01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：突击步枪\\n分类：能量 (电子)\\n\\n电池容量：80\\n射速：200 rpm - 光束\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n凭借视差，VOLT 为消费者提供了一款坚固的突击步枪设计，具有超大电池和独特的作动器等特点，使得武器在射击时能够转变为持续的光束。这款特别版带有十字军的标志。"
+    },
+    "item_descvolt_rifle_energy_01_camo01": {
+      "key": "item_Descvolt_rifle_energy_01_camo01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：突击步枪\\n分类：能量 (电子)\\n\\n电池容量：80\\n射速：200 rpm - 光束\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n凭借视差，VOLT 为消费者提供了一款坚固的突击步枪设计，具有超大电池和独特的作动器等特点，使得武器在射击时能够转变为持续的光束。\\n\\n“震爆步兵”版采用城市灰色的数字印刷迷彩图案，配有一个绝缘的橙色顶部。"
+    },
+    "item_descvolt_rifle_energy_01_collector01": {
+      "key": "item_Descvolt_rifle_energy_01_collector01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：突击步枪\\n分类：能量 (电子)\\n\\n电池容量：80\\n射速：200 rpm - 光束\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n凭借视差，VOLT 为消费者提供了一款坚固的突击步枪设计，具有超大电池和独特的作动器等特点，使得武器在射击时能够转变为持续的光束。\\n\\n这款改装版的原版步枪在武器侧面展示了印刷的寇骈犬图案，枪口上装饰着一小块寇骈犬的獠牙。"
+    },
+    "item_descvolt_rifle_energy_01_collector02": {
+      "key": "item_Descvolt_rifle_energy_01_collector02",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：突击步枪\\n分类：能量 (电子)\\n\\n电池容量：80\\n射速：200 rpm - 光束\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n凭借视差，VOLT 为消费者提供了一款坚固的突击步枪设计，具有超大电池和独特的作动器等特点，使得武器在射击时能够转变为持续的光束。\\n\\n这款改装版的原版步枪在武器侧面展示了印刷的寇骈犬图案，枪口上装饰着一小块寇骈犬的骷髅。"
+    },
+    "item_descvolt_rifle_energy_01_collector03": {
+      "key": "item_Descvolt_rifle_energy_01_collector03",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：突击步枪\\n分类：能量 (电子)\\n\\n电池容量：80\\n射速：200 rpm - 光束\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n凭借视差，VOLT 为消费者提供了一款坚固的突击步枪设计，具有超大电池和独特的作动器等特点，使得武器在射击时能够转变为持续的光束。\\n\\n这款改装版的原版步枪采用了受月球表面启发的迷彩图案，枪口上绑着一小块寇骈犬的獠牙。"
+    },
+    "item_descvolt_rifle_energy_01_collector04": {
+      "key": "item_Descvolt_rifle_energy_01_collector04",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：突击步枪\\n分类：能量 (电子)\\n\\n电池容量：80\\n射速：200 rpm - 光束\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n凭借视差，VOLT 为消费者提供了一款坚固的突击步枪设计，具有超大电池和独特的作动器等特点，使得武器在射击时能够转变为持续的光束。\\n\\n这款改装版的原版步枪采用了受月球表面启发的迷彩图案，枪口上绑着一小块寇骈犬的獠牙。"
+    },
+    "item_descvolt_rifle_energy_01_lumi01": {
+      "key": "item_Descvolt_rifle_energy_01_lumi01",
+      "value": "制造商：鉴星激光科技(Verified Offworld Laser Technologies)\\n物品类型：突击步枪\\n分类：能量 (电子)\\n\\n电池容量：80\\n射速：200 rpm - 光束\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n凭借视差，VOLT 为消费者提供了一款坚固的突击步枪设计，具有超大电池和独特的作动器等特点，使得武器在射击时能够转变为持续的光束。\\n\\n在企鹅皮可的帮助下用这款绿色的皮可欢庆版本点亮这个光灯节的夜晚。皮可被装饰在侧面。"
+    },
+    "item_descvolt_rifle_energy_01_mag": {
+      "key": "item_Descvolt_rifle_energy_01_mag",
+      "value": "物品类型：电池\\n容量：80\\n\\n这款电池用于视差能量突击步枪，储存的能量足够进行 80 次射击。"
+    },
+    "item_descvolt_rifle_energy_01_red01": {
+      "key": "item_Descvolt_rifle_energy_01_red01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：突击步枪\\n分类：能量 (电子)\\n\\n电池容量：80\\n射速：200 rpm - 光束\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n凭借视差，VOLT 为消费者提供了一款坚固的突击步枪设计，具有超大电池和独特的作动器等特点，使得武器在射击时能够转变为持续的光束。这款特别版带有弧光集团的标志。"
+    },
+    "item_descvolt_rifle_energy_01_tint01": {
+      "key": "item_Descvolt_rifle_energy_01_tint01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：突击步枪\\n分类：能量 (电子)\\n\\n电池容量：80\\n射速：200 rpm - 光束\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n凭借视差，VOLT 为消费者提供了一款坚固的突击步枪设计，具有超大电池和独特的作动器等特点，使得武器在射击时能够转变为持续的光束。\\n\\n“日光石”版采用沙漠橙和哑光黑的组合，营造出一种精致的外观。"
+    },
+    "item_descvolt_rifle_energy_01_tint02": {
+      "key": "item_Descvolt_rifle_energy_01_tint02",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：突击步枪\\n分类：能量 (电子)\\n\\n电池容量：80\\n射速：200 rpm - 光束\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n凭借视差，VOLT 为消费者提供了一款坚固的突击步枪设计，具有超大电池和独特的作动器等特点，使得武器在射击时能够转变为持续的光束。\\n\\n“血红”版将深红色与清新的灰色形成对比，让人联想到紧急医疗服务。"
+    },
+    "item_descvolt_rifle_energy_01_uee01": {
+      "key": "item_Descvolt_rifle_energy_01_uee01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：突击步枪\\n分类：能量 (电子)\\n\\n电池容量：80\\n射速：200 rpm - 光束\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n凭借视差，VOLT 为消费者提供了一款坚固的突击步枪设计，具有超大电池和独特的作动器等特点，使得武器在射击时能够转变为持续的光束。\\n\\n这款GCD-陆军版本使用黄色的线缆，并装饰着深灰和浅灰相间的数码迷彩图案。"
+    },
+    "item_descvolt_rifle_energy_01_white01": {
+      "key": "item_Descvolt_rifle_energy_01_white01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：突击步枪\\n分类：能量 (电子)\\n\\n电池容量：80\\n射速：200 rpm - 光束\\n有效射程：30 米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n凭借视差，VOLT 为消费者提供了一款坚固的突击步枪设计，具有超大电池和独特的作动器等特点，使得武器在射击时能够转变为持续的光束。这款特别版带有微科的标志。"
+    },
+    "item_descvolt_shotgun_energy_01": {
+      "key": "item_Descvolt_shotgun_energy_01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：霰弹枪\\n类别：能量 (激光)\\n\\n电池容量：20\\n射速：200-450 rpm\\n有效射程：10米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n鉴星激光科技的工程师们开发了这款能够发射强大的短程能量冲击的棱镜激光霰弹枪。随着武器热量的上升，弹丸会开始融合成蛞蝓形状的弹头，对目标造成更高的伤害。"
+    },
+    "item_descvolt_shotgun_energy_01_black01": {
+      "key": "item_Descvolt_shotgun_energy_01_black01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：霰弹枪\\n类别：能量 (激光)\\n\\n电池容量：20\\n射速：200-450 rpm\\n有效射程：10米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n鉴星激光科技的工程师们开发了这款能够发射强大的短程能量冲击的棱镜激光霰弹枪。随着武器热量的上升，弹丸会开始融合成蛞蝓形状的弹头，对目标造成更高的伤害。这款特别版带有赫斯顿的标志。"
+    },
+    "item_descvolt_shotgun_energy_01_blue01": {
+      "key": "item_Descvolt_shotgun_energy_01_blue01,P",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：霰弹枪\\n类别：能量 (激光)\\n\\n电池容量：20\\n射速：200-450 rpm\\n有效射程：10米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n鉴星激光科技的工程师们开发了这款能够发射强大的短程能量冲击的棱镜激光霰弹枪。随着武器热量的上升，弹丸会开始融合成蛞蝓形状的弹头，对目标造成更高的伤害。这款特别版带有十字军的标志。"
+    },
+    "item_descvolt_shotgun_energy_01_collector01": {
+      "key": "item_Descvolt_shotgun_energy_01_collector01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：霰弹枪\\n类别：能量 (激光)\\n\\n电池容量：20\\n射速：200-450 rpm\\n有效射程：10米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n鉴星激光科技的工程师们开发了这款能够发射强大的短程能量冲击的棱镜激光霰弹枪。随着武器热量的上升，弹丸会开始融合成蛞蝓形状的弹头，对目标造成更高的伤害。这款辐照版特点是一只瓦拉卡喷洒着它的剧毒毒液。"
+    },
+    "item_descvolt_shotgun_energy_01_mag": {
+      "key": "item_Descvolt_shotgun_energy_01_mag",
+      "value": "物品类型：电池\\n容量：20\\n\\n这款电池用于棱镜霰弹枪，储存的能量足够进行 20 次射击。"
+    },
+    "item_descvolt_shotgun_energy_01_red01": {
+      "key": "item_Descvolt_shotgun_energy_01_red01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：霰弹枪\\n类别：能量 (激光)\\n\\n电池容量：20\\n射速：200-450 rpm\\n有效射程：10米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n鉴星激光科技的工程师们开发了这款能够发射强大的短程能量冲击的棱镜激光霰弹枪。随着武器热量的上升，弹丸会开始融合成蛞蝓形状的弹头，对目标造成更高的伤害。这款特别版带有弧光集团的标志。"
+    },
+    "item_descvolt_shotgun_energy_01_store01": {
+      "key": "item_Descvolt_shotgun_energy_01_store01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：霰弹枪\\n类别：能量 (激光)\\n\\n电池容量：20\\n射速：200-450 rpm\\n有效射程：10米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n鉴星激光科技的工程师们开发了这款能够发射强大的短程能量冲击的棱镜激光霰弹枪。随着武器热量的上升，弹丸会开始融合成蛞蝓形状的弹头，对目标造成更高的伤害。这款危险黄版采用安全黄配色，带有对角黑条纹。"
+    },
+    "item_descvolt_shotgun_energy_01_store02": {
+      "key": "item_Descvolt_shotgun_energy_01_store02",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：霰弹枪\\n类别：能量 (激光)\\n\\n电池容量：10\\n射速：120 rpm\\n有效射程：10 米\\n\\n附件：枪管 (S3)，瞄具 (S1)，下挂 (S2)\\n\\n鉴星激光科技的工程师们开发了这款能够发射强大的短程能量冲击的棱镜激光霰弹枪。随着武器热量的上升，弹丸会开始融合成蛞蝓形状的弹头，对目标造成更高的伤害。这款破碎迷彩版采用了碳纤维灰和黑色，印着破坏性图案，让你的敌人摸不着头脑。"
+    },
+    "item_descvolt_shotgun_energy_01_tint01": {
+      "key": "item_Descvolt_shotgun_energy_01_tint01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：霰弹枪\\n类别：能量 (激光)\\n\\n电池容量：20\\n射速：200-450 rpm\\n有效射程：10米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n鉴星激光科技的工程师们开发了这款能够发射强大的短程能量冲击的棱镜激光霰弹枪。随着武器热量的上升，弹丸会开始融合成蛞蝓形状的弹头，对目标造成更高的伤害。这款骨粉版为棕褐色，带有紫蓝色的点缀。"
+    },
+    "item_descvolt_shotgun_energy_01_tint02": {
+      "key": "item_Descvolt_shotgun_energy_01_tint02",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：霰弹枪\\n类别：能量 (激光)\\n\\n电池容量：20\\n射速：200-450 rpm\\n有效射程：10米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n鉴星激光科技的工程师们开发了这款能够发射强大的短程能量冲击的棱镜激光霰弹枪。随着武器热量的上升，弹丸会开始融合成蛞蝓形状的弹头，对目标造成更高的伤害。深海版主体黑色，带有深蓝色的点缀。"
+    },
+    "item_descvolt_shotgun_energy_01_tint03": {
+      "key": "item_Descvolt_shotgun_energy_01_tint03",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：霰弹枪\\n类别：能量 (激光)\\n\\n电池容量：20\\n射速：200-450 rpm\\n有效射程：10米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n鉴星激光科技的工程师们开发了这款能够发射强大的短程能量冲击的棱镜激光霰弹枪。随着武器热量的上升，弹丸会开始融合成蛞蝓形状的弹头，对目标造成更高的伤害。这款炎钢版由灰色基底和红色点缀组成。"
+    },
+    "item_descvolt_shotgun_energy_01_white01": {
+      "key": "item_Descvolt_shotgun_energy_01_white01,P",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：霰弹枪\\n类别：能量 (激光)\\n\\n电池容量：20\\n射速：200-450 rpm\\n有效射程：10米\\n\\n附件：瞄具 (S2)，下挂 (S2)\\n\\n鉴星激光科技的工程师们开发了这款能够发射强大的短程能量冲击的棱镜激光霰弹枪。随着武器热量的上升，弹丸会开始融合成蛞蝓形状的弹头，对目标造成更高的伤害。这款特别版带有微科的标志。"
+    },
+    "item_descvolt_smg_energy_01": {
+      "key": "item_Descvolt_smg_energy_01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：冲锋枪\\n类别：能量 (电子)\\n\\n电池容量：45\\n射速：光束\\n有效射程：15-20 米\\n\\n附件：瞄具 (S1)，下挂 (S1)\\n\\n制造商 VOLT 的石英冲锋枪采用了令人兴奋的新武器技术，发射短程光束，随着射击时间的延长，光束会分裂成多个光束，使其成为一种极为有效的近战武器。"
+    },
+    "item_descvolt_smg_energy_01_black01": {
+      "key": "item_Descvolt_smg_energy_01_black01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：冲锋枪\\n类别：能量 (电子)\\n\\n电池容量：45\\n射速：光束\\n有效射程：15-20 米\\n\\n附件：瞄具 (S1)，下挂 (S1)\\n\\n制造商 VOLT 的石英冲锋枪采用了令人兴奋的新武器技术，发射短程光束，随着射击时间的延长，光束会分裂成多个光束，使其成为一种极为有效的近战武器。这款特别版带有赫斯顿的标志。"
+    },
+    "item_descvolt_smg_energy_01_blue01": {
+      "key": "item_Descvolt_smg_energy_01_blue01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：冲锋枪\\n类别：能量 (电子)\\n\\n电池容量：45\\n射速：光束\\n有效射程：15-20 米\\n\\n附件：瞄具 (S1)，下挂 (S1)\\n\\n制造商 VOLT 的石英冲锋枪采用了令人兴奋的新武器技术，发射短程光束，随着射击时间的延长，光束会分裂成多个光束，使其成为一种极为有效的近战武器。这款特别版带有十字军的标志。"
+    },
+    "item_descvolt_smg_energy_01_collector01": {
+      "key": "item_Descvolt_smg_energy_01_collector01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：冲锋枪\\n类别：能量 (电子)\\n\\n电池容量：45\\n射速：光束\\n有效射程：15-20 米\\n\\n附件：瞄具 (S1)，下挂 (S1)\\n\\n制造商 VOLT 的石英冲锋枪采用了令人兴奋的新武器技术，发射短程光束，随着射击时间的延长，光束会分裂成多个光束，使其成为一种极为有效的近战武器。\\n\\n“丛林迷彩”版为武器提供了经典的深绿色迷彩图案。"
+    },
+    "item_descvolt_smg_energy_01_collector02": {
+      "key": "item_Descvolt_smg_energy_01_collector02",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：冲锋枪\\n类别：能量 (电子)\\n\\n电池容量：45\\n射速：光束\\n有效射程：15-20 米\\n\\n附件：瞄具 (S1)，下挂 (S1)\\n\\n制造商 VOLT 的石英冲锋枪采用了令人兴奋的新武器技术，发射短程光束，随着射击时间的延长，光束会分裂成多个光束，使其成为一种极为有效的近战武器。\\n\\n“猎人迷彩”版将浅褐色、深褐色和黑色结合在一起。"
+    },
+    "item_descvolt_smg_energy_01_collector03": {
+      "key": "item_Descvolt_smg_energy_01_collector03",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：冲锋枪\\n类别：能量 (电子)\\n\\n电池容量：45\\n射速：光束\\n有效射程：15-20 米\\n\\n附件：瞄具 (S1)，下挂 (S1)\\n\\n制造商 VOLT 的石英冲锋枪采用了令人兴奋的新武器技术，发射短程光束，随着射击时间的延长，光束会分裂成多个光束，使其成为一种极为有效的近战武器。\\n\\n“钴蓝迷彩”版采用引人注目的深蓝色和黑色迷彩图案。"
+    },
+    "item_descvolt_smg_energy_01_lumi01": {
+      "key": "item_Descvolt_smg_energy_01_lumi01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：冲锋枪\\n类别：能量 (电子)\\n\\n电池容量：45\\n射速：光束\\n有效射程：15-20 米\\n\\n附件：瞄具 (S1)，下挂 (S1)\\n\\n制造商 VOLT 的石英冲锋枪采用了令人兴奋的新武器技术，发射短程光束，随着射击时间的延长，光束会分裂成多个光束，使其成为一种极为有效的近战武器。\\n\\n在企鹅皮可的帮助下用这款蓝色的皮可欢庆版本点亮这个光灯节的夜晚。皮可被装饰在侧面。"
+    },
+    "item_descvolt_smg_energy_01_mag": {
+      "key": "item_Descvolt_smg_energy_01_mag",
+      "value": "物品类型：电池\\n容量：50\\n\\n这款电池用于石英冲锋枪，储存的能量足够进行 50 次射击。"
+    },
+    "item_descvolt_smg_energy_01_red01": {
+      "key": "item_Descvolt_smg_energy_01_red01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：冲锋枪\\n类别：能量 (电子)\\n\\n电池容量：45\\n射速：光束\\n有效射程：15-20 米\\n\\n附件：瞄具 (S1)，下挂 (S1)\\n\\n制造商 VOLT 的石英冲锋枪采用了令人兴奋的新武器技术，发射短程光束，随着射击时间的延长，光束会分裂成多个光束，使其成为一种极为有效的近战武器。这款特别版带有弧光集团的标志。"
+    },
+    "item_descvolt_smg_energy_01_store01": {
+      "key": "item_Descvolt_smg_energy_01_store01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：冲锋枪\\n类别：能量 (电子)\\n\\n电池容量：45\\n射速：光束\\n有效射程：15-20 米\\n\\n附件：瞄具 (S1)，下挂 (S1)\\n\\n制造商 VOLT 的石英冲锋枪采用了令人兴奋的新武器技术，发射短程光束，随着射击时间的延长，光束会分裂成多个光束，使其成为一种极为有效的近战武器。\\n\\n动态设计的“猛士”版本以蓝色为底色，从枪口到枪托呈现出灰、白、黄渐变的图案。"
+    },
+    "item_descvolt_smg_energy_01_store02": {
+      "key": "item_Descvolt_smg_energy_01_store02",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：冲锋枪\\n类别：能量 (电子)\\n\\n电池容量：45\\n射速：光束\\n有效射程：15-20 米\\n\\n附件：瞄具 (S1)，下挂 (S1)\\n\\n制造商 VOLT 的石英冲锋枪采用了令人兴奋的新武器技术，发射短程光束，随着射击时间的延长，光束会分裂成多个光束，使其成为一种极为有效的近战武器。\\n\\n蓝白相间的漩涡花纹让“爪钢”版本拥有独特的外观。"
+    },
+    "item_descvolt_smg_energy_01_store03": {
+      "key": "item_Descvolt_smg_energy_01_store03",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：冲锋枪\\n类别：能量 (电子)\\n\\n电池容量：45\\n射速：光束\\n有效射程：15-20 米\\n\\n附件：瞄具 (S1)，下挂 (S1)\\n\\n制造商 VOLT 的石英冲锋枪采用了令人兴奋的新武器技术，发射短程光束，随着射击时间的延长，光束会分裂成多个光束，使其成为一种极为有效的近战武器。\\n\\n“新曙光”版本通过令人眼花缭乱的万花筒色彩，为武器带来了真正独特的外观，让人联想起难忘的日出景象。"
+    },
+    "item_descvolt_smg_energy_01_tint01": {
+      "key": "item_Descvolt_smg_energy_01_tint01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：冲锋枪\\n类别：能量 (电子)\\n\\n电池容量：45\\n射速：光束\\n有效射程：15-20 米\\n\\n附件：瞄具 (S1)，下挂 (S1)\\n\\n制造商 VOLT 的石英冲锋枪采用了令人兴奋的新武器技术，发射短程光束，随着射击时间的延长，光束会分裂成多个光束，使其成为一种极为有效的近战武器。\\n\\n“死亡陷阱”版主要是柔和的绿色，搭配黑色高光。"
+    },
+    "item_descvolt_smg_energy_01_tint02": {
+      "key": "item_Descvolt_smg_energy_01_tint02",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：冲锋枪\\n类别：能量 (电子)\\n\\n电池容量：45\\n射速：光束\\n有效射程：15-20 米\\n\\n附件：瞄具 (S1)，下挂 (S1)\\n\\n制造商 VOLT 的石英冲锋枪采用了令人兴奋的新武器技术，发射短程光束，随着射击时间的延长，光束会分裂成多个光束，使其成为一种极为有效的近战武器。\\n\\n石英枪管的绿色光芒在“黑色行动”版全黑的外观中显得格外突出。"
+    },
+    "item_descvolt_smg_energy_01_tint03": {
+      "key": "item_Descvolt_smg_energy_01_tint03",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：冲锋枪\\n类别：能量 (电子)\\n\\n电池容量：45\\n射速：光束\\n有效射程：15-20 米\\n\\n附件：瞄具 (S1)，下挂 (S1)\\n\\n制造商 VOLT 的石英冲锋枪采用了令人兴奋的新武器技术，发射短程光束，随着射击时间的延长，光束会分裂成多个光束，使其成为一种极为有效的近战武器。\\n\\n“流明”版将清晰的白色底色与黑色高光相结合。"
+    },
+    "item_descvolt_smg_energy_01_uee01": {
+      "key": "item_Descvolt_smg_energy_01_uee01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：冲锋枪\\n类别：能量 (电子)\\n\\n电池容量：45\\n射速：光束\\n有效射程：15-20 米\\n\\n附件：瞄具 (S1)，下挂 (S1)\\n\\n制造商 VOLT 的石英冲锋枪采用了令人兴奋的新武器技术，发射短程光束，随着射击时间的延长，光束会分裂成多个光束，使其成为一种极为有效的近战武器。\\n\\n这款GCD-陆军版本使用黄色的线缆，并装饰着深灰和浅灰相间的数码迷彩图案。"
+    },
+    "item_descvolt_smg_energy_01_white01": {
+      "key": "item_Descvolt_smg_energy_01_white01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：冲锋枪\\n类别：能量 (电子)\\n\\n电池容量：45\\n射速：光束\\n有效射程：15-20 米\\n\\n附件：瞄具 (S1)，下挂 (S1)\\n\\n制造商 VOLT 的石英冲锋枪采用了令人兴奋的新武器技术，发射短程光束，随着射击时间的延长，光束会分裂成多个光束，使其成为一种极为有效的近战武器。这款特别版带有微科的标志。"
+    },
+    "item_descvolt_sniper_energy_01": {
+      "key": "item_Descvolt_sniper_energy_01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：狙击步枪\\n类别：能量 (激光)\\n\\n电池容量：22\\n射速：60-300 rpm\\n有效射程：80 米\\n\\n附件：瞄具 (S3)，下挂 (S2)\\n\\nVOLT 公司生产的天顶激光狙击步枪在战场上提供了灵活的操作性，因为它可以快速发射低能量的射击，或者给予时间自动充能，以发射更强大的能量冲击，同时显著产生更多的噪音和热量。"
+    },
+    "item_descvolt_sniper_energy_01_collector01": {
+      "key": "item_Descvolt_sniper_energy_01_collector01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：狙击步枪\\n类别：能量 (激光)\\n\\n电池容量：22\\n射速：60-300 rpm\\n有效射程：80 米\\n\\n附件：瞄具 (S3)，下挂 (S2)\\n\\nVOLT 公司生产的天顶激光狙击步枪在战场上提供了灵活的操作性，因为它可以快速发射低能量的射击，或者给予时间自动充能，以发射更强大的能量冲击，同时显著产生更多的噪音和热量。\\n\\n这款雪地迷彩版采用了白色的数码迷彩图案，非常适合在冰天雪地的环境中悄悄接近猎物。"
+    },
+    "item_descvolt_sniper_energy_01_mag": {
+      "key": "item_Descvolt_sniper_energy_01_mag",
+      "value": "物品类型：电池\\n容量：22\\n\\n这款电池用于天顶激光狙击步枪，储存的能量足够进行 22 次射击。"
+    },
+    "item_descvolt_sniper_energy_01_store01": {
+      "key": "item_Descvolt_sniper_energy_01_store01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：狙击步枪\\n类别：能量 (激光)\\n\\n电池容量：22\\n射速：60-300 rpm\\n有效射程：80 米\\n\\n附件：瞄具 (S3)，下挂 (S2)\\n\\nVOLT 公司生产的天顶激光狙击步枪在战场上提供了灵活的操作性，因为它可以快速发射低能量的射击，或者给予时间自动充能，以发射更强大的能量冲击，同时显著产生更多的噪音和热量。\\n\\n金簇版大部分是黑色的，上面装饰着精美的金色花朵，让你的敌人在死前最后看一眼生命的美好。"
+    },
+    "item_descvolt_sniper_energy_01_tint01": {
+      "key": "item_Descvolt_sniper_energy_01_tint01",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：狙击步枪\\n类别：能量 (激光)\\n\\n电池容量：22\\n射速：60-300 rpm\\n有效射程：80 米\\n\\n附件：瞄具 (S3)，下挂 (S2)\\n\\nVOLT 公司生产的天顶激光狙击步枪在战场上提供了灵活的操作性，因为它可以快速发射低能量的射击，或者给予时间自动充能，以发射更强大的能量冲击，同时显著产生更多的噪音和热量。\\n\\n这款暗潮版突显了步枪设计中锋利的轮廓和棱角。"
+    },
+    "item_descvolt_sniper_energy_01_tint02": {
+      "key": "item_Descvolt_sniper_energy_01_tint02",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：狙击步枪\\n类别：能量 (激光)\\n\\n电池容量：22\\n射速：60-300 rpm\\n有效射程：80 米\\n\\n附件：瞄具 (S3)，下挂 (S2)\\n\\nVOLT 公司生产的天顶激光狙击步枪在战场上提供了灵活的操作性，因为它可以快速发射低能量的射击，或者给予时间自动充能，以发射更强大的能量冲击，同时显著产生更多的噪音和热量。\\n\\n这款山崩版采用了橄榄棕色，与武器本身的自然金属质感相得益彰。"
+    },
+    "item_descvolt_sniper_energy_01_tint03": {
+      "key": "item_Descvolt_sniper_energy_01_tint03",
+      "value": "制造商：鉴星激光科技 (Verified Offworld Laser Technologies)\\n物品类型：狙击步枪\\n类别：能量 (激光)\\n\\n电池容量：22\\n射速：60-300 rpm\\n有效射程：80 米\\n\\n附件：瞄具 (S3)，下挂 (S2)\\n\\nVOLT 公司生产的天顶激光狙击步枪在战场上提供了灵活的操作性，因为它可以快速发射低能量的射击，或者给予时间自动充能，以发射更强大的能量冲击，同时显著产生更多的噪音和热量。\\n\\n这款雷袭版的深灰色突显了这把步枪的沉重感。"
+    },
+    "item_name20mm_tungsten": {
+      "key": "item_Name20mm_Tungsten",
+      "value": "<-=MISSING=->"
+    },
+    "item_namealienaa_fragment_1_large_pristine_a": {
+      "key": "item_NameAlienAA_fragment_1_large_pristine_a",
+      "value": "大型遗物碎片（完好）"
+    },
+    "item_nameasgard_paint_vip_copper": {
+      "key": "item_NameAsgard_Paint_vip_copper",
+      "value": "阿斯加德 英灵殿涂装\\nAsgard Valhalla Livery"
+    },
+    "item_namecarryable_1h_cy_armor_vanduul_1_a": {
+      "key": "item_NameCarryable_1H_CY_armor_vanduul_1_a",
+      "value": "剜度装甲板\\nVanduul Plating"
+    },
+    "item_namecarryable_1h_cy_armor_vanduul_1_b": {
+      "key": "item_NameCarryable_1H_CY_armor_vanduul_1_b",
+      "value": "剜度金属\\nVanduul Metal"
+    },
+    "item_namecarryable_tbo_missionitem_tsg_fueltank": {
+      "key": "item_NameCarryable_TBO_MissionItem_TSG_FuelTank",
+      "value": "过期量子燃料罐\\nExpired Quantanium Fuel Canister"
+    },
+    "item_namecommon_advocacybadge": {
+      "key": "item_NameCommon_AdvocacyBadge",
+      "value": "督导局警徽（复制品）"
+    },
+    "item_namedrink_bottle_smoothie_01_a": {
+      "key": "item_NameDrink_bottle_smoothie_01_a",
+      "value": "浆果冰沙\\nBerry Blend Smoothie\\nHEI:35 NDR:14 免疫增强"
+    },
+    "item_namedrink_bottle_vestal_01_a": {
+      "key": "item_NameDrink_bottle_vestal_01_a",
+      "value": "纯净水 Vestal Water\\nHEI:44 保水"
+    },
+    "item_namefood_icecream_eff_01_fatfree_a": {
+      "key": "item_NameFood_icecream_eff_01_fatfree_a",
+      "value": "埃尔默农庄无脂冰淇淋\\nNDR:10 精力充沛，快速代谢"
+    },
+    "item_namefortune_paint_copper_black": {
+      "key": "item_NameFortune_Paint_Copper_Black",
+      "value": "财运 横财涂装\\nFortune Windfall Livery"
+    },
+    "item_namefortune_paint_green_copper": {
+      "key": "item_NameFortune_Paint_Green_Copper",
+      "value": "财运 高地人涂装\\nFortune Highlander Livery"
+    },
+    "item_namegmni_rifle_ballistic_01": {
+      "key": "item_NameGMNI_rifle_ballistic_01",
+      "value": "S71步枪\\nS71 Rifle"
+    },
+    "item_namegmni_rifle_ballistic_01_collector01": {
+      "key": "item_NameGMNI_rifle_ballistic_01_collector01",
+      "value": "S71 “铁杉迷彩” 步枪\\nS71 \"Hemlock Camo\" Rifle"
+    },
+    "item_namegmni_rifle_ballistic_01_collector01_short": {
+      "key": "item_NameGMNI_rifle_ballistic_01_collector01_short",
+      "value": "S71步枪HC"
+    },
+    "item_namegmni_rifle_ballistic_01_grey_red01": {
+      "key": "item_NameGMNI_rifle_ballistic_01_grey_red01",
+      "value": "S71 “制裁” 步枪\\nS71 \"Justified\" Rifle"
+    },
+    "item_namegmni_rifle_ballistic_01_grey_red01_short": {
+      "key": "item_NameGMNI_rifle_ballistic_01_grey_red01_short",
+      "value": "S71步枪JST"
+    },
+    "item_namegmni_rifle_ballistic_01_short": {
+      "key": "item_NameGMNI_rifle_ballistic_01_short",
+      "value": "S71步枪"
+    },
+    "item_namegmni_rifle_ballistic_01_yellow_blue01": {
+      "key": "item_NameGMNI_rifle_ballistic_01_yellow_blue01",
+      "value": "S71 “穆雷杯竞速” 步枪\\nS71 \"Murray Cup Racing\" Rifle"
+    },
+    "item_namegmni_rifle_ballistic_01_yellow_blue01_short": {
+      "key": "item_NameGMNI_rifle_ballistic_01_yellow_blue01_short",
+      "value": "S71步枪MCR"
+    },
+    "item_namehoverquad_paint_copperhead_white_bronze": {
+      "key": "item_NameHoverQuad_Paint_Copperhead_White_Bronze",
+      "value": "悬浮驷 铜斑蛇涂装\\nHoverQuad Copperhead Livery"
+    },
+    "item_nameksar_pistol_ballistic_01": {
+      "key": "item_NameKSAR_pistol_ballistic_01",
+      "value": "终曲实弹手枪\\nCoda Pistol"
+    },
+    "item_nameksar_pistol_ballistic_01_short": {
+      "key": "item_NameKSAR_pistol_ballistic_01_short",
+      "value": "终曲手枪"
+    },
+    "item_nameksar_pistol_ballistic_01_spc": {
+      "key": "item_NameKSAR_pistol_ballistic_01_spc",
+      "value": "终曲实弹手枪（改）\\nCoda Pistol (Modified)"
+    },
+    "item_nameksar_pistol_ballistic_01_spc_short": {
+      "key": "item_NameKSAR_pistol_ballistic_01_spc_short",
+      "value": "终曲手枪改"
+    },
+    "item_nameksar_rifle_energy_01_blue_gold_01": {
+      "key": "item_NameKsar_rifle_energy_01_blue_gold_01",
+      "value": "卡纳 “英勇” 步枪\\nKarna \"Valor\" Rifle"
+    },
+    "item_nameksar_rifle_energy_01_blue_gold_01_short": {
+      "key": "item_NameKsar_rifle_energy_01_blue_gold_01_short",
+      "value": "卡纳步枪V"
+    },
+    "item_namemxox_neutroncannon_s1": {
+      "key": "item_NameMXOX_NeutronCannon_S1",
+      "value": "NN-13 中子加农炮\\nNN-13 Cannon"
+    },
+    "item_namemxox_neutroncannon_s1_short": {
+      "key": "item_NameMXOX_NeutronCannon_S1_short",
+      "value": "NN-13\\n                      S1"
+    },
+    "item_namemedal_1_damaged_a": {
+      "key": "item_NameMedal_1_damaged_a",
+      "value": "地球联合国（UNE）统一战争勋章（损坏）"
+    },
+    "item_namemedal_1_damaged_b": {
+      "key": "item_NameMedal_1_damaged_b",
+      "value": "地球联合帝国（UEE）六排勋章（损坏）"
+    },
+    "item_namemedal_1_damaged_c": {
+      "key": "item_NameMedal_1_damaged_c",
+      "value": "塔维因战争服役徽记（损坏）"
+    },
+    "item_namemedal_1_damaged_d": {
+      "key": "item_NameMedal_1_damaged_d",
+      "value": "政府制图局勋章（损坏）"
+    },
+    "item_namemedal_1_pristine_a": {
+      "key": "item_NameMedal_1_pristine_a",
+      "value": "地球联合国（UNE）统一战争勋章（完好）"
+    },
+    "item_namemedal_1_pristine_b": {
+      "key": "item_NameMedal_1_pristine_b",
+      "value": "地球联合帝国（UEE）六排勋章（完好）"
+    },
+    "item_namemedal_1_pristine_c": {
+      "key": "item_NameMedal_1_pristine_c",
+      "value": "塔维因战争服役徽记（完好）"
+    },
+    "item_namemedal_1_pristine_d": {
+      "key": "item_NameMedal_1_pristine_d",
+      "value": "政府制图局勋章（完好）"
+    },
+    "item_namemedal_1_worn_a": {
+      "key": "item_NameMedal_1_worn_a",
+      "value": "地球联合国（UNE）统一战争勋章（磨损）"
+    },
+    "item_namemedal_1_worn_b": {
+      "key": "item_NameMedal_1_worn_b",
+      "value": "地球联合帝国（UEE）六排勋章（磨损）"
+    },
+    "item_namemedal_1_worn_c": {
+      "key": "item_NameMedal_1_worn_c",
+      "value": "塔维因战争服役徽记（磨损）"
+    },
+    "item_namemedal_1_worn_d": {
+      "key": "item_NameMedal_1_worn_d",
+      "value": "政府制图局勋章（磨损）"
+    },
+    "item_name_carryable_2h_cy_collectormaterial_001": {
+      "key": "item_Name_Carryable_2H_CY_CollectorMaterial_001",
+      "value": "超材料测试 #146\\nMetamaterial Test #146"
+    },
+    "item_name_grin_utility_medium_arms_02_01_01": {
+      "key": "item_Name_GRIN_utility_medium_arms_02_01_01",
+      "value": "岩层 臂甲\\nStrata Arms"
+    },
+    "item_name_grin_utility_medium_arms_03_04_01": {
+      "key": "item_Name_GRIN_utility_medium_arms_03_04_01",
+      "value": "岩层 臂甲 热浪\\nStrata Arms Heatwave"
+    },
+    "item_name_grin_utility_medium_backpack_02_01_01": {
+      "key": "item_Name_GRIN_utility_medium_backpack_02_01_01",
+      "value": "岩层 背包\\nStrata Backpack"
+    },
+    "item_name_grin_utility_medium_backpack_03_04_01": {
+      "key": "item_Name_GRIN_utility_medium_backpack_03_04_01",
+      "value": "岩层 背包 热浪\\nStrata Backpack Heatwave"
+    },
+    "item_name_grin_utility_medium_core_02_01_01": {
+      "key": "item_Name_GRIN_utility_medium_core_02_01_01",
+      "value": "岩层 胸甲\\nStrata Core"
+    },
+    "item_name_grin_utility_medium_core_03_04_01": {
+      "key": "item_Name_GRIN_utility_medium_core_03_04_01",
+      "value": "岩层 胸甲 热浪\\nStrata Core Heatwave"
+    },
+    "item_name_grin_utility_medium_legs_02_01_01": {
+      "key": "item_Name_GRIN_utility_medium_legs_02_01_01",
+      "value": "岩层 腿甲\\nStrata Legs"
+    },
+    "item_name_grin_utility_medium_legs_03_04_01": {
+      "key": "item_Name_GRIN_utility_medium_legs_03_04_01",
+      "value": "岩层 腿甲 热浪\\nStrata Legs Heatwave"
+    },
+    "item_name_alb_jacket_05_01_20": {
+      "key": "item_Name_alb_jacket_05_01_20",
+      "value": "元帅 无袖背心 铜色\\nMarhsal Sleeveless Vest Copper"
+    },
+    "item_name_basl_combat_light_helmet_02_01_01": {
+      "key": "item_Name_basl_combat_light_helmet_02_01_01",
+      "value": "王牌截击者 头盔\\nAce Interceptor Helmet"
+    },
+    "item_name_cds_armor_heavy_arms_03_01_01": {
+      "key": "item_Name_cds_armor_heavy_arms_03_01_01",
+      "value": "DCP 护甲 臂甲 猎人迷彩\\nDCP Armor Arms Hunter Camo"
+    },
+    "item_name_cds_armor_heavy_arms_03_02_01": {
+      "key": "item_Name_cds_armor_heavy_arms_03_02_01",
+      "value": "DCP 护甲 臂甲 钴蓝迷彩\\nDCP Armor Arms Cobalt Camo"
+    },
+    "item_name_cds_armor_heavy_arms_03_03_01": {
+      "key": "item_Name_cds_armor_heavy_arms_03_03_01",
+      "value": "DCP 护甲 臂甲 丛林迷彩\\nDCP Armor Arms Jungle Camo"
+    },
+    "item_name_cds_armor_heavy_core_03_01_01": {
+      "key": "item_Name_cds_armor_heavy_core_03_01_01",
+      "value": "DCP 护甲 胸甲 猎人迷彩\\nDCP Armor Core Hunter Camo"
+    },
+    "item_name_cds_armor_heavy_core_03_02_01": {
+      "key": "item_Name_cds_armor_heavy_core_03_02_01",
+      "value": "DCP 护甲 胸甲 钴蓝迷彩\\nDCP Armor Core Cobalt Camo"
+    },
+    "item_name_cds_armor_heavy_core_03_03_01": {
+      "key": "item_Name_cds_armor_heavy_core_03_03_01",
+      "value": "DCP 护甲 胸甲 丛林迷彩\\nDCP Armor Core Jungle Camo"
+    },
+    "item_name_cds_armor_heavy_helmet_03_01_01": {
+      "key": "item_Name_cds_armor_heavy_helmet_03_01_01",
+      "value": "DCP 护甲 头盔 猎人迷彩\\nDCP Armor Helmet Hunter Camo"
+    },
+    "item_name_cds_armor_heavy_helmet_03_02_01": {
+      "key": "item_Name_cds_armor_heavy_helmet_03_02_01",
+      "value": "DCP 护甲 头盔 钴蓝迷彩\\nDCP Armor Helmet Cobalt Camo"
+    },
+    "item_name_cds_armor_heavy_helmet_03_03_01": {
+      "key": "item_Name_cds_armor_heavy_helmet_03_03_01",
+      "value": "DCP 护甲 头盔 丛林迷彩\\nDCP Armor Helmet Jungle Camo"
+    },
+    "item_name_cds_armor_heavy_legs_03_01_01": {
+      "key": "item_Name_cds_armor_heavy_legs_03_01_01",
+      "value": "DCP 护甲 腿甲 猎人迷彩\\nDCP Armor Legs Hunter Camo"
+    },
+    "item_name_cds_armor_heavy_legs_03_02_01": {
+      "key": "item_Name_cds_armor_heavy_legs_03_02_01",
+      "value": "DCP 护甲 腿甲 钴蓝迷彩\\nDCP Armor Legs Cobalt Camo"
+    },
+    "item_name_cds_armor_heavy_legs_03_03_01": {
+      "key": "item_Name_cds_armor_heavy_legs_03_03_01",
+      "value": "DCP 护甲 腿甲 丛林迷彩\\nDCP Armor Legs Jungle Camo"
+    },
+    "item_name_cds_combat_light_backpack_01_03_01": {
+      "key": "item_Name_cds_combat_light_backpack_01_03_01",
+      "value": "幽影 背包 ASD 版\\nGeist Backpack ASD Edition"
+    },
+    "item_name_cds_combat_light_backpack_01_04_01": {
+      "key": "item_Name_cds_combat_light_backpack_01_04_01",
+      "value": "幽影 背包 雪地迷彩\\nGeist Backpack Snow Camo"
+    },
+    "item_name_cds_combat_superheavy_backpack_01_01_01": {
+      "key": "item_Name_cds_combat_superheavy_backpack_01_01_01",
+      "value": "H4-PBF 弹药携具\\nH4-PBF Ammo Carrier"
+    },
+    "item_name_cds_combat_superheavy_helmet_01_01_01": {
+      "key": "item_Name_cds_combat_superheavy_helmet_01_01_01",
+      "value": "BUL-H4 头盔\\nBUL-H4 Helmet"
+    },
+    "item_name_cds_combat_superheavy_suit_01_01_01": {
+      "key": "item_Name_cds_combat_superheavy_suit_01_01_01",
+      "value": "BUL-H4 护甲\\nBUL-H4 Armor"
+    },
+    "item_name_cds_heavy_armor_01_arms": {
+      "key": "item_Name_cds_heavy_armor_01_arms",
+      "value": "ADP-mk4 臂甲 林地版\\nADP-mk4 Arms Woodland"
+    },
+    "item_name_cds_heavy_armor_01_core": {
+      "key": "item_Name_cds_heavy_armor_01_core",
+      "value": "ADP-mk4 胸甲 林地版\\nADP-mk4 Core Woodland"
+    },
+    "item_name_cds_heavy_armor_01_legs": {
+      "key": "item_Name_cds_heavy_armor_01_legs",
+      "value": "ADP-mk4 腿甲 林地版\\nADP-mk4 Legs Woodland"
+    },
+    "item_name_cds_heavy_armor_helmet_01": {
+      "key": "item_Name_cds_heavy_armor_helmet_01",
+      "value": "ADP-mk4 头盔 林地版\\nADP-mk4 Helmet Woodland"
+    },
+    "item_name_clda_env_heavy_backpack_01_02_16": {
+      "key": "item_Name_clda_env_heavy_backpack_01_02_16",
+      "value": "诺维科夫 背包 泥沼\\nNovikov Backpack Mire"
+    },
+    "item_name_clda_env_heavy_backpack_01_03_01": {
+      "key": "item_Name_clda_env_heavy_backpack_01_03_01",
+      "value": "诺维科夫 背包 碎裂\\nNovikov Backpack Crush"
+    },
+    "item_name_clda_env_heavy_backpack_01_iae2023_01": {
+      "key": "item_Name_clda_env_heavy_backpack_01_iae2023_01",
+      "value": "诺维科夫 升天 背包\\nNovikov \"Ascension\" Backpack"
+    },
+    "item_name_clda_env_heavy_helmet_01": {
+      "key": "item_Name_clda_env_heavy_helmet_01",
+      "value": "诺维科夫 头盔\\nNovikov Helmet"
+    },
+    "item_name_clda_env_heavy_helmet_01_iae2023_01": {
+      "key": "item_Name_clda_env_heavy_helmet_01_iae2023_01",
+      "value": "诺维科夫 升天 头盔\\nNovikov \"Ascension\" Helmet"
+    },
+    "item_name_clda_env_heavy_suit_01": {
+      "key": "item_Name_clda_env_heavy_suit_01",
+      "value": "诺维科夫 探索服\\nNovikov Exploration Suit"
+    },
+    "item_name_clda_env_heavy_unified_01_iae2023_01": {
+      "key": "item_Name_clda_env_heavy_unified_01_iae2023_01",
+      "value": "诺维科夫 升天 探索服\\nNovikov \"Ascension\" Exploration Suit"
+    },
+    "item_name_fta_medium_helmet_01_01_05": {
+      "key": "item_Name_fta_medium_helmet_01_01_05",
+      "value": "岩层 头盔\\nStrata Helmet"
+    },
+    "item_name_fta_medium_helmet_02_01_01": {
+      "key": "item_Name_fta_medium_helmet_02_01_01",
+      "value": "岩层 头盔 热浪\\nStrata Helmet Heatwave"
+    },
+    "item_name_kap_combat_heavy_arms_02_01_01": {
+      "key": "item_Name_kap_combat_heavy_arms_02_01_01",
+      "value": "蒙德 臂甲\\nMonde Arms"
+    },
+    "item_name_kap_combat_heavy_arms_02_06_01": {
+      "key": "item_Name_kap_combat_heavy_arms_02_06_01",
+      "value": "蒙德 臂甲 猩红迷彩\\nMonde Arms Crimson Camo"
+    },
+    "item_name_kap_combat_heavy_core_02_01_01": {
+      "key": "item_Name_kap_combat_heavy_core_02_01_01",
+      "value": "蒙德 胸甲\\nMonde Core"
+    },
+    "item_name_kap_combat_heavy_core_02_06_01": {
+      "key": "item_Name_kap_combat_heavy_core_02_06_01",
+      "value": "蒙德 胸甲 猩红迷彩\\nMonde Core Crimson Camo"
+    },
+    "item_name_kap_combat_heavy_helmet_02_01_01": {
+      "key": "item_Name_kap_combat_heavy_helmet_02_01_01",
+      "value": "蒙德 头盔\\nMonde Helmet"
+    },
+    "item_name_kap_combat_heavy_helmet_02_06_01": {
+      "key": "item_Name_kap_combat_heavy_helmet_02_06_01",
+      "value": "蒙德 头盔 猩红迷彩\\nMonde Helmet Crimson Camo"
+    },
+    "item_name_kap_combat_heavy_legs_02_01_01": {
+      "key": "item_Name_kap_combat_heavy_legs_02_01_01",
+      "value": "蒙德 腿甲\\nMonde Legs"
+    },
+    "item_name_kap_combat_heavy_legs_02_06_01": {
+      "key": "item_Name_kap_combat_heavy_legs_02_06_01",
+      "value": "蒙德 腿甲 猩红迷彩\\nMonde Legs Crimson Camo"
+    },
+    "item_name_kap_combat_light_arms_02_01_01": {
+      "key": "item_Name_kap_combat_light_arms_02_01_01",
+      "value": "幽影 臂甲 ASD 版\\nGeist Armor Arms ASD Edition"
+    },
+    "item_name_kap_combat_light_arms_02_02_01": {
+      "key": "item_Name_kap_combat_light_arms_02_02_01",
+      "value": "幽影 臂甲 雪地迷彩\\nGeist Armor Arms Snow Camo"
+    },
+    "item_name_kap_combat_light_core_02_01_01": {
+      "key": "item_Name_kap_combat_light_core_02_01_01",
+      "value": "幽影 胸甲 ASD 版\\nGeist Armor Core ASD Edition"
+    },
+    "item_name_kap_combat_light_core_02_02_01": {
+      "key": "item_Name_kap_combat_light_core_02_02_01",
+      "value": "幽影 胸甲 雪地迷彩\\nGeist Armor Core Snow Camo"
+    },
+    "item_name_kap_combat_light_helmet_02_01_01": {
+      "key": "item_Name_kap_combat_light_helmet_02_01_01",
+      "value": "幽影 头盔 ASD 版\\nGeist Armor Helmet ASD Edition"
+    },
+    "item_name_kap_combat_light_helmet_02_02_01": {
+      "key": "item_Name_kap_combat_light_helmet_02_02_01",
+      "value": "幽影 头盔 雪地迷彩\\nGeist Armor Helmet Snow Camo"
+    },
+    "item_name_kap_combat_light_legs_02_01_01": {
+      "key": "item_Name_kap_combat_light_legs_02_01_01",
+      "value": "幽影 腿甲 ASD 版\\nGeist Armor Legs ASD Edition"
+    },
+    "item_name_kap_combat_light_legs_02_02_01": {
+      "key": "item_Name_kap_combat_light_legs_02_02_01",
+      "value": "幽影 腿甲 雪地迷彩\\nGeist Armor Legs Snow Camo"
+    },
+    "item_name_omc_utility_heavy_arms_01_01_16": {
+      "key": "item_Name_omc_utility_heavy_arms_01_01_16",
+      "value": "拱石 臂甲 泥沼\\nCorbel Arms Mire"
+    },
+    "item_name_omc_utility_heavy_arms_01_02_01": {
+      "key": "item_Name_omc_utility_heavy_arms_01_02_01",
+      "value": "拱石 臂甲 碎裂\\nCorbel Arms Crush"
+    },
+    "item_name_omc_utility_heavy_core_01_01_16": {
+      "key": "item_Name_omc_utility_heavy_core_01_01_16",
+      "value": "拱石 胸甲 泥沼\\nCorbel Core Mire"
+    },
+    "item_name_omc_utility_heavy_core_01_02_01": {
+      "key": "item_Name_omc_utility_heavy_core_01_02_01",
+      "value": "拱石 胸甲 碎裂\\nCorbel Core Crush"
+    },
+    "item_name_omc_utility_heavy_helmet_01_01_16": {
+      "key": "item_Name_omc_utility_heavy_helmet_01_01_16",
+      "value": "拱石 头盔 泥沼\\nCorbel Helmet Mire"
+    },
+    "item_name_omc_utility_heavy_helmet_01_02_01": {
+      "key": "item_Name_omc_utility_heavy_helmet_01_02_01",
+      "value": "拱石 头盔 碎裂\\nCorbel Helmet Crush"
+    },
+    "item_name_omc_utility_heavy_legs_01_01_16": {
+      "key": "item_Name_omc_utility_heavy_legs_01_01_16",
+      "value": "拱石 腿甲 泥沼\\nCorbel Legs Mire"
+    },
+    "item_name_omc_utility_heavy_legs_01_02_01": {
+      "key": "item_Name_omc_utility_heavy_legs_01_02_01",
+      "value": "拱石 腿甲 碎裂\\nCorbel Legs Crush"
+    },
+    "item_name_qrt_combat_heavy_arms_02_01_01": {
+      "key": "item_Name_qrt_combat_heavy_arms_02_01_01",
+      "value": "授卫 臂甲\\nBokto Arms"
+    },
+    "item_name_qrt_combat_heavy_arms_02_02_01": {
+      "key": "item_Name_qrt_combat_heavy_arms_02_02_01",
+      "value": "阿纳 臂甲 大地\\nAna Arms Endro"
+    },
+    "item_name_qrt_combat_heavy_core_02_01_01": {
+      "key": "item_Name_qrt_combat_heavy_core_02_01_01",
+      "value": "授卫 胸甲\\nBokto Core"
+    },
+    "item_name_qrt_combat_heavy_core_02_02_01": {
+      "key": "item_Name_qrt_combat_heavy_core_02_02_01",
+      "value": "阿纳 胸甲 大地\\nAna Core Endro"
+    },
+    "item_name_qrt_combat_heavy_helmet_02_01_01": {
+      "key": "item_Name_qrt_combat_heavy_helmet_02_01_01",
+      "value": "授卫 头盔\\nBokto Helmet"
+    },
+    "item_name_qrt_combat_heavy_helmet_02_02_01": {
+      "key": "item_Name_qrt_combat_heavy_helmet_02_02_01",
+      "value": "阿纳 头盔 大地\\nAna Helmet Endro"
+    },
+    "item_name_qrt_combat_heavy_legs_02_01_01": {
+      "key": "item_Name_qrt_combat_heavy_legs_02_01_01",
+      "value": "授卫 腿甲\\nBokto Legs"
+    },
+    "item_name_qrt_combat_heavy_legs_02_02_01": {
+      "key": "item_Name_qrt_combat_heavy_legs_02_02_01",
+      "value": "阿纳 腿甲 大地\\nAna Legs Endro"
+    },
+    "item_name_qrt_combat_medium_arms_01_01_16": {
+      "key": "item_Name_qrt_combat_medium_arms_01_01_16",
+      "value": "龟甲 臂甲 扩张\\nTestudo Arms Turfwar"
+    },
+    "item_name_qrt_combat_medium_arms_02_01_01": {
+      "key": "item_Name_qrt_combat_medium_arms_02_01_01",
+      "value": "龟甲 臂甲 氏卫\\nTestudo Arms Clanguard"
+    },
+    "item_name_qrt_combat_medium_backpack_01_01_16": {
+      "key": "item_Name_qrt_combat_medium_backpack_01_01_16",
+      "value": "龟甲 背包 扩张\\nTestudo Backpack Turfwar"
+    },
+    "item_name_qrt_combat_medium_backpack_02_01_01": {
+      "key": "item_Name_qrt_combat_medium_backpack_02_01_01",
+      "value": "龟甲 背包 氏卫\\nTestudo Backpack Clanguard"
+    },
+    "item_name_qrt_combat_medium_core_01_01_16": {
+      "key": "item_Name_qrt_combat_medium_core_01_01_16",
+      "value": "龟甲 胸甲 扩张\\nTestudo Core Turfwar"
+    },
+    "item_name_qrt_combat_medium_core_02_01_01": {
+      "key": "item_Name_qrt_combat_medium_core_02_01_01",
+      "value": "龟甲 胸甲 氏卫\\nTestudo Core Clanguard"
+    },
+    "item_name_qrt_combat_medium_helmet_01_01_16": {
+      "key": "item_Name_qrt_combat_medium_helmet_01_01_16",
+      "value": "龟甲 头盔 扩张\\nTestudo Helmet Turfwar"
+    },
+    "item_name_qrt_combat_medium_helmet_02_01_01": {
+      "key": "item_Name_qrt_combat_medium_helmet_02_01_01",
+      "value": "龟甲 头盔 氏卫\\nTestudo Helmet Clanguard"
+    },
+    "item_name_qrt_combat_medium_legs_01_01_16": {
+      "key": "item_Name_qrt_combat_medium_legs_01_01_16",
+      "value": "龟甲 腿甲 扩张\\nTestudo Legs Turfwar"
+    },
+    "item_name_qrt_combat_medium_legs_02_01_01": {
+      "key": "item_Name_qrt_combat_medium_legs_02_01_01,P",
+      "value": "龟甲 腿甲 氏卫\\nTestudo Legs Clanguard"
+    },
+    "item_name_qrt_specialist_heavy_arms_01_01_01": {
+      "key": "item_Name_qrt_specialist_heavy_arms_01_01_01",
+      "value": "安腾 臂甲\\nAntium Arms"
+    },
+    "item_name_qrt_specialist_heavy_arms_01_03_01": {
+      "key": "item_Name_qrt_specialist_heavy_arms_01_03_01",
+      "value": "安腾 臂甲 午夜阳光\\nAntium Arms Midnight Sun"
+    },
+    "item_name_qrt_specialist_heavy_core_01_01_01": {
+      "key": "item_Name_qrt_specialist_heavy_core_01_01_01",
+      "value": "安腾 胸甲\\nAntium Core"
+    },
+    "item_name_qrt_specialist_heavy_core_01_03_01": {
+      "key": "item_Name_qrt_specialist_heavy_core_01_03_01",
+      "value": "安腾 胸甲 午夜阳光\\nAntium Core Midnight Sun"
+    },
+    "item_name_qrt_specialist_heavy_helmet_01_01_01": {
+      "key": "item_Name_qrt_specialist_heavy_helmet_01_01_01",
+      "value": "安腾 头盔\\nAntium Helmet"
+    },
+    "item_name_qrt_specialist_heavy_helmet_01_03_01": {
+      "key": "item_Name_qrt_specialist_heavy_helmet_01_03_01",
+      "value": "安腾 头盔 午夜阳光\\nAntium Helmet Midnight Sun"
+    },
+    "item_name_qrt_specialist_heavy_legs_01_01_01": {
+      "key": "item_Name_qrt_specialist_heavy_legs_01_01_01",
+      "value": "安腾 腿甲\\nAntium Legs"
+    },
+    "item_name_qrt_specialist_heavy_legs_01_03_01": {
+      "key": "item_Name_qrt_specialist_heavy_legs_01_03_01",
+      "value": "安腾 腿甲 午夜阳光\\nAntium Legs Midnight Sun"
+    },
+    "item_name_qrt_utility_heavy_arms_01_01_01": {
+      "key": "item_Name_qrt_utility_heavy_arms_01_01_01",
+      "value": "帕拉蒂诺 臂甲\\nPalatino Arms"
+    },
+    "item_name_qrt_utility_heavy_arms_02_01_01": {
+      "key": "item_Name_qrt_utility_heavy_arms_02_01_01",
+      "value": "帕拉蒂诺 臂甲 I 型\\nPalatino Arms Mark I"
+    },
+    "item_name_qrt_utility_heavy_backpack_01_01_01": {
+      "key": "item_Name_qrt_utility_heavy_backpack_01_01_01",
+      "value": "帕拉蒂诺 背包\\nPalatino Backpack"
+    },
+    "item_name_qrt_utility_heavy_backpack_02_01_01": {
+      "key": "item_Name_qrt_utility_heavy_backpack_02_01_01",
+      "value": "帕拉蒂诺 背包 I 型\\nPalatino Backpack Mark I"
+    },
+    "item_name_qrt_utility_heavy_core_01_01_01": {
+      "key": "item_Name_qrt_utility_heavy_core_01_01_01",
+      "value": "帕拉蒂诺 胸甲\\nPalatino Core"
+    },
+    "item_name_qrt_utility_heavy_core_02_01_01": {
+      "key": "item_Name_qrt_utility_heavy_core_02_01_01",
+      "value": "帕拉蒂诺 胸甲 I 型\\nPalatino Core Mark I"
+    },
+    "item_name_qrt_utility_heavy_helmet_01_01_01": {
+      "key": "item_Name_qrt_utility_heavy_helmet_01_01_01",
+      "value": "帕拉蒂诺 头盔\\nPalatino Helmet"
+    },
+    "item_name_qrt_utility_heavy_helmet_02_01_01": {
+      "key": "item_Name_qrt_utility_heavy_helmet_02_01_01",
+      "value": "帕拉蒂诺 头盔 I 型\\nPalatino Helmet Mark I"
+    },
+    "item_name_qrt_utility_heavy_legs_01_01_01": {
+      "key": "item_Name_qrt_utility_heavy_legs_01_01_01",
+      "value": "帕拉蒂诺 腿甲\\nPalatino Legs"
+    },
+    "item_name_qrt_utility_heavy_legs_02_01_01": {
+      "key": "item_Name_qrt_utility_heavy_legs_02_01_01",
+      "value": "帕拉蒂诺 腿甲 I 型\\nPalatino Legs Mark I"
+    },
+    "item_name_rsi_explorer_01_arms": {
+      "key": "item_Name_rsi_explorer_01_arms",
+      "value": "探险家 臂甲\\nVenture Arms"
+    },
+    "item_name_rsi_explorer_01_core": {
+      "key": "item_Name_rsi_explorer_01_core",
+      "value": "探险家 胸甲\\nVenture Core"
+    },
+    "item_name_rsi_explorer_01_helmet": {
+      "key": "item_Name_rsi_explorer_01_helmet",
+      "value": "探险家 头盔 白色\\nVenture Helmet White"
+    },
+    "item_name_rsi_explorer_01_legs": {
+      "key": "item_Name_rsi_explorer_01_legs",
+      "value": "探险家 腿甲\\nVenture Legs"
+    },
+    "item_name_rsi_explorer_armor_light_arms_01_01_01": {
+      "key": "item_Name_rsi_explorer_armor_light_arms_01_01_01",
+      "value": "探险家 臂甲 基础\\nVenture Arms Base"
+    },
+    "item_name_rsi_explorer_armor_light_core_01_01_01": {
+      "key": "item_Name_rsi_explorer_armor_light_core_01_01_01",
+      "value": "探险家 胸甲 基础\\nVenture Core Base"
+    },
+    "item_name_rsi_explorer_armor_light_helmet_01_01_01": {
+      "key": "item_Name_rsi_explorer_armor_light_helmet_01_01_01",
+      "value": "探险家 头盔 基础\\nVenture Helmet Base"
+    },
+    "item_name_rsi_explorer_armor_light_helmet_01_01_10": {
+      "key": "item_Name_rsi_explorer_armor_light_helmet_01_01_10",
+      "value": "探险家 头盔 白色\\nVenture Helmet White"
+    },
+    "item_name_rsi_explorer_armor_light_helmet_01_iae2023_01": {
+      "key": "item_Name_rsi_explorer_armor_light_helmet_01_iae2023_01",
+      "value": "探险家 头盔 升天\\nVenture Helmet Ascension"
+    },
+    "item_name_rsi_explorer_armor_light_legs_01_01_01": {
+      "key": "item_Name_rsi_explorer_armor_light_legs_01_01_01",
+      "value": "探险家 腿甲 基础\\nVenture Legs Base"
+    },
+    "item_name_rsi_explorer_light_armor_01_arms": {
+      "key": "item_Name_rsi_explorer_light_armor_01_arms",
+      "value": "探险家 臂甲\\nVenture Arms"
+    },
+    "item_name_rsi_explorer_light_armor_01_core": {
+      "key": "item_Name_rsi_explorer_light_armor_01_core",
+      "value": "探险家 胸甲\\nVenture Core"
+    },
+    "item_name_rsi_explorer_light_armor_01_legs": {
+      "key": "item_Name_rsi_explorer_light_armor_01_legs",
+      "value": "探险家 腿甲\\nVenture Legs"
+    },
+    "item_name_rsi_explorer_light_arms_01_iae2023_01": {
+      "key": "item_Name_rsi_explorer_light_arms_01_iae2023_01",
+      "value": "探险家 臂甲 升天\\nVenture Arms Ascension"
+    },
+    "item_name_rsi_explorer_light_core_01_iae2023_01": {
+      "key": "item_Name_rsi_explorer_light_core_01_iae2023_01",
+      "value": "探险家 胸甲 升天\\nVenture Core Ascension"
+    },
+    "item_name_rsi_explorer_light_legs_01_iae2023_01": {
+      "key": "item_Name_rsi_explorer_light_legs_01_iae2023_01",
+      "value": "探险家 腿甲 升天\\nVenture Legs Ascension"
+    },
+    "item_name_syfb_flightsuit_helmet_01_01_01": {
+      "key": "item_Name_syfb_flightsuit_helmet_01_01_01",
+      "value": "贤梭 飞行头盔\\nXanthule Flight Helmet"
+    },
+    "item_name_syfb_flightsuit_helmet_01_iae2023_01": {
+      "key": "item_Name_syfb_flightsuit_helmet_01_iae2023_01",
+      "value": "贤梭 升天 飞行头盔\\nXanthule Ascension Flight Helmet"
+    },
+    "item_name_syfb_flightsuit_suit_01_01_01": {
+      "key": "item_Name_syfb_flightsuit_suit_01_01_01",
+      "value": "贤梭 飞行套装\\nXanthule Flight Suit"
+    },
+    "item_name_syfb_flightsuit_suit_01_iae2023_01": {
+      "key": "item_Name_syfb_flightsuit_suit_01_iae2023_01",
+      "value": "贤梭 升天 飞行套装\\nXanthule Ascension Flight Suit"
+    },
+    "item_name_vgl_combat_heavy_backpack_01_08_01": {
+      "key": "item_Name_vgl_combat_heavy_backpack_01_08_01",
+      "value": "典狱长 背包 猩红迷彩\\nWarden Backpack Crimson Camo"
+    },
+    "item_name_vgl_flightsuit_01_01_01": {
+      "key": "item_Name_vgl_flightsuit_01_01_01",
+      "value": "顺风 飞行服\\nTailwind Flight Suit"
+    },
+    "item_name_vgl_flightsuit_01_02_01": {
+      "key": "item_Name_vgl_flightsuit_01_02_01",
+      "value": "顺风 飞行服 统御迷彩\\nTailwind Flight Suit Dominion Camo"
+    },
+    "item_name_vgl_flightsuit_helmet_01_01_01": {
+      "key": "item_Name_vgl_flightsuit_helmet_01_01_01",
+      "value": "顺风 飞行头盔\\nTailwind Flight Helmet"
+    },
+    "item_name_vgl_flightsuit_helmet_01_02_01": {
+      "key": "item_Name_vgl_flightsuit_helmet_01_02_01",
+      "value": "顺风 飞行头盔 统御迷彩\\nTailwind Flight Helmet Dominion Camo"
+    },
+    "item_name_vgl_heavy_backpack_01_06_01": {
+      "key": "item_Name_vgl_heavy_backpack_01_06_01",
+      "value": "典狱长 背包 蒙德\\nWarden Backpack Monde"
+    },
+    "item_nameapar_hmg_ballistic_01": {
+      "key": "item_Nameapar_hmg_ballistic_01",
+      "value": "世仇 重机枪\\nVendetta HMG"
+    },
+    "item_nameapar_hmg_ballistic_01_collector01": {
+      "key": "item_Nameapar_hmg_ballistic_01_collector01",
+      "value": "世仇 “雪地迷彩” 重机枪\\nVendetta \"Snow Camo\" HMG"
+    },
+    "item_nameapar_hmg_ballistic_01_collector01_short": {
+      "key": "item_Nameapar_hmg_ballistic_01_collector01_short",
+      "value": "世仇重机枪SC"
+    },
+    "item_nameapar_hmg_ballistic_01_mag": {
+      "key": "item_Nameapar_hmg_ballistic_01_mag",
+      "value": "世仇 重机枪弹匣 (1000 发)\\nVendetta HMG Magazine (1000 Cap)"
+    },
+    "item_nameapar_hmg_ballistic_01_mr01": {
+      "key": "item_Nameapar_hmg_ballistic_01_mr01",
+      "value": "世仇 “突围者” 重机枪\\nVendetta \"Siegebreaker\" HMG"
+    },
+    "item_nameapar_hmg_ballistic_01_mr01_short": {
+      "key": "item_Nameapar_hmg_ballistic_01_mr01_short",
+      "value": "世仇重机枪SBRK"
+    },
+    "item_nameapar_hmg_ballistic_01_mr02": {
+      "key": "item_Nameapar_hmg_ballistic_01_mr02",
+      "value": "世仇 “据点” 重机枪\\nVendetta \"Stronghold\" HMG"
+    },
+    "item_nameapar_hmg_ballistic_01_mr02_short": {
+      "key": "item_Nameapar_hmg_ballistic_01_mr02_short",
+      "value": "世仇重机枪STHL"
+    },
+    "item_nameapar_hmg_ballistic_01_short": {
+      "key": "item_Nameapar_hmg_ballistic_01_short",
+      "value": "世仇重机枪"
+    },
+    "item_nameapar_hmg_ballistic_01_store01": {
+      "key": "item_Nameapar_hmg_ballistic_01_store01",
+      "value": "世仇 “钢纹” 重机枪\\nVendetta \"SteelTek\" HMG"
+    },
+    "item_nameapar_hmg_ballistic_01_store01_short": {
+      "key": "item_Nameapar_hmg_ballistic_01_store01_short",
+      "value": "世仇重机枪SLTK"
+    },
+    "item_nameapar_hmg_ballistic_01_tint01": {
+      "key": "item_Nameapar_hmg_ballistic_01_tint01",
+      "value": "世仇 “战壕兵” 重机枪\\nVendetta \"Trencher\" HMG"
+    },
+    "item_nameapar_hmg_ballistic_01_tint01_short": {
+      "key": "item_Nameapar_hmg_ballistic_01_tint01_short",
+      "value": "世仇重机枪TRNC"
+    },
+    "item_nameapar_hmg_ballistic_01_tint02": {
+      "key": "item_Nameapar_hmg_ballistic_01_tint02",
+      "value": "世仇 “暗猎者” 重机枪\\nVendetta \"Darkstalker\" HMG"
+    },
+    "item_nameapar_hmg_ballistic_01_tint02_short": {
+      "key": "item_Nameapar_hmg_ballistic_01_tint02_short",
+      "value": "世仇重机枪DSTK"
+    },
+    "item_nameapar_hmg_ballistic_01_tint03": {
+      "key": "item_Nameapar_hmg_ballistic_01_tint03",
+      "value": "世仇 “灿星” 重机枪\\nVendetta \"Brightstar\" HMG"
+    },
+    "item_nameapar_hmg_ballistic_01_tint03_short": {
+      "key": "item_Nameapar_hmg_ballistic_01_tint03_short",
+      "value": "世仇重机枪BSTR"
+    },
+    "item_namebehr_binoculars_01_collector01": {
+      "key": "item_Namebehr_binoculars_01_collector01",
+      "value": "XDL “I 型” 单筒测距仪\\nXDL \"Mark I\" Monocular Rangefinder"
+    },
+    "item_namebehr_binoculars_01_collector01_short": {
+      "key": "item_Namebehr_binoculars_01_collector01_short",
+      "value": "XDL测距仪MK I"
+    },
+    "item_namegmni_lmg_ballistic_01": {
+      "key": "item_Namegmni_lmg_ballistic_01",
+      "value": "F55 轻机枪\\nF55 LMG"
+    },
+    "item_namegmni_lmg_ballistic_01_blue_gold_01": {
+      "key": "item_Namegmni_lmg_ballistic_01_blue_gold_01",
+      "value": "F55 “英勇” 轻机枪\\nF55 \"Valor\" LMG"
+    },
+    "item_namegmni_lmg_ballistic_01_blue_gold_01_short": {
+      "key": "item_Namegmni_lmg_ballistic_01_blue_gold_01_short",
+      "value": "F55轻机枪V"
+    },
+    "item_namegmni_lmg_ballistic_01_collector01": {
+      "key": "item_Namegmni_lmg_ballistic_01_collector01",
+      "value": "F55 “I 型” 轻机枪\\nF55 \"Mark I\" LMG"
+    },
+    "item_namegmni_lmg_ballistic_01_collector01_short": {
+      "key": "item_Namegmni_lmg_ballistic_01_collector01_short",
+      "value": "F55轻机枪MK I"
+    },
+    "item_namegmni_lmg_ballistic_01_firerats01": {
+      "key": "item_Namegmni_lmg_ballistic_01_firerats01",
+      "value": "F55 “焦炎” 轻机枪\\nF55 \"Scorched\" LMG"
+    },
+    "item_namegmni_lmg_ballistic_01_firerats01_short": {
+      "key": "item_Namegmni_lmg_ballistic_01_firerats01_short",
+      "value": "F55轻机枪SCR"
+    },
+    "item_namegmni_lmg_ballistic_01_green_red01": {
+      "key": "item_Namegmni_lmg_ballistic_01_green_red01",
+      "value": "F55 “日落阿尔卑斯” 轻机枪\\nF55 \"Alpine Sunset\" LMG"
+    },
+    "item_namegmni_lmg_ballistic_01_green_red01_short": {
+      "key": "item_Namegmni_lmg_ballistic_01_green_red01_short",
+      "value": "F55轻机枪AS"
+    },
+    "item_namegmni_lmg_ballistic_01_mag": {
+      "key": "item_Namegmni_lmg_ballistic_01_mag",
+      "value": "F55 轻机枪弹匣 (150 发)\\nF55 LMG Magazine (150 cap)"
+    },
+    "item_namegmni_lmg_ballistic_01_purple01": {
+      "key": "item_Namegmni_lmg_ballistic_01_purple01",
+      "value": "F55 “逐星者” 轻机枪\\nF55 \"Starchaser\" LMG"
+    },
+    "item_namegmni_lmg_ballistic_01_purple01_short": {
+      "key": "item_Namegmni_lmg_ballistic_01_purple01_short",
+      "value": "F55轻机枪SC"
+    },
+    "item_namegmni_lmg_ballistic_01_short": {
+      "key": "item_Namegmni_lmg_ballistic_01_short",
+      "value": "F55轻机枪"
+    },
+    "item_namegmni_lmg_ballistic_01_store01": {
+      "key": "item_Namegmni_lmg_ballistic_01_store01",
+      "value": "F55 “僵局” 轻机枪\\nF55 \"Deadlock\" LMG"
+    },
+    "item_namegmni_lmg_ballistic_01_store01_short": {
+      "key": "item_Namegmni_lmg_ballistic_01_store01_short",
+      "value": "F55轻机枪DL"
+    },
+    "item_namegmni_rifle_ballistic_01_iae2023": {
+      "key": "item_Namegmni_rifle_ballistic_01_IAE2023",
+      "value": "S71 “升天” 步枪\\nS71 \"Ascension\" Rifle"
+    },
+    "item_namegmni_rifle_ballistic_01_iae2023_short": {
+      "key": "item_Namegmni_rifle_ballistic_01_IAE2023_short",
+      "value": "S71步枪AC"
+    },
+    "item_namegmni_rifle_ballistic_01_firerats01": {
+      "key": "item_Namegmni_rifle_ballistic_01_firerats01",
+      "value": "S71 “靶心” 步枪\\nS71 \"Bullseye\" Rifle"
+    },
+    "item_namegmni_rifle_ballistic_01_firerats01_short": {
+      "key": "item_Namegmni_rifle_ballistic_01_firerats01_short",
+      "value": "S71步枪BE"
+    },
+    "item_namegmni_rifle_ballistic_01_firerats02": {
+      "key": "item_Namegmni_rifle_ballistic_01_firerats02",
+      "value": "S71 “焦炎” 步枪\\nS71 \"Scorched\" Rifle"
+    },
+    "item_namegmni_rifle_ballistic_01_firerats02_short": {
+      "key": "item_Namegmni_rifle_ballistic_01_firerats02_short",
+      "value": "S71步枪SCR"
+    },
+    "item_namegmni_rifle_ballistic_01_mag": {
+      "key": "item_Namegmni_rifle_ballistic_01_mag",
+      "value": "S71 步枪弹匣 (30 发)\\nS71 Rifle Magazine (30 cap)"
+    },
+    "item_namegmni_rifle_ballistic_01_mr01": {
+      "key": "item_Namegmni_rifle_ballistic_01_mr01",
+      "value": "S71 “炼狱迷彩” 步枪\\nS71 \"Purgatory Camo\" Rifle"
+    },
+    "item_namegmni_rifle_ballistic_01_mr01_short": {
+      "key": "item_Namegmni_rifle_ballistic_01_mr01_short",
+      "value": "S71步枪PC"
+    },
+    "item_namegmni_shotgun_ballistic_01": {
+      "key": "item_Namegmni_shotgun_ballistic_01",
+      "value": "R97 霰弹枪\\nR97 Shotgun"
+    },
+    "item_namegmni_shotgun_ballistic_01_firerats01": {
+      "key": "item_Namegmni_shotgun_ballistic_01_firerats01",
+      "value": "R97 “焦炎” 霰弹枪\\nR97 \"Scorched\" Shotgun"
+    },
+    "item_namegmni_shotgun_ballistic_01_firerats01_short": {
+      "key": "item_Namegmni_shotgun_ballistic_01_firerats01_short",
+      "value": "R97霰弹枪SCR"
+    },
+    "item_namegmni_shotgun_ballistic_01_mag": {
+      "key": "item_Namegmni_shotgun_ballistic_01_mag",
+      "value": "R97 霰弹枪弹匣 (18 发)\\nR97 Shotgun Magazine (18 cap)"
+    },
+    "item_namegmni_shotgun_ballistic_01_pink_red01": {
+      "key": "item_Namegmni_shotgun_ballistic_01_pink_red01",
+      "value": "R97 “机缘巧合” 霰弹枪\\nR97 \"Kismet\" Shotgun"
+    },
+    "item_namegmni_shotgun_ballistic_01_pink_red01_short": {
+      "key": "item_Namegmni_shotgun_ballistic_01_pink_red01_short",
+      "value": "R97霰弹枪KS"
+    },
+    "item_namegmni_shotgun_ballistic_01_red_black01": {
+      "key": "item_Namegmni_shotgun_ballistic_01_red_black01",
+      "value": "R97 “正义” 霰弹枪\\nR97 \"Righteous\" Shotgun"
+    },
+    "item_namegmni_shotgun_ballistic_01_red_black01_short": {
+      "key": "item_Namegmni_shotgun_ballistic_01_red_black01_short",
+      "value": "R97霰弹枪RGHT"
+    },
+    "item_namegmni_shotgun_ballistic_01_reward01": {
+      "key": "item_Namegmni_shotgun_ballistic_01_reward01",
+      "value": "R97 “猩红迷彩” 霰弹枪\\nR97 \"Crimson Camo\" Shotgun"
+    },
+    "item_namegmni_shotgun_ballistic_01_reward01_short": {
+      "key": "item_Namegmni_shotgun_ballistic_01_reward01_short",
+      "value": "R97霰弹枪CRC"
+    },
+    "item_namegmni_shotgun_ballistic_01_short": {
+      "key": "item_Namegmni_shotgun_ballistic_01_short",
+      "value": "R97霰弹枪"
+    },
+    "item_nameksar_pistol_ballistic_01_iae2023": {
+      "key": "item_Nameksar_pistol_ballistic_01_IAE2023",
+      "value": "终曲 “升天” 手枪\\nCoda \"Ascension\" Pistol"
+    },
+    "item_nameksar_pistol_ballistic_01_iae2023_short": {
+      "key": "item_Nameksar_pistol_ballistic_01_IAE2023_short",
+      "value": "终曲手枪AC"
+    },
+    "item_nameksar_pistol_ballistic_01_headhunters01": {
+      "key": "item_Nameksar_pistol_ballistic_01_headhunters01",
+      "value": "终曲 “夜鹰” 手枪\\nCoda \"Nighthawk\" Pistol"
+    },
+    "item_nameksar_pistol_ballistic_01_headhunters01_short": {
+      "key": "item_Nameksar_pistol_ballistic_01_headhunters01_short",
+      "value": "终曲手枪NH"
+    },
+    "item_nameksar_pistol_ballistic_01_mag": {
+      "key": "item_Nameksar_pistol_ballistic_01_mag",
+      "value": "终曲实弹手枪弹匣 (6 发)\\nCoda Pistol Magazine (6 cap)"
+    },
+    "item_nameksar_pistol_ballistic_01_purple_pink01": {
+      "key": "item_Nameksar_pistol_ballistic_01_purple_pink01",
+      "value": "终曲 “紫外线” 手枪\\nCoda \"Ultraviolet\" Pistol"
+    },
+    "item_nameksar_pistol_ballistic_01_purple_pink01_short": {
+      "key": "item_Nameksar_pistol_ballistic_01_purple_pink01_short",
+      "value": "终曲手枪UV"
+    },
+    "item_nameksar_pistol_ballistic_01_yellow_black01": {
+      "key": "item_Nameksar_pistol_ballistic_01_yellow_black01",
+      "value": "终曲 “巨贾” 手枪\\nCoda \"Big Boss\" Pistol"
+    },
+    "item_nameksar_pistol_ballistic_01_yellow_black01_short": {
+      "key": "item_Nameksar_pistol_ballistic_01_yellow_black01_short",
+      "value": "终曲手枪BB"
+    },
+    "item_nameksar_rifle_energy_01": {
+      "key": "item_Nameksar_rifle_energy_01",
+      "value": "卡纳 步枪\\nKarna Rifle"
+    },
+    "item_nameksar_rifle_energy_01_iae2023": {
+      "key": "item_Nameksar_rifle_energy_01_IAE2023",
+      "value": "卡纳 “升天” 步枪\\nKarna \"Ascension\" Rifle"
+    },
+    "item_nameksar_rifle_energy_01_iae2023_short": {
+      "key": "item_Nameksar_rifle_energy_01_IAE2023_short",
+      "value": "卡纳步枪AC"
+    },
+    "item_nameksar_rifle_energy_01_cian_black01": {
+      "key": "item_Nameksar_rifle_energy_01_cian_black01",
+      "value": "卡纳 “狂怒者” 步枪\\nKarna \"Rager\" Rifle"
+    },
+    "item_nameksar_rifle_energy_01_cian_black01_short": {
+      "key": "item_Nameksar_rifle_energy_01_cian_black01_short",
+      "value": "卡纳步枪RGR"
+    },
+    "item_nameksar_rifle_energy_01_firerats01": {
+      "key": "item_Nameksar_rifle_energy_01_firerats01",
+      "value": "卡纳 “焦炎” 步枪\\nKarna \"Scorched\" Rifle"
+    },
+    "item_nameksar_rifle_energy_01_firerats01_short": {
+      "key": "item_Nameksar_rifle_energy_01_firerats01_short",
+      "value": "卡纳步枪SCR"
+    },
+    "item_nameksar_rifle_energy_01_mag": {
+      "key": "item_Nameksar_rifle_energy_01_mag",
+      "value": "卡纳 步枪电池 (35 发)\\nKarna Rifle Battery (35 cap)"
+    },
+    "item_nameksar_rifle_energy_01_pink_red01": {
+      "key": "item_Nameksar_rifle_energy_01_pink_red01",
+      "value": "卡纳 “命运” 步枪\\nKarna \"Fate\" Rifle"
+    },
+    "item_nameksar_rifle_energy_01_pink_red01_short": {
+      "key": "item_Nameksar_rifle_energy_01_pink_red01_short",
+      "value": "卡纳步枪FT"
+    },
+    "item_nameksar_rifle_energy_01_red01": {
+      "key": "item_Nameksar_rifle_energy_01_red01",
+      "value": "卡纳 “悍妇” 步枪\\nKarna \"Brimstone\" Rifle"
+    },
+    "item_nameksar_rifle_energy_01_red01_short": {
+      "key": "item_Nameksar_rifle_energy_01_red01_short",
+      "value": "卡纳步枪BST"
+    },
+    "item_nameksar_rifle_energy_01_red_green01": {
+      "key": "item_Nameksar_rifle_energy_01_red_green01",
+      "value": "卡纳 “日落阿尔卑斯” 步枪\\nKarna \"Alpine Sunset\" Rifle"
+    },
+    "item_nameksar_rifle_energy_01_red_green01_short": {
+      "key": "item_Nameksar_rifle_energy_01_red_green01_short",
+      "value": "卡纳步枪AS"
+    },
+    "item_nameksar_rifle_energy_01_short": {
+      "key": "item_Nameksar_rifle_energy_01_short",
+      "value": "卡纳步枪"
+    },
+    "item_nameksar_rifle_energy_01_store01": {
+      "key": "item_Nameksar_rifle_energy_01_store01",
+      "value": "卡纳 “统御迷彩” 步枪\\nKarna \"Dominion Camo\" Rifle"
+    },
+    "item_nameksar_rifle_energy_01_store01_short": {
+      "key": "item_Nameksar_rifle_energy_01_store01_short",
+      "value": "卡纳步枪DC"
+    },
+    "item_namenone_pistol_ballistic_01": {
+      "key": "item_Namenone_pistol_ballistic_01",
+      "value": "三重击 手枪\\nTripledown Pistol"
+    },
+    "item_namenone_pistol_ballistic_01_collector01": {
+      "key": "item_Namenone_pistol_ballistic_01_collector01",
+      "value": "三重击 “热浪” 手枪\\nTripledown \"Heatwave\" Pistol"
+    },
+    "item_namenone_pistol_ballistic_01_collector01_short": {
+      "key": "item_Namenone_pistol_ballistic_01_collector01_short",
+      "value": "三重击手枪HW"
+    },
+    "item_namenone_pistol_ballistic_01_mag": {
+      "key": "item_Namenone_pistol_ballistic_01_mag",
+      "value": "三重击 手枪弹匣 (12 发)\\nTripledown Pistol Magazine (12 Cap)"
+    },
+    "item_namenone_pistol_ballistic_01_short": {
+      "key": "item_Namenone_pistol_ballistic_01_short",
+      "value": "三重击手枪"
+    },
+    "item_namenone_pistol_ballistic_01_tint01": {
+      "key": "item_Namenone_pistol_ballistic_01_tint01",
+      "value": "三重击 “暗黑” 手枪\\nTripledown \"Dark\" Pistol"
+    },
+    "item_namenone_pistol_ballistic_01_tint01_short": {
+      "key": "item_Namenone_pistol_ballistic_01_tint01_short",
+      "value": "三重击手枪DK"
+    },
+    "item_namenone_pistol_ballistic_01_tint02": {
+      "key": "item_Namenone_pistol_ballistic_01_tint02",
+      "value": "三重击 “重金属” 手枪\\nTripledown \"Heavy Metal\" Pistol"
+    },
+    "item_namenone_pistol_ballistic_01_tint02_short": {
+      "key": "item_Namenone_pistol_ballistic_01_tint02_short",
+      "value": "三重击手枪HM"
+    },
+    "item_namenone_pistol_ballistic_01_tint03": {
+      "key": "item_Namenone_pistol_ballistic_01_tint03",
+      "value": "三重击 “岭背” 手枪\\nTripledown \"Ridgeback\" Pistol"
+    },
+    "item_namenone_pistol_ballistic_01_tint03_short": {
+      "key": "item_Namenone_pistol_ballistic_01_tint03_short",
+      "value": "三重击手枪PB"
+    },
+    "item_namenone_rifle_multi_01": {
+      "key": "item_Namenone_rifle_multi_01",
+      "value": "绝杀 步枪\\nKillshot Rifle"
+    },
+    "item_namenone_rifle_multi_01_collector01": {
+      "key": "item_Namenone_rifle_multi_01_collector01",
+      "value": "绝杀 “统御迷彩” 步枪\\nKillshot \"Dominion Camo\" Rifle"
+    },
+    "item_namenone_rifle_multi_01_collector01_short": {
+      "key": "item_Namenone_rifle_multi_01_collector01_short",
+      "value": "绝杀步枪DC"
+    },
+    "item_namenone_rifle_multi_01_mag": {
+      "key": "item_Namenone_rifle_multi_01_mag",
+      "value": "绝杀 步枪弹匣 (45 发)\\nKillshot Rifle Magazine (45 Cap)"
+    },
+    "item_namenone_rifle_multi_01_short": {
+      "key": "item_Namenone_rifle_multi_01_short",
+      "value": "绝杀步枪"
+    },
+    "item_namenone_rifle_multi_01_store01": {
+      "key": "item_Namenone_rifle_multi_01_store01",
+      "value": "绝杀 “血偿” 步枪\\nKillshot \"Payback\" Rifle"
+    },
+    "item_namenone_rifle_multi_01_store01_short": {
+      "key": "item_Namenone_rifle_multi_01_store01_short",
+      "value": "绝杀步枪PB"
+    },
+    "item_namenone_rifle_multi_01_tint01": {
+      "key": "item_Namenone_rifle_multi_01_tint01",
+      "value": "绝杀 “褪色” 步枪\\nKillshot \"Bleach\" Rifle"
+    },
+    "item_namenone_rifle_multi_01_tint01_short": {
+      "key": "item_Namenone_rifle_multi_01_tint01_short",
+      "value": "绝杀步枪BLCH"
+    },
+    "item_namenone_rifle_multi_01_tint02": {
+      "key": "item_Namenone_rifle_multi_01_tint02",
+      "value": "绝杀 “好梦” 步枪\\nKillshot \"Goodnight\" Rifle"
+    },
+    "item_namenone_rifle_multi_01_tint02_short": {
+      "key": "item_Namenone_rifle_multi_01_tint02_short",
+      "value": "绝杀步枪GN"
+    },
+    "item_namenone_rifle_multi_01_tint03": {
+      "key": "item_Namenone_rifle_multi_01_tint03",
+      "value": "绝杀 “血腥” 步枪\\nKillshot \"Bloody\" Rifle"
+    },
+    "item_namenone_rifle_multi_01_tint03_short": {
+      "key": "item_Namenone_rifle_multi_01_tint03_short",
+      "value": "绝杀步枪BD"
+    },
+    "item_namenone_special_ballistic_01": {
+      "key": "item_Namenone_special_ballistic_01",
+      "value": "爆破筒 发射器\\nBoomtube Rocket Launcher"
+    },
+    "item_namenone_special_ballistic_01_collector01": {
+      "key": "item_Namenone_special_ballistic_01_collector01",
+      "value": "爆破筒 “氏卫” 发射器\\nBoomtube \"Clanguard\" Rocket Launcher"
+    },
+    "item_namenone_special_ballistic_01_collector01_short": {
+      "key": "item_Namenone_special_ballistic_01_collector01_short",
+      "value": "爆破筒发射器CG"
+    },
+    "item_namenone_special_ballistic_01_rocket": {
+      "key": "item_Namenone_special_ballistic_01_rocket",
+      "value": "爆破筒 火箭\\nBoomtube Rocket"
+    },
+    "item_namenone_special_ballistic_01_short": {
+      "key": "item_Namenone_special_ballistic_01_short",
+      "value": "爆破筒发射器"
+    },
+    "item_namenone_special_ballistic_01_tint01": {
+      "key": "item_Namenone_special_ballistic_01_tint01",
+      "value": "爆破筒 “红宝石” 发射器\\nBoomtube \"Ruby\" Rocket Launcher"
+    },
+    "item_namenone_special_ballistic_01_tint01_short": {
+      "key": "item_Namenone_special_ballistic_01_tint01_short",
+      "value": "爆破筒发射器RB"
+    },
+    "item_namenone_special_ballistic_01_tint02": {
+      "key": "item_Namenone_special_ballistic_01_tint02",
+      "value": "爆破筒 “绿钞” 发射器\\nBoomtube \"Mean Green\" Rocket Launcher"
+    },
+    "item_namenone_special_ballistic_01_tint02_short": {
+      "key": "item_Namenone_special_ballistic_01_tint02_short",
+      "value": "爆破筒发射器MG"
+    },
+    "item_namevolt_lmg_energy_01": {
+      "key": "item_Namevolt_lmg_energy_01",
+      "value": "菲涅尔 能量轻机枪\\nFresnel Energy LMG"
+    },
+    "item_namevolt_lmg_energy_01_collector01": {
+      "key": "item_Namevolt_lmg_energy_01_collector01",
+      "value": "菲涅尔 “深水” 能量轻机枪\\nFresnel \"Deepwater\" Energy LMG"
+    },
+    "item_namevolt_lmg_energy_01_collector01_short": {
+      "key": "item_Namevolt_lmg_energy_01_collector01_short",
+      "value": "菲涅耳轻机枪D"
+    },
+    "item_namevolt_lmg_energy_01_collector02": {
+      "key": "item_Namevolt_lmg_energy_01_collector02",
+      "value": "菲涅尔 “约曼迪” 能量轻机枪\\nFresnel \"Yormandi\" Energy LMG"
+    },
+    "item_namevolt_lmg_energy_01_collector02_short": {
+      "key": "item_Namevolt_lmg_energy_01_collector02_short",
+      "value": "菲涅耳轻机枪YMD"
+    },
+    "item_namevolt_lmg_energy_01_mag": {
+      "key": "item_Namevolt_lmg_energy_01_mag",
+      "value": "菲涅尔 能量轻机枪电池（165 发）\\nFresnel Energy LMG Battery (165 Cap)"
+    },
+    "item_namevolt_lmg_energy_01_short": {
+      "key": "item_Namevolt_lmg_energy_01_short",
+      "value": "菲涅耳轻机枪"
+    },
+    "item_namevolt_lmg_energy_01_store01": {
+      "key": "item_Namevolt_lmg_energy_01_store01",
+      "value": "菲涅尔 “极乐” 能量轻机枪\\nFresnel \"Elysium\" Energy LMG"
+    },
+    "item_namevolt_lmg_energy_01_store01_short": {
+      "key": "item_Namevolt_lmg_energy_01_store01_short",
+      "value": "菲涅耳轻机枪E"
+    },
+    "item_namevolt_lmg_energy_01_store02": {
+      "key": "item_Namevolt_lmg_energy_01_store02",
+      "value": "菲涅尔 “鎏影” 能量轻机枪\\nFresnel \"Shadow Gild\" Energy LMG"
+    },
+    "item_namevolt_lmg_energy_01_store02_short": {
+      "key": "item_Namevolt_lmg_energy_01_store02_short",
+      "value": "菲涅耳轻机枪SG"
+    },
+    "item_namevolt_lmg_energy_01_tint01": {
+      "key": "item_Namevolt_lmg_energy_01_tint01",
+      "value": "菲涅尔 “熔火” 能量轻机枪\\nFresnel \"Molten\" Energy LMG"
+    },
+    "item_namevolt_lmg_energy_01_tint01_short": {
+      "key": "item_Namevolt_lmg_energy_01_tint01_short",
+      "value": "菲涅耳轻机枪M"
+    },
+    "item_namevolt_lmg_energy_01_tint02": {
+      "key": "item_Namevolt_lmg_energy_01_tint02",
+      "value": "菲涅尔 “冰牢” 能量轻机枪\\nFresnel \"Icebox\" Energy LMG"
+    },
+    "item_namevolt_lmg_energy_01_tint02_short": {
+      "key": "item_Namevolt_lmg_energy_01_tint02_short",
+      "value": "菲涅耳轻机枪I"
+    },
+    "item_namevolt_lmg_energy_01_tint03": {
+      "key": "item_Namevolt_lmg_energy_01_tint03",
+      "value": "菲涅尔 “岩崩” 能量轻机枪\\nFresnel \"Rockfall\" Energy LMG"
+    },
+    "item_namevolt_lmg_energy_01_tint03_short": {
+      "key": "item_Namevolt_lmg_energy_01_tint03_short",
+      "value": "菲涅耳轻机枪R"
+    },
+    "item_namevolt_rifle_energy_01": {
+      "key": "item_Namevolt_rifle_energy_01",
+      "value": "视差 能量突击步枪\\nParallax Energy Assault Rifle"
+    },
+    "item_namevolt_rifle_energy_01_black01": {
+      "key": "item_Namevolt_rifle_energy_01_black01",
+      "value": "视差 “赫斯顿” 能量突击步枪\\nParallax \"Hurston\" Energy Assault Rifle"
+    },
+    "item_namevolt_rifle_energy_01_black01_short": {
+      "key": "item_Namevolt_rifle_energy_01_black01_short",
+      "value": "视差步枪HD"
+    },
+    "item_namevolt_rifle_energy_01_black_gold01": {
+      "key": "item_Namevolt_rifle_energy_01_black_gold01",
+      "value": "视差 “暴流迷彩” 能量突击步枪\\nParallax \"Downburst Camo\" Energy Assault Rifle"
+    },
+    "item_namevolt_rifle_energy_01_black_gold01_short": {
+      "key": "item_Namevolt_rifle_energy_01_black_gold01_short",
+      "value": "视差步枪DC"
+    },
+    "item_namevolt_rifle_energy_01_blue01": {
+      "key": "item_Namevolt_rifle_energy_01_blue01",
+      "value": "视差 “十字军” 能量突击步枪\\nParallax \"Crusader\" Energy Assault Rifle"
+    },
+    "item_namevolt_rifle_energy_01_blue01_short": {
+      "key": "item_Namevolt_rifle_energy_01_blue01_short",
+      "value": "视差步枪CI"
+    },
+    "item_namevolt_rifle_energy_01_camo01": {
+      "key": "item_Namevolt_rifle_energy_01_camo01",
+      "value": "视差 “震爆步兵” 能量突击步枪\\nParallax \"Shock Trooper\" Energy Assault Rifle"
+    },
+    "item_namevolt_rifle_energy_01_camo01_short": {
+      "key": "item_Namevolt_rifle_energy_01_camo01_short",
+      "value": "视差步枪ST"
+    },
+    "item_namevolt_rifle_energy_01_collector01": {
+      "key": "item_Namevolt_rifle_energy_01_collector01",
+      "value": "视差 “趣味寇骈犬牙齿” 能量突击步枪\\nParallax \"Fun Kopion Tooth\" Energy Assault Rifle"
+    },
+    "item_namevolt_rifle_energy_01_collector01_short": {
+      "key": "item_Namevolt_rifle_energy_01_collector01_short",
+      "value": "视差步枪FKT"
+    },
+    "item_namevolt_rifle_energy_01_collector02": {
+      "key": "item_Namevolt_rifle_energy_01_collector02",
+      "value": "视差 “趣味寇骈犬头骨” 能量突击步枪\\nParallax \"Fun Kopion Skull\" Energy Assault Rifle"
+    },
+    "item_namevolt_rifle_energy_01_collector02_short": {
+      "key": "item_Namevolt_rifle_energy_01_collector02_short",
+      "value": "视差步枪FKS"
+    },
+    "item_namevolt_rifle_energy_01_collector03": {
+      "key": "item_Namevolt_rifle_energy_01_collector03",
+      "value": "视差 “趣味军用头骨” 能量突击步枪\\nParallax \"Fun Military Skull\" Energy Assault Rifle"
+    },
+    "item_namevolt_rifle_energy_01_collector03_short": {
+      "key": "item_Namevolt_rifle_energy_01_collector03_short",
+      "value": "视差步枪FMS"
+    },
+    "item_namevolt_rifle_energy_01_collector04": {
+      "key": "item_Namevolt_rifle_energy_01_collector04",
+      "value": "视差 “趣味军用牙齿” 能量突击步枪\\nParallax \"Fun Military Tooth\" Energy Assault Rifle"
+    },
+    "item_namevolt_rifle_energy_01_collector04_short": {
+      "key": "item_Namevolt_rifle_energy_01_collector04_short",
+      "value": "视差步枪FMT"
+    },
+    "item_namevolt_rifle_energy_01_lumi01": {
+      "key": "item_Namevolt_rifle_energy_01_lumi01",
+      "value": "视差 “欢庆皮可” 能量突击步枪\\nParallax \"Piconalia\" Energy Assault Rifle"
+    },
+    "item_namevolt_rifle_energy_01_lumi01_short": {
+      "key": "item_Namevolt_rifle_energy_01_lumi01_short",
+      "value": "视差步枪PC"
+    },
+    "item_namevolt_rifle_energy_01_mag": {
+      "key": "item_Namevolt_rifle_energy_01_mag",
+      "value": "视差 步枪电池 (80 发)\\nParallax Rifle Battery (80 Cap)"
+    },
+    "item_namevolt_rifle_energy_01_red01": {
+      "key": "item_Namevolt_rifle_energy_01_red01",
+      "value": "视差 “弧光集团” 能量突击步枪\\nParallax \"ArcCorp\" Energy Assault Rifle"
+    },
+    "item_namevolt_rifle_energy_01_red01_short": {
+      "key": "item_Namevolt_rifle_energy_01_red01_short",
+      "value": "视差步枪AC"
+    },
+    "item_namevolt_rifle_energy_01_short": {
+      "key": "item_Namevolt_rifle_energy_01_short",
+      "value": "视差步枪"
+    },
+    "item_namevolt_rifle_energy_01_tint01": {
+      "key": "item_Namevolt_rifle_energy_01_tint01",
+      "value": "视差 “日光石” 能量突击步枪\\nParallax \"Sunstone\" Energy Assault Rifle"
+    },
+    "item_namevolt_rifle_energy_01_tint01_short": {
+      "key": "item_Namevolt_rifle_energy_01_tint01_short",
+      "value": "视差步枪SS"
+    },
+    "item_namevolt_rifle_energy_01_tint02": {
+      "key": "item_Namevolt_rifle_energy_01_tint02",
+      "value": "视差 “血红” 能量突击步枪\\nParallax \"Sanguine\" Energy Assault Rifle"
+    },
+    "item_namevolt_rifle_energy_01_tint02_short": {
+      "key": "item_Namevolt_rifle_energy_01_tint02_short",
+      "value": "视差步枪SG"
+    },
+    "item_namevolt_rifle_energy_01_uee01": {
+      "key": "item_Namevolt_rifle_energy_01_uee01",
+      "value": "视差 “GCD-陆军” 能量突击步枪\\nParallax \"GCD-Army\" Rifle"
+    },
+    "item_namevolt_rifle_energy_01_uee01_short": {
+      "key": "item_Namevolt_rifle_energy_01_uee01_short",
+      "value": "视差步枪GCD-A"
+    },
+    "item_namevolt_rifle_energy_01_white01": {
+      "key": "item_Namevolt_rifle_energy_01_white01",
+      "value": "视差 “微科” 能量突击步枪\\nParallax \"microTech\" Energy Assault Rifle"
+    },
+    "item_namevolt_rifle_energy_01_white01_short": {
+      "key": "item_Namevolt_rifle_energy_01_white01_short",
+      "value": "视差步枪MT"
+    },
+    "item_namevolt_shotgun_energy_01": {
+      "key": "item_Namevolt_shotgun_energy_01",
+      "value": "棱镜 激光霰弹枪\\nPrism Laser Shotgun"
+    },
+    "item_namevolt_shotgun_energy_01_black01": {
+      "key": "item_Namevolt_shotgun_energy_01_black01",
+      "value": "棱镜 “赫斯顿” 激光霰弹枪\\nPrism \"Hurston\" Laser Shotgun"
+    },
+    "item_namevolt_shotgun_energy_01_black01_short": {
+      "key": "item_Namevolt_shotgun_energy_01_black01_short",
+      "value": "棱镜霰弹枪HD"
+    },
+    "item_namevolt_shotgun_energy_01_blue01": {
+      "key": "item_Namevolt_shotgun_energy_01_blue01",
+      "value": "棱镜 “十字军” 激光霰弹枪\\nPrism \"Crusader\" Laser Shotgun"
+    },
+    "item_namevolt_shotgun_energy_01_blue01_short": {
+      "key": "item_Namevolt_shotgun_energy_01_blue01_short",
+      "value": "棱镜霰弹枪CI"
+    },
+    "item_namevolt_shotgun_energy_01_collector01": {
+      "key": "item_Namevolt_shotgun_energy_01_collector01",
+      "value": "棱镜 “辐照” 激光霰弹枪\\nPrism \"Irradiated\" Laser Shotgun"
+    },
+    "item_namevolt_shotgun_energy_01_collector01_short": {
+      "key": "item_Namevolt_shotgun_energy_01_collector01_short",
+      "value": "棱镜霰弹枪IR"
+    },
+    "item_namevolt_shotgun_energy_01_mag": {
+      "key": "item_Namevolt_shotgun_energy_01_mag",
+      "value": "棱镜 激光霰弹枪电池（20 发）\\nPrism Laser Shotgun Battery (20 cap)"
+    },
+    "item_namevolt_shotgun_energy_01_red01": {
+      "key": "item_Namevolt_shotgun_energy_01_red01",
+      "value": "棱镜 “弧光集团” 激光霰弹枪\\nPrism \"ArcCorp\" Laser Shotgun"
+    },
+    "item_namevolt_shotgun_energy_01_red01_short": {
+      "key": "item_Namevolt_shotgun_energy_01_red01_short",
+      "value": "棱镜霰弹枪AC"
+    },
+    "item_namevolt_shotgun_energy_01_short": {
+      "key": "item_Namevolt_shotgun_energy_01_short",
+      "value": "棱镜霰弹枪"
+    },
+    "item_namevolt_shotgun_energy_01_store01": {
+      "key": "item_Namevolt_shotgun_energy_01_store01",
+      "value": "棱镜 “危险黄” 激光霰弹枪\\nPrism \"Hazard\" Laser Shotgun"
+    },
+    "item_namevolt_shotgun_energy_01_store01_short": {
+      "key": "item_Namevolt_shotgun_energy_01_store01_short",
+      "value": "棱镜霰弹枪HZ"
+    },
+    "item_namevolt_shotgun_energy_01_store02": {
+      "key": "item_Namevolt_shotgun_energy_01_store02",
+      "value": "棱镜 “破碎迷彩” 激光霰弹枪\\nPrism \"Disrupt Camo\" Laser Shotgun"
+    },
+    "item_namevolt_shotgun_energy_01_store02_short": {
+      "key": "item_Namevolt_shotgun_energy_01_store02_short",
+      "value": "棱镜霰弹枪DC"
+    },
+    "item_namevolt_shotgun_energy_01_tint01": {
+      "key": "item_Namevolt_shotgun_energy_01_tint01",
+      "value": "棱镜 “骨粉” 激光霰弹枪\\nPrism \"Bonedust\" Laser Shotgun"
+    },
+    "item_namevolt_shotgun_energy_01_tint01_short": {
+      "key": "item_Namevolt_shotgun_energy_01_tint01_short",
+      "value": "棱镜霰弹枪BD"
+    },
+    "item_namevolt_shotgun_energy_01_tint02": {
+      "key": "item_Namevolt_shotgun_energy_01_tint02",
+      "value": "棱镜 “深海” 激光霰弹枪\\nPrism \"Deep Sea\" Laser Shotgun"
+    },
+    "item_namevolt_shotgun_energy_01_tint02_short": {
+      "key": "item_Namevolt_shotgun_energy_01_tint02_short",
+      "value": "棱镜霰弹枪DS"
+    },
+    "item_namevolt_shotgun_energy_01_tint03": {
+      "key": "item_Namevolt_shotgun_energy_01_tint03",
+      "value": "棱镜 “炎钢” 激光霰弹枪\\nPrism \"Firesteel\" Laser Shotgun"
+    },
+    "item_namevolt_shotgun_energy_01_tint03_short": {
+      "key": "item_Namevolt_shotgun_energy_01_tint03_short",
+      "value": "棱镜霰弹枪FS"
+    },
+    "item_namevolt_shotgun_energy_01_white01": {
+      "key": "item_Namevolt_shotgun_energy_01_white01",
+      "value": "棱镜 “微科” 激光霰弹枪\\nPrism \"microTech\" Laser Shotgun"
+    },
+    "item_namevolt_shotgun_energy_01_white01_short": {
+      "key": "item_Namevolt_shotgun_energy_01_white01_short",
+      "value": "棱镜霰弹枪MT"
+    },
+    "item_namevolt_smg_energy_01": {
+      "key": "item_Namevolt_smg_energy_01",
+      "value": "石英 能量冲锋枪\\nQuartz Energy SMG"
+    },
+    "item_namevolt_smg_energy_01_black01": {
+      "key": "item_Namevolt_smg_energy_01_black01,P",
+      "value": "石英 “赫斯顿” 能量冲锋枪\\nQuartz \"Hurston\" Energy SMG"
+    },
+    "item_namevolt_smg_energy_01_black01_short": {
+      "key": "item_Namevolt_smg_energy_01_black01_short",
+      "value": "石英冲锋枪HD"
+    },
+    "item_namevolt_smg_energy_01_blue01": {
+      "key": "item_Namevolt_smg_energy_01_blue01",
+      "value": "石英 “十字军” 能量冲锋枪\\nQuartz \"Crusader\" Energy SMG"
+    },
+    "item_namevolt_smg_energy_01_blue01_short": {
+      "key": "item_Namevolt_smg_energy_01_blue01_short",
+      "value": "石英冲锋枪CI"
+    },
+    "item_namevolt_smg_energy_01_collector01": {
+      "key": "item_Namevolt_smg_energy_01_collector01",
+      "value": "石英 “丛林迷彩” 能量冲锋枪\\nQuartz \"Jungle Camo\" Energy SMG"
+    },
+    "item_namevolt_smg_energy_01_collector01_short": {
+      "key": "item_Namevolt_smg_energy_01_collector01_short",
+      "value": "石英冲锋枪JC"
+    },
+    "item_namevolt_smg_energy_01_collector02": {
+      "key": "item_Namevolt_smg_energy_01_collector02",
+      "value": "石英 “猎人迷彩” 能量冲锋枪\\nQuartz \"Hunter Camo\" Energy SMG"
+    },
+    "item_namevolt_smg_energy_01_collector02_short": {
+      "key": "item_Namevolt_smg_energy_01_collector02_short",
+      "value": "石英冲锋枪HC"
+    },
+    "item_namevolt_smg_energy_01_collector03": {
+      "key": "item_Namevolt_smg_energy_01_collector03",
+      "value": "石英 “钴蓝迷彩” 能量冲锋枪\\nQuartz \"Cobalt Camo\" Energy SMG"
+    },
+    "item_namevolt_smg_energy_01_collector03_short": {
+      "key": "item_Namevolt_smg_energy_01_collector03_short",
+      "value": "石英冲锋枪CC"
+    },
+    "item_namevolt_smg_energy_01_lumi01": {
+      "key": "item_Namevolt_smg_energy_01_lumi01",
+      "value": "石英 “欢庆皮可” 能量冲锋枪\\nQuartz \"Piconalia\" Energy SMG"
+    },
+    "item_namevolt_smg_energy_01_lumi01_short": {
+      "key": "item_Namevolt_smg_energy_01_lumi01_short",
+      "value": "石英冲锋枪PC"
+    },
+    "item_namevolt_smg_energy_01_mag": {
+      "key": "item_Namevolt_smg_energy_01_mag",
+      "value": "石英 能量冲锋枪电池 (45 发)\\nQuartz Energy SMG Battery (45 cap)"
+    },
+    "item_namevolt_smg_energy_01_red01": {
+      "key": "item_Namevolt_smg_energy_01_red01",
+      "value": "石英 “弧光集团” 能量冲锋枪\\nQuartz \"ArcCorp\" Energy SMG"
+    },
+    "item_namevolt_smg_energy_01_red01_short": {
+      "key": "item_Namevolt_smg_energy_01_red01_short",
+      "value": "石英冲锋枪AC"
+    },
+    "item_namevolt_smg_energy_01_short": {
+      "key": "item_Namevolt_smg_energy_01_short",
+      "value": "石英冲锋枪"
+    },
+    "item_namevolt_smg_energy_01_store01": {
+      "key": "item_Namevolt_smg_energy_01_store01",
+      "value": "石英 “猛士” 能量冲锋枪\\nQuartz \"True Valor\" Energy SMG"
+    },
+    "item_namevolt_smg_energy_01_store01_short": {
+      "key": "item_Namevolt_smg_energy_01_store01_short",
+      "value": "石英冲锋枪TV"
+    },
+    "item_namevolt_smg_energy_01_store02": {
+      "key": "item_Namevolt_smg_energy_01_store02",
+      "value": "石英 “爪钢” 能量冲锋枪\\nQuartz \"Clawed Steel\" Energy SMG"
+    },
+    "item_namevolt_smg_energy_01_store02_short": {
+      "key": "item_Namevolt_smg_energy_01_store02_short",
+      "value": "石英冲锋枪CS"
+    },
+    "item_namevolt_smg_energy_01_store03": {
+      "key": "item_Namevolt_smg_energy_01_store03",
+      "value": "石英 “新曙光” 能量冲锋枪\\nQuartz \"New Dawn\" Energy SMG"
+    },
+    "item_namevolt_smg_energy_01_store03_short": {
+      "key": "item_Namevolt_smg_energy_01_store03_short",
+      "value": "石英冲锋枪ND"
+    },
+    "item_namevolt_smg_energy_01_tint01": {
+      "key": "item_Namevolt_smg_energy_01_tint01",
+      "value": "石英 “致命陷阱” 能量冲锋枪\\nQuartz \"Deadfall\" Energy SMG"
+    },
+    "item_namevolt_smg_energy_01_tint01_short": {
+      "key": "item_Namevolt_smg_energy_01_tint01_short",
+      "value": "石英冲锋枪DF"
+    },
+    "item_namevolt_smg_energy_01_tint02": {
+      "key": "item_Namevolt_smg_energy_01_tint02",
+      "value": "石英 “黑色行动” 能量冲锋枪\\nQuartz \"Black Op\" Energy SMG"
+    },
+    "item_namevolt_smg_energy_01_tint02_short": {
+      "key": "item_Namevolt_smg_energy_01_tint02_short",
+      "value": "石英冲锋枪BO"
+    },
+    "item_namevolt_smg_energy_01_tint03": {
+      "key": "item_Namevolt_smg_energy_01_tint03",
+      "value": "石英 “流明” 能量冲锋枪\\nQuartz \"Lumen\" Energy SMG"
+    },
+    "item_namevolt_smg_energy_01_tint03_short": {
+      "key": "item_Namevolt_smg_energy_01_tint03_short",
+      "value": "石英冲锋枪LM"
+    },
+    "item_namevolt_smg_energy_01_uee01": {
+      "key": "item_Namevolt_smg_energy_01_uee01",
+      "value": "石英 “GCD-陆军” 能量冲锋枪\\nQuartz \"GCD-Army\" SMG"
+    },
+    "item_namevolt_smg_energy_01_uee01_short": {
+      "key": "item_Namevolt_smg_energy_01_uee01_short",
+      "value": "石英冲锋枪GCD-A"
+    },
+    "item_namevolt_smg_energy_01_white01": {
+      "key": "item_Namevolt_smg_energy_01_white01",
+      "value": "石英 “微科” 能量冲锋枪\\nQuartz \"microTech\" Energy SMG"
+    },
+    "item_namevolt_smg_energy_01_white01_short": {
+      "key": "item_Namevolt_smg_energy_01_white01_short",
+      "value": "石英冲锋枪MT"
+    },
+    "item_namevolt_sniper_energy_01": {
+      "key": "item_Namevolt_sniper_energy_01",
+      "value": "天顶 激光狙击步枪\\nZenith Laser Sniper Rifle"
+    },
+    "item_namevolt_sniper_energy_01_collector01": {
+      "key": "item_Namevolt_sniper_energy_01_collector01",
+      "value": "天顶 “雪地迷彩” 激光狙击步枪\\nZenith \"Snow Camo\" Laser Sniper Rifle"
+    },
+    "item_namevolt_sniper_energy_01_collector01_short": {
+      "key": "item_Namevolt_sniper_energy_01_collector01_short",
+      "value": "天顶激光狙击步枪SC"
+    },
+    "item_namevolt_sniper_energy_01_mag": {
+      "key": "item_Namevolt_sniper_energy_01_mag",
+      "value": "天顶激光狙击步枪电池 (22发)\\nZenith Laser Sniper Rifle Battery (22 Cap)"
+    },
+    "item_namevolt_sniper_energy_01_short": {
+      "key": "item_Namevolt_sniper_energy_01_short",
+      "value": "天顶激光狙击步枪"
+    },
+    "item_namevolt_sniper_energy_01_store01": {
+      "key": "item_Namevolt_sniper_energy_01_store01",
+      "value": "天顶 “金簇” 激光狙击步枪\\nZenith \"Golden Blossom\" Laser Sniper Rifle"
+    },
+    "item_namevolt_sniper_energy_01_store01_short": {
+      "key": "item_Namevolt_sniper_energy_01_store01_short",
+      "value": "天顶激光狙击步枪GB"
+    },
+    "item_namevolt_sniper_energy_01_tint01": {
+      "key": "item_Namevolt_sniper_energy_01_tint01",
+      "value": "天顶 “暗潮” 激光狙击步枪\\nZenith \"Darkwave\" Laser Sniper Rifle"
+    },
+    "item_namevolt_sniper_energy_01_tint01_short": {
+      "key": "item_Namevolt_sniper_energy_01_tint01_short",
+      "value": "天顶激光狙击步枪DW"
+    },
+    "item_namevolt_sniper_energy_01_tint02": {
+      "key": "item_Namevolt_sniper_energy_01_tint02",
+      "value": "天顶 “山崩” 激光狙击步枪\\nZenith \"Landslide\" Laser Sniper Rifle"
+    },
+    "item_namevolt_sniper_energy_01_tint02_short": {
+      "key": "item_Namevolt_sniper_energy_01_tint02_short",
+      "value": "天顶激光狙击步枪LS"
+    },
+    "item_namevolt_sniper_energy_01_tint03": {
+      "key": "item_Namevolt_sniper_energy_01_tint03",
+      "value": "天顶 “雷袭” 激光狙击步枪\\nZenith \"Thunderstrike\" Laser Sniper Rifle"
+    },
+    "item_namevolt_sniper_energy_01_tint03_short": {
+      "key": "item_Namevolt_sniper_energy_01_tint03_short",
+      "value": "天顶激光狙击步枪TS"
+    },
+    "item_name_exechangar_compboard_05": {
+      "key": "item_name_ExecHangar_CompBoard_05",
+      "value": "DCHS-05 轨道定位 计算板"
+    },
+    "item_name_physical_currency_scrip_council_1": {
+      "key": "item_name_Physical_Currency_Scrip_Council_1",
+      "value": "堂会凭证\\nCouncil Scrip"
+    },
+    "item_name_physical_currency_scrip_merc_1": {
+      "key": "item_name_Physical_Currency_Scrip_Merc_1",
+      "value": "雇佣兵公会凭证\\nMG Scrip"
+    },
+    "items_commodities_carinite": {
+      "key": "items_commodities_carinite",
+      "value": "科力晶Carinite"
+    },
+    "items_commodities_carinite_pure": {
+      "key": "items_commodities_carinite_pure",
+      "value": "纯净科力晶Carinite (Pure)"
+    },
+    "items_commodities_copper": {
+      "key": "items_commodities_copper",
+      "value": "铜Copper"
+    },
+    "items_commodities_copper_desc": {
+      "key": "items_commodities_copper_desc",
+      "value": "一种柔软的红橙色金属，具有高导电性，妥当处理后不易氧化。"
+    },
+    "items_commodities_copper_ore": {
+      "key": "items_commodities_copper_ore",
+      "value": "铜矿石"
+    },
+    "items_commodities_copper_ore_desc": {
+      "key": "items_commodities_copper_ore_desc",
+      "value": "一种柔软的红橙色金属，具有高导电性，妥当处理后不易氧化。"
+    },
+    "items_commodities_corundum": {
+      "key": "items_commodities_corundum",
+      "value": "刚玉Corundom"
+    },
+    "items_commodities_corundum_desc": {
+      "key": "items_commodities_corundum_desc",
+      "value": "氧化铝的结晶形式，被视为宝石。品种包括红宝石，蓝宝石和帕帕拉恰蓝宝石。"
+    },
+    "items_commodities_corundum_raw": {
+      "key": "items_commodities_corundum_raw",
+      "value": "刚玉原矿"
+    },
+    "items_commodities_corundum_raw_desc": {
+      "key": "items_commodities_corundum_raw_desc",
+      "value": "氧化铝的结晶形式，被视为宝石。品种包括红宝石，蓝宝石和帕帕拉恰蓝宝石。"
+    },
+    "items_commodities_kopionhorn_irradiated": {
+      "key": "items_commodities_kopionhorn_irradiated",
+      "value": "受辐射的寇骈犬角Irradiated Kopion Horn"
+    },
+    "items_commodities_kopionhorn_tundra": {
+      "key": "items_commodities_kopionhorn_tundra",
+      "value": "苔原寇骈犬角Tundra Kopion Horn"
+    },
+    "items_commodities_quantainium": {
+      "key": "items_commodities_quantainium",
+      "value": "量子矿物Quantainium"
+    },
+    "items_commodities_quantainium_desc": {
+      "key": "items_commodities_quantainium_desc",
+      "value": "一种用于生产量子燃料的极度不稳定矿物。"
+    },
+    "items_commodities_quantainium_raw": {
+      "key": "items_commodities_quantainium_raw",
+      "value": "量子矿物原矿"
+    },
+    "items_commodities_quantainium_raw_desc": {
+      "key": "items_commodities_quantainium_raw_desc",
+      "value": "一种用于生产量子燃料的极度不稳定矿物。"
+    },
+    "items_commodities_quasigrazeregg_grassland": {
+      "key": "items_commodities_quasigrazeregg_grassland",
+      "value": "草地故夕食草兽蛋Grassland Quasi Grazer Egg"
+    },
+    "items_commodities_sadaryx": {
+      "key": "items_commodities_sadaryx",
+      "value": "萨达瑞晶Sadaryx"
+    },
+    "items_commodities_savrilium": {
+      "key": "items_commodities_savrilium",
+      "value": "萨维里金属Savrilium"
+    },
+    "items_commodities_savrilium_des": {
+      "key": "items_commodities_savrilium_des",
+      "value": "这种金属最初在尼克斯星系被发现，由于其独特的合金特性，成为该星系早期矿工们的主要经济驱动力。"
+    },
+    "items_commodities_savrilium_ore": {
+      "key": "items_commodities_savrilium_ore",
+      "value": "萨维里矿石"
+    },
+    "items_commodities_savrilium_ore_des": {
+      "key": "items_commodities_savrilium_ore_des",
+      "value": "这种金属矿石最初在尼克斯星系被发现，由于其独特的合金特性，在经过精炼提纯后成为该星系早期矿工们的主要经济来源。"
+    },
+    "items_commodities_tungsten": {
+      "key": "items_commodities_tungsten",
+      "value": "钨Tungsten"
+    },
+    "items_commodities_tungsten_desc": {
+      "key": "items_commodities_tungsten_desc",
+      "value": "可见于多种合金，纯钨可以在保持强度的情况下依旧可锻。"
+    },
+    "items_commodities_tungsten_ore": {
+      "key": "items_commodities_tungsten_ore",
+      "value": "钨矿石"
+    },
+    "items_commodities_tungsten_ore_desc": {
+      "key": "items_commodities_tungsten_ore_desc",
+      "value": "可用于制造多种合金，纯钨可以在保持强度的情况下依旧可锻。"
+    },
+    "items_commodities_valakkarfang_adult_irradiated": {
+      "key": "items_commodities_valakkarfang_adult_irradiated",
+      "value": "受辐射的瓦拉卡獠牙 (成年期)\\nIrradiated Valakkar Fang (Adult)"
+    },
+    "items_commodities_valakkarfang_apex_irradiated": {
+      "key": "items_commodities_valakkarfang_apex_irradiated",
+      "value": "受辐射的瓦拉卡獠牙 (巅峰期)\\nIrradiated Valakkar Fang (Apex)"
+    },
+    "items_commodities_valakkarfang_juvenile": {
+      "key": "items_commodities_valakkarfang_juvenile",
+      "value": "瓦拉卡獠牙 (幼年期)\\nValakkar Fang (Juvenile)"
+    },
+    "items_commodities_valakkarfang_juvenile_irradiated": {
+      "key": "items_commodities_valakkarfang_juvenile_irradiated",
+      "value": "受辐射的瓦拉卡獠牙 (幼年期)\\nIrradiated Valakkar Fang (Juvenile)"
+    },
+    "items_commodities_valakkarpearl_apex_irradiated_tier1": {
+      "key": "items_commodities_valakkarpearl_apex_irradiated_tier1",
+      "value": "受辐射的瓦拉卡珍珠（AAA 级）\\nIrradiated Valakkar Pearl (Grade AAA)"
+    },
+    "items_commodities_valakkarpearl_apex_irradiated_tier2": {
+      "key": "items_commodities_valakkarpearl_apex_irradiated_tier2",
+      "value": "受辐射的瓦拉卡珍珠（AA 级）\\nIrradiated Valakkar Pearl (Grade AA)"
+    },
+    "items_commodities_yormandi_eye": {
+      "key": "items_commodities_yormandi_eye",
+      "value": "约曼迪之眼\\nYormandi Eye"
+    },
+    "items_commodities_yormandi_tongue": {
+      "key": "items_commodities_yormandi_tongue",
+      "value": "约曼迪舌头\\nYormandi Tongue"
+    },
+    "mineabletype_primary_copper": {
+      "key": "mineabletype_primary_copper",
+      "value": "铜"
+    },
+    "mineabletype_primary_corundum": {
+      "key": "mineabletype_primary_corundum",
+      "value": "刚玉"
+    },
+    "mineabletype_primary_quantainium": {
+      "key": "mineabletype_primary_quantainium",
+      "value": "量子矿物"
+    },
+    "mineabletype_primary_tungsten": {
+      "key": "mineabletype_primary_tungsten",
+      "value": "钨"
+    },
+    "text_transport_argo_atls": {
+      "key": "text_transport_ARGO_ATLS",
+      "value": "ARGO ATLS"
+    },
+    "vehicle_descaegs_idris_p_collector_military": {
+      "key": "vehicle_DescAEGS_Idris_P_Collector_Military",
+      "value": "制造商：圣盾动力 (Aegis Dynamics)\\n定位：护卫舰\\n\\n伊德里斯-P 是为了UEE巡逻组织研发的伊德利斯和平守卫者变体，舰炮和龙骨炮被拆除，取而代之的是更多的货物空间以及更高的速度。\\n\\n我是维科洛。做了有用的修改。让飞船打架更狠。非常令人印象深刻。"
+    },
+    "vehicle_descaegs_sabre_peregrine_collector_competition": {
+      "key": "vehicle_DescAEGS_Sabre_Peregrine_Collector_Competition,P",
+      "value": "制造商：圣盾动力 (Aegis Dynamics)\\n定位：竞速\\n\\n在看到军刀渡鸦的粉丝们在赛道上用这架战斗机完成了什么之后，圣盾动力的设计团队收到启发，为这艘敏捷的飞船设计了官方竞速版。军刀游隼登场。流线型与额外的推进器，这只灵活的鸟已经做好飞越终点线的准备。"
+    },
+    "vehicle_descanvl_asgard_collector_military": {
+      "key": "vehicle_DescANVL_Asgard_Collector_Military",
+      "value": "制造商：铁砧航天 (Anvil Aerospace)\\n定位：运输船\\n\\n随着现代战争的规模和复杂性不断增加，铁砧航天深知一个载具对战局结果的影响。于是，阿斯加德应运而生。作为下一代地面载具运输方案，铁砧阿斯加德配备了快速装载坡道、一个宽敞的货舱，可安全存放你选择的突击载具，以及强大的火力配置，确保即使在战斗最激烈的空投点也能顺利进入。\\n\\n我是维科洛。做了一些有用的修改。让飞船跟像个战斗机。非常令人印象深刻。"
+    },
+    "vehicle_descanvl_lightning_f8c_collector_military": {
+      "key": "vehicle_DescANVL_Lightning_F8C_Collector_Military",
+      "value": "制造商：铁砧航天 (Anvil Aerospace)\\n定位：重型战斗机\\n\\n在帝国海军中服役的令人骄傲的男女战士们的座驾中，很少能有像传奇的F8闪电一样令人产生敬畏感。它是一股不可忽视的力量，不论在家园亦或是在外地，F8已经无数次地在众多来犯的威胁中保护了人类的自由。现在，这款次世代的太空优势战斗机的 F8C 民用型号将能成为你私人舰队中的一员。\\n\\n维科洛在这。做了一些有用的改造。使其更具战斗机的特性。非常惊艳。"
+    },
+    "vehicle_descanvl_lightning_f8c_collector_stealth": {
+      "key": "vehicle_DescANVL_Lightning_F8C_Collector_Stealth",
+      "value": "制造商：铁砧航天 (Anvil Aerospace)\\n定位：重型战斗机\\n\\n在帝国海军中服役的令人骄傲的男女战士们的座驾中，很少能有像传奇的F8闪电一样令人产生敬畏感。它是一股不可忽视的力量，不论在家园亦或是在外地，F8已经无数次地在众多来犯的威胁中保护了人类的自由。现在，这款次世代的太空优势战斗机的 F8C 民用型号将能成为你私人舰队中的一员。\\n\\n维科洛在这。做了一些有用的改造。让飞船更难被发现。非常狡猾。"
+    },
+    "vehicle_descanvl_terrapin_medic_collector_medic": {
+      "key": "vehicle_DescANVL_Terrapin_Medic_Collector_Medic",
+      "value": "制造商：铁砧航天 (Anvil Aerospace)\\n定位：医疗\\n\\n在保留了原版水龟韧性的基础上，铁砧的设计师们精心设计了一艘最适合救援行动的水龟医疗载具。配备有一个二级医疗床，归功于它强大的装甲和护盾，水龟医疗可以从最危险的情况下救出受伤的人。\\n\\n维科洛在这。做了有用的修改，让船更好，让你可以做更多的治疗。"
+    },
+    "vehicle_descargo_atls": {
+      "key": "vehicle_DescARGO_ATLS",
+      "value": "制造商：南船座宇航 (Argo Astronautics)\\n定位：货物\\n得益于严格又真实的测试过程，南船座的下一代辅助运输装载系统的特点是一个完全重新设计的驾驶舱，他使得穿着最新的 ATLS 动力服比以往任何时候都像是使用者身体的自然延伸。与以前的版本相比，更流畅的腿部驱动器，以及更强大的牵引光束，有效精准地转移笨重的货物从未如此轻松。"
+    },
+    "vehicle_descargo_atls_geo": {
+      "key": "vehicle_DescARGO_ATLS_GEO",
+      "value": "制造商：南船座宇航 (Argo Astronautics)\\n定位：采矿\\n\\n在 ATLS 提供的坚实基础上，南船座宇航的工程师们巧妙地将动力服转变为理想的个人采矿平台。ATLS GEO 配备了采矿激光、牵引束和可拆卸的矿石储存，是从矿藏中获取最大潜在价值的全方位解决方案。"
+    },
+    "vehicle_descargo_atls_geo_ikti": {
+      "key": "vehicle_DescARGO_ATLS_GEO_IKTI",
+      "value": "制造商：巴努 (Banu)\\n定位：战斗\\n\\n维科洛手工打造，这款 ATLS GEO 动力服的定制变体使用武器取代了所有非武器装备。GEO 的资源舱被升级为跳跃背包，以提升机动性。"
+    },
+    "vehicle_descargo_atls_ikti": {
+      "key": "vehicle_DescARGO_ATLS_IKTI",
+      "value": "制造商：巴努 (Banu)\\n定位：战斗\\n\\n维科洛手工打造，这款 ATLS 动力服的定制变体使用武器取代了所有非武器装备。"
+    },
+    "vehicle_descargo_atls_ikti_rad": {
+      "key": "vehicle_DescARGO_ATLS_IKTI_Rad",
+      "value": "制造商：联合科学与开发公司 (Associated Science & Development)\\n定位：战斗\\n\\n基于巴努商人维科洛改装的南船座 ATLS，ASD对这款动力服进行了进一步调整，使其能够更好地在派罗 I 致命的辐射风暴中生存。"
+    },
+    "vehicle_descargo_raft_collector_indust": {
+      "key": "vehicle_DescARGO_RAFT_Collector_Indust",
+      "value": "制造商：南船座宇航 (Argo Astronautics)\\n定位：中型货运\\n\\n南船座木筏带有 192SCU 的可观货物网格，能够携带标准 32SCU 的集装箱。作为货运新人与老手的完美选择，木筏是可靠本地货物运输的理想解决方案。\\n\\n维科洛向你问好。做了有用的修改。让飞船更勤劳。你会喜欢的。"
+    },
+    "vehicle_desccrus_intrepid_collector_indust": {
+      "key": "vehicle_DescCRUS_Intrepid_Collector_Indust,P",
+      "value": "制造商：十字军工业 (Crusader Industries)\\n定位：新手船 / 轻型货运\\n\\n对那些渴望迎接未来的人，十字军工业著名的飞船工程师们自豪地展示了无畏。一艘大胆的飞船，随时准备处理任何数量的工作，征服无数的挑战。无畏拥有高效的货舱空间和舒适的居住区，让您在星际独自旅行时充分利用每一刻。"
+    },
+    "vehicle_desccrus_starfighter_inferno_collector_military": {
+      "key": "vehicle_DescCRUS_Starfighter_Inferno_Collector_Military",
+      "value": "制造商：十字军工业 (Crusader Industries)\\n定位：重型战斗机\\n\\n无论是带领僚机还是孤狼猎杀身材较大的飞船，战神-地狱火都是一支不可忽视的力量。这种装备有实弹加特林的变体可以击穿炮艇的装甲，并在数秒内将小型战斗机化作尘埃。\\n\\n维科洛在这。做了一些有用的改造。使其更具战斗机的特性。非常惊艳。"
+    },
+    "vehicle_desccrus_starfighter_ion_collector_stealth": {
+      "key": "vehicle_DescCRUS_Starfighter_Ion_Collector_Stealth",
+      "value": "制造商：十字军工业 (Crusader Industries)\\n定位：重型战斗机\\n\\n驾驶战神-离子光，在最强大的炮艇和护卫舰之间的空隙中散播恐惧。这种装备有激光武器的变体能发射极其强力的能量炮弹来迅速摧毁最大型飞船的护盾。\\n\\n维科洛在这。做了一些有用的改造。使其更具战斗机的特性。非常惊艳。"
+    },
+    "vehicle_desccrus_starlifter_a2_collector_military": {
+      "key": "vehicle_DescCRUS_Starlifter_A2_Collector_Military",
+      "value": "制造商：十字军工业 (Crusader Industries)\\n定位：定位：重型轰炸机\\n\\nA2星际运输船被用于在空袭，搜救行动和着陆计划中产生毁灭性的影响。A2具有M2双倍的火力和一个定制的投弹仓，能提供惊人的有效载荷，满足任何携带大量货物通过有潜在威胁的空域的需求。\\n\\n维科洛在这。做了一些有用的改造。使其更具战斗机的特性。非常惊艳。"
+    },
+    "vehicle_descdrak_clipper_collector_military": {
+      "key": "vehicle_DescDRAK_Clipper_Collector_Military",
+      "value": "制造商：德雷克行星际 (Drake Interplanetary)\\n定位：多用途\\n\\n每位船长在准备穿越星辰时都需要牢记的一点是“要未雨绸缪”。凭借其货舱、医疗设施和制造能力，再加上德雷克实用的设计理念，快帆是任何新太空企业的完美选择。\\n\\n维科洛在这。做了一些有用的改造。使其更具战斗机的特性。非常惊艳。"
+    },
+    "vehicle_descdrak_golem_collector_indust": {
+      "key": "vehicle_DescDRAK_Golem_Collector_Indust",
+      "value": "制造商：德雷克行星际 (Drake Interplanetary)\\n定位：新手船 / 轻型采矿\\n\\n德雷克设计的魔像是专为那些想要开启采矿生涯的人打造的理想飞船。这艘飞船配备了定制的采矿激光器，并拥有可容纳 32 SCU 宝贵资源的容器。秉承德雷克一贯的风格，魔像是一艘以功能为核心、摒弃多余装饰的实用型飞船。\\n\\n维科洛。做了有用的修改。让船更勤劳。你会喜欢的。"
+    },
+    "vehicle_descespr_prowler_utility_collector_indust": {
+      "key": "vehicle_DescESPR_Prowler_Utility_Collector_Indust",
+      "value": "制造商：埃斯佩里亚 (Esperia)\\n定位：轻型货运\\n\\n虽然目前尚无已知的由塔维因制造的这款历史飞船的例证存在，但埃斯佩里亚的历史学家们研究了当时的 UPE 军方战地报告，成功复原了这艘改装版“徘徊者”。塔维因军方曾用它向前线运送急需的物资。这款徘徊者多功能型将牵引光束与完全可进入的货舱结合在一起，同时保留了战舰依旧可观的武器装备，使得在战场环境下转移物资成为一项精确操作。\\n\\n维科洛，嗨。对飞船进行了有用的改进，让它更勤劳。你会喜欢的。"
+    },
+    "vehicle_desckrig_l21_wolf_collector_military": {
+      "key": "vehicle_DescKRIG_L21_Wolf_Collector_Military",
+      "value": "制造商：克鲁格星际 (Kruger Intergalactic)\\n定位：轻型战斗机\\n\\n这是一艘几乎历经 400 年打造的飞船，绝对值得等待。克鲁格星际非常高兴地推出他们首款独立制造的飞船——狼式。结合速度、风格以及无可挑剔的精准设计，L-21 狼式不仅是克鲁格技术实力的展现。它还配备了一系列强大的武器，包括两门定制的 S4 实弹加特林机炮，具备单打独斗或群体作战的能力。\\n\\n我是维科洛。做了有用的修改。让飞船更像战斗机。非常令人印象深刻。"
+    },
+    "vehicle_desckrig_l21_wolf_collector_stealth": {
+      "key": "vehicle_DescKRIG_L21_Wolf_Collector_Stealth",
+      "value": "制造商：克鲁格星际 (Kruger Intergalactic)\\n定位：轻型战斗机\\n\\n这是一艘几乎历经 400 年打造的飞船，绝对值得等待。克鲁格星际非常高兴地推出他们首款独立制造的飞船——狼式。结合速度、风格以及无可挑剔的精准设计，L-21 狼式不仅是克鲁格技术实力的展现。它还配备了一系列强大的武器，包括两门定制的 S4 实弹加特林机炮，具备单打独斗或群体作战的能力。\\n\\n我是维科洛。做了有用的修改。让飞船更难被看到。鬼鬼祟祟的。"
+    },
+    "vehicle_descmisc_prospector_collector_indust": {
+      "key": "vehicle_DescMISC_Prospector_Collector_Indust",
+      "value": "制造商：武藏工业与星航株式会社 (MISC)\\n定位：轻型采矿\\n\\n多年来，勘探者在宇宙中一直作为单人采矿工的首选飞船。勘探者具有 MISC 一贯的圆滑外形和一批经过升级的高科技采矿工具，在外形和功能上有着很好的平衡。\\n\\n维科洛向你问好。做了有用的修改。让飞船更勤劳。你会喜欢的。"
+    },
+    "vehicle_descmisc_starlancer_max_collector_indust": {
+      "key": "vehicle_DescMISC_Starlancer_MAX_Collector_Indust,P",
+      "value": "制造商：武藏工业与星航株式会社 (MISC)\\n定位：中型货运\\n\\n对那些希望扩大运输业务的人来说，武藏的工程师们升级了星际枪骑兵 MAX，增加了一个更宽敞的货舱可以运输货物和载具。再加上长途旅行时舒适的住宿，以及当你不走寻常路时全套的防御方案。很容易理解为什么星际枪骑兵 MAX 是宇宙中勤奋飞行员的首选。"
+    },
+    "vehicle_descmisc_starlancer_tac_collector_military": {
+      "key": "vehicle_DescMISC_Starlancer_TAC_Collector_Military",
+      "value": "制造商：武藏工业与星航株式会社 (MISC)\\n定位：炮艇\\n\\n对于那些希望拥有一艘多功能且能在战斗中独当一面的飞船的人来说，工程师们为星际枪骑兵 TAC 升级了一套激进的攻击配置，足以直面最凶猛的敌人。当你接手一项高风险、高回报的任务时，星际枪骑兵 TAC 将确保你和你的船员能够坚持到最后。\\n\\n维科洛在这。做了有用的修改。让船甚至更加像战斗机。非常令人印象深刻。"
+    },
+    "vehicle_descmrai_guardian_mx_collector_military": {
+      "key": "vehicle_DescMRAI_Guardian_MX_Collector_Military",
+      "value": "制造商：未来 (Mirai)\\n定位：重型战斗机\\n\\n在守护者战斗机的框架基础上，增加了更多攻击选项，未来工业的守护者 MX 配备了额外的火力和装甲，非常适合压制对手。虽然它不如基础款守护者灵活，但这款重型战斗机仍比同级别中的许多其他飞船更加敏捷。\\n\\n维科洛这里。做了一些有用的修改。使船更像战斗机。非常令人印象深刻。"
+    },
+    "vehicle_descrsi_apollo_triage_collector_stealth": {
+      "key": "vehicle_DescRSI_Apollo_Triage_Collector_Stealth",
+      "value": "制造商：罗伯茨太空工业 (Roberts Space Industries)\\n定位：医疗\\n\\n来自罗伯茨太空工业的传奇阿波罗分诊，是医疗疏散及应急快速响应载具中的黄金标准。内部升级支持重生技术的阿波罗为帝国内外提供紧急救助历史悠久，至今已超过两个世纪。\\n\\n我是维科洛。做了有用的修改。让飞船更难被看到。鬼鬼祟祟的。"
+    },
+    "vehicle_descrsi_meteor_collector_stealth": {
+      "key": "vehicle_DescRSI_Meteor_Collector_Stealth",
+      "value": "制造商：罗伯茨太空工业 (Roberts Space Industries)\\n定位：中型战斗机\\n\\n装载了猛烈火力的流星战斗机是敌人最不想看到的东西。它借鉴了经典的螳螂战机设计，但这架中型战斗机摒弃了量子截停功能，而是配备了两门定制的 S5 实弹炮和四个单负载 S4 的导弹挂架，让流星成为能像流星一样点亮天空的强大战力。\\n\\n维科洛这里。对飞船进行了一些实用的改造，使其更难以被发现，非常隐蔽。"
+    },
+    "vehicle_descrsi_polaris_collector_military": {
+      "key": "vehicle_DescRSI_Polaris_Collector_Military",
+      "value": "制造商：罗伯茨太空工业 (Roberts Space Industries)\\n定位：轻护卫舰\\n\\n北极星是一艘灵活的轻护卫舰级别的主力舰，满载的炮雷武装能对敌人造成有力的一击！ 作为海军巡逻船和民兵行动的旗舰，北极星能够执行搜救行动、轻快打击任务和进行常规巡防的能力。北极星备有对一架战斗机，轻型轰炸机或支援船进行维修、再装弹和加油的设施。\\n\\n维科洛在这。做了一些有用的改造。使其更加惊艳。"
+    },
+    "vehicle_descrsi_zeus_cl_collector_indust": {
+      "key": "vehicle_DescRSI_Zeus_CL_Collector_Indust,P",
+      "value": "制造商：罗伯茨太空工业 (Roberts Space Industries)\\n定位：中型货运\\n\\n罗伯茨太空工业公司自豪地向您介绍一艘历经八个世纪打造的星际飞船--全新的宙斯 Mk II 宇宙飞船，它已准备好载着新一代的旅行者穿越宇宙。为了向 2140 年将人类推向星际的经典设计致敬，宙斯 Mk II 经过更新，超越了现代标准，同时保留了这一深受喜爱的太空标志的核心。宙斯 Mk II CL 版以商业为重点，配备了额外的货运空间和牵引光束，是处理大量货物的理想选择。"
+    },
+    "vehicle_descrsi_zeus_es_collector_indust": {
+      "key": "vehicle_DescRSI_Zeus_ES_Collector_Indust,P",
+      "value": "制造商：罗伯茨太空工业 (Roberts Space Industries)\\n定位：远征\\n\\n\\n罗伯茨太空工业公司自豪地向您介绍一艘历经八个世纪打造的星际飞船--全新的宙斯 Mk II 宇宙飞船，它已准备好载着新一代的旅行者穿越宇宙。为了向 2140 年将人类推向星际的经典设计致敬，宙斯 Mk II 经过更新，超越了现代标准，同时保留了这一深受喜爱的航天标志的核心。宙斯 Mk II ES 版以探索为重点，配备了强大的雷达套件，用于寻找新发现，并增强了武器装备和防护罩，以帮助将新发现带回家。"
+    },
+    "vehicle_nameaegs_firebird_collector_milt": {
+      "key": "vehicle_NameAEGS_Firebird_Collector_Milt,P",
+      "value": "圣盾 军刀 火鸟 维科洛 战争特别版\\nAegis Sabre Firebird Wikelo War Special"
+    },
+    "vehicle_nameaegs_idris_p_collector_military": {
+      "key": "vehicle_NameAEGS_Idris_P_Collector_Military",
+      "value": "圣盾 伊德里斯-P 维科洛 战争特别版\\nAegis Idris-P Wikelo War Special"
+    },
+    "vehicle_nameaegs_idris_p_collector_military_short": {
+      "key": "vehicle_NameAEGS_Idris_P_Collector_Military_short",
+      "value": "伊德里斯-P 维科洛战争版"
+    },
+    "vehicle_nameaegs_sabre_peregrine_collector_competition": {
+      "key": "vehicle_NameAEGS_Sabre_Peregrine_Collector_Competition,P",
+      "value": "圣盾 军刀 游隼 维科洛 极速特别版\\nAegis Sabre Peregrine Wikelo Speedy Special"
+    },
+    "vehicle_nameaegs_sabre_peregrine_collector_competition_short": {
+      "key": "vehicle_NameAEGS_Sabre_Peregrine_Collector_Competition_short,P",
+      "value": "军刀 游隼 维科洛极速版"
+    },
+    "vehicle_nameanvl_asgard_collector_military": {
+      "key": "vehicle_NameANVL_Asgard_Collector_Military",
+      "value": "铁砧 阿斯加德 维科洛 战争特别版\\nAnvil Asgard Wikelo War Special"
+    },
+    "vehicle_nameanvl_asgard_collector_military_short": {
+      "key": "vehicle_NameANVL_Asgard_Collector_Military_short",
+      "value": "阿斯加德 维科洛战争版"
+    },
+    "vehicle_nameanvl_lightning_f8c_collector_military": {
+      "key": "vehicle_NameANVL_Lightning_F8C_Collector_Military",
+      "value": "铁砧 F8C 闪电 维科洛 战争特别版\\nAnvil F8C Lightning Wikelo War Special"
+    },
+    "vehicle_nameanvl_lightning_f8c_collector_military_short": {
+      "key": "vehicle_NameANVL_Lightning_F8C_Collector_Military_short",
+      "value": "F8C 闪电 维科洛战争版"
+    },
+    "vehicle_nameanvl_lightning_f8c_collector_stealth": {
+      "key": "vehicle_NameANVL_Lightning_F8C_Collector_Stealth",
+      "value": "铁砧 F8C 闪电 维科洛 鬼祟特别版\\nAnvil F8C Lightning Wikelo Sneak Special"
+    },
+    "vehicle_nameanvl_lightning_f8c_collector_stealth_short": {
+      "key": "vehicle_NameANVL_Lightning_F8C_Collector_Stealth_short",
+      "value": "F8C 闪电 维科洛鬼祟版"
+    },
+    "vehicle_nameanvl_terrapin_medic_collector_medic": {
+      "key": "vehicle_NameANVL_Terrapin_Medic_Collector_Medic",
+      "value": "铁砧 水龟 医疗 维科洛 拯救者特别版\\nAnvil Terrapin Medic Wikelo Savior Special"
+    },
+    "vehicle_nameanvl_terrapin_medic_collector_medic_short": {
+      "key": "vehicle_NameANVL_Terrapin_Medic_Collector_Medic_short",
+      "value": "水龟 医疗 维科洛拯救者版"
+    },
+    "vehicle_nameargo_atls": {
+      "key": "vehicle_NameARGO_ATLS",
+      "value": "南船座 ATLS\\nArgo ATLS"
+    },
+    "vehicle_nameargo_atlsgeo_short": {
+      "key": "vehicle_NameARGO_ATLSGeo_short",
+      "value": "ATLS GEO"
+    },
+    "vehicle_nameargo_atlsiktgeo_short": {
+      "key": "vehicle_NameARGO_ATLSIktGeo_short",
+      "value": "ATLS GEO IKTI"
+    },
+    "vehicle_nameargo_atlsikti_short": {
+      "key": "vehicle_NameARGO_ATLSIkti_short",
+      "value": "ATLS IKTI"
+    },
+    "vehicle_nameargo_atls_geo": {
+      "key": "vehicle_NameARGO_ATLS_GEO",
+      "value": "南船座 ATLS GEO\\nArgo ATLS GEO"
+    },
+    "vehicle_nameargo_atls_geo_ikti": {
+      "key": "vehicle_NameARGO_ATLS_GEO_IKTI",
+      "value": "南船座 ATLS GEO IKTI\\nArgo ATLS GEO IKTI"
+    },
+    "vehicle_nameargo_atls_ikti": {
+      "key": "vehicle_NameARGO_ATLS_IKTI",
+      "value": "南船座 ATLS IKTI\\nArgo ATLS IKTI"
+    },
+    "vehicle_nameargo_atls_ikti_rad": {
+      "key": "vehicle_NameARGO_ATLS_IKTI_Rad",
+      "value": "南船座 ATLS IKTI Rad\\nArgo ATLS IKTI Rad"
+    },
+    "vehicle_nameargo_atls_ikti_rad_short": {
+      "key": "vehicle_NameARGO_ATLS_IKTI_Rad_short",
+      "value": "ATLS IKTI Rad"
+    },
+    "vehicle_nameargo_atls_short": {
+      "key": "vehicle_NameARGO_ATLS_short",
+      "value": "ATLS"
+    },
+    "vehicle_nameargo_raft_collector_indust": {
+      "key": "vehicle_NameARGO_RAFT_Collector_Indust",
+      "value": "南船座 木筏 维科洛 工作特别版\\nArgo RAFT Wikelo Work Special"
+    },
+    "vehicle_nameargo_raft_collector_indust_short": {
+      "key": "vehicle_NameARGO_RAFT_Collector_Indust_short",
+      "value": "木筏 维科洛工作版"
+    },
+    "vehicle_namecrus_intrepid_collector_indust": {
+      "key": "vehicle_NameCRUS_Intrepid_Collector_Indust,P",
+      "value": "十字军 无畏 维科洛 工作特别版\\nCrusader Intrepid Wikelo Work Special"
+    },
+    "vehicle_namecrus_intrepid_collector_indust_short": {
+      "key": "vehicle_NameCRUS_Intrepid_Collector_Indust_short,P",
+      "value": "无畏 维科洛工作版"
+    },
+    "vehicle_namecrus_spirit_c1_collector_civilian": {
+      "key": "vehicle_NameCRUS_Spirit_C1_Collector_Civilian",
+      "value": "十字军 星灵 C1 维科洛 特别版\\nCrusader C1 Spirit Wikelo Special"
+    },
+    "vehicle_namecrus_starfighter_inferno_collector_military": {
+      "key": "vehicle_NameCRUS_Starfighter_Inferno_Collector_Military",
+      "value": "十字军 战神 星际战斗机 地狱火 维科洛 战争特别版\\nCrusader Ares Star Fighter Inferno Wikelo War Special"
+    },
+    "vehicle_namecrus_starfighter_inferno_collector_military_short": {
+      "key": "vehicle_NameCRUS_Starfighter_Inferno_Collector_Military_short",
+      "value": "战神 地狱火 维科洛战争版"
+    },
+    "vehicle_namecrus_starfighter_ion_collector_stealth": {
+      "key": "vehicle_NameCRUS_Starfighter_Ion_Collector_Stealth",
+      "value": "十字军 战神 星际战斗机 离子光 维科洛 鬼祟特别版\\nCrusader Ares Star Fighter Ion Wikelo Sneak Special"
+    },
+    "vehicle_namecrus_starfighter_ion_collector_stealth_short": {
+      "key": "vehicle_NameCRUS_Starfighter_Ion_Collector_Stealth_short",
+      "value": "战神 离子光 维科洛鬼祟版"
+    },
+    "vehicle_namecrus_starlifter_a2_collector_military": {
+      "key": "vehicle_NameCRUS_Starlifter_A2_Collector_Military",
+      "value": "十字军 大力神 A2 星际运输船 维科洛 战争特别版\\nCrusader A2 Hercules Starlifter Wikelo War Special"
+    },
+    "vehicle_namecrus_starlifter_a2_collector_military_short": {
+      "key": "vehicle_NameCRUS_Starlifter_A2_Collector_Military_short",
+      "value": "A2 大力神 维科洛战争版"
+    },
+    "vehicle_namedrak_clipper_collector_military": {
+      "key": "vehicle_NameDRAK_Clipper_Collector_Military",
+      "value": "德雷克 快帆 维科洛 战争特别版\\nDrake Clipper Wikelo War Special"
+    },
+    "vehicle_namedrak_clipper_collector_military_short": {
+      "key": "vehicle_NameDRAK_Clipper_Collector_Military_short",
+      "value": "快帆 维科洛战争版"
+    },
+    "vehicle_namedrak_golem_collector_indust": {
+      "key": "vehicle_NameDRAK_Golem_Collector_Indust",
+      "value": "德雷克 魔像 维科洛 工作特别版\\nDrake Golem Wikelo Work Special"
+    },
+    "vehicle_namedrak_golem_collector_indust_short": {
+      "key": "vehicle_NameDRAK_Golem_Collector_Indust_short",
+      "value": "魔像 维科洛工作版"
+    },
+    "vehicle_nameespr_prowler_utility_collector_indust": {
+      "key": "vehicle_NameESPR_Prowler_Utility_Collector_Indust",
+      "value": "埃斯佩里亚 徘徊者 多功能 维科洛 工作特别版\\nEsperia Prowler Utility Wikelo Work Special"
+    },
+    "vehicle_nameespr_prowler_utility_collector_indust_short": {
+      "key": "vehicle_NameESPR_Prowler_Utility_Collector_Indust_short",
+      "value": "徘徊者 多功能 维科洛工作版"
+    },
+    "vehicle_namekrig_l21_wolf_collector_military": {
+      "key": "vehicle_NameKRIG_L21_Wolf_Collector_Military",
+      "value": "克鲁格 L-21 狼式 维科洛 战争特别版\\nKruger L-21 Wolf Wikelo War Special"
+    },
+    "vehicle_namekrig_l21_wolf_collector_military_short": {
+      "key": "vehicle_NameKRIG_L21_Wolf_Collector_Military_short",
+      "value": "狼式 维科洛战争版"
+    },
+    "vehicle_namekrig_l21_wolf_collector_stealth": {
+      "key": "vehicle_NameKRIG_L21_Wolf_Collector_Stealth",
+      "value": "克鲁格 L-21 狼式 维科洛 鬼祟特别版\\nKruger L-21 Wolf Wikelo Sneak Special"
+    },
+    "vehicle_namekrig_l21_wolf_collector_stealth_short": {
+      "key": "vehicle_NameKRIG_L21_Wolf_Collector_Stealth_short",
+      "value": "狼式 维科洛鬼祟版"
+    },
+    "vehicle_namekrig_l22_alpha_wolf_collector_military": {
+      "key": "vehicle_NameKRIG_L22_Alpha_Wolf_Collector_Military",
+      "value": "克鲁格 L-22 头狼 维科洛 战争特别版\\nKruger L-22 Alpha Wolf Wikelo War Special"
+    },
+    "vehicle_namemisc_prospector_collector_indust": {
+      "key": "vehicle_NameMISC_Prospector_Collector_Indust",
+      "value": "武藏 勘探者 维科洛 工作特别版\\nMISC Prospector Wikelo Work Special"
+    },
+    "vehicle_namemisc_prospector_collector_indust_short": {
+      "key": "vehicle_NameMISC_Prospector_Collector_Indust_short",
+      "value": "勘探者 维科洛工作版"
+    },
+    "vehicle_namemisc_starlancer_max_collector_indust": {
+      "key": "vehicle_NameMISC_Starlancer_MAX_Collector_Indust,P",
+      "value": "武藏 星际枪骑兵 MAX 维科洛 工作特别版\\nMISC Starlancer MAX Wikelo Work Special"
+    },
+    "vehicle_namemisc_starlancer_max_collector_indust_short": {
+      "key": "vehicle_NameMISC_Starlancer_MAX_Collector_Indust_short,P",
+      "value": "星际枪骑兵 MAX 维科洛工作版"
+    },
+    "vehicle_namemisc_starlancer_tac_collector_military": {
+      "key": "vehicle_NameMISC_Starlancer_TAC_Collector_Military",
+      "value": "武藏 星际枪骑兵 TAC 维科洛 战争特别版\\nMISC Starlancer TAC Wikelo War Special"
+    },
+    "vehicle_namemisc_starlancer_tac_collector_military_short": {
+      "key": "vehicle_NameMISC_Starlancer_TAC_Collector_Military_short",
+      "value": "星际枪骑兵 TAC 维科洛战争版"
+    },
+    "vehicle_namemrai_guardian_collector_military": {
+      "key": "vehicle_NameMRAI_Guardian_Collector_Military",
+      "value": "未来 守护者 维科洛 战争特别版\\nMirai Guardian Wikelo War Special"
+    },
+    "vehicle_namemrai_guardian_mx_collector_military": {
+      "key": "vehicle_NameMRAI_Guardian_MX_Collector_Military",
+      "value": "未来 守护者 MX 维科洛战争版\\nMirai Guardian MX Wikelo War Special"
+    },
+    "vehicle_namemrai_guardian_mx_collector_military_short": {
+      "key": "vehicle_NameMRAI_Guardian_MX_Collector_Military_short",
+      "value": "守护者 MX 维科洛战争版"
+    },
+    "vehicle_namersi_apollo_triage_collector_stealth": {
+      "key": "vehicle_NameRSI_Apollo_Triage_Collector_Stealth",
+      "value": "RSI 阿波罗 分诊 维科洛 鬼祟特别版\\nRSI Apollo Triage Wikelo Sneak Special"
+    },
+    "vehicle_namersi_apollo_triage_collector_stealth_short": {
+      "key": "vehicle_NameRSI_Apollo_Triage_Collector_Stealth_short",
+      "value": "阿波罗 分诊 维科洛鬼祟版"
+    },
+    "vehicle_namersi_constellation_taurus_collector_military": {
+      "key": "vehicle_NameRSI_Constellation_Taurus_Collector_Military",
+      "value": "RSI 星座 金牛座 维科洛 战争特别版\\nRSI Constellation Taurus Wikelo War Special"
+    },
+    "vehicle_namersi_meteor_collector_stealth": {
+      "key": "vehicle_NameRSI_Meteor_Collector_Stealth",
+      "value": "RSI 流星 维科洛 鬼祟特别版\\nRSI Meteor Wikelo Sneak Special"
+    },
+    "vehicle_namersi_meteor_collector_stealth_short": {
+      "key": "vehicle_NameRSI_Meteor_Collector_Stealth_short",
+      "value": "流星 维科洛鬼祟版"
+    },
+    "vehicle_namersi_polaris_collector_military": {
+      "key": "vehicle_NameRSI_Polaris_Collector_Military",
+      "value": "RSI 北极星 维科洛特别版\\nRSI Polaris Wikelo Special"
+    },
+    "vehicle_namersi_polaris_collector_military_short": {
+      "key": "vehicle_NameRSI_Polaris_Collector_Military_short",
+      "value": "北极星 维科洛战争版"
+    },
+    "vehicle_namersi_scorpius_collector_stealth": {
+      "key": "vehicle_NameRSI_Scorpius_Collector_Stealth",
+      "value": "RSI 天蝎座 维科洛 鬼祟特别版\\nRSI Scorpius Wikelo Sneak Special"
+    },
+    "vehicle_namersi_zeus_cl": {
+      "key": "vehicle_NameRSI_Zeus_CL",
+      "value": "RSI 宙斯 MK II CL\\nRSI Zeus Mk II CL"
+    },
+    "vehicle_namersi_zeus_cl_collector_indust": {
+      "key": "vehicle_NameRSI_Zeus_CL_Collector_Indust,P",
+      "value": "RSI 宙斯 MK II CL 维科洛 工作特别版\\nRSI Zeus Mk II CL Wikelo Work Special"
+    },
+    "vehicle_namersi_zeus_cl_collector_indust_short": {
+      "key": "vehicle_NameRSI_Zeus_CL_Collector_Indust_short,P",
+      "value": "宙斯 MK II CL 维科洛工作版"
+    },
+    "vehicle_namersi_zeus_es_collector_indust": {
+      "key": "vehicle_NameRSI_Zeus_ES_Collector_Indust,P",
+      "value": "RSI 宙斯 MK II ES 维科洛 工作特别版\\nRSI Zeus Mk II ES Wikelo Work Special"
+    },
+    "vehicle_namersi_zeus_es_collector_indust_short": {
+      "key": "vehicle_NameRSI_Zeus_ES_Collector_Indust_short,P",
+      "value": "宙斯 MK II ES 维科洛工作版"
+    }
+  }
+}

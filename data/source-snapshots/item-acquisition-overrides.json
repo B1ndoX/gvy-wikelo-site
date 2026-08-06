@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.0.0",
+  "checkedAt": "2026-08-05T13:45:00+08:00",
+  "items": {
+    "carryable_1h_cy_banu_favour_wikelo": {
+      "acquisition": [
+        {
+          "type": "barter",
+          "label": "完成维科洛兑换合同",
+          "location": "4 笔兑换合同，所需材料与数量见下方“来自这些合同”",
+          "price": null,
+          "currency": null,
+          "sourceUrl": "https://starcitizen.tools/Wikelo_Favor",
+          "sourceUpdatedAt": "2026-06-25T00:55:00Z"
+        }
+      ]
+    },
+    "carryable_1h_sq_pyro_serverblade_5": {
+      "acquisition": [
+        {
+          "type": "loot",
+          "label": "Ruin Station 争夺区拾取",
+          "location": "Ghost Arena 宝库的内层房间；开门需要在 Crypt 打印的 Crypt Keycard",
+          "price": null,
+          "currency": null,
+          "sourceUrl": "https://starcitizen.tools/DCHS-05_Orbital_Positioning_Comp-Board",
+          "sourceUpdatedAt": "2026-06-13T22:23:00Z"
+        }
+      ]
+    },
+    "carryable_1h_cy_medal_1_pristine_c": {
+      "acquisition": [
+        {
+          "type": "loot",
+          "label": "战利品拾取",
+          "location": "公开数据确认可拾取，但尚未提供可靠的固定掉落点",
+          "price": null,
+          "currency": null,
+          "sourceUrl": "https://starcitizen.tools/Tevarin_War_Service_Marker_(Pristine)",
+          "sourceUpdatedAt": "2026-06-13T22:27:00Z"
+        }
+      ]
+    },
+    "carryable_tbo_asdreward_xtl1": {
+      "descriptionZh": "一个由催化剂-XTL和反应物-01制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [
+        {
+          "type": "mission",
+          "label": "海伯利安项目实验产物",
+          "location": "完成“约里特卷宗：海伯利安项目”，在玛瑙设施站点-B组合催化剂-XTL与反应物-01，生成RCMBNT-XTL-1。",
+          "price": null,
+          "currency": null,
+          "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
+          "sourceUpdatedAt": null
+        }
+      ]
+    },
+    "carryable_tbo_asdreward_xtl2": {
+      "descriptionZh": "一个由催化剂-XTL和反应物-02制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [
+        {
+          "type": "mission",
+          "label": "海伯利安项目实验产物",
+          "location": "完成“约里特卷宗：海伯利安项目”，在玛瑙设施站点-B组合催化剂-XTL与反应物-02，生成RCMBNT-XTL-2。",
+          "price": null,
+          "currency": null,
+          "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
+          "sourceUpdatedAt": null
+        }
+      ]
+    },
+    "carryable_tbo_asdreward_xtl3": {
+      "descriptionZh": "一个由催化剂-XTL和反应物-03制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [
+        {
+          "type": "mission",
+          "label": "海伯利安项目实验产物",
+          "location": "完成“约里特卷宗：海伯利安项目”，在玛瑙设施站点-B组合催化剂-XTL与反应物-03，生成RCMBNT-XTL-3。",
+          "price": null,
+          "currency": null,
+          "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
+          "sourceUpdatedAt": null
+        }
+      ]
+    },
+    "carryable_tbo_asdreward_pwl1": {
+      "descriptionZh": "一个由催化剂-PWL和反应物-01制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [
+        {
+          "type": "mission",
+          "label": "海伯利安项目实验产物",
+          "location": "完成“约里特卷宗：海伯利安项目”，在玛瑙设施站点-B组合催化剂-PWL与反应物-01，生成RCMBNT-PWL-1。",
+          "price": null,
+          "currency": null,
+          "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
+          "sourceUpdatedAt": null
+        }
+      ]
+    },
+    "carryable_tbo_asdreward_pwl2": {
+      "descriptionZh": "一个由催化剂-PWL和反应物-02制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [
+        {
+          "type": "mission",
+          "label": "海伯利安项目实验产物",
+          "location": "完成“约里特卷宗：海伯利安项目”，在玛瑙设施站点-B组合催化剂-PWL与反应物-02，生成RCMBNT-PWL-2。",
+          "price": null,
+          "currency": null,
+          "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
+          "sourceUpdatedAt": null
+        }
+      ]
+    },
+    "carryable_tbo_asdreward_pwl3": {
+      "descriptionZh": "一个由催化剂-PWL和反应物-03制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [
+        {
+          "type": "mission",
+          "label": "海伯利安项目实验产物",
+          "location": "完成“约里特卷宗：海伯利安项目”，在玛瑙设施站点-B组合催化剂-PWL与反应物-03，生成RCMBNT-PWL-3。",
+          "price": null,
+          "currency": null,
+          "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
+          "sourceUpdatedAt": null
+        }
+      ]
+    },
+    "carryable_tbo_asdreward_rgl1": {
+      "descriptionZh": "一个由催化剂-RGL和反应物-01制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [
+        {
+          "type": "mission",
+          "label": "海伯利安项目实验产物",
+          "location": "完成“约里特卷宗：海伯利安项目”，在玛瑙设施站点-B组合催化剂-RGL与反应物-01，生成RCMBNT-RGL-1。",
+          "price": null,
+          "currency": null,
+          "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
+          "sourceUpdatedAt": null
+        }
+      ]
+    },
+    "carryable_tbo_asdreward_rgl2": {
+      "descriptionZh": "一个由催化剂-RGL和反应物-02制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [
+        {
+          "type": "mission",
+          "label": "海伯利安项目实验产物",
+          "location": "完成“约里特卷宗：海伯利安项目”，在玛瑙设施站点-B组合催化剂-RGL与反应物-02，生成RCMBNT-RGL-2。",
+          "price": null,
+          "currency": null,
+          "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
+          "sourceUpdatedAt": null
+        }
+      ]
+    },
+    "carryable_tbo_asdreward_rgl3": {
+      "descriptionZh": "一个由催化剂-RGL和反应物-03制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [
+        {
+          "type": "mission",
+          "label": "海伯利安项目实验产物",
+          "location": "完成“约里特卷宗：海伯利安项目”，在玛瑙设施站点-B组合催化剂-RGL与反应物-03，生成RCMBNT-RGL-3。",
+          "price": null,
+          "currency": null,
+          "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
+          "sourceUpdatedAt": null
+        }
+      ]
+    }
+  }
+}

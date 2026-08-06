@@ -1,0 +1,38 @@
+{
+  "name": "gvy-wikelo-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "audit:data": "node scripts/audit-content.mjs",
+    "localization:derive": "node scripts/generate-localization-source.mjs",
+    "lint:data": "node scripts/validate-data.mjs",
+    "refresh:data": "node scripts/refresh-data.mjs",
+    "refresh:data:publish-check": "node scripts/refresh-data.mjs --publish-check",
+    "restore:data": "node scripts/restore-data.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "ajv": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "acorn": "latest",
+    "jsdom": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  }
+}

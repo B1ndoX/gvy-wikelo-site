@@ -1,0 +1,83 @@
+name: Refresh Wikelo data
+
+on:
+  schedule:
+    # Monday 01:00 Asia/Shanghai = Sunday 17:00 UTC.
+    - cron: "0 17 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wikelo-data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out the latest repository state
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Integrate remote updates before refreshing
+        run: |
+          git fetch origin main
+          git rebase origin/main
+
+      - name: Refresh staging data and enforce publish gates
+        run: npm run refresh:data:publish-check
+
+      - name: Audit public content
+        run: npm run audit:data
+
+      - name: Test, validate, and build
+        run: |
+          npm test
+          npm run lint:data
+          npm run build
+
+      - name: Keep a 14-day recoverable stable-data artifact
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: wikelo-stable-data-${{ github.run_id }}
+          path: |
+            src/data/generated/
+            data/audits/
+            data/backups/
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Commit only verified data changes
+        run: |
+          git add src/data/generated data/audits data/localization data/source-snapshots public/images
+          if git diff --cached --quiet; then
+            echo "No verified data changes."
+            exit 0
+          fi
+          git config user.name "gvy-wikelo-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "data: refresh Wikelo records"
+          git fetch origin main
+          git rebase origin/main
+          npm run audit:data
+          npm test
+          npm run lint:data
+          npm run build
+          git push origin HEAD:main
+
+      # This workflow updates repository data for EdgeOne's connected build.
+      # It intentionally contains no GitHub Pages action or Pages configuration.

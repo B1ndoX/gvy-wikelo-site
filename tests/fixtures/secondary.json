@@ -1,0 +1,10 @@
+[
+  {
+    "missionName": "Fixture Contract",
+    "requiredItems": [
+      { "items": "Quantainium", "quantity": 24 },
+      { "items": "Fixture Gun", "quantity": 99 }
+    ],
+    "rewardName": ["Reward A", "Reward B"]
+  }
+]

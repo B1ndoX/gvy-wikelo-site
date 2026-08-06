@@ -1,0 +1,406 @@
+{
+  "schemaVersion": "1.0.0",
+  "checkedAt": "2026-08-05T22:15:00+08:00",
+  "note": "Player-facing acquisition routes cross-checked against the public Wiki API, Star Citizen Wiki, official RSI material, and clearly identified community guides. Uncertain fixed drops remain explicitly non-guaranteed.",
+  "items": {
+    "fps_consumable_harddrive_delving_hardened_asd_red": {
+      "acquisition": [{
+        "type": "mission",
+        "label": "完成玛瑙设施调查合同",
+        "location": "任务：约里特卷宗——更新后的能源、异常、安全或地震数据。\n奖励：ASD 安全驱动器发送到角色的初始家园库存，不是当前复活站。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/ASD_Secure_Drive",
+        "sourceUpdatedAt": "2026-06-13T22:23:00Z"
+      }]
+    },
+    "harvestable_armillaria": {
+      "acquisition": [{
+        "type": "harvest",
+        "label": "洞穴与岩石区现场采集",
+        "location": "优先地点：Euterpe · Adair's Retreat、Magda · Gonzo、Pyro IV · Farro Data Center II、Bloom · Shepherd's Rest。\n公开商品接口当前共列出斯坦顿与派罗的 15 个采集点。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://api.star-citizen.wiki/commodities/bluemoon-fungus",
+        "sourceUpdatedAt": null
+      }]
+    },
+    "none_special_ballistic_01": {
+      "acquisition": [{
+        "type": "mission",
+        "label": "“剜度科技走私者”任务战利品",
+        "location": "地点：尼克斯星系的 QV 物流站。\n获取：任务初段安全室与设施武器架可能出现；属于战利品刷新，不保证每次都有。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizenhelp.ru/wikelo_item.php?id=4688",
+        "sourceUpdatedAt": null
+      }]
+    },
+    "harvestable_mineral_1h_carinite": {
+      "acquisition": [{
+        "type": "mine",
+        "label": "哈索尔“对准与开采”活动",
+        "location": "地点：Aberdeen 或 Daymar 的 Hathor 设施。\n步骤：对准三座 PAF 地面设施，为 OLP 轨道激光平台供电并发射激光，进入被打开的矿洞后采矿。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Carinite",
+        "sourceUpdatedAt": "2026-05-30T00:00:00Z"
+      }]
+    },
+    "harvestable_mineral_1h_carinitepure": {
+      "acquisition": [{
+        "type": "mine",
+        "label": "哈索尔矿洞稀有矿脉",
+        "location": "地点：Aberdeen 或 Daymar 的 Hathor 轨道激光矿洞。\n获取：与普通科力晶同一流程，但纯净科力晶是低概率稀有矿脉；扫描名称会明确显示 Carinite (Pure)。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Carinite_(Pure)",
+        "sourceUpdatedAt": "2026-05-30T00:00:00Z"
+      }]
+    },
+    "harvestable_ore_1h_jacliumore": {
+      "acquisition": [{
+        "type": "mine",
+        "label": "哈索尔“对准与开采”活动",
+        "location": "地点：Aberdeen 或 Daymar 的 Hathor 轨道激光矿洞。\n步骤：完成 PAF 对准与 OLP 供电后进入矿洞开采；与科力晶、烁迪银矿石出现在同一活动矿区。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Jaclium_(Ore)",
+        "sourceUpdatedAt": "2026-05-30T00:00:00Z"
+      }]
+    },
+    "harvestable_ore_1h_saldyniumore": {
+      "acquisition": [{
+        "type": "mine",
+        "label": "哈索尔“对准与开采”活动",
+        "location": "地点：Aberdeen 或 Daymar 的 Hathor 轨道激光矿洞。\n步骤：完成 PAF 对准与 OLP 供电后进入矿洞开采；与科力晶、杰金矿石出现在同一活动矿区。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Saldynium_(Ore)",
+        "sourceUpdatedAt": "2026-05-30T00:00:00Z"
+      }]
+    },
+    "harvestable_mineral_1h_sadaryx": {
+      "acquisition": [{
+        "type": "mine",
+        "label": "采矿获取",
+        "location": "公开数据确认它是可开采矿物；当前结构化来源没有列出可保证的固定矿点。进入 Rockbreaker 等采矿区域后用扫描器确认矿物名称，不要按相似外观判断。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Sadaryx",
+        "sourceUpdatedAt": "2026-05-30T00:00:00Z"
+      }]
+    },
+    "Copper": {
+      "acquisition": [{
+        "type": "purchase",
+        "label": "直接购买或采矿精炼",
+        "location": "稳定购买点示例：Seraphim、Port Tressler、Nyx Gateway、Orbituary 的管理终端。\n也可在斯坦顿/派罗多处矿床开采铜矿后精炼为铜。兑换要求按 SCU 计算。",
+        "price": null,
+        "currency": "aUEC",
+        "sourceUrl": "https://starcitizen.tools/Copper",
+        "sourceUpdatedAt": "2026-07-24T00:00:00Z"
+      }]
+    },
+    "Tungsten": {
+      "acquisition": [{
+        "type": "purchase",
+        "label": "直接购买或采矿精炼",
+        "location": "稳定购买点示例：ArcCorp Mining Area 045/056/061、Shubin SCD-1、SMCa-6/8。\n也可在 Lyria、Wala、Fairo、Pyro IV 等矿区开采后精炼。兑换要求按 SCU 计算。",
+        "price": null,
+        "currency": "aUEC",
+        "sourceUrl": "https://starcitizen.tools/Tungsten",
+        "sourceUpdatedAt": "2026-07-24T00:00:00Z"
+      }]
+    },
+    "Corundum": {
+      "acquisition": [{
+        "type": "purchase",
+        "label": "货运终端购买",
+        "location": "购买点示例：Baijini Point、Nyx Gateway、Levski、Shubin SMCa-6/8、SAL-2/5、Orbituary。\n价格与库存会随服务器经济变化；兑换要求按 SCU 计算。",
+        "price": null,
+        "currency": "aUEC",
+        "sourceUrl": "https://starcitizen.tools/Corundum",
+        "sourceUpdatedAt": "2026-07-27T00:00:00Z"
+      }]
+    },
+    "Quantainium": {
+      "acquisition": [{
+        "type": "mine",
+        "label": "飞船采矿并精炼",
+        "location": "斯坦顿的 Aberdeen、Arial、Calliope、Cellin、Clio、Daymar、Euterpe、Hurston、Ita 等多处矿床可发现。\n开采原矿后送精炼站，取回精炼货箱；兑换要求按 SCU 计算。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Quantainium",
+        "sourceUpdatedAt": "2026-05-30T00:00:00Z"
+      }]
+    },
+    "Savrilium": {
+      "acquisition": [{
+        "type": "mine",
+        "label": "尼克斯星系飞船采矿并精炼",
+        "location": "矿点：Nyx 的 Glaciem Ring 与 Keeger Belt 小行星带。\n开采萨维里矿后精炼为萨维里金属；兑换要求按 SCU 计算。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Savrilium",
+        "sourceUpdatedAt": "2026-05-30T00:00:00Z"
+      }]
+    },
+    "carryable_tbo_missionitem_tsg_fueltank": {
+      "acquisition": [{
+        "type": "loot",
+        "label": "QV 提取任务稀有战利品",
+        "location": "社区交易资料把它标记为 Tactical Strike Group / QV Extraction 相关稀有战利品；目前未找到可交叉验证的固定箱点，不能保证每局出现。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://uexcorp.space/items/info?id=5844&set_lang=en_US",
+        "sourceUpdatedAt": null
+      }]
+    },
+    "harvestable_trophy_1h_quasigrazeregg_grassland": {
+      "acquisition": [{
+        "type": "harvest",
+        "label": "从草地故夕食草兽采集",
+        "location": "地点：microTech 的草地区域。\n获取：击杀草地型故夕食草兽后从尸体采集；每只平均携带约 8–10 枚蛋。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Grassland_Quasi_Grazer_Egg",
+        "sourceUpdatedAt": "2026-07-07T01:21:00Z"
+      }]
+    },
+    "harvestable_trophy_1h_kopionhorn_tundra": {
+      "acquisition": [{
+        "type": "harvest",
+        "label": "从苔原寇骈犬采集",
+        "location": "地点：microTech 高地草原、冻原和绿色地带边缘。\n获取：击杀苔原寇骈犬后采集角。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Tundra_kopion",
+        "sourceUpdatedAt": "2026-06-28T01:54:00Z"
+      }]
+    },
+    "harvestable_trophy_1h_kopionhorn_irradiated": {
+      "acquisition": [{
+        "type": "harvest",
+        "label": "受辐射寇骈犬任务采集",
+        "location": "地点：Pyro I 的受辐射区域与 Storm Breaker 研究设施附近。\n获取：接受“清除受辐射寇骈犬”类合同，击杀目标后采集角。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://api.star-citizen.wiki/missions/cull-irradiated-kopions",
+        "sourceUpdatedAt": null
+      }]
+    },
+    "harvestable_trophy_1h_vlkadultfang_irradiated": {
+      "acquisition": [{
+        "type": "harvest",
+        "label": "“风暴破坏者”区域生物采集",
+        "location": "地点：Pyro I 的 Lazarus 研究设施与 Storm Breaker 区域。\n获取：击杀成年受辐射瓦拉卡后，从口部采集成年期獠牙。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Irradiated_Valakkar_Fang_(Adult)",
+        "sourceUpdatedAt": "2026-06-13T22:22:00Z"
+      }]
+    },
+    "harvestable_trophy_1h_vlkjuvenilefang_irradiated": {
+      "acquisition": [{
+        "type": "harvest",
+        "label": "“风暴破坏者”区域生物采集",
+        "location": "地点：Pyro I 的 Lazarus 研究设施与 Storm Breaker 区域。\n获取：击杀幼年受辐射瓦拉卡后，从口部采集幼年期獠牙。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://robertsspaceindustries.com/community-hub/post/storm-breaker-content-full-walkthrough-0uJ44pRBEyG2q",
+        "sourceUpdatedAt": null
+      }]
+    },
+    "carryable_tbo_creature_trophy_vlkapexfang_irradiated": {
+      "acquisition": [{
+        "type": "harvest",
+        "label": "“风暴破坏者”巅峰首领采集",
+        "location": "路线：先在 Pyro IV 的 Farro 数据中心取得进入条件，再前往 Pyro I 的 Lazarus 设施。\n获取：召唤并击杀受辐射的 Apex 瓦拉卡，从口部采集巅峰期獠牙。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://robertsspaceindustries.com/community-hub/post/storm-breaker-content-full-walkthrough-0uJ44pRBEyG2q",
+        "sourceUpdatedAt": null
+      }]
+    },
+    "carryable_2h_fl_vlk_pearl_irradiated_high_02": {
+      "acquisition": [{
+        "type": "harvest",
+        "label": "“风暴破坏者”巅峰首领采集",
+        "location": "路线：Pyro IV Farro 数据中心 → Pyro I Lazarus 设施。\n获取：召唤并击杀受辐射的 Apex 瓦拉卡后采集珍珠；AA 是常见的 Apex 珍珠等级。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizenhelp.ru/wikelo_item.php?id=4634",
+        "sourceUpdatedAt": null
+      }]
+    },
+    "carryable_2h_fl_vlk_pearl_irradiated_super_01": {
+      "acquisition": [{
+        "type": "harvest",
+        "label": "“风暴破坏者”巅峰首领稀有采集",
+        "location": "路线：Pyro IV Farro 数据中心 → Pyro I Lazarus 设施。\n获取：召唤并击杀受辐射的 Apex 瓦拉卡后采集；AAA 是稀有等级，不能把 AA 当作 AAA 上交。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizenhelp.ru/wikelo_item.php?id=4525",
+        "sourceUpdatedAt": null
+      }]
+    },
+    "harvestable_trophy_1h_vlkjuvenilefang": {
+      "acquisition": [{
+        "type": "harvest",
+        "label": "从幼年瓦拉卡采集",
+        "location": "瓦拉卡出没于 Daymar、Monox 与 Pyro I 等地。击杀幼年个体后从口部采集；不要与带绿色辐射外观的受辐射版本混用。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Valakkar_Fang_(Juvenile)",
+        "sourceUpdatedAt": "2026-06-13T22:22:00Z"
+      }]
+    },
+    "harvestable_trophy_1h_yormandi_eye": {
+      "acquisition": [{
+        "type": "harvest",
+        "label": "玛瑙设施地下洞穴采集",
+        "location": "地点：ASD Onyx Facility 深层洞穴。\n获取：击杀约曼迪后采集眼睛；这是生物部位，不是普通战利品箱掉落。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Yormandi",
+        "sourceUpdatedAt": "2026-06-13T00:00:00Z"
+      }]
+    },
+    "carryable_2h_cy_yormandi_tongue": {
+      "acquisition": [{
+        "type": "harvest",
+        "label": "玛瑙设施地下洞穴采集",
+        "location": "地点：ASD Onyx Facility 深层洞穴。\n获取：击杀约曼迪后采集舌头；这是生物部位，不是普通战利品箱掉落。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Yormandi",
+        "sourceUpdatedAt": "2026-06-13T00:00:00Z"
+      }]
+    },
+    "basl_combat_light_helmet_02_01_01": {
+      "acquisition": [{
+        "type": "loot",
+        "label": "PAF 护甲箱或王牌飞行员",
+        "location": "稳定线索：Hathor PAF 站点的护甲战利品箱（已在 Ruptura PAF-I 实测），或巡逻佣兵合同中的 Ace Pilot 尸体。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Ace_Interceptor_Helmet",
+        "sourceUpdatedAt": "2026-07-04T00:00:00Z"
+      }]
+    },
+    "carryable_1h_cy_advocacy_badge": {
+      "acquisition": [{
+        "type": "loot",
+        "label": "安保与争夺区战利品",
+        "location": "已报告地点：Security Post Kareah、争夺区和 Lazarus 设施。属于箱子/场景战利品，不保证每局固定出现。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizenhelp.ru/wikelo_items.php",
+        "sourceUpdatedAt": null
+      }]
+    },
+    "carryable_1h_cy_physical_currency_scrip_merc_1": {
+      "acquisition": [{
+        "type": "mission",
+        "label": "完成雇佣兵公会合同",
+        "location": "由 Mercenary Guild（雇佣兵公会）作为合同奖励发放；不同合同给出的数量会变化，以合同奖励栏为准。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/MG_Scrip",
+        "sourceUpdatedAt": "2026-06-13T22:24:00Z"
+      }]
+    },
+    "carryable_1h_cy_physical_currency_scrip_council_1": {
+      "acquisition": [{
+        "type": "mission",
+        "label": "完成议会合同",
+        "location": "由 The Council 发放的实体凭证；接取其合同并查看奖励栏确认数量。公开资料未给出一个永久固定的单一合同。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Council_Scrip",
+        "sourceUpdatedAt": "2026-06-13T22:24:00Z"
+      }]
+    },
+    "carryable_1h_cy_medal_1_pristine_d": {
+      "acquisition": [{
+        "type": "loot",
+        "label": "巡逻佣兵合同的王牌飞行员",
+        "location": "击败巡逻佣兵合同中出现的 Ace Pilot（王牌飞行员），从尸体回收完好的政府制图局勋章。是否出现王牌飞行员取决于合同与刷新。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Government_Cartography_Agency_Medal_(Pristine)",
+        "sourceUpdatedAt": "2026-06-13T22:21:00Z"
+      }]
+    },
+    "carryable_1h_cy_hadesian_fragment_1_large_pristine_a": {
+      "acquisition": [{
+        "type": "loot",
+        "label": "QV 站仓库区战利品",
+        "location": "地点：尼克斯星系的 QV 站仓库区。\n来源活动：“剜度科技走私者”。必须确认物品状态为 Pristine（完好），破损版本不能替代。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://starcitizen.tools/Large_Artifact_Fragment_(Pristine)",
+        "sourceUpdatedAt": "2026-06-13T22:23:00Z"
+      }]
+    },
+    "carryable_1h_cy_armor_vanduul_1_a": {
+      "acquisition": [{
+        "type": "mission",
+        "label": "“剜度科技走私者”任务回收",
+        "location": "地点：尼克斯星系的旧 QV 物流站。\n获取：击杀剜度敌人并搜刮尸体，或执行“回收剜度科技”合同取得装甲板。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://api.star-citizen.wiki/missions/recover-vanduul-tech?version=4.8.0-LIVE.11875683",
+        "sourceUpdatedAt": null
+      }]
+    },
+    "carryable_1h_cy_armor_vanduul_1_b": {
+      "acquisition": [{
+        "type": "mission",
+        "label": "“剜度科技走私者”任务回收",
+        "location": "地点：尼克斯星系的旧 QV 物流站。\n获取：击杀剜度敌人并搜刮尸体，或执行“回收剜度科技”合同取得金属。",
+        "price": null,
+        "currency": null,
+        "sourceUrl": "https://api.star-citizen.wiki/missions/recover-vanduul-tech?version=4.8.0-LIVE.11875683",
+        "sourceUpdatedAt": null
+      }]
+    },
+    "carryable_tbo_asdreward_xtl1": {
+      "descriptionZh": "一个由催化剂-XTL和反应物-01制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [{"type":"mission","label":"实验终端合成","location":"任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-01代码 + 催化剂-XTL代码\n产出：RCMBNT-XTL-1（实体样本送至设施货运电梯）","price":null,"currency":null,"sourceUrl":"https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf","sourceUpdatedAt":null}]
+    },
+    "carryable_tbo_asdreward_xtl2": {
+      "descriptionZh": "一个由催化剂-XTL和反应物-02制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [{"type":"mission","label":"实验终端合成","location":"任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-02代码 + 催化剂-XTL代码\n产出：RCMBNT-XTL-2（实体样本送至设施货运电梯）","price":null,"currency":null,"sourceUrl":"https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf","sourceUpdatedAt":null}]
+    },
+    "carryable_tbo_asdreward_xtl3": {
+      "descriptionZh": "一个由催化剂-XTL和反应物-03制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [{"type":"mission","label":"实验终端合成","location":"任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-03代码 + 催化剂-XTL代码\n产出：RCMBNT-XTL-3（实体样本送至设施货运电梯）","price":null,"currency":null,"sourceUrl":"https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf","sourceUpdatedAt":null}]
+    },
+    "carryable_tbo_asdreward_pwl1": {
+      "descriptionZh": "一个由催化剂-PWL和反应物-01制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [{"type":"mission","label":"实验终端合成","location":"任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-01代码 + 催化剂-PWL代码\n产出：RCMBNT-PWL-1（实体样本送至设施货运电梯）","price":null,"currency":null,"sourceUrl":"https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf","sourceUpdatedAt":null}]
+    },
+    "carryable_tbo_asdreward_pwl2": {
+      "descriptionZh": "一个由催化剂-PWL和反应物-02制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [{"type":"mission","label":"实验终端合成","location":"任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-02代码 + 催化剂-PWL代码\n产出：RCMBNT-PWL-2（实体样本送至设施货运电梯）","price":null,"currency":null,"sourceUrl":"https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf","sourceUpdatedAt":null}]
+    },
+    "carryable_tbo_asdreward_pwl3": {
+      "descriptionZh": "一个由催化剂-PWL和反应物-03制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [{"type":"mission","label":"实验终端合成","location":"任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-03代码 + 催化剂-PWL代码\n产出：RCMBNT-PWL-3（实体样本送至设施货运电梯）","price":null,"currency":null,"sourceUrl":"https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf","sourceUpdatedAt":null}]
+    },
+    "carryable_tbo_asdreward_rgl1": {
+      "descriptionZh": "一个由催化剂-RGL和反应物-01制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [{"type":"mission","label":"实验终端合成","location":"任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-01代码 + 催化剂-RGL代码\n产出：RCMBNT-RGL-1（实体样本送至设施货运电梯）","price":null,"currency":null,"sourceUrl":"https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf","sourceUpdatedAt":null}]
+    },
+    "carryable_tbo_asdreward_rgl2": {
+      "descriptionZh": "一个由催化剂-RGL和反应物-02制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [{"type":"mission","label":"实验终端合成","location":"任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-02代码 + 催化剂-RGL代码\n产出：RCMBNT-RGL-2（实体样本送至设施货运电梯）","price":null,"currency":null,"sourceUrl":"https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf","sourceUpdatedAt":null}]
+    },
+    "carryable_tbo_asdreward_rgl3": {
+      "descriptionZh": "一个由催化剂-RGL和反应物-03制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
+      "acquisition": [{"type":"mission","label":"实验终端合成","location":"任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-03代码 + 催化剂-RGL代码\n产出：RCMBNT-RGL-3（实体样本送至设施货运电梯）","price":null,"currency":null,"sourceUrl":"https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf","sourceUpdatedAt":null}]
+    }
+  }
+}

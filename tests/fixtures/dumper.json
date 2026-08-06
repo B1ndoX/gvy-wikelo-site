@@ -1,0 +1,24 @@
+{
+  "_extracted": "2026-08-01T00:00:00.000Z",
+  "standings": { "standing-new": { "name": "New Customer" } },
+  "trades": [
+    {
+      "id": "fixture-trade-1",
+      "debugName": "TheCollector_Gear_Weapon_Fixture",
+      "title": "Fixture Contract",
+      "category": "gear",
+      "subCategory": "weapon",
+      "minStanding": "standing-new",
+      "repReward": 25,
+      "costs": [
+        { "entityClass": "fixture_ore", "name": "Quantainium", "scu": 24 },
+        { "entityClass": "fixture_gun", "name": "Fixture Gun", "amount": 2 }
+      ],
+      "rewards": [
+        { "entityClass": "fixture_reward_a", "name": "Reward A", "amount": 1, "kind": "item" },
+        { "entityClass": "fixture_reward_b", "name": "Reward B", "amount": 3, "kind": "item" }
+      ],
+      "blueprintPools": ["fixture_reward_a_blueprint"]
+    }
+  ]
+}

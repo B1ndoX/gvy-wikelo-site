@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.DS_Store
+.cache/
+.playwright-cli/
+data/backups/
+output/playwright/.playwright-cli/
+output/playwright/*.png
+output/playwright/*.json
+output/browser/
+coverage/
+*.tsbuildinfo

@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://starcitizen.tools/Wikelo",
+  "emporiumUrl": "https://starcitizen.tools/Wikelo_Emporium",
+  "checkedAt": "2026-08-04T12:10:00.000Z",
+  "sourceUpdatedAt": "2026-07-14T14:39:00.000Z",
+  "portrait": {
+    "sourceUrl": "https://starcitizen.tools/File:Wikelo_Hologram_-_Alpha_4.1.0.jpg",
+    "imageUrl": "https://media.starcitizen.tools/8/83/Wikelo_Hologram_-_Alpha_4.1.0.jpg"
+  },
+  "stations": [
+    { "en": "Wikelo Emporium Dasi Station", "zh": "维科洛百货 达西空间站", "near": "Hurston" },
+    { "en": "Wikelo Emporium Selo Station", "zh": "维科洛百货 赛洛空间站", "near": "Crusader" },
+    { "en": "Wikelo Emporium Kinga Station", "zh": "维科洛百货 金伽空间站", "near": "microTech" }
+  ],
+  "reputationRanks": ["New Customer", "Very Good Customer", "Very Best Customer"],
+  "workflowFacts": [
+    "Collection contracts are accepted inside a Wikelo Emporium bazaar.",
+    "Required items are deposited through the on-site freight elevator.",
+    "Rewards appear in the local inventory of the contract turn-in location."
+  ],
+  "notes": "Star Citizen Wiki human-readable pages were inspected without bypassing Cloudflare. Automated refresh may use the public api.star-citizen.wiki API for item facts and images."
+}
