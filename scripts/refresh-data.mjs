@@ -7,7 +7,7 @@ import { buildItemIndex, loadWikiImages } from "./lib/enrich.mjs";
 import { downloadBinary, fetchJson, fetchText, sha256 } from "./lib/http.mjs";
 import { loadOfficialLocalization } from "./lib/localization.mjs";
 import { normalizeTrades, summarizeValidation } from "./lib/normalize.mjs";
-import { parseAssignedLiteral } from "./lib/parse-static.mjs";
+import { parseAssignedLiteral, parseAssignedLiteralBySourceLabel } from "./lib/parse-static.mjs";
 import { anomalyBaselineForVersion, mergeVersionDatasets } from "./lib/version-datasets.mjs";
 import { semanticPatch, versionFromHtml } from "./lib/version.mjs";
 
@@ -101,7 +101,11 @@ async function main() {
   const bundlePath = dumperPage.text.match(/\/assets\/index-[A-Za-z0-9_-]+\.js/)?.[0];
   if (!bundlePath) throw new Error("Dumper's Repo public bundle path was not found");
   const dumperBundle = await fetchText(new URL(bundlePath, sources.dumper).href, { cacheDir, timeoutMs: 120_000 });
-  const dumperData = parseAssignedLiteral(dumperBundle.text, "var Ps=");
+  const dumperData = parseAssignedLiteralBySourceLabel(
+    dumperBundle.text,
+    "Star Citizen Game Files (TheCollector contract generator)",
+    "trades",
+  );
   if (!Array.isArray(dumperData.trades) || !dumperData.trades.length) throw new Error("Dumper trade dataset was empty");
   const gameVersion = versionFromHtml(dumperPage.text);
 

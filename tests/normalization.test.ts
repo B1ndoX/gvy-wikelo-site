@@ -5,7 +5,7 @@ import dumperData from "./fixtures/dumper.json";
 import secondaryTrades from "./fixtures/secondary.json";
 import { parseOfficialLocalizationText } from "../scripts/lib/localization.mjs";
 import { normalizeTrades } from "../scripts/lib/normalize.mjs";
-import { parseAssignedLiteral } from "../scripts/lib/parse-static.mjs";
+import { parseAssignedLiteral, parseAssignedLiteralBySourceLabel } from "../scripts/lib/parse-static.mjs";
 import { isVersionOlder, versionFromHtml } from "../scripts/lib/version.mjs";
 import { blockingRefreshReasons, detectDataAnomalies } from "../scripts/lib/anomalies.mjs";
 
@@ -19,6 +19,19 @@ describe("source parsing and normalization fixtures", () => {
     const parsed = parseAssignedLiteral(source, "var Ps=");
     expect(parsed.trades[0].rewards).toHaveLength(2);
     expect(parsed.trades[0].costs[0].scu).toBe(12);
+  });
+
+  it("finds the Dumper trade dataset by its semantic label when minified variable names change", () => {
+    const source = [
+      "var unrelated={_source:`Other dataset`,trades:[{id:`wrong`}]} ;",
+      "const Os={_source:`Star Citizen Game Files (TheCollector contract generator)`,_extracted:`2026-08-09T00:00:00.000Z`,trades:[{id:`fixture`}],standings:{}};",
+    ].join("");
+    const parsed = parseAssignedLiteralBySourceLabel(
+      source,
+      "Star Citizen Game Files (TheCollector contract generator)",
+      "trades",
+    );
+    expect(parsed.trades[0].id).toBe("fixture");
   });
 
   it("preserves SCU/x units, all rewards, blueprints, reputation, and source conflicts", () => {

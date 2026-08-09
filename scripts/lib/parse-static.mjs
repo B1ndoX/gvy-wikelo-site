@@ -41,3 +41,29 @@ export function parseAssignedLiteral(source, marker) {
   const expression = parseExpressionAt(source, expressionStart, { ecmaVersion: "latest" });
   return evaluateNode(expression);
 }
+
+export function parseAssignedLiteralBySourceLabel(source, sourceLabel, requiredArrayKey) {
+  const labelIndex = source.indexOf(sourceLabel);
+  if (labelIndex < 0) throw new Error(`Could not locate source dataset label: ${sourceLabel}`);
+
+  // Production bundles minify top-level identifiers on every build. Locate the
+  // assignment immediately preceding the stable semantic _source label instead
+  // of coupling the refresh job to an unstable name such as `Ps` or `Os`.
+  const searchStart = Math.max(0, labelIndex - 2_048);
+  const prefix = source.slice(searchStart, labelIndex);
+  const assignmentPattern = /\b(?:var|let|const)\s+[$A-Z_a-z][$\w]*\s*=\s*/g;
+  let assignment = null;
+  for (const match of prefix.matchAll(assignmentPattern)) assignment = match;
+  if (!assignment) throw new Error(`Could not locate assignment for source dataset: ${sourceLabel}`);
+
+  const expressionStart = searchStart + assignment.index + assignment[0].length;
+  const expression = parseExpressionAt(source, expressionStart, { ecmaVersion: "latest" });
+  const value = evaluateNode(expression);
+  if (!value || typeof value !== "object" || value._source !== sourceLabel) {
+    throw new Error(`Source dataset label did not match parsed assignment: ${sourceLabel}`);
+  }
+  if (requiredArrayKey && (!Array.isArray(value[requiredArrayKey]) || value[requiredArrayKey].length === 0)) {
+    throw new Error(`Source dataset field was empty: ${requiredArrayKey}`);
+  }
+  return value;
+}
