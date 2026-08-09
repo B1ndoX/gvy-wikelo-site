@@ -242,6 +242,18 @@ function commodityKeyCandidates(entityClass) {
   return [`items_commodities_${resource}${suffix}`, direct];
 }
 
+export function officialLocalizationKeyCandidates(entityClass) {
+  if (!entityClass) return [];
+  return [
+    OFFICIAL_KEY_ALIASES[String(entityClass).toLowerCase()],
+    `item_Name${entityClass}`,
+    `vehicle_Name${entityClass}`,
+    `item_name_${entityClass}`,
+    `vehicle_name_${entityClass}`,
+    ...commodityKeyCandidates(entityClass),
+  ].filter(Boolean);
+}
+
 function officialEnglishIndex(entries) {
   const cached = englishIndexCache.get(entries);
   if (cached) return cached;
@@ -274,14 +286,7 @@ function officialEntryByEnglish(localization, englishName) {
 
 export function resolveEntityLocalization(localization, entityClass, englishName) {
   if (!entityClass) return { zh: null, en: englishName, localizationSource: "english_fallback" };
-  const candidates = [
-    OFFICIAL_KEY_ALIASES[String(entityClass).toLowerCase()],
-    `item_Name${entityClass}`,
-    `vehicle_Name${entityClass}`,
-    `item_name_${entityClass}`,
-    `vehicle_name_${entityClass}`,
-    ...commodityKeyCandidates(entityClass),
-  ].filter(Boolean);
+  const candidates = officialLocalizationKeyCandidates(entityClass);
   for (const key of candidates) {
     const entry = localization.entries.get(key.toLowerCase());
     const zh = officialChinese(entry?.value, englishName, entry?.key);

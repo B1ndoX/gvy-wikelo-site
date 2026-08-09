@@ -1,7 +1,20 @@
+import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
-import { buildContractLocalizationResolver, parseOfficialLocalizationText, resolveEntityLocalization } from "../scripts/lib/localization.mjs";
+import { buildContractLocalizationResolver, loadOfficialLocalization, parseOfficialLocalizationText, resolveEntityLocalization } from "../scripts/lib/localization.mjs";
 
 describe("official localization parser", () => {
+  it("uses the committed derivative on remote runners and covers top-level and crafting names", async () => {
+    const localization = await loadOfficialLocalization(
+      "/definitely-unavailable/gvy-wikelo-global.ini",
+      resolve(process.cwd(), "data/localization/official-global-derived.json"),
+    );
+    expect(localization.metadata.usingDerivedSnapshot).toBe(true);
+    expect(resolveEntityLocalization(localization, "harvestable_ore_1h_jacliumore", "Jaclium (Ore)").zh).toBe("杰金矿石");
+    expect(resolveEntityLocalization(localization, "fixture-titanium", "Titanium").zh).toBe("钛");
+    expect(resolveEntityLocalization(localization, "fixture-riccite", "Riccite").zh).toBe("愈金");
+    expect(resolveEntityLocalization(localization, "fixture-ouratite", "Ouratite").zh).toBe("欧拉特烃");
+  });
+
   it("handles BOM, comments, blank lines, and splits values only at the first equals sign", () => {
     const entries = parseOfficialLocalizationText("\uFEFF; comment\r\n\r\nitem_Namefixture=正式中文\\nOfficial Name=Variant\r\n# ignored=1");
     expect(entries.size).toBe(1);

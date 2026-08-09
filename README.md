@@ -69,7 +69,7 @@ npm run restore:data     # 只读列出备份；恢复时必须显式跟目录�
 
 `/Users/bindox/Documents/data/localization/chinese_(simplified)/global.ini`
 
-解析器处理 UTF-8 BOM、CRLF、注释、空行，并只在第一个 `=` 处分割键值。派生词典 `src/data/generated/localization.json` 记录源路径、SHA-256、源更新时间和生成时间。源哈希与词典内容不变时不会无意义重建。
+解析器处理 UTF-8 BOM、CRLF、注释、空行，并只在第一个 `=` 处分割键值。项目只提交实际需要的官方派生快照 `data/localization/official-global-derived.json`，远端 GitHub Runner 无法访问本机源文件时必须只读使用该快照；快照覆盖交易、上交物、奖励和制作配方材料。`src/data/generated/localization.json` 记录最终物品词典及源路径、SHA-256、源更新时间和生成时间。源哈希与词典内容不变时不会无意义重建。
 
 中文优先级：官方 `global.ini` → 用户确认人工修订 → 已校准公民中文 → 英文原名。解析器会同时按内部标识、已核验键别名和官方英文原名精确匹配；合同标题只使用显式核验过的官方键，不做模糊猜测。当前 268 个物品中 259 个有官方中文，另 9 个 ASD 重组样本的官方名称本身就是 `RCMBNT-*` 代码；87 个合同标题全部命中官方条目。没有可靠中文时直接显示英文，禁止机器翻译和虚构名称。完整勋章家族、北极星点数、遗物碎片、ATLS 三款改装、蓝月菌、SCU 商品和官方配方标题均已按内部 ID 校准。
 

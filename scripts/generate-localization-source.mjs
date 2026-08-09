@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import {
   CONTRACT_KEY_ALIASES,
   OFFICIAL_KEY_ALIASES,
+  officialLocalizationKeyCandidates,
   parseOfficialLocalizationText,
 } from "./lib/localization.mjs";
 import { sha256 } from "./lib/http.mjs";
@@ -25,14 +26,18 @@ async function main() {
   const allEntries = parseOfficialLocalizationText(buffer.toString("utf8"));
   const items = JSON.parse(await readFile(generatedItemsPath, "utf8")).items;
   const trades = JSON.parse(await readFile(generatedTradesPath, "utf8")).trades;
-  const entityIds = new Set(items.map((item) => normalize(item.id)));
+  const tradeEntries = trades.flatMap((trade) => [...trade.requirements, ...trade.rewards]);
+  const craftingEntries = items.flatMap((item) => item.crafting?.ingredients ?? []);
+  const localizedEntities = [...items, ...tradeEntries, ...craftingEntries];
+  const entityIds = new Set(localizedEntities.map((item) => normalize(item.id)).filter(Boolean));
   const englishNames = new Set([
-    ...items.map((item) => normalize(item.name.en)),
+    ...localizedEntities.map((item) => normalize(item.name?.en)),
     ...trades.map((trade) => normalize(trade.name.en)),
   ].filter(Boolean));
   const requiredKeys = new Set([
     ...Object.values(OFFICIAL_KEY_ALIASES),
     ...Object.values(CONTRACT_KEY_ALIASES),
+    ...localizedEntities.flatMap((item) => officialLocalizationKeyCandidates(item.id)),
   ].map(normalize));
 
   const selected = {};

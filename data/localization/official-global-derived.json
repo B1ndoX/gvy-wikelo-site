@@ -3,7 +3,7 @@
   "sourcePath": "/Users/bindox/Documents/data/localization/chinese_(simplified)/global.ini",
   "sourceSha256": "f978665610ab3d45587b66831883efaa6ce61c4031a13c1abcd4f08dcbc9a027",
   "sourceUpdatedAt": "2026-07-17T07:29:26.000Z",
-  "generatedAt": "2026-08-05T19:18:02.652Z",
+  "generatedAt": "2026-08-09T17:57:29.771Z",
   "note": "Project-scoped derivative of the read-only official Simplified Chinese global.ini. Used by remote refresh when the local source path is unavailable.",
   "entries": {
     "blueprints": {
@@ -50,9 +50,21 @@
       "key": "Hockrow_FacilityDelve_P3M1_journal_experiement_body",
       "value": "站点-B, 玛瑙设施\\n作者：洛根·约里特博士\\n\\n假设\\n尽管人类已经欣然接受了“创建印记”这一科技奇迹，却忽略了我们从剜度人那里偷来的这项技术身上最重要的一课 - 重组进化。剜度人会自由地将最优秀战士的印记与基因信息结合，用以创造下一代战士。因此，我提出，人类只需进行一些轻微的基因调整，同样可以通过修改印记实现进化上的飞跃。试想一下，每一次印记，我们都得以自我完善、持续进化。\\n\\n实验\\n利用剜度人生物流体的独特性质，我将通过引入催化剂和反应物来改造人类印记。结果将产生一个可行的重组体，不仅适应再生，而且比原始个体更优秀。\\n\\n材料\\n剜度生物流体 - 重要的是这必须来自新鲜的宿主。幸运的是，我已经找到了提供者。\\n\\n催化剂 - 利用该设施之前完成的研究，我已经能够配制出三种强有力的候选物：\\n* 催化剂-XTL\\n* 催化剂-PWL\\n* 催化剂-RGL\\n\\n反应物 - 能源核心独特的能量信号已被证明非常适合制造出足够活跃的试剂，以触发剜度生物流体中的必要反应。目前有三种试剂配方表现最为合适：\\n* 反应物-01\\n* 反应物-02\\n* 反应物-03\\n\\n实验步骤\\n- 在终端上选择一种催化剂和一种反应物。\\n- 重组完成后，数据将可供下载，实体样本将被送至设施的货运电梯进行存储，直到准备就绪进入下一步处理。\\n\\n结论\\n截至目前，这九种重组样本展现出最大的潜力：\\n* RCMBNT-XTL-1\\n* RCMBNT-XTL-2\\n* RCMBNT-XTL-3\\n* RCMBNT-PWL-1\\n* RCMBNT-PWL-2\\n* RCMBNT-PWL-3\\n* RCMBNT-RGL-1\\n* RCMBNT-RGL-2\\n* RCMBNT-RGL-3"
     },
+    "human_first_names_f_0296": {
+      "key": "Human_First_Names_F_0296",
+      "value": "[NPC]Beryl"
+    },
     "human_nicknames_0290": {
       "key": "Human_Nicknames_0290",
       "value": "Hot Shot"
+    },
+    "human_surnames_1503": {
+      "key": "Human_Surnames_1503",
+      "value": "Chiron"
+    },
+    "human_surnames_2229": {
+      "key": "Human_Surnames_2229",
+      "value": "Feingold"
     },
     "itemgathering_asd_harddrive_name": {
       "key": "ItemGathering_ASD_HardDrive_Name",
@@ -1414,6 +1426,10 @@
       "key": "item_NameKsar_rifle_energy_01_blue_gold_01_short",
       "value": "卡纳步枪V"
     },
+    "item_namelife_sasu_s01_marigold": {
+      "key": "item_NameLIFE_SASU_S01_Marigold",
+      "value": "万寿菊Marigold\\n[维生 S1 民用 A]"
+    },
     "item_namemxox_neutroncannon_s1": {
       "key": "item_NameMXOX_NeutronCannon_S1",
       "value": "NN-13 中子加农炮\\nNN-13 Cannon"
@@ -1470,6 +1486,10 @@
       "key": "item_NameMedal_1_worn_d",
       "value": "政府制图局勋章（磨损）"
     },
+    "item_name_987_jacket_03_01_01": {
+      "key": "item_Name_987_jacket_03_01_01",
+      "value": "节奏 夹克 金色\\nTempo Jacket Gold"
+    },
     "item_name_carryable_2h_cy_collectormaterial_001": {
       "key": "item_Name_Carryable_2H_CY_CollectorMaterial_001",
       "value": "超材料测试 #146\\nMetamaterial Test #146"
@@ -1505,6 +1525,10 @@
     "item_name_grin_utility_medium_legs_03_04_01": {
       "key": "item_Name_GRIN_utility_medium_legs_03_04_01",
       "value": "岩层 腿甲 热浪\\nStrata Legs Heatwave"
+    },
+    "item_name_mym_shirt_02_01_10": {
+      "key": "item_Name_MYM_Shirt_02_01_10",
+      "value": "阿塔维衬衫 金白色\\nAtavi Shirt White Gold"
     },
     "item_name_alb_jacket_05_01_20": {
       "key": "item_Name_alb_jacket_05_01_20",
@@ -1626,6 +1650,26 @@
       "key": "item_Name_clda_env_heavy_unified_01_iae2023_01",
       "value": "诺维科夫 升天 探索服\\nNovikov \"Ascension\" Exploration Suit"
     },
+    "item_name_dmc_jacket_05_01_10": {
+      "key": "item_Name_dmc_jacket_05_01_10",
+      "value": "科洛马 外套 冰铁\\nColoma Coat Ice and Iron"
+    },
+    "item_name_dmc_jacket_06_01_12": {
+      "key": "item_Name_dmc_jacket_06_01_12",
+      "value": "卡多纳 夹克 钢铁色\\nCardona Jacket Iron"
+    },
+    "item_name_dmc_jacket_07_01_11": {
+      "key": "item_Name_dmc_jacket_07_01_11",
+      "value": "卡斯瓦尔 夹克 钢铁色\\nKaswal Jacket Iron"
+    },
+    "item_name_dmc_jacket_10_01_14": {
+      "key": "item_Name_dmc_jacket_10_01_14",
+      "value": "拱心石夹克 金色\\nKeystone Jacket Gold"
+    },
+    "item_name_dmc_shirt_01_02_01": {
+      "key": "item_Name_dmc_shirt_01_02_01",
+      "value": "格林沃特 衬衫 钢铁色\\nGreenwater Shirt Iron"
+    },
     "item_name_fta_medium_helmet_01_01_05": {
       "key": "item_Name_fta_medium_helmet_01_01_05",
       "value": "岩层 头盔\\nStrata Helmet"
@@ -1633,6 +1677,10 @@
     "item_name_fta_medium_helmet_02_01_01": {
       "key": "item_Name_fta_medium_helmet_02_01_01",
       "value": "岩层 头盔 热浪\\nStrata Helmet Heatwave"
+    },
+    "item_name_hdh_pants_03_01_01": {
+      "key": "item_Name_hdh_pants_03_01_01",
+      "value": "卡利斯特 裤 万寿菊\\nCanelo Pants Marigold"
     },
     "item_name_kap_combat_heavy_arms_02_01_01": {
       "key": "item_Name_kap_combat_heavy_arms_02_01_01",
@@ -1697,6 +1745,10 @@
     "item_name_kap_combat_light_legs_02_02_01": {
       "key": "item_Name_kap_combat_light_legs_02_02_01",
       "value": "幽影 腿甲 雪地迷彩\\nGeist Armor Legs Snow Camo"
+    },
+    "item_name_nvy_shoes_01_01_gld": {
+      "key": "item_Name_nvy_shoes_01_01_gld",
+      "value": "威莱特鞋 金色\\nWaylite Shoes Gold"
     },
     "item_name_omc_utility_heavy_arms_01_01_16": {
       "key": "item_Name_omc_utility_heavy_arms_01_01_16",
@@ -1938,6 +1990,10 @@
       "key": "item_Name_rsi_explorer_light_legs_01_iae2023_01",
       "value": "探险家 腿甲 升天\\nVenture Legs Ascension"
     },
+    "item_name_rsi_pilot_flightsuit_helmet_01_01_05": {
+      "key": "item_Name_rsi_pilot_flightsuit_helmet_01_01_05",
+      "value": "奥德赛 头盔 黑/金\\nOdyssey Helmet Black/Gold"
+    },
     "item_name_syfb_flightsuit_helmet_01_01_01": {
       "key": "item_Name_syfb_flightsuit_helmet_01_01_01",
       "value": "贤梭 飞行头盔\\nXanthule Flight Helmet"
@@ -1977,6 +2033,14 @@
     "item_name_vgl_heavy_backpack_01_06_01": {
       "key": "item_Name_vgl_heavy_backpack_01_06_01",
       "value": "典狱长 背包 蒙德\\nWarden Backpack Monde"
+    },
+    "item_name_vgl_undersuit_01_01_01": {
+      "key": "item_Name_vgl_undersuit_01_01_01",
+      "value": "弹力 基底服 黑色/金色\\nForceFlex Undersuit Black/Gold"
+    },
+    "item_name_vgl_undersuit_01_01_19": {
+      "key": "item_Name_vgl_undersuit_01_01_19",
+      "value": "弹力 基底服 紫色/金色\\nForceFlex Undersuit Purple/Gold"
     },
     "item_nameapar_hmg_ballistic_01": {
       "key": "item_Nameapar_hmg_ballistic_01",
@@ -2898,6 +2962,10 @@
       "key": "item_Namevolt_sniper_energy_01_tint03_short",
       "value": "天顶激光狙击步枪TS"
     },
+    "item_subtypeiron": {
+      "key": "item_SubTypeIron",
+      "value": "铁Iron"
+    },
     "item_name_exechangar_compboard_05": {
       "key": "item_name_ExecHangar_CompBoard_05",
       "value": "DCHS-05 轨道定位 计算板"
@@ -2909,6 +2977,22 @@
     "item_name_physical_currency_scrip_merc_1": {
       "key": "item_name_Physical_Currency_Scrip_Merc_1",
       "value": "雇佣兵公会凭证\\nMG Scrip"
+    },
+    "items_commodities_aluminum": {
+      "key": "items_commodities_aluminum",
+      "value": "铝Aluminum"
+    },
+    "items_commodities_aslarite": {
+      "key": "items_commodities_aslarite",
+      "value": "阿斯莱晶体Aslarite"
+    },
+    "items_commodities_beradom": {
+      "key": "items_commodities_beradom",
+      "value": "冰蓝珀Beradom"
+    },
+    "items_commodities_beryl": {
+      "key": "items_commodities_beryl",
+      "value": "绿柱石Beryl"
     },
     "items_commodities_carinite": {
       "key": "items_commodities_carinite",
@@ -2950,6 +3034,26 @@
       "key": "items_commodities_corundum_raw_desc",
       "value": "氧化铝的结晶形式，被视为宝石。品种包括红宝石，蓝宝石和帕帕拉恰蓝宝石。"
     },
+    "items_commodities_gold": {
+      "key": "items_commodities_gold",
+      "value": "金Gold"
+    },
+    "items_commodities_hephaestanite": {
+      "key": "items_commodities_hephaestanite",
+      "value": "火神石Hephaestanite"
+    },
+    "items_commodities_iron": {
+      "key": "items_commodities_iron,P",
+      "value": "铁Iron"
+    },
+    "items_commodities_jaclium_ore": {
+      "key": "items_commodities_jaclium_ore",
+      "value": "杰金矿石"
+    },
+    "items_commodities_janalite": {
+      "key": "items_commodities_janalite",
+      "value": "加纳石Janalite"
+    },
     "items_commodities_kopionhorn_irradiated": {
       "key": "items_commodities_kopionhorn_irradiated",
       "value": "受辐射的寇骈犬角Irradiated Kopion Horn"
@@ -2957,6 +3061,18 @@
     "items_commodities_kopionhorn_tundra": {
       "key": "items_commodities_kopionhorn_tundra",
       "value": "苔原寇骈犬角Tundra Kopion Horn"
+    },
+    "items_commodities_laranite": {
+      "key": "items_commodities_laranite",
+      "value": "砬兰石Laranite"
+    },
+    "items_commodities_lindinium": {
+      "key": "items_commodities_lindinium",
+      "value": "林登金Lindinium"
+    },
+    "items_commodities_ouratite": {
+      "key": "items_commodities_ouratite",
+      "value": "欧拉特烃Ouratite"
     },
     "items_commodities_quantainium": {
       "key": "items_commodities_quantainium",
@@ -2974,13 +3090,25 @@
       "key": "items_commodities_quantainium_raw_desc",
       "value": "一种用于生产量子燃料的极度不稳定矿物。"
     },
+    "items_commodities_quartz": {
+      "key": "items_commodities_quartz",
+      "value": "石英Quartz"
+    },
     "items_commodities_quasigrazeregg_grassland": {
       "key": "items_commodities_quasigrazeregg_grassland",
       "value": "草地故夕食草兽蛋Grassland Quasi Grazer Egg"
     },
+    "items_commodities_riccite": {
+      "key": "items_commodities_riccite",
+      "value": "愈金Riccite"
+    },
     "items_commodities_sadaryx": {
       "key": "items_commodities_sadaryx",
       "value": "萨达瑞晶Sadaryx"
+    },
+    "items_commodities_saldynium_ore": {
+      "key": "items_commodities_saldynium_ore",
+      "value": "烁迪银矿石"
     },
     "items_commodities_savrilium": {
       "key": "items_commodities_savrilium",
@@ -2997,6 +3125,26 @@
     "items_commodities_savrilium_ore_des": {
       "key": "items_commodities_savrilium_ore_des",
       "value": "这种金属矿石最初在尼克斯星系被发现，由于其独特的合金特性，在经过精炼提纯后成为该星系早期矿工们的主要经济来源。"
+    },
+    "items_commodities_silicon": {
+      "key": "items_commodities_silicon",
+      "value": "硅Silicon"
+    },
+    "items_commodities_stileron": {
+      "key": "items_commodities_stileron",
+      "value": "稀钛铁Stileron"
+    },
+    "items_commodities_taranite": {
+      "key": "items_commodities_taranite",
+      "value": "塔兰导电石Taranite"
+    },
+    "items_commodities_titanium": {
+      "key": "items_commodities_titanium",
+      "value": "钛Titanium"
+    },
+    "items_commodities_torite": {
+      "key": "items_commodities_torite",
+      "value": "托瑞特金属Torite"
     },
     "items_commodities_tungsten": {
       "key": "items_commodities_tungsten",

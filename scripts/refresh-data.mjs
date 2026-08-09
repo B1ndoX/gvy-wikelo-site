@@ -15,7 +15,8 @@ const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "
 const generatedDir = path.join(projectRoot, "src/data/generated");
 const cacheDir = path.join(projectRoot, ".cache/http");
 const backupRoot = path.join(projectRoot, "data/backups");
-const localizationSource = "/Users/bindox/Documents/data/localization/chinese_(simplified)/global.ini";
+const localizationSource = process.env.GVY_WIKELO_LOCALIZATION_SOURCE
+  || "/Users/bindox/Documents/data/localization/chinese_(simplified)/global.ini";
 const derivedLocalizationSource = path.join(projectRoot, "data/localization/official-global-derived.json");
 const publishCheck = process.argv.includes("--publish-check");
 const fetchedAt = new Date().toISOString();
