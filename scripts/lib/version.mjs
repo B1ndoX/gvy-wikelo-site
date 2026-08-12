@@ -1,7 +1,8 @@
 export function versionFromHtml(html) {
-  const exact = String(html).match(/\b(\d+\.\d+\.\d+)[-\s]+(live|ptu|eptu)\.(\d+)\b/i);
-  if (!exact) throw new Error("Dumper's Repo did not expose an exact LIVE/PTU build version");
-  return `${exact[1]} ${exact[2].toUpperCase()}.${exact[3]}`;
+  const matches = [...String(html).matchAll(/\b(\d+\.\d+\.\d+)[-\s]+live\.(\d+)\b/gi)]
+    .map((match) => `${match[1]} LIVE.${match[2]}`);
+  if (!matches.length) throw new Error("Dumper's Repo did not expose an exact LIVE build version");
+  return matches.reduce((newest, candidate) => (isVersionOlder(candidate, newest) ? newest : candidate));
 }
 
 export function semanticPatch(version) {

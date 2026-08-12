@@ -5,9 +5,16 @@ import { describe, expect, it } from "vitest";
 import tradesData from "../src/data/generated/trades.json";
 import itemsData from "../src/data/generated/items.json";
 import metadata from "../src/data/generated/metadata.json";
+import versionedData from "../src/data/generated/versioned-data.json";
 import schema from "../data/schema/trades.schema.json";
 
 describe("generated stable data", () => {
+  it("contains exactly one exact LIVE dataset", () => {
+    expect(versionedData.datasets).toHaveLength(1);
+    expect(versionedData.datasets[0].gameVersion).toMatch(/^\d+\.\d+\.\d+ LIVE\.\d+$/);
+    expect(versionedData.datasets[0].gameVersion).not.toMatch(/PTU|EPTU/);
+  });
+
   it("passes the strict trade JSON Schema", () => {
     const ajv = new Ajv({ allErrors: true, strict: false });
     ajv.addFormat("date-time", { type: "string", validate: (value: string) => !Number.isNaN(Date.parse(value)) });

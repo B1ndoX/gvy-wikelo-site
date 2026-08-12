@@ -2,9 +2,20 @@ name: Refresh Wikelo data
 
 on:
   schedule:
-    # Monday 01:00 Asia/Shanghai = Sunday 17:00 UTC.
-    - cron: "0 17 * * 0"
+    # Every six hours. Only the lightweight Dumper's Repo Wikelo page is read here.
+    - cron: "0 */6 * * *"
   workflow_dispatch:
+    inputs:
+      force_refresh:
+        description: "Run the full verified refresh even when the LIVE build is unchanged"
+        required: false
+        type: boolean
+        default: false
+      expected_live_version:
+        description: "Optional exact LIVE version required before a forced refresh (example: 4.10.0 LIVE.12400000)"
+        required: false
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -37,20 +48,34 @@ jobs:
           git fetch origin main
           git rebase origin/main
 
+      - name: Check the Dumper's Repo Wikelo LIVE version
+        id: live_version
+        run: npm run check:live-version -- --github-output
+
+      - name: Verify the expected LIVE version for a forced refresh
+        if: inputs.expected_live_version != ''
+        env:
+          EXPECTED_LIVE_VERSION: ${{ inputs.expected_live_version }}
+          REMOTE_LIVE_VERSION: ${{ steps.live_version.outputs.remote_version }}
+        run: test "$REMOTE_LIVE_VERSION" = "$EXPECTED_LIVE_VERSION"
+
       - name: Refresh staging data and enforce publish gates
+        if: steps.live_version.outputs.changed == 'true' || inputs.force_refresh
         run: npm run refresh:data:publish-check
 
       - name: Audit public content
+        if: steps.live_version.outputs.changed == 'true' || inputs.force_refresh
         run: npm run audit:data
 
       - name: Test, validate, and build
+        if: steps.live_version.outputs.changed == 'true' || inputs.force_refresh
         run: |
           npm test
           npm run lint:data
           npm run build
 
       - name: Keep a 14-day recoverable stable-data artifact
-        if: always()
+        if: ${{ always() && (steps.live_version.outputs.changed == 'true' || inputs.force_refresh) }}
         uses: actions/upload-artifact@v7
         with:
           name: wikelo-stable-data-${{ github.run_id }}
@@ -62,6 +87,7 @@ jobs:
           retention-days: 14
 
       - name: Commit only verified data changes
+        if: steps.live_version.outputs.changed == 'true' || inputs.force_refresh
         run: |
           git add src/data/generated data/audits data/localization data/source-snapshots public/images
           if git diff --cached --quiet; then
@@ -79,5 +105,6 @@ jobs:
           npm run build
           git push origin HEAD:main
 
-      # This workflow updates repository data for EdgeOne's connected build.
+      # Scheduled runs stop after the lightweight version check when LIVE is unchanged.
+      # Full refreshes update repository data for EdgeOne's connected build.
       # It intentionally contains no GitHub Pages action or Pages configuration.

@@ -11,13 +11,14 @@ describe("simple material query flow", () => {
     expect(screen.queryByText("数据说明")).not.toBeInTheDocument();
   });
 
-  it("shows only Wikelo versions backed by a captured trade dataset", () => {
+  it("shows the single LIVE version after search and removes the version filter", () => {
     render(<App />);
 
-    fireEvent.click(screen.getByRole("button", { name: "4.9.0 LIVE" }));
-    const versionMenu = screen.getByRole("listbox", { name: "游戏版本" });
-    expect(within(versionMenu).getByRole("option", { name: "4.9.0 LIVE" })).toBeInTheDocument();
-    expect(within(versionMenu).queryByRole("option", { name: /PTU/ })).not.toBeInTheDocument();
+    const versionBadge = screen.getByLabelText(/4\.9\.0 LIVE，更新 2026\/08\/10 02:00/);
+    expect(versionBadge).toHaveTextContent("4.9.0 LIVE");
+    expect(within(versionBadge).getByRole("tooltip")).toHaveTextContent("更新 2026/08/10 02:00");
+    expect(screen.queryByRole("listbox", { name: "游戏版本" })).not.toBeInTheDocument();
+    expect(screen.queryByText("PTU")).not.toBeInTheDocument();
   });
 
   it("keeps public pages free of source links and internal validation language", () => {

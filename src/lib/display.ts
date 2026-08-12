@@ -13,7 +13,7 @@ export function formatAmount(amount: number) {
 }
 
 export function formatVersion(version: string) {
-  return version.replace(/[-\s]*(LIVE|PTU|EPTU)\.(\d+)$/i, " $1").replace(/\s+/g, " ").trim();
+  return version.replace(/[-\s]*LIVE\.(\d+)$/i, " LIVE").replace(/\s+/g, " ").trim();
 }
 
 export function formatDate(value: string | null) {
@@ -27,6 +27,21 @@ export function formatDate(value: string | null) {
     hour12: false,
     timeZone: "Asia/Shanghai",
   }).format(new Date(value));
+}
+
+export function formatUpdateLabel(value: string | null) {
+  if (!value || Number.isNaN(Date.parse(value))) return "更新时间暂无";
+  const parts = new Intl.DateTimeFormat("zh-CN", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+    timeZone: "Asia/Shanghai",
+  }).formatToParts(new Date(value));
+  const part = (type: Intl.DateTimeFormatPartTypes) => parts.find((entry) => entry.type === type)?.value ?? "";
+  return `更新 ${part("year")}/${part("month")}/${part("day")} ${part("hour")}:${part("minute")}`;
 }
 
 export const reputationLabels: Record<string, string> = {

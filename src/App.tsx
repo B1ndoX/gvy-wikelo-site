@@ -8,28 +8,23 @@ import {
   X,
 } from "lucide-react";
 import { useEffect, useMemo, useState, type ReactNode } from "react";
+import metadataJson from "./data/generated/metadata.json";
 import versionedDataJson from "./data/generated/versioned-data.json";
 import { CustomSelect, type SelectOption } from "./components/CustomSelect";
 import { ItemImage } from "./components/ItemImage";
-import { formatAmount, formatVersion, primaryName, reputationLabel, secondaryName } from "./lib/display";
-import type { ItemRecord, Trade, TradeEntry, VersionedData } from "./types";
+import { formatAmount, formatUpdateLabel, formatVersion, primaryName, reputationLabel, secondaryName } from "./lib/display";
+import type { ItemRecord, Metadata, Trade, TradeEntry, VersionedData } from "./types";
 
 const versionedData = versionedDataJson as VersionedData;
-const versionDatasets = versionedData.datasets;
-const defaultVersion = versionDatasets.find((dataset) => /\bLIVE\b/i.test(dataset.gameVersion))?.gameVersion
-  ?? versionDatasets[0]?.gameVersion
-  ?? "";
-
-const versionOptions: SelectOption[] = [
-  ...versionDatasets.map((dataset) => ({ value: dataset.gameVersion, label: formatVersion(dataset.gameVersion) })),
-];
+const metadata = metadataJson as Metadata;
+const activeDataset = versionedData.datasets.find((dataset) => /\bLIVE\.\d+$/i.test(dataset.gameVersion))
+  ?? versionedData.datasets[0];
 
 const sortOptions: SelectOption[] = [
   { value: "recommended", label: "推荐排序" },
   { value: "name", label: "名称" },
   { value: "reputation", label: "声望" },
   { value: "quantity", label: "需求数量" },
-  { value: "version", label: "版本" },
 ];
 
 function categoryLabel(value: string) {
@@ -123,13 +118,11 @@ export default function App() {
   const [rewardCategory, setRewardCategory] = useState("all");
   const [repFilter, setRepFilter] = useState("all");
   const [requirementFilter, setRequirementFilter] = useState("all");
-  const [versionFilter, setVersionFilter] = useState(defaultVersion);
   const [sort, setSort] = useState("recommended");
   const [selectedTradeId, setSelectedTradeId] = useState("");
   const [selectedItemId, setSelectedItemId] = useState<string | null>(null);
   const [tradeDetailOpen, setTradeDetailOpen] = useState(false);
   const [expandedImage, setExpandedImage] = useState<ExpandedImage | null>(null);
-  const activeDataset = versionDatasets.find((dataset) => dataset.gameVersion === versionFilter) ?? versionDatasets[0];
   const trades = activeDataset?.trades ?? [];
   const items = activeDataset?.items ?? [];
   const itemById = useMemo(() => new Map(items.map((item) => [item.id, item])), [items]);
@@ -159,7 +152,7 @@ export default function App() {
         .sort((a, b) => primaryName(a.name).localeCompare(primaryName(b.name), "zh-CN"))
         .map((entry) => ({ value: entry.id, label: primaryName(entry.name) })),
     ];
-  }, []);
+  }, [trades]);
 
   const filteredTrades = useMemo(() => {
     const needle = normalizedSearch(query);
@@ -191,7 +184,6 @@ export default function App() {
           b.requirements.reduce((sum, entry) => sum + entry.quantity, 0)
         );
       }
-      if (sort === "version") return b.gameVersion.localeCompare(a.gameVersion, undefined, { numeric: true });
       const validationRank = { verified: 0, single_source: 1, conflict: 2, pending: 3 };
       return validationRank[a.validationStatus] - validationRank[b.validationStatus];
     });
@@ -233,18 +225,7 @@ export default function App() {
     setRewardCategory("all");
     setRepFilter("all");
     setRequirementFilter("all");
-    setVersionFilter(defaultVersion);
     setSort("recommended");
-  }
-
-  function changeVersion(value: string) {
-    setVersionFilter(value);
-    setRewardCategory("all");
-    setRepFilter("all");
-    setRequirementFilter("all");
-    setSelectedTradeId("");
-    setSelectedItemId(null);
-    setTradeDetailOpen(false);
   }
 
   return (
@@ -257,16 +238,26 @@ export default function App() {
             <h1>维科洛交易查询</h1>
           </div>
         </div>
-        <label className="global-search">
-          <Search size={18} aria-hidden="true" />
-          <span className="sr-only">搜索合同、物品、奖励或地点</span>
-          <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索合同、物品、奖励、飞船或地点" />
-          {query && (
-            <button type="button" aria-label="清空搜索" onClick={() => setQuery("")}>
-              <X size={16} />
-            </button>
-          )}
-        </label>
+        <div className="search-cluster">
+          <label className="global-search">
+            <Search size={18} aria-hidden="true" />
+            <span className="sr-only">搜索合同、物品、奖励或地点</span>
+            <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索合同、物品、奖励、飞船或地点" />
+            {query && (
+              <button type="button" aria-label="清空搜索" onClick={() => setQuery("")}>
+                <X size={16} />
+              </button>
+            )}
+          </label>
+          <span
+            className="live-version-badge"
+            tabIndex={0}
+            aria-label={`${formatVersion(activeDataset?.gameVersion ?? metadata.gameVersion)}，${formatUpdateLabel(metadata.generatedAt)}`}
+          >
+            {formatVersion(activeDataset?.gameVersion ?? metadata.gameVersion)}
+            <span className="version-tooltip" role="tooltip">{formatUpdateLabel(metadata.generatedAt)}</span>
+          </span>
+        </div>
         <div className="top-actions">
           <nav aria-label="相关站点">
             <a href="https://www.gvyvoyagers.vip" target="_blank" rel="noreferrer">舰队官网</a>
@@ -295,7 +286,6 @@ export default function App() {
           <CustomSelect label="最低声望" value={repFilter} options={repOptions} onChange={setRepFilter} />
           <CustomSelect label="所需物品" value={requirementFilter} options={requirementOptions} onChange={setRequirementFilter} />
           <CustomSelect label="交易站" value="unbound" options={[{ value: "unbound", label: "逐条地点暂无" }]} onChange={() => undefined} />
-          <CustomSelect label="游戏版本" value={versionFilter} options={versionOptions} onChange={changeVersion} />
           <CustomSelect label="排序" value={sort} options={sortOptions} onChange={setSort} />
         </section>
 

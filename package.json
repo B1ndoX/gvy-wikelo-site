@@ -13,6 +13,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "audit:data": "node scripts/audit-content.mjs",
+    "check:live-version": "node scripts/check-live-version.mjs",
     "localization:derive": "node scripts/generate-localization-source.mjs",
     "lint:data": "node scripts/validate-data.mjs",
     "refresh:data": "node scripts/refresh-data.mjs",

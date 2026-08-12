@@ -82,15 +82,14 @@ describe("source parsing and normalization fixtures", () => {
     expect(trade.rewards[0].name.localizationSource).toBe("official_global_ini");
   });
 
-  it("extracts exact LIVE/PTU builds and treats LIVE as newer than PTU at the same patch", () => {
+  it("extracts only the newest exact LIVE build and ignores PTU markers", () => {
     expect(versionFromHtml("<b>4.9.0-live.12345678</b>")).toBe("4.9.0 LIVE.12345678");
-    expect(versionFromHtml("<b>4.10.0-ptu.9876543</b>")).toBe("4.10.0 PTU.9876543");
+    expect(versionFromHtml("<b>4.10.0-ptu.9876543</b><b>4.9.0-live.12345678</b>")).toBe("4.9.0 LIVE.12345678");
+    expect(versionFromHtml("4.9.0-live.1 4.10.0-live.2")).toBe("4.10.0 LIVE.2");
+    expect(() => versionFromHtml("<b>4.10.0-ptu.9876543</b>")).toThrow(/exact LIVE/);
     expect(isVersionOlder("4.8.1 LIVE.1", "4.9.0 LIVE.1")).toBe(true);
     expect(isVersionOlder("4.9.0 LIVE.2", "4.9.0 LIVE.1")).toBe(false);
     expect(isVersionOlder("4.9.0 LIVE.1", "4.9.0 LIVE.2")).toBe(true);
-    expect(isVersionOlder("4.10.0 LIVE.1", "4.10.0 PTU.9")).toBe(false);
-    expect(isVersionOlder("4.10.0 PTU.9", "4.10.0 LIVE.1")).toBe(true);
-    expect(isVersionOlder("4.10.0 PTU.1", "4.9.0 LIVE.999")).toBe(false);
   });
 
   it("blocks stable replacement on anomaly or partial source and keeps snapshots as references", () => {

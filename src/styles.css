@@ -78,6 +78,7 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid 
 .eyebrow { margin: 0 0 4px; color: var(--gold); font-size: 10px; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; }
 .brand h1 { margin: 0; font-size: clamp(18px, 1.05vw, 23px); font-weight: 660; letter-spacing: .025em; white-space: nowrap; }
 
+.search-cluster { min-width: 0; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 8px; }
 .global-search {
   height: 44px;
   min-width: 0;
@@ -95,6 +96,46 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid 
 .global-search input { width: 100%; min-width: 0; color: var(--text); border: 0; outline: 0; background: transparent; font-size: 14px; }
 .global-search input::placeholder { color: #718790; }
 .global-search button { display: grid; place-items: center; border: 0; background: transparent; color: var(--muted); padding: 4px; cursor: pointer; }
+.live-version-badge {
+  min-height: 34px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 11px;
+  border: 1px solid rgba(226,178,77,.38);
+  border-radius: 7px;
+  background: rgba(226,178,77,.09);
+  color: #e7bd5b;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: help;
+}
+.live-version-badge:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+.version-tooltip {
+  width: max-content;
+  max-width: calc(100vw - 16px);
+  position: absolute;
+  z-index: 60;
+  top: calc(100% + 8px);
+  right: 0;
+  padding: 7px 9px;
+  border: 1px solid rgba(69,207,236,.34);
+  border-radius: 6px;
+  background: #0b1a22;
+  color: #c7d8dd;
+  box-shadow: 0 10px 30px rgba(0,0,0,.42);
+  font-size: 11px;
+  font-weight: 550;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-3px);
+  pointer-events: none;
+  transition: opacity .15s, transform .15s, visibility .15s;
+}
+.live-version-badge:hover .version-tooltip,
+.live-version-badge:focus .version-tooltip { opacity: 1; visibility: visible; transform: translateY(0); }
 
 .top-actions { min-width: 0; display: flex; align-items: center; justify-content: flex-end; }
 .top-actions nav { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
@@ -136,7 +177,7 @@ main { padding: 0 clamp(12px, 1.6vw, 28px) 18px; }
 .filterbar {
   min-height: 66px;
   display: grid;
-  grid-template-columns: max-content repeat(5, minmax(118px, 178px));
+  grid-template-columns: max-content repeat(4, minmax(118px, 178px));
   align-items: center;
   justify-content: start;
   gap: 7px;
@@ -417,7 +458,7 @@ main { padding: 0 clamp(12px, 1.6vw, 28px) 18px; }
   .global-search { height: 46px; }
   .category-tabs { gap: 9px; }
   .category-tabs button { min-width: 118px; height: 42px; font-size: 14px; }
-  .filterbar { grid-template-columns: max-content repeat(5, minmax(140px, 200px)); gap: 9px; }
+  .filterbar { grid-template-columns: max-content repeat(4, minmax(140px, 200px)); gap: 9px; }
   .select-trigger { height: 36px; font-size: 13px; }
   .trade-card { min-height: 352px; }
   .trade-card-summary { grid-template-columns: 128px minmax(0, 1fr); }
@@ -436,7 +477,7 @@ main { padding: 0 clamp(12px, 1.6vw, 28px) 18px; }
 @media (max-width: 1200px) {
   .topbar { grid-template-columns: minmax(250px, 320px) minmax(280px, 1fr) auto; gap: 12px; }
   .top-actions nav a { min-height: 34px; padding-inline: 10px; font-size: 12px; }
-  .filterbar { grid-template-columns: repeat(3, minmax(0, 1fr)); overflow: visible; }
+  .filterbar { grid-template-columns: repeat(4, minmax(0, 1fr)); overflow: visible; }
   .filter-title { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
   .trade-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .site-footer { grid-template-columns: 220px minmax(0, 1fr); }
@@ -455,7 +496,8 @@ main { padding: 0 clamp(12px, 1.6vw, 28px) 18px; }
   .top-actions { justify-self: end; }
   .top-actions nav { gap: 5px; }
   .top-actions nav a { min-height: 32px; padding-inline: 8px; border-color: transparent; background: transparent; font-size: 11px; }
-  .global-search { grid-column: 1 / -1; grid-row: 2; height: 40px; }
+  .search-cluster { grid-column: 1 / -1; grid-row: 2; }
+  .global-search { height: 40px; }
   main { padding: 0 8px 9px; }
   .category-tabs { padding-top: 8px; }
   .category-tabs button { min-width: 82px; height: 36px; padding-inline: 11px; font-size: 12px; }
@@ -491,6 +533,11 @@ main { padding: 0 clamp(12px, 1.6vw, 28px) 18px; }
   .item-modal-body { padding: 12px 14px; }
   .acquisition { grid-template-columns: 1fr; }
   .acquisition a { grid-column: 1; }
+}
+
+@media (max-width: 560px) {
+  .search-cluster { grid-template-columns: minmax(0, 1fr); gap: 5px; }
+  .live-version-badge { min-height: 27px; justify-self: end; padding-inline: 8px; font-size: 10px; }
 }
 
 @media (max-width: 390px) {

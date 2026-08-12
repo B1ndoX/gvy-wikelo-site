@@ -6,7 +6,7 @@
   "required": ["schemaVersion", "gameVersion", "generatedAt", "sourceStatus", "trades"],
   "properties": {
     "schemaVersion": { "const": "1.0.0" },
-    "gameVersion": { "type": "string", "minLength": 1 },
+    "gameVersion": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+ LIVE\\.\\d+$" },
     "generatedAt": { "type": "string", "format": "date-time" },
     "sourceStatus": { "type": "array", "items": { "$ref": "#/$defs/source" }, "minItems": 1 },
     "trades": { "type": "array", "items": { "$ref": "#/$defs/trade" }, "minItems": 1 }
@@ -68,7 +68,7 @@
         "debugName": { "type": "string", "minLength": 1 },
         "name": { "$ref": "#/$defs/localizedName" },
         "category": { "enum": ["ship", "ground_vehicle", "armor", "weapon", "gear", "favor", "introduction", "food", "other"] },
-        "gameVersion": { "type": "string", "minLength": 1 },
+        "gameVersion": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+ LIVE\\.\\d+$" },
         "status": { "enum": ["active", "inactive", "unknown"] },
         "minReputation": { "type": ["string", "null"] },
         "reputationGain": { "type": ["number", "null"] },

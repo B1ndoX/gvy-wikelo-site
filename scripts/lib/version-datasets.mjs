@@ -1,11 +1,4 @@
-import { semanticPatch } from "./version.mjs";
-
-function channelOf(version) {
-  if (/\bLIVE\b/i.test(version)) return "LIVE";
-  if (/\bPTU\b/i.test(version)) return "PTU";
-  if (/\bEPTU\b/i.test(version)) return "EPTU";
-  return "UNKNOWN";
-}
+import { isVersionOlder, semanticPatch } from "./version.mjs";
 
 function comparePatch(left, right) {
   const a = semanticPatch(left);
@@ -24,36 +17,26 @@ function newest(datasets) {
   return [...datasets].sort((left, right) => {
     const patchOrder = comparePatch(right.gameVersion, left.gameVersion);
     if (patchOrder) return patchOrder;
-    const channelRank = { LIVE: 3, PTU: 2, EPTU: 1, UNKNOWN: 0 };
-    const channelOrder = channelRank[channelOf(right.gameVersion)] - channelRank[channelOf(left.gameVersion)];
-    if (channelOrder) return channelOrder;
     return buildNumber(right.gameVersion) - buildNumber(left.gameVersion);
   })[0] ?? null;
 }
 
 export function mergeVersionDatasets(previousDatasets, incomingDataset) {
-  const incomingChannel = channelOf(incomingDataset.gameVersion);
-  if (incomingChannel === "UNKNOWN") throw new Error(`Unsupported data channel: ${incomingDataset.gameVersion}`);
-
-  const previousLive = newest(previousDatasets.filter((dataset) => channelOf(dataset.gameVersion) === "LIVE"));
-  const live = incomingChannel === "LIVE"
-    ? newest([previousLive, incomingDataset].filter(Boolean))
-    : previousLive;
-  const test = ["PTU", "EPTU"].includes(incomingChannel) ? incomingDataset : null;
-  const result = [];
-  if (live) result.push(live);
-  if (test && (!live || comparePatch(test.gameVersion, live.gameVersion) > 0)) result.push(test);
-  return result;
+  if (!/\bLIVE\.\d+$/i.test(incomingDataset.gameVersion)) {
+    throw new Error(`Wikelo refresh accepts LIVE data only: ${incomingDataset.gameVersion}`);
+  }
+  const previousLive = newest(previousDatasets.filter((dataset) => /\bLIVE\.\d+$/i.test(dataset.gameVersion)));
+  if (previousLive && isVersionOlder(incomingDataset.gameVersion, previousLive.gameVersion)) return [previousLive];
+  return [incomingDataset];
 }
 
 export function activeLiveVersion(datasets) {
-  return newest(datasets.filter((dataset) => channelOf(dataset.gameVersion) === "LIVE"))?.gameVersion
-    ?? newest(datasets)?.gameVersion
-    ?? null;
+  return newest(datasets.filter((dataset) => /\bLIVE\.\d+$/i.test(dataset.gameVersion)))?.gameVersion ?? null;
 }
 
 export function anomalyBaselineForVersion(previousDatasets, legacyDocument, incomingVersion) {
-  const sameChannel = previousDatasets.find((dataset) => channelOf(dataset.gameVersion) === channelOf(incomingVersion));
-  if (sameChannel) return { gameVersion: sameChannel.gameVersion, trades: sameChannel.trades };
+  if (!/\bLIVE\.\d+$/i.test(incomingVersion)) throw new Error(`Wikelo anomaly checks accept LIVE data only: ${incomingVersion}`);
+  const live = newest(previousDatasets.filter((dataset) => /\bLIVE\.\d+$/i.test(dataset.gameVersion)));
+  if (live) return { gameVersion: live.gameVersion, trades: live.trades };
   return legacyDocument ? { ...legacyDocument, gameVersion: incomingVersion } : null;
 }

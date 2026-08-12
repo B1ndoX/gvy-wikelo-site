@@ -1,58 +1,44 @@
 import { describe, expect, it } from "vitest";
 import { activeLiveVersion, anomalyBaselineForVersion, mergeVersionDatasets } from "../scripts/lib/version-datasets.mjs";
 
-const dataset = (gameVersion: string) => ({ gameVersion, trades: [], items: [] });
+const dataset = (gameVersion: string, id = "fixture") => ({ gameVersion, trades: [{ id }], items: [] });
 
-describe("LIVE and PTU Wikelo dataset isolation", () => {
-  it("keeps LIVE alone while no PTU Wikelo dataset exists", () => {
+describe("LIVE-only Wikelo dataset isolation", () => {
+  it("keeps exactly one LIVE dataset", () => {
     const live = dataset("4.9.0 LIVE.12344265");
-    expect(mergeVersionDatasets([], live).map((entry: { gameVersion: string }) => entry.gameVersion)).toEqual([live.gameVersion]);
+    expect(mergeVersionDatasets([], live)).toEqual([live]);
+    expect(activeLiveVersion([live])).toBe(live.gameVersion);
   });
 
-  it("adds a newer PTU dataset without overwriting LIVE", () => {
-    const live = dataset("4.9.0 LIVE.12344265");
-    const ptu = dataset("4.10.0 PTU.12388491");
-    const merged = mergeVersionDatasets([live], ptu);
-    expect(merged.map((entry: { gameVersion: string }) => entry.gameVersion)).toEqual([live.gameVersion, ptu.gameVersion]);
-    expect(activeLiveVersion(merged)).toBe(live.gameVersion);
+  it("rejects PTU and EPTU inputs instead of mixing channels", () => {
+    expect(() => mergeVersionDatasets([], dataset("4.10.0 PTU.12388491"))).toThrow(/LIVE data only/);
+    expect(() => mergeVersionDatasets([], dataset("4.10.0 EPTU.12388491"))).toThrow(/LIVE data only/);
   });
 
-  it("replaces the old LIVE and same-generation PTU when that patch becomes LIVE", () => {
-    const previous = [dataset("4.9.0 LIVE.12344265"), dataset("4.10.0 PTU.12388491")];
-    const live = dataset("4.10.0 LIVE.12400000");
-    expect(mergeVersionDatasets(previous, live).map((entry: { gameVersion: string }) => entry.gameVersion)).toEqual([live.gameVersion]);
+  it("replaces the old LIVE when a newer LIVE build appears", () => {
+    const previous = dataset("4.9.0 LIVE.12344265", "old");
+    const incoming = dataset("4.10.0 LIVE.12400000", "new");
+    expect(mergeVersionDatasets([previous], incoming)).toEqual([incoming]);
   });
 
-  it("removes a stale PTU when the current refresh exposes only LIVE", () => {
-    const previous = [dataset("4.10.0 LIVE.12400000"), dataset("4.11.0 PTU.12500000")];
-    const refreshedLive = dataset("4.10.0 LIVE.12410000");
-    expect(mergeVersionDatasets(previous, refreshedLive).map((entry: { gameVersion: string }) => entry.gameVersion)).toEqual([
-      refreshedLive.gameVersion,
-    ]);
+  it("uses refreshed records for the same LIVE build", () => {
+    const previous = dataset("4.9.0 LIVE.12344265", "old");
+    const incoming = dataset("4.9.0 LIVE.12344265", "corrected");
+    expect(mergeVersionDatasets([previous], incoming)).toEqual([incoming]);
   });
 
-  it("shows PTU again only when that PTU dataset is observed in the current refresh", () => {
-    const liveOnly = mergeVersionDatasets(
-      [dataset("4.10.0 LIVE.12400000"), dataset("4.11.0 PTU.12500000")],
-      dataset("4.10.0 LIVE.12410000"),
-    );
-    const withObservedPtu = mergeVersionDatasets(liveOnly, dataset("4.11.0 PTU.12510000"));
-    expect(withObservedPtu.map((entry: { gameVersion: string }) => entry.gameVersion)).toEqual([
-      "4.10.0 LIVE.12410000",
-      "4.11.0 PTU.12510000",
-    ]);
+  it("does not replace stable data with a regressed LIVE", () => {
+    const previous = dataset("4.10.0 LIVE.12400000", "current");
+    const incoming = dataset("4.9.0 LIVE.12344265", "old");
+    expect(mergeVersionDatasets([previous], incoming)).toEqual([previous]);
   });
 
-  it("compares LIVE updates with LIVE and PTU updates with PTU", () => {
-    const live = { ...dataset("4.9.0 LIVE.12344265"), trades: [{ id: "live" }] };
-    const ptu = { ...dataset("4.10.0 PTU.12388491"), trades: [{ id: "ptu" }] };
-    expect(anomalyBaselineForVersion([live, ptu], ptu, "4.9.0 LIVE.12350000")).toEqual({
+  it("always compares anomalies against the newest stable LIVE", () => {
+    const live = dataset("4.9.0 LIVE.12344265", "live");
+    expect(anomalyBaselineForVersion([live], live, "4.10.0 LIVE.12400000")).toEqual({
       gameVersion: live.gameVersion,
       trades: live.trades,
     });
-    expect(anomalyBaselineForVersion([live, ptu], live, "4.10.0 PTU.12390000")).toEqual({
-      gameVersion: ptu.gameVersion,
-      trades: ptu.trades,
-    });
+    expect(() => anomalyBaselineForVersion([live], live, "4.10.0 PTU.12400000")).toThrow(/LIVE data only/);
   });
 });

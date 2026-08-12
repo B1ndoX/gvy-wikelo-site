@@ -35,6 +35,7 @@ npm run dev
 ```bash
 npm test                 # 固定 fixture、汉化、查询交互与生成数据回归测试
 npm run audit:data       # 全站公开文字、汉化、获取途径和图片路径审计
+npm run check:live-version # 只读取 Dumper's Repo 维科洛页，比较精确 LIVE 版本
 npm run lint:data        # Schema 和异常校验
 npm run build            # TypeScript + Vite 生产构建
 npm run refresh:data     # 手动刷新到稳定数据
@@ -50,16 +51,16 @@ npm run restore:data     # 只读列出备份；恢复时必须显式跟目录�
 2. 从公开 JS 数据字面量安全解析 staging 数据，不执行远端代码；
 3. 标准化合同、x/SCU 单位、多奖励和蓝图；
 4. 解析官方简体中文 `global.ini` 并生成派生词典；
-5. 严格 JSON Schema 校验每个独立 LIVE/PTU 版本快照；
+5. 严格 JSON Schema 校验唯一的 LIVE 版本快照；
 6. 来源交叉校验，保留全部冲突原值；
-7. 按本周实际抓取结果隔离合并 LIVE/PTU，并删除本周已不存在的 PTU；
+7. 拒绝 PTU/EPTU 输入，只更新新的 LIVE 数据；
 8. 检测交易数骤降、版本倒退、关键奖励缺失和汉化覆盖率骤降；
 9. 备份上一版稳定数据，再用 `.next` 原子替换；
 10. 清理超过 14 天的备份。
 
-任一步失败都不会覆盖稳定数据。输入数据、官方汉化哈希和来源版本均未改变时，脚本输出 `unchanged: true`，不改生成文件、不新增备份。发布前额外运行 `npm run refresh:data:publish-check`；来源为 `partial` / `failed` 或出现异常时会阻止发布。人工核验并注明日期的 Wiki 快照只作为背景与地点参考，不会伪装成实时结构化接口。
+任一步失败都不会覆盖稳定数据。语义指纹会忽略抓取时间、来源更新时间、数组顺序及二次来源的小版本噪声；合同、数量、奖励、图片、获取方式、汉化或 LIVE 版本没有实质变化时，脚本输出 `unchanged: true`，不改生成文件、不新增备份。发布前额外运行 `npm run refresh:data:publish-check`；来源为 `partial` / `failed` 或出现异常时会阻止发布。人工核验并注明日期的 Wiki 快照只作为背景与地点参考，不会伪装成实时结构化接口。
 
-项目内已准备 `.github/workflows/refresh-data.yml`：每周一 01:00（Asia/Shanghai）在 GitHub Actions 中刷新，先 fetch/rebase 远端，再执行刷新、内容审计、测试、Schema 校验和构建，并保存 14 天稳定数据备份。该工作流不含 GitHub Pages，只服务 EdgeOne 的仓库连接。
+项目内已准备 `.github/workflows/refresh-data.yml`：每 6 小时只读取一次 Dumper's Repo 维科洛 HTML 页面的精确 LIVE 版本标识，不读取 bundle、不抓完整交易。版本未变化就绿色结束，不写文件、不构建、不提交；只有出现新的 LIVE 才先 fetch/rebase，再执行完整抓取、内容审计、测试、Schema 校验和构建，保存 14 天稳定数据备份并提交真实差异。该工作流不含 GitHub Pages，只服务 EdgeOne 的仓库连接。
 
 稳定数据位于 `src/data/generated/`；备份位于未提交的 `data/backups/`；HTTP 缓存位于未提交的 `.cache/`。
 
@@ -98,9 +99,9 @@ npm run restore:data     # 只读列出备份；恢复时必须显式跟目录�
 
 当前 222 / 268 个条目有可追踪的本地实图，119 种上交材料中有 90 种实图。六排勋章、政府制图局勋章、ASD 安全驱动器、维科洛货币、Yormandi 部位、Vanduul 材料、ATLS、Parallax、Quartz、Fresnel 及多种货运矿物等高频条目均已固定到公开资料页中的精确图片；ATLS 冷铁另使用 RSI Community Hub 中标题明确对应该特别版的玩家实拍。`Carinite (Pure)` 暂使用明确标为“基础型号参考图”的 Carinite 图片；刷新失败时不会被占位图覆盖。剩余 29 种上交材料没有找到可核验实图，内容审计会持续列出其 ID，更新时只接受能够确认具体型号的公开图片。
 
-## PTU / LIVE 版本策略
+## LIVE 版本策略
 
-版本筛选只展示本周从指定抓取站实际读取并完整保存的维科洛交易数据集，不会因为游戏客户端开放 PTU 就把 4.9 合同改标签冒充 4.10。LIVE 与 PTU/EPTU 使用相互隔离的交易和物品快照：PTU 只能修改 PTU，不能覆盖 LIVE；本周来源没有 PTU 兑换表就删除旧 PTU 选项；新的 LIVE 数据集只更新 LIVE。当前 Dumper's Repo 仍明确发布 `4.9.0 LIVE.12344265` 的 87 笔维科洛交易，没有 4.10 PTU 维科洛表，因此页面只显示 `4.9.0 LIVE`。
+维科洛站以后只发布 Dumper's Repo 维科洛数据源实际提供的 LIVE 数据，不展示或保存 PTU/EPTU，也不再提供版本筛选。搜索框右侧显示当前 LIVE 补丁号，悬停或键盘聚焦显示该版稳定数据的更新时间。当前 Dumper's Repo 明确发布 `4.9.0 LIVE.12344265` 的 87 笔交易，因此页面显示 `4.9.0 LIVE`；后续只有检测到新的精确 LIVE build 才启动完整刷新。
 
 ## 目录说明
 

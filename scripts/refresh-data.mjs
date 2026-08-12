@@ -4,10 +4,11 @@ import { fileURLToPath } from "node:url";
 import Ajv from "ajv/dist/2020.js";
 import { blockingRefreshReasons, detectDataAnomalies } from "./lib/anomalies.mjs";
 import { buildItemIndex, loadWikiImages } from "./lib/enrich.mjs";
-import { downloadBinary, fetchJson, fetchText, sha256 } from "./lib/http.mjs";
+import { downloadBinary, fetchJson, fetchText } from "./lib/http.mjs";
 import { loadOfficialLocalization } from "./lib/localization.mjs";
 import { normalizeTrades, summarizeValidation } from "./lib/normalize.mjs";
 import { parseAssignedLiteral, parseAssignedLiteralBySourceLabel } from "./lib/parse-static.mjs";
+import { semanticChangeSummary, semanticFingerprint } from "./lib/semantic-fingerprint.mjs";
 import { anomalyBaselineForVersion, mergeVersionDatasets } from "./lib/version-datasets.mjs";
 import { semanticPatch, versionFromHtml } from "./lib/version.mjs";
 
@@ -234,19 +235,20 @@ async function main() {
   if (previousLocalization?.sourceSha256 === official.metadata.sourceSha256 && JSON.stringify(previousLocalization.entries) === JSON.stringify(candidateLocalization.entries)) {
     candidateLocalization.generatedAt = previousLocalization.generatedAt;
   }
-  const sourceFingerprint = sha256(JSON.stringify({
+  const sourceFingerprint = semanticFingerprint({
     gameVersion,
-    trades: trades.map(({ fetchedAt: _fetchedAt, ...trade }) => trade),
+    trades,
     items,
-    versionDatasets: versionDatasets.map((dataset) => ({
-      gameVersion: dataset.gameVersion,
-      trades: dataset.trades.map(({ fetchedAt: _fetchedAt, ...trade }) => trade),
-      items: dataset.items,
-    })),
     localizationDictionary,
-    officialLocalizationHash: official.metadata.sourceSha256,
-    sourceVersions: sourceStatus.map(({ url, updatedAt }) => ({ url, updatedAt })),
-  }));
+  });
+  const previousSemanticFingerprint = previousTrades?.trades && previousItems?.items
+    ? semanticFingerprint({
+      gameVersion: previousTrades.gameVersion,
+      trades: previousTrades.trades,
+      items: previousItems.items,
+      localizationDictionary: previousLocalization?.entries ?? {},
+    })
+    : null;
   const metadata = {
     gameVersion,
     availableVersions: versionDatasets.map((dataset) => dataset.gameVersion),
@@ -263,12 +265,18 @@ async function main() {
     sourceFingerprint,
   };
 
-  if (previousMetadata?.sourceFingerprint === sourceFingerprint) {
+  if (previousMetadata?.sourceFingerprint === sourceFingerprint || previousSemanticFingerprint === sourceFingerprint) {
     await pruneBackups();
     console.log(JSON.stringify({ changed: [], unchanged: true, ...previousMetadata }, null, 2));
     return;
   }
 
+  const changeSummary = semanticChangeSummary(
+    previousTrades?.trades && previousItems?.items
+      ? { gameVersion: previousTrades.gameVersion, trades: previousTrades.trades, items: previousItems.items }
+      : null,
+    { gameVersion, trades, items },
+  );
   await backupStableData();
   const changed = [];
   if (await writeJsonAtomically(path.join(generatedDir, "trades.json"), tradeDocument)) changed.push("trades.json");
@@ -277,7 +285,7 @@ async function main() {
   if (await writeJsonAtomically(path.join(generatedDir, "localization.json"), candidateLocalization)) changed.push("localization.json");
   if (await writeJsonAtomically(path.join(generatedDir, "metadata.json"), metadata)) changed.push("metadata.json");
   await pruneBackups();
-  console.log(JSON.stringify({ changed, ...metadata }, null, 2));
+  console.log(JSON.stringify({ changed, changeSummary, ...metadata }, null, 2));
 }
 
 main().catch((error) => {
