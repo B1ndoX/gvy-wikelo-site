@@ -527,7 +527,7 @@ main { padding: 0 clamp(12px, 1.6vw, 28px) 18px; }
   .detail-heading h2 { font-size: 17px; }
   .facts-grid { grid-template-columns: repeat(2, 1fr); }
   .overlay { padding: 8px; }
-  .trade-modal { max-height: 88dvh; align-self: flex-end; border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+  .trade-modal { max-height: 88dvh; align-self: center; border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
   .item-modal { max-height: calc(100dvh - 16px); }
   .item-modal-head { grid-template-columns: 112px minmax(0,1fr); gap: 11px; padding: 14px 45px 14px 14px; }
   .item-modal-visual { width: 112px; height: 92px; }
