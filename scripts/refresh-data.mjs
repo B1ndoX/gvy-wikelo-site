@@ -200,6 +200,19 @@ async function main() {
   const publishEligible = anomalies.length === 0 && partialSources.length === 0;
   if (publishCheck && !publishEligible) throw new Error(`Publish check blocked: ${[...anomalies, ...partialSources.map((source) => `${source.url}: ${source.status}`)].join("; ")}`);
 
+  const changeSummary = semanticChangeSummary(
+    previousTrades?.trades && previousItems?.items
+      ? { gameVersion: previousTrades.gameVersion, trades: previousTrades.trades, items: previousItems.items }
+      : null,
+    { gameVersion, trades, items },
+  );
+  const tradeDataChanged = changeSummary.versionChanged
+    || changeSummary.trades.added > 0
+    || changeSummary.trades.modified > 0
+    || changeSummary.trades.removed > 0;
+  const persistedTradeDocument = !tradeDataChanged && previousTrades?.trades?.length
+    ? previousTrades
+    : tradeDocument;
   const fallbackDatasets = previousTrades?.trades?.length && previousItems?.items?.length ? [{
     gameVersion: previousTrades.gameVersion,
     generatedAt: previousTrades.generatedAt,
@@ -211,7 +224,7 @@ async function main() {
     gameVersion,
     generatedAt: fetchedAt,
     sourceStatus,
-    trades,
+    trades: persistedTradeDocument.trades,
     items,
   });
   for (const dataset of versionDatasets) {
@@ -231,9 +244,9 @@ async function main() {
   };
 
   const localizationDictionary = Object.fromEntries(items.map((item) => [item.id, item.name]));
-  const candidateLocalization = { ...official.metadata, generatedAt: fetchedAt, entries: localizationDictionary };
+  let candidateLocalization = { ...official.metadata, generatedAt: fetchedAt, entries: localizationDictionary };
   if (previousLocalization?.sourceSha256 === official.metadata.sourceSha256 && JSON.stringify(previousLocalization.entries) === JSON.stringify(candidateLocalization.entries)) {
-    candidateLocalization.generatedAt = previousLocalization.generatedAt;
+    candidateLocalization = previousLocalization;
   }
   const sourceFingerprint = semanticFingerprint({
     gameVersion,
@@ -266,20 +279,42 @@ async function main() {
   };
 
   if (previousMetadata?.sourceFingerprint === sourceFingerprint || previousSemanticFingerprint === sourceFingerprint) {
+    const previousStableDataset = previousTrades?.trades?.length && previousItems?.items?.length ? {
+      gameVersion: previousTrades.gameVersion,
+      generatedAt: previousItems.generatedAt || previousTrades.generatedAt,
+      sourceStatus: previousTrades.sourceStatus ?? [],
+      trades: previousTrades.trades,
+      items: previousItems.items,
+    } : null;
+    const versionedDataset = previousVersionedData?.datasets?.length === 1
+      ? previousVersionedData.datasets[0]
+      : null;
+    const versionedDatasetIsSynchronized = Boolean(previousStableDataset && versionedDataset
+      && JSON.stringify(versionedDataset) === JSON.stringify(previousStableDataset));
+    if (!versionedDatasetIsSynchronized && previousStableDataset) {
+      await backupStableData();
+      const repairedVersionedData = {
+        schemaVersion: "1.0.0",
+        generatedAt: previousItems.generatedAt || previousTrades.generatedAt,
+        datasets: [previousStableDataset],
+      };
+      await writeJsonAtomically(path.join(generatedDir, "versioned-data.json"), repairedVersionedData);
+      await pruneBackups();
+      console.log(JSON.stringify({
+        changed: ["versioned-data.json"],
+        repaired: "versioned dataset synchronized with stable items and trades",
+        ...previousMetadata,
+      }, null, 2));
+      return;
+    }
     await pruneBackups();
     console.log(JSON.stringify({ changed: [], unchanged: true, ...previousMetadata }, null, 2));
     return;
   }
 
-  const changeSummary = semanticChangeSummary(
-    previousTrades?.trades && previousItems?.items
-      ? { gameVersion: previousTrades.gameVersion, trades: previousTrades.trades, items: previousItems.items }
-      : null,
-    { gameVersion, trades, items },
-  );
   await backupStableData();
   const changed = [];
-  if (await writeJsonAtomically(path.join(generatedDir, "trades.json"), tradeDocument)) changed.push("trades.json");
+  if (await writeJsonAtomically(path.join(generatedDir, "trades.json"), persistedTradeDocument)) changed.push("trades.json");
   if (await writeJsonAtomically(path.join(generatedDir, "items.json"), { schemaVersion: "1.0.0", generatedAt: fetchedAt, items })) changed.push("items.json");
   if (await writeJsonAtomically(path.join(generatedDir, "versioned-data.json"), versionedData)) changed.push("versioned-data.json");
   if (await writeJsonAtomically(path.join(generatedDir, "localization.json"), candidateLocalization)) changed.push("localization.json");

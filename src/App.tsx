@@ -105,9 +105,10 @@ function preferredMediaShape(category: string | null | undefined): MediaShape {
   return "square";
 }
 
-function sourceAwareMediaShape(preferred: MediaShape, width: number, height: number): MediaShape {
+export function sourceAwareMediaShape(preferred: MediaShape, width: number, height: number): MediaShape {
   if (!width || !height) return preferred;
   const ratio = width / height;
+  if (preferred === "landscape" && ratio >= 1.2) return "landscape";
   if (ratio >= 1.48) return "landscape";
   if (ratio <= 0.72) return "portrait";
   return preferred === "landscape" || preferred === "portrait" ? "square" : preferred;
@@ -244,9 +245,7 @@ export default function App() {
             <span className="sr-only">搜索合同、物品、奖励或地点</span>
             <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索合同、物品、奖励、飞船或地点" />
             {query && (
-              <button type="button" aria-label="清空搜索" onClick={() => setQuery("")}>
-                <X size={16} />
-              </button>
+              <button className="search-clear" type="button" aria-label="清空搜索" onClick={() => setQuery("")}>清空</button>
             )}
           </label>
           <span

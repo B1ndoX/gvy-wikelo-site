@@ -3,10 +3,10 @@
   "availableVersions": [
     "4.9.0 LIVE.12344265"
   ],
-  "generatedAt": "2026-08-09T18:00:01.114Z",
+  "generatedAt": "2026-08-18T10:39:57.716Z",
   "totalTrades": 87,
   "totalItems": 268,
-  "imageCoverage": 0.8694029850746269,
+  "imageCoverage": 0.8880597014925373,
   "localizationCoverage": 0.9429477020602218,
   "validation": {
     "verified": 48,
@@ -19,47 +19,47 @@
       "url": "https://dumpers-repo.com/wikelo/",
       "status": "ok",
       "updatedAt": "2026-07-31T02:44:31.824Z",
-      "checkedAt": "2026-08-09T18:00:01.114Z",
+      "checkedAt": "2026-08-18T10:39:57.716Z",
       "note": null
     },
     {
       "url": "https://wikelotrades.com/how-it-works",
       "status": "ok",
       "updatedAt": "2026-06-04 06:59:50 UTC",
-      "checkedAt": "2026-08-09T18:00:01.114Z",
+      "checkedAt": "2026-08-18T10:39:57.716Z",
       "note": "Latest published secondary patch: 4.8.1"
     },
     {
       "url": "https://starcitizen.tools/Wikelo",
       "status": "ok",
       "updatedAt": "2026-07-14T14:39:00.000Z",
-      "checkedAt": "2026-08-09T18:00:01.114Z",
+      "checkedAt": "2026-08-18T10:39:57.716Z",
       "note": null
     },
     {
       "url": "https://starcitizen.tools/Wikelo_Emporium",
       "status": "snapshot",
       "updatedAt": "2025-08-09T16:35:00.000Z",
-      "checkedAt": "2026-08-09T18:00:01.114Z",
+      "checkedAt": "2026-08-18T10:39:57.716Z",
       "note": "Station list cross-check snapshot."
     },
     {
       "url": "https://api.star-citizen.wiki",
       "status": "ok",
       "updatedAt": null,
-      "checkedAt": "2026-08-09T18:00:01.114Z",
+      "checkedAt": "2026-08-18T10:39:57.716Z",
       "note": "Item API version unavailable."
     },
     {
       "url": "https://api.sc-market.space/api/v2",
       "status": "ok",
       "updatedAt": "2026-07-25T18:36:56.065Z",
-      "checkedAt": "2026-08-09T18:00:01.114Z",
+      "checkedAt": "2026-08-18T10:39:57.716Z",
       "note": "Public secondary game-data API: 4.9.0-LIVE.12232306. Player listing prices are not imported into fixed Wikelo recipes."
     }
   ],
   "anomalies": [],
   "publishEligible": true,
   "usageMode": "offline query; no account or upload",
-  "sourceFingerprint": "19831e61613b127aa25a13e78576b254deca1592b0eaa5c3e990c1f4721a5abd"
+  "sourceFingerprint": "2b8e984ad2aec23423ce5b813bc53efea13fe593e613d4f844d0bd6c798aa136"
 }

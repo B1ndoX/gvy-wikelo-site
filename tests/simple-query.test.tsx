@@ -14,9 +14,9 @@ describe("simple material query flow", () => {
   it("shows the single LIVE version after search and removes the version filter", () => {
     render(<App />);
 
-    const versionBadge = screen.getByLabelText(/4\.9\.0 LIVE，更新 2026\/08\/10 02:00/);
+    const versionBadge = screen.getByLabelText(/^4\.9\.0 LIVE，更新 \d{4}\/\d{2}\/\d{2} \d{2}:\d{2}$/);
     expect(versionBadge).toHaveTextContent("4.9.0 LIVE");
-    expect(within(versionBadge).getByRole("tooltip")).toHaveTextContent("更新 2026/08/10 02:00");
+    expect(within(versionBadge).getByRole("tooltip")).toHaveTextContent(/^更新 \d{4}\/\d{2}\/\d{2} \d{2}:\d{2}$/);
     expect(screen.queryByRole("listbox", { name: "游戏版本" })).not.toBeInTheDocument();
     expect(screen.queryByText("PTU")).not.toBeInTheDocument();
   });

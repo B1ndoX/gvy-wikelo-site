@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-09T18:00:01.114Z",
+  "generatedAt": "2026-08-18T10:39:57.716Z",
   "items": [
     {
       "id": "basl_combat_light_helmet_02_01_01",
@@ -248,7 +248,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-arms-woodland",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-arms-woodland",
-      "sourceUpdatedAt": "2026-08-09T00:08:10.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:07:04.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -256,11 +256,11 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：护甲店 · 特雷斯勒空间站",
+          "location": "可购买地点：Armor - 炽天使空间站、护甲店 · 特雷斯勒空间站",
           "price": 1521,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-arms-woodland&tab=about",
-          "sourceUpdatedAt": "2026-07-22T11:58:32+00:00"
+          "sourceUpdatedAt": "2026-08-11T05:17:13+00:00"
         },
         {
           "type": "craft",
@@ -269,7 +269,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-arms-woodland",
-          "sourceUpdatedAt": "2026-08-09T00:08:10.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:07:04.000000Z"
         }
       ],
       "crafting": {
@@ -434,11 +434,20 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-core-woodland",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-core-woodland",
-      "sourceUpdatedAt": "2026-08-09T00:29:01.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:27:23.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Armor - 炽天使空间站",
+          "price": 5693,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-core-woodland&tab=about",
+          "sourceUpdatedAt": "2026-08-11T05:31:36+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -446,7 +455,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-core-woodland",
-          "sourceUpdatedAt": "2026-08-09T00:29:01.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:27:23.000000Z"
         }
       ],
       "crafting": {
@@ -611,7 +620,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-helmet-woodland",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-helmet-woodland",
-      "sourceUpdatedAt": "2026-08-09T00:21:51.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:19:51.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -619,7 +628,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：护甲店 · 尼克斯星门（派罗）、护甲店 · 尼克斯星门（斯坦顿）",
+          "location": "可购买地点：护甲店 · 尼克斯星门（派罗）、Armor - 炽天使空间站、护甲店 · 尼克斯星门（斯坦顿）",
           "price": 5176,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-helmet-woodland&tab=about",
@@ -632,7 +641,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-helmet-woodland",
-          "sourceUpdatedAt": "2026-08-09T00:21:51.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:19:51.000000Z"
         }
       ],
       "crafting": {
@@ -797,7 +806,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-legs-woodland",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-legs-woodland",
-      "sourceUpdatedAt": "2026-08-09T00:27:22.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:24:37.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -805,11 +814,11 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：护甲店 · 尼克斯星门（斯坦顿）",
+          "location": "可购买地点：Armor - 炽天使空间站、护甲店 · 尼克斯星门（斯坦顿）",
           "price": 2615,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-legs-woodland&tab=about",
-          "sourceUpdatedAt": "2026-07-26T09:06:59+00:00"
+          "sourceUpdatedAt": "2026-08-11T05:28:54+00:00"
         },
         {
           "type": "craft",
@@ -818,7 +827,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-legs-woodland",
-          "sourceUpdatedAt": "2026-08-09T00:27:22.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:24:37.000000Z"
         }
       ],
       "crafting": {
@@ -2499,7 +2508,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/vehicles/argo-atls",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/vehicles/argo-atls",
-      "sourceUpdatedAt": "2026-08-09T00:36:40.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:34:38.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": false,
       "isCraftable": false,
@@ -2572,7 +2581,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/vehicles/argo-atls-geo",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/vehicles/argo-atls-geo",
-      "sourceUpdatedAt": "2026-08-09T00:37:27.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:35:24.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": false,
       "isCraftable": false,
@@ -3027,7 +3036,7 @@
       "imageSourceUrl": "https://cdn.star-citizen.wiki/images/4/46/Berry_Blend_Smoothie.jpg",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/berry-blend-smoothie",
-      "sourceUpdatedAt": "2026-08-09T00:12:20.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:11:07.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": false,
@@ -3543,7 +3552,7 @@
       "imageSourceUrl": "https://media.starcitizen.tools/d/da/Curious_Weapon.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/boomtube-rocket",
-      "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": false,
@@ -3634,9 +3643,9 @@
       },
       "category": "Undersuit (Armor)",
       "descriptionZh": null,
-      "imagePath": null,
-      "imageSourceUrl": null,
-      "imageKind": "none",
+      "imagePath": "/images/wiki/bul-h4-community.png",
+      "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
+      "imageKind": "community",
       "sourceUrl": "https://api.star-citizen.wiki/items/bul-h4-armor",
       "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -3732,9 +3741,9 @@
       },
       "category": "Helmet (Armor)",
       "descriptionZh": null,
-      "imagePath": null,
-      "imageSourceUrl": null,
-      "imageKind": "none",
+      "imagePath": "/images/wiki/bul-h4-community.png",
+      "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
+      "imageKind": "community",
       "sourceUrl": "https://api.star-citizen.wiki/items/bul-h4-helmet",
       "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -4389,7 +4398,7 @@
       "imageSourceUrl": "https://media.starcitizen.tools/9/97/Coda_pistol_clip_side_800x400.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/coda-pistol-magazine-6-cap",
-      "sourceUpdatedAt": "2026-08-09T00:21:44.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:19:46.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -4397,7 +4406,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、科途便利店 · 云景中心 · 奥里森、护甲店 · 尼克斯星门（斯坦顿）、护甲店 · 微 L1 浅边站、荷枪实弹武器店 · 微 L1 浅边站",
+          "location": "可购买地点：尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、Armor - 炽天使空间站、科途便利店 · 云景中心 · 奥里森、护甲店 · 尼克斯星门（斯坦顿）、护甲店 · 微 L1 浅边站",
           "price": 124,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=coda-pistol-magazine-(6-cap)&tab=about",
@@ -4410,7 +4419,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/coda-pistol-magazine-6-cap",
-          "sourceUpdatedAt": "2026-08-09T00:21:44.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:19:46.000000Z"
         },
         {
           "type": "wikelo",
@@ -6361,7 +6370,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
-      "sourceUpdatedAt": "2026-08-09T00:26:02.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:23:36.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": false,
@@ -6878,7 +6887,7 @@
       "imageSourceUrl": null,
       "imageKind": "none",
       "sourceUrl": "https://api.star-citizen.wiki/items/fresnel-energy-lmg-battery-165-cap",
-      "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -6899,7 +6908,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/fresnel-energy-lmg-battery-165-cap",
-          "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z"
         },
         {
           "type": "wikelo",
@@ -7860,7 +7869,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/grassland-quasi-grazer-egg",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/grassland-quasi-grazer-egg",
-      "sourceUpdatedAt": "2026-08-09T00:10:16.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:09:02.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": false,
       "isCraftable": false,
@@ -8493,9 +8502,9 @@
       },
       "category": "Cargo",
       "descriptionZh": "一种天然存在的稀有金属形式的耶金，它被用于生产具有极高抗拉强度的超强合金。最初被发现时曾被误认为是普通耶金，但它在使用过程中表现出的高于平均水准的性能促使研究人员意识到其价值。",
-      "imagePath": null,
-      "imageSourceUrl": null,
-      "imageKind": "none",
+      "imagePath": "/images/wiki/jaclium-ore.png",
+      "imageSourceUrl": "https://sc-market.space/",
+      "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/jaclium-ore",
       "sourceUpdatedAt": "2026-07-16T13:06:40.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -8653,7 +8662,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/karna-rifle",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/karna-rifle",
-      "sourceUpdatedAt": "2026-08-09T00:18:21.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:16:48.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -8674,7 +8683,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle",
-          "sourceUpdatedAt": "2026-08-09T00:18:21.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:16:48.000000Z"
         }
       ],
       "crafting": {
@@ -8782,7 +8791,7 @@
       "imageSourceUrl": "https://media.starcitizen.tools/4/40/Kasta_magazine_800x400.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/karna-rifle-battery-35-cap",
-      "sourceUpdatedAt": "2026-08-09T00:19:07.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:17:36.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -8790,7 +8799,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、科途便利店 · 云景中心 · 奥里森、护甲店 · 微 L1 浅边站、荷枪实弹武器店 · 微 L1 浅边站、中心质量 · 新巴贝奇",
+          "location": "可购买地点：尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、Armor - 炽天使空间站、科途便利店 · 云景中心 · 奥里森、护甲店 · 微 L1 浅边站、荷枪实弹武器店 · 微 L1 浅边站",
           "price": 248,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=karna-rifle-battery-(35-cap)&tab=about",
@@ -8803,7 +8812,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle-battery-35-cap",
-          "sourceUpdatedAt": "2026-08-09T00:19:07.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:17:36.000000Z"
         },
         {
           "type": "wikelo",
@@ -9118,7 +9127,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/killshot-rifle",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/killshot-rifle",
-      "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -9139,7 +9148,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/killshot-rifle",
-          "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z"
         }
       ],
       "crafting": {
@@ -9212,7 +9221,7 @@
       "imageSourceUrl": "https://media.starcitizen.tools/7/73/Killshot_Dominion_Camo_Rifle.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/killshot-rifle-magazine-45-cap",
-      "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -9233,7 +9242,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/killshot-rifle-magazine-45-cap",
-          "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z"
         },
         {
           "type": "wikelo",
@@ -11350,7 +11359,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/nn-13-cannon",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/nn-13-cannon",
-      "sourceUpdatedAt": "2026-08-09T00:04:36.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:03:49.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": false,
       "isCraftable": true,
@@ -11371,7 +11380,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/nn-13-cannon",
-          "sourceUpdatedAt": "2026-08-09T00:04:36.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:03:49.000000Z"
         }
       ],
       "crafting": {
@@ -11739,7 +11748,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/novikov-exploration-suit",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/novikov-exploration-suit",
-      "sourceUpdatedAt": "2026-08-09T00:26:08.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:23:41.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -11760,7 +11769,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-exploration-suit",
-          "sourceUpdatedAt": "2026-08-09T00:26:08.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:23:41.000000Z"
         }
       ],
       "crafting": {
@@ -11845,7 +11854,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/novikov-helmet",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/novikov-helmet",
-      "sourceUpdatedAt": "2026-08-09T00:22:19.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:20:22.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": false,
       "isCraftable": true,
@@ -11866,7 +11875,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-helmet",
-          "sourceUpdatedAt": "2026-08-09T00:22:19.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:20:22.000000Z"
         }
       ],
       "crafting": {
@@ -12903,7 +12912,7 @@
       "imageSourceUrl": "https://media.starcitizen.tools/7/77/Kopion_Skull_Right.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/parallax-rifle-battery-80-cap",
-      "sourceUpdatedAt": "2026-08-09T00:02:33.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:11.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -12924,7 +12933,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/parallax-rifle-battery-80-cap",
-          "sourceUpdatedAt": "2026-08-09T00:02:33.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:02:11.000000Z"
         },
         {
           "type": "wikelo",
@@ -13413,7 +13422,7 @@
       "imageSourceUrl": "https://media.starcitizen.tools/b/b0/Make_VOLT_shotgun_angrier.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/prism-laser-shotgun-battery-20-cap",
-      "sourceUpdatedAt": "2026-08-09T00:02:33.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:11.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -13434,7 +13443,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/prism-laser-shotgun-battery-20-cap",
-          "sourceUpdatedAt": "2026-08-09T00:02:33.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:02:11.000000Z"
         },
         {
           "type": "wikelo",
@@ -13814,7 +13823,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/quartz-energy-smg-battery-45-cap",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/quartz-energy-smg-battery-45-cap",
-      "sourceUpdatedAt": "2026-08-09T00:02:33.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:11.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -13835,7 +13844,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/quartz-energy-smg-battery-45-cap",
-          "sourceUpdatedAt": "2026-08-09T00:02:33.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:02:11.000000Z"
         },
         {
           "type": "wikelo",
@@ -14000,7 +14009,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun",
-      "sourceUpdatedAt": "2026-08-09T00:11:22.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:10:04.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -14021,7 +14030,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun",
-          "sourceUpdatedAt": "2026-08-09T00:11:22.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:10:04.000000Z"
         }
       ],
       "crafting": {
@@ -14233,7 +14242,7 @@
       "imageSourceUrl": "https://media.starcitizen.tools/7/7c/R97_Crimson_Camo_Shotgun.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun-magazine-18-cap",
-      "sourceUpdatedAt": "2026-08-09T00:23:05.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:21:03.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -14241,7 +14250,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、科途便利店 · 云景中心 · 奥里森、护甲店 · 微 L1 浅边站、荷枪实弹武器店 · 微 L1 浅边站、中心质量 · 新巴贝奇",
+          "location": "可购买地点：尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、Armor - 炽天使空间站、科途便利店 · 云景中心 · 奥里森、护甲店 · 微 L1 浅边站、荷枪实弹武器店 · 微 L1 浅边站",
           "price": 520,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=r97-shotgun-magazine-(18-cap)&tab=about",
@@ -14254,7 +14263,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun-magazine-18-cap",
-          "sourceUpdatedAt": "2026-08-09T00:23:05.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:21:03.000000Z"
         },
         {
           "type": "wikelo",
@@ -15660,7 +15669,7 @@
       "imageSourceUrl": "https://media.starcitizen.tools/c/c0/S71_magazine_800x400.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/s71-rifle-magazine-30-cap",
-      "sourceUpdatedAt": "2026-08-09T00:22:02.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:20:03.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -15668,7 +15677,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、科途便利店 · 云景中心 · 奥里森、护甲店 · 微 L1 浅边站、荷枪实弹武器店 · 微 L1 浅边站、中心质量 · 新巴贝奇",
+          "location": "可购买地点：尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、Armor - 炽天使空间站、科途便利店 · 云景中心 · 奥里森、护甲店 · 微 L1 浅边站、荷枪实弹武器店 · 微 L1 浅边站",
           "price": 297,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=s71-rifle-magazine-(30-cap)&tab=about",
@@ -15681,7 +15690,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/s71-rifle-magazine-30-cap",
-          "sourceUpdatedAt": "2026-08-09T00:22:02.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:20:03.000000Z"
         },
         {
           "type": "wikelo",
@@ -15984,7 +15993,7 @@
       "imageSourceUrl": null,
       "imageKind": "none",
       "sourceUrl": "https://api.star-citizen.wiki/items/strata-arms",
-      "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -16005,7 +16014,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-arms",
-          "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z"
         }
       ],
       "crafting": {
@@ -16160,7 +16169,7 @@
       "imageSourceUrl": "https://cstone.space/uifimages/a5bb46f9-c728-46c6-a4b2-53f21d96813a.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/strata-backpack",
-      "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -16181,7 +16190,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-backpack",
-          "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z"
         }
       ],
       "crafting": {
@@ -16284,7 +16293,7 @@
       "imageSourceUrl": null,
       "imageKind": "none",
       "sourceUrl": "https://api.star-citizen.wiki/items/strata-core",
-      "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -16305,7 +16314,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-core",
-          "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z"
         }
       ],
       "crafting": {
@@ -16460,7 +16469,7 @@
       "imageSourceUrl": "https://cstone.space/uifimages/29a98f61-d24a-46de-9284-c863ee69fb26.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/strata-helmet",
-      "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -16481,7 +16490,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-helmet",
-          "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z"
         }
       ],
       "crafting": {
@@ -16595,7 +16604,7 @@
       "imageSourceUrl": null,
       "imageKind": "none",
       "sourceUrl": "https://api.star-citizen.wiki/items/strata-legs",
-      "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -16616,7 +16625,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-legs",
-          "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z"
         }
       ],
       "crafting": {
@@ -16771,7 +16780,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-helmet",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-helmet",
-      "sourceUpdatedAt": "2026-08-09T00:02:36.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:13.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": false,
@@ -16932,7 +16941,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-suit",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-suit",
-      "sourceUpdatedAt": "2026-08-09T00:02:36.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:13.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -16953,7 +16962,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/tailwind-flight-suit",
-          "sourceUpdatedAt": "2026-08-09T00:02:36.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:02:13.000000Z"
         }
       ],
       "crafting": {
@@ -18194,7 +18203,7 @@
       "imageSourceUrl": "https://media.starcitizen.tools/0/0a/Shotgun-Pistol.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/tripledown-pistol",
-      "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -18215,7 +18224,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/tripledown-pistol",
-          "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z"
         }
       ],
       "crafting": {
@@ -18284,7 +18293,7 @@
       "imageSourceUrl": "https://media.starcitizen.tools/0/03/Hot_Shot.jpg",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/tripledown-pistol-magazine-12-cap",
-      "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -18305,7 +18314,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/tripledown-pistol-magazine-12-cap",
-          "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z"
         },
         {
           "type": "wikelo",
@@ -18926,9 +18935,9 @@
       },
       "category": "FPS Weapon",
       "descriptionZh": null,
-      "imagePath": null,
-      "imageSourceUrl": null,
-      "imageKind": "none",
+      "imagePath": "/images/wiki/vendetta-hmg.jpg",
+      "imageSourceUrl": "https://starcitizen.tools/Vendetta_HMG",
+      "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/vendetta-hmg",
       "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -19381,11 +19390,11 @@
       },
       "category": "Torso (Armor)",
       "descriptionZh": "物品类型：轻型护甲\n伤害减免：20%\n适用温度：-38 / 68 摄氏度\n辐射防护：26000 雷姆\n辐射清除率：145.8 雷姆 / 秒\n储物空间：2.0 uSCU\n可挂载背包类型：轻型\nRSI的“探险家”是一套为未知环境而设计的轻型装甲套装。这款有着出舱活动等级的保护系统采用坚固的聚合物编织的基底服，旨在经受极端环境条件，它还有组件式装甲部件以保护您免受冲击和微粒的影响。",
-      "imagePath": null,
-      "imageSourceUrl": null,
-      "imageKind": "none",
+      "imagePath": "/images/wiki/venture-core.png",
+      "imageSourceUrl": "https://starcitizen.tools/Venture_Core",
+      "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/venture-core",
-      "sourceUpdatedAt": "2026-08-09T00:13:40.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:12:22.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -19393,11 +19402,11 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：科途便利店 · 云景中心 · 奥里森、护甲店 · 微 L1 浅边站、科途便利店 · 志远大厦 · 新巴贝奇",
-          "price": 1780,
+          "location": "可购买地点：Armor - 炽天使空间站、科途便利店 · 云景中心 · 奥里森、护甲店 · 微 L1 浅边站、科途便利店 · 志远大厦 · 新巴贝奇",
+          "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=venture-core&tab=about",
-          "sourceUpdatedAt": "2026-08-03T04:36:10+00:00"
+          "sourceUpdatedAt": "2026-08-11T05:31:36+00:00"
         },
         {
           "type": "craft",
@@ -19406,7 +19415,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-core",
-          "sourceUpdatedAt": "2026-08-09T00:13:40.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:12:22.000000Z"
         }
       ],
       "crafting": {
@@ -19845,11 +19854,11 @@
       },
       "category": "Legs (Armor)",
       "descriptionZh": "物品类型：轻型护甲\n伤害减免：20%\n适用温度：-41 / 71 摄氏度\n辐射防护：26000 雷姆\n辐射清除率：145.8 雷姆 / 秒\n储物空间：2.0 uSCU\nRSI的探险家护甲是为默默无闻的人打造的轻型护甲。这种出舱活动等级的防护系统具有由耐用的聚合物编织物制成的基底服，其旨在耐受极端的环境条件，并具有组件护甲保护您免受冲击和微粒的伤害。",
-      "imagePath": "/images/items/rsi-explorer-armor-light-legs-01-01-01.png",
-      "imageSourceUrl": "https://media.starcitizen.tools/3/3e/Venture_Arms.png",
+      "imagePath": "/images/wiki/venture-legs.png",
+      "imageSourceUrl": "https://starcitizen.tools/Venture_Legs",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/venture-legs",
-      "sourceUpdatedAt": "2026-08-09T00:28:57.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:27:18.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -19857,11 +19866,11 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：科途便利店 · 云景中心 · 奥里森、科途便利店 · 志远大厦 · 新巴贝奇",
-          "price": 1168,
+          "location": "可购买地点：Armor - 炽天使空间站、科途便利店 · 云景中心 · 奥里森、科途便利店 · 志远大厦 · 新巴贝奇",
+          "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=venture-legs&tab=about",
-          "sourceUpdatedAt": "2026-08-03T04:35:55+00:00"
+          "sourceUpdatedAt": "2026-08-11T05:28:54+00:00"
         },
         {
           "type": "craft",
@@ -19870,7 +19879,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-legs",
-          "sourceUpdatedAt": "2026-08-09T00:28:57.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:27:18.000000Z"
         }
       ],
       "crafting": {
@@ -21550,7 +21559,7 @@
       "imageSourceUrl": "https://media.starcitizen.tools/6/6c/Zenith_Snow_Camo_Laser_Sniper_Rifle.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/zenith-laser-sniper-rifle-battery-22-cap",
-      "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z",
+      "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z",
       "sourceGameVersion": "4.9.0-LIVE.12232306",
       "isLootable": true,
       "isCraftable": true,
@@ -21571,7 +21580,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/zenith-laser-sniper-rifle-battery-22-cap",
-          "sourceUpdatedAt": "2026-08-09T00:02:34.000000Z"
+          "sourceUpdatedAt": "2026-08-12T00:02:12.000000Z"
         },
         {
           "type": "wikelo",

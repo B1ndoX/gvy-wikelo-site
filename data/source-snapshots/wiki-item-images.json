@@ -471,6 +471,66 @@
       "imageKind": "community",
       "localPath": "/images/wiki/irradiated-valakkar-pearl-grade-aaa-community.jpg",
       "bundledFromUrl": "https://tse1.mm.bing.net/th?id=OIP.GBI2hWAP8kymZbL44exqsAHaHa&pid=Api"
+    },
+    {
+      "id": "rsi_explorer_armor_light_core_01_01_01",
+      "title": "Venture Core",
+      "fileName": "venture-core",
+      "pageUrl": "https://starcitizen.tools/Venture_Core",
+      "imageUrl": "https://media.starcitizen.tools/9/92/Venture_Core.png?ews8r",
+      "localPath": "/images/wiki/venture-core.png",
+      "bundledFromUrl": "https://media.starcitizen.tools/9/92/Venture_Core.png?ews8r",
+      "imageKind": "exact"
+    },
+    {
+      "id": "rsi_explorer_armor_light_legs_01_01_01",
+      "title": "Venture Legs",
+      "fileName": "venture-legs",
+      "pageUrl": "https://starcitizen.tools/Venture_Legs",
+      "imageUrl": "https://media.starcitizen.tools/9/99/Venture_Legs.png?01c4x",
+      "localPath": "/images/wiki/venture-legs.png",
+      "bundledFromUrl": "https://media.starcitizen.tools/9/99/Venture_Legs.png?01c4x",
+      "imageKind": "exact"
+    },
+    {
+      "id": "harvestable_ore_1h_jacliumore",
+      "title": "Jaclium (Ore)",
+      "fileName": "jaclium-ore",
+      "pageUrl": "https://sc-market.space/",
+      "imageUrl": "https://cstone.space/uifimages/118652a7-cc27-44ea-b362-96fcfeef8774.png",
+      "localPath": "/images/wiki/jaclium-ore.png",
+      "bundledFromUrl": "https://cstone.space/uifimages/118652a7-cc27-44ea-b362-96fcfeef8774.png",
+      "imageKind": "exact"
+    },
+    {
+      "id": "apar_hmg_ballistic_01",
+      "title": "Vendetta HMG",
+      "fileName": "vendetta-hmg",
+      "pageUrl": "https://starcitizen.tools/Vendetta_HMG",
+      "imageUrl": "https://media.starcitizen.tools/a/ae/Vendetta_HMG_-_infobox.jpg?p2xnj",
+      "localPath": "/images/wiki/vendetta-hmg.jpg",
+      "bundledFromUrl": "https://media.starcitizen.tools/a/ae/Vendetta_HMG_-_infobox.jpg?p2xnj",
+      "imageKind": "exact"
+    },
+    {
+      "id": "cds_combat_superheavy_suit_01_01_01",
+      "title": "BUL-H4 Armor",
+      "fileName": "bul-h4-community",
+      "pageUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
+      "imageUrl": "https://robertsspaceindustries.com/i/4dd83a7e8a99f384c6358c53a96618df0de191bf/resize(1464,1464,inside,JLypLpqVPBaNxs8FRN3D3vuTrjntZTaECi8ToQLLZiEgiUjcwEzuY511JgyJBk2nwU4KBWPC3t64FJzEsV4pZ3115mwcQPN5gEx4nvs2iEi8TaoASkwfM9cWA8R3ix5h8gTrK8ZJMy4HZQE47oVNs3x6ik2kY5VpkfejLGbAsZmtirUtAwAfS8uvviaq5pgoJE)/4d2b0494-db76-4868-a3d2-c9b85f0e8a22.png",
+      "localPath": "/images/wiki/bul-h4-community.png",
+      "bundledFromUrl": "https://robertsspaceindustries.com/i/4dd83a7e8a99f384c6358c53a96618df0de191bf/resize(1464,1464,inside,JLypLpqVPBaNxs8FRN3D3vuTrjntZTaECi8ToQLLZiEgiUjcwEzuY511JgyJBk2nwU4KBWPC3t64FJzEsV4pZ3115mwcQPN5gEx4nvs2iEi8TaoASkwfM9cWA8R3ix5h8gTrK8ZJMy4HZQE47oVNs3x6ik2kY5VpkfejLGbAsZmtirUtAwAfS8uvviaq5pgoJE)/4d2b0494-db76-4868-a3d2-c9b85f0e8a22.png",
+      "imageKind": "community"
+    },
+    {
+      "id": "cds_combat_superheavy_helmet_01_01_01",
+      "title": "BUL-H4 Helmet",
+      "fileName": "bul-h4-community",
+      "pageUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
+      "imageUrl": "https://robertsspaceindustries.com/i/4dd83a7e8a99f384c6358c53a96618df0de191bf/resize(1464,1464,inside,JLypLpqVPBaNxs8FRN3D3vuTrjntZTaECi8ToQLLZiEgiUjcwEzuY511JgyJBk2nwU4KBWPC3t64FJzEsV4pZ3115mwcQPN5gEx4nvs2iEi8TaoASkwfM9cWA8R3ix5h8gTrK8ZJMy4HZQE47oVNs3x6ik2kY5VpkfejLGbAsZmtirUtAwAfS8uvviaq5pgoJE)/4d2b0494-db76-4868-a3d2-c9b85f0e8a22.png",
+      "localPath": "/images/wiki/bul-h4-community.png",
+      "bundledFromUrl": "https://robertsspaceindustries.com/i/4dd83a7e8a99f384c6358c53a96618df0de191bf/resize(1464,1464,inside,JLypLpqVPBaNxs8FRN3D3vuTrjntZTaECi8ToQLLZiEgiUjcwEzuY511JgyJBk2nwU4KBWPC3t64FJzEsV4pZ3115mwcQPN5gEx4nvs2iEi8TaoASkwfM9cWA8R3ix5h8gTrK8ZJMy4HZQE47oVNs3x6ik2kY5VpkfejLGbAsZmtirUtAwAfS8uvviaq5pgoJE)/4d2b0494-db76-4868-a3d2-c9b85f0e8a22.png",
+      "imageKind": "community"
     }
   ],
   "bundledAt": "2026-08-05T15:01:22.995Z",

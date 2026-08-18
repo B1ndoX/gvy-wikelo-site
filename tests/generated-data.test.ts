@@ -15,6 +15,13 @@ describe("generated stable data", () => {
     expect(versionedData.datasets[0].gameVersion).not.toMatch(/PTU|EPTU/);
   });
 
+  it("keeps the versioned snapshot synchronized with the stable item and trade documents", () => {
+    const dataset = versionedData.datasets[0];
+    expect(dataset.generatedAt).toBe(itemsData.generatedAt);
+    expect(dataset.items).toEqual(itemsData.items);
+    expect(dataset.trades).toEqual(tradesData.trades);
+  });
+
   it("passes the strict trade JSON Schema", () => {
     const ajv = new Ajv({ allErrors: true, strict: false });
     ajv.addFormat("date-time", { type: "string", validate: (value: string) => !Number.isNaN(Date.parse(value)) });
@@ -117,6 +124,28 @@ describe("generated stable data", () => {
     const pureCarinite = itemsData.items.find((candidate) => candidate.id === "harvestable_mineral_1h_carinitepure");
     expect(pureCarinite?.imageKind).toBe("base_model");
     expect(pureCarinite?.imageSourceUrl).toBe("https://starcitizen.tools/Carinite");
+  });
+
+  it("uses verified exact images for Venture armor, Jaclium ore, and the Vendetta HMG", () => {
+    const expected = new Map([
+      ["rsi_explorer_armor_light_core_01_01_01", "/images/wiki/venture-core.png"],
+      ["rsi_explorer_armor_light_legs_01_01_01", "/images/wiki/venture-legs.png"],
+      ["harvestable_ore_1h_jacliumore", "/images/wiki/jaclium-ore.png"],
+      ["apar_hmg_ballistic_01", "/images/wiki/vendetta-hmg.jpg"],
+    ]);
+    for (const [id, imagePath] of expected) {
+      const item = itemsData.items.find((candidate) => candidate.id === id);
+      expect(item?.imageKind).toBe("exact");
+      expect(item?.imagePath).toBe(imagePath);
+      expect(readFileSync(resolve(process.cwd(), `public${imagePath}`)).byteLength).toBeGreaterThan(100_000);
+    }
+
+    for (const id of ["cds_combat_superheavy_suit_01_01_01", "cds_combat_superheavy_helmet_01_01_01"]) {
+      const item = itemsData.items.find((candidate) => candidate.id === id);
+      expect(item?.imageKind).toBe("community");
+      expect(item?.imagePath).toBe("/images/wiki/bul-h4-community.png");
+      expect(item?.imageSourceUrl).toContain("robertsspaceindustries.com/community-hub/post/bul-h4");
+    }
   });
 
   it("keeps sourced Wikelo special images and labels player screenshots", () => {
