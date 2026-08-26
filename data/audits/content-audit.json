@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-18T10:39:57.716Z",
+  "generatedAt": "2026-08-26T06:11:29.581Z",
   "gameVersion": "4.9.0 LIVE.12344265",
   "totals": {
     "trades": 87,
@@ -9,37 +9,15 @@
     "localizedItems": 268,
     "localizedTrades": 87,
     "localizedCraftingIngredients": 256,
-    "requirementItemsWithImages": 98,
+    "requirementItemsWithImages": 119,
     "requirementItemsWithAcquisition": 119
   },
   "errors": [],
   "warnings": [
     {
       "code": "missing-requirement-images",
-      "count": 21,
-      "ids": [
-        "harvestable_armillaria",
-        "cds_combat_superheavy_backpack_01_01_01",
-        "carryable_tbo_creature_trophy_vlkapexfang_irradiated",
-        "carryable_2h_cy_collectormaterial_001",
-        "kap_combat_heavy_arms_02_01_01",
-        "kap_combat_heavy_core_02_01_01",
-        "kap_combat_heavy_helmet_02_01_01",
-        "kap_combat_heavy_legs_02_01_01",
-        "carryable_tbo_asdreward_pwl1",
-        "carryable_tbo_asdreward_pwl2",
-        "carryable_tbo_asdreward_pwl3",
-        "carryable_tbo_asdreward_rgl1",
-        "carryable_tbo_asdreward_rgl2",
-        "carryable_tbo_asdreward_rgl3",
-        "carryable_tbo_asdreward_xtl1",
-        "harvestable_mineral_1h_sadaryx",
-        "harvestable_ore_1h_saldyniumore",
-        "grin_utility_medium_arms_02_01_01",
-        "grin_utility_medium_core_02_01_01",
-        "grin_utility_medium_legs_02_01_01",
-        "vgl_combat_heavy_backpack_01_06_01"
-      ],
+      "count": 0,
+      "ids": [],
       "note": "Image gaps are reported, not filled with an invented or mismatched image."
     }
   ],
