@@ -623,36 +623,6 @@
       "imageKind": "base_model"
     },
     {
-      "id": "grin_utility_medium_arms_02_01_01",
-      "title": "Strata Arms",
-      "fileName": "strata-base-set-reference",
-      "pageUrl": "https://starcitizen.tools/Strata",
-      "imageUrl": "https://media.starcitizen.tools/5/54/Strata_Greycat_Industrial_set_01_-_cropped.png?g97o8",
-      "localPath": "/images/wiki/strata-base-set-reference.png",
-      "bundledFromUrl": "https://media.starcitizen.tools/5/54/Strata_Greycat_Industrial_set_01_-_cropped.png?g97o8",
-      "imageKind": "base_model"
-    },
-    {
-      "id": "grin_utility_medium_core_02_01_01",
-      "title": "Strata Core",
-      "fileName": "strata-base-set-reference",
-      "pageUrl": "https://starcitizen.tools/Strata",
-      "imageUrl": "https://media.starcitizen.tools/5/54/Strata_Greycat_Industrial_set_01_-_cropped.png?g97o8",
-      "localPath": "/images/wiki/strata-base-set-reference.png",
-      "bundledFromUrl": "https://media.starcitizen.tools/5/54/Strata_Greycat_Industrial_set_01_-_cropped.png?g97o8",
-      "imageKind": "base_model"
-    },
-    {
-      "id": "grin_utility_medium_legs_02_01_01",
-      "title": "Strata Legs",
-      "fileName": "strata-base-set-reference",
-      "pageUrl": "https://starcitizen.tools/Strata",
-      "imageUrl": "https://media.starcitizen.tools/5/54/Strata_Greycat_Industrial_set_01_-_cropped.png?g97o8",
-      "localPath": "/images/wiki/strata-base-set-reference.png",
-      "bundledFromUrl": "https://media.starcitizen.tools/5/54/Strata_Greycat_Industrial_set_01_-_cropped.png?g97o8",
-      "imageKind": "base_model"
-    },
-    {
       "id": "carryable_tbo_creature_trophy_vlkapexfang_irradiated",
       "title": "Irradiated Valakkar Fang (Apex)",
       "fileName": "irradiated-valakkar-fang-apex-user-provided",
