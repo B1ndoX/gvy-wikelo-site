@@ -2,8 +2,10 @@ name: Refresh Wikelo data
 
 on:
   schedule:
-    # Every six hours. Only the lightweight Dumper's Repo Wikelo page is read here.
-    - cron: "0 */6 * * *"
+    # Every six hours, deliberately away from the top of the hour where GitHub
+    # documents higher schedule delay/drop risk. Only the lightweight Dumper's
+    # Repo Wikelo page is read here.
+    - cron: "23 */6 * * *"
   workflow_dispatch:
     inputs:
       force_refresh:

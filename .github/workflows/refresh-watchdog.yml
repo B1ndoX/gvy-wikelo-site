@@ -1,0 +1,125 @@
+name: Guard Wikelo refresh automation
+
+on:
+  schedule:
+    # Runs 2h30m after each primary check. If one primary schedule was dropped,
+    # the most recent successful refresh check will be older than eight hours.
+    - cron: "53 2,8,14,20 * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: write
+
+concurrency:
+  group: wikelo-refresh-watchdog
+  cancel-in-progress: false
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REFRESH_WORKFLOW: refresh-data.yml
+      MAX_REFRESH_AGE_SECONDS: "28800"
+      HEARTBEAT_BRANCH: automation-heartbeat
+      MAX_HEARTBEAT_AGE_SECONDS: "2592000"
+    steps:
+      - name: Recover an overdue refresh check
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          runs_json="$(gh api -X GET \
+            "repos/${GITHUB_REPOSITORY}/actions/workflows/${REFRESH_WORKFLOW}/runs" \
+            -f per_page=50)"
+          active_count="$(jq '[.workflow_runs[] | select(.status != "completed")] | length' <<<"$runs_json")"
+          latest_success="$(jq -r '[.workflow_runs[] | select(.status == "completed" and .conclusion == "success")] | sort_by(.created_at) | reverse | .[0].created_at // empty' <<<"$runs_json")"
+          now_epoch="$(date -u +%s)"
+
+          if [[ -n "$latest_success" ]]; then
+            latest_epoch="$(date -u -d "$latest_success" +%s)"
+            age_seconds="$((now_epoch - latest_epoch))"
+          else
+            age_seconds="$((MAX_REFRESH_AGE_SECONDS + 1))"
+          fi
+
+          {
+            echo "### Wikelo refresh watchdog"
+            echo "- Active primary runs: ${active_count}"
+            echo "- Latest successful primary run: ${latest_success:-none}"
+            echo "- Age in seconds: ${age_seconds}"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if (( active_count > 0 )); then
+            echo "A primary refresh check is already queued or running."
+            exit 0
+          fi
+
+          if (( age_seconds <= MAX_REFRESH_AGE_SECONDS )); then
+            echo "The primary refresh heartbeat is healthy."
+            exit 0
+          fi
+
+          echo "The primary refresh check is overdue; dispatching a recovery run."
+          gh workflow run "$REFRESH_WORKFLOW" \
+            --repo "$GITHUB_REPOSITORY" \
+            --ref main \
+            -f force_refresh=false
+
+      - name: Keep public-repository schedules eligible without deploying the site
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          now_epoch="$(date -u +%s)"
+          last_heartbeat="$(gh api -X GET "repos/${GITHUB_REPOSITORY}/commits" \
+            -f sha="$HEARTBEAT_BRANCH" \
+            -f path=".automation/heartbeat.txt" \
+            -f per_page=1 \
+            --jq '.[0].commit.committer.date // empty' 2>/dev/null || true)"
+
+          if [[ -n "$last_heartbeat" ]]; then
+            last_epoch="$(date -u -d "$last_heartbeat" +%s)"
+            heartbeat_age="$((now_epoch - last_epoch))"
+            if (( heartbeat_age <= MAX_HEARTBEAT_AGE_SECONDS )); then
+              echo "The isolated automation heartbeat is still current."
+              exit 0
+            fi
+          fi
+
+          branch_sha="$(gh api \
+            "repos/${GITHUB_REPOSITORY}/git/ref/heads/${HEARTBEAT_BRANCH}" \
+            --jq '.object.sha' 2>/dev/null || true)"
+          if [[ -z "$branch_sha" ]]; then
+            main_sha="$(gh api "repos/${GITHUB_REPOSITORY}/git/ref/heads/main" --jq '.object.sha')"
+            gh api --method POST "repos/${GITHUB_REPOSITORY}/git/refs" \
+              -f ref="refs/heads/${HEARTBEAT_BRANCH}" \
+              -f sha="$main_sha" >/dev/null
+          fi
+
+          file_sha="$(gh api \
+            "repos/${GITHUB_REPOSITORY}/contents/.automation/heartbeat.txt?ref=${HEARTBEAT_BRANCH}" \
+            --jq '.sha' 2>/dev/null || true)"
+          heartbeat_text="Wikelo automation heartbeat: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          heartbeat_base64="$(printf '%s\n' "$heartbeat_text" | base64 -w 0)"
+
+          api_args=(
+            --method PUT
+            "repos/${GITHUB_REPOSITORY}/contents/.automation/heartbeat.txt"
+            -f message="chore: keep Wikelo automation scheduler active"
+            -f content="$heartbeat_base64"
+            -f branch="$HEARTBEAT_BRANCH"
+          )
+          if [[ -n "$file_sha" ]]; then
+            api_args+=( -f sha="$file_sha" )
+          fi
+          gh api "${api_args[@]}" >/dev/null
+
+          {
+            echo "### Public-repository schedule keepalive"
+            echo "- Updated isolated branch: ${HEARTBEAT_BRANCH}"
+            echo "- Production branch remains: main"
+            echo "- No stable data or site source was changed"
+          } >> "$GITHUB_STEP_SUMMARY"
