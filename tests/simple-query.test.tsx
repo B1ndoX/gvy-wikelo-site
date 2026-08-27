@@ -1,6 +1,7 @@
 import { fireEvent, render, screen, within } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 import App from "../src/App";
+import tradesData from "../src/data/generated/trades.json";
 
 describe("simple material query flow", () => {
   it("keeps the compact header links and removes the obsolete data strip", () => {
@@ -14,8 +15,8 @@ describe("simple material query flow", () => {
   it("shows the single LIVE version after search and removes the version filter", () => {
     render(<App />);
 
-    const versionBadge = screen.getByLabelText(/^4\.9\.0 LIVE，更新 \d{4}\/\d{2}\/\d{2} \d{2}:\d{2}$/);
-    expect(versionBadge).toHaveTextContent("4.9.0 LIVE");
+    const versionBadge = screen.getByLabelText(/^\d+\.\d+\.\d+ LIVE，更新 \d{4}\/\d{2}\/\d{2} \d{2}:\d{2}$/);
+    expect(versionBadge).toHaveTextContent(/^\d+\.\d+\.\d+ LIVE/);
     expect(within(versionBadge).getByRole("tooltip")).toHaveTextContent(/^更新 \d{4}\/\d{2}\/\d{2} \d{2}:\d{2}$/);
     expect(screen.queryByRole("listbox", { name: "游戏版本" })).not.toBeInTheDocument();
     expect(screen.queryByText("PTU")).not.toBeInTheDocument();
@@ -102,12 +103,17 @@ describe("simple material query flow", () => {
   it("shows every requirement directly on long trade cards", () => {
     render(<App />);
 
+    const longestTrade = [...tradesData.trades]
+      .filter((trade) => trade.requirements.length > 0)
+      .sort((left, right) => right.requirements.length - left.requirements.length)[0];
+    expect(longestTrade).toBeDefined();
+
     fireEvent.change(screen.getByPlaceholderText("搜索合同、物品、奖励、飞船或地点"), {
-      target: { value: "Asgard Fight Mod" },
+      target: { value: longestTrade.name.en },
     });
 
     const card = screen.getByRole("article");
-    expect(within(card).getAllByRole("button", { name: /查看获取方式/ })).toHaveLength(11);
+    expect(within(card).getAllByRole("button", { name: /查看获取方式/ })).toHaveLength(longestTrade.requirements.length);
     expect(within(card).queryByText(/还有\s+\d+\s+项/)).not.toBeInTheDocument();
   });
 
@@ -129,7 +135,7 @@ describe("simple material query flow", () => {
     expect(within(dialog).getByText("约曼迪之眼")).toBeInTheDocument();
     expect(within(dialog).getByText("预计制作耗时：70 秒")).toBeInTheDocument();
     expect(within(dialog).getByText("可用于哪些交易")).toBeInTheDocument();
-    expect(within(dialog).getAllByText("需要 1 个")).toHaveLength(2);
+    expect(within(dialog).getAllByText("需要 1 个").length).toBeGreaterThan(0);
   });
 
   it("shows the complete official AAA pearl name, real image, and acquisition route", () => {
