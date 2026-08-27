@@ -232,7 +232,7 @@
       "localPath": "/images/ai-redraw/bul-h4-armor-snow-camo-ai-redraw.webp",
       "imageKind": "ai_redraw",
       "redrawType": "reconstruction",
-      "sourceNote": "Image 2 依据 BUL-H4 真实游戏结构重绘 Snow Camo 涂装。"
+      "sourceNote": "Image 2 以 RSI Community Hub 的 BUL-H4 基础版实图为唯一结构参考重绘；严格保留超重型头盔、胸肩与动力四肢轮廓，仅替换为 Snow Camo 涂装。"
     },
     {
       "id": "cds_combat_superheavy_helmet_01_03_01",
@@ -330,8 +330,8 @@
     },
     {
       "localPath": "/images/ai-redraw/bul-h4-armor-snow-camo-ai-redraw.webp",
-      "sha256": "53f10c8e917607a991a352ccd4bc06c9c8c24ad2f471c18ddc67b56b07249c96",
-      "generationArtifact": "exec-518e6961-54bf-4291-9c2c-93b35619c8a0.png",
+      "sha256": "b50fd7f8d37a026d0808ce821ae876341eb8fc6bc26819f05896f15be6ff6792",
+      "generationArtifact": "exec-fd6dd6ca-c800-4895-b532-5722558e5c8e.png",
       "outputHasWatermark": false
     },
     {
