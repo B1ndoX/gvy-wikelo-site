@@ -13,6 +13,14 @@ describe("official localization parser", () => {
     expect(resolveEntityLocalization(localization, "fixture-titanium", "Titanium").zh).toBe("钛");
     expect(resolveEntityLocalization(localization, "fixture-riccite", "Riccite").zh).toBe("愈金");
     expect(resolveEntityLocalization(localization, "fixture-ouratite", "Ouratite").zh).toBe("欧拉特烃");
+    expect(resolveEntityLocalization(localization, "cds_combat_superheavy_suit_01_03_01", "BUL-H4 Armor Snow Camo").zh)
+      .toBe("BUL-H4 护甲 雪地迷彩");
+    expect(resolveEntityLocalization(localization, "cds_combat_superheavy_helmet_01_03_01", "BUL-H4 Helmet Snow Camo").zh)
+      .toBe("BUL-H4 头盔 雪地迷彩");
+    expect(resolveEntityLocalization(localization, "cds_combat_superheavy_backpack_01_03_01", "H4-PBF Ammo Carrier Snow Camo").zh)
+      .toBe("H4-PBF 弹药携具 雪地迷彩");
+    expect(resolveEntityLocalization(localization, "carryable_2h_sq_collectormaterial_002", "Metamaterial Test #152").zh)
+      .toBe("超材料测试 #152");
   });
 
   it("handles BOM, comments, blank lines, and splits values only at the first equals sign", () => {
