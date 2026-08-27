@@ -1,65 +1,65 @@
 {
-  "gameVersion": "4.9.0 LIVE.12344265",
+  "gameVersion": "4.10.0 LIVE.12519617",
   "availableVersions": [
-    "4.9.0 LIVE.12344265"
+    "4.10.0 LIVE.12519617"
   ],
-  "generatedAt": "2026-08-26T06:34:07.383Z",
-  "totalTrades": 87,
-  "totalItems": 268,
-  "imageCoverage": 0.9552238805970149,
-  "localizationCoverage": 0.9429477020602218,
+  "generatedAt": "2026-08-27T07:09:49.582Z",
+  "totalTrades": 86,
+  "totalItems": 271,
+  "imageCoverage": 0.940959409594096,
+  "localizationCoverage": 0.9428571428571428,
   "validation": {
-    "verified": 48,
-    "single_source": 25,
-    "conflict": 14,
+    "verified": 47,
+    "single_source": 24,
+    "conflict": 15,
     "pending": 0
   },
   "sources": [
     {
       "url": "https://dumpers-repo.com/wikelo/",
       "status": "ok",
-      "updatedAt": "2026-07-31T02:44:31.824Z",
-      "checkedAt": "2026-08-26T06:34:07.383Z",
+      "updatedAt": "2026-08-26T23:07:01.909Z",
+      "checkedAt": "2026-08-27T07:09:49.582Z",
       "note": null
     },
     {
       "url": "https://wikelotrades.com/how-it-works",
       "status": "ok",
       "updatedAt": "2026-06-04 06:59:50 UTC",
-      "checkedAt": "2026-08-26T06:34:07.383Z",
+      "checkedAt": "2026-08-27T07:09:49.582Z",
       "note": "Latest published secondary patch: 4.8.1"
     },
     {
       "url": "https://starcitizen.tools/Wikelo",
       "status": "ok",
       "updatedAt": "2026-07-14T14:39:00.000Z",
-      "checkedAt": "2026-08-26T06:34:07.383Z",
+      "checkedAt": "2026-08-27T07:09:49.582Z",
       "note": null
     },
     {
       "url": "https://starcitizen.tools/Wikelo_Emporium",
       "status": "snapshot",
       "updatedAt": "2025-08-09T16:35:00.000Z",
-      "checkedAt": "2026-08-26T06:34:07.383Z",
+      "checkedAt": "2026-08-27T07:09:49.582Z",
       "note": "Station list cross-check snapshot."
     },
     {
       "url": "https://api.star-citizen.wiki",
       "status": "ok",
       "updatedAt": null,
-      "checkedAt": "2026-08-26T06:34:07.383Z",
+      "checkedAt": "2026-08-27T07:09:49.582Z",
       "note": "Item API version unavailable."
     },
     {
       "url": "https://api.sc-market.space/api/v2",
-      "status": "ok",
+      "status": "snapshot",
       "updatedAt": "2026-07-25T18:36:56.065Z",
-      "checkedAt": "2026-08-26T06:34:07.383Z",
+      "checkedAt": "2026-08-27T07:09:49.582Z",
       "note": "Public secondary game-data API: 4.9.0-LIVE.12232306. Player listing prices are not imported into fixed Wikelo recipes."
     }
   ],
   "anomalies": [],
   "publishEligible": true,
   "usageMode": "offline query; no account or upload",
-  "sourceFingerprint": "5de09cfc98211ea01abe9e66dd7a6d586bffdee01550f7ee9c691844d92fdaa6"
+  "sourceFingerprint": "72e32bd8a434c1220e78b49f1eb457266be86cbdd82ca9e9984910172488166d"
 }
