@@ -74,11 +74,13 @@ jobs:
           set -euo pipefail
 
           now_epoch="$(date -u +%s)"
-          last_heartbeat="$(gh api -X GET "repos/${GITHUB_REPOSITORY}/commits" \
+          if ! last_heartbeat="$(gh api -X GET "repos/${GITHUB_REPOSITORY}/commits" \
             -f sha="$HEARTBEAT_BRANCH" \
             -f path=".automation/heartbeat.txt" \
             -f per_page=1 \
-            --jq '.[0].commit.committer.date // empty' 2>/dev/null || true)"
+            --jq '.[0].commit.committer.date // empty' 2>/dev/null)"; then
+            last_heartbeat=""
+          fi
 
           if [[ -n "$last_heartbeat" ]]; then
             last_epoch="$(date -u -d "$last_heartbeat" +%s)"
@@ -89,9 +91,11 @@ jobs:
             fi
           fi
 
-          branch_sha="$(gh api \
+          if ! branch_sha="$(gh api \
             "repos/${GITHUB_REPOSITORY}/git/ref/heads/${HEARTBEAT_BRANCH}" \
-            --jq '.object.sha' 2>/dev/null || true)"
+            --jq '.object.sha' 2>/dev/null)"; then
+            branch_sha=""
+          fi
           if [[ -z "$branch_sha" ]]; then
             main_sha="$(gh api "repos/${GITHUB_REPOSITORY}/git/ref/heads/main" --jq '.object.sha')"
             gh api --method POST "repos/${GITHUB_REPOSITORY}/git/refs" \
@@ -99,9 +103,11 @@ jobs:
               -f sha="$main_sha" >/dev/null
           fi
 
-          file_sha="$(gh api \
+          if ! file_sha="$(gh api \
             "repos/${GITHUB_REPOSITORY}/contents/.automation/heartbeat.txt?ref=${HEARTBEAT_BRANCH}" \
-            --jq '.sha' 2>/dev/null || true)"
+            --jq '.sha' 2>/dev/null)"; then
+            file_sha=""
+          fi
           heartbeat_text="Wikelo automation heartbeat: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           heartbeat_base64="$(printf '%s\n' "$heartbeat_text" | base64 -w 0)"
 
