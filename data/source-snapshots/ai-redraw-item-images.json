@@ -1,0 +1,478 @@
+{
+  "items": [
+    {
+      "id": "argo_atls_geo_collector_grad02",
+      "title": "ATLS Orange Line",
+      "pageUrl": "https://api.star-citizen.wiki/vehicles/argo-atls-geo-collector-grad02",
+      "imageUrl": "https://media.starcitizen.tools/9/95/ATLS_GEO_x3_landing_in_sandy_area_-_cropped.jpg",
+      "localPath": "/images/ai-redraw/atls-orange-line-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "Image 2 依据 ATLS GEO 真实游戏图及 Orange Line 名称重绘，保留 ATLS GEO 结构并还原橙色警示线涂装。"
+    },
+    {
+      "id": "argo_atls_geo_collector_grad01",
+      "title": "ATLS Snowland Color",
+      "pageUrl": "https://api.star-citizen.wiki/vehicles/argo-atls-geo-collector-grad01",
+      "imageUrl": "https://media.starcitizen.tools/9/95/ATLS_GEO_x3_landing_in_sandy_area_-_cropped.jpg",
+      "localPath": "/images/ai-redraw/atls-snowland-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "Image 2 依据 ATLS GEO 真实游戏图及 Snowland 名称重绘，保留 ATLS GEO 结构并还原雪地涂装。"
+    },
+    {
+      "id": "harvestable_mineral_1h_carinitepure",
+      "title": "Carinite (Pure)",
+      "pageUrl": "https://starcitizen.tools/Carinite",
+      "imageUrl": "https://media.starcitizen.tools/thumb/6/6b/Carinite.png/800px-Carinite.png.webp",
+      "localPath": "/images/ai-redraw/carinite-pure-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "Image 2 依据 Carinite 实物参考图清晰化重绘。"
+    },
+    {
+      "id": "drak_clipper_collector_military",
+      "title": "Drake Clipper Wikelo War Special",
+      "pageUrl": "https://api.star-citizen.wiki/vehicles/drak-clipper-collector-military",
+      "imageUrl": "https://media.starcitizen.tools/7/74/Clipper_attacking_ships_around_station_-_cropped.jpg",
+      "localPath": "/images/ai-redraw/drake-clipper-wikelo-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "Image 2 依据 Clipper 真实游戏图清晰化重绘。"
+    },
+    {
+      "id": "volt_lmg_energy_01_mag",
+      "title": "Fresnel Energy LMG Battery (165 Cap)",
+      "pageUrl": "https://api.star-citizen.wiki/items/fresnel-energy-lmg",
+      "imageUrl": "https://media.starcitizen.tools/8/83/Fresnel_Energy_LMG_-_profile.png",
+      "localPath": "/images/ai-redraw/fresnel-lmg-battery-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "Image 2 从 Fresnel 官方武器图中可见的独立电池结构重绘为物品图。"
+    },
+    {
+      "id": "cds_combat_superheavy_backpack_01_01_01",
+      "title": "H4-PBF Ammo Carrier",
+      "pageUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
+      "imageUrl": "https://robertsspaceindustries.com/i/4dd83a7e8a99f384c6358c53a96618df0de191bf/resize(1464,1464,inside,JLypLpqVPBaNxs8FRN3D3vuTrjntZTaECi8ToQLLZiEgiUjcwEzuY511JgyJBk2nwU4KBWPC3t64FJzEsV4pZ3115mwcQPN5gEx4nvs2iEi8TaoASkwfM9cWA8R3ix5h8gTrK8ZJMy4HZQE47oVNs3x6ik2kY5VpkfejLGbAsZmtirUtAwAfS8uvviaq5pgoJE)/4d2b0494-db76-4868-a3d2-c9b85f0e8a22.png",
+      "localPath": "/images/ai-redraw/h4-pbf-ammo-carrier-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "reconstruction",
+      "sourceNote": "Image 2 依据 BUL-H4 系列实拍与 H4-PBF Snow Camo 结构重建基础涂装。"
+    },
+    {
+      "id": "krig_l22_alphawolf_collector_military",
+      "title": "Kruger L-22 Alpha Wolf Wikelo War Special",
+      "pageUrl": "https://starcitizen.tools/L-22_Alpha_Wolf",
+      "imageUrl": "https://media.starcitizen.tools/thumb/4/4a/L-22_Alpha_Wolf_flying_above_clouds_-_cropped.jpg/800px-L-22_Alpha_Wolf_flying_above_clouds_-_cropped.jpg.webp",
+      "localPath": "/images/ai-redraw/l22-alpha-wolf-wikelo-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "Image 2 依据 L-22 Alpha Wolf 真实游戏图清晰化重绘。"
+    },
+    {
+      "id": "carryable_2h_cy_collectormaterial_001",
+      "title": "Metamaterial Test #146",
+      "pageUrl": "https://starcitizen.tools/Metamaterial_Test",
+      "imageUrl": "https://www.reddit.com/r/starcitizen/comments/1tfulxx/wikelo_l_22_wolf/",
+      "localPath": "/images/ai-redraw/metamaterial-test-146-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "concept",
+      "sourceNote": "公开资料没有独立物品实图；Image 2 依据游戏内合成界面和 Titanium、Riccite、Yormandi Eye 配方制作识别性概念图。"
+    },
+    {
+      "id": "misc_starlancer_tac_collector_military",
+      "title": "MISC Starlancer TAC Wikelo War Special",
+      "pageUrl": "https://starcitizen.tools/File:Starlancer_TAC_Wikelo.png",
+      "imageUrl": "https://starcitizen.tools/Special:Redirect/file/Starlancer_TAC_Wikelo.png",
+      "localPath": "/images/ai-redraw/starlancer-tac-wikelo-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "Image 2 依据 1048×512 的准确 Wikelo 特别版实图清晰化重绘；错误舰型的早期生成结果未采用。"
+    },
+    {
+      "id": "kap_combat_heavy_arms_02_01_01",
+      "title": "Monde Arms",
+      "pageUrl": "https://starcitizen.tools/File:Keystone_Gear_Pack.webp",
+      "imageUrl": "https://media.starcitizen.tools/3/38/Keystone_Gear_Pack.webp",
+      "localPath": "/images/ai-redraw/monde-arms-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "Image 2 依据 CIG Monde Keystone 整套装备图分离重绘臂甲。"
+    },
+    {
+      "id": "kap_combat_heavy_core_02_01_01",
+      "title": "Monde Core",
+      "pageUrl": "https://starcitizen.tools/File:Keystone_Gear_Pack.webp",
+      "imageUrl": "https://media.starcitizen.tools/3/38/Keystone_Gear_Pack.webp",
+      "localPath": "/images/ai-redraw/monde-core-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "Image 2 依据 CIG Monde Keystone 整套装备图分离重绘胸甲。"
+    },
+    {
+      "id": "kap_combat_heavy_helmet_02_01_01",
+      "title": "Monde Helmet",
+      "pageUrl": "https://starcitizen.tools/File:Keystone_Gear_Pack.webp",
+      "imageUrl": "https://media.starcitizen.tools/3/38/Keystone_Gear_Pack.webp",
+      "localPath": "/images/ai-redraw/monde-helmet-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "Image 2 依据 CIG Monde Keystone 整套装备图分离重绘头盔。"
+    },
+    {
+      "id": "kap_combat_heavy_legs_02_01_01",
+      "title": "Monde Legs",
+      "pageUrl": "https://starcitizen.tools/File:Keystone_Gear_Pack.webp",
+      "imageUrl": "https://media.starcitizen.tools/3/38/Keystone_Gear_Pack.webp",
+      "localPath": "/images/ai-redraw/monde-legs-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "Image 2 依据 CIG Monde Keystone 整套装备图分离重绘腿甲。"
+    },
+    {
+      "id": "carryable_tbo_asdreward_pwl1",
+      "title": "RCMBNT-PWL-1",
+      "pageUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
+      "imageUrl": "https://robertsspaceindustries.com/i/bc29f1720daa74ba7139a6bab7944baf3def0930/resize(1464,1464,inside,JLypLpqVPBaNxs8FRN3D3vuTrjntZTaECi8ToQLLZiEgiUjcwEzuY511JgyJBk2nwU4KBWPC3t64FJzEsV4pZ3115niWEGWYgdXEGGcC5hzmqiRY4eY3EVJpa7GfbmmwRKPSwzP7hXsjZZGkx6kNHeGWQFJop63kkdcgghsBwqZw2cmEPCqtSdLYZMijLSRkhU)/af83171c-11fb-482c-b442-492a4350760f.jpg",
+      "localPath": "/images/ai-redraw/rcmbnt-sample-container-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "reconstruction",
+      "sourceNote": "Image 2 依据 RCMBNT 系列合照与精确 XTL-2 容器结构制作无文字通用样品容器图；编号外形公开资料无法逐一确认。"
+    },
+    {
+      "id": "carryable_tbo_asdreward_pwl2",
+      "title": "RCMBNT-PWL-2",
+      "pageUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
+      "imageUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
+      "localPath": "/images/ai-redraw/rcmbnt-sample-container-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "reconstruction"
+    },
+    {
+      "id": "carryable_tbo_asdreward_pwl3",
+      "title": "RCMBNT-PWL-3",
+      "pageUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
+      "imageUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
+      "localPath": "/images/ai-redraw/rcmbnt-sample-container-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "reconstruction"
+    },
+    {
+      "id": "carryable_tbo_asdreward_rgl1",
+      "title": "RCMBNT-RGL-1",
+      "pageUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
+      "imageUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
+      "localPath": "/images/ai-redraw/rcmbnt-sample-container-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "reconstruction"
+    },
+    {
+      "id": "carryable_tbo_asdreward_rgl2",
+      "title": "RCMBNT-RGL-2",
+      "pageUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
+      "imageUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
+      "localPath": "/images/ai-redraw/rcmbnt-sample-container-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "reconstruction"
+    },
+    {
+      "id": "carryable_tbo_asdreward_rgl3",
+      "title": "RCMBNT-RGL-3",
+      "pageUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
+      "imageUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
+      "localPath": "/images/ai-redraw/rcmbnt-sample-container-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "reconstruction"
+    },
+    {
+      "id": "carryable_tbo_asdreward_xtl1",
+      "title": "RCMBNT-XTL-1",
+      "pageUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
+      "imageUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
+      "localPath": "/images/ai-redraw/rcmbnt-sample-container-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "reconstruction"
+    },
+    {
+      "id": "harvestable_ore_1h_saldyniumore",
+      "title": "Saldynium (Ore)",
+      "pageUrl": "https://sc-market.space/market/60603ff3-9ef2-438c-acbd-615064f7846e/",
+      "imageUrl": "https://cdn.sc-market.space/60603ff3-9ef2-438c-acbd-615064f7846e-photos-0-6741c2ab-dbb1-4ce6-8c06-9a3e57a59aef.webp",
+      "localPath": "/images/ai-redraw/saldynium-ore-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "reconstruction",
+      "sourceNote": "Image 2 依据真实游戏矿石货物参考图制作无水印单体矿石图。"
+    },
+    {
+      "id": "vgl_combat_heavy_backpack_01_06_01",
+      "title": "Warden Backpack Monde",
+      "pageUrl": "https://api.star-citizen.wiki/items/warden-backpack",
+      "imageUrl": "https://cstone.space/uifimages/1f3915f0-8832-4ea8-ad9d-84b9ee59296d.png",
+      "localPath": "/images/ai-redraw/warden-backpack-monde-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "reconstruction",
+      "sourceNote": "Image 2 依据 Warden Backpack 基础型号结构重绘 Monde 涂装。"
+    },
+    {
+      "id": "behr_binoculars_01_collector01",
+      "title": "XDL Mark I Monocular Rangefinder",
+      "pageUrl": "https://api.star-citizen.wiki/items/xdl-mark-i-monocular-rangefinder",
+      "imageUrl": "https://cstone.space/uifimages/08124949-6620-431c-96e3-65107e22dc9d.png",
+      "localPath": "/images/ai-redraw/xdl-mark-i-rangefinder-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "Image 2 依据 XDL Mark I 实物图清晰化重绘。"
+    },
+    {
+      "id": "cds_combat_superheavy_suit_01_03_01",
+      "title": "BUL-H4 Armor Snow Camo",
+      "pageUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
+      "imageUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
+      "localPath": "/images/ai-redraw/bul-h4-armor-snow-camo-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "reconstruction",
+      "sourceNote": "Image 2 依据 BUL-H4 真实游戏结构重绘 Snow Camo 涂装。"
+    },
+    {
+      "id": "cds_combat_superheavy_helmet_01_03_01",
+      "title": "BUL-H4 Helmet Snow Camo",
+      "pageUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
+      "imageUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
+      "localPath": "/images/ai-redraw/bul-h4-helmet-snow-camo-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "reconstruction",
+      "sourceNote": "Image 2 依据 BUL-H4 真实游戏结构重绘 Snow Camo 头盔。"
+    },
+    {
+      "id": "cds_combat_superheavy_backpack_01_03_01",
+      "title": "H4-PBF Ammo Carrier Snow Camo",
+      "pageUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
+      "imageUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
+      "localPath": "/images/ai-redraw/h4-pbf-ammo-carrier-snow-camo-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "reconstruction",
+      "sourceNote": "Image 2 依据 BUL-H4 系列结构与物品名称重建 Snow Camo 弹药携具。"
+    },
+    {
+      "id": "carryable_2h_sq_collectormaterial_002",
+      "title": "Metamaterial Test #152",
+      "pageUrl": "https://api.star-citizen.wiki/blueprints/metamaterial-test-152",
+      "imageUrl": "https://api.star-citizen.wiki/blueprints/metamaterial-test-152",
+      "localPath": "/images/ai-redraw/metamaterial-test-152-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "concept",
+      "sourceNote": "公开资料没有独立物品实图；Image 2 依据 Stileron 与 Ouratite 配方制作识别性概念图。"
+    },
+    {
+      "id": "grin_utility_medium_arms_02_01_01",
+      "title": "Strata Arms",
+      "pageUrl": "https://starcitizen.tools/Strata",
+      "imageUrl": "https://media.starcitizen.tools/5/54/Strata_Greycat_Industrial_set_01_-_cropped.png?version=415e9ef09a939900f4cc9dc39e29a4d1",
+      "localPath": "/images/ai-redraw/strata-arms-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "Image 2 依据准确 Strata Greycat Industrial 套装实图分离重绘臂甲。"
+    },
+    {
+      "id": "grin_utility_medium_core_02_01_01",
+      "title": "Strata Core",
+      "pageUrl": "https://starcitizen.tools/Strata",
+      "imageUrl": "https://media.starcitizen.tools/5/54/Strata_Greycat_Industrial_set_01_-_cropped.png?version=415e9ef09a939900f4cc9dc39e29a4d1",
+      "localPath": "/images/ai-redraw/strata-core-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "Image 2 依据准确 Strata Greycat Industrial 套装实图分离重绘胸甲。"
+    },
+    {
+      "id": "grin_utility_medium_legs_02_01_01",
+      "title": "Strata Legs",
+      "pageUrl": "https://starcitizen.tools/Strata",
+      "imageUrl": "https://media.starcitizen.tools/5/54/Strata_Greycat_Industrial_set_01_-_cropped.png?version=415e9ef09a939900f4cc9dc39e29a4d1",
+      "localPath": "/images/ai-redraw/strata-legs-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "Image 2 依据准确 Strata Greycat Industrial 套装实图分离重绘腿甲。"
+    },
+    {
+      "id": "apar_hmg_ballistic_01_collector01",
+      "title": "Vendetta Snow Camo HMG",
+      "pageUrl": "https://starcitizen.tools/Vendetta_%22Snow_Camo%22_HMG",
+      "imageUrl": "https://starcitizen.tools/Vendetta_HMG",
+      "localPath": "/images/ai-redraw/vendetta-snow-camo-hmg-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "reconstruction",
+      "sourceNote": "Image 2 依据 Vendetta HMG 真实外形及 Snow Camo 型号资料重绘。"
+    },
+    {
+      "id": "apar_hmg_ballistic_01_mag",
+      "title": "Vendetta HMG Magazine (1000 Cap)",
+      "pageUrl": "https://starcitizen.tools/Vendetta_HMG",
+      "imageUrl": "https://starcitizen.tools/Vendetta_HMG",
+      "localPath": "/images/ai-redraw/vendetta-hmg-magazine-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "concept",
+      "sourceNote": "公开资料没有独立弹匣实图；Image 2 依据 Vendetta HMG 供弹结构制作识别性概念图。"
+    }
+  ],
+  "assets": [
+    {
+      "localPath": "/images/ai-redraw/atls-orange-line-ai-redraw.webp",
+      "sha256": "1ff8b2b75dd814d8ad449618f46db920f87daab9e078196f4aa8301427e02a9d",
+      "generationArtifact": "exec-98e1a238-00b3-45f9-9447-ae91d41e400c.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/atls-snowland-ai-redraw.webp",
+      "sha256": "2e173a15b187a3c3674dcbfcb5d230b80cca57cd3d9b34c63c9066a32b00106c",
+      "generationArtifact": "exec-73fe6b26-719d-4a79-80e9-e378cd87d85d.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/bul-h4-armor-snow-camo-ai-redraw.webp",
+      "sha256": "53f10c8e917607a991a352ccd4bc06c9c8c24ad2f471c18ddc67b56b07249c96",
+      "generationArtifact": "exec-518e6961-54bf-4291-9c2c-93b35619c8a0.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/bul-h4-helmet-snow-camo-ai-redraw.webp",
+      "sha256": "a52b220b830f8783b0a9f635c274637ea6a81eddf52e26bb599562a7865a930d",
+      "generationArtifact": "exec-b83904fa-e9c0-42aa-ab4c-f3897394d122.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/carinite-pure-ai-redraw.webp",
+      "sha256": "b5b6afd8d9fe960810e8efc4f85efaeab70b888e3b571fe46eb39f8449e68173",
+      "generationArtifact": "exec-4182f760-e2c3-48ab-9a2a-c40a5327edfe.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/drake-clipper-wikelo-ai-redraw.webp",
+      "sha256": "0c451bd8837d0c6bae38e8d45e0494b2f3cf5eb9febb1b789df9b7b39ad85c2c",
+      "generationArtifact": "exec-05fcf2d8-4597-4e3f-a502-3af3cc0cd505.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/fresnel-lmg-battery-ai-redraw.webp",
+      "sha256": "70e37d664e34f12440836686262ae9cda71deca2aae12ad51ca4d36da9ccd831",
+      "generationArtifact": "exec-ee97b3a2-f134-4c2b-838c-919acf7efff2.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/h4-pbf-ammo-carrier-ai-redraw.webp",
+      "sha256": "9487bfa3613076c52103871ed1b72dcd34387454c921a9f0df14332334659b85",
+      "generationArtifact": "exec-03f1d4d0-cccf-48fb-8ebf-b93af948b9b4.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/h4-pbf-ammo-carrier-snow-camo-ai-redraw.webp",
+      "sha256": "80cf117b969f6e3c49163de8e048319c9628a2166245d54bd078fb26727cc7d6",
+      "generationArtifact": "exec-6ebd7f3f-0a50-4fa6-94b1-e37f20675a12.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/l22-alpha-wolf-wikelo-ai-redraw.webp",
+      "sha256": "48bf5e244998bfc2c7e61b5e630ff530bb7b3301127882d2acd0aabf175a44d5",
+      "generationArtifact": "exec-a0ae05ed-6c8d-4d00-aa61-76905aae023f.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/metamaterial-test-146-ai-redraw.webp",
+      "sha256": "679d25ec00ff3e82adcd3bdfd8a088d804e1d223268df00d4b03cfc9ee3fc131",
+      "generationArtifact": "exec-395b9282-3606-4629-b810-86edac5bf661.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/metamaterial-test-152-ai-redraw.webp",
+      "sha256": "19dfc089d60086174e2a7452b9f9d18b5a9b1076f2e9ee6587b028f860bfd389",
+      "generationArtifact": "exec-aafe1250-74bf-4793-a72b-27fd1df6f98f.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/monde-arms-ai-redraw.webp",
+      "sha256": "f0bf7aff5aa60f828274d0db4b5799a3ce1040a631faefb19560a40b91720955",
+      "generationArtifact": "exec-dc07cab3-2f44-42df-b36f-e1536223bbae.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/monde-core-ai-redraw.webp",
+      "sha256": "7a910c1754041b97ec96682c9cf31fe20aa3eff40a6ad45ecf644cfbff9420bd",
+      "generationArtifact": "exec-ce73f611-dd30-42dd-9479-a27516d520fe.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/monde-helmet-ai-redraw.webp",
+      "sha256": "1753d95d466de9eabdbde52d68ebb57f4ad3f788d4854bbc16dac7f119c97096",
+      "generationArtifact": "exec-b49deeb0-3f98-46c0-973f-13b45460cf1e.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/monde-legs-ai-redraw.webp",
+      "sha256": "dfd0f777b567344a534e5f82e58b883918a9ed63929ad6ebdfaa7240ca3701a1",
+      "generationArtifact": "exec-d4fb0d19-89fb-4d56-b298-c4102f707343.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/rcmbnt-sample-container-ai-redraw.webp",
+      "sha256": "258138051b82d3c074e3722bc9746fa0ab110a5a35540dce47d50eb1cd9a73a7",
+      "generationArtifact": "exec-01482cbd-52c9-4ce3-aaf8-8d82b300ab11.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/saldynium-ore-ai-redraw.webp",
+      "sha256": "e570357d3ccefa90957311ba34ee26bf5a49e0e1cb4c1e429fd030253923b7d5",
+      "generationArtifact": "exec-f3a987e2-7328-43fb-9deb-6d12d11c697a.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/starlancer-tac-wikelo-ai-redraw.webp",
+      "sha256": "57ceeda893a480cebde7e988280321e8f6b315f7d26ea7c2b2a0d3a24606e5f9",
+      "generationArtifact": "exec-3ade0aed-78ea-40cf-8530-b428c9d05964.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/strata-arms-ai-redraw.webp",
+      "sha256": "3bcbfe7ba574e6d9dc80d93e2f36df9edccec1e9fb47bd58b9f361f28267aa1b",
+      "generationArtifact": "exec-9ca1c5de-26a4-4086-9ed4-a86a7dbdd217.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/strata-core-ai-redraw.webp",
+      "sha256": "df2afcf6e348c359e883c862d9924aed3a24a50be410a94ee786352b58dd23e7",
+      "generationArtifact": "exec-d0634857-6270-4b5e-a2ab-4226802f6142.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/strata-legs-ai-redraw.webp",
+      "sha256": "224c790171083846aa4a630f75baad24672e503b404828e8d7b48df36f309bbe",
+      "generationArtifact": "exec-ced881bd-f72f-4c3c-9c34-9319527ec5f1.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/vendetta-hmg-magazine-ai-redraw.webp",
+      "sha256": "b00a8d59d471d9603c506ca59013d7c3c4b6d387febc8cb560528cd09ed355be",
+      "generationArtifact": "exec-83399770-3f6d-4885-987b-d835ad353739.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/vendetta-snow-camo-hmg-ai-redraw.webp",
+      "sha256": "dfcea267e915f89bd3a9d635e8143d2fac378cdd48ecb61b21e26f2a6b2550ae",
+      "generationArtifact": "exec-dca38c99-b529-4ff4-83c4-9eb228ccb237.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/warden-backpack-monde-ai-redraw.webp",
+      "sha256": "a23687ae9617a4fe6c3b5231cebcfa5af779d53bbdec69b90955540dd1d1994f",
+      "generationArtifact": "exec-a52ed744-1c85-4e3b-b767-c005e59da653.png",
+      "outputHasWatermark": false
+    },
+    {
+      "localPath": "/images/ai-redraw/xdl-mark-i-rangefinder-ai-redraw.webp",
+      "sha256": "37442aafbd66c407f127f69d78e2ca2f455151ce19fbda8d83ec72f9dd65708d",
+      "generationArtifact": "exec-dcbf1612-8070-456a-8bbc-f1eceda46db9.png",
+      "outputHasWatermark": false
+    }
+  ],
+  "generatedAt": "2026-08-28T02:26:17+08:00",
+  "assetPolicy": "AI redraws are locally bundled, visibly labeled on the public UI, and retain their factual reference URLs in this internal snapshot."
+}

@@ -1,51 +1,51 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-27T07:09:49.582Z",
+  "generatedAt": "2026-08-27T18:21:36.943Z",
   "datasets": [
     {
       "gameVersion": "4.10.0 LIVE.12519617",
-      "generatedAt": "2026-08-27T07:09:49.582Z",
+      "generatedAt": "2026-08-27T18:21:36.943Z",
       "sourceStatus": [
         {
           "url": "https://dumpers-repo.com/wikelo/",
           "status": "ok",
           "updatedAt": "2026-08-26T23:07:01.909Z",
-          "checkedAt": "2026-08-27T07:09:49.582Z",
+          "checkedAt": "2026-08-27T18:21:03.924Z",
           "note": null
         },
         {
           "url": "https://wikelotrades.com/how-it-works",
           "status": "ok",
           "updatedAt": "2026-06-04 06:59:50 UTC",
-          "checkedAt": "2026-08-27T07:09:49.582Z",
+          "checkedAt": "2026-08-27T18:21:03.924Z",
           "note": "Latest published secondary patch: 4.8.1"
         },
         {
           "url": "https://starcitizen.tools/Wikelo",
           "status": "ok",
           "updatedAt": "2026-07-14T14:39:00.000Z",
-          "checkedAt": "2026-08-27T07:09:49.582Z",
+          "checkedAt": "2026-08-27T18:21:03.924Z",
           "note": null
         },
         {
           "url": "https://starcitizen.tools/Wikelo_Emporium",
           "status": "snapshot",
           "updatedAt": "2025-08-09T16:35:00.000Z",
-          "checkedAt": "2026-08-27T07:09:49.582Z",
+          "checkedAt": "2026-08-27T18:21:03.924Z",
           "note": "Station list cross-check snapshot."
         },
         {
           "url": "https://api.star-citizen.wiki",
           "status": "ok",
           "updatedAt": null,
-          "checkedAt": "2026-08-27T07:09:49.582Z",
+          "checkedAt": "2026-08-27T18:21:03.924Z",
           "note": "Item API version unavailable."
         },
         {
           "url": "https://api.sc-market.space/api/v2",
           "status": "snapshot",
           "updatedAt": "2026-07-25T18:36:56.065Z",
-          "checkedAt": "2026-08-27T07:09:49.582Z",
+          "checkedAt": "2026-08-27T18:21:03.924Z",
           "note": "Public secondary game-data API: 4.9.0-LIVE.12232306. Player listing prices are not imported into fixed Wikelo recipes."
         }
       ],
@@ -235,7 +235,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -320,7 +320,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -461,7 +461,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -588,7 +588,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -673,7 +673,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -681,7 +681,7 @@
           "id": "41231c57-f186-4c5e-ae51-524fc1e1d9a3",
           "debugName": "TheCollector_Vehicle_DrakeClipper",
           "name": {
-            "zh": "快船现在主打战斗",
+            "zh": "快帆现在主打战斗",
             "en": "Clipper Fight Now",
             "localizationSource": "official_global_ini"
           },
@@ -744,7 +744,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -816,7 +816,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -914,7 +914,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -1051,7 +1051,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1123,7 +1123,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1195,7 +1195,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1293,7 +1293,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1391,7 +1391,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1502,7 +1502,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1587,7 +1587,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1685,7 +1685,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1796,7 +1796,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -1918,7 +1918,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -2042,7 +2042,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -2206,7 +2206,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -2512,7 +2512,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -2570,7 +2570,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -2642,7 +2642,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -2753,7 +2753,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -2864,7 +2864,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -2948,7 +2948,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3059,7 +3059,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3131,7 +3131,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3242,7 +3242,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3340,7 +3340,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -3455,7 +3455,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3760,7 +3760,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -3832,7 +3832,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3930,7 +3930,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4080,7 +4080,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4152,7 +4152,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4250,7 +4250,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4335,7 +4335,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4433,7 +4433,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -4548,7 +4548,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -4663,7 +4663,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4735,7 +4735,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4923,7 +4923,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -5073,7 +5073,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -5309,7 +5309,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -5432,7 +5432,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -5530,7 +5530,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -5745,7 +5745,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -5842,7 +5842,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -5952,7 +5952,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -6076,7 +6076,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -6199,7 +6199,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -6323,7 +6323,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -6446,7 +6446,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -6608,7 +6608,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -6731,7 +6731,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -6907,7 +6907,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -7005,7 +7005,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -7180,7 +7180,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -7330,7 +7330,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -7465,7 +7465,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -7640,7 +7640,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -7738,7 +7738,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -7861,7 +7861,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -8050,7 +8050,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -8173,7 +8173,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -8388,7 +8388,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -8473,7 +8473,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -8610,7 +8610,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -8799,7 +8799,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -8832,7 +8832,7 @@
           "id": "a026b45d-6726-4a86-898c-e0207f2880c4",
           "debugName": "TheCollector_apar_hmg",
           "name": {
-            "zh": "枪太多了",
+            "zh": "太多枪了",
             "en": "Too Much Gun",
             "localizationSource": "official_global_ini"
           },
@@ -8921,7 +8921,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9031,7 +9031,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9180,7 +9180,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9355,7 +9355,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9439,7 +9439,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9562,7 +9562,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9647,7 +9647,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -9775,7 +9775,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -9885,7 +9885,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9944,7 +9944,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -10003,7 +10003,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -10062,7 +10062,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -10121,7 +10121,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -10180,7 +10180,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -10254,7 +10254,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -10312,7 +10312,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T07:09:49.582Z",
+          "fetchedAt": "2026-08-27T18:21:03.924Z",
           "validationStatus": "verified",
           "conflicts": []
         }
@@ -10564,7 +10564,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-arms-woodland",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-arms-woodland",
-          "sourceUpdatedAt": "2026-08-27T00:06:45.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:06:09.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -10585,7 +10585,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-arms-woodland",
-              "sourceUpdatedAt": "2026-08-27T00:06:45.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:06:09.000000Z"
             }
           ],
           "crafting": {
@@ -10750,7 +10750,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-core-woodland",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-core-woodland",
-          "sourceUpdatedAt": "2026-08-27T00:24:28.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:22:28.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -10771,7 +10771,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-core-woodland",
-              "sourceUpdatedAt": "2026-08-27T00:24:28.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:22:28.000000Z"
             }
           ],
           "crafting": {
@@ -10936,7 +10936,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-helmet-woodland",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-helmet-woodland",
-          "sourceUpdatedAt": "2026-08-27T00:33:57.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:32:16.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -10957,7 +10957,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-helmet-woodland",
-              "sourceUpdatedAt": "2026-08-27T00:33:57.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:32:16.000000Z"
             }
           ],
           "crafting": {
@@ -11122,7 +11122,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-legs-woodland",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-legs-woodland",
-          "sourceUpdatedAt": "2026-08-27T00:27:19.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:25:50.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -11143,7 +11143,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-legs-woodland",
-              "sourceUpdatedAt": "2026-08-27T00:27:19.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:25:50.000000Z"
             }
           ],
           "crafting": {
@@ -12824,7 +12824,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/vehicles/argo-atls",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/vehicles/argo-atls",
-          "sourceUpdatedAt": "2026-08-27T00:38:20.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:35:13.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": false,
           "isCraftable": false,
@@ -13218,9 +13218,9 @@
           },
           "category": "vehicle",
           "descriptionZh": null,
-          "imagePath": "/images/items/argo-atls-geo-collector-grad02.webp",
-          "imageSourceUrl": "https://media.starcitizen.tools/9/95/ATLS_GEO_x3_landing_in_sandy_area_-_cropped.jpg",
-          "imageKind": "base_model",
+          "imagePath": "/images/ai-redraw/atls-orange-line-ai-redraw.webp",
+          "imageSourceUrl": "https://api.star-citizen.wiki/vehicles/argo-atls-geo-collector-grad02",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/vehicles/argo-atls-geo-collector-grad02",
           "sourceUpdatedAt": "2026-07-16T13:18:13.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -13261,9 +13261,9 @@
           },
           "category": "地面",
           "descriptionZh": null,
-          "imagePath": "/images/items/argo-atls-geo-collector-grad01.webp",
-          "imageSourceUrl": "https://media.starcitizen.tools/9/95/ATLS_GEO_x3_landing_in_sandy_area_-_cropped.jpg",
-          "imageKind": "base_model",
+          "imagePath": "/images/ai-redraw/atls-snowland-ai-redraw.webp",
+          "imageSourceUrl": "https://api.star-citizen.wiki/vehicles/argo-atls-geo-collector-grad01",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/vehicles/argo-atls-geo-collector-grad01",
           "sourceUpdatedAt": "2026-07-16T13:18:13.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -13308,7 +13308,7 @@
           "imageSourceUrl": "https://cdn.star-citizen.wiki/images/4/46/Berry_Blend_Smoothie.jpg",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/berry-blend-smoothie",
-          "sourceUpdatedAt": "2026-08-27T00:31:42.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:29:33.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": false,
@@ -13316,11 +13316,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：果汁吧 · 弧 L4 黯淡幽谷站、Juice Bar - CRU-L4、Juice Bar - CRU-L1 、Juice Bar - 炽天使空间站 Station、果汁吧 · 弧 L1 广袤森林站、果汁吧 · 弧 L2 活力小径站",
+              "location": "可购买地点：Juice Bar - CRU-L4、Juice Bar - CRU-L1 、Juice Bar - 炽天使空间站 Station、果汁吧 · 弧 L4 黯淡幽谷站、果汁吧 · 弧 L1 广袤森林站、果汁吧 · 弧 L2 活力小径站",
               "price": 7,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=berry-blend-smoothie&tab=about",
-              "sourceUpdatedAt": "2026-08-26T04:54:23+00:00"
+              "sourceUpdatedAt": "2026-08-20T05:21:53+00:00"
             }
           ],
           "crafting": null,
@@ -13415,7 +13415,7 @@
             {
               "tradeId": "41231c57-f186-4c5e-ae51-524fc1e1d9a3",
               "tradeName": {
-                "zh": "快船现在主打战斗",
+                "zh": "快帆现在主打战斗",
                 "en": "Clipper Fight Now",
                 "localizationSource": "official_global_ini"
               },
@@ -13695,7 +13695,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/d/da/Curious_Weapon.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/boomtube-rocket",
-          "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": false,
@@ -13872,17 +13872,26 @@
             "en": "BUL-H4 Armor Snow Camo",
             "localizationSource": "official_global_ini"
           },
-          "category": "item",
-          "descriptionZh": null,
-          "imagePath": null,
-          "imageSourceUrl": null,
-          "imageKind": "none",
-          "sourceUrl": null,
-          "sourceUpdatedAt": null,
-          "sourceGameVersion": null,
+          "category": "Undersuit (Armor)",
+          "descriptionZh": "物品类型：超重型护甲\n伤害减免：90%\n适用温度：-70 / 100 °C\n辐射防护：26800 雷姆\n辐射清除率：145.8 雷姆 / 秒\n储物空间：4.0 uSCU\nBUL-H4 系列重新定义个人防护。采用先进的合成聚合物，显著减轻冲击力，使穿着者化身为一道坚固的防御屏障。该系列装甲的动力辅助框架有助于保持行动灵活性，抵消装甲本身的重量。\n这款雪地迷彩版采用白色数码迷彩图案，非常适合在冰冻环境中追踪猎物。储物空间：",
+          "imagePath": "/images/ai-redraw/bul-h4-armor-snow-camo-ai-redraw.webp",
+          "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
+          "imageKind": "ai_redraw",
+          "sourceUrl": "https://api.star-citizen.wiki/items/bul-h4-armor-snow-camo",
+          "sourceUpdatedAt": "2026-08-27T09:49:37.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
-          "isCraftable": false,
+          "isCraftable": true,
           "acquisition": [
+            {
+              "type": "craft",
+              "label": "使用蓝图制作",
+              "location": "完整配方见下方“制作配方”",
+              "price": null,
+              "currency": null,
+              "sourceUrl": "https://api.star-citizen.wiki/blueprints/bul-h4-armor-snow-camo",
+              "sourceUpdatedAt": "2026-08-27T09:49:37.000000Z"
+            },
             {
               "type": "wikelo",
               "label": "完成维科洛合同",
@@ -13893,7 +13902,52 @@
               "sourceUpdatedAt": null
             }
           ],
-          "crafting": null,
+          "crafting": {
+            "sourceUrl": "https://api.star-citizen.wiki/blueprints/bul-h4-armor-snow-camo",
+            "gameVersion": "4.10.0-LIVE.12519617",
+            "craftTimeSeconds": 210,
+            "ingredients": [
+              {
+                "id": "989f9b73-f636-4f35-a81d-579dcbe3f0ab",
+                "name": {
+                  "zh": "欧拉特烃",
+                  "en": "Ouratite",
+                  "localizationSource": "official_global_ini"
+                },
+                "quantity": 0.08,
+                "unit": "SCU",
+                "sourceUrl": "https://api.star-citizen.wiki/commodities/ca3ae4c1-3483-4985-ba61-50412994dc83"
+              },
+              {
+                "id": "07570c9f-fdf6-4bca-a56b-c42809ec0e01",
+                "name": {
+                  "zh": "钛",
+                  "en": "Titanium",
+                  "localizationSource": "official_global_ini"
+                },
+                "quantity": 0.08,
+                "unit": "SCU",
+                "sourceUrl": "https://api.star-citizen.wiki/commodities/64978449-1d87-4a16-ba55-4b5f94fee217"
+              },
+              {
+                "id": "fde0cd65-8827-4b23-804d-cc8845dfa7ac",
+                "name": {
+                  "zh": "阿斯莱晶体",
+                  "en": "Aslarite",
+                  "localizationSource": "official_global_ini"
+                },
+                "quantity": 0.04,
+                "unit": "SCU",
+                "sourceUrl": "https://api.star-citizen.wiki/commodities/f0c1f30b-001c-4a80-ac20-27df27183056"
+              }
+            ],
+            "unlocks": [
+              {
+                "title": "Heavy and Bright",
+                "sourceUrl": "https://api.star-citizen.wiki/missions/88bb3702-e20a-42e3-8ba3-328f2333e30c"
+              }
+            ]
+          },
           "requiredBy": [],
           "rewardedBy": [
             {
@@ -14046,17 +14100,26 @@
             "en": "BUL-H4 Helmet Snow Camo",
             "localizationSource": "official_global_ini"
           },
-          "category": "item",
-          "descriptionZh": null,
-          "imagePath": null,
-          "imageSourceUrl": null,
-          "imageKind": "none",
-          "sourceUrl": null,
-          "sourceUpdatedAt": null,
-          "sourceGameVersion": null,
+          "category": "Helmet (Armor)",
+          "descriptionZh": "物品类型：超重型护甲\n伤害减免：90%\n适用温度：-70 / 100 摄氏度\n辐射防护：26800 雷姆\n辐射清除率：145.8雷姆 / 秒\nBUL-H4 系列重新定义个人防护。CDS 专有的 PROWL 硬件将来自四个监控器插槽的视频输入合并为一个单一的视频流，在不影响安全性的前提下，提供无遮挡的视野。\n这款雪地迷彩版采用白色数码迷彩图案，非常适合在冰冻环境中追踪猎物。",
+          "imagePath": "/images/ai-redraw/bul-h4-helmet-snow-camo-ai-redraw.webp",
+          "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
+          "imageKind": "ai_redraw",
+          "sourceUrl": "https://api.star-citizen.wiki/items/bul-h4-helmet-snow-camo",
+          "sourceUpdatedAt": "2026-08-27T09:49:37.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
-          "isCraftable": false,
+          "isCraftable": true,
           "acquisition": [
+            {
+              "type": "craft",
+              "label": "使用蓝图制作",
+              "location": "完整配方见下方“制作配方”",
+              "price": null,
+              "currency": null,
+              "sourceUrl": "https://api.star-citizen.wiki/blueprints/bul-h4-helmet-snow-camo",
+              "sourceUpdatedAt": "2026-08-27T09:49:37.000000Z"
+            },
             {
               "type": "wikelo",
               "label": "完成维科洛合同",
@@ -14067,7 +14130,52 @@
               "sourceUpdatedAt": null
             }
           ],
-          "crafting": null,
+          "crafting": {
+            "sourceUrl": "https://api.star-citizen.wiki/blueprints/bul-h4-helmet-snow-camo",
+            "gameVersion": "4.10.0-LIVE.12519617",
+            "craftTimeSeconds": 210,
+            "ingredients": [
+              {
+                "id": "989f9b73-f636-4f35-a81d-579dcbe3f0ab",
+                "name": {
+                  "zh": "欧拉特烃",
+                  "en": "Ouratite",
+                  "localizationSource": "official_global_ini"
+                },
+                "quantity": 0.04,
+                "unit": "SCU",
+                "sourceUrl": "https://api.star-citizen.wiki/commodities/ca3ae4c1-3483-4985-ba61-50412994dc83"
+              },
+              {
+                "id": "07570c9f-fdf6-4bca-a56b-c42809ec0e01",
+                "name": {
+                  "zh": "钛",
+                  "en": "Titanium",
+                  "localizationSource": "official_global_ini"
+                },
+                "quantity": 0.04,
+                "unit": "SCU",
+                "sourceUrl": "https://api.star-citizen.wiki/commodities/64978449-1d87-4a16-ba55-4b5f94fee217"
+              },
+              {
+                "id": "fde0cd65-8827-4b23-804d-cc8845dfa7ac",
+                "name": {
+                  "zh": "阿斯莱晶体",
+                  "en": "Aslarite",
+                  "localizationSource": "official_global_ini"
+                },
+                "quantity": 0.02,
+                "unit": "SCU",
+                "sourceUrl": "https://api.star-citizen.wiki/commodities/f0c1f30b-001c-4a80-ac20-27df27183056"
+              }
+            ],
+            "unlocks": [
+              {
+                "title": "Heavy and Bright",
+                "sourceUrl": "https://api.star-citizen.wiki/missions/88bb3702-e20a-42e3-8ba3-328f2333e30c"
+              }
+            ]
+          },
           "requiredBy": [],
           "rewardedBy": [
             {
@@ -14297,9 +14405,9 @@
           },
           "category": "Cargo",
           "descriptionZh": "典型的科力晶有各种杂质，不过，在某些极其罕见的条件下，可以形成纯度超过90%的科力晶矿脉。对精度有严格要求的计算硬件通常会寻找纯净的科力晶。",
-          "imagePath": "/images/wiki/carinite-pure-base-model.webp",
+          "imagePath": "/images/ai-redraw/carinite-pure-ai-redraw.webp",
           "imageSourceUrl": "https://starcitizen.tools/Carinite",
-          "imageKind": "base_model",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/carinite-pure",
           "sourceUpdatedAt": "2026-07-16T13:06:43.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -14693,7 +14801,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/9/97/Coda_pistol_clip_side_800x400.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/coda-pistol-magazine-6-cap",
-          "sourceUpdatedAt": "2026-08-27T00:22:53.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:21:00.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -14701,7 +14809,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - 派罗星门 (尼克斯)、尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、Armor - 弧 L4 黯淡幽谷站、Live Fire Weapons - 尼克斯星门 (Stanton)、科途便利店 · 云景中心 · 奥里森",
+              "location": "可购买地点：Armor - 派罗星门 (尼克斯)、尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、科途便利店 · 云景中心 · 奥里森、Armor - CRU-L1、Live Fire Weapons - CRU-L1",
               "price": 124,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=coda-pistol-magazine-(6-cap)&tab=about",
@@ -14714,7 +14822,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/coda-pistol-magazine-6-cap",
-              "sourceUpdatedAt": "2026-08-27T00:22:53.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:21:00.000000Z"
             },
             {
               "type": "wikelo",
@@ -16575,9 +16683,9 @@
           },
           "category": "vehicle",
           "descriptionZh": null,
-          "imagePath": "/images/items/drak-clipper-collector-military.webp",
-          "imageSourceUrl": "https://media.starcitizen.tools/7/74/Clipper_attacking_ships_around_station_-_cropped.jpg",
-          "imageKind": "base_model",
+          "imagePath": "/images/ai-redraw/drake-clipper-wikelo-ai-redraw.webp",
+          "imageSourceUrl": "https://api.star-citizen.wiki/vehicles/drak-clipper-collector-military",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/vehicles/drak-clipper-collector-military",
           "sourceUpdatedAt": "2026-07-16T13:18:14.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -16600,7 +16708,7 @@
             {
               "tradeId": "41231c57-f186-4c5e-ae51-524fc1e1d9a3",
               "tradeName": {
-                "zh": "快船现在主打战斗",
+                "zh": "快帆现在主打战斗",
                 "en": "Clipper Fight Now",
                 "localizationSource": "official_global_ini"
               },
@@ -16665,7 +16773,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
-          "sourceUpdatedAt": "2026-08-27T00:19:02.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:17:36.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": false,
@@ -17178,11 +17286,11 @@
           },
           "category": "Weapon Attachment",
           "descriptionZh": "物品类型：电池\n容量：165\n适配于菲涅耳 能量轻机枪的电池，内含足够射击165次的电能。",
-          "imagePath": null,
-          "imageSourceUrl": null,
-          "imageKind": "none",
+          "imagePath": "/images/ai-redraw/fresnel-lmg-battery-ai-redraw.webp",
+          "imageSourceUrl": "https://api.star-citizen.wiki/items/fresnel-energy-lmg",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/fresnel-energy-lmg-battery-165-cap",
-          "sourceUpdatedAt": "2026-08-27T00:01:50.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -17203,7 +17311,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/fresnel-energy-lmg-battery-165-cap",
-              "sourceUpdatedAt": "2026-08-27T00:01:50.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z"
             },
             {
               "type": "wikelo",
@@ -18164,7 +18272,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/grassland-quasi-grazer-egg",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/grassland-quasi-grazer-egg",
-          "sourceUpdatedAt": "2026-08-27T00:08:19.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:07:36.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": false,
           "isCraftable": false,
@@ -18213,9 +18321,9 @@
           },
           "category": "Backpack (Armor)",
           "descriptionZh": null,
-          "imagePath": "/images/wiki/bul-h4-community.png",
+          "imagePath": "/images/ai-redraw/h4-pbf-ammo-carrier-ai-redraw.webp",
           "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
-          "imageKind": "base_model",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/h4-pbf-ammo-carrier",
           "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -18277,17 +18385,26 @@
             "en": "H4-PBF Ammo Carrier Snow Camo",
             "localizationSource": "official_global_ini"
           },
-          "category": "item",
-          "descriptionZh": null,
-          "imagePath": null,
-          "imageSourceUrl": null,
-          "imageKind": "none",
-          "sourceUrl": null,
-          "sourceUpdatedAt": null,
-          "sourceGameVersion": null,
+          "category": "Backpack (Armor)",
+          "descriptionZh": "物品类型：弹药携行具\n可适配胸甲类型：中型&重型\n储物空间：150K uSCU\n这款弹药携行具专为存放重机枪的备用弹药，可通过弹链直接连接至武器，确保在不影响射击的情况下进行长时间连续射击。\n这款雪地迷彩版采用白色数码迷彩图案，非常适合在冰冻环境中追踪猎物。",
+          "imagePath": "/images/ai-redraw/h4-pbf-ammo-carrier-snow-camo-ai-redraw.webp",
+          "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
+          "imageKind": "ai_redraw",
+          "sourceUrl": "https://api.star-citizen.wiki/items/h4-pbf-ammo-carrier-snow-camo",
+          "sourceUpdatedAt": "2026-08-27T09:49:37.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
-          "isCraftable": false,
+          "isCraftable": true,
           "acquisition": [
+            {
+              "type": "craft",
+              "label": "使用蓝图制作",
+              "location": "完整配方见下方“制作配方”",
+              "price": null,
+              "currency": null,
+              "sourceUrl": "https://api.star-citizen.wiki/blueprints/h4-pbf-ammo-carrier-snow-camo",
+              "sourceUpdatedAt": "2026-08-27T09:49:37.000000Z"
+            },
             {
               "type": "wikelo",
               "label": "完成维科洛合同",
@@ -18298,7 +18415,30 @@
               "sourceUpdatedAt": null
             }
           ],
-          "crafting": null,
+          "crafting": {
+            "sourceUrl": "https://api.star-citizen.wiki/blueprints/h4-pbf-ammo-carrier-snow-camo",
+            "gameVersion": "4.10.0-LIVE.12519617",
+            "craftTimeSeconds": 210,
+            "ingredients": [
+              {
+                "id": "07570c9f-fdf6-4bca-a56b-c42809ec0e01",
+                "name": {
+                  "zh": "钛",
+                  "en": "Titanium",
+                  "localizationSource": "official_global_ini"
+                },
+                "quantity": 0.04,
+                "unit": "SCU",
+                "sourceUrl": "https://api.star-citizen.wiki/commodities/64978449-1d87-4a16-ba55-4b5f94fee217"
+              }
+            ],
+            "unlocks": [
+              {
+                "title": "Heavy and Bright",
+                "sourceUrl": "https://api.star-citizen.wiki/missions/88bb3702-e20a-42e3-8ba3-328f2333e30c"
+              }
+            ]
+          },
           "requiredBy": [],
           "rewardedBy": [
             {
@@ -19043,7 +19183,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/karna-rifle",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/karna-rifle",
-          "sourceUpdatedAt": "2026-08-27T00:14:19.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:13:06.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -19064,7 +19204,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle",
-              "sourceUpdatedAt": "2026-08-27T00:14:19.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:13:06.000000Z"
             }
           ],
           "crafting": {
@@ -19172,7 +19312,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/4/40/Kasta_magazine_800x400.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/karna-rifle-battery-35-cap",
-          "sourceUpdatedAt": "2026-08-27T00:14:55.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:13:38.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -19180,7 +19320,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - 派罗星门 (尼克斯)、尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、Armor - 弧 L4 黯淡幽谷站、Live Fire Weapons - 尼克斯星门 (Stanton)、科途便利店 · 云景中心 · 奥里森",
+              "location": "可购买地点：Armor - 派罗星门 (尼克斯)、尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、科途便利店 · 云景中心 · 奥里森、Armor - CRU-L1、Live Fire Weapons - CRU-L1",
               "price": 248,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=karna-rifle-battery-(35-cap)&tab=about",
@@ -19193,7 +19333,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle-battery-35-cap",
-              "sourceUpdatedAt": "2026-08-27T00:14:55.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:13:38.000000Z"
             },
             {
               "type": "wikelo",
@@ -19508,7 +19648,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/killshot-rifle",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/killshot-rifle",
-          "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -19529,7 +19669,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/killshot-rifle",
-              "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z"
             }
           ],
           "crafting": {
@@ -19602,7 +19742,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/7/73/Killshot_Dominion_Camo_Rifle.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/killshot-rifle-magazine-45-cap",
-          "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -19623,7 +19763,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/killshot-rifle-magazine-45-cap",
-              "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z"
             },
             {
               "type": "wikelo",
@@ -19787,9 +19927,9 @@
           },
           "category": "vehicle",
           "descriptionZh": null,
-          "imagePath": "/images/wiki/l-22-alpha-wolf-base-model.webp",
+          "imagePath": "/images/ai-redraw/l22-alpha-wolf-wikelo-ai-redraw.webp",
           "imageSourceUrl": "https://starcitizen.tools/L-22_Alpha_Wolf",
-          "imageKind": "base_model",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/vehicles/krig-l22-alphawolf-collector-military",
           "sourceUpdatedAt": "2026-07-16T13:18:17.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -19893,9 +20033,9 @@
           },
           "category": "Misc",
           "descriptionZh": "这是维克洛特别设计的一种新型超材料测试样品。它会很轻也很坚固, 不过也可能并不会! 很适合拿来测试。",
-          "imagePath": "/images/wiki/metamaterial-test-146-reddit-reference.png",
-          "imageSourceUrl": "https://www.reddit.com/r/starcitizen/comments/1tfulxx/wikelo_l_22_wolf/",
-          "imageKind": "base_model",
+          "imagePath": "/images/ai-redraw/metamaterial-test-146-ai-redraw.webp",
+          "imageSourceUrl": "https://starcitizen.tools/Metamaterial_Test",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/metamaterial-test-146",
           "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -19981,12 +20121,12 @@
           },
           "category": "Misc",
           "descriptionZh": "这是一个由维克洛设计的新型超材料测试样本。我认为这将有助于提高运行速度。前两次测试效果不佳，但也许这次能成功。",
-          "imagePath": null,
-          "imageSourceUrl": null,
-          "imageKind": "none",
+          "imagePath": "/images/ai-redraw/metamaterial-test-152-ai-redraw.webp",
+          "imageSourceUrl": "https://api.star-citizen.wiki/blueprints/metamaterial-test-152",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/metamaterial-test-152",
-          "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:49:18.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": true,
           "acquisition": [
@@ -19997,12 +20137,12 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/metamaterial-test-152",
-              "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z"
+              "sourceUpdatedAt": "2026-08-27T09:49:18.000000Z"
             }
           ],
           "crafting": {
             "sourceUrl": "https://api.star-citizen.wiki/blueprints/metamaterial-test-152",
-            "gameVersion": "4.9.0-LIVE.12232306",
+            "gameVersion": "4.10.0-LIVE.12519617",
             "craftTimeSeconds": 10,
             "ingredients": [
               {
@@ -20039,7 +20179,7 @@
             {
               "tradeId": "41231c57-f186-4c5e-ae51-524fc1e1d9a3",
               "tradeName": {
-                "zh": "快船现在主打战斗",
+                "zh": "快帆现在主打战斗",
                 "en": "Clipper Fight Now",
                 "localizationSource": "official_global_ini"
               },
@@ -20492,9 +20632,9 @@
           },
           "category": "vehicle",
           "descriptionZh": null,
-          "imagePath": "/images/items/misc-starlancer-tac-collector-military.png",
-          "imageSourceUrl": "https://cstone.space/uifimages/14b8caeb-d5e1-4816-9537-86ef19afada8.png",
-          "imageKind": "base_model",
+          "imagePath": "/images/ai-redraw/starlancer-tac-wikelo-ai-redraw.webp",
+          "imageSourceUrl": "https://starcitizen.tools/File:Starlancer_TAC_Wikelo.png",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/vehicles/misc-starlancer-tac-collector-military",
           "sourceUpdatedAt": "2026-07-16T13:18:19.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -20535,9 +20675,9 @@
           },
           "category": "Arms (Armor)",
           "descriptionZh": "物品类型：重型护甲\n伤害减免：40%\n适用温度：-77 / 107 摄氏度\n辐射防护：26800 雷姆\n辐射清除率：145.8 雷姆 / 秒\n储物空间：7.5 uSCU\n由基尔戈&普尔大师级设计团队打造的蒙德 重型护甲。三层复合装甲板与最新防护技术无缝融合，这套护甲在提供实战级防护的同时，还配备了越级的舒适系统与特制的柔性关节结构。",
-          "imagePath": "/images/wiki/monde-keystone-official-reference.webp",
+          "imagePath": "/images/ai-redraw/monde-arms-ai-redraw.webp",
           "imageSourceUrl": "https://starcitizen.tools/File:Keystone_Gear_Pack.webp",
-          "imageKind": "base_model",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/monde-arms",
           "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -20852,9 +20992,9 @@
           },
           "category": "Torso (Armor)",
           "descriptionZh": "物品类型：重型护甲\n伤害减免：40%\n适用温度：-77 / 107 摄氏度\n辐射防护：26800 雷姆\n辐射清除率：145.8 雷姆 / 秒\n储物空间：12.0 uSCU\n可挂载背包类型：全部\n由基尔戈&普尔大师级设计团队打造的蒙德 重型护甲。三层复合装甲板与最新防护技术无缝融合，这套护甲在提供实战级防护的同时，还配备了越级的舒适系统与特制的柔性关节结构。",
-          "imagePath": "/images/wiki/monde-keystone-official-reference.webp",
+          "imagePath": "/images/ai-redraw/monde-core-ai-redraw.webp",
           "imageSourceUrl": "https://starcitizen.tools/File:Keystone_Gear_Pack.webp",
-          "imageKind": "base_model",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/monde-core",
           "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -21169,9 +21309,9 @@
           },
           "category": "Helmet (Armor)",
           "descriptionZh": "物品类型：重型护甲\n伤害减免：40%\n适用温度：-77 / 107 摄氏度\n辐射防护：26800 雷姆\n辐射清除率：145.8 雷姆 / 秒\n基尔戈&普尔大师级设计团队打造的蒙德 头盔。三层复合装甲板与最新防护技术无缝融合，这套护甲在提供实战级防护的同时，还配备了越级的舒适系统。",
-          "imagePath": "/images/wiki/monde-keystone-official-reference.webp",
+          "imagePath": "/images/ai-redraw/monde-helmet-ai-redraw.webp",
           "imageSourceUrl": "https://starcitizen.tools/File:Keystone_Gear_Pack.webp",
-          "imageKind": "base_model",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/monde-helmet",
           "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -21486,9 +21626,9 @@
           },
           "category": "Legs (Armor)",
           "descriptionZh": "物品类型：重型护甲\n伤害减免：40%\n适用温度：-77 / 107 摄氏度\n辐射防护：26800 雷姆\n辐射清除率：145.8 雷姆 / 秒\n储物空间：7.5 uSCU\n由基尔戈&普尔大师级设计团队打造的蒙德 重型护甲。三层复合装甲板与最新防护技术无缝融合，这套护甲在提供实战级防护的同时，还配备了越级的舒适系统与特制的柔性关节结构。",
-          "imagePath": "/images/wiki/monde-keystone-official-reference.webp",
+          "imagePath": "/images/ai-redraw/monde-legs-ai-redraw.webp",
           "imageSourceUrl": "https://starcitizen.tools/File:Keystone_Gear_Pack.webp",
-          "imageKind": "base_model",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/monde-legs",
           "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -21807,7 +21947,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/nn-13-cannon",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/nn-13-cannon",
-          "sourceUpdatedAt": "2026-08-27T00:03:36.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:03:11.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": false,
           "isCraftable": true,
@@ -21828,7 +21968,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/nn-13-cannon",
-              "sourceUpdatedAt": "2026-08-27T00:03:36.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:03:11.000000Z"
             }
           ],
           "crafting": {
@@ -22196,7 +22336,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/novikov-exploration-suit",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/novikov-exploration-suit",
-          "sourceUpdatedAt": "2026-08-27T00:19:11.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:17:39.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -22204,7 +22344,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：货运服务 · 列夫斯基、Cargo Services - 废墟空间站、货运服务 · 尼克斯星门（派罗）、Cargo Center Supplies - 炽天使空间站、货运中心用品店 · 拜基尼空间站",
+              "location": "可购买地点：货运服务 · 列夫斯基、Cargo Services - 废墟空间站、货运服务 · 尼克斯星门（派罗）、Cargo Center Supplies - 炽天使空间站、货运中心用品店 · 拜基尼空间站、货运中心用品店 · 特雷斯勒空间站",
               "price": 16116,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=novikov-exploration-suit&tab=about",
@@ -22217,7 +22357,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-exploration-suit",
-              "sourceUpdatedAt": "2026-08-27T00:19:11.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:17:39.000000Z"
             }
           ],
           "crafting": {
@@ -22302,7 +22442,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/novikov-helmet",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/novikov-helmet",
-          "sourceUpdatedAt": "2026-08-27T00:21:34.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:19:43.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": false,
           "isCraftable": true,
@@ -22310,7 +22450,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：货运服务 · 列夫斯基、Cargo Services - 废墟空间站、货运服务 · 尼克斯星门（派罗）、Cargo Center Supplies - 炽天使空间站、货运中心用品店 · 拜基尼空间站",
+              "location": "可购买地点：货运服务 · 列夫斯基、Cargo Services - 废墟空间站、货运服务 · 尼克斯星门（派罗）、Cargo Center Supplies - 炽天使空间站、货运中心用品店 · 拜基尼空间站、货运中心用品店 · 特雷斯勒空间站",
               "price": 11734,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=novikov-helmet&tab=about",
@@ -22323,7 +22463,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-helmet",
-              "sourceUpdatedAt": "2026-08-27T00:21:34.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:19:43.000000Z"
             }
           ],
           "crafting": {
@@ -23360,7 +23500,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/7/77/Kopion_Skull_Right.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/parallax-rifle-battery-80-cap",
-          "sourceUpdatedAt": "2026-08-27T00:01:50.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:33.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -23381,7 +23521,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/parallax-rifle-battery-80-cap",
-              "sourceUpdatedAt": "2026-08-27T00:01:50.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:01:33.000000Z"
             },
             {
               "type": "wikelo",
@@ -23870,7 +24010,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/b/b0/Make_VOLT_shotgun_angrier.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/prism-laser-shotgun-battery-20-cap",
-          "sourceUpdatedAt": "2026-08-27T00:01:50.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:33.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -23891,7 +24031,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/prism-laser-shotgun-battery-20-cap",
-              "sourceUpdatedAt": "2026-08-27T00:01:50.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:01:33.000000Z"
             },
             {
               "type": "wikelo",
@@ -24281,7 +24421,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/quartz-energy-smg-battery-45-cap",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/quartz-energy-smg-battery-45-cap",
-          "sourceUpdatedAt": "2026-08-27T00:01:50.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:33.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -24302,7 +24442,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/quartz-energy-smg-battery-45-cap",
-              "sourceUpdatedAt": "2026-08-27T00:01:50.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:01:33.000000Z"
             },
             {
               "type": "wikelo",
@@ -24467,7 +24607,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun",
-          "sourceUpdatedAt": "2026-08-27T00:09:16.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:08:30.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -24488,7 +24628,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun",
-              "sourceUpdatedAt": "2026-08-27T00:09:16.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:08:30.000000Z"
             }
           ],
           "crafting": {
@@ -24700,7 +24840,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/7/7c/R97_Crimson_Camo_Shotgun.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun-magazine-18-cap",
-          "sourceUpdatedAt": "2026-08-27T00:17:02.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:15:54.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -24708,7 +24848,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - 派罗星门 (尼克斯)、尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、Armor - 弧 L4 黯淡幽谷站、Live Fire Weapons - 尼克斯星门 (Stanton)、科途便利店 · 云景中心 · 奥里森",
+              "location": "可购买地点：Armor - 派罗星门 (尼克斯)、尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、科途便利店 · 云景中心 · 奥里森、Armor - CRU-L1、Live Fire Weapons - CRU-L1",
               "price": 520,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=r97-shotgun-magazine-(18-cap)&tab=about",
@@ -24721,7 +24861,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun-magazine-18-cap",
-              "sourceUpdatedAt": "2026-08-27T00:17:02.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:15:54.000000Z"
             },
             {
               "type": "wikelo",
@@ -24971,9 +25111,9 @@
           },
           "category": "Inventory Container",
           "descriptionZh": "一个由催化剂-PWL和反应物-01制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
-          "imagePath": "/images/wiki/rcmbnt-samples-community.jpg",
+          "imagePath": "/images/ai-redraw/rcmbnt-sample-container-ai-redraw.webp",
           "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
-          "imageKind": "base_model",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/rcmbnt-pwl-1",
           "sourceUpdatedAt": "2026-07-16T13:06:34.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -25044,9 +25184,9 @@
           },
           "category": "Inventory Container",
           "descriptionZh": "一个由催化剂-PWL和反应物-02制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
-          "imagePath": "/images/wiki/rcmbnt-samples-community.jpg",
+          "imagePath": "/images/ai-redraw/rcmbnt-sample-container-ai-redraw.webp",
           "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
-          "imageKind": "base_model",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/rcmbnt-pwl-2",
           "sourceUpdatedAt": "2026-07-16T13:06:34.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -25117,9 +25257,9 @@
           },
           "category": "Inventory Container",
           "descriptionZh": "一个由催化剂-PWL和反应物-03制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
-          "imagePath": "/images/wiki/rcmbnt-samples-community.jpg",
+          "imagePath": "/images/ai-redraw/rcmbnt-sample-container-ai-redraw.webp",
           "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
-          "imageKind": "base_model",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/rcmbnt-pwl-3",
           "sourceUpdatedAt": "2026-07-16T13:06:34.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -25190,9 +25330,9 @@
           },
           "category": "Inventory Container",
           "descriptionZh": "一个由催化剂-RGL和反应物-01制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
-          "imagePath": "/images/wiki/rcmbnt-samples-community.jpg",
+          "imagePath": "/images/ai-redraw/rcmbnt-sample-container-ai-redraw.webp",
           "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
-          "imageKind": "base_model",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/rcmbnt-rgl-1",
           "sourceUpdatedAt": "2026-07-16T13:06:34.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -25263,9 +25403,9 @@
           },
           "category": "Inventory Container",
           "descriptionZh": "一个由催化剂-RGL和反应物-02制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
-          "imagePath": "/images/wiki/rcmbnt-samples-community.jpg",
+          "imagePath": "/images/ai-redraw/rcmbnt-sample-container-ai-redraw.webp",
           "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
-          "imageKind": "base_model",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/rcmbnt-rgl-2",
           "sourceUpdatedAt": "2026-07-16T13:06:35.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -25336,9 +25476,9 @@
           },
           "category": "Inventory Container",
           "descriptionZh": "一个由催化剂-RGL和反应物-03制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
-          "imagePath": "/images/wiki/rcmbnt-samples-community.jpg",
+          "imagePath": "/images/ai-redraw/rcmbnt-sample-container-ai-redraw.webp",
           "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
-          "imageKind": "base_model",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/rcmbnt-rgl-3",
           "sourceUpdatedAt": "2026-07-16T13:06:35.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -25409,9 +25549,9 @@
           },
           "category": "Inventory Container",
           "descriptionZh": "一个由催化剂-XTL和反应物-01制成的印记重组样本，是洛根·约里特博士海伯利安项目实验的一部分。",
-          "imagePath": "/images/wiki/rcmbnt-samples-community.jpg",
+          "imagePath": "/images/ai-redraw/rcmbnt-sample-container-ai-redraw.webp",
           "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
-          "imageKind": "base_model",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/rcmbnt-xtl-1",
           "sourceUpdatedAt": "2026-07-16T13:06:35.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -26127,7 +26267,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/c/c0/S71_magazine_800x400.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/s71-rifle-magazine-30-cap",
-          "sourceUpdatedAt": "2026-08-27T00:32:43.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:30:44.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -26135,7 +26275,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - 派罗星门 (尼克斯)、尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、Armor - 弧 L4 黯淡幽谷站、Live Fire Weapons - 尼克斯星门 (Stanton)、科途便利店 · 云景中心 · 奥里森",
+              "location": "可购买地点：Armor - 派罗星门 (尼克斯)、尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、科途便利店 · 云景中心 · 奥里森、Armor - CRU-L1、Live Fire Weapons - CRU-L1",
               "price": 297,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=s71-rifle-magazine-(30-cap)&tab=about",
@@ -26148,7 +26288,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/s71-rifle-magazine-30-cap",
-              "sourceUpdatedAt": "2026-08-27T00:32:43.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:30:44.000000Z"
             },
             {
               "type": "wikelo",
@@ -26291,9 +26431,9 @@
           },
           "category": "Cargo",
           "descriptionZh": "一种由于其形成所需的特定环境条件而传统意义上极难大量找到的稀有金属。它因在生产高功率激光器中的应用而备受追捧。它还表现出一些抗菌特性，但由于稀缺性，其在医疗领域的应用较少。",
-          "imagePath": "/images/wiki/saldynium-ore-community-reference.webp",
+          "imagePath": "/images/ai-redraw/saldynium-ore-ai-redraw.webp",
           "imageSourceUrl": "https://sc-market.space/market/60603ff3-9ef2-438c-acbd-615064f7846e/",
-          "imageKind": "base_model",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/saldynium-ore",
           "sourceUpdatedAt": "2026-07-16T13:06:40.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -26447,11 +26587,11 @@
           },
           "category": "Arms (Armor)",
           "descriptionZh": "物品类型：中型护甲\n伤害减免：30%\n适用温度：-61 / 91 摄氏度\n辐射防护：26400雷姆\n辐射清除率：145.8 雷姆 / 秒\n灰猫工业的岩层 护甲专为矿工设计，但亦可以用于任何探险，为你提供优质的保护和方便的功能。每件护甲都采用棱角分明的精确设计，为那些最薄弱的地方提供保护。带有方便小袋的工具带和加固背包提供了充足的存储空间。屡获殊荣的头盔设计已被其他制造商效仿，但原版头盔仍以其优质材料和新一代空气过滤系统而独占鳌头，无论是在深矿井还是恶劣的环境中，都能实现清洁呼吸。",
-          "imagePath": null,
-          "imageSourceUrl": null,
-          "imageKind": "none",
+          "imagePath": "/images/ai-redraw/strata-arms-ai-redraw.webp",
+          "imageSourceUrl": "https://starcitizen.tools/Strata",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/strata-arms",
-          "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:35.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -26472,7 +26612,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-arms",
-              "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:01:35.000000Z"
             }
           ],
           "crafting": {
@@ -26627,7 +26767,7 @@
           "imageSourceUrl": "https://cstone.space/uifimages/a5bb46f9-c728-46c6-a4b2-53f21d96813a.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/strata-backpack",
-          "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:35.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -26648,7 +26788,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-backpack",
-              "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:01:35.000000Z"
             }
           ],
           "crafting": {
@@ -26747,11 +26887,11 @@
           },
           "category": "Torso (Armor)",
           "descriptionZh": "物品类型：中型护甲\n伤害减免：30%\n储物空间：15K uSCU\n适用温度：-61 / 91 摄氏度\n辐射防护：26400雷姆\n辐射清除率：145.8 雷姆 / 秒\n可挂载背包：轻型&中型\n灰猫工业的岩层 护甲专为矿工设计，但亦可以用于任何探险，为你提供优质的保护和方便的功能。每件护甲都采用棱角分明的精确设计，为那些最薄弱的地方提供保护。带有方便小袋的工具带和加固背包提供了充足的存储空间。屡获殊荣的头盔设计已被其他制造商效仿，但原版头盔仍以其优质材料和新一代空气过滤系统而独占鳌头，无论是在深矿井还是恶劣的环境中，都能实现清洁呼吸。",
-          "imagePath": null,
-          "imageSourceUrl": null,
-          "imageKind": "none",
+          "imagePath": "/images/ai-redraw/strata-core-ai-redraw.webp",
+          "imageSourceUrl": "https://starcitizen.tools/Strata",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/strata-core",
-          "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:35.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -26772,7 +26912,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-core",
-              "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:01:35.000000Z"
             }
           ],
           "crafting": {
@@ -26927,7 +27067,7 @@
           "imageSourceUrl": "https://cstone.space/uifimages/29a98f61-d24a-46de-9284-c863ee69fb26.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/strata-helmet",
-          "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:35.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -26948,7 +27088,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-helmet",
-              "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:01:35.000000Z"
             }
           ],
           "crafting": {
@@ -27058,11 +27198,11 @@
           },
           "category": "Legs (Armor)",
           "descriptionZh": "物品类型：中型护甲\n伤害减免：30%\n储物空间：10K uSCU\n适用温度：-61 / 91 摄氏度\n辐射防护：26400雷姆\n辐射清除率：145.8 雷姆 / 秒\n灰猫工业的岩层 护甲专为矿工设计，但亦可以用于任何探险，为你提供优质的保护和方便的功能。每件护甲都采用棱角分明的精确设计，为那些最薄弱的地方提供保护。带有方便小袋的工具带和加固背包提供了充足的存储空间。屡获殊荣的头盔设计已被其他制造商效仿，但原版头盔仍以其优质材料和新一代空气过滤系统而独占鳌头，无论是在深矿井还是恶劣的环境中，都能实现清洁呼吸。",
-          "imagePath": null,
-          "imageSourceUrl": null,
-          "imageKind": "none",
+          "imagePath": "/images/ai-redraw/strata-legs-ai-redraw.webp",
+          "imageSourceUrl": "https://starcitizen.tools/Strata",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/strata-legs",
-          "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:35.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -27083,7 +27223,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-legs",
-              "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:01:35.000000Z"
             }
           ],
           "crafting": {
@@ -27238,7 +27378,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-helmet",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-helmet",
-          "sourceUpdatedAt": "2026-08-27T00:01:52.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:35.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": false,
@@ -27399,7 +27539,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-suit",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-suit",
-          "sourceUpdatedAt": "2026-08-27T00:01:52.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:35.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -27420,7 +27560,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/tailwind-flight-suit",
-              "sourceUpdatedAt": "2026-08-27T00:01:52.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:01:35.000000Z"
             }
           ],
           "crafting": {
@@ -28661,7 +28801,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/0/0a/Shotgun-Pistol.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/tripledown-pistol",
-          "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -28682,7 +28822,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/tripledown-pistol",
-              "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z"
             }
           ],
           "crafting": {
@@ -28751,7 +28891,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/0/03/Hot_Shot.jpg",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/tripledown-pistol-magazine-12-cap",
-          "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -28772,7 +28912,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/tripledown-pistol-magazine-12-cap",
-              "sourceUpdatedAt": "2026-08-27T00:01:51.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z"
             },
             {
               "type": "wikelo",
@@ -29264,9 +29404,9 @@
           },
           "category": "FPS Weapon",
           "descriptionZh": null,
-          "imagePath": null,
-          "imageSourceUrl": null,
-          "imageKind": "none",
+          "imagePath": "/images/ai-redraw/vendetta-snow-camo-hmg-ai-redraw.webp",
+          "imageSourceUrl": "https://starcitizen.tools/Vendetta_%22Snow_Camo%22_HMG",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/vendetta-snow-camo-hmg",
           "sourceUpdatedAt": "2026-07-17T08:06:41.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -29332,7 +29472,7 @@
             {
               "tradeId": "a026b45d-6726-4a86-898c-e0207f2880c4",
               "tradeName": {
-                "zh": "枪太多了",
+                "zh": "太多枪了",
                 "en": "Too Much Gun",
                 "localizationSource": "official_global_ini"
               },
@@ -29375,7 +29515,7 @@
             {
               "tradeId": "a026b45d-6726-4a86-898c-e0207f2880c4",
               "tradeName": {
-                "zh": "枪太多了",
+                "zh": "太多枪了",
                 "en": "Too Much Gun",
                 "localizationSource": "official_global_ini"
               },
@@ -29397,20 +29537,11 @@
           "imageSourceUrl": "https://starcitizen.tools/Vendetta_HMG",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/vendetta-hmg",
-          "sourceUpdatedAt": "2026-08-27T00:01:52.000000Z",
+          "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
           "acquisition": [
-            {
-              "type": "purchase",
-              "label": "商店购买",
-              "location": "可购买地点：Cubby 18区",
-              "price": 27150,
-              "currency": "aUEC",
-              "sourceUrl": "https://uexcorp.space/items/info?name=vendetta-hmg&tab=about",
-              "sourceUpdatedAt": "2026-08-26T19:00:10+00:00"
-            },
             {
               "type": "craft",
               "label": "使用蓝图制作",
@@ -29418,7 +29549,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/vendetta-hmg",
-              "sourceUpdatedAt": "2026-08-27T00:01:52.000000Z"
+              "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z"
             }
           ],
           "crafting": {
@@ -29455,7 +29586,7 @@
             {
               "tradeId": "a026b45d-6726-4a86-898c-e0207f2880c4",
               "tradeName": {
-                "zh": "枪太多了",
+                "zh": "太多枪了",
                 "en": "Too Much Gun",
                 "localizationSource": "official_global_ini"
               },
@@ -29474,24 +29605,15 @@
           },
           "category": "Weapon Attachment",
           "descriptionZh": null,
-          "imagePath": null,
-          "imageSourceUrl": null,
-          "imageKind": "none",
+          "imagePath": "/images/ai-redraw/vendetta-hmg-magazine-ai-redraw.webp",
+          "imageSourceUrl": "https://starcitizen.tools/Vendetta_HMG",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/vendetta-hmg-magazine-1000-cap",
-          "sourceUpdatedAt": "2026-08-27T00:01:52.000000Z",
+          "sourceUpdatedAt": "2026-07-16T13:03:15.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": false,
           "acquisition": [
-            {
-              "type": "purchase",
-              "label": "商店购买",
-              "location": "可购买地点：Cubby 18区",
-              "price": 7425,
-              "currency": "aUEC",
-              "sourceUrl": "https://uexcorp.space/items/info?name=vendetta-hmg-magazine-(1000-cap)&tab=about",
-              "sourceUpdatedAt": "2026-08-26T19:00:10+00:00"
-            },
             {
               "type": "wikelo",
               "label": "完成维科洛合同",
@@ -29508,7 +29630,7 @@
             {
               "tradeId": "a026b45d-6726-4a86-898c-e0207f2880c4",
               "tradeName": {
-                "zh": "枪太多了",
+                "zh": "太多枪了",
                 "en": "Too Much Gun",
                 "localizationSource": "official_global_ini"
               },
@@ -29870,7 +29992,7 @@
           "imageSourceUrl": "https://starcitizen.tools/Venture_Core",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/venture-core",
-          "sourceUpdatedAt": "2026-08-27T00:23:12.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:21:17.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -29891,7 +30013,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-core",
-              "sourceUpdatedAt": "2026-08-27T00:23:12.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:21:17.000000Z"
             }
           ],
           "crafting": {
@@ -30334,7 +30456,7 @@
           "imageSourceUrl": "https://starcitizen.tools/Venture_Legs",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/venture-legs",
-          "sourceUpdatedAt": "2026-08-27T00:23:17.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:21:24.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -30355,7 +30477,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-legs",
-              "sourceUpdatedAt": "2026-08-27T00:23:17.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:21:24.000000Z"
             }
           ],
           "crafting": {
@@ -30765,9 +30887,9 @@
           },
           "category": "Backpack (Armor)",
           "descriptionZh": "物品类型：重型背包\n储物空间：150K uSCU\n可适配胸甲：重型\n这个来自维吉尔有限公司的重型背包是的旅行更加简单。不论你是需要一个储放武器的地方，或者是给你的长途旅行多带一些补给，这个背包是为了可以处理任何情况而设计。背包内部有着一个巨大的可封闭口袋来存放你的小型物件，避免它们掉出。\nMonde 版采用暗色金属饰面。",
-          "imagePath": "/images/wiki/warden-backpack-base-reference.png",
+          "imagePath": "/images/ai-redraw/warden-backpack-monde-ai-redraw.webp",
           "imageSourceUrl": "https://api.star-citizen.wiki/items/warden-backpack",
-          "imageKind": "base_model",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/warden-backpack-monde",
           "sourceUpdatedAt": "2026-07-17T08:09:30.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -31292,7 +31414,7 @@
             {
               "tradeId": "a026b45d-6726-4a86-898c-e0207f2880c4",
               "tradeName": {
-                "zh": "枪太多了",
+                "zh": "太多枪了",
                 "en": "Too Much Gun",
                 "localizationSource": "official_global_ini"
               },
@@ -31590,9 +31712,9 @@
           },
           "category": "FPS Weapon",
           "descriptionZh": "贝林公司推出的XDL单筒测距仪精度极高，无论是远征探险还是战场作战皆能胜任。该设备采用坚固耐用的结构设计，配备优质镜片、清晰易读的显示屏及光线增强模式，10倍放大倍率可精准测量远距离目标的激光距离。\nI 型采用灰色与钢蓝色涂装。",
-          "imagePath": "/images/items/behr-binoculars-01-collector01.png",
-          "imageSourceUrl": "https://cstone.space/uifimages/08124949-6620-431c-96e3-65107e22dc9d.png",
-          "imageKind": "base_model",
+          "imagePath": "/images/ai-redraw/xdl-mark-i-rangefinder-ai-redraw.webp",
+          "imageSourceUrl": "https://api.star-citizen.wiki/items/xdl-mark-i-monocular-rangefinder",
+          "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/xdl-mark-i-monocular-rangefinder",
           "sourceUpdatedAt": "2026-07-17T08:06:47.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
@@ -32025,7 +32147,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/6/6c/Zenith_Snow_Camo_Laser_Sniper_Rifle.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/zenith-laser-sniper-rifle-battery-22-cap",
-          "sourceUpdatedAt": "2026-08-27T00:01:50.000000Z",
+          "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z",
           "sourceGameVersion": "4.9.0-LIVE.12232306",
           "isLootable": true,
           "isCraftable": true,
@@ -32046,7 +32168,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/zenith-laser-sniper-rifle-battery-22-cap",
-              "sourceUpdatedAt": "2026-08-27T00:01:50.000000Z"
+              "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z"
             },
             {
               "type": "wikelo",

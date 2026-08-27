@@ -122,9 +122,10 @@ async function main() {
   const official = await loadOfficialLocalization(localizationSource, derivedLocalizationSource);
   const trades = normalizeTrades({ dumperData, secondaryTrades, localization: official, gameVersion, fetchedAt });
   const wikiImages = await loadWikiImages(path.join(projectRoot, "data/source-snapshots/wiki-contract-images.json"));
+  const aiRedrawItemImages = await loadWikiImages(path.join(projectRoot, "data/source-snapshots/ai-redraw-item-images.json"));
   const wikiItemImages = await loadWikiImages(path.join(projectRoot, "data/source-snapshots/wiki-item-images.json"));
   const apiItemImages = await loadWikiImages(path.join(projectRoot, "data/source-snapshots/api-item-images.json"));
-  wikiItemImages.items = [...wikiItemImages.items, ...apiItemImages.items];
+  wikiItemImages.items = [...wikiItemImages.items, ...apiItemImages.items, ...aiRedrawItemImages.items];
   const acquisitionOverrides = await readJson(path.join(projectRoot, "data/source-snapshots/item-acquisition-overrides.json"), { items: {} });
   const acquisitionAudit = await readJson(path.join(projectRoot, "data/source-snapshots/item-acquisition-audit.json"), { items: {} });
   acquisitionOverrides.items = { ...acquisitionOverrides.items, ...acquisitionAudit.items };

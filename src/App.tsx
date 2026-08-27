@@ -74,6 +74,7 @@ function cleanGameMarkup(value: string) {
 
 function imageKindLabel(kind: ItemRecord["imageKind"], compact = false) {
   if (kind === "base_model") return compact ? "参考图" : "参考图";
+  if (kind === "ai_redraw") return "AI重绘";
   return null;
 }
 

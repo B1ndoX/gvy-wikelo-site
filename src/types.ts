@@ -80,7 +80,7 @@ export type ItemRecord = {
   descriptionZh: string | null;
   imagePath: string | null;
   imageSourceUrl: string | null;
-  imageKind: "exact" | "base_model" | "community" | "none";
+  imageKind: "exact" | "base_model" | "community" | "ai_redraw" | "none";
   sourceUrl: string | null;
   sourceUpdatedAt: string | null;
   sourceGameVersion: string | null;

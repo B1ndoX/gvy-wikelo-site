@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-27T07:09:49.582Z",
+  "generatedAt": "2026-08-27T18:21:36.943Z",
   "gameVersion": "4.10.0 LIVE.12519617",
   "totals": {
     "trades": 86,
@@ -8,21 +8,16 @@
     "requirementItems": 118,
     "localizedItems": 271,
     "localizedTrades": 86,
-    "localizedCraftingIngredients": 258,
-    "requirementItemsWithImages": 114,
+    "localizedCraftingIngredients": 265,
+    "requirementItemsWithImages": 118,
     "requirementItemsWithAcquisition": 118
   },
   "errors": [],
   "warnings": [
     {
       "code": "missing-requirement-images",
-      "count": 4,
-      "ids": [
-        "carryable_2h_sq_collectormaterial_002",
-        "grin_utility_medium_arms_02_01_01",
-        "grin_utility_medium_core_02_01_01",
-        "grin_utility_medium_legs_02_01_01"
-      ],
+      "count": 0,
+      "ids": [],
       "note": "Image gaps are reported, not filled with an invented or mismatched image."
     }
   ],

@@ -1,11 +1,9 @@
 {
   "sourcePath": "/Users/bindox/Documents/data/localization/chinese_(simplified)/global.ini",
-  "sourceSha256": "f978665610ab3d45587b66831883efaa6ce61c4031a13c1abcd4f08dcbc9a027",
-  "sourceUpdatedAt": "2026-07-17T07:29:26.000Z",
-  "usingDerivedSnapshot": true,
-  "derivedSnapshotPath": "/home/runner/work/gvy-wikelo-site/gvy-wikelo-site/data/localization/official-global-derived.json",
-  "derivedGeneratedAt": "2026-08-27T07:06:11.071Z",
-  "generatedAt": "2026-08-27T07:09:49.582Z",
+  "sourceSha256": "ac38be1610656a39b31657a14fe478b17693fafcb20ecd25b598e783699acd1d",
+  "sourceUpdatedAt": "2026-08-27T06:32:34.000Z",
+  "usingDerivedSnapshot": false,
+  "generatedAt": "2026-08-27T18:21:03.924Z",
   "entries": {
     "basl_combat_light_helmet_02_01_01": {
       "zh": "王牌截击者 头盔",

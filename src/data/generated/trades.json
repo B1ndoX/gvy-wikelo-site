@@ -1,48 +1,48 @@
 {
   "schemaVersion": "1.0.0",
   "gameVersion": "4.10.0 LIVE.12519617",
-  "generatedAt": "2026-08-27T07:09:49.582Z",
+  "generatedAt": "2026-08-27T18:21:03.924Z",
   "sourceStatus": [
     {
       "url": "https://dumpers-repo.com/wikelo/",
       "status": "ok",
       "updatedAt": "2026-08-26T23:07:01.909Z",
-      "checkedAt": "2026-08-27T07:09:49.582Z",
+      "checkedAt": "2026-08-27T18:21:03.924Z",
       "note": null
     },
     {
       "url": "https://wikelotrades.com/how-it-works",
       "status": "ok",
       "updatedAt": "2026-06-04 06:59:50 UTC",
-      "checkedAt": "2026-08-27T07:09:49.582Z",
+      "checkedAt": "2026-08-27T18:21:03.924Z",
       "note": "Latest published secondary patch: 4.8.1"
     },
     {
       "url": "https://starcitizen.tools/Wikelo",
       "status": "ok",
       "updatedAt": "2026-07-14T14:39:00.000Z",
-      "checkedAt": "2026-08-27T07:09:49.582Z",
+      "checkedAt": "2026-08-27T18:21:03.924Z",
       "note": null
     },
     {
       "url": "https://starcitizen.tools/Wikelo_Emporium",
       "status": "snapshot",
       "updatedAt": "2025-08-09T16:35:00.000Z",
-      "checkedAt": "2026-08-27T07:09:49.582Z",
+      "checkedAt": "2026-08-27T18:21:03.924Z",
       "note": "Station list cross-check snapshot."
     },
     {
       "url": "https://api.star-citizen.wiki",
       "status": "ok",
       "updatedAt": null,
-      "checkedAt": "2026-08-27T07:09:49.582Z",
+      "checkedAt": "2026-08-27T18:21:03.924Z",
       "note": "Item API version unavailable."
     },
     {
       "url": "https://api.sc-market.space/api/v2",
       "status": "snapshot",
       "updatedAt": "2026-07-25T18:36:56.065Z",
-      "checkedAt": "2026-08-27T07:09:49.582Z",
+      "checkedAt": "2026-08-27T18:21:03.924Z",
       "note": "Public secondary game-data API: 4.9.0-LIVE.12232306. Player listing prices are not imported into fixed Wikelo recipes."
     }
   ],
@@ -232,7 +232,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -317,7 +317,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "conflict",
       "conflicts": [
         {
@@ -458,7 +458,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "conflict",
       "conflicts": [
         {
@@ -585,7 +585,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -670,7 +670,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -678,7 +678,7 @@
       "id": "41231c57-f186-4c5e-ae51-524fc1e1d9a3",
       "debugName": "TheCollector_Vehicle_DrakeClipper",
       "name": {
-        "zh": "快船现在主打战斗",
+        "zh": "快帆现在主打战斗",
         "en": "Clipper Fight Now",
         "localizationSource": "official_global_ini"
       },
@@ -741,7 +741,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -813,7 +813,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -911,7 +911,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "conflict",
       "conflicts": [
         {
@@ -1048,7 +1048,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -1120,7 +1120,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -1192,7 +1192,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -1290,7 +1290,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -1388,7 +1388,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -1499,7 +1499,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -1584,7 +1584,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -1682,7 +1682,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -1793,7 +1793,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "conflict",
       "conflicts": [
         {
@@ -1915,7 +1915,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -2039,7 +2039,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "conflict",
       "conflicts": [
         {
@@ -2203,7 +2203,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -2509,7 +2509,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -2567,7 +2567,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -2639,7 +2639,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -2750,7 +2750,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -2861,7 +2861,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "conflict",
       "conflicts": [
         {
@@ -2945,7 +2945,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -3056,7 +3056,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -3128,7 +3128,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -3239,7 +3239,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -3337,7 +3337,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "conflict",
       "conflicts": [
         {
@@ -3452,7 +3452,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -3757,7 +3757,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -3829,7 +3829,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -3927,7 +3927,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -4077,7 +4077,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -4149,7 +4149,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -4247,7 +4247,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -4332,7 +4332,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -4430,7 +4430,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "conflict",
       "conflicts": [
         {
@@ -4545,7 +4545,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "conflict",
       "conflicts": [
         {
@@ -4660,7 +4660,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -4732,7 +4732,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -4920,7 +4920,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -5070,7 +5070,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "conflict",
       "conflicts": [
         {
@@ -5306,7 +5306,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -5429,7 +5429,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -5527,7 +5527,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -5742,7 +5742,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -5839,7 +5839,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -5949,7 +5949,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -6073,7 +6073,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -6196,7 +6196,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -6320,7 +6320,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -6443,7 +6443,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -6605,7 +6605,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -6728,7 +6728,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -6904,7 +6904,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -7002,7 +7002,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -7177,7 +7177,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -7327,7 +7327,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "conflict",
       "conflicts": [
         {
@@ -7462,7 +7462,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -7637,7 +7637,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -7735,7 +7735,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -7858,7 +7858,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -8047,7 +8047,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "conflict",
       "conflicts": [
         {
@@ -8170,7 +8170,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -8385,7 +8385,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -8470,7 +8470,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -8607,7 +8607,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -8796,7 +8796,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "conflict",
       "conflicts": [
         {
@@ -8829,7 +8829,7 @@
       "id": "a026b45d-6726-4a86-898c-e0207f2880c4",
       "debugName": "TheCollector_apar_hmg",
       "name": {
-        "zh": "枪太多了",
+        "zh": "太多枪了",
         "en": "Too Much Gun",
         "localizationSource": "official_global_ini"
       },
@@ -8918,7 +8918,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -9028,7 +9028,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -9177,7 +9177,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -9352,7 +9352,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -9436,7 +9436,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -9559,7 +9559,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -9644,7 +9644,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "conflict",
       "conflicts": [
         {
@@ -9772,7 +9772,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -9882,7 +9882,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -9941,7 +9941,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -10000,7 +10000,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -10059,7 +10059,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -10118,7 +10118,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     },
@@ -10177,7 +10177,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "conflict",
       "conflicts": [
         {
@@ -10251,7 +10251,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "single_source",
       "conflicts": []
     },
@@ -10309,7 +10309,7 @@
         "https://starcitizen.tools/Wikelo"
       ],
       "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-      "fetchedAt": "2026-08-27T07:09:49.582Z",
+      "fetchedAt": "2026-08-27T18:21:03.924Z",
       "validationStatus": "verified",
       "conflicts": []
     }

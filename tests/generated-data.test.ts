@@ -65,7 +65,8 @@ describe("generated stable data", () => {
     }
 
     const l22 = itemsData.items.find((candidate) => candidate.id === "krig_l22_alphawolf_collector_military");
-    expect(l22?.imageKind).toBe("base_model");
+    expect(l22?.imageKind).toBe("ai_redraw");
+    expect(l22?.imagePath).toBe("/images/ai-redraw/l22-alpha-wolf-wikelo-ai-redraw.webp");
     expect(l22?.imageSourceUrl).toBe("https://starcitizen.tools/L-22_Alpha_Wolf");
     expect(readFileSync(resolve(process.cwd(), `public${l22?.imagePath}`)).byteLength).toBeGreaterThan(10_000);
   });
@@ -124,8 +125,23 @@ describe("generated stable data", () => {
     expect(carinite?.imageSourceUrl).toBe("https://starcitizen.tools/Carinite");
 
     const pureCarinite = itemsData.items.find((candidate) => candidate.id === "harvestable_mineral_1h_carinitepure");
-    expect(pureCarinite?.imageKind).toBe("base_model");
+    expect(pureCarinite?.imageKind).toBe("ai_redraw");
+    expect(pureCarinite?.imagePath).toBe("/images/ai-redraw/carinite-pure-ai-redraw.webp");
     expect(pureCarinite?.imageSourceUrl).toBe("https://starcitizen.tools/Carinite");
+  });
+
+  it("keeps AI redraws explicit, bundled, and limited to renderable items", () => {
+    const redraws = itemsData.items.filter((item) => item.imageKind === "ai_redraw");
+    expect(redraws).toHaveLength(32);
+
+    for (const item of redraws) {
+      expect(item.imagePath).toMatch(/^\/images\/ai-redraw\/.+\.webp$/);
+      expect(item.imageSourceUrl).toMatch(/^https:\/\//);
+      expect(readFileSync(resolve(process.cwd(), `public${item.imagePath}`)).byteLength).toBeGreaterThan(10_000);
+    }
+
+    const missingRenderableImages = itemsData.items.filter((item) => item.imageKind === "none" && item.category !== "blueprint");
+    expect(missingRenderableImages).toEqual([]);
   });
 
   it("uses verified exact images for Venture armor, Jaclium ore, and the Vendetta HMG", () => {
