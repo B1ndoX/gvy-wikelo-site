@@ -72,9 +72,8 @@ function cleanGameMarkup(value: string) {
   return value.replace(/<\/?[A-Z][A-Z0-9_]*>/gi, "").trim();
 }
 
-function imageKindLabel(kind: ItemRecord["imageKind"], compact = false) {
-  if (kind === "base_model") return compact ? "参考图" : "参考图";
-  if (kind === "ai_redraw") return "AI重绘";
+function imageKindLabel(kind: ItemRecord["imageKind"]) {
+  if (kind === "base_model") return "参考图";
   return null;
 }
 
@@ -358,7 +357,7 @@ function TradeCard({ trade, itemById, onOpen, onItemClick }: {
 }) {
   const primaryReward = trade.rewards[0];
   const rewardItem = primaryReward ? itemById.get(primaryReward.id) : null;
-  const imageLabel = rewardItem ? imageKindLabel(rewardItem.imageKind, true) : null;
+  const imageLabel = rewardItem ? imageKindLabel(rewardItem.imageKind) : null;
   return (
     <article className="trade-card">
       <button className="trade-card-summary" type="button" onClick={onOpen} aria-label={`查看交易 ${primaryName(trade.name)}`}>

@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://starcitizen.tools/",
-  "checkedAt": "2026-08-26T14:09:42+08:00",
+  "checkedAt": "2026-08-28T13:01:54+08:00",
   "items": [
     {
       "id": "argo_atls_geo_collector_grad03",
@@ -636,6 +636,54 @@
       "hasWatermark": false,
       "sha256": "d2fd803450a55b2e50a77878ec14f30d6066315f5f7c759ebd7465e2cdf52695",
       "sourceNote": "由项目所有者提供；画面文字明确标识 IRRADIATED VALAKKAR FANG (APEX)，按精确实图收录。"
+    },
+    {
+      "id": "cds_combat_superheavy_suit_01_03_01",
+      "title": "BUL-H4 Armor Snow Camo",
+      "fileName": "bul-h4-snow-camo-user-provided",
+      "pageUrl": null,
+      "imageUrl": null,
+      "localPath": "/images/wiki/bul-h4-snow-camo-user-provided.webp",
+      "bundledFromUrl": null,
+      "imageKind": "exact",
+      "sourceType": "user_provided",
+      "providedAt": "2026-08-28T13:01:54+08:00",
+      "hasWatermark": false,
+      "sourceSha256": "226e1e91e0e0950cf4dcc328766891f63e4e80c15c0e95dcd039c2d3167a1568",
+      "sha256": "24351b4359c208f3952cfdbf86d61138380424d6476a02536765c6e710d4cda7",
+      "sourceNote": "由项目所有者提供；真实游戏内完整展示“沉重又明亮”合同奖励的 BUL-H4 护甲雪地迷彩，按精确实图收录。"
+    },
+    {
+      "id": "cds_combat_superheavy_helmet_01_03_01",
+      "title": "BUL-H4 Helmet Snow Camo",
+      "fileName": "bul-h4-snow-camo-user-provided",
+      "pageUrl": null,
+      "imageUrl": null,
+      "localPath": "/images/wiki/bul-h4-snow-camo-user-provided.webp",
+      "bundledFromUrl": null,
+      "imageKind": "exact",
+      "sourceType": "user_provided",
+      "providedAt": "2026-08-28T13:01:54+08:00",
+      "hasWatermark": false,
+      "sourceSha256": "226e1e91e0e0950cf4dcc328766891f63e4e80c15c0e95dcd039c2d3167a1568",
+      "sha256": "24351b4359c208f3952cfdbf86d61138380424d6476a02536765c6e710d4cda7",
+      "sourceNote": "由项目所有者提供；真实游戏内完整展示“沉重又明亮”合同奖励的 BUL-H4 头盔雪地迷彩，按精确实图收录。"
+    },
+    {
+      "id": "cds_combat_superheavy_backpack_01_03_01",
+      "title": "H4-PBF Ammo Carrier Snow Camo",
+      "fileName": "bul-h4-snow-camo-detail-user-provided",
+      "pageUrl": null,
+      "imageUrl": null,
+      "localPath": "/images/wiki/bul-h4-snow-camo-detail-user-provided.webp",
+      "bundledFromUrl": null,
+      "imageKind": "exact",
+      "sourceType": "user_provided",
+      "providedAt": "2026-08-28T13:01:54+08:00",
+      "hasWatermark": false,
+      "sourceSha256": "504b46e0f617c3eeeef7122028cad5f7c467c3ccd13bdf2d3c5ca57113a97876",
+      "sha256": "b913376d2d7279fe3035e0a5e05e1130f43c74158b86f2ae9e363370dc29aafd",
+      "sourceNote": "由项目所有者提供；真实游戏内近景清晰展示“沉重又明亮”合同奖励的 H4-PBF 弹药携具雪地迷彩与供弹带，按精确实图收录。"
     },
     {
       "id": "cds_combat_superheavy_backpack_01_01_01",

@@ -225,36 +225,6 @@
       "sourceNote": "Image 2 依据 XDL Mark I 实物图清晰化重绘。"
     },
     {
-      "id": "cds_combat_superheavy_suit_01_03_01",
-      "title": "BUL-H4 Armor Snow Camo",
-      "pageUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
-      "imageUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
-      "localPath": "/images/ai-redraw/bul-h4-armor-snow-camo-ai-redraw.webp",
-      "imageKind": "ai_redraw",
-      "redrawType": "reconstruction",
-      "sourceNote": "Image 2 以 RSI Community Hub 的 BUL-H4 基础版实图为唯一结构参考重绘；严格保留超重型头盔、胸肩与动力四肢轮廓，仅替换为 Snow Camo 涂装。"
-    },
-    {
-      "id": "cds_combat_superheavy_helmet_01_03_01",
-      "title": "BUL-H4 Helmet Snow Camo",
-      "pageUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
-      "imageUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
-      "localPath": "/images/ai-redraw/bul-h4-helmet-snow-camo-ai-redraw.webp",
-      "imageKind": "ai_redraw",
-      "redrawType": "reconstruction",
-      "sourceNote": "Image 2 依据 BUL-H4 真实游戏结构重绘 Snow Camo 头盔。"
-    },
-    {
-      "id": "cds_combat_superheavy_backpack_01_03_01",
-      "title": "H4-PBF Ammo Carrier Snow Camo",
-      "pageUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
-      "imageUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
-      "localPath": "/images/ai-redraw/h4-pbf-ammo-carrier-snow-camo-ai-redraw.webp",
-      "imageKind": "ai_redraw",
-      "redrawType": "reconstruction",
-      "sourceNote": "Image 2 依据 BUL-H4 系列结构与物品名称重建 Snow Camo 弹药携具。"
-    },
-    {
       "id": "carryable_2h_sq_collectormaterial_002",
       "title": "Metamaterial Test #152",
       "pageUrl": "https://api.star-citizen.wiki/blueprints/metamaterial-test-152",
@@ -329,18 +299,6 @@
       "outputHasWatermark": false
     },
     {
-      "localPath": "/images/ai-redraw/bul-h4-armor-snow-camo-ai-redraw.webp",
-      "sha256": "b50fd7f8d37a026d0808ce821ae876341eb8fc6bc26819f05896f15be6ff6792",
-      "generationArtifact": "exec-fd6dd6ca-c800-4895-b532-5722558e5c8e.png",
-      "outputHasWatermark": false
-    },
-    {
-      "localPath": "/images/ai-redraw/bul-h4-helmet-snow-camo-ai-redraw.webp",
-      "sha256": "a52b220b830f8783b0a9f635c274637ea6a81eddf52e26bb599562a7865a930d",
-      "generationArtifact": "exec-b83904fa-e9c0-42aa-ab4c-f3897394d122.png",
-      "outputHasWatermark": false
-    },
-    {
       "localPath": "/images/ai-redraw/carinite-pure-ai-redraw.webp",
       "sha256": "b5b6afd8d9fe960810e8efc4f85efaeab70b888e3b571fe46eb39f8449e68173",
       "generationArtifact": "exec-4182f760-e2c3-48ab-9a2a-c40a5327edfe.png",
@@ -362,12 +320,6 @@
       "localPath": "/images/ai-redraw/h4-pbf-ammo-carrier-ai-redraw.webp",
       "sha256": "9487bfa3613076c52103871ed1b72dcd34387454c921a9f0df14332334659b85",
       "generationArtifact": "exec-03f1d4d0-cccf-48fb-8ebf-b93af948b9b4.png",
-      "outputHasWatermark": false
-    },
-    {
-      "localPath": "/images/ai-redraw/h4-pbf-ammo-carrier-snow-camo-ai-redraw.webp",
-      "sha256": "80cf117b969f6e3c49163de8e048319c9628a2166245d54bd078fb26727cc7d6",
-      "generationArtifact": "exec-6ebd7f3f-0a50-4fa6-94b1-e37f20675a12.png",
       "outputHasWatermark": false
     },
     {

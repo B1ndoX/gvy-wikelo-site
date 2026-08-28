@@ -132,7 +132,11 @@ describe("generated stable data", () => {
 
   it("keeps AI redraws explicit, bundled, and limited to renderable items", () => {
     const redraws = itemsData.items.filter((item) => item.imageKind === "ai_redraw");
-    expect(redraws).toHaveLength(32);
+    const redrawSnapshot = JSON.parse(readFileSync(
+      resolve(process.cwd(), "data/source-snapshots/ai-redraw-item-images.json"),
+      "utf8",
+    ));
+    expect(redraws).toHaveLength(redrawSnapshot.items.length);
 
     for (const item of redraws) {
       expect(item.imagePath).toMatch(/^\/images\/ai-redraw\/.+\.webp$/);
@@ -156,6 +160,19 @@ describe("generated stable data", () => {
       expect(item?.imageKind).toBe("exact");
       expect(item?.imagePath).toBe(imagePath);
       expect(readFileSync(resolve(process.cwd(), `public${imagePath}`)).byteLength).toBeGreaterThan(100_000);
+    }
+
+    const snowCamoExpected = new Map([
+      ["cds_combat_superheavy_suit_01_03_01", "/images/wiki/bul-h4-snow-camo-user-provided.webp"],
+      ["cds_combat_superheavy_helmet_01_03_01", "/images/wiki/bul-h4-snow-camo-user-provided.webp"],
+      ["cds_combat_superheavy_backpack_01_03_01", "/images/wiki/bul-h4-snow-camo-detail-user-provided.webp"],
+    ]);
+    for (const [id, imagePath] of snowCamoExpected) {
+      const item = itemsData.items.find((candidate) => candidate.id === id);
+      expect(item?.imageKind).toBe("exact");
+      expect(item?.imagePath).toBe(imagePath);
+      expect(item?.imageSourceUrl).toBeNull();
+      expect(readFileSync(resolve(process.cwd(), `public${imagePath}`)).byteLength).toBeGreaterThan(10_000);
     }
 
     for (const id of ["cds_combat_superheavy_suit_01_01_01", "cds_combat_superheavy_helmet_01_01_01"]) {
