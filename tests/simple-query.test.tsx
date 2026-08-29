@@ -20,6 +20,9 @@ describe("simple material query flow", () => {
     expect(within(versionBadge).getByRole("tooltip")).toHaveTextContent(/^更新 \d{4}\/\d{2}\/\d{2} \d{2}:\d{2}$/);
     expect(screen.queryByRole("listbox", { name: "游戏版本" })).not.toBeInTheDocument();
     expect(screen.queryByText("PTU")).not.toBeInTheDocument();
+    for (const card of screen.getAllByRole("article")) {
+      expect(within(card).queryByText(/^\d+\.\d+\.\d+ LIVE$/)).not.toBeInTheDocument();
+    }
   });
 
   it("keeps public pages free of source links and internal validation language", () => {

@@ -370,7 +370,7 @@ function TradeCard({ trade, itemById, onOpen, onItemClick }: {
           badge={imageLabel ? <small className={`reference-badge ${rewardItem?.imageKind}`}>{imageLabel}</small> : null}
         />
         <span className="trade-card-heading">
-          <span className="trade-card-topline"><span className="category-chip">{categoryLabel(trade.category)}</span><small>{formatVersion(trade.gameVersion)}</small></span>
+          <span className="trade-card-topline"><span className="category-chip">{categoryLabel(trade.category)}</span></span>
           <strong>{primaryName(trade.name)}</strong>
           {secondaryName(trade.name) && <small className="trade-card-en">{secondaryName(trade.name)}</small>}
           {primaryReward && <span className="trade-card-reward">奖励：{primaryName(primaryReward.name)}{trade.rewards.length > 1 ? ` 等 ${trade.rewards.length} 项` : ""}</span>}

@@ -459,10 +459,6 @@ main {
   color: var(--muted-soft);
 }
 
-.trade-card-topline small {
-  font-size: 9px;
-}
-
 .category-chip {
   padding: 4px 8px;
   border: 1px solid rgba(113, 220, 255, 0.16);
