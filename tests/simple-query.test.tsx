@@ -7,8 +7,10 @@ describe("simple material query flow", () => {
   it("keeps the compact header links and removes the obsolete data strip", () => {
     render(<App />);
 
-    expect(screen.getByRole("link", { name: "舰队官网" })).toHaveAttribute("href", "https://www.gvyvoyagers.vip");
+    expect(screen.getByRole("link", { name: "星远舰队" })).toHaveAttribute("href", "https://www.gvyvoyagers.vip");
     expect(screen.getByRole("link", { name: "蓝图站" })).toHaveAttribute("href", "https://lantu.gvyvoyagers.vip");
+    expect(screen.getAllByText("星远舰队")).toHaveLength(2);
+    expect(screen.queryByText("星际远航者")).not.toBeInTheDocument();
     expect(screen.queryByText("数据说明")).not.toBeInTheDocument();
   });
 
@@ -40,7 +42,7 @@ describe("simple material query flow", () => {
     expect(itemDialog).not.toHaveTextContent(/公开来源|内部任务占位|物品资料版本/);
 
     const allowedLinks = screen.getAllByRole("link").map((link) => link.textContent?.trim());
-    expect(allowedLinks).toEqual(expect.arrayContaining(["舰队官网", "蓝图站", "陕ICP备2026017597号-1", "陕公网安备61019702000690号"]));
+    expect(allowedLinks).toEqual(expect.arrayContaining(["星远舰队", "蓝图站", "陕ICP备2026017597号-1", "陕公网安备61019702000690号"]));
     expect(allowedLinks).toHaveLength(4);
   });
 

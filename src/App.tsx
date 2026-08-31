@@ -259,7 +259,7 @@ export default function App() {
         </div>
         <div className="top-actions">
           <nav aria-label="相关站点">
-            <a href="https://www.gvyvoyagers.vip" target="_blank" rel="noreferrer">舰队官网</a>
+            <a href="https://www.gvyvoyagers.vip" target="_blank" rel="noreferrer">星远舰队</a>
             <a href="https://lantu.gvyvoyagers.vip" target="_blank" rel="noreferrer">蓝图站</a>
           </nav>
         </div>
@@ -674,8 +674,8 @@ function SiteFooter() {
   return (
     <footer className="site-footer">
       <div className="footer-brand">
-        <img src="/assets/gvy-logo.png" alt="星际远航者 GVY" />
-        <span><strong>星际远航者</strong><small>GALACTIC VOYAGERS / GVY</small></span>
+        <img src="/assets/gvy-logo.png" alt="星远舰队 GVY" />
+        <span><strong>星远舰队</strong><small>GALACTIC VOYAGERS / GVY</small></span>
       </div>
       <p>玩家自建非商业资料站，数据仅供参考；非 Star Citizen 官方网站，相关名称、商标与素材归其权利方所有。</p>
       <div className="footer-filings">
