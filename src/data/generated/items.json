@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-28T05:06:24.251Z",
+  "generatedAt": "2026-08-31T17:04:15.211Z",
   "items": [
     {
       "id": "basl_combat_light_helmet_02_01_01",
@@ -248,19 +248,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-arms-woodland",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-arms-woodland",
-      "sourceUpdatedAt": "2026-08-24T00:06:09.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:36:22.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Armor - 炽天使空间站、护甲店 · 特雷斯勒空间站",
-          "price": 1521,
+          "location": "可购买地点：Armor - 炽天使空间站、Cubby Blast - 18区、护甲店 · 特雷斯勒空间站",
+          "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-arms-woodland&tab=about",
-          "sourceUpdatedAt": "2026-08-11T05:17:13+00:00"
+          "sourceUpdatedAt": "2026-08-29T14:50:07+00:00"
         },
         {
           "type": "craft",
@@ -269,12 +269,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-arms-woodland",
-          "sourceUpdatedAt": "2026-08-24T00:06:09.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:36:22.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-arms-woodland",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 240,
         "ingredients": [
           {
@@ -371,11 +371,11 @@
           },
           {
             "title": "Reduce Outlaw's Operational Readiness",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/4445c5ea-6f35-43e1-89e7-8264bd442f89"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e31eeef7-375a-4187-97b2-278765e67b77"
           },
           {
             "title": "Reduce Outlaw's Operational Readiness",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e31eeef7-375a-4187-97b2-278765e67b77"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/4445c5ea-6f35-43e1-89e7-8264bd442f89"
           },
           {
             "title": "Take Outlaws at Rustville Offline",
@@ -434,19 +434,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-core-woodland",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-core-woodland",
-      "sourceUpdatedAt": "2026-08-24T00:22:28.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:12:47.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Armor - 炽天使空间站",
-          "price": 5693,
+          "location": "可购买地点：Armor - 炽天使空间站、Cubby Blast - 18区、护甲店 · 特雷斯勒空间站",
+          "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-core-woodland&tab=about",
-          "sourceUpdatedAt": "2026-08-11T05:31:36+00:00"
+          "sourceUpdatedAt": "2026-08-29T15:02:43+00:00"
         },
         {
           "type": "craft",
@@ -455,12 +455,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-core-woodland",
-          "sourceUpdatedAt": "2026-08-24T00:22:28.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:12:47.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-core-woodland",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 240,
         "ingredients": [
           {
@@ -557,11 +557,11 @@
           },
           {
             "title": "Reduce Outlaw's Operational Readiness",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/4445c5ea-6f35-43e1-89e7-8264bd442f89"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e31eeef7-375a-4187-97b2-278765e67b77"
           },
           {
             "title": "Reduce Outlaw's Operational Readiness",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e31eeef7-375a-4187-97b2-278765e67b77"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/4445c5ea-6f35-43e1-89e7-8264bd442f89"
           },
           {
             "title": "Take Outlaws at Rustville Offline",
@@ -620,19 +620,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-helmet-woodland",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-helmet-woodland",
-      "sourceUpdatedAt": "2026-08-24T00:32:16.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:16:20.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Armor - 派罗星门 (尼克斯)、护甲店 · 尼克斯星门（派罗）、Armor - 炽天使空间站、护甲店 · 尼克斯星门（斯坦顿）",
-          "price": 5176,
+          "location": "可购买地点：Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、Cubby Blast - 18区、护甲店 · 尼克斯星门（斯坦顿）、护甲店 · 尼克斯星门（派罗）、护甲店 · 特雷斯勒空间站",
+          "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-helmet-woodland&tab=about",
-          "sourceUpdatedAt": "2026-08-17T09:37:49+00:00"
+          "sourceUpdatedAt": "2026-08-30T20:00:54+00:00"
         },
         {
           "type": "craft",
@@ -641,12 +641,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-helmet-woodland",
-          "sourceUpdatedAt": "2026-08-24T00:32:16.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:16:20.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-helmet-woodland",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 240,
         "ingredients": [
           {
@@ -743,11 +743,11 @@
           },
           {
             "title": "Reduce Outlaw's Operational Readiness",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/4445c5ea-6f35-43e1-89e7-8264bd442f89"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e31eeef7-375a-4187-97b2-278765e67b77"
           },
           {
             "title": "Reduce Outlaw's Operational Readiness",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e31eeef7-375a-4187-97b2-278765e67b77"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/4445c5ea-6f35-43e1-89e7-8264bd442f89"
           },
           {
             "title": "Take Outlaws at Rustville Offline",
@@ -806,19 +806,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-legs-woodland",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-legs-woodland",
-      "sourceUpdatedAt": "2026-08-24T00:25:50.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:14:11.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、护甲店 · 尼克斯星门（斯坦顿）",
-          "price": 2615,
+          "location": "可购买地点：Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、Cubby Blast - 18区、护甲店 · 尼克斯星门（斯坦顿）、护甲店 · 特雷斯勒空间站",
+          "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-legs-woodland&tab=about",
-          "sourceUpdatedAt": "2026-08-17T10:26:39+00:00"
+          "sourceUpdatedAt": "2026-08-30T20:03:37+00:00"
         },
         {
           "type": "craft",
@@ -827,12 +827,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-legs-woodland",
-          "sourceUpdatedAt": "2026-08-24T00:25:50.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:14:11.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-legs-woodland",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 240,
         "ingredients": [
           {
@@ -929,11 +929,11 @@
           },
           {
             "title": "Reduce Outlaw's Operational Readiness",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/4445c5ea-6f35-43e1-89e7-8264bd442f89"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e31eeef7-375a-4187-97b2-278765e67b77"
           },
           {
             "title": "Reduce Outlaw's Operational Readiness",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e31eeef7-375a-4187-97b2-278765e67b77"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/4445c5ea-6f35-43e1-89e7-8264bd442f89"
           },
           {
             "title": "Take Outlaws at Rustville Offline",
@@ -2508,19 +2508,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/vehicles/argo-atls",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/vehicles/argo-atls",
-      "sourceUpdatedAt": "2026-08-24T00:35:13.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:39:50.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": false,
       "isCraftable": false,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：蒂奇的飞船店 · 列夫斯基、购后即飞 · 死局空间站、购后即飞 · 轨道讣闻站、购后即飞 · 废墟空间站、全新交易 · 十字军展厅 · 奥里森、天文舰队 · 18区、全新交易 · 蒂莎空港 · 罗威尔",
+          "location": "可购买地点：全新交易 · 十字军展厅 · 奥里森、全新交易 · 蒂莎空港 · 罗威尔、天文舰队 · 18区、蒂奇的飞船店 · 列夫斯基、购后即飞 · 废墟空间站、购后即飞 · 死局空间站、购后即飞 · 轨道讣闻站",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/vehicles/home/list/in_game_sell/?id_terminal=791",
-          "sourceUpdatedAt": "2026-07-28T04:56:26+00:00"
+          "sourceUpdatedAt": "2026-08-28T14:34:46+00:00"
         }
       ],
       "crafting": null,
@@ -2992,19 +2992,19 @@
       "imageSourceUrl": "https://cdn.star-citizen.wiki/images/4/46/Berry_Blend_Smoothie.jpg",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/berry-blend-smoothie",
-      "sourceUpdatedAt": "2026-08-24T00:29:33.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:20:21.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Juice Bar - CRU-L4、Juice Bar - CRU-L1 、Juice Bar - 炽天使空间站 Station、果汁吧 · 弧 L4 黯淡幽谷站、果汁吧 · 弧 L1 广袤森林站、果汁吧 · 弧 L2 活力小径站",
+          "location": "可购买地点：Juice Bar - CRU-L1 、Juice Bar - CRU-L4、Juice Bar - 斯坦顿星门 (尼克斯)、Juice Bar - 炽天使空间站 Station、果汁吧 · 弧 L4 黯淡幽谷站",
           "price": 7,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=berry-blend-smoothie&tab=about",
-          "sourceUpdatedAt": "2026-08-20T05:21:53+00:00"
+          "sourceUpdatedAt": "2026-08-30T19:15:52+00:00"
         }
       ],
       "crafting": null,
@@ -3379,19 +3379,19 @@
       "imageSourceUrl": "https://media.starcitizen.tools/d/da/Curious_Weapon.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/boomtube-rocket",
-      "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：武器店 · 补丁城、武器店 · 达德利父女空间站、武器店 · 星光服务站、争夺区 · 死局空间站、武器店 · 死局空间站、武器店 · 路德补给站、射手 · 死局空间站、武器店 · 煤气灯空间站",
+          "location": "可购买地点：Cubby 18区、Guns Endgame、Guns Megumi、Guns Rat's Nest、Guns Ruin、Guns 轨道讣闻站、Shop Seer's Canyon、Skutters Grim 等 16 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=boomtube-rocket&tab=about",
-          "sourceUpdatedAt": "2026-07-28T08:40:19+00:00"
+          "sourceUpdatedAt": "2026-08-30T16:14:35+00:00"
         },
         {
           "type": "wikelo",
@@ -3469,13 +3469,13 @@
         "localizationSource": "official_global_ini"
       },
       "category": "Undersuit (Armor)",
-      "descriptionZh": null,
+      "descriptionZh": "物品类型：超重型护甲\n伤害减免：90%\n适用温度：-70 / 100 °C\n辐射防护：26800 雷姆\n辐射清除率：145.8 雷姆 / 秒\n储物空间：4K uSCU\nBUL-H4 系列重新定义个人防护。采用先进的合成聚合物，显著减轻冲击力，使穿着者化身为一道坚固的防御屏障。该系列装甲的动力辅助框架有助于保持行动灵活性，抵消装甲本身的重量。",
       "imagePath": "/images/wiki/bul-h4-community.png",
       "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
       "imageKind": "community",
       "sourceUrl": "https://api.star-citizen.wiki/items/bul-h4-armor",
-      "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-27T09:49:18.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
@@ -3486,12 +3486,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/bul-h4-armor",
-          "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z"
+          "sourceUpdatedAt": "2026-08-27T09:49:18.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/bul-h4-armor",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 210,
         "ingredients": [
           {
@@ -3697,13 +3697,13 @@
         "localizationSource": "official_global_ini"
       },
       "category": "Helmet (Armor)",
-      "descriptionZh": null,
+      "descriptionZh": "物品类型：超重型护甲\n伤害减免：90%\n适用温度：-70 / 100 °C\n辐射防护：26800 雷姆\n辐射清除率：145.8 雷姆 / 秒\nBUL-H4 系列重新定义个人防护。采用先进的合成聚合物，显著减轻冲击力，使穿着者化身为一道坚固的防御屏障。该系列装甲的动力辅助框架有助于保持行动灵活性，抵消装甲本身的重量。",
       "imagePath": "/images/wiki/bul-h4-community.png",
       "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
       "imageKind": "community",
       "sourceUrl": "https://api.star-citizen.wiki/items/bul-h4-helmet",
-      "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-27T09:49:18.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
@@ -3714,12 +3714,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/bul-h4-helmet",
-          "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z"
+          "sourceUpdatedAt": "2026-08-27T09:49:18.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/bul-h4-helmet",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 210,
         "ingredients": [
           {
@@ -4485,19 +4485,19 @@
       "imageSourceUrl": "https://media.starcitizen.tools/9/97/Coda_pistol_clip_side_800x400.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/coda-pistol-magazine-6-cap",
-      "sourceUpdatedAt": "2026-08-24T00:21:00.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:32:21.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Armor - 派罗星门 (尼克斯)、尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、科途便利店 · 云景中心 · 奥里森、Armor - CRU-L1、Live Fire Weapons - CRU-L1",
+          "location": "可购买地点：Armor - CRU-L1、Armor - 弧 L4 黯淡幽谷站、Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、CenterMass - IO North Tower - 18区、Cubby Blast - 18区、FPS Shop - Astors Clearing 等 28 处",
           "price": 124,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=coda-pistol-magazine-(6-cap)&tab=about",
-          "sourceUpdatedAt": "2026-08-17T10:36:24+00:00"
+          "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
         },
         {
           "type": "craft",
@@ -4506,7 +4506,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/coda-pistol-magazine-6-cap",
-          "sourceUpdatedAt": "2026-08-24T00:21:00.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:32:21.000000Z"
         },
         {
           "type": "wikelo",
@@ -4520,7 +4520,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/coda-pistol-magazine-6-cap",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -4585,11 +4585,11 @@
           },
           {
             "title": "Need a CFP taken down",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/6c4bd89b-9105-40db-b19e-038cecd41a51"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/ee9d9bf7-f511-4fa0-acc6-d92789248263"
           },
           {
             "title": "Need a CFP taken down",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/ee9d9bf7-f511-4fa0-acc6-d92789248263"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/6c4bd89b-9105-40db-b19e-038cecd41a51"
           },
           {
             "title": "Need a hit on the Riviera",
@@ -4601,11 +4601,11 @@
           },
           {
             "title": "Need someone taken out",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f567dcc0-309e-45e4-95ad-72324580fd5e"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e977ff7d-517a-4931-b473-b5d284180ebe"
           },
           {
             "title": "Need someone taken out",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e977ff7d-517a-4931-b473-b5d284180ebe"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f567dcc0-309e-45e4-95ad-72324580fd5e"
           },
           {
             "title": "Shot in the chaos",
@@ -6457,19 +6457,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
-      "sourceUpdatedAt": "2026-08-24T00:17:36.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:23:02.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：埃尔罗伊咖啡店 · 奥里森 - Green Circle、Ellroy's - CRU-L1、Ellroy's - 炽天使空间站、科途便利店 · 奥古斯特·顿洛空港 · 奥里森、埃尔罗伊咖啡店 · 奥里森、重锤汉堡 · 奥里森、埃尔罗伊咖啡店 · 新巴贝奇、重锤汉堡 · 新巴贝奇",
+          "location": "可购买地点：Ellroy's - CRU-L1、Ellroy's - 斯坦顿星门 (尼克斯)、Ellroy's - 炽天使空间站、Whammer's - 云景中心 - 奥里森、Whammer's - 奥古斯特·顿洛空港 - 奥里森、埃尔罗伊咖啡店 · 奥里森、埃尔罗伊咖啡店 · 奥里森 - Green Circle、埃尔罗伊咖啡店 · 新巴贝奇等 11 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=ermer-family-farms-fat-free-ice-cream&tab=about",
-          "sourceUpdatedAt": "2026-08-22T05:02:34+00:00"
+          "sourceUpdatedAt": "2026-08-30T19:11:14+00:00"
         }
       ],
       "crafting": null,
@@ -6974,19 +6974,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/fresnel-energy-lmg",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/fresnel-energy-lmg-battery-165-cap",
-      "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：个人护甲店 · 派罗星门（尼克斯）、尽职之物 · 列夫斯基、荷枪实弹武器店 · 派罗星门（尼克斯）、个人护甲店 · 斯坦顿星门（尼克斯）、荷枪实弹武器店 · 斯坦顿星门（尼克斯）、武器与护甲店 PSSL、武器与护甲店 PSSA、武器与护甲店 PSST",
+          "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor CRU-L4、FPS Armor Everus、FPS Armor HUR-L1、FPS Armor MIC-L4 等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=fresnel-energy-lmg-battery-(165-cap)&tab=about",
-          "sourceUpdatedAt": "2026-08-17T10:37:04+00:00"
+          "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
         },
         {
           "type": "craft",
@@ -6995,7 +6995,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/fresnel-energy-lmg-battery-165-cap",
-          "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z"
         },
         {
           "type": "wikelo",
@@ -7009,7 +7009,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/fresnel-energy-lmg-battery-165-cap",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -7956,8 +7956,8 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/grassland-quasi-grazer-egg",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/grassland-quasi-grazer-egg",
-      "sourceUpdatedAt": "2026-08-24T00:07:36.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:01:58.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": false,
       "isCraftable": false,
       "acquisition": [
@@ -7969,6 +7969,15 @@
           "currency": null,
           "sourceUrl": "https://starcitizen.tools/Grassland_Quasi_Grazer_Egg",
           "sourceUpdatedAt": "2026-07-07T01:21:00Z"
+        },
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Shop Bullock's Reach、Shop Kinder Plots、Shop The Yard、Shop 牧人驿站",
+          "price": 56,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=grassland-quasi-grazer-egg&tab=about",
+          "sourceUpdatedAt": "2026-05-27T20:05:02+00:00"
         }
       ],
       "crafting": null,
@@ -8004,13 +8013,13 @@
         "localizationSource": "official_global_ini"
       },
       "category": "Backpack (Armor)",
-      "descriptionZh": null,
+      "descriptionZh": "物品类型：弹药携行具\n可适配胸甲类型：中型&重型\n储物空间：150K uSCU\n这款弹药携行具专为存放重机枪的备用弹药，可通过弹链直接连接至武器，确保在不影响射击的情况下进行长时间连续射击。",
       "imagePath": "/images/ai-redraw/h4-pbf-ammo-carrier-ai-redraw.webp",
       "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/bul-h4-2CdS7dybL4mlg",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/h4-pbf-ammo-carrier",
-      "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-27T09:49:18.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
@@ -8021,12 +8030,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/h4-pbf-ammo-carrier",
-          "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z"
+          "sourceUpdatedAt": "2026-08-27T09:49:18.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/h4-pbf-ammo-carrier",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 210,
         "ingredients": [
           {
@@ -8867,19 +8876,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/karna-rifle",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/karna-rifle",
-      "sourceUpdatedAt": "2026-08-24T00:13:06.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:23:42.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Armor - 派罗星门 (尼克斯)、护甲店 · 尼克斯星门（斯坦顿）",
+          "location": "可购买地点：Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (尼克斯)、护甲店 · 尼克斯星门（斯坦顿）",
           "price": 4554,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=karna-rifle&tab=about",
-          "sourceUpdatedAt": "2026-08-17T10:51:30+00:00"
+          "sourceUpdatedAt": "2026-08-30T20:13:30+00:00"
         },
         {
           "type": "craft",
@@ -8888,12 +8897,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle",
-          "sourceUpdatedAt": "2026-08-24T00:13:06.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:23:42.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 180,
         "ingredients": [
           {
@@ -8996,19 +9005,19 @@
       "imageSourceUrl": "https://media.starcitizen.tools/4/40/Kasta_magazine_800x400.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/karna-rifle-battery-35-cap",
-      "sourceUpdatedAt": "2026-08-24T00:13:38.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:32:20.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Armor - 派罗星门 (尼克斯)、尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、科途便利店 · 云景中心 · 奥里森、Armor - CRU-L1、Live Fire Weapons - CRU-L1",
+          "location": "可购买地点：Armor - CRU-L1、Armor - 弧 L4 黯淡幽谷站、Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、CenterMass - IO North Tower - 18区、Cubby Blast - 18区、FPS Shop - Astors Clearing 等 27 处",
           "price": 248,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=karna-rifle-battery-(35-cap)&tab=about",
-          "sourceUpdatedAt": "2026-08-17T10:37:48+00:00"
+          "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
         },
         {
           "type": "craft",
@@ -9017,7 +9026,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle-battery-35-cap",
-          "sourceUpdatedAt": "2026-08-24T00:13:38.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:32:20.000000Z"
         },
         {
           "type": "wikelo",
@@ -9031,7 +9040,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle-battery-35-cap",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -9076,11 +9085,11 @@
           },
           {
             "title": "Call for Help: [Location]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/234e8d71-7ae0-4987-94fc-cb7d4ff113d4"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e63fa30b-1e93-4d1a-bee8-28f359640bdb"
           },
           {
             "title": "Call for Help: [Location]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/94be848a-e2a8-4a3e-99f9-f88e1b2a4a7a"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/234e8d71-7ae0-4987-94fc-cb7d4ff113d4"
           },
           {
             "title": "Call for Help: [Location]",
@@ -9088,7 +9097,7 @@
           },
           {
             "title": "Call for Help: [Location]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e63fa30b-1e93-4d1a-bee8-28f359640bdb"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/94be848a-e2a8-4a3e-99f9-f88e1b2a4a7a"
           },
           {
             "title": "Campaign to reclaim XenoThreat outposts",
@@ -9426,19 +9435,19 @@
       "imageSourceUrl": "https://media.starcitizen.tools/7/73/Killshot_Dominion_Camo_Rifle.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/killshot-rifle-magazine-45-cap",
-      "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：个人护甲店 · 派罗星门（尼克斯）、尽职之物 · 列夫斯基、荷枪实弹武器店 · 派罗星门（尼克斯）、个人护甲店 · 斯坦顿星门（尼克斯）、荷枪实弹武器店 · 斯坦顿星门（尼克斯）、武器与护甲店 PSSL、武器与护甲店 PSSA、武器与护甲店 PSST",
+          "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor CRU-L4、FPS Armor Everus、FPS Armor HUR-L1、FPS Armor MIC-L4 等 75 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=killshot-rifle-magazine-(45-cap)&tab=about",
-          "sourceUpdatedAt": "2026-08-17T10:37:48+00:00"
+          "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
         },
         {
           "type": "craft",
@@ -9447,7 +9456,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/killshot-rifle-magazine-45-cap",
-          "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z"
         },
         {
           "type": "wikelo",
@@ -9461,7 +9470,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/killshot-rifle-magazine-45-cap",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -12020,19 +12029,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/novikov-exploration-suit",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/novikov-exploration-suit",
-      "sourceUpdatedAt": "2026-08-24T00:17:39.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:21:18.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：货运服务 · 列夫斯基、Cargo Services - 废墟空间站、货运服务 · 尼克斯星门（派罗）、Cargo Center Supplies - 炽天使空间站、货运中心用品店 · 拜基尼空间站、货运中心用品店 · 特雷斯勒空间站",
+          "location": "可购买地点：Cargo Center Supplies - 炽天使空间站、Cargo Services - Gaslight、Cargo Services - 废墟空间站、Cargo Services - 斯坦顿星门 (尼克斯)、Cargo Services - 轨道讣闻站、护甲店 · 特雷斯勒空间站、货运中心用品店 · 拜基尼空间站、货运中心用品店 · 特雷斯勒空间站等 10 处",
           "price": 16116,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=novikov-exploration-suit&tab=about",
-          "sourceUpdatedAt": "2026-07-30T04:55:30+00:00"
+          "sourceUpdatedAt": "2026-08-30T19:02:30+00:00"
         },
         {
           "type": "craft",
@@ -12041,12 +12050,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-exploration-suit",
-          "sourceUpdatedAt": "2026-08-24T00:17:39.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:21:18.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-exploration-suit",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 390,
         "ingredients": [
           {
@@ -12126,19 +12135,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/novikov-helmet",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/novikov-helmet",
-      "sourceUpdatedAt": "2026-08-24T00:19:43.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:36:24.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": false,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：货运服务 · 列夫斯基、Cargo Services - 废墟空间站、货运服务 · 尼克斯星门（派罗）、Cargo Center Supplies - 炽天使空间站、货运中心用品店 · 拜基尼空间站、货运中心用品店 · 特雷斯勒空间站",
+          "location": "可购买地点：Cargo Center Supplies - 炽天使空间站、Cargo Services - Gaslight、Cargo Services - 废墟空间站、Cargo Services - 斯坦顿星门 (尼克斯)、Cargo Services - 轨道讣闻站、护甲店 · 特雷斯勒空间站、货运中心用品店 · 拜基尼空间站、货运中心用品店 · 特雷斯勒空间站等 10 处",
           "price": 11734,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=novikov-helmet&tab=about",
-          "sourceUpdatedAt": "2026-07-30T04:49:55+00:00"
+          "sourceUpdatedAt": "2026-08-30T18:54:30+00:00"
         },
         {
           "type": "craft",
@@ -12147,12 +12156,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-helmet",
-          "sourceUpdatedAt": "2026-08-24T00:19:43.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:36:24.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-helmet",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 390,
         "ingredients": [
           {
@@ -13184,19 +13193,19 @@
       "imageSourceUrl": "https://media.starcitizen.tools/7/77/Kopion_Skull_Right.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/parallax-rifle-battery-80-cap",
-      "sourceUpdatedAt": "2026-08-24T00:01:33.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:01:59.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：个人护甲店 · 派罗星门（尼克斯）、尽职之物 · 列夫斯基、荷枪实弹武器店 · 派罗星门（尼克斯）、个人护甲店 · 斯坦顿星门（尼克斯）、荷枪实弹武器店 · 斯坦顿星门（尼克斯）、武器与护甲店 PSSL、武器与护甲店 PSSA、武器与护甲店 PSST",
+          "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor CRU-L4、FPS Armor Everus、FPS Armor HUR-L1、FPS Armor MIC-L4 等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=parallax-rifle-battery-(80-cap)&tab=about",
-          "sourceUpdatedAt": "2026-08-17T10:38:50+00:00"
+          "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
         },
         {
           "type": "craft",
@@ -13205,7 +13214,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/parallax-rifle-battery-80-cap",
-          "sourceUpdatedAt": "2026-08-24T00:01:33.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:01:59.000000Z"
         },
         {
           "type": "wikelo",
@@ -13219,7 +13228,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/parallax-rifle-battery-80-cap",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -13268,11 +13277,11 @@
           },
           {
             "title": "Orange Level Contract: Return the Favor",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/c2804559-530e-48f6-b5b3-fbe1db6c47ef"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/6e8b61d3-a08a-4f8e-aa61-0a84b6e35754"
           },
           {
             "title": "Orange Level Contract: Return the Favor",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/6e8b61d3-a08a-4f8e-aa61-0a84b6e35754"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/c2804559-530e-48f6-b5b3-fbe1db6c47ef"
           },
           {
             "title": "Orange Level Contract: Security Patrol",
@@ -13284,11 +13293,11 @@
           },
           {
             "title": "Orange Level Contract: Ship Protection Needed",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d198028e-178b-4f77-b76f-28a35664d90b"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e3cfd26a-39e5-4af4-8c18-635d19a9c740"
           },
           {
             "title": "Orange Level Contract: Ship Protection Needed",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e3cfd26a-39e5-4af4-8c18-635d19a9c740"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d198028e-178b-4f77-b76f-28a35664d90b"
           },
           {
             "title": "Orange Level Contract: Spring a Trap",
@@ -13408,11 +13417,11 @@
           },
           {
             "title": "Yellow Level Contract: Stand Up to Aggressors",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/dd355331-ebe4-4fa2-8f8c-84f9df18839b"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e5ac3362-5188-46cf-b931-79879e143b2b"
           },
           {
             "title": "Yellow Level Contract: Stand Up to Aggressors",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e5ac3362-5188-46cf-b931-79879e143b2b"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/dd355331-ebe4-4fa2-8f8c-84f9df18839b"
           },
           {
             "title": "Yellow Level Contract: Surprise Strike",
@@ -13694,19 +13703,19 @@
       "imageSourceUrl": "https://media.starcitizen.tools/b/b0/Make_VOLT_shotgun_angrier.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/prism-laser-shotgun-battery-20-cap",
-      "sourceUpdatedAt": "2026-08-24T00:01:33.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：个人护甲店 · 派罗星门（尼克斯）、尽职之物 · 列夫斯基、荷枪实弹武器店 · 派罗星门（尼克斯）、个人护甲店 · 斯坦顿星门（尼克斯）、荷枪实弹武器店 · 斯坦顿星门（尼克斯）、武器与护甲店 PSSL、武器与护甲店 PSSA、武器与护甲店 PSST",
+          "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor CRU-L4、FPS Armor Everus、FPS Armor HUR-L1、FPS Armor MIC-L4 等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=prism-laser-shotgun-battery-(20-cap)&tab=about",
-          "sourceUpdatedAt": "2026-08-17T10:39:33+00:00"
+          "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
         },
         {
           "type": "craft",
@@ -13715,7 +13724,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/prism-laser-shotgun-battery-20-cap",
-          "sourceUpdatedAt": "2026-08-24T00:01:33.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z"
         },
         {
           "type": "wikelo",
@@ -13729,7 +13738,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/prism-laser-shotgun-battery-20-cap",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -14105,19 +14114,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/quartz-energy-smg-battery-45-cap",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/quartz-energy-smg-battery-45-cap",
-      "sourceUpdatedAt": "2026-08-24T00:01:33.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:01:59.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：个人护甲店 · 派罗星门（尼克斯）、尽职之物 · 列夫斯基、荷枪实弹武器店 · 派罗星门（尼克斯）、个人护甲店 · 斯坦顿星门（尼克斯）、荷枪实弹武器店 · 斯坦顿星门（尼克斯）、武器与护甲店 PSSL、武器与护甲店 PSSA、武器与护甲店 PSST",
+          "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor CRU-L4、FPS Armor Everus、FPS Armor HUR-L1、FPS Armor MIC-L4 等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=quartz-energy-smg-battery-(45-cap)&tab=about",
-          "sourceUpdatedAt": "2026-08-17T10:39:33+00:00"
+          "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
         },
         {
           "type": "craft",
@@ -14126,7 +14135,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/quartz-energy-smg-battery-45-cap",
-          "sourceUpdatedAt": "2026-08-24T00:01:33.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:01:59.000000Z"
         },
         {
           "type": "wikelo",
@@ -14140,7 +14149,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/quartz-energy-smg-battery-45-cap",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -14291,19 +14300,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun",
-      "sourceUpdatedAt": "2026-08-24T00:08:30.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:24:46.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：科途便利店 · 云景中心 · 奥里森",
-          "price": 4955,
+          "location": "可购买地点：Cubby Blast - 18区、FPS Shop - Astors Clearing、FPS Shop - Dunboro、科途便利店 · 云景中心 · 奥里森",
+          "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=r97-shotgun&tab=about",
-          "sourceUpdatedAt": "2026-08-22T05:07:55+00:00"
+          "sourceUpdatedAt": "2026-08-29T18:01:11+00:00"
         },
         {
           "type": "craft",
@@ -14312,12 +14321,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun",
-          "sourceUpdatedAt": "2026-08-24T00:08:30.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:24:46.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 150,
         "ingredients": [
           {
@@ -14485,15 +14494,15 @@
           },
           {
             "title": "Verified Bounty: [TargetName] at QV Breaker Station",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f0ff85a8-ee91-4ffb-8f9c-bcaf9d97acdb"
+          },
+          {
+            "title": "Verified Bounty: [TargetName] at QV Breaker Station",
             "sourceUrl": "https://api.star-citizen.wiki/missions/128d40e5-6bcb-4503-bb60-45ac58c634fb"
           },
           {
             "title": "Verified Bounty: [TargetName] at QV Breaker Station",
             "sourceUrl": "https://api.star-citizen.wiki/missions/ccd48707-050e-4f79-ac7f-e6008e1e91ed"
-          },
-          {
-            "title": "Verified Bounty: [TargetName] at QV Breaker Station",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f0ff85a8-ee91-4ffb-8f9c-bcaf9d97acdb"
           }
         ]
       },
@@ -14524,19 +14533,19 @@
       "imageSourceUrl": "https://media.starcitizen.tools/7/7c/R97_Crimson_Camo_Shotgun.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun-magazine-18-cap",
-      "sourceUpdatedAt": "2026-08-24T00:15:54.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:35:32.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Armor - 派罗星门 (尼克斯)、尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、科途便利店 · 云景中心 · 奥里森、Armor - CRU-L1、Live Fire Weapons - CRU-L1",
+          "location": "可购买地点：Armor - CRU-L1、Armor - 弧 L4 黯淡幽谷站、Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、CenterMass - IO North Tower - 18区、Cubby Blast - 18区、FPS Shop - Astors Clearing 等 27 处",
           "price": 520,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=r97-shotgun-magazine-(18-cap)&tab=about",
-          "sourceUpdatedAt": "2026-08-17T10:39:33+00:00"
+          "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
         },
         {
           "type": "craft",
@@ -14545,7 +14554,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun-magazine-18-cap",
-          "sourceUpdatedAt": "2026-08-24T00:15:54.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:35:32.000000Z"
         },
         {
           "type": "wikelo",
@@ -14559,7 +14568,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun-magazine-18-cap",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -14608,11 +14617,11 @@
           },
           {
             "title": "[Contractor|RecoverItemTitle]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d23d7e30-28d4-481a-b0f4-8a4478a5baa6"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/aeea7abc-8f44-4986-9524-fbb922142260"
           },
           {
             "title": "[Contractor|RecoverItemTitle]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/aeea7abc-8f44-4986-9524-fbb922142260"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d23d7e30-28d4-481a-b0f4-8a4478a5baa6"
           },
           {
             "title": "[Contractor|RecoverItemTitle]",
@@ -15951,19 +15960,19 @@
       "imageSourceUrl": "https://media.starcitizen.tools/c/c0/S71_magazine_800x400.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/s71-rifle-magazine-30-cap",
-      "sourceUpdatedAt": "2026-08-24T00:30:44.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:31:12.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Armor - 派罗星门 (尼克斯)、尽职之物 · 列夫斯基、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、科途便利店 · 云景中心 · 奥里森、Armor - CRU-L1、Live Fire Weapons - CRU-L1",
+          "location": "可购买地点：Armor - CRU-L1、Armor - 弧 L4 黯淡幽谷站、Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、CenterMass - IO North Tower - 18区、Cubby Blast - 18区、FPS Shop - Astors Clearing 等 27 处",
           "price": 297,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=s71-rifle-magazine-(30-cap)&tab=about",
-          "sourceUpdatedAt": "2026-08-17T10:40:18+00:00"
+          "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
         },
         {
           "type": "craft",
@@ -15972,7 +15981,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/s71-rifle-magazine-30-cap",
-          "sourceUpdatedAt": "2026-08-24T00:30:44.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:31:12.000000Z"
         },
         {
           "type": "wikelo",
@@ -15986,7 +15995,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/s71-rifle-magazine-30-cap",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -17062,15 +17071,15 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-helmet",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-helmet",
-      "sourceUpdatedAt": "2026-08-24T00:01:35.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:02:01.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：科德里小铺 · 列夫斯基、商店 · 萨克伦领地、商店 · 卡比尔驿站、商店 · 冰结镇、商店 · 杰克森交易站、商店 · 鸭翼观景处、商店 · 黑岩交易所、坦姆尼父子",
+          "location": "可购买地点：Skutters Grim、商店 · 冰结镇、商店 · 卡比尔驿站、商店 · 杰克森交易站、商店 · 萨克伦领地、商店 · 鸭翼观景处、商店 · 黑岩交易所、坦姆尼父子等 9 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=tailwind-flight-helmet&tab=about",
@@ -17223,15 +17232,15 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-suit",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-suit",
-      "sourceUpdatedAt": "2026-08-24T00:01:35.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:02:01.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：科德里小铺 · 列夫斯基、商店 · 萨克伦领地、商店 · 卡比尔驿站、商店 · 冰结镇、商店 · 杰克森交易站、商店 · 鸭翼观景处、商店 · 黑岩交易所、坦姆尼父子",
+          "location": "可购买地点：Skutters Grim、商店 · 冰结镇、商店 · 卡比尔驿站、商店 · 杰克森交易站、商店 · 萨克伦领地、商店 · 鸭翼观景处、商店 · 黑岩交易所、坦姆尼父子等 9 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=tailwind-flight-suit&tab=about",
@@ -17244,12 +17253,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/tailwind-flight-suit",
-          "sourceUpdatedAt": "2026-08-24T00:01:35.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:02:01.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/tailwind-flight-suit",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 90,
         "ingredients": [
           {
@@ -18485,15 +18494,15 @@
       "imageSourceUrl": "https://media.starcitizen.tools/0/0a/Shotgun-Pistol.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/tripledown-pistol",
-      "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：尽职之物 · 列夫斯基、武器与护甲店 PSSL、武器与护甲店 PSSA、武器与护甲店 PSST、武器与护甲店 PSSD",
+          "location": "可购买地点：尽职之物 · 列夫斯基、武器与护甲店 PSSA、武器与护甲店 PSSD、武器与护甲店 PSSL、武器与护甲店 PSST",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=tripledown-pistol&tab=about",
@@ -18506,12 +18515,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/tripledown-pistol",
-          "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/tripledown-pistol",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 90,
         "ingredients": [
           {
@@ -18575,19 +18584,19 @@
       "imageSourceUrl": "https://media.starcitizen.tools/0/03/Hot_Shot.jpg",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/tripledown-pistol-magazine-12-cap",
-      "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：个人护甲店 · 派罗星门（尼克斯）、尽职之物 · 列夫斯基、荷枪实弹武器店 · 派罗星门（尼克斯）、个人护甲店 · 斯坦顿星门（尼克斯）、荷枪实弹武器店 · 斯坦顿星门（尼克斯）、武器与护甲店 PSSL、武器与护甲店 PSSA、武器与护甲店 PSST",
+          "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor CRU-L4、FPS Armor Everus、FPS Armor HUR-L1、FPS Armor MIC-L4 等 64 处",
           "price": 154,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=tripledown-pistol-magazine-(12-cap)&tab=about",
-          "sourceUpdatedAt": "2026-08-17T10:41:00+00:00"
+          "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
         },
         {
           "type": "craft",
@@ -18596,7 +18605,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/tripledown-pistol-magazine-12-cap",
-          "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z"
         },
         {
           "type": "wikelo",
@@ -18610,7 +18619,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/tripledown-pistol-magazine-12-cap",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -19087,13 +19096,13 @@
         "localizationSource": "official_global_ini"
       },
       "category": "FPS Weapon",
-      "descriptionZh": null,
+      "descriptionZh": "制造商：启示录军备（Apocalypse Arms）\n物品类型：重机枪\n分类：实弹\n弹匣容量：1000\n射速：1000 rpm\n有效射程：35 米\n附件：N/A\n启示录军备生产的世仇 重机枪体积巨大，除非穿着重型外骨骼装甲，否则无法使用，这是一款采用弹药带供弹的致命武器。它虽然精度不足，但凭借高射速能够对目标进行全面压制，从而在战场上占据绝对优势。\n雪地迷彩版采用白色数字迷彩图案，非常适合在冰天雪地的环境中潜行追踪猎物。",
       "imagePath": "/images/ai-redraw/vendetta-snow-camo-hmg-ai-redraw.webp",
       "imageSourceUrl": "https://starcitizen.tools/Vendetta_%22Snow_Camo%22_HMG",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/vendetta-snow-camo-hmg",
-      "sourceUpdatedAt": "2026-07-17T08:06:41.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-27T09:49:24.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": false,
       "isCraftable": true,
       "acquisition": [
@@ -19104,7 +19113,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/vendetta-snow-camo-hmg",
-          "sourceUpdatedAt": "2026-07-17T08:06:41.000000Z"
+          "sourceUpdatedAt": "2026-08-27T09:49:24.000000Z"
         },
         {
           "type": "wikelo",
@@ -19118,7 +19127,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/vendetta-snow-camo-hmg",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 345,
         "ingredients": [
           {
@@ -19216,16 +19225,25 @@
         "localizationSource": "official_global_ini"
       },
       "category": "FPS Weapon",
-      "descriptionZh": null,
+      "descriptionZh": "制造商：启示录军备（Apocalypse Arms）\n物品类型：重机枪\n分类：实弹\n弹匣容量：1000\n射速：1000 rpm\n有效射程：35 米\n附件：N/A\n启示录军备生产的世仇 重机枪体积巨大，除非穿着重型外骨骼装甲，否则无法使用，这是一款采用弹药带供弹的致命武器。它虽然精度不足，但凭借高射速能够对目标进行全面压制，从而在战场上占据绝对优势。",
       "imagePath": "/images/wiki/vendetta-hmg.jpg",
       "imageSourceUrl": "https://starcitizen.tools/Vendetta_HMG",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/vendetta-hmg",
-      "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-29T00:02:01.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Cubby 18区",
+          "price": 27150,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=vendetta-hmg&tab=about",
+          "sourceUpdatedAt": "2026-08-26T19:00:10+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -19233,12 +19251,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/vendetta-hmg",
-          "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z"
+          "sourceUpdatedAt": "2026-08-29T00:02:01.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/vendetta-hmg",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 345,
         "ingredients": [
           {
@@ -19288,16 +19306,25 @@
         "localizationSource": "official_global_ini"
       },
       "category": "Weapon Attachment",
-      "descriptionZh": null,
+      "descriptionZh": "物品类型：弹匣\n容量：1000\n这款适用于启示录军备 世仇 重机枪的弹匣已预装一千发子弹。",
       "imagePath": "/images/ai-redraw/vendetta-hmg-magazine-ai-redraw.webp",
       "imageSourceUrl": "https://starcitizen.tools/Vendetta_HMG",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/vendetta-hmg-magazine-1000-cap",
-      "sourceUpdatedAt": "2026-07-16T13:03:15.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:02:02.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor Tressler、Kel-To 云景中心、Kel-To 志远大厦、Live Fire MIC-L2、商店 · 卡比尔驿站等 9 处",
+          "price": 7425,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=vendetta-hmg-magazine-(1000-cap)&tab=about",
+          "sourceUpdatedAt": "2026-08-30T08:54:48+00:00"
+        },
         {
           "type": "wikelo",
           "label": "完成维科洛合同",
@@ -19628,13 +19655,13 @@
         "localizationSource": "official_global_ini"
       },
       "category": "Arms (Armor)",
-      "descriptionZh": "物品类型：轻型护甲\n伤害减免：20%\n适用温度：-38 / 68 摄氏度\n辐射防护：26000 雷姆\n辐射清除率：145.8 雷姆 / 秒\n储物空间：2.0 uSCU\n可挂载背包类型：轻型\nRSI的探险家冒险套装可提供出色的保护对抗太空中的威胁。该套装专为那些前路未知的探险者而设计，在不牺牲灵活性的前提下，将舒适性与安全性完美融合。这款特别的恋慕版本的灵感源自科拉爱人节，采用了充满活力的粉红与紫色的配色方案，很适合那些热恋中的情侣。",
+      "descriptionZh": "物品类型：轻型护甲\n伤害减免：20%\n适用温度：-38 / 68 摄氏度\n辐射防护：26000 雷姆\n辐射清除率：145.8 雷姆 / 秒\n储物空间：9k uSCU\n可挂载背包类型：轻型\nRSI的探险家冒险套装可提供出色的保护对抗太空中的威胁。该套装专为那些前路未知的探险者而设计，在不牺牲灵活性的前提下，将舒适性与安全性完美融合。这款特殊的IAE2953版的铜和白色装饰的灵感来自于盖塔克制造的飞船——速伦。",
       "imagePath": "/images/items/rsi-explorer-light-arms-01-iae2023-01.jpg",
       "imageSourceUrl": "https://cdn.star-citizen.wiki/images/f/fb/Venture_Arms_Ascension.jpg",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/venture-arms-ascension",
-      "sourceUpdatedAt": "2026-07-16T13:17:28.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-27T09:48:54.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": false,
       "isCraftable": false,
       "acquisition": [
@@ -19676,19 +19703,19 @@
       "imageSourceUrl": "https://starcitizen.tools/Venture_Core",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/venture-core",
-      "sourceUpdatedAt": "2026-08-24T00:21:17.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:34:05.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：科途便利店 · 云景中心 · 奥里森、Armor - CRU-L1、Armor - 炽天使空间站、护甲店 · 微 L1 浅边站、科途便利店 · 志远大厦 · 新巴贝奇",
+          "location": "可购买地点：Armor - CRU-L1、Armor - 炽天使空间站、护甲店 · 微 L1 浅边站、科途便利店 · 云景中心 · 奥里森、科途便利店 · 志远大厦 · 新巴贝奇",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=venture-core&tab=about",
-          "sourceUpdatedAt": "2026-08-22T05:03:55+00:00"
+          "sourceUpdatedAt": "2026-08-30T04:28:47+00:00"
         },
         {
           "type": "craft",
@@ -19697,12 +19724,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-core",
-          "sourceUpdatedAt": "2026-08-24T00:21:17.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:34:05.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-core",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 120,
         "ingredients": [
           {
@@ -19731,15 +19758,7 @@
         "unlocks": [
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/2fc64955-e31a-4dd3-807a-c93a5ac51bcb"
-          },
-          {
-            "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/3d23e5eb-3053-464f-bdc1-6de6e86f12c5"
-          },
-          {
-            "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/41ecd560-82df-4659-b584-2d5636d51a81"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f7004cfd-0408-4a2d-a7d7-71feea68993a"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
@@ -19747,11 +19766,27 @@
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/2fc64955-e31a-4dd3-807a-c93a5ac51bcb"
+          },
+          {
+            "title": "Lrg. Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/4d46a0e8-74ac-4bb2-a0f9-a28c9ff6b21c"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/41ecd560-82df-4659-b584-2d5636d51a81"
+          },
+          {
+            "title": "Lrg. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/3d23e5eb-3053-464f-bdc1-6de6e86f12c5"
+          },
+          {
+            "title": "Lrg. Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/6071e7e0-2413-45d4-bc66-43e871ab7376"
+          },
+          {
+            "title": "Lrg. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/86133d74-3b18-4347-9497-21916094986d"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
@@ -19763,11 +19798,11 @@
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/93ba2efb-b310-4f2a-9351-b0aec5043914"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/a7a9984b-c093-4ad2-a346-3dda239598f5"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/86133d74-3b18-4347-9497-21916094986d"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/93ba2efb-b310-4f2a-9351-b0aec5043914"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
@@ -19779,19 +19814,7 @@
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/a7a9984b-c093-4ad2-a346-3dda239598f5"
-          },
-          {
-            "title": "Lrg. Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/efbc2237-6e78-476b-82a5-2375b7a45d85"
-          },
-          {
-            "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f7004cfd-0408-4a2d-a7d7-71feea68993a"
-          },
-          {
-            "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/056640ec-c485-4991-9436-143acec96d42"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
@@ -19799,11 +19822,15 @@
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/0adf4c25-97af-4180-923a-42d65ba185be"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/137d5910-c9b3-40ca-9e6d-016e11a2bf94"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/137d5910-c9b3-40ca-9e6d-016e11a2bf94"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/056640ec-c485-4991-9436-143acec96d42"
+          },
+          {
+            "title": "Med. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/0adf4c25-97af-4180-923a-42d65ba185be"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
@@ -19819,11 +19846,11 @@
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/6bb34cd6-89a5-49e0-bdee-1ebc7e597a12"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/6364bd24-f431-4c45-b128-e2ad7379ecf1"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/6364bd24-f431-4c45-b128-e2ad7379ecf1"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/6bb34cd6-89a5-49e0-bdee-1ebc7e597a12"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
@@ -19831,11 +19858,11 @@
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d79f1f13-d99a-48b8-b602-d2704cb38d67"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/c98e0f2d-5dcd-447f-88c8-05e44f7d4f9e"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/c98e0f2d-5dcd-447f-88c8-05e44f7d4f9e"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d79f1f13-d99a-48b8-b602-d2704cb38d67"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
@@ -19847,11 +19874,11 @@
           },
           {
             "title": "Mjr. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/988de0b9-77d5-486b-b8ca-1d8bcbf834af"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/87d25f08-faf7-472d-9b9b-7345ebb4f809"
           },
           {
             "title": "Mjr. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/87d25f08-faf7-472d-9b9b-7345ebb4f809"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/988de0b9-77d5-486b-b8ca-1d8bcbf834af"
           },
           {
             "title": "Mjr. Purchase Order: Ship Mined Ore",
@@ -19891,11 +19918,11 @@
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/0cbc4545-0b03-41ac-adf7-224eca60f5fd"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e4365a62-dc90-44af-9ada-1defd9e56c6e"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/c3ad1f55-cc47-46a3-8d02-fda7a75cd26c"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/0cbc4545-0b03-41ac-adf7-224eca60f5fd"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
@@ -19911,15 +19938,11 @@
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/6e799a97-94e6-4e53-a4b7-46e3a0c2891c"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/78b2b227-f298-483f-b0a8-504cd29716a8"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d3099447-1935-4d10-9217-0b45493f7ba9"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/6e799a97-94e6-4e53-a4b7-46e3a0c2891c"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
@@ -19935,15 +19958,19 @@
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/c3ad1f55-cc47-46a3-8d02-fda7a75cd26c"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/bd6ca59b-bc7e-4314-a42b-5ce854769eae"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d79459df-3f86-4f97-8810-8dfa76fa190a"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d3099447-1935-4d10-9217-0b45493f7ba9"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e4365a62-dc90-44af-9ada-1defd9e56c6e"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d79459df-3f86-4f97-8810-8dfa76fa190a"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
@@ -19977,13 +20004,13 @@
         "localizationSource": "official_global_ini"
       },
       "category": "Torso (Armor)",
-      "descriptionZh": "物品类型：轻型护甲\n伤害减免：20%\n适用温度：-38 / 68 摄氏度\n辐射防护：26000 雷姆\n辐射清除率：145.8 雷姆 / 秒\n储物空间：2.0 uSCU\n可挂载背包类型：轻型\nRSI的探险家冒险套装可提供出色的保护对抗太空中的威胁。该套装专为那些前路未知的探险者而设计，在不牺牲灵活性的前提下，将舒适性与安全性完美融合。这款特别的恋慕版本的灵感源自科拉爱人节，采用了充满活力的粉红与紫色的配色方案，很适合那些热恋中的情侣。",
+      "descriptionZh": "物品类型：轻型护甲\n伤害减免：20%\n适用温度：-38 / 68 摄氏度\n辐射防护：26000 雷姆\n辐射清除率：145.8 雷姆 / 秒\n储物空间：9k uSCU\n可挂载背包类型：轻型\nRSI的探险家冒险套装可提供出色的保护对抗太空中的威胁。该套装专为那些前路未知的探险者而设计，在不牺牲灵活性的前提下，将舒适性与安全性完美融合。这款特殊的IAE2953版的铜和白色装饰的灵感来自于盖塔克制造的飞船——速伦。",
       "imagePath": "/images/items/rsi-explorer-light-core-01-iae2023-01.webp",
       "imageSourceUrl": "https://media.starcitizen.tools/b/b0/Venture_Core_Ascension_-_In-game_SCT_logo.jpg",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/venture-core-ascension",
-      "sourceUpdatedAt": "2026-07-16T13:17:28.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-27T09:48:54.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": false,
       "isCraftable": false,
       "acquisition": [
@@ -20140,19 +20167,19 @@
       "imageSourceUrl": "https://starcitizen.tools/Venture_Legs",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/venture-legs",
-      "sourceUpdatedAt": "2026-08-24T00:21:24.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:14:02.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：科途便利店 · 云景中心 · 奥里森、Armor - CRU-L1、Armor - 炽天使空间站、科途便利店 · 志远大厦 · 新巴贝奇",
+          "location": "可购买地点：Armor - CRU-L1、Armor - 炽天使空间站、科途便利店 · 云景中心 · 奥里森、科途便利店 · 志远大厦 · 新巴贝奇",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=venture-legs&tab=about",
-          "sourceUpdatedAt": "2026-08-22T05:03:49+00:00"
+          "sourceUpdatedAt": "2026-08-30T04:28:21+00:00"
         },
         {
           "type": "craft",
@@ -20161,12 +20188,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-legs",
-          "sourceUpdatedAt": "2026-08-24T00:21:24.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:14:02.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-legs",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 120,
         "ingredients": [
           {
@@ -20195,15 +20222,7 @@
         "unlocks": [
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/2fc64955-e31a-4dd3-807a-c93a5ac51bcb"
-          },
-          {
-            "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/3d23e5eb-3053-464f-bdc1-6de6e86f12c5"
-          },
-          {
-            "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/41ecd560-82df-4659-b584-2d5636d51a81"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f7004cfd-0408-4a2d-a7d7-71feea68993a"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
@@ -20211,11 +20230,27 @@
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/2fc64955-e31a-4dd3-807a-c93a5ac51bcb"
+          },
+          {
+            "title": "Lrg. Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/4d46a0e8-74ac-4bb2-a0f9-a28c9ff6b21c"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/41ecd560-82df-4659-b584-2d5636d51a81"
+          },
+          {
+            "title": "Lrg. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/3d23e5eb-3053-464f-bdc1-6de6e86f12c5"
+          },
+          {
+            "title": "Lrg. Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/6071e7e0-2413-45d4-bc66-43e871ab7376"
+          },
+          {
+            "title": "Lrg. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/86133d74-3b18-4347-9497-21916094986d"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
@@ -20227,11 +20262,11 @@
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/93ba2efb-b310-4f2a-9351-b0aec5043914"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/a7a9984b-c093-4ad2-a346-3dda239598f5"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/86133d74-3b18-4347-9497-21916094986d"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/93ba2efb-b310-4f2a-9351-b0aec5043914"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
@@ -20243,19 +20278,7 @@
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/a7a9984b-c093-4ad2-a346-3dda239598f5"
-          },
-          {
-            "title": "Lrg. Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/efbc2237-6e78-476b-82a5-2375b7a45d85"
-          },
-          {
-            "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f7004cfd-0408-4a2d-a7d7-71feea68993a"
-          },
-          {
-            "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/056640ec-c485-4991-9436-143acec96d42"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
@@ -20263,11 +20286,15 @@
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/0adf4c25-97af-4180-923a-42d65ba185be"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/137d5910-c9b3-40ca-9e6d-016e11a2bf94"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/137d5910-c9b3-40ca-9e6d-016e11a2bf94"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/056640ec-c485-4991-9436-143acec96d42"
+          },
+          {
+            "title": "Med. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/0adf4c25-97af-4180-923a-42d65ba185be"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
@@ -20283,11 +20310,11 @@
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/6bb34cd6-89a5-49e0-bdee-1ebc7e597a12"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/6364bd24-f431-4c45-b128-e2ad7379ecf1"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/6364bd24-f431-4c45-b128-e2ad7379ecf1"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/6bb34cd6-89a5-49e0-bdee-1ebc7e597a12"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
@@ -20295,11 +20322,11 @@
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d79f1f13-d99a-48b8-b602-d2704cb38d67"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/c98e0f2d-5dcd-447f-88c8-05e44f7d4f9e"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/c98e0f2d-5dcd-447f-88c8-05e44f7d4f9e"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d79f1f13-d99a-48b8-b602-d2704cb38d67"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
@@ -20311,11 +20338,11 @@
           },
           {
             "title": "Mjr. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/988de0b9-77d5-486b-b8ca-1d8bcbf834af"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/87d25f08-faf7-472d-9b9b-7345ebb4f809"
           },
           {
             "title": "Mjr. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/87d25f08-faf7-472d-9b9b-7345ebb4f809"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/988de0b9-77d5-486b-b8ca-1d8bcbf834af"
           },
           {
             "title": "Mjr. Purchase Order: Ship Mined Ore",
@@ -20355,6 +20382,10 @@
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e4365a62-dc90-44af-9ada-1defd9e56c6e"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/0cbc4545-0b03-41ac-adf7-224eca60f5fd"
           },
           {
@@ -20371,15 +20402,11 @@
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/6e799a97-94e6-4e53-a4b7-46e3a0c2891c"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/78b2b227-f298-483f-b0a8-504cd29716a8"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d3099447-1935-4d10-9217-0b45493f7ba9"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/6e799a97-94e6-4e53-a4b7-46e3a0c2891c"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
@@ -20395,19 +20422,19 @@
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/bd6ca59b-bc7e-4314-a42b-5ce854769eae"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/c3ad1f55-cc47-46a3-8d02-fda7a75cd26c"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d79459df-3f86-4f97-8810-8dfa76fa190a"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/bd6ca59b-bc7e-4314-a42b-5ce854769eae"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e4365a62-dc90-44af-9ada-1defd9e56c6e"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d3099447-1935-4d10-9217-0b45493f7ba9"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d79459df-3f86-4f97-8810-8dfa76fa190a"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
@@ -20441,13 +20468,13 @@
         "localizationSource": "official_global_ini"
       },
       "category": "Legs (Armor)",
-      "descriptionZh": "物品类型：轻型护甲\n伤害减免：20%\n适用温度：-38 / 68 摄氏度\n辐射防护：26000 雷姆\n辐射清除率：145.8 雷姆 / 秒\n储物空间：2.0 uSCU\n可挂载背包类型：轻型\nRSI的探险家冒险套装可提供出色的保护对抗太空中的威胁。该套装专为那些前路未知的探险者而设计，在不牺牲灵活性的前提下，将舒适性与安全性完美融合。这款特别的恋慕版本的灵感源自科拉爱人节，采用了充满活力的粉红与紫色的配色方案，很适合那些热恋中的情侣。",
+      "descriptionZh": "物品类型：轻型护甲\n伤害减免：20%\n适用温度：-38 / 68 摄氏度\n辐射防护：26000 雷姆\n辐射清除率：145.8 雷姆 / 秒\n储物空间：9k uSCU\n可挂载背包类型：轻型\nRSI的探险家冒险套装可提供出色的保护对抗太空中的威胁。该套装专为那些前路未知的探险者而设计，在不牺牲灵活性的前提下，将舒适性与安全性完美融合。这款特殊的IAE2953版的铜和白色装饰的灵感来自于盖塔克制造的飞船——速伦。",
       "imagePath": "/images/items/rsi-explorer-light-legs-01-iae2023-01.jpg",
       "imageSourceUrl": "https://cdn.star-citizen.wiki/images/2/27/Venture_Legs_Ascension.jpg",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/venture-legs-ascension",
-      "sourceUpdatedAt": "2026-07-16T13:17:28.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-27T09:48:54.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": false,
       "isCraftable": false,
       "acquisition": [
@@ -21831,19 +21858,19 @@
       "imageSourceUrl": "https://media.starcitizen.tools/6/6c/Zenith_Snow_Camo_Laser_Sniper_Rifle.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/zenith-laser-sniper-rifle-battery-22-cap",
-      "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z",
+      "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：个人护甲店 · 派罗星门（尼克斯）、荷枪实弹武器店 · 派罗星门（尼克斯）、个人护甲店 · 斯坦顿星门（尼克斯）、荷枪实弹武器店 · 斯坦顿星门（尼克斯）、武器店 · 补丁城、武器店 · 达德利父女空间站、荷枪实弹武器店 · 尼克斯星门（派罗）、商店 · 萨克伦领地",
+          "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor CRU-L4、FPS Armor Everus、FPS Armor HUR-L1、FPS Armor MIC-L4 等 76 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=zenith-laser-sniper-rifle-battery-(22-cap)&tab=about",
-          "sourceUpdatedAt": "2026-08-17T10:44:23+00:00"
+          "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
         },
         {
           "type": "craft",
@@ -21852,7 +21879,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/zenith-laser-sniper-rifle-battery-22-cap",
-          "sourceUpdatedAt": "2026-08-24T00:01:34.000000Z"
+          "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z"
         },
         {
           "type": "wikelo",
@@ -21866,7 +21893,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/zenith-laser-sniper-rifle-battery-22-cap",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.0-LIVE.12519617",
         "craftTimeSeconds": 10,
         "ingredients": [
           {

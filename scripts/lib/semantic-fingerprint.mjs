@@ -9,6 +9,8 @@ const volatileKeys = new Set([
   "sourceGameVersion",
 ]);
 
+const entityNoiseKeys = new Set([...volatileKeys, "gameVersion"]);
+
 function canonicalize(value, ignoredKeys = volatileKeys) {
   if (Array.isArray(value)) {
     return value
@@ -33,13 +35,23 @@ export function semanticFingerprint({ gameVersion, trades, items, localizationDi
   })));
 }
 
+export function preserveSemanticallyUnchangedEntities(previous = [], next = []) {
+  const previousById = new Map(previous.map((entry) => [entry.id, entry]));
+  return next.map((entry) => {
+    const stable = previousById.get(entry.id);
+    if (!stable) return entry;
+    return JSON.stringify(canonicalize(stable, entityNoiseKeys)) === JSON.stringify(canonicalize(entry, entityNoiseKeys))
+      ? stable
+      : entry;
+  });
+}
+
 export function semanticChangeSummary(previous, next) {
   const summarize = (before = [], after = []) => {
     const beforeById = new Map(before.map((entry) => [entry.id, entry]));
     const afterById = new Map(after.map((entry) => [entry.id, entry]));
     const added = [...afterById.keys()].filter((id) => !beforeById.has(id));
     const removed = [...beforeById.keys()].filter((id) => !afterById.has(id));
-    const entityNoiseKeys = new Set([...volatileKeys, "gameVersion"]);
     const modified = [...afterById.keys()].filter((id) => (
       beforeById.has(id)
       && JSON.stringify(canonicalize(beforeById.get(id), entityNoiseKeys)) !== JSON.stringify(canonicalize(afterById.get(id), entityNoiseKeys))

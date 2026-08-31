@@ -18,6 +18,26 @@ function unique(values) {
   return [...new Set(values.filter(Boolean))];
 }
 
+export function stableLocationSummary(values, limit = 8) {
+  const all = unique(values.map((value) => localizeLocationText(value)))
+    .sort((left, right) => (left < right ? -1 : left > right ? 1 : 0));
+  return { locations: all.slice(0, limit), total: all.length };
+}
+
+export function stableMediaUrl(value) {
+  if (!value) return value;
+  try {
+    const url = new URL(value);
+    if (url.hostname === "media.starcitizen.tools") {
+      url.search = "";
+      url.hash = "";
+    }
+    return url.href;
+  } catch {
+    return value;
+  }
+}
+
 function cleanPublicDescription(value) {
   const text = String(value ?? "")
     .replace(/<\/?[A-Z][A-Z0-9_]*>/g, "")
@@ -155,7 +175,10 @@ async function baseItemImage(entry, record, cacheDir) {
 function sourceImage(record) {
   const images = Array.isArray(record?.images) ? record.images : [];
   const image = images.find((candidate) => candidate.thumbnail_url || candidate.original_url);
-  return image ? { downloadUrl: image.thumbnail_url || image.original_url, sourceUrl: image.original_url || image.thumbnail_url } : null;
+  return image ? {
+    downloadUrl: stableMediaUrl(image.thumbnail_url || image.original_url),
+    sourceUrl: stableMediaUrl(image.original_url || image.thumbnail_url),
+  } : null;
 }
 
 async function craftingFrom(record, cacheDir, localization) {
@@ -202,13 +225,13 @@ function acquisitionFrom(record, commodity, rewardTrades, crafting, overrides = 
   const methods = [...overrides];
   const purchases = record?.uex_prices?.purchase || [];
   if (purchases.length) {
-    const locations = unique(purchases.slice(0, 8).map((shop) => shop.terminal_name || shop.starmap_location?.name));
+    const { locations, total } = stableLocationSummary(purchases.map((shop) => shop.terminal_name || shop.starmap_location?.name));
     const prices = purchases.map((shop) => shop.price_buy).filter(Number.isFinite);
     const first = purchases[0];
     methods.push({
       type: "purchase",
       label: "商店购买",
-      location: locations.length ? `可购买地点：${locations.join("、")}` : "游戏内商店终端",
+      location: locations.length ? `可购买地点：${locations.join("、")}${total > locations.length ? ` 等 ${total} 处` : ""}` : "游戏内商店终端",
       price: prices.length && new Set(prices).size === 1 ? prices[0] : null,
       currency: "aUEC",
       sourceUrl: first?.uex_link || record?.web_url || null,
@@ -219,7 +242,7 @@ function acquisitionFrom(record, commodity, rewardTrades, crafting, overrides = 
     methods.push({ type: "craft", label: "使用蓝图制作", location: crafting ? "完整配方见下方“制作配方”" : "完整配方暂无", price: null, currency: null, sourceUrl: crafting?.sourceUrl || record.web_url || null, sourceUpdatedAt: record.updated_at || null });
   }
   if (commodity && !methods.some((method) => method.type === "mine" || method.type === "harvest")) {
-    const locations = unique((commodity.locations || []).slice(0, 8).map((location) => {
+    const { locations, total } = stableLocationSummary((commodity.locations || []).map((location) => {
       const parent = location.parent_name ? `${location.parent_name} · ` : "";
       return `${parent}${location.display_name || location.name}`;
     }));
@@ -228,7 +251,7 @@ function acquisitionFrom(record, commodity, rewardTrades, crafting, overrides = 
       type: harvesting ? "harvest" : "mine",
       label: harvesting ? "现场采集" : "采矿获取",
       location: locations.length
-        ? `已确认地点：${locations.join("、")}${(commodity.locations || []).length > locations.length ? ` 等 ${(commodity.locations || []).length} 处` : ""}`
+        ? `已确认地点：${locations.join("、")}${total > locations.length ? ` 等 ${total} 处` : ""}`
         : "可通过采集获得，但当前版本没有已确认的固定矿点",
       price: null,
       currency: null,

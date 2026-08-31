@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { activeLiveVersion, anomalyBaselineForVersion, mergeVersionDatasets } from "../scripts/lib/version-datasets.mjs";
+import {
+  activeLiveVersion,
+  anomalyBaselineForVersion,
+  buildStableVersionDataset,
+  mergeVersionDatasets,
+} from "../scripts/lib/version-datasets.mjs";
 
 const dataset = (gameVersion: string, id = "fixture") => ({ gameVersion, trades: [{ id }], items: [] });
 
@@ -25,6 +30,26 @@ describe("LIVE-only Wikelo dataset isolation", () => {
     const previous = dataset("4.9.0 LIVE.12344265", "old");
     const incoming = dataset("4.9.0 LIVE.12344265", "corrected");
     expect(mergeVersionDatasets([previous], incoming)).toEqual([incoming]);
+  });
+
+  it("keeps item-only refresh snapshots synchronized with the persisted trade document", () => {
+    const persistedTradeDocument = {
+      trades: [{ id: "trade-a" }],
+      sourceStatus: [{ url: "https://example.com/trades", checkedAt: "stable" }],
+    };
+    expect(buildStableVersionDataset({
+      gameVersion: "4.10.0 LIVE.12400000",
+      generatedAt: "item-refresh",
+      sourceStatus: [{ url: "https://example.com/trades", checkedAt: "candidate" }],
+      persistedTradeDocument,
+      items: [{ id: "item-a" }],
+    })).toEqual({
+      gameVersion: "4.10.0 LIVE.12400000",
+      generatedAt: "item-refresh",
+      sourceStatus: persistedTradeDocument.sourceStatus,
+      trades: persistedTradeDocument.trades,
+      items: [{ id: "item-a" }],
+    });
   });
 
   it("does not replace stable data with a regressed LIVE", () => {

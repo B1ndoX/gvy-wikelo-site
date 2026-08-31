@@ -8,8 +8,8 @@ import { downloadBinary, fetchJson, fetchText } from "./lib/http.mjs";
 import { loadOfficialLocalization } from "./lib/localization.mjs";
 import { normalizeTrades, summarizeValidation } from "./lib/normalize.mjs";
 import { parseAssignedLiteral, parseAssignedLiteralBySourceLabel } from "./lib/parse-static.mjs";
-import { semanticChangeSummary, semanticFingerprint } from "./lib/semantic-fingerprint.mjs";
-import { anomalyBaselineForVersion, mergeVersionDatasets } from "./lib/version-datasets.mjs";
+import { preserveSemanticallyUnchangedEntities, semanticChangeSummary, semanticFingerprint } from "./lib/semantic-fingerprint.mjs";
+import { anomalyBaselineForVersion, buildStableVersionDataset, mergeVersionDatasets } from "./lib/version-datasets.mjs";
 import { semanticPatch, versionFromHtml } from "./lib/version.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -163,7 +163,8 @@ async function main() {
     // Cloudflare may require a normal browser. Never bypass it; retain the inspected snapshot.
   }
 
-  const items = await buildItemIndex({ trades, localization: official, cacheDir, projectRoot, wikiImages, wikiItemImages, acquisitionOverrides: acquisitionOverrides.items });
+  const enrichedItems = await buildItemIndex({ trades, localization: official, cacheDir, projectRoot, wikiImages, wikiItemImages, acquisitionOverrides: acquisitionOverrides.items });
+  const items = preserveSemanticallyUnchangedEntities(previousItems?.items, enrichedItems);
   const portraitPath = path.join(projectRoot, "public/images/wikelo.webp");
   try {
     await stat(portraitPath);
@@ -221,13 +222,13 @@ async function main() {
     trades: previousTrades.trades,
     items: previousItems.items,
   }] : [];
-  const versionDatasets = mergeVersionDatasets(previousVersionedData?.datasets ?? fallbackDatasets, {
+  const versionDatasets = mergeVersionDatasets(previousVersionedData?.datasets ?? fallbackDatasets, buildStableVersionDataset({
     gameVersion,
     generatedAt: fetchedAt,
     sourceStatus,
-    trades: persistedTradeDocument.trades,
+    persistedTradeDocument,
     items,
-  });
+  }));
   for (const dataset of versionDatasets) {
     const snapshotDocument = {
       schemaVersion: "1.0.0",

@@ -34,6 +34,16 @@ export function activeLiveVersion(datasets) {
   return newest(datasets.filter((dataset) => /\bLIVE\.\d+$/i.test(dataset.gameVersion)))?.gameVersion ?? null;
 }
 
+export function buildStableVersionDataset({ gameVersion, generatedAt, sourceStatus, persistedTradeDocument, items }) {
+  return {
+    gameVersion,
+    generatedAt,
+    sourceStatus: persistedTradeDocument?.sourceStatus ?? sourceStatus,
+    trades: persistedTradeDocument?.trades ?? [],
+    items,
+  };
+}
+
 export function anomalyBaselineForVersion(previousDatasets, legacyDocument, incomingVersion) {
   if (!/\bLIVE\.\d+$/i.test(incomingVersion)) throw new Error(`Wikelo anomaly checks accept LIVE data only: ${incomingVersion}`);
   const live = newest(previousDatasets.filter((dataset) => /\bLIVE\.\d+$/i.test(dataset.gameVersion)));

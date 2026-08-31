@@ -1,5 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { semanticChangeSummary, semanticFingerprint } from "../scripts/lib/semantic-fingerprint.mjs";
+import {
+  preserveSemanticallyUnchangedEntities,
+  semanticChangeSummary,
+  semanticFingerprint,
+} from "../scripts/lib/semantic-fingerprint.mjs";
 
 const input = {
   gameVersion: "4.9.0 LIVE.12344265",
@@ -32,5 +36,19 @@ describe("semantic data change detection", () => {
       trades: { added: 1, modified: 1, removed: 0 },
       items: { added: 1, modified: 0, removed: 1 },
     });
+  });
+
+  it("reuses stable entities when only volatile source metadata changes", () => {
+    const stable = { id: "item-a", name: "Item", sourceUpdatedAt: "stable", sourceGameVersion: "4.9" };
+    const changed = { id: "item-b", name: "Old", sourceUpdatedAt: "stable" };
+    const next = preserveSemanticallyUnchangedEntities([stable, changed], [
+      { ...stable, sourceUpdatedAt: "candidate", sourceGameVersion: "4.10" },
+      { ...changed, name: "New", sourceUpdatedAt: "candidate" },
+      { id: "item-c", name: "Added" },
+    ]);
+    expect(next[0]).toBe(stable);
+    expect(next[1]).not.toBe(changed);
+    expect(next[1].name).toBe("New");
+    expect(next[2]).toEqual({ id: "item-c", name: "Added" });
   });
 });
