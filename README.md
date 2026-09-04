@@ -12,7 +12,7 @@
 - GitHub 仓库：`B1ndoX/gvy-wikelo-site`
 - 正式域名：`https://wikelo.gvyvoyagers.vip`
 - EdgeOne 项目：`gvy-wikelo-site`
-- 星远舰队官网：`https://www.gvyvoyagers.vip`（舰队正式名称“星远”，对外称呼“星远舰队”）
+- 星远舰队官网：`https://www.gvyvoyagers.vip`（舰队正式名称与 Logo 锁定区使用“星远”，介绍及对外称呼使用“星远舰队”）
 - 蓝图查询站：`https://lantu.gvyvoyagers.vip`
 
 本项目不得修改 `gvy-lantu-site`、`gvy-official-site` 或旧 `blueprint-site`。蓝图站只可作为只读设计与部署参考。正式发布只走腾讯云 EdgeOne Pages / Makers，禁止启用 GitHub Pages，禁止修改其他项目 DNS。
@@ -85,6 +85,7 @@ npm run restore:data     # 只读列出备份；恢复时必须显式跟目录�
 - 页面外链仅保留星远舰队官网、蓝图站，以及页脚法定的 ICP/公安备案查询链接；
 - 页面不再显示占据内容区的“数据说明”细条；版本与来源记录保留在项目数据和接手文档中，不向普通查询流程暴露内部刷新细节；
 - 页脚沿用 GVY 统一品牌与免责声明，并保留 `陕ICP备2026017597号-1`、`陕公网安备61019702000690号` 及公安备案图标；
+- 页脚 Logo 锁定区主名称固定显示“星远”；页头前往主站的对外入口继续显示“星远舰队”；
 - 页脚备案链接分别指向工信部和公安部备案查询页。
 
 ### 2026-08-18 统一主题与图片快照修复
