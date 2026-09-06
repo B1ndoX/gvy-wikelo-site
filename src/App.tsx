@@ -674,7 +674,7 @@ function SiteFooter() {
   return (
     <footer className="site-footer">
       <div className="footer-brand">
-        <img src="/assets/gvy-logo.png" alt="星远 GVY" />
+        <img src="/assets/gvy-logo.png?v=29a1582e730a" alt="星远 GVY" width="34" height="34" />
         <span><strong>星远</strong><small>GALACTIC VOYAGERS / GVY</small></span>
       </div>
       <p>玩家自建非商业资料站，数据仅供参考；非 Star Citizen 官方网站，相关名称、商标与素材归其权利方所有。</p>

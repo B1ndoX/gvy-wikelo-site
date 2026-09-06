@@ -571,13 +571,13 @@ main {
 }
 
 .footer-brand {
-  gap: 10px;
+  gap: 6px;
   flex: 0 0 auto;
 }
 
 .footer-brand > img {
-  width: 28px;
-  height: 28px;
+  width: 34px;
+  height: 34px;
 }
 
 .footer-brand span {
