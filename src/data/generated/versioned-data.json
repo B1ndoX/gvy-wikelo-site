@@ -1,52 +1,52 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-31T17:04:15.211Z",
+  "generatedAt": "2026-09-12T04:42:13.983Z",
   "datasets": [
     {
-      "gameVersion": "4.10.0 LIVE.12519617",
-      "generatedAt": "2026-08-31T17:04:15.211Z",
+      "gameVersion": "4.10.0 LIVE.12572603",
+      "generatedAt": "2026-09-12T04:42:13.983Z",
       "sourceStatus": [
         {
           "url": "https://dumpers-repo.com/wikelo/",
           "status": "ok",
-          "updatedAt": "2026-08-26T23:07:01.909Z",
-          "checkedAt": "2026-08-27T18:21:03.924Z",
+          "updatedAt": "2026-09-12T00:08:54.068Z",
+          "checkedAt": "2026-09-12T04:42:13.983Z",
           "note": null
         },
         {
           "url": "https://wikelotrades.com/how-it-works",
           "status": "ok",
           "updatedAt": "2026-06-04 06:59:50 UTC",
-          "checkedAt": "2026-08-27T18:21:03.924Z",
+          "checkedAt": "2026-09-12T04:42:13.983Z",
           "note": "Latest published secondary patch: 4.8.1"
         },
         {
           "url": "https://starcitizen.tools/Wikelo",
           "status": "ok",
           "updatedAt": "2026-07-14T14:39:00.000Z",
-          "checkedAt": "2026-08-27T18:21:03.924Z",
+          "checkedAt": "2026-09-12T04:42:13.983Z",
           "note": null
         },
         {
           "url": "https://starcitizen.tools/Wikelo_Emporium",
           "status": "snapshot",
           "updatedAt": "2025-08-09T16:35:00.000Z",
-          "checkedAt": "2026-08-27T18:21:03.924Z",
+          "checkedAt": "2026-09-12T04:42:13.983Z",
           "note": "Station list cross-check snapshot."
         },
         {
           "url": "https://api.star-citizen.wiki",
           "status": "ok",
           "updatedAt": null,
-          "checkedAt": "2026-08-27T18:21:03.924Z",
+          "checkedAt": "2026-09-12T04:42:13.983Z",
           "note": "Item API version unavailable."
         },
         {
           "url": "https://api.sc-market.space/api/v2",
-          "status": "snapshot",
-          "updatedAt": "2026-07-25T18:36:56.065Z",
-          "checkedAt": "2026-08-27T18:21:03.924Z",
-          "note": "Public secondary game-data API: 4.9.0-LIVE.12232306. Player listing prices are not imported into fixed Wikelo recipes."
+          "status": "ok",
+          "updatedAt": "2026-09-09T01:37:17.413Z",
+          "checkedAt": "2026-09-12T04:42:13.983Z",
+          "note": "Public secondary game-data API: 4.10.0-LIVE.12519617. Player listing prices are not imported into fixed Wikelo recipes."
         }
       ],
       "trades": [
@@ -59,7 +59,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 250,
@@ -234,8 +234,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -248,7 +248,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ground_vehicle",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 20,
@@ -319,8 +319,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -350,7 +350,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ground_vehicle",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 20,
@@ -460,8 +460,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -517,7 +517,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ground_vehicle",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 20,
@@ -587,8 +587,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -601,7 +601,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 100,
@@ -672,8 +672,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -681,12 +681,12 @@
           "id": "41231c57-f186-4c5e-ae51-524fc1e1d9a3",
           "debugName": "TheCollector_Vehicle_DrakeClipper",
           "name": {
-            "zh": "快帆现在主打战斗",
+            "zh": "快船现在主打战斗",
             "en": "Clipper Fight Now",
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 0,
@@ -743,8 +743,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -757,7 +757,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 0,
@@ -815,8 +815,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -829,7 +829,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 250,
@@ -913,8 +913,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -966,7 +966,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 100,
@@ -1050,8 +1050,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1064,7 +1064,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 30,
@@ -1122,8 +1122,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1136,7 +1136,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 30,
@@ -1194,8 +1194,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1208,7 +1208,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 100,
@@ -1292,8 +1292,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1306,7 +1306,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 100,
@@ -1390,8 +1390,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1404,7 +1404,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 100,
@@ -1501,8 +1501,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1515,7 +1515,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ground_vehicle",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 20,
@@ -1586,8 +1586,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1600,7 +1600,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ground_vehicle",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 20,
@@ -1684,8 +1684,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1698,7 +1698,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ground_vehicle",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 20,
@@ -1795,8 +1795,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -1833,7 +1833,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 250,
@@ -1917,8 +1917,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1931,7 +1931,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 0,
@@ -2041,8 +2041,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -2082,7 +2082,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 250,
@@ -2205,8 +2205,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -2219,7 +2219,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 1000,
@@ -2511,8 +2511,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -2525,7 +2525,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ground_vehicle",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 20,
@@ -2569,8 +2569,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -2583,7 +2583,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 30,
@@ -2641,8 +2641,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -2655,7 +2655,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 30,
@@ -2752,8 +2752,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -2766,7 +2766,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 250,
@@ -2863,8 +2863,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -2902,7 +2902,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ground_vehicle",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 20,
@@ -2947,8 +2947,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -2961,7 +2961,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 30,
@@ -3058,8 +3058,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3072,7 +3072,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 0,
@@ -3130,8 +3130,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3144,7 +3144,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 30,
@@ -3241,8 +3241,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3255,7 +3255,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 250,
@@ -3339,8 +3339,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -3370,7 +3370,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 100,
@@ -3454,8 +3454,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3468,7 +3468,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 0,
@@ -3759,8 +3759,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -3773,7 +3773,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 30,
@@ -3831,8 +3831,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3845,7 +3845,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 100,
@@ -3929,8 +3929,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3943,7 +3943,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 500,
@@ -4079,8 +4079,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4093,7 +4093,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 30,
@@ -4151,8 +4151,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4165,7 +4165,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 250,
@@ -4249,8 +4249,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4263,7 +4263,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 100,
@@ -4334,8 +4334,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4348,7 +4348,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 30,
@@ -4432,8 +4432,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -4463,7 +4463,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 100,
@@ -4547,8 +4547,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -4578,7 +4578,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 100,
@@ -4662,8 +4662,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4676,7 +4676,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "ship",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 30,
@@ -4734,8 +4734,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4748,7 +4748,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "armor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 0,
@@ -4922,8 +4922,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -4936,7 +4936,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "armor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 25,
@@ -5072,8 +5072,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -5133,7 +5133,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "armor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 25,
@@ -5308,8 +5308,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -5322,7 +5322,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 0,
@@ -5431,8 +5431,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -5445,7 +5445,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 10,
@@ -5529,8 +5529,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -5543,7 +5543,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "armor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 25,
@@ -5744,8 +5744,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -5758,7 +5758,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 0,
@@ -5841,8 +5841,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -5855,7 +5855,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 0,
@@ -5951,8 +5951,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -5965,7 +5965,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 10,
@@ -6075,8 +6075,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -6089,7 +6089,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 0,
@@ -6198,8 +6198,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -6212,7 +6212,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 10,
@@ -6322,8 +6322,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -6336,7 +6336,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 0,
@@ -6445,8 +6445,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -6459,7 +6459,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "armor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 10,
@@ -6607,8 +6607,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -6621,7 +6621,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 0,
@@ -6730,8 +6730,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -6744,7 +6744,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "armor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 25,
@@ -6906,8 +6906,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -6920,7 +6920,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 10,
@@ -7004,8 +7004,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -7018,7 +7018,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "armor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 0,
@@ -7179,8 +7179,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -7193,7 +7193,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "armor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 25,
@@ -7329,8 +7329,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -7368,7 +7368,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 0,
@@ -7464,8 +7464,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -7478,7 +7478,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "armor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 0,
@@ -7639,8 +7639,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -7653,7 +7653,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 10,
@@ -7737,8 +7737,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -7751,7 +7751,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 0,
@@ -7860,8 +7860,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -7874,7 +7874,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "armor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 10,
@@ -8049,8 +8049,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -8088,7 +8088,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 10,
@@ -8172,8 +8172,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -8186,7 +8186,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "armor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 0,
@@ -8387,8 +8387,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -8401,7 +8401,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 10,
@@ -8472,8 +8472,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -8486,7 +8486,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "armor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 10,
@@ -8609,8 +8609,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -8623,7 +8623,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "armor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 25,
@@ -8798,8 +8798,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -8832,12 +8832,12 @@
           "id": "a026b45d-6726-4a86-898c-e0207f2880c4",
           "debugName": "TheCollector_apar_hmg",
           "name": {
-            "zh": "太多枪了",
+            "zh": "枪太多了",
             "en": "Too Much Gun",
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 10,
@@ -8920,8 +8920,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -8934,7 +8934,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 0,
@@ -9030,8 +9030,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9044,7 +9044,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "armor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 25,
@@ -9179,8 +9179,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9193,7 +9193,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "armor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 0,
@@ -9354,8 +9354,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9368,7 +9368,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "gear",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 0,
@@ -9438,8 +9438,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9452,7 +9452,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "armor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 0,
@@ -9561,8 +9561,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9575,7 +9575,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 10,
@@ -9646,8 +9646,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -9677,7 +9677,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 10,
@@ -9774,8 +9774,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -9788,7 +9788,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "weapon",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "inactive",
           "minReputation": null,
           "reputationGain": 0,
@@ -9884,8 +9884,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9898,7 +9898,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "favor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": "New Customer",
           "reputationGain": 0,
@@ -9943,8 +9943,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -9957,7 +9957,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "favor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": "New Customer",
           "reputationGain": 0,
@@ -10002,8 +10002,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -10016,7 +10016,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "favor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": "New Customer",
           "reputationGain": 0,
@@ -10061,8 +10061,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -10075,7 +10075,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "favor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": "New Customer",
           "reputationGain": 0,
@@ -10120,8 +10120,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -10134,7 +10134,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "favor",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": "New Customer",
           "reputationGain": 0,
@@ -10179,8 +10179,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -10210,7 +10210,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "introduction",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": null,
           "reputationGain": 10,
@@ -10253,8 +10253,8 @@
             "https://dumpers-repo.com/wikelo/",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -10267,7 +10267,7 @@
             "localizationSource": "official_global_ini"
           },
           "category": "food",
-          "gameVersion": "4.10.0 LIVE.12519617",
+          "gameVersion": "4.10.0 LIVE.12572603",
           "status": "active",
           "minReputation": "New Customer",
           "reputationGain": 0,
@@ -10311,8 +10311,8 @@
             "https://wikelotrades.com/how-it-works",
             "https://starcitizen.tools/Wikelo"
           ],
-          "sourceUpdatedAt": "2026-08-26T23:07:01.909Z",
-          "fetchedAt": "2026-08-27T18:21:03.924Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:54.068Z",
+          "fetchedAt": "2026-09-12T04:42:13.983Z",
           "validationStatus": "verified",
           "conflicts": []
         }
@@ -10564,7 +10564,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-arms-woodland",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-arms-woodland",
-          "sourceUpdatedAt": "2026-08-31T00:36:22.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:09:27.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -10572,11 +10572,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - 炽天使空间站、Cubby Blast - 18区、护甲店 · 特雷斯勒空间站",
+              "location": "可购买地点：Armor - MIC-L4、Armor - 炽天使空间站、Cubby Blast - 18区、坦姆尼父子 - Metro Center - 罗威尔、护甲店 · 特雷斯勒空间站",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-arms-woodland&tab=about",
-              "sourceUpdatedAt": "2026-08-29T14:50:07+00:00"
+              "sourceUpdatedAt": "2026-09-09T18:51:59+00:00"
             },
             {
               "type": "craft",
@@ -10585,7 +10585,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-arms-woodland",
-              "sourceUpdatedAt": "2026-08-31T00:36:22.000000Z"
+              "sourceUpdatedAt": "2026-09-12T00:09:27.000000Z"
             }
           ],
           "crafting": {
@@ -10750,7 +10750,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-core-woodland",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-core-woodland",
-          "sourceUpdatedAt": "2026-08-31T00:12:47.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:17:56.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -10758,11 +10758,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - 炽天使空间站、Cubby Blast - 18区、护甲店 · 特雷斯勒空间站",
+              "location": "可购买地点：Armor - MIC-L4、Armor - 炽天使空间站、Cubby Blast - 18区、坦姆尼父子 - Metro Center - 罗威尔、护甲店 · 特雷斯勒空间站",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-core-woodland&tab=about",
-              "sourceUpdatedAt": "2026-08-29T15:02:43+00:00"
+              "sourceUpdatedAt": "2026-09-09T19:04:06+00:00"
             },
             {
               "type": "craft",
@@ -10771,7 +10771,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-core-woodland",
-              "sourceUpdatedAt": "2026-08-31T00:12:47.000000Z"
+              "sourceUpdatedAt": "2026-09-12T00:17:56.000000Z"
             }
           ],
           "crafting": {
@@ -10936,7 +10936,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-helmet-woodland",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-helmet-woodland",
-          "sourceUpdatedAt": "2026-08-31T00:16:20.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:12:55.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -10944,11 +10944,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、Cubby Blast - 18区、护甲店 · 尼克斯星门（斯坦顿）、护甲店 · 尼克斯星门（派罗）、护甲店 · 特雷斯勒空间站",
+              "location": "可购买地点：Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 斯坦顿星门 (Pyro)、Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (Stanton)、Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、Cubby Blast - 18区等 12 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-helmet-woodland&tab=about",
-              "sourceUpdatedAt": "2026-08-30T20:00:54+00:00"
+              "sourceUpdatedAt": "2026-09-11T02:54:47+00:00"
             },
             {
               "type": "craft",
@@ -10957,7 +10957,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-helmet-woodland",
-              "sourceUpdatedAt": "2026-08-31T00:16:20.000000Z"
+              "sourceUpdatedAt": "2026-09-12T00:12:55.000000Z"
             }
           ],
           "crafting": {
@@ -11122,7 +11122,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-legs-woodland",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-legs-woodland",
-          "sourceUpdatedAt": "2026-08-31T00:14:11.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:18:56.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -11130,11 +11130,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、Cubby Blast - 18区、护甲店 · 尼克斯星门（斯坦顿）、护甲店 · 特雷斯勒空间站",
+              "location": "可购买地点：Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 斯坦顿星门 (Pyro)、Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (Stanton)、Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、Cubby Blast - 18区等 12 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-legs-woodland&tab=about",
-              "sourceUpdatedAt": "2026-08-30T20:03:37+00:00"
+              "sourceUpdatedAt": "2026-09-11T02:57:16+00:00"
             },
             {
               "type": "craft",
@@ -11143,7 +11143,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-legs-woodland",
-              "sourceUpdatedAt": "2026-08-31T00:14:11.000000Z"
+              "sourceUpdatedAt": "2026-09-12T00:18:56.000000Z"
             }
           ],
           "crafting": {
@@ -13305,10 +13305,10 @@
           "category": "Drink",
           "descriptionZh": "HEI：35\nNDR：14\n效果：免疫增强\n由一些新鲜浆果混合而成的冰沙。",
           "imagePath": "/images/items/drink-bottle-smoothie-01-a.jpg",
-          "imageSourceUrl": "https://cdn.star-citizen.wiki/images/4/46/Berry_Blend_Smoothie.jpg",
+          "imageSourceUrl": "https://media.starcitizen.tools/4/46/Berry_Blend_Smoothie.jpg",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/berry-blend-smoothie",
-          "sourceUpdatedAt": "2026-08-31T00:20:21.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:19:43.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": false,
@@ -13316,11 +13316,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Juice Bar - CRU-L1 、Juice Bar - CRU-L4、Juice Bar - 斯坦顿星门 (尼克斯)、Juice Bar - 炽天使空间站 Station、果汁吧 · 弧 L4 黯淡幽谷站",
+              "location": "可购买地点：Juice Bar - CRU-L1 、Juice Bar - CRU-L4、Juice Bar - CRU-L5、Juice Bar - Everus Harbor、Juice Bar - MIC-L2、Juice Bar - MIC-L5、Juice Bar - Terra Gateway (Stanton)、Juice Bar - 尼克斯星门 (Pyro) 等 20 处",
               "price": 7,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=berry-blend-smoothie&tab=about",
-              "sourceUpdatedAt": "2026-08-30T19:15:52+00:00"
+              "sourceUpdatedAt": "2026-09-11T02:03:15+00:00"
             }
           ],
           "crafting": null,
@@ -13415,7 +13415,7 @@
             {
               "tradeId": "41231c57-f186-4c5e-ae51-524fc1e1d9a3",
               "tradeName": {
-                "zh": "快帆现在主打战斗",
+                "zh": "快船现在主打战斗",
                 "en": "Clipper Fight Now",
                 "localizationSource": "official_global_ini"
               },
@@ -13695,7 +13695,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/d/da/Curious_Weapon.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/boomtube-rocket",
-          "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:01:20.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": false,
@@ -13703,11 +13703,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Cubby 18区、Guns Endgame、Guns Megumi、Guns Rat's Nest、Guns Ruin、Guns 轨道讣闻站、Shop Seer's Canyon、Skutters Grim 等 16 处",
+              "location": "可购买地点：Cubby 18区、Guns Endgame、Guns Megumi、Guns Rat's Nest、Guns Ruin、Guns 轨道讣闻站、Shop Ashland、Shop Chawla's Beach 等 22 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=boomtube-rocket&tab=about",
-              "sourceUpdatedAt": "2026-08-30T16:14:35+00:00"
+              "sourceUpdatedAt": "2026-09-05T12:24:38+00:00"
             },
             {
               "type": "wikelo",
@@ -14801,7 +14801,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/9/97/Coda_pistol_clip_side_800x400.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/coda-pistol-magazine-6-cap",
-          "sourceUpdatedAt": "2026-08-31T00:32:21.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:15:35.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -14809,11 +14809,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - CRU-L1、Armor - 弧 L4 黯淡幽谷站、Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、CenterMass - IO North Tower - 18区、Cubby Blast - 18区、FPS Shop - Astors Clearing 等 28 处",
-              "price": 124,
+              "location": "可购买地点：Armor - CRU-L1、Armor - Everus Harbor、Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 弧 L1 广袤森林站、Armor - 弧 L4 黯淡幽谷站、Armor - 斯坦顿星门 (Pyro)、Armor - 斯坦顿星门 (尼克斯) 等 74 处",
+              "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=coda-pistol-magazine-(6-cap)&tab=about",
-              "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
+              "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
             },
             {
               "type": "craft",
@@ -14822,7 +14822,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/coda-pistol-magazine-6-cap",
-              "sourceUpdatedAt": "2026-08-31T00:32:21.000000Z"
+              "sourceUpdatedAt": "2026-09-12T00:15:35.000000Z"
             },
             {
               "type": "wikelo",
@@ -16339,12 +16339,12 @@
           },
           "category": "Torso (Armor)",
           "descriptionZh": "物品类型：重型护甲\n伤害减免：40%\n适用温度：-70 / 100 摄氏度\n辐射防护：52800 雷姆\n辐射清除率：251.1 雷姆 / 秒\n储物空间：8.0 uSCU\n可挂载背包类型：全部\n穿上DCP重型护甲，在最残酷的攻击下活下来。这套护甲的关节易于摆动，可在激烈的战斗中自由活动，其多层减震外壳可帮助穿戴者抵御最猛烈的攻击。",
-          "imagePath": "/images/items/cds-combat-heavy-core-03-01-01.png",
-          "imageSourceUrl": "https://cstone.space/uifimages/f66babbd-4b85-451b-80ad-1688b895f04c.png",
+          "imagePath": "/images/items/cds-combat-heavy-core-03-01-01.jpg",
+          "imageSourceUrl": "https://media.starcitizen.tools/5/5b/DCP_Armor_Core_Hunter.jpg",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/dcp-armor-core-hunter-camo",
-          "sourceUpdatedAt": "2026-07-16T13:11:34.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:19.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": false,
           "acquisition": [
@@ -16687,8 +16687,8 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/vehicles/drak-clipper-collector-military",
           "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/vehicles/drak-clipper-collector-military",
-          "sourceUpdatedAt": "2026-07-16T13:18:14.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-09-09T11:57:51.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
@@ -16708,7 +16708,7 @@
             {
               "tradeId": "41231c57-f186-4c5e-ae51-524fc1e1d9a3",
               "tradeName": {
-                "zh": "快帆现在主打战斗",
+                "zh": "快船现在主打战斗",
                 "en": "Clipper Fight Now",
                 "localizationSource": "official_global_ini"
               },
@@ -16773,7 +16773,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
-          "sourceUpdatedAt": "2026-08-31T00:23:02.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:14:11.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": false,
@@ -16781,11 +16781,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Ellroy's - CRU-L1、Ellroy's - 斯坦顿星门 (尼克斯)、Ellroy's - 炽天使空间站、Whammer's - 云景中心 - 奥里森、Whammer's - 奥古斯特·顿洛空港 - 奥里森、埃尔罗伊咖啡店 · 奥里森、埃尔罗伊咖啡店 · 奥里森 - Green Circle、埃尔罗伊咖啡店 · 新巴贝奇等 11 处",
+              "location": "可购买地点：Ellroy's - CRU-L1、Ellroy's - Everus Harbor、Ellroy's - Green Circle - 奥里森、Ellroy's - Terra Gateway (Stanton)、Ellroy's - 奥古斯特·顿洛空港 - 奥里森、Ellroy's - 尼克斯星门 (Pyro)、Ellroy's - 尼克斯星门 (Stanton)、Ellroy's - 微 L1 浅边站等 22 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=ermer-family-farms-fat-free-ice-cream&tab=about",
-              "sourceUpdatedAt": "2026-08-30T19:11:14+00:00"
+              "sourceUpdatedAt": "2026-09-11T02:01:41+00:00"
             }
           ],
           "crafting": null,
@@ -18272,7 +18272,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/grassland-quasi-grazer-egg",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/grassland-quasi-grazer-egg",
-          "sourceUpdatedAt": "2026-08-31T00:01:58.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:20:18.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
@@ -18289,11 +18289,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Shop Bullock's Reach、Shop Kinder Plots、Shop The Yard、Shop 牧人驿站",
+              "location": "可购买地点：Shop Terminal - Bullock's Reach、Shop Terminal - Kinder Plots、Shop Terminal - The Yard、Shop Terminal - 牧人驿站",
               "price": 56,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=grassland-quasi-grazer-egg&tab=about",
-              "sourceUpdatedAt": "2026-05-27T20:05:02+00:00"
+              "sourceUpdatedAt": "2026-09-04T18:51:39+00:00"
             }
           ],
           "crafting": null,
@@ -19192,7 +19192,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/karna-rifle",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/karna-rifle",
-          "sourceUpdatedAt": "2026-08-31T00:23:42.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:19:57.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -19200,11 +19200,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (尼克斯)、护甲店 · 尼克斯星门（斯坦顿）",
-              "price": 4554,
+              "location": "可购买地点：Armor - Everus Harbor、Armor - Terra Gateway (Stanton)、Armor - 斯坦顿星门 (Pyro)、Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (Stanton)、Armor - 派罗星门 (尼克斯)、Live Fire Weapons - CRU-L5、坦姆尼父子 - Metro Center - 罗威尔等 10 处",
+              "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=karna-rifle&tab=about",
-              "sourceUpdatedAt": "2026-08-30T20:13:30+00:00"
+              "sourceUpdatedAt": "2026-09-11T03:05:34+00:00"
             },
             {
               "type": "craft",
@@ -19213,7 +19213,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle",
-              "sourceUpdatedAt": "2026-08-31T00:23:42.000000Z"
+              "sourceUpdatedAt": "2026-09-12T00:19:57.000000Z"
             }
           ],
           "crafting": {
@@ -19321,7 +19321,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/4/40/Kasta_magazine_800x400.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/karna-rifle-battery-35-cap",
-          "sourceUpdatedAt": "2026-08-31T00:32:20.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:15:35.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -19329,11 +19329,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - CRU-L1、Armor - 弧 L4 黯淡幽谷站、Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、CenterMass - IO North Tower - 18区、Cubby Blast - 18区、FPS Shop - Astors Clearing 等 27 处",
-              "price": 248,
+              "location": "可购买地点：Armor - CRU-L1、Armor - Everus Harbor、Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 弧 L1 广袤森林站、Armor - 弧 L4 黯淡幽谷站、Armor - 斯坦顿星门 (Pyro)、Armor - 斯坦顿星门 (尼克斯) 等 74 处",
+              "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=karna-rifle-battery-(35-cap)&tab=about",
-              "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
+              "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
             },
             {
               "type": "craft",
@@ -19342,7 +19342,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle-battery-35-cap",
-              "sourceUpdatedAt": "2026-08-31T00:32:20.000000Z"
+              "sourceUpdatedAt": "2026-09-12T00:15:35.000000Z"
             },
             {
               "type": "wikelo",
@@ -20188,7 +20188,7 @@
             {
               "tradeId": "41231c57-f186-4c5e-ae51-524fc1e1d9a3",
               "tradeName": {
-                "zh": "快帆现在主打战斗",
+                "zh": "快船现在主打战斗",
                 "en": "Clipper Fight Now",
                 "localizationSource": "official_global_ini"
               },
@@ -22345,7 +22345,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/novikov-exploration-suit",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/novikov-exploration-suit",
-          "sourceUpdatedAt": "2026-08-31T00:21:18.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:16:07.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -22353,11 +22353,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Cargo Center Supplies - 炽天使空间站、Cargo Services - Gaslight、Cargo Services - 废墟空间站、Cargo Services - 斯坦顿星门 (尼克斯)、Cargo Services - 轨道讣闻站、护甲店 · 特雷斯勒空间站、货运中心用品店 · 拜基尼空间站、货运中心用品店 · 特雷斯勒空间站等 10 处",
-              "price": 16116,
+              "location": "可购买地点：Cargo Center Supplies - Everus Harbor、Cargo Center Supplies - 尼克斯星门 (Stanton)、Cargo Center Supplies - 斯坦顿星门 (Pyro)、Cargo Center Supplies - 派罗星门 (Stanton)、Cargo Center Supplies - 炽天使空间站、Cargo Services - Gaslight、Cargo Services - Megumi Refueling、Cargo Services - 废墟空间站等 18 处",
+              "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=novikov-exploration-suit&tab=about",
-              "sourceUpdatedAt": "2026-08-30T19:02:30+00:00"
+              "sourceUpdatedAt": "2026-09-10T14:12:46+00:00"
             },
             {
               "type": "craft",
@@ -22366,7 +22366,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-exploration-suit",
-              "sourceUpdatedAt": "2026-08-31T00:21:18.000000Z"
+              "sourceUpdatedAt": "2026-09-12T00:16:07.000000Z"
             }
           ],
           "crafting": {
@@ -22451,7 +22451,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/novikov-helmet",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/novikov-helmet",
-          "sourceUpdatedAt": "2026-08-31T00:36:24.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:26:00.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": true,
@@ -22459,11 +22459,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Cargo Center Supplies - 炽天使空间站、Cargo Services - Gaslight、Cargo Services - 废墟空间站、Cargo Services - 斯坦顿星门 (尼克斯)、Cargo Services - 轨道讣闻站、护甲店 · 特雷斯勒空间站、货运中心用品店 · 拜基尼空间站、货运中心用品店 · 特雷斯勒空间站等 10 处",
-              "price": 11734,
+              "location": "可购买地点：Cargo Center Supplies - Everus Harbor、Cargo Center Supplies - 尼克斯星门 (Stanton)、Cargo Center Supplies - 斯坦顿星门 (Pyro)、Cargo Center Supplies - 派罗星门 (Stanton)、Cargo Center Supplies - 炽天使空间站、Cargo Services - Gaslight、Cargo Services - Megumi Refueling、Cargo Services - 废墟空间站等 18 处",
+              "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=novikov-helmet&tab=about",
-              "sourceUpdatedAt": "2026-08-30T18:54:30+00:00"
+              "sourceUpdatedAt": "2026-09-10T14:03:21+00:00"
             },
             {
               "type": "craft",
@@ -22472,7 +22472,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-helmet",
-              "sourceUpdatedAt": "2026-08-31T00:36:24.000000Z"
+              "sourceUpdatedAt": "2026-09-12T00:26:00.000000Z"
             }
           ],
           "crafting": {
@@ -24616,7 +24616,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun",
-          "sourceUpdatedAt": "2026-08-31T00:24:46.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:08:48.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -24624,11 +24624,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Cubby Blast - 18区、FPS Shop - Astors Clearing、FPS Shop - Dunboro、科途便利店 · 云景中心 · 奥里森",
+              "location": "可购买地点：Cubby Blast - 18区、Frostbite、Skutters - GrimHEX、科途便利店 · 云景中心 · 奥里森",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=r97-shotgun&tab=about",
-              "sourceUpdatedAt": "2026-08-29T18:01:11+00:00"
+              "sourceUpdatedAt": "2026-09-04T21:58:19+00:00"
             },
             {
               "type": "craft",
@@ -24637,7 +24637,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun",
-              "sourceUpdatedAt": "2026-08-31T00:24:46.000000Z"
+              "sourceUpdatedAt": "2026-09-12T00:08:48.000000Z"
             }
           ],
           "crafting": {
@@ -24849,7 +24849,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/7/7c/R97_Crimson_Camo_Shotgun.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun-magazine-18-cap",
-          "sourceUpdatedAt": "2026-08-31T00:35:32.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:25:05.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -24857,11 +24857,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - CRU-L1、Armor - 弧 L4 黯淡幽谷站、Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、CenterMass - IO North Tower - 18区、Cubby Blast - 18区、FPS Shop - Astors Clearing 等 27 处",
-              "price": 520,
+              "location": "可购买地点：Armor - CRU-L1、Armor - Everus Harbor、Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 弧 L1 广袤森林站、Armor - 弧 L4 黯淡幽谷站、Armor - 斯坦顿星门 (Pyro)、Armor - 斯坦顿星门 (尼克斯) 等 74 处",
+              "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=r97-shotgun-magazine-(18-cap)&tab=about",
-              "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
+              "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
             },
             {
               "type": "craft",
@@ -24870,7 +24870,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun-magazine-18-cap",
-              "sourceUpdatedAt": "2026-08-31T00:35:32.000000Z"
+              "sourceUpdatedAt": "2026-09-12T00:25:05.000000Z"
             },
             {
               "type": "wikelo",
@@ -26276,7 +26276,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/c/c0/S71_magazine_800x400.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/s71-rifle-magazine-30-cap",
-          "sourceUpdatedAt": "2026-08-31T00:31:12.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:14:26.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -26284,11 +26284,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - CRU-L1、Armor - 弧 L4 黯淡幽谷站、Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、CenterMass - IO North Tower - 18区、Cubby Blast - 18区、FPS Shop - Astors Clearing 等 27 处",
-              "price": 297,
+              "location": "可购买地点：Armor - CRU-L1、Armor - Everus Harbor、Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 弧 L1 广袤森林站、Armor - 弧 L4 黯淡幽谷站、Armor - 斯坦顿星门 (Pyro)、Armor - 斯坦顿星门 (尼克斯) 等 74 处",
+              "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=s71-rifle-magazine-(30-cap)&tab=about",
-              "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
+              "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
             },
             {
               "type": "craft",
@@ -26297,7 +26297,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/s71-rifle-magazine-30-cap",
-              "sourceUpdatedAt": "2026-08-31T00:31:12.000000Z"
+              "sourceUpdatedAt": "2026-09-12T00:14:26.000000Z"
             },
             {
               "type": "wikelo",
@@ -29481,7 +29481,7 @@
             {
               "tradeId": "a026b45d-6726-4a86-898c-e0207f2880c4",
               "tradeName": {
-                "zh": "太多枪了",
+                "zh": "枪太多了",
                 "en": "Too Much Gun",
                 "localizationSource": "official_global_ini"
               },
@@ -29524,7 +29524,7 @@
             {
               "tradeId": "a026b45d-6726-4a86-898c-e0207f2880c4",
               "tradeName": {
-                "zh": "太多枪了",
+                "zh": "枪太多了",
                 "en": "Too Much Gun",
                 "localizationSource": "official_global_ini"
               },
@@ -29604,7 +29604,7 @@
             {
               "tradeId": "a026b45d-6726-4a86-898c-e0207f2880c4",
               "tradeName": {
-                "zh": "太多枪了",
+                "zh": "枪太多了",
                 "en": "Too Much Gun",
                 "localizationSource": "official_global_ini"
               },
@@ -29627,7 +29627,7 @@
           "imageSourceUrl": "https://starcitizen.tools/Vendetta_HMG",
           "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/vendetta-hmg-magazine-1000-cap",
-          "sourceUpdatedAt": "2026-08-31T00:02:02.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:01:21.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": false,
@@ -29635,11 +29635,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor Tressler、Kel-To 云景中心、Kel-To 志远大厦、Live Fire MIC-L2、商店 · 卡比尔驿站等 9 处",
+              "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor Everus、FPS Armor Tressler、FPS Armor 尼克斯星门 (Pyro)、FPS Armor 弧 L1 广袤森林站等 64 处",
               "price": 7425,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=vendetta-hmg-magazine-(1000-cap)&tab=about",
-              "sourceUpdatedAt": "2026-08-30T08:54:48+00:00"
+              "sourceUpdatedAt": "2026-09-11T02:32:32+00:00"
             },
             {
               "type": "wikelo",
@@ -29657,7 +29657,7 @@
             {
               "tradeId": "a026b45d-6726-4a86-898c-e0207f2880c4",
               "tradeName": {
-                "zh": "太多枪了",
+                "zh": "枪太多了",
                 "en": "Too Much Gun",
                 "localizationSource": "official_global_ini"
               },
@@ -30019,7 +30019,7 @@
           "imageSourceUrl": "https://starcitizen.tools/Venture_Core",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/venture-core",
-          "sourceUpdatedAt": "2026-08-31T00:34:05.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:22:08.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -30027,11 +30027,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - CRU-L1、Armor - 炽天使空间站、护甲店 · 微 L1 浅边站、科途便利店 · 云景中心 · 奥里森、科途便利店 · 志远大厦 · 新巴贝奇",
+              "location": "可购买地点：Armor - CRU-L1、Armor - MIC-L4、Armor - 炽天使空间站、护甲店 · 微 L1 浅边站、科途便利店 · 云景中心 · 奥里森、科途便利店 · 志远大厦 · 新巴贝奇",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=venture-core&tab=about",
-              "sourceUpdatedAt": "2026-08-30T04:28:47+00:00"
+              "sourceUpdatedAt": "2026-09-11T18:43:10+00:00"
             },
             {
               "type": "craft",
@@ -30040,7 +30040,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-core",
-              "sourceUpdatedAt": "2026-08-31T00:34:05.000000Z"
+              "sourceUpdatedAt": "2026-09-12T00:22:08.000000Z"
             }
           ],
           "crafting": {
@@ -30364,12 +30364,12 @@
           },
           "category": "Helmet (Armor)",
           "descriptionZh": "物品类型：轻型护甲\n伤害减免：20%\n适用温度：-38 / 68 摄氏度\n辐射防护：26000 雷姆\n辐射清除率：145.8 雷姆 / 秒\nRSI的探险家头盔由耐冲击的复合材料制成，目的在于抵御最恶劣的环境。它还具有防刮压板面板，可提供无与伦比的上方视野，让您对发现的任何奇观都一览无余。这个特殊的IAE2953版的铜和白色装饰的灵感来自于盖塔克制造的飞船——速伦。",
-          "imagePath": "/images/items/rsi-explorer-light-helmet-01-iae2023-01.jpg",
-          "imageSourceUrl": "https://cdn.star-citizen.wiki/images/0/07/Venture_Helmet_Ascension.jpg",
+          "imagePath": "/images/items/rsi-explorer-light-helmet-01-iae2023-01.webp",
+          "imageSourceUrl": "https://media.starcitizen.tools/9/95/Venture_Helmet_Ascension_-_In-game_SCT_logo.jpg",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/venture-helmet-ascension",
-          "sourceUpdatedAt": "2026-07-16T13:17:28.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:48:54.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
@@ -30483,7 +30483,7 @@
           "imageSourceUrl": "https://starcitizen.tools/Venture_Legs",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/venture-legs",
-          "sourceUpdatedAt": "2026-08-31T00:14:02.000000Z",
+          "sourceUpdatedAt": "2026-09-12T00:06:16.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -30491,11 +30491,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - CRU-L1、Armor - 炽天使空间站、科途便利店 · 云景中心 · 奥里森、科途便利店 · 志远大厦 · 新巴贝奇",
+              "location": "可购买地点：Armor - CRU-L1、Armor - MIC-L4、Armor - 炽天使空间站、坦姆尼父子 - Metro Center - 罗威尔、科途便利店 · 云景中心 · 奥里森、科途便利店 · 志远大厦 · 新巴贝奇",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=venture-legs&tab=about",
-              "sourceUpdatedAt": "2026-08-30T04:28:21+00:00"
+              "sourceUpdatedAt": "2026-09-11T13:43:41+00:00"
             },
             {
               "type": "craft",
@@ -30504,7 +30504,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-legs",
-              "sourceUpdatedAt": "2026-08-31T00:14:02.000000Z"
+              "sourceUpdatedAt": "2026-09-12T00:06:16.000000Z"
             }
           ],
           "crafting": {
@@ -30961,8 +30961,8 @@
           "imageSourceUrl": "https://starcitizen.tools/Wikelo_Favor",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/wikelo-favor",
-          "sourceUpdatedAt": "2026-07-16T13:05:00.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:46:04.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
@@ -31441,7 +31441,7 @@
             {
               "tradeId": "a026b45d-6726-4a86-898c-e0207f2880c4",
               "tradeName": {
-                "zh": "太多枪了",
+                "zh": "枪太多了",
                 "en": "Too Much Gun",
                 "localizationSource": "official_global_ini"
               },
