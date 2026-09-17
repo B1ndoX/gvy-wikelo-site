@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-12T04:42:13.983Z",
+  "generatedAt": "2026-09-17T04:59:08.351Z",
   "items": [
     {
       "id": "basl_combat_light_helmet_02_01_01",
@@ -2992,7 +2992,7 @@
       "imageSourceUrl": "https://media.starcitizen.tools/4/46/Berry_Blend_Smoothie.jpg",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/berry-blend-smoothie",
-      "sourceUpdatedAt": "2026-09-12T00:19:43.000000Z",
+      "sourceUpdatedAt": "2026-09-17T00:18:34.000000Z",
       "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": false,
@@ -3000,7 +3000,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Juice Bar - CRU-L1 、Juice Bar - CRU-L4、Juice Bar - CRU-L5、Juice Bar - Everus Harbor、Juice Bar - MIC-L2、Juice Bar - MIC-L5、Juice Bar - Terra Gateway (Stanton)、Juice Bar - 尼克斯星门 (Pyro) 等 20 处",
+          "location": "可购买地点：Juice Bar - CRU-L1 、Juice Bar - CRU-L4、Juice Bar - CRU-L5、Juice Bar - Everus Harbor、Juice Bar - HUR-L1、Juice Bar - HUR-L4、Juice Bar - MIC-L2、Juice Bar - MIC-L5 等 22 处",
           "price": 7,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=berry-blend-smoothie&tab=about",
@@ -4485,7 +4485,7 @@
       "imageSourceUrl": "https://media.starcitizen.tools/9/97/Coda_pistol_clip_side_800x400.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/coda-pistol-magazine-6-cap",
-      "sourceUpdatedAt": "2026-09-12T00:15:35.000000Z",
+      "sourceUpdatedAt": "2026-09-17T00:15:12.000000Z",
       "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
@@ -4493,7 +4493,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Armor - CRU-L1、Armor - Everus Harbor、Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 弧 L1 广袤森林站、Armor - 弧 L4 黯淡幽谷站、Armor - 斯坦顿星门 (Pyro)、Armor - 斯坦顿星门 (尼克斯) 等 74 处",
+          "location": "可购买地点：Armor - CRU-L1、Armor - CRU-L4、Armor - Everus Harbor、Armor - HUR-L1、Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 弧 L1 广袤森林站、Armor - 弧 L4 黯淡幽谷站等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=coda-pistol-magazine-(6-cap)&tab=about",
@@ -4506,7 +4506,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/coda-pistol-magazine-6-cap",
-          "sourceUpdatedAt": "2026-09-12T00:15:35.000000Z"
+          "sourceUpdatedAt": "2026-09-17T00:15:12.000000Z"
         },
         {
           "type": "wikelo",
@@ -6457,7 +6457,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
-      "sourceUpdatedAt": "2026-09-12T00:14:11.000000Z",
+      "sourceUpdatedAt": "2026-09-17T00:13:50.000000Z",
       "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": false,
@@ -6465,7 +6465,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Ellroy's - CRU-L1、Ellroy's - Everus Harbor、Ellroy's - Green Circle - 奥里森、Ellroy's - Terra Gateway (Stanton)、Ellroy's - 奥古斯特·顿洛空港 - 奥里森、Ellroy's - 尼克斯星门 (Pyro)、Ellroy's - 尼克斯星门 (Stanton)、Ellroy's - 微 L1 浅边站等 22 处",
+          "location": "可购买地点：Ellroy's - CRU-L1、Ellroy's - Everus Harbor、Ellroy's - Green Circle - 奥里森、Ellroy's - HUR-L1、Ellroy's - Terra Gateway (Stanton)、Ellroy's - 奥古斯特·顿洛空港 - 奥里森、Ellroy's - 尼克斯星门 (Pyro)、Ellroy's - 尼克斯星门 (Stanton) 等 23 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=ermer-family-farms-fat-free-ice-cream&tab=about",
@@ -8876,7 +8876,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/karna-rifle",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/karna-rifle",
-      "sourceUpdatedAt": "2026-09-12T00:19:57.000000Z",
+      "sourceUpdatedAt": "2026-09-17T00:18:49.000000Z",
       "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
@@ -8884,7 +8884,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Armor - Everus Harbor、Armor - Terra Gateway (Stanton)、Armor - 斯坦顿星门 (Pyro)、Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (Stanton)、Armor - 派罗星门 (尼克斯)、Live Fire Weapons - CRU-L5、坦姆尼父子 - Metro Center - 罗威尔等 10 处",
+          "location": "可购买地点：Armor - Everus Harbor、Armor - Terra Gateway (Stanton)、Armor - 斯坦顿星门 (Pyro)、Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (Stanton)、Armor - 派罗星门 (尼克斯)、Live Fire Weapons - CRU-L5、Live Fire Weapons - HUR-L2 等 11 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=karna-rifle&tab=about",
@@ -8897,7 +8897,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle",
-          "sourceUpdatedAt": "2026-09-12T00:19:57.000000Z"
+          "sourceUpdatedAt": "2026-09-17T00:18:49.000000Z"
         }
       ],
       "crafting": {
@@ -9005,7 +9005,7 @@
       "imageSourceUrl": "https://media.starcitizen.tools/4/40/Kasta_magazine_800x400.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/karna-rifle-battery-35-cap",
-      "sourceUpdatedAt": "2026-09-12T00:15:35.000000Z",
+      "sourceUpdatedAt": "2026-09-17T00:15:12.000000Z",
       "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
@@ -9013,7 +9013,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Armor - CRU-L1、Armor - Everus Harbor、Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 弧 L1 广袤森林站、Armor - 弧 L4 黯淡幽谷站、Armor - 斯坦顿星门 (Pyro)、Armor - 斯坦顿星门 (尼克斯) 等 74 处",
+          "location": "可购买地点：Armor - CRU-L1、Armor - CRU-L4、Armor - Everus Harbor、Armor - HUR-L1、Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 弧 L1 广袤森林站、Armor - 弧 L4 黯淡幽谷站等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=karna-rifle-battery-(35-cap)&tab=about",
@@ -9026,7 +9026,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle-battery-35-cap",
-          "sourceUpdatedAt": "2026-09-12T00:15:35.000000Z"
+          "sourceUpdatedAt": "2026-09-17T00:15:12.000000Z"
         },
         {
           "type": "wikelo",
@@ -14300,7 +14300,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun",
-      "sourceUpdatedAt": "2026-09-12T00:08:48.000000Z",
+      "sourceUpdatedAt": "2026-09-17T00:25:00.000000Z",
       "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
@@ -14308,11 +14308,11 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Cubby Blast - 18区、Frostbite、Skutters - GrimHEX、科途便利店 · 云景中心 · 奥里森",
+          "location": "可购买地点：Cubby Blast - 18区、FPS Shop - Astor's Clearing、FPS Shop - Dunboro、Frostbite、Shop Terminal - Zephyr、Skutters - GrimHEX、科途便利店 · 云景中心 · 奥里森",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=r97-shotgun&tab=about",
-          "sourceUpdatedAt": "2026-09-04T21:58:19+00:00"
+          "sourceUpdatedAt": "2026-09-12T13:38:25+00:00"
         },
         {
           "type": "craft",
@@ -14321,7 +14321,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun",
-          "sourceUpdatedAt": "2026-09-12T00:08:48.000000Z"
+          "sourceUpdatedAt": "2026-09-17T00:25:00.000000Z"
         }
       ],
       "crafting": {
@@ -14533,7 +14533,7 @@
       "imageSourceUrl": "https://media.starcitizen.tools/7/7c/R97_Crimson_Camo_Shotgun.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun-magazine-18-cap",
-      "sourceUpdatedAt": "2026-09-12T00:25:05.000000Z",
+      "sourceUpdatedAt": "2026-09-17T00:22:45.000000Z",
       "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
@@ -14541,7 +14541,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Armor - CRU-L1、Armor - Everus Harbor、Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 弧 L1 广袤森林站、Armor - 弧 L4 黯淡幽谷站、Armor - 斯坦顿星门 (Pyro)、Armor - 斯坦顿星门 (尼克斯) 等 74 处",
+          "location": "可购买地点：Armor - CRU-L1、Armor - CRU-L4、Armor - Everus Harbor、Armor - HUR-L1、Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 弧 L1 广袤森林站、Armor - 弧 L4 黯淡幽谷站等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=r97-shotgun-magazine-(18-cap)&tab=about",
@@ -14554,7 +14554,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun-magazine-18-cap",
-          "sourceUpdatedAt": "2026-09-12T00:25:05.000000Z"
+          "sourceUpdatedAt": "2026-09-17T00:22:45.000000Z"
         },
         {
           "type": "wikelo",
@@ -15960,7 +15960,7 @@
       "imageSourceUrl": "https://media.starcitizen.tools/c/c0/S71_magazine_800x400.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/s71-rifle-magazine-30-cap",
-      "sourceUpdatedAt": "2026-09-12T00:14:26.000000Z",
+      "sourceUpdatedAt": "2026-09-17T00:14:08.000000Z",
       "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
@@ -15968,7 +15968,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Armor - CRU-L1、Armor - Everus Harbor、Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 弧 L1 广袤森林站、Armor - 弧 L4 黯淡幽谷站、Armor - 斯坦顿星门 (Pyro)、Armor - 斯坦顿星门 (尼克斯) 等 74 处",
+          "location": "可购买地点：Armor - CRU-L1、Armor - CRU-L4、Armor - Everus Harbor、Armor - HUR-L1、Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 弧 L1 广袤森林站、Armor - 弧 L4 黯淡幽谷站等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=s71-rifle-magazine-(30-cap)&tab=about",
@@ -15981,7 +15981,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/s71-rifle-magazine-30-cap",
-          "sourceUpdatedAt": "2026-09-12T00:14:26.000000Z"
+          "sourceUpdatedAt": "2026-09-17T00:14:08.000000Z"
         },
         {
           "type": "wikelo",
@@ -19311,7 +19311,7 @@
       "imageSourceUrl": "https://starcitizen.tools/Vendetta_HMG",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/vendetta-hmg-magazine-1000-cap",
-      "sourceUpdatedAt": "2026-09-12T00:01:21.000000Z",
+      "sourceUpdatedAt": "2026-09-17T00:01:32.000000Z",
       "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": false,
@@ -19319,7 +19319,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor Everus、FPS Armor Tressler、FPS Armor 尼克斯星门 (Pyro)、FPS Armor 弧 L1 广袤森林站等 64 处",
+          "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor CRU-L4、FPS Armor Everus、FPS Armor HUR-L1、FPS Armor Tressler 等 72 处",
           "price": 7425,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=vendetta-hmg-magazine-(1000-cap)&tab=about",
@@ -20167,7 +20167,7 @@
       "imageSourceUrl": "https://starcitizen.tools/Venture_Legs",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/venture-legs",
-      "sourceUpdatedAt": "2026-09-12T00:06:16.000000Z",
+      "sourceUpdatedAt": "2026-09-17T00:06:18.000000Z",
       "sourceGameVersion": "4.10.0-LIVE.12519617",
       "isLootable": true,
       "isCraftable": true,
@@ -20175,11 +20175,11 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Armor - CRU-L1、Armor - MIC-L4、Armor - 炽天使空间站、坦姆尼父子 - Metro Center - 罗威尔、科途便利店 · 云景中心 · 奥里森、科途便利店 · 志远大厦 · 新巴贝奇",
+          "location": "可购买地点：Armor - CRU-L1、Armor - CRU-L4、Armor - MIC-L4、Armor - 炽天使空间站、坦姆尼父子 - Metro Center - 罗威尔、科途便利店 · 云景中心 · 奥里森、科途便利店 · 志远大厦 · 新巴贝奇",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=venture-legs&tab=about",
-          "sourceUpdatedAt": "2026-09-11T13:43:41+00:00"
+          "sourceUpdatedAt": "2026-09-16T18:16:29+00:00"
         },
         {
           "type": "craft",
@@ -20188,7 +20188,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-legs",
-          "sourceUpdatedAt": "2026-09-12T00:06:16.000000Z"
+          "sourceUpdatedAt": "2026-09-17T00:06:18.000000Z"
         }
       ],
       "crafting": {
