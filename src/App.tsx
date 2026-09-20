@@ -237,6 +237,7 @@ export default function App() {
           <div>
             <p className="eyebrow">GVY 维科洛交易查询站</p>
             <h1>维科洛交易查询</h1>
+            <p className="brand-credit">制作：Ayuan</p>
           </div>
         </div>
         <div className="search-cluster">
@@ -425,6 +426,7 @@ function TradeDetail({ trade, itemById, onItemClick, onImageOpen }: {
           {secondaryName(trade.name) && <p>{secondaryName(trade.name)}</p>}
           <span className="category-chip">{categoryLabel(trade.category)}</span>
         </div>
+        <small className="detail-credit">制作：Ayuan</small>
       </div>
 
       <section className="detail-section">

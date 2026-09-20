@@ -128,6 +128,15 @@ body {
   text-transform: none;
 }
 
+.brand .brand-credit {
+  order: 3;
+  margin: 3px 0 0;
+  color: rgba(126, 221, 242, 0.65);
+  font-size: 10px;
+  font-weight: 650;
+  line-height: 1.4;
+}
+
 .search-cluster {
   grid-template-columns: minmax(220px, 1fr) auto;
   gap: 8px;
@@ -668,6 +677,20 @@ main {
 .detail-hero,
 .item-modal-head {
   border-bottom-color: rgba(126, 221, 242, 0.16);
+}
+
+.detail-hero {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.detail-credit {
+  position: absolute;
+  right: 0;
+  bottom: 8px;
+  color: rgba(126, 221, 242, 0.65);
+  font-size: 10px;
+  line-height: 1.4;
 }
 
 .detail-heading h2,
