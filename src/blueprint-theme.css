@@ -587,6 +587,7 @@ main {
 .footer-brand > img {
   width: 34px;
   height: 34px;
+  transform: translateY(-1px);
 }
 
 .footer-brand span {
