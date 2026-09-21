@@ -1,7 +1,7 @@
 import { access, mkdir, readFile, rename, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { remainingUnlocalizedLocationTokens } from "./lib/location-localization.mjs";
+import { remainingUnlocalizedLocationTokens, reviewedLocationExceptions } from "./lib/location-localization.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const generatedDir = path.join(projectRoot, "src/data/generated");
@@ -94,6 +94,11 @@ async function main() {
     return tokens.length ? [{ id: item.id, tokens }] : [];
   }));
   if (untranslatedLocations.length) errors.push({ code: "untranslated-public-location", entries: untranslatedLocations });
+  const locationExceptions = items.flatMap(item => item.acquisition.flatMap(method => {
+    const tokens = reviewedLocationExceptions(method.location);
+    return tokens.length ? [{ id: item.id, tokens }] : [];
+  }));
+  if (locationExceptions.length) warnings.push({ code: "reviewed-location-alias-unresolved", entries: locationExceptions, note: "Green Circle is ambiguous between lobby/apartments; Sharp Shooters has no verified matching official shop key. Preserve rather than guess." });
 
   const missingRequirementImages = requirements.filter((item) => !item.imagePath);
   warnings.push({

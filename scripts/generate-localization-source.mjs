@@ -1,16 +1,15 @@
-import { mkdir, readFile, stat, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   CONTRACT_KEY_ALIASES,
   OFFICIAL_KEY_ALIASES,
   officialLocalizationKeyCandidates,
-  parseOfficialLocalizationText,
+  loadNasOfficialLocalization,
 } from "./lib/localization.mjs";
-import { sha256 } from "./lib/http.mjs";
+import { assertLocalizationSeries, deriveOfficialLocations, LOCATION_KEYS } from "./lib/official-location-source.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const sourcePath = "/Users/bindox/Documents/data/localization/chinese_(simplified)/global.ini";
 const targetPath = path.join(projectRoot, "data/localization/official-global-derived.json");
 const generatedItemsPath = path.join(projectRoot, "src/data/generated/items.json");
 const generatedTradesPath = path.join(projectRoot, "src/data/generated/trades.json");
@@ -19,11 +18,16 @@ function normalize(value) {
   return String(value ?? "").trim().toLowerCase().replace(/\s+/g, " ");
 }
 
-async function main() {
-  const buffer = await readFile(sourcePath);
-  const sourceSha256 = sha256(buffer);
-  const sourceUpdatedAt = (await stat(sourcePath)).mtime.toISOString();
-  const allEntries = parseOfficialLocalizationText(buffer.toString("utf8"));
+export function sameOfficialEntries(left, right) {
+  const canonical = entries => JSON.stringify(Object.entries(entries || {}).map(([key, entry]) => [key.toLowerCase(), entry.value]).sort(([a], [b]) => a.localeCompare(b)));
+  return canonical(left) === canonical(right);
+}
+
+export async function syncOfficialSnapshot(official, gameVersion) {
+  const allEntries = official.entries;
+  const { sourcePath, sourceSha256, sourceUpdatedAt } = official.metadata;
+  const sourceVersion = assertLocalizationSeries(allEntries, gameVersion);
+  deriveOfficialLocations(allEntries); // Fail before replacing any verified snapshot.
   const items = JSON.parse(await readFile(generatedItemsPath, "utf8")).items;
   const trades = JSON.parse(await readFile(generatedTradesPath, "utf8")).trades;
   const tradeEntries = trades.flatMap((trade) => [...trade.requirements, ...trade.rewards]);
@@ -35,8 +39,10 @@ async function main() {
     ...trades.map((trade) => normalize(trade.name.en)),
   ].filter(Boolean));
   const requiredKeys = new Set([
+    "Frontend_PU_Version",
     ...Object.values(OFFICIAL_KEY_ALIASES),
     ...Object.values(CONTRACT_KEY_ALIASES),
+    ...Object.values(LOCATION_KEYS),
     ...localizedEntities.flatMap((item) => officialLocalizationKeyCandidates(item.id)),
   ].map(normalize));
 
@@ -54,7 +60,7 @@ async function main() {
   }
 
   const previous = await readFile(targetPath, "utf8").then(JSON.parse).catch(() => null);
-  if (previous?.sourceSha256 === sourceSha256 && JSON.stringify(previous.entries) === JSON.stringify(selected)) {
+  if (sameOfficialEntries(previous?.entries, selected)) {
     console.log(JSON.stringify({ changed: false, sourceSha256, entries: Object.keys(selected).length }, null, 2));
     return;
   }
@@ -63,6 +69,7 @@ async function main() {
     sourcePath,
     sourceSha256,
     sourceUpdatedAt,
+    sourceVersion,
     generatedAt: new Date().toISOString(),
     note: "Project-scoped derivative of the read-only official Simplified Chinese global.ini. It keeps all official item/vehicle names and Wikelo contract keys so remote LIVE refreshes can localize newly introduced records without the local source file.",
     entries: selected,
@@ -72,7 +79,13 @@ async function main() {
   console.log(JSON.stringify({ changed: true, sourceSha256, entries: Object.keys(selected).length }, null, 2));
 }
 
-main().catch((error) => {
+async function main() {
+  const official = await loadNasOfficialLocalization();
+  const { gameVersion } = JSON.parse(await readFile(path.join(projectRoot, "src/data/generated/metadata.json"), "utf8"));
+  await syncOfficialSnapshot(official, gameVersion);
+}
+
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main().catch((error) => {
   console.error(error.stack || error.message || String(error));
   process.exitCode = 1;
 });

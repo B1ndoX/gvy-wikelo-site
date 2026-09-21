@@ -5,7 +5,10 @@ import Ajv from "ajv/dist/2020.js";
 import { blockingRefreshReasons, detectDataAnomalies } from "./lib/anomalies.mjs";
 import { buildItemIndex, loadWikiImages } from "./lib/enrich.mjs";
 import { downloadBinary, fetchJson, fetchText } from "./lib/http.mjs";
-import { loadOfficialLocalization } from "./lib/localization.mjs";
+import { loadRefreshLocalization } from "./lib/localization.mjs";
+import { assertLocalizationSeries } from "./lib/official-location-source.mjs";
+import { setOfficialLocationSource, remainingUnlocalizedLocationTokens } from "./lib/location-localization.mjs";
+import { syncOfficialSnapshot } from "./generate-localization-source.mjs";
 import { normalizeTrades, summarizeValidation } from "./lib/normalize.mjs";
 import { parseAssignedLiteral, parseAssignedLiteralBySourceLabel } from "./lib/parse-static.mjs";
 import { preserveSemanticallyUnchangedEntities, semanticChangeSummary, semanticFingerprint } from "./lib/semantic-fingerprint.mjs";
@@ -16,9 +19,6 @@ const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "
 const generatedDir = path.join(projectRoot, "src/data/generated");
 const cacheDir = path.join(projectRoot, ".cache/http");
 const backupRoot = path.join(projectRoot, "data/backups");
-const localizationSource = process.env.GVY_WIKELO_LOCALIZATION_SOURCE
-  || "/Users/bindox/Documents/data/localization/chinese_(simplified)/global.ini";
-const derivedLocalizationSource = path.join(projectRoot, "data/localization/official-global-derived.json");
 const publishCheck = process.argv.includes("--publish-check");
 const fetchedAt = new Date().toISOString();
 
@@ -119,7 +119,10 @@ async function main() {
   const secondarySource = await fetchText(new URL(secondaryPatch.src, "https://wikelotrades.com/").href, { cacheDir });
   const secondaryTrades = parseAssignedLiteral(secondarySource.text, "window.trades =");
 
-  const official = await loadOfficialLocalization(localizationSource, derivedLocalizationSource);
+  const official = await loadRefreshLocalization();
+  official.metadata.sourceVersion = assertLocalizationSeries(official.entries, gameVersion);
+  setOfficialLocationSource(official.entries);
+  console.log(`Localization: ${official.metadata.sourcePath}; SHA256 ${official.metadata.sourceSha256}; ${official.metadata.sourceVersion.verification}`);
   const trades = normalizeTrades({ dumperData, secondaryTrades, localization: official, gameVersion, fetchedAt });
   const wikiImages = await loadWikiImages(path.join(projectRoot, "data/source-snapshots/wiki-contract-images.json"));
   const aiRedrawItemImages = await loadWikiImages(path.join(projectRoot, "data/source-snapshots/ai-redraw-item-images.json"));
@@ -165,6 +168,8 @@ async function main() {
 
   const enrichedItems = await buildItemIndex({ trades, localization: official, cacheDir, projectRoot, wikiImages, wikiItemImages, acquisitionOverrides: acquisitionOverrides.items });
   const items = preserveSemanticallyUnchangedEntities(previousItems?.items, enrichedItems);
+  const untranslatedLocations = items.flatMap(item => item.acquisition.flatMap(method => remainingUnlocalizedLocationTokens(method.location).map(token => `${item.id}: ${token}`)));
+  if (untranslatedLocations.length) throw new Error(`Untranslated purchase locations: ${untranslatedLocations.join("; ")}`);
   const portraitPath = path.join(projectRoot, "public/images/wikelo.webp");
   try {
     await stat(portraitPath);
@@ -315,6 +320,7 @@ async function main() {
   }
 
   await backupStableData();
+  if (!official.metadata.usingDerivedSnapshot) await syncOfficialSnapshot(official, gameVersion);
   const changed = [];
   if (await writeJsonAtomically(path.join(generatedDir, "trades.json"), persistedTradeDocument)) changed.push("trades.json");
   if (await writeJsonAtomically(path.join(generatedDir, "items.json"), { schemaVersion: "1.0.0", generatedAt: fetchedAt, items })) changed.push("items.json");

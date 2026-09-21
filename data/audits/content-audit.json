@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-17T04:59:08.351Z",
+  "generatedAt": "2026-09-21T07:23:44.401Z",
   "gameVersion": "4.10.1 LIVE.12660092",
   "totals": {
     "trades": 86,
@@ -14,6 +14,96 @@
   },
   "errors": [],
   "warnings": [
+    {
+      "code": "reviewed-location-alias-unresolved",
+      "entries": [
+        {
+          "id": "none_special_ballistic_01_rocket",
+          "tokens": [
+            "Sharp Shooters"
+          ]
+        },
+        {
+          "id": "ksar_pistol_ballistic_01_mag",
+          "tokens": [
+            "Sharp Shooters"
+          ]
+        },
+        {
+          "id": "food_icecream_eff_01_fatfree_a",
+          "tokens": [
+            "Green Circle"
+          ]
+        },
+        {
+          "id": "volt_lmg_energy_01_mag",
+          "tokens": [
+            "Sharp Shooters"
+          ]
+        },
+        {
+          "id": "ksar_rifle_energy_01_mag",
+          "tokens": [
+            "Sharp Shooters"
+          ]
+        },
+        {
+          "id": "none_rifle_multi_01_mag",
+          "tokens": [
+            "Sharp Shooters"
+          ]
+        },
+        {
+          "id": "volt_rifle_energy_01_mag",
+          "tokens": [
+            "Sharp Shooters"
+          ]
+        },
+        {
+          "id": "volt_shotgun_energy_01_mag",
+          "tokens": [
+            "Sharp Shooters"
+          ]
+        },
+        {
+          "id": "volt_smg_energy_01_mag",
+          "tokens": [
+            "Sharp Shooters"
+          ]
+        },
+        {
+          "id": "gmni_shotgun_ballistic_01_mag",
+          "tokens": [
+            "Sharp Shooters"
+          ]
+        },
+        {
+          "id": "gmni_rifle_ballistic_01_mag",
+          "tokens": [
+            "Sharp Shooters"
+          ]
+        },
+        {
+          "id": "none_pistol_ballistic_01_mag",
+          "tokens": [
+            "Sharp Shooters"
+          ]
+        },
+        {
+          "id": "apar_hmg_ballistic_01_mag",
+          "tokens": [
+            "Sharp Shooters"
+          ]
+        },
+        {
+          "id": "volt_sniper_energy_01_mag",
+          "tokens": [
+            "Sharp Shooters"
+          ]
+        }
+      ],
+      "note": "Green Circle is ambiguous between lobby/apartments; Sharp Shooters has no verified matching official shop key. Preserve rather than guess."
+    },
     {
       "code": "missing-requirement-images",
       "count": 0,

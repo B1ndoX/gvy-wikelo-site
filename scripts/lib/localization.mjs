@@ -1,5 +1,57 @@
 import { readFile, stat } from "node:fs/promises";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
+import { gunzipSync } from "node:zlib";
 import { sha256 } from "./http.mjs";
+
+const execute = promisify(execFile);
+const NAS_SOURCE = "/volume1/docker/starcitizen-shared-input/localization/data/localization/chinese_(simplified)/global.ini";
+
+export async function loadNasOfficialLocalization() {
+  const args = ["-o", "BatchMode=yes", "-o", "ConnectTimeout=10", "nas"];
+  const { stdout } = await execute("ssh", [...args, `cat '${NAS_SOURCE}'`], { encoding: "buffer", timeout: 45000, maxBuffer: 32 * 1024 * 1024 });
+  const { stdout: verification } = await execute("ssh", [...args, `sha256sum '${NAS_SOURCE}'; stat -c %Y '${NAS_SOURCE}'`], { timeout: 15000 });
+  const lines = verification.trim().split("\n");
+  const sourceSha256 = sha256(stdout);
+  if (lines[0].split(/\s+/)[0] !== sourceSha256) throw new Error("NAS localization changed during read; retry refresh");
+  return { entries: parseOfficialLocalizationText(stdout.toString("utf8")), metadata: {
+    sourcePath: `nas:${NAS_SOURCE}`, sourceSha256,
+    sourceUpdatedAt: new Date(Number(lines.at(-1)) * 1000).toISOString(), usingDerivedSnapshot: false,
+  } };
+}
+
+export function verifySyncedLocalization(manifest, compressed, commit) {
+  if (manifest.schemaVersion !== 1 || !/^[a-f0-9]{64}$/.test(manifest.sha256 || "") || !Number.isSafeInteger(manifest.byteLength) || manifest.byteLength < 1 || manifest.byteLength > 32 * 1024 * 1024 || manifest.versionPrecision !== "major-minor-only") throw new Error("Invalid NAS localization manifest");
+  const bytes = gunzipSync(compressed, { maxOutputLength: 32 * 1024 * 1024 });
+  if (bytes.length !== manifest.byteLength || sha256(bytes) !== manifest.sha256) throw new Error("NAS localization SHA256/length mismatch");
+  const entries = parseOfficialLocalizationText(bytes.toString("utf8"));
+  if (entries.get("frontend_pu_version")?.value !== manifest.versionLabel) throw new Error("NAS localization versionLabel mismatch");
+  if (!manifest.sourcePath || !Number.isFinite(Date.parse(manifest.sourceUpdatedAt))) throw new Error("NAS localization provenance missing");
+  return { entries, metadata: { sourcePath: `nas:${manifest.sourcePath}`, sourceSha256: manifest.sha256, sourceUpdatedAt: manifest.sourceUpdatedAt, sourceCommit: commit, usingDerivedSnapshot: false } };
+}
+
+export async function readSyncedLocalizationManifest(pinnedCommit) {
+  if (pinnedCommit && !/^[a-f0-9]{40}$/.test(pinnedCommit)) throw new Error("Invalid localization commit");
+  await execute("git", ["fetch", "origin", pinnedCommit || "refs/heads/nas-localization"], { timeout: 45000 });
+  const { stdout } = await execute("git", ["rev-parse", "FETCH_HEAD"]);
+  const commit = stdout.trim();
+  if (!/^[a-f0-9]{40}$/.test(commit) || (pinnedCommit && pinnedCommit !== commit)) throw new Error("Localization commit mismatch");
+  const { stdout: json } = await execute("git", ["show", `${commit}:source.json`], { timeout: 15000, maxBuffer: 1024 * 1024 });
+  const manifest = JSON.parse(json);
+  if (manifest.schemaVersion !== 1 || !/^[a-f0-9]{64}$/.test(manifest.sha256 || "")) throw new Error("Invalid NAS source manifest");
+  return { commit, manifest };
+}
+
+export async function loadRefreshLocalization() {
+  if (process.env.GITHUB_ACTIONS === "true") {
+    const { commit, manifest } = await readSyncedLocalizationManifest(process.env.GVY_LOCALIZATION_COMMIT);
+    const { stdout } = await execute("git", ["show", `${commit}:global.ini.gz`], { encoding: "buffer", timeout: 30000, maxBuffer: 32 * 1024 * 1024 });
+    console.log(`Localization: NAS-synchronized input commit ${commit}; verifying exact bytes, no stale fallback.`);
+    return verifySyncedLocalization(manifest, stdout, commit);
+  }
+  // A local NAS failure is an error, never a silent fallback to Documents/data.
+  return loadNasOfficialLocalization();
+}
 
 const CJK_RE = /[\u3400-\u9fff]/;
 export const OFFICIAL_KEY_ALIASES = {

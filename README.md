@@ -60,7 +60,7 @@ npm run restore:data     # 只读列出备份；恢复时必须显式跟目录�
 
 任一步失败都不会覆盖稳定数据。语义指纹会忽略抓取时间、来源更新时间、数组顺序及二次来源的小版本噪声；合同、数量、奖励、图片、获取方式、汉化或 LIVE 版本没有实质变化时，脚本通常输出 `unchanged: true`，不改生成文件、不新增备份。唯一例外是页面版本快照与稳定交易/物品文档不一致：此时会先备份并只修复 `versioned-data.json`。发布前额外运行 `npm run refresh:data:publish-check`；来源为 `partial` / `failed` 或出现异常时会阻止发布。人工核验并注明日期的 Wiki 快照只作为背景与地点参考，不会伪装成实时结构化接口。
 
-项目内已准备 `.github/workflows/refresh-data.yml`：在每 6 小时的第 23 分钟只读取一次 Dumper's Repo 维科洛 HTML 页面的精确 LIVE 版本标识，避开 GitHub Actions 整点高负载，不读取 bundle、不抓完整交易。版本未变化就绿色结束，不写文件、不构建、不提交；只有出现新的 LIVE 才先 fetch/rebase，再执行完整抓取、内容审计、测试、Schema 校验和构建，保存 14 天稳定数据备份并提交真实差异。独立的 `.github/workflows/refresh-watchdog.yml` 在另一组错峰时间检查主任务心跳；主检查超过 8 小时未成功且没有正在运行的实例时自动补发。看门狗每 30 天只在不部署的 `automation-heartbeat` 分支写入一次维护心跳，防止公开仓库因 60 天无活动而停用定时工作流；`main`、稳定数据和正式站不会因此发生变化。两个工作流均不含 GitHub Pages，正式部署仍只由 `main` 的真实数据提交触发 EdgeOne。
+项目内 `.github/workflows/refresh-data.yml` 在每 6 小时的第 23 分钟检查 Dumper's Repo 维科洛 HTML 的精确 LIVE 版本与 NAS 同步输入清单。两者均未变化则结束，不读取交易 bundle、不构建、不提交。新的 LIVE 或汉化输入变化才进入原完整抓取和校准，真实候选须通过内容审计、测试、Schema、构建，保存 14 天备份后提交。既有 `.github/workflows/refresh-watchdog.yml` 继续在错峰时间检查主任务心跳：超过 8 小时未成功且无运行中任务则补发；最多每 30 天在非生产 `automation-heartbeat` 分支维护心跳。没有新增周审或并行刷新任务，正式部署仍只由 `main` 的真实变更触发 EdgeOne。
 
 稳定数据位于 `src/data/generated/`；备份位于未提交的 `data/backups/`；HTTP 缓存位于未提交的 `.cache/`。
 
@@ -68,9 +68,13 @@ npm run restore:data     # 只读列出备份；恢复时必须显式跟目录�
 
 最高优先级只读源：
 
-`/Users/bindox/Documents/data/localization/chinese_(simplified)/global.ini`
+`nas:/volume1/docker/starcitizen-shared-input/localization/data/localization/chinese_(simplified)/global.ini`
 
-解析器处理 UTF-8 BOM、CRLF、注释、空行，并只在第一个 `=` 处分割键值。项目只提交实际需要的官方派生快照 `data/localization/official-global-derived.json`，远端 GitHub Runner 无法访问本机源文件时必须只读使用该快照；快照覆盖交易、上交物、奖励和制作配方材料。`src/data/generated/localization.json` 记录最终物品词典及源路径、SHA-256、源更新时间和生成时间。源哈希与词典内容不变时不会无意义重建。
+解析器处理 UTF-8 BOM、CRLF、注释、空行，并只在第一个 `=` 处分割键值。本机原刷新流程直接只读 NAS，读取失败中止，不回退文稿目录旧文件。GitHub 原刷新流程读取本仓库 `nas-localization` 输入分支：先锁定 commit，再从同一个 commit 读取 `source.json` 与 `global.ini.gz`，校验解压字节长度、SHA-256、版本标识；绝不执行输入分支代码。原始 INI 不进入 main 或 dist。派生快照仍只有 `data/localization/official-global-derived.json`，新增地点/商店官方键；`src/data/generated/localization.json` 保存最终词典及来源证据。
+
+现有每 6 小时检查现在同时比较精确 LIVE 版本与 NAS 同步源哈希；任一变化才进入原完整刷新，无新增定时任务、独立校准命令或 push 触发器。本机可继续用原 `npm run localization:derive` 导入 NAS 派生词典。INI 的 `Frontend_PU_Version` 目前只能证明 4.10 系列，不能声称确认精确 LIVE 构建；系列不匹配、源不可达或校验失败时保留稳定数据并报错。同一输入重复刷新不写数据；纯格式/排序变化且产品语义未变时不更新 main，现有工作流用可丢弃 Actions cache 记住成功审查的输入，避免重复完整刷新。没有材料性候选则跳过构建、提交和部署。缓存丢失最多多检查一次，不影响准确性。
+
+地点通过显式官方本地化键及已核对终端/地点 ID 的别名匹配，不能套用同名装备（例如 Frostbite 地点为“寒霜镇”，不是冷却器“冻伤”）。购买说明审计检查所有残留英文，不再只检查旧词黑名单。Green Circle、Sharp Shooters 尚无唯一官方对应，保留原文并仅在离线审计中警告；不得为了全中文猜译。中文括号英文、SCU、IO 北塔品牌、L1 等编号按规则保留。
 
 中文优先级：官方 `global.ini` → 用户确认人工修订 → 已校准公民中文 → 英文原名。解析器会同时按内部标识、已核验键别名和官方英文原名精确匹配；合同标题只使用显式核验过的官方键，不做模糊猜测。当前生成数据的 271 / 271 个物品与 86 / 86 个合同均有可靠中文显示名；ASD 重组样本在官方文件中的正式名称本身就是 `RCMBNT-*` 代码，继续保留官方代码。官方派生快照预载全部物品、商品、TheCollector 合同与蓝图名称，使下一版 LIVE 新增条目可直接命中官方汉化。没有可靠中文时直接显示英文，禁止机器翻译和虚构名称。
 

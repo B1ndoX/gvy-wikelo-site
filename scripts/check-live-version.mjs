@@ -3,6 +3,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { fetchText } from "./lib/http.mjs";
 import { isVersionOlder, versionFromHtml } from "./lib/version.mjs";
+import { readSyncedLocalizationManifest, loadNasOfficialLocalization } from "./lib/localization.mjs";
+import { assertLocalizationSeries } from "./lib/official-location-source.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const metadataPath = path.join(projectRoot, "src/data/generated/metadata.json");
@@ -16,6 +18,8 @@ async function writeGithubOutput(result) {
     `changed=${result.changed}`,
     `current_version=${result.currentVersion}`,
     `remote_version=${result.remoteVersion}`,
+    `localization_commit=${result.localizationCommit || ""}`,
+    `localization_sha256=${result.localizationSha256}`,
   ].join("\n") + "\n", "utf8");
 }
 
@@ -33,13 +37,30 @@ async function main() {
   if (isVersionOlder(remoteVersion, currentVersion)) {
     throw new Error(`Dumper's Repo LIVE version regressed from ${currentVersion} to ${remoteVersion}`);
   }
+  const currentLocalization = JSON.parse(await readFile(path.join(projectRoot, "src/data/generated/localization.json"), "utf8"));
+  let localizationSha256, localizationCommit = null;
+  if (process.env.GITHUB_ACTIONS === "true") {
+    const { commit, manifest } = await readSyncedLocalizationManifest();
+    assertLocalizationSeries(new Map([["frontend_pu_version", { value: manifest.versionLabel }]]), remoteVersion);
+    localizationSha256 = manifest.sha256;
+    localizationCommit = commit;
+  } else {
+    const official = await loadNasOfficialLocalization();
+    assertLocalizationSeries(official.entries, remoteVersion);
+    localizationSha256 = official.metadata.sourceSha256;
+  }
+  const localizationChanged = localizationSha256 !== currentLocalization.sourceSha256;
 
   const result = {
     source: sourceUrl,
     checkedAt: new Date().toISOString(),
     currentVersion,
     remoteVersion,
-    changed: remoteVersion !== currentVersion,
+    versionChanged: remoteVersion !== currentVersion,
+    localizationChanged,
+    localizationSha256,
+    localizationCommit,
+    changed: remoteVersion !== currentVersion || localizationChanged,
   };
   await writeGithubOutput(result);
   console.log(JSON.stringify(result, null, 2));
