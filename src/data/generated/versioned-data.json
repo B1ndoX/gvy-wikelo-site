@@ -1,51 +1,51 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-17T04:59:08.351Z",
+  "generatedAt": "2026-09-21T07:23:44.401Z",
   "datasets": [
     {
       "gameVersion": "4.10.1 LIVE.12660092",
-      "generatedAt": "2026-09-17T04:59:08.351Z",
+      "generatedAt": "2026-09-21T07:23:44.401Z",
       "sourceStatus": [
         {
           "url": "https://dumpers-repo.com/wikelo/",
           "status": "ok",
           "updatedAt": "2026-09-16T23:09:45.433Z",
-          "checkedAt": "2026-09-17T04:59:08.351Z",
+          "checkedAt": "2026-09-21T07:23:44.401Z",
           "note": null
         },
         {
           "url": "https://wikelotrades.com/how-it-works",
           "status": "ok",
           "updatedAt": "2026-06-04 06:59:50 UTC",
-          "checkedAt": "2026-09-17T04:59:08.351Z",
+          "checkedAt": "2026-09-21T07:23:44.401Z",
           "note": "Latest published secondary patch: 4.8.1"
         },
         {
           "url": "https://starcitizen.tools/Wikelo",
           "status": "ok",
           "updatedAt": "2026-07-14T14:39:00.000Z",
-          "checkedAt": "2026-09-17T04:59:08.351Z",
+          "checkedAt": "2026-09-21T07:23:44.401Z",
           "note": null
         },
         {
           "url": "https://starcitizen.tools/Wikelo_Emporium",
           "status": "snapshot",
           "updatedAt": "2025-08-09T16:35:00.000Z",
-          "checkedAt": "2026-09-17T04:59:08.351Z",
+          "checkedAt": "2026-09-21T07:23:44.401Z",
           "note": "Station list cross-check snapshot."
         },
         {
           "url": "https://api.star-citizen.wiki",
           "status": "ok",
           "updatedAt": null,
-          "checkedAt": "2026-09-17T04:59:08.351Z",
+          "checkedAt": "2026-09-21T07:23:44.401Z",
           "note": "Item API version unavailable."
         },
         {
           "url": "https://api.sc-market.space/api/v2",
           "status": "snapshot",
           "updatedAt": "2026-09-09T01:37:17.413Z",
-          "checkedAt": "2026-09-17T04:59:08.351Z",
+          "checkedAt": "2026-09-21T07:23:44.401Z",
           "note": "Public secondary game-data API: 4.10.0-LIVE.12519617. Player listing prices are not imported into fixed Wikelo recipes."
         }
       ],
@@ -235,7 +235,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -320,7 +320,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -461,7 +461,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -588,7 +588,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -673,7 +673,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -681,7 +681,7 @@
           "id": "41231c57-f186-4c5e-ae51-524fc1e1d9a3",
           "debugName": "TheCollector_Vehicle_DrakeClipper",
           "name": {
-            "zh": "快船现在主打战斗",
+            "zh": "快帆现在主打战斗",
             "en": "Clipper Fight Now",
             "localizationSource": "official_global_ini"
           },
@@ -744,7 +744,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -816,7 +816,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -914,7 +914,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -1051,7 +1051,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1123,7 +1123,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1195,7 +1195,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1293,7 +1293,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1391,7 +1391,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1502,7 +1502,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1587,7 +1587,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1685,7 +1685,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -1796,7 +1796,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -1918,7 +1918,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -2042,7 +2042,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -2206,7 +2206,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -2512,7 +2512,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -2570,7 +2570,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -2642,7 +2642,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -2753,7 +2753,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -2864,7 +2864,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -2948,7 +2948,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3059,7 +3059,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3131,7 +3131,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3242,7 +3242,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3340,7 +3340,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -3455,7 +3455,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3760,7 +3760,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -3832,7 +3832,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -3930,7 +3930,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4080,7 +4080,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4152,7 +4152,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4250,7 +4250,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4335,7 +4335,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4433,7 +4433,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -4548,7 +4548,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -4663,7 +4663,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4735,7 +4735,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -4923,7 +4923,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -5073,7 +5073,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -5309,7 +5309,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -5432,7 +5432,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -5530,7 +5530,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -5745,7 +5745,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -5842,7 +5842,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -5952,7 +5952,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -6076,7 +6076,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -6199,7 +6199,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -6323,7 +6323,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -6446,7 +6446,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -6608,7 +6608,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -6731,7 +6731,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -6907,7 +6907,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -7005,7 +7005,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -7180,7 +7180,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -7330,7 +7330,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -7465,7 +7465,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -7640,7 +7640,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -7738,7 +7738,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -7861,7 +7861,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -8050,7 +8050,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -8173,7 +8173,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -8388,7 +8388,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -8473,7 +8473,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -8610,7 +8610,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -8799,7 +8799,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -8832,7 +8832,7 @@
           "id": "a026b45d-6726-4a86-898c-e0207f2880c4",
           "debugName": "TheCollector_apar_hmg",
           "name": {
-            "zh": "枪太多了",
+            "zh": "太多枪了",
             "en": "Too Much Gun",
             "localizationSource": "official_global_ini"
           },
@@ -8921,7 +8921,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9031,7 +9031,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9180,7 +9180,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9355,7 +9355,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9439,7 +9439,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9562,7 +9562,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9647,7 +9647,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -9775,7 +9775,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -9885,7 +9885,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -9944,7 +9944,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -10003,7 +10003,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -10062,7 +10062,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -10121,7 +10121,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         },
@@ -10180,7 +10180,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "conflict",
           "conflicts": [
             {
@@ -10254,7 +10254,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "single_source",
           "conflicts": []
         },
@@ -10312,7 +10312,7 @@
             "https://starcitizen.tools/Wikelo"
           ],
           "sourceUpdatedAt": "2026-09-16T23:09:45.433Z",
-          "fetchedAt": "2026-09-17T04:59:08.351Z",
+          "fetchedAt": "2026-09-21T07:23:44.401Z",
           "validationStatus": "verified",
           "conflicts": []
         }
@@ -10331,15 +10331,15 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/ace-interceptor-helmet",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/ace-interceptor-helmet",
-          "sourceUpdatedAt": "2026-07-16T13:04:01.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:45:20.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "loot",
               "label": "PAF 护甲箱或王牌飞行员",
-              "location": "稳定线索：哈索尔 PAF 站点的护甲战利品箱（已在破碎站平台校准设施-I 实测），或巡逻佣兵合同中的王牌飞行员尸体。",
+              "location": "稳定线索：哈索尔 PAF 站点的护甲战利品箱（已在 破碎站 平台校准设施-I 实测），或巡逻佣兵合同中的 王牌飞行员 尸体。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Ace_Interceptor_Helmet",
@@ -10564,7 +10564,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-arms-woodland",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-arms-woodland",
-          "sourceUpdatedAt": "2026-09-12T00:09:27.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:08:43.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -10572,11 +10572,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - MIC-L4、Armor - 炽天使空间站、Cubby Blast - 18区、坦姆尼父子 - Metro Center - 罗威尔、护甲店 · 特雷斯勒空间站",
+              "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 微 L4 红色十字路口站、护甲店 - 炽天使空间站、护甲店 - 特雷斯勒空间站、立方爆炸 - 18区",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-arms-woodland&tab=about",
-              "sourceUpdatedAt": "2026-09-09T18:51:59+00:00"
+              "sourceUpdatedAt": "2026-09-16T18:16:29+00:00"
             },
             {
               "type": "craft",
@@ -10585,7 +10585,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-arms-woodland",
-              "sourceUpdatedAt": "2026-09-12T00:09:27.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:08:43.000000Z"
             }
           ],
           "crafting": {
@@ -10750,7 +10750,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-core-woodland",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-core-woodland",
-          "sourceUpdatedAt": "2026-09-12T00:17:56.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:16:33.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -10758,11 +10758,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - MIC-L4、Armor - 炽天使空间站、Cubby Blast - 18区、坦姆尼父子 - Metro Center - 罗威尔、护甲店 · 特雷斯勒空间站",
+              "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 微 L4 红色十字路口站、护甲店 - 炽天使空间站、护甲店 - 特雷斯勒空间站、立方爆炸 - 18区",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-core-woodland&tab=about",
-              "sourceUpdatedAt": "2026-09-09T19:04:06+00:00"
+              "sourceUpdatedAt": "2026-09-16T18:16:29+00:00"
             },
             {
               "type": "craft",
@@ -10771,7 +10771,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-core-woodland",
-              "sourceUpdatedAt": "2026-09-12T00:17:56.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:16:33.000000Z"
             }
           ],
           "crafting": {
@@ -10936,7 +10936,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-helmet-woodland",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-helmet-woodland",
-          "sourceUpdatedAt": "2026-09-12T00:12:55.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:11:58.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -10944,7 +10944,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 斯坦顿星门 (Pyro)、Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (Stanton)、Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、Cubby Blast - 18区等 12 处",
+              "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 尼克斯星门 (斯坦顿)、护甲店 - 尼克斯星门 (派罗)、护甲店 - 微 L4 红色十字路口站、护甲店 - 斯坦顿星门 (尼克斯)、护甲店 - 斯坦顿星门 (派罗)、护甲店 - 泰拉星门 (斯坦顿)、护甲店 - 派罗星门 (尼克斯) 等 12 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-helmet-woodland&tab=about",
@@ -10957,7 +10957,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-helmet-woodland",
-              "sourceUpdatedAt": "2026-09-12T00:12:55.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:11:58.000000Z"
             }
           ],
           "crafting": {
@@ -11122,7 +11122,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-legs-woodland",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-legs-woodland",
-          "sourceUpdatedAt": "2026-09-12T00:18:56.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:17:21.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -11130,7 +11130,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 斯坦顿星门 (Pyro)、Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (Stanton)、Armor - 派罗星门 (尼克斯)、Armor - 炽天使空间站、Cubby Blast - 18区等 12 处",
+              "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 尼克斯星门 (斯坦顿)、护甲店 - 尼克斯星门 (派罗)、护甲店 - 微 L4 红色十字路口站、护甲店 - 斯坦顿星门 (尼克斯)、护甲店 - 斯坦顿星门 (派罗)、护甲店 - 泰拉星门 (斯坦顿)、护甲店 - 派罗星门 (尼克斯) 等 12 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-legs-woodland&tab=about",
@@ -11143,7 +11143,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-legs-woodland",
-              "sourceUpdatedAt": "2026-09-12T00:18:56.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:17:21.000000Z"
             }
           ],
           "crafting": {
@@ -11308,15 +11308,15 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/advocacy-badge-replica",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/advocacy-badge-replica",
-          "sourceUpdatedAt": "2026-07-16T13:05:00.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:46:03.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "loot",
               "label": "安保与争夺区战利品",
-              "location": "已报告地点：加利亚安保站、争夺区和拉撒路设施。属于箱子/场景战利品，不保证每局固定出现。",
+              "location": "已报告地点：加利亚安保站、争夺区和 拉撒路 设施。属于箱子/场景战利品，不保证每局固定出现。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizenhelp.ru/wikelo_items.php",
@@ -13308,7 +13308,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/4/46/Berry_Blend_Smoothie.jpg",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/berry-blend-smoothie",
-          "sourceUpdatedAt": "2026-09-17T00:18:34.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:17:47.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": false,
@@ -13316,7 +13316,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Juice Bar - CRU-L1 、Juice Bar - CRU-L4、Juice Bar - CRU-L5、Juice Bar - Everus Harbor、Juice Bar - HUR-L1、Juice Bar - HUR-L4、Juice Bar - MIC-L2、Juice Bar - MIC-L5 等 22 处",
+              "location": "可购买地点：果汁吧 - 十 L1 雄心伟梦站 、果汁吧 - 十 L4 轻浅田野站、果汁吧 - 十 L5 美丽峡谷站、果汁吧 - 埃弗勒斯空间站、果汁吧 - 尼克斯星门 (斯坦顿)、果汁吧 - 尼克斯星门 (派罗)、果汁吧 - 弧 L1 广袤森林站、果汁吧 - 弧 L2 活力小径站 等 22 处",
               "price": 7,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=berry-blend-smoothie&tab=about",
@@ -13415,7 +13415,7 @@
             {
               "tradeId": "41231c57-f186-4c5e-ae51-524fc1e1d9a3",
               "tradeName": {
-                "zh": "快船现在主打战斗",
+                "zh": "快帆现在主打战斗",
                 "en": "Clipper Fight Now",
                 "localizationSource": "official_global_ini"
               },
@@ -13695,7 +13695,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/d/da/Curious_Weapon.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/boomtube-rocket",
-          "sourceUpdatedAt": "2026-09-12T00:01:20.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": false,
@@ -13703,7 +13703,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Cubby 18区、Guns Endgame、Guns Megumi、Guns Rat's Nest、Guns Ruin、Guns 轨道讣闻站、Shop Ashland、Shop Chawla's Beach 等 22 处",
+              "location": "可购买地点：Sharp Shooters - 死局空间站、争夺区 · 死局空间站、商店 乔拉海滩、商店 休耕地、商店 先觉者峡谷、商店 日落方山、商店 灰烬之地、商店 终陆镇 等 22 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=boomtube-rocket&tab=about",
@@ -14246,15 +14246,15 @@
           "imageSourceUrl": "https://starcitizen.tools/Carinite",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/carinite",
-          "sourceUpdatedAt": "2026-07-16T13:06:43.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:04.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mine",
               "label": "哈索尔“对准与开采”活动",
-              "location": "地点：阿伯丁或戴玛尔的哈索尔设施。\n步骤：对准三座 PAF 地面设施，为 OLP 轨道激光平台供电并发射激光，进入被打开的矿洞后采矿。",
+              "location": "地点：阿伯丁 或 戴玛尔 的 哈索尔 设施。\n步骤：对准三座 PAF 地面设施，为 OLP 轨道激光平台供电并发射激光，进入被打开的矿洞后采矿。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Carinite",
@@ -14409,15 +14409,15 @@
           "imageSourceUrl": "https://starcitizen.tools/Carinite",
           "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/carinite-pure",
-          "sourceUpdatedAt": "2026-07-16T13:06:43.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:04.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mine",
               "label": "哈索尔矿洞稀有矿脉",
-              "location": "地点：阿伯丁或戴玛尔的哈索尔轨道激光矿洞。\n获取：与普通科力晶同一流程，但纯净科力晶是低概率稀有矿脉；扫描名称会明确显示纯净科力晶。",
+              "location": "地点：阿伯丁 或 戴玛尔 的 哈索尔 轨道激光矿洞。\n获取：与普通科力晶同一流程，但纯净科力晶是低概率稀有矿脉；扫描名称会明确显示 纯净科力晶。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Carinite_(Pure)",
@@ -14801,7 +14801,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/9/97/Coda_pistol_clip_side_800x400.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/coda-pistol-magazine-6-cap",
-          "sourceUpdatedAt": "2026-09-17T00:15:12.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:14:22.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -14809,7 +14809,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - CRU-L1、Armor - CRU-L4、Armor - Everus Harbor、Armor - HUR-L1、Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 弧 L1 广袤森林站、Armor - 弧 L4 黯淡幽谷站等 81 处",
+              "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=coda-pistol-magazine-(6-cap)&tab=about",
@@ -14822,7 +14822,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/coda-pistol-magazine-6-cap",
-              "sourceUpdatedAt": "2026-09-17T00:15:12.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:14:22.000000Z"
             },
             {
               "type": "wikelo",
@@ -14964,15 +14964,15 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/copper",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/copper",
-          "sourceUpdatedAt": "2026-07-16T13:06:14.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:46:50.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "purchase",
               "label": "直接购买或采矿精炼",
-              "location": "稳定购买点示例：炽天使空间站、特雷斯勒空间站、尼克斯星门、轨道讣闻站的管理终端。\n也可在斯坦顿/派罗多处矿床开采铜矿后精炼为铜。兑换要求按 SCU 计算。",
+              "location": "稳定购买点示例：炽天使空间站、特雷斯勒空间站、尼克斯星门、轨道讣闻站 的管理终端。\n也可在斯坦顿/派罗多处矿床开采铜矿后精炼为铜。兑换要求按 SCU 计算。",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://starcitizen.tools/Copper",
@@ -15770,15 +15770,15 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/council-scrip",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/council-scrip",
-          "sourceUpdatedAt": "2026-07-16T13:05:21.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:46:14.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mission",
               "label": "完成议会合同",
-              "location": "由议会发放的实体凭证；接取其合同并查看奖励栏确认数量。目前没有已确认的永久固定合同。",
+              "location": "由 议会 发放的实体凭证；接取其合同并查看奖励栏确认数量。目前没有已确认的永久固定合同。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Council_Scrip",
@@ -16038,15 +16038,15 @@
           "imageSourceUrl": "https://starcitizen.tools/DCHS-05_Orbital_Positioning_Comp-Board",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/dchs-05-orbital-positioning-comp-board",
-          "sourceUpdatedAt": "2026-07-16T13:05:54.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:46:44.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "loot",
-              "label": "废墟空间站争夺区拾取",
-              "location": "幽灵竞技场（Ghost Arena）宝库的内层房间；开门需要在地穴打印的地穴密钥卡",
+              "label": "废墟空间站 争夺区拾取",
+              "location": "幽灵竞技场（Ghost Arena） 宝库的内层房间；开门需要在 地穴 打印的 地穴密钥卡",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/DCHS-05_Orbital_Positioning_Comp-Board",
@@ -16708,7 +16708,7 @@
             {
               "tradeId": "41231c57-f186-4c5e-ae51-524fc1e1d9a3",
               "tradeName": {
-                "zh": "快船现在主打战斗",
+                "zh": "快帆现在主打战斗",
                 "en": "Clipper Fight Now",
                 "localizationSource": "official_global_ini"
               },
@@ -16773,7 +16773,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
-          "sourceUpdatedAt": "2026-09-17T00:13:50.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:13:10.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": false,
@@ -16781,7 +16781,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Ellroy's - CRU-L1、Ellroy's - Everus Harbor、Ellroy's - Green Circle - 奥里森、Ellroy's - HUR-L1、Ellroy's - Terra Gateway (Stanton)、Ellroy's - 奥古斯特·顿洛空港 - 奥里森、Ellroy's - 尼克斯星门 (Pyro)、Ellroy's - 尼克斯星门 (Stanton) 等 23 处",
+              "location": "可购买地点：埃尔罗伊咖啡店 - Green Circle - 奥里森、埃尔罗伊咖啡店 - 十 L1 雄心伟梦站、埃尔罗伊咖啡店 - 埃弗勒斯空间站、埃尔罗伊咖啡店 - 奥古斯特·顿洛空港 - 奥里森、埃尔罗伊咖啡店 - 尼克斯星门 (斯坦顿)、埃尔罗伊咖啡店 - 尼克斯星门 (派罗)、埃尔罗伊咖啡店 - 弧 L1 广袤森林站、埃尔罗伊咖啡店 - 微 L1 浅边站 等 23 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=ermer-family-farms-fat-free-ice-cream&tab=about",
@@ -16859,15 +16859,15 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/expired-quantanium-fuel-canister",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/expired-quantanium-fuel-canister",
-          "sourceUpdatedAt": "2026-07-16T13:10:20.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:17.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "loot",
               "label": "QV 提取任务稀有战利品",
-              "location": "社区交易资料把它标记为战术打击小组 / QV 撤离行动相关稀有战利品；目前未找到可交叉验证的固定箱点，不能保证每局出现。",
+              "location": "社区交易资料把它标记为 战术打击小组 / QV 撤离行动 相关稀有战利品；目前未找到可交叉验证的固定箱点，不能保证每局出现。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://uexcorp.space/items/info?id=5844&set_lang=en_US",
@@ -17290,7 +17290,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/fresnel-energy-lmg",
           "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/fresnel-energy-lmg-battery-165-cap",
-          "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -17298,11 +17298,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor CRU-L4、FPS Armor Everus、FPS Armor HUR-L1、FPS Armor MIC-L4 等 81 处",
+              "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 81 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=fresnel-energy-lmg-battery-(165-cap)&tab=about",
-              "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
+              "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
             },
             {
               "type": "craft",
@@ -17311,7 +17311,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/fresnel-energy-lmg-battery-165-cap",
-              "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z"
             },
             {
               "type": "wikelo",
@@ -18199,15 +18199,15 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/government-cartography-agency-medal-pristine",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/government-cartography-agency-medal-pristine",
-          "sourceUpdatedAt": "2026-07-17T08:06:51.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:49:30.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "loot",
               "label": "巡逻佣兵合同的王牌飞行员",
-              "location": "击败巡逻佣兵合同中出现的王牌飞行员（王牌飞行员），从尸体回收完好的政府制图局勋章。是否出现王牌飞行员取决于合同与刷新。",
+              "location": "击败巡逻佣兵合同中出现的 王牌飞行员（王牌飞行员），从尸体回收完好的政府制图局勋章。是否出现王牌飞行员取决于合同与刷新。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Government_Cartography_Agency_Medal_(Pristine)",
@@ -18272,7 +18272,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/grassland-quasi-grazer-egg",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/grassland-quasi-grazer-egg",
-          "sourceUpdatedAt": "2026-09-12T00:20:18.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:18:04.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
@@ -18280,7 +18280,7 @@
             {
               "type": "harvest",
               "label": "从草地故夕食草兽采集",
-              "location": "地点：微科星的草地区域。\n获取：击杀草地型故夕食草兽后从尸体采集；每只平均携带约 8–10 枚蛋。",
+              "location": "地点：微科星 的草地区域。\n获取：击杀草地型故夕食草兽后从尸体采集；每只平均携带约 8–10 枚蛋。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Grassland_Quasi_Grazer_Egg",
@@ -18289,7 +18289,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Shop Terminal - Bullock's Reach、Shop Terminal - Kinder Plots、Shop Terminal - The Yard、Shop Terminal - 牧人驿站",
+              "location": "可购买地点：商店终端 - “庭院”、商店终端 - 容善镇、商店终端 - 牧人驿站、商店终端 - 犍牛原",
               "price": 56,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=grassland-quasi-grazer-egg&tab=about",
@@ -18518,15 +18518,15 @@
           "imageSourceUrl": "https://cstone.space/uifimages/43b02152-357d-4ec6-ac98-5191bcd2d238.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/irradiated-kopion-horn",
-          "sourceUpdatedAt": "2026-07-16T13:15:56.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:48:02.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "harvest",
               "label": "受辐射寇骈犬任务采集",
-              "location": "地点：派罗 I 的受辐射区域与风暴破坏者研究区（Storm Breaker）研究设施附近。\n获取：接受“清除受辐射寇骈犬”类合同，击杀目标后采集角。",
+              "location": "地点：派罗 I 的受辐射区域与 风暴破坏者研究区（Storm Breaker） 研究设施附近。\n获取：接受“清除受辐射寇骈犬”类合同，击杀目标后采集角。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/missions/cull-irradiated-kopions",
@@ -18571,15 +18571,15 @@
           "imageSourceUrl": "https://cstone.space/uifimages/04075f35-2e63-4e35-a09a-5521a21909b4.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/irradiated-valakkar-fang-adult",
-          "sourceUpdatedAt": "2026-07-16T13:15:56.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:48:02.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "harvest",
               "label": "“风暴破坏者”区域生物采集",
-              "location": "地点：派罗 I 的拉撒路研究设施与风暴破坏者研究区（Storm Breaker）区域。\n获取：击杀成年受辐射瓦拉卡后，从口部采集成年期獠牙。",
+              "location": "地点：派罗 I 的 拉撒路 研究设施与 风暴破坏者研究区（Storm Breaker） 区域。\n获取：击杀成年受辐射瓦拉卡后，从口部采集成年期獠牙。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Irradiated_Valakkar_Fang_(Adult)",
@@ -18644,15 +18644,15 @@
           "imageSourceUrl": null,
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/irradiated-valakkar-fang-apex",
-          "sourceUpdatedAt": "2026-07-16T13:06:36.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:01.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "harvest",
               "label": "“风暴破坏者”巅峰首领采集",
-              "location": "路线：先在派罗 IV 的法罗数据中心取得进入条件，再前往派罗 I 的拉撒路设施。\n获取：召唤并击杀受辐射的巅峰期瓦拉卡，从口部采集巅峰期獠牙。",
+              "location": "路线：先在 派罗 IV 的 法罗 数据中心取得进入条件，再前往 派罗 I 的 拉撒路 设施。\n获取：召唤并击杀受辐射的 巅峰期 瓦拉卡，从口部采集巅峰期獠牙。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://robertsspaceindustries.com/community-hub/post/storm-breaker-content-full-walkthrough-0uJ44pRBEyG2q",
@@ -18717,15 +18717,15 @@
           "imageSourceUrl": "https://cstone.space/uifimages/72eca4eb-23b8-43b0-94b0-72d31b6ba358.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/irradiated-valakkar-fang-juvenile",
-          "sourceUpdatedAt": "2026-07-16T13:15:56.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:48:02.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "harvest",
               "label": "“风暴破坏者”区域生物采集",
-              "location": "地点：派罗 I 的拉撒路研究设施与风暴破坏者研究区（Storm Breaker）区域。\n获取：击杀幼年受辐射瓦拉卡后，从口部采集幼年期獠牙。",
+              "location": "地点：派罗 I 的 拉撒路 研究设施与 风暴破坏者研究区（Storm Breaker） 区域。\n获取：击杀幼年受辐射瓦拉卡后，从口部采集幼年期獠牙。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://robertsspaceindustries.com/community-hub/post/storm-breaker-content-full-walkthrough-0uJ44pRBEyG2q",
@@ -18800,15 +18800,15 @@
           "imageSourceUrl": "https://starcitizenhelp.ru/wikelo_item.php?id=4634",
           "imageKind": "community",
           "sourceUrl": "https://api.star-citizen.wiki/items/irradiated-valakkar-pearl-grade-aa",
-          "sourceUpdatedAt": "2026-07-16T13:06:32.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:46:59.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "harvest",
               "label": "“风暴破坏者”巅峰首领采集",
-              "location": "路线：派罗 IV 法罗数据中心 → 派罗 I 拉撒路设施。\n获取：召唤并击杀受辐射的巅峰期瓦拉卡后采集珍珠；AA 是常见的巅峰期珍珠等级。",
+              "location": "路线：派罗 IV 法罗 数据中心 → 派罗 I 拉撒路 设施。\n获取：召唤并击杀受辐射的 巅峰期 瓦拉卡后采集珍珠；AA 是常见的 巅峰期 珍珠等级。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizenhelp.ru/wikelo_item.php?id=4634",
@@ -18863,15 +18863,15 @@
           "imageSourceUrl": "https://uexcorp.space/marketplace/item/info/wts-1-aaa-irradiated-valakkar-pearl-grade-aaa--Yd2qwBN2tn/",
           "imageKind": "community",
           "sourceUrl": "https://api.star-citizen.wiki/items/irradiated-valakkar-pearl-grade-aaa",
-          "sourceUpdatedAt": "2026-07-16T13:06:32.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:46:59.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "harvest",
               "label": "“风暴破坏者”巅峰首领稀有采集",
-              "location": "路线：派罗 IV 法罗数据中心 → 派罗 I 拉撒路设施。\n获取：召唤并击杀受辐射的巅峰期瓦拉卡后采集；AAA 是稀有等级，不能把 AA 当作 AAA 上交。",
+              "location": "路线：派罗 IV 法罗 数据中心 → 派罗 I 拉撒路 设施。\n获取：召唤并击杀受辐射的 巅峰期 瓦拉卡后采集；AAA 是稀有等级，不能把 AA 当作 AAA 上交。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizenhelp.ru/wikelo_item.php?id=4525",
@@ -19036,15 +19036,15 @@
           "imageSourceUrl": "https://sc-market.space/",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/jaclium-ore",
-          "sourceUpdatedAt": "2026-07-16T13:06:40.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:03.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mine",
               "label": "哈索尔“对准与开采”活动",
-              "location": "地点：阿伯丁或戴玛尔的哈索尔轨道激光矿洞。\n步骤：完成 PAF 对准与 OLP 供电后进入矿洞开采；与科力晶、烁迪银矿石出现在同一活动矿区。",
+              "location": "地点：阿伯丁 或 戴玛尔 的 哈索尔 轨道激光矿洞。\n步骤：完成 PAF 对准与 OLP 供电后进入矿洞开采；与科力晶、烁迪银矿石出现在同一活动矿区。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Jaclium_(Ore)",
@@ -19192,7 +19192,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/karna-rifle",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/karna-rifle",
-          "sourceUpdatedAt": "2026-09-17T00:18:49.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:17:55.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -19200,7 +19200,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - Everus Harbor、Armor - Terra Gateway (Stanton)、Armor - 斯坦顿星门 (Pyro)、Armor - 斯坦顿星门 (尼克斯)、Armor - 派罗星门 (Stanton)、Armor - 派罗星门 (尼克斯)、Live Fire Weapons - CRU-L5、Live Fire Weapons - HUR-L2 等 11 处",
+              "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 埃弗勒斯空间站、护甲店 - 尼克斯星门 (斯坦顿)、护甲店 - 尼克斯星门 (派罗)、护甲店 - 斯坦顿星门 (尼克斯)、护甲店 - 斯坦顿星门 (派罗)、护甲店 - 泰拉星门 (斯坦顿)、护甲店 - 派罗星门 (尼克斯) 等 11 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=karna-rifle&tab=about",
@@ -19213,7 +19213,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle",
-              "sourceUpdatedAt": "2026-09-17T00:18:49.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:17:55.000000Z"
             }
           ],
           "crafting": {
@@ -19321,7 +19321,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/4/40/Kasta_magazine_800x400.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/karna-rifle-battery-35-cap",
-          "sourceUpdatedAt": "2026-09-17T00:15:12.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:14:22.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -19329,7 +19329,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - CRU-L1、Armor - CRU-L4、Armor - Everus Harbor、Armor - HUR-L1、Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 弧 L1 广袤森林站、Armor - 弧 L4 黯淡幽谷站等 81 处",
+              "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=karna-rifle-battery-(35-cap)&tab=about",
@@ -19342,7 +19342,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle-battery-35-cap",
-              "sourceUpdatedAt": "2026-09-17T00:15:12.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:14:22.000000Z"
             },
             {
               "type": "wikelo",
@@ -19751,7 +19751,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/7/73/Killshot_Dominion_Camo_Rifle.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/killshot-rifle-magazine-45-cap",
-          "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -19759,11 +19759,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor CRU-L4、FPS Armor Everus、FPS Armor HUR-L1、FPS Armor MIC-L4 等 75 处",
+              "location": "可购买地点：Sharp Shooters - 死局空间站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 75 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=killshot-rifle-magazine-(45-cap)&tab=about",
-              "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
+              "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
             },
             {
               "type": "craft",
@@ -19772,7 +19772,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/killshot-rifle-magazine-45-cap",
-              "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z"
             },
             {
               "type": "wikelo",
@@ -19983,15 +19983,15 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/large-artifact-fragment-pristine",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/large-artifact-fragment-pristine",
-          "sourceUpdatedAt": "2026-07-17T08:06:51.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:49:29.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "loot",
               "label": "QV 站仓库区战利品",
-              "location": "地点：尼克斯星系的 QV 站仓库区。\n相关活动：“剜度科技走私者”。必须确认物品状态为完好，破损版本不能替代。",
+              "location": "地点：尼克斯星系的 QV 站仓库区。\n相关活动：“剜度科技走私者”。必须确认物品状态为 完好，破损版本不能替代。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Large_Artifact_Fragment_(Pristine)",
@@ -20188,7 +20188,7 @@
             {
               "tradeId": "41231c57-f186-4c5e-ae51-524fc1e1d9a3",
               "tradeName": {
-                "zh": "快船现在主打战斗",
+                "zh": "快帆现在主打战斗",
                 "en": "Clipper Fight Now",
                 "localizationSource": "official_global_ini"
               },
@@ -20211,15 +20211,15 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/mg-scrip",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/mg-scrip",
-          "sourceUpdatedAt": "2026-07-16T13:05:21.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:46:14.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mission",
               "label": "完成雇佣兵公会合同",
-              "location": "由雇佣兵公会（雇佣兵公会）作为合同奖励发放；不同合同给出的数量会变化，以合同奖励栏为准。",
+              "location": "由 雇佣兵公会（雇佣兵公会）作为合同奖励发放；不同合同给出的数量会变化，以合同奖励栏为准。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/MG_Scrip",
@@ -22345,7 +22345,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/novikov-exploration-suit",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/novikov-exploration-suit",
-          "sourceUpdatedAt": "2026-09-12T00:16:07.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:14:52.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -22353,7 +22353,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Cargo Center Supplies - Everus Harbor、Cargo Center Supplies - 尼克斯星门 (Stanton)、Cargo Center Supplies - 斯坦顿星门 (Pyro)、Cargo Center Supplies - 派罗星门 (Stanton)、Cargo Center Supplies - 炽天使空间站、Cargo Services - Gaslight、Cargo Services - Megumi Refueling、Cargo Services - 废墟空间站等 18 处",
+              "location": "可购买地点：射手 - 六角湾、护甲店 - 特雷斯勒空间站、货物供应 - 埃弗勒斯空间站、货物供应 - 尼克斯星门 (斯坦顿)、货物供应 - 拜基尼空间站、货物供应 - 斯坦顿星门 (派罗)、货物供应 - 派罗星门 (斯坦顿)、货物供应 - 炽天使空间站 等 18 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=novikov-exploration-suit&tab=about",
@@ -22366,7 +22366,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-exploration-suit",
-              "sourceUpdatedAt": "2026-09-12T00:16:07.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:14:52.000000Z"
             }
           ],
           "crafting": {
@@ -22451,7 +22451,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/novikov-helmet",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/novikov-helmet",
-          "sourceUpdatedAt": "2026-09-12T00:26:00.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:22:14.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": true,
@@ -22459,7 +22459,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Cargo Center Supplies - Everus Harbor、Cargo Center Supplies - 尼克斯星门 (Stanton)、Cargo Center Supplies - 斯坦顿星门 (Pyro)、Cargo Center Supplies - 派罗星门 (Stanton)、Cargo Center Supplies - 炽天使空间站、Cargo Services - Gaslight、Cargo Services - Megumi Refueling、Cargo Services - 废墟空间站等 18 处",
+              "location": "可购买地点：射手 - 六角湾、护甲店 - 特雷斯勒空间站、货物供应 - 埃弗勒斯空间站、货物供应 - 尼克斯星门 (斯坦顿)、货物供应 - 拜基尼空间站、货物供应 - 斯坦顿星门 (派罗)、货物供应 - 派罗星门 (斯坦顿)、货物供应 - 炽天使空间站 等 18 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=novikov-helmet&tab=about",
@@ -22472,7 +22472,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-helmet",
-              "sourceUpdatedAt": "2026-09-12T00:26:00.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:22:14.000000Z"
             }
           ],
           "crafting": {
@@ -23509,7 +23509,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/7/77/Kopion_Skull_Right.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/parallax-rifle-battery-80-cap",
-          "sourceUpdatedAt": "2026-08-31T00:01:59.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -23517,11 +23517,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor CRU-L4、FPS Armor Everus、FPS Armor HUR-L1、FPS Armor MIC-L4 等 81 处",
+              "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 81 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=parallax-rifle-battery-(80-cap)&tab=about",
-              "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
+              "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
             },
             {
               "type": "craft",
@@ -23530,7 +23530,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/parallax-rifle-battery-80-cap",
-              "sourceUpdatedAt": "2026-08-31T00:01:59.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z"
             },
             {
               "type": "wikelo",
@@ -24019,7 +24019,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/b/b0/Make_VOLT_shotgun_angrier.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/prism-laser-shotgun-battery-20-cap",
-          "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -24027,11 +24027,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor CRU-L4、FPS Armor Everus、FPS Armor HUR-L1、FPS Armor MIC-L4 等 81 处",
+              "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 81 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=prism-laser-shotgun-battery-(20-cap)&tab=about",
-              "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
+              "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
             },
             {
               "type": "craft",
@@ -24040,7 +24040,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/prism-laser-shotgun-battery-20-cap",
-              "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z"
             },
             {
               "type": "wikelo",
@@ -24114,15 +24114,15 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/quantainium",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/quantainium",
-          "sourceUpdatedAt": "2026-07-16T13:06:25.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:46:55.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mine",
               "label": "飞船采矿并精炼",
-              "location": "斯坦顿的阿伯丁、艾瑞尔、卡利俄佩、赛琳、克利俄、戴玛尔、欧忒耳佩、赫斯顿、依塔等多处矿床可发现。\n开采原矿后送精炼站，取回精炼货箱；兑换要求按 SCU 计算。",
+              "location": "斯坦顿的 阿伯丁、艾瑞尔、卡利俄佩、赛琳、克利俄、戴玛尔、欧忒耳佩、赫斯顿、依塔 等多处矿床可发现。\n开采原矿后送精炼站，取回精炼货箱；兑换要求按 SCU 计算。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Quantainium",
@@ -24430,7 +24430,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/quartz-energy-smg-battery-45-cap",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/quartz-energy-smg-battery-45-cap",
-          "sourceUpdatedAt": "2026-08-31T00:01:59.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -24438,11 +24438,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor CRU-L4、FPS Armor Everus、FPS Armor HUR-L1、FPS Armor MIC-L4 等 81 处",
+              "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 81 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=quartz-energy-smg-battery-(45-cap)&tab=about",
-              "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
+              "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
             },
             {
               "type": "craft",
@@ -24451,7 +24451,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/quartz-energy-smg-battery-45-cap",
-              "sourceUpdatedAt": "2026-08-31T00:01:59.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z"
             },
             {
               "type": "wikelo",
@@ -24616,7 +24616,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun",
-          "sourceUpdatedAt": "2026-09-17T00:25:00.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:23:59.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -24624,7 +24624,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Cubby Blast - 18区、FPS Shop - Astor's Clearing、FPS Shop - Dunboro、Frostbite、Shop Terminal - Zephyr、Skutters - GrimHEX、科途便利店 · 云景中心 · 奥里森",
+              "location": "可购买地点：商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 西风镇、寒霜镇、射手 - 六角湾、科途便利店 - 云景中心 - 奥里森、立方爆炸 - 18区",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=r97-shotgun&tab=about",
@@ -24637,7 +24637,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun",
-              "sourceUpdatedAt": "2026-09-17T00:25:00.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:23:59.000000Z"
             }
           ],
           "crafting": {
@@ -24849,7 +24849,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/7/7c/R97_Crimson_Camo_Shotgun.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun-magazine-18-cap",
-          "sourceUpdatedAt": "2026-09-17T00:22:45.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:21:42.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -24857,7 +24857,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - CRU-L1、Armor - CRU-L4、Armor - Everus Harbor、Armor - HUR-L1、Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 弧 L1 广袤森林站、Armor - 弧 L4 黯淡幽谷站等 81 处",
+              "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=r97-shotgun-magazine-(18-cap)&tab=about",
@@ -24870,7 +24870,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun-magazine-18-cap",
-              "sourceUpdatedAt": "2026-09-17T00:22:45.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:21:42.000000Z"
             },
             {
               "type": "wikelo",
@@ -25124,15 +25124,15 @@
           "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
           "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/rcmbnt-pwl-1",
-          "sourceUpdatedAt": "2026-07-16T13:06:34.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:00.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mission",
               "label": "实验终端合成",
-              "location": "任务：约里特卷宗：海伯利安项目地点：玛瑙设施 · 站点-B 实验室材料：反应物-01代码 + 催化剂-PWL代码产出：RCMBNT-PWL-1（实体样本送至设施货运电梯）",
+              "location": "任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-01代码 + 催化剂-PWL代码\n产出：RCMBNT-PWL-1（实体样本送至设施货运电梯）",
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
@@ -25197,15 +25197,15 @@
           "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
           "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/rcmbnt-pwl-2",
-          "sourceUpdatedAt": "2026-07-16T13:06:34.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:00.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mission",
               "label": "实验终端合成",
-              "location": "任务：约里特卷宗：海伯利安项目地点：玛瑙设施 · 站点-B 实验室材料：反应物-02代码 + 催化剂-PWL代码产出：RCMBNT-PWL-2（实体样本送至设施货运电梯）",
+              "location": "任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-02代码 + 催化剂-PWL代码\n产出：RCMBNT-PWL-2（实体样本送至设施货运电梯）",
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
@@ -25270,15 +25270,15 @@
           "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
           "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/rcmbnt-pwl-3",
-          "sourceUpdatedAt": "2026-07-16T13:06:34.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:00.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mission",
               "label": "实验终端合成",
-              "location": "任务：约里特卷宗：海伯利安项目地点：玛瑙设施 · 站点-B 实验室材料：反应物-03代码 + 催化剂-PWL代码产出：RCMBNT-PWL-3（实体样本送至设施货运电梯）",
+              "location": "任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-03代码 + 催化剂-PWL代码\n产出：RCMBNT-PWL-3（实体样本送至设施货运电梯）",
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
@@ -25343,15 +25343,15 @@
           "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
           "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/rcmbnt-rgl-1",
-          "sourceUpdatedAt": "2026-07-16T13:06:34.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:01.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mission",
               "label": "实验终端合成",
-              "location": "任务：约里特卷宗：海伯利安项目地点：玛瑙设施 · 站点-B 实验室材料：反应物-01代码 + 催化剂-RGL代码产出：RCMBNT-RGL-1（实体样本送至设施货运电梯）",
+              "location": "任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-01代码 + 催化剂-RGL代码\n产出：RCMBNT-RGL-1（实体样本送至设施货运电梯）",
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
@@ -25416,15 +25416,15 @@
           "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
           "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/rcmbnt-rgl-2",
-          "sourceUpdatedAt": "2026-07-16T13:06:35.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:01.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mission",
               "label": "实验终端合成",
-              "location": "任务：约里特卷宗：海伯利安项目地点：玛瑙设施 · 站点-B 实验室材料：反应物-02代码 + 催化剂-RGL代码产出：RCMBNT-RGL-2（实体样本送至设施货运电梯）",
+              "location": "任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-02代码 + 催化剂-RGL代码\n产出：RCMBNT-RGL-2（实体样本送至设施货运电梯）",
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
@@ -25489,15 +25489,15 @@
           "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
           "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/rcmbnt-rgl-3",
-          "sourceUpdatedAt": "2026-07-16T13:06:35.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:01.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mission",
               "label": "实验终端合成",
-              "location": "任务：约里特卷宗：海伯利安项目地点：玛瑙设施 · 站点-B 实验室材料：反应物-03代码 + 催化剂-RGL代码产出：RCMBNT-RGL-3（实体样本送至设施货运电梯）",
+              "location": "任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-03代码 + 催化剂-RGL代码\n产出：RCMBNT-RGL-3（实体样本送至设施货运电梯）",
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
@@ -25562,15 +25562,15 @@
           "imageSourceUrl": "https://robertsspaceindustries.com/community-hub/post/look-at-my-imprint-recombinant-samples-collection-dJJzw754AXio8",
           "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/rcmbnt-xtl-1",
-          "sourceUpdatedAt": "2026-07-16T13:06:35.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:01.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mission",
               "label": "实验终端合成",
-              "location": "任务：约里特卷宗：海伯利安项目地点：玛瑙设施 · 站点-B 实验室材料：反应物-01代码 + 催化剂-XTL代码产出：RCMBNT-XTL-1（实体样本送至设施货运电梯）",
+              "location": "任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-01代码 + 催化剂-XTL代码\n产出：RCMBNT-XTL-1（实体样本送至设施货运电梯）",
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
@@ -25635,15 +25635,15 @@
           "imageSourceUrl": "https://cstone.space/uifimages/4d0b2ad9-d49f-4877-896d-84fcb78ddc38.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/rcmbnt-xtl-2",
-          "sourceUpdatedAt": "2026-07-16T13:06:35.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:01.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mission",
               "label": "实验终端合成",
-              "location": "任务：约里特卷宗：海伯利安项目地点：玛瑙设施 · 站点-B 实验室材料：反应物-02代码 + 催化剂-XTL代码产出：RCMBNT-XTL-2（实体样本送至设施货运电梯）",
+              "location": "任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-02代码 + 催化剂-XTL代码\n产出：RCMBNT-XTL-2（实体样本送至设施货运电梯）",
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
@@ -25708,15 +25708,15 @@
           "imageSourceUrl": "https://cstone.space/uifimages/1b4efba7-c395-4c46-b2e5-ebeae4961f24.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/rcmbnt-xtl-3",
-          "sourceUpdatedAt": "2026-07-16T13:06:35.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:01.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mission",
               "label": "实验终端合成",
-              "location": "任务：约里特卷宗：海伯利安项目地点：玛瑙设施 · 站点-B 实验室材料：反应物-03代码 + 催化剂-XTL代码产出：RCMBNT-XTL-3（实体样本送至设施货运电梯）",
+              "location": "任务：约里特卷宗：海伯利安项目\n地点：玛瑙设施 · 站点-B 实验室\n材料：反应物-03代码 + 催化剂-XTL代码\n产出：RCMBNT-XTL-3（实体样本送至设施货运电梯）",
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/missions/bbb52b26-4a27-4afa-aac5-9299fde95dbf",
@@ -26276,7 +26276,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/c/c0/S71_magazine_800x400.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/s71-rifle-magazine-30-cap",
-          "sourceUpdatedAt": "2026-09-17T00:14:08.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:13:24.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -26284,7 +26284,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - CRU-L1、Armor - CRU-L4、Armor - Everus Harbor、Armor - HUR-L1、Armor - MIC-L4、Armor - Terra Gateway (Stanton)、Armor - 弧 L1 广袤森林站、Armor - 弧 L4 黯淡幽谷站等 81 处",
+              "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=s71-rifle-magazine-(30-cap)&tab=about",
@@ -26297,7 +26297,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/s71-rifle-magazine-30-cap",
-              "sourceUpdatedAt": "2026-09-17T00:14:08.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:13:24.000000Z"
             },
             {
               "type": "wikelo",
@@ -26391,15 +26391,15 @@
           "imageSourceUrl": "https://www.mmopixel.com/news/star-citizen-4-7-complete-rock-breaker-mission-guide",
           "imageKind": "community",
           "sourceUrl": "https://api.star-citizen.wiki/items/sadaryx",
-          "sourceUpdatedAt": "2026-07-16T13:06:47.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:04.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mine",
               "label": "采矿获取",
-              "location": "这种矿物可以开采，但目前没有已确认的固定矿点。进入碎岩者采矿区（Rockbreaker）等采矿区域后用扫描器确认矿物名称，不要按相似外观判断。",
+              "location": "这种矿物可以开采，但目前没有已确认的固定矿点。进入 碎岩者采矿区（Rockbreaker） 等采矿区域后用扫描器确认矿物名称，不要按相似外观判断。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Sadaryx",
@@ -26444,15 +26444,15 @@
           "imageSourceUrl": "https://sc-market.space/market/60603ff3-9ef2-438c-acbd-615064f7846e/",
           "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/saldynium-ore",
-          "sourceUpdatedAt": "2026-07-16T13:06:40.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:47:03.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mine",
               "label": "哈索尔“对准与开采”活动",
-              "location": "地点：阿伯丁或戴玛尔的哈索尔轨道激光矿洞。\n步骤：完成 PAF 对准与 OLP 供电后进入矿洞开采；与科力晶、杰金矿石出现在同一活动矿区。",
+              "location": "地点：阿伯丁 或 戴玛尔 的 哈索尔 轨道激光矿洞。\n步骤：完成 PAF 对准与 OLP 供电后进入矿洞开采；与科力晶、杰金矿石出现在同一活动矿区。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Saldynium_(Ore)",
@@ -26557,15 +26557,15 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/savrilium",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/savrilium",
-          "sourceUpdatedAt": "2026-07-16T13:06:24.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:46:55.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "mine",
               "label": "尼克斯星系飞船采矿并精炼",
-              "location": "矿点：尼克斯的冰川环带与基格小行星带。\n开采萨维里矿后精炼为萨维里金属；兑换要求按 SCU 计算。",
+              "location": "矿点：尼克斯 的 冰川环带 与 基格小行星带。\n开采萨维里矿后精炼为萨维里金属；兑换要求按 SCU 计算。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Savrilium",
@@ -27387,7 +27387,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-helmet",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-helmet",
-          "sourceUpdatedAt": "2026-08-31T00:02:01.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:01:25.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": false,
@@ -27395,11 +27395,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Skutters Grim、商店 · 冰结镇、商店 · 卡比尔驿站、商店 · 杰克森交易站、商店 · 萨克伦领地、商店 · 鸭翼观景处、商店 · 黑岩交易所、坦姆尼父子等 9 处",
+              "location": "可购买地点：商店 冰结镇、商店 卡比尔驿站、商店 杰克森交易站、商店 萨克伦领地、商店 鸭翼观景处、商店 黑岩交易所、坦姆尼父子、射手 六角湾 等 9 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=tailwind-flight-helmet&tab=about",
-              "sourceUpdatedAt": "2026-05-16T18:47:38+00:00"
+              "sourceUpdatedAt": "2026-08-31T23:58:38+00:00"
             }
           ],
           "crafting": null,
@@ -27548,7 +27548,7 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-suit",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-suit",
-          "sourceUpdatedAt": "2026-08-31T00:02:01.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:01:25.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -27556,11 +27556,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Skutters Grim、商店 · 冰结镇、商店 · 卡比尔驿站、商店 · 杰克森交易站、商店 · 萨克伦领地、商店 · 鸭翼观景处、商店 · 黑岩交易所、坦姆尼父子等 9 处",
+              "location": "可购买地点：商店 冰结镇、商店 卡比尔驿站、商店 杰克森交易站、商店 萨克伦领地、商店 鸭翼观景处、商店 黑岩交易所、坦姆尼父子、射手 六角湾 等 9 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=tailwind-flight-suit&tab=about",
-              "sourceUpdatedAt": "2026-05-18T15:29:08+00:00"
+              "sourceUpdatedAt": "2026-09-01T00:03:55+00:00"
             },
             {
               "type": "craft",
@@ -27569,7 +27569,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/tailwind-flight-suit",
-              "sourceUpdatedAt": "2026-08-31T00:02:01.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:01:25.000000Z"
             }
           ],
           "crafting": {
@@ -28810,7 +28810,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/0/0a/Shotgun-Pistol.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/tripledown-pistol",
-          "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -28818,11 +28818,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：尽职之物 · 列夫斯基、武器与护甲店 PSSA、武器与护甲店 PSSD、武器与护甲店 PSSL、武器与护甲店 PSST",
+              "location": "可购买地点：尽职之物 · 列夫斯基、武器与护甲店 人民服务空间站 德尔塔、武器与护甲店 人民服务空间站 拉姆达、武器与护甲店 人民服务空间站 西塔、武器与护甲店 人民服务空间站 阿尔法",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=tripledown-pistol&tab=about",
-              "sourceUpdatedAt": "2026-07-31T04:28:41+00:00"
+              "sourceUpdatedAt": "2026-09-13T21:29:32+00:00"
             },
             {
               "type": "craft",
@@ -28831,7 +28831,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/tripledown-pistol",
-              "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z"
             }
           ],
           "crafting": {
@@ -28900,7 +28900,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/0/03/Hot_Shot.jpg",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/tripledown-pistol-magazine-12-cap",
-          "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -28908,11 +28908,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor CRU-L4、FPS Armor Everus、FPS Armor HUR-L1、FPS Armor MIC-L4 等 64 处",
+              "location": "可购买地点：Sharp Shooters - 死局空间站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 64 处",
               "price": 154,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=tripledown-pistol-magazine-(12-cap)&tab=about",
-              "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
+              "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
             },
             {
               "type": "craft",
@@ -28921,7 +28921,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/tripledown-pistol-magazine-12-cap",
-              "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z"
             },
             {
               "type": "wikelo",
@@ -28999,15 +28999,15 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/tundra-kopion-horn",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/tundra-kopion-horn",
-          "sourceUpdatedAt": "2026-07-16T13:15:56.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:48:02.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "harvest",
               "label": "从苔原寇骈犬采集",
-              "location": "地点：微科星高地草原、冻原和绿色地带边缘。\n获取：击杀苔原寇骈犬后采集角。",
+              "location": "地点：微科星 高地草原、冻原和绿色地带边缘。\n获取：击杀苔原寇骈犬后采集角。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Tundra_kopion",
@@ -29072,15 +29072,15 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/tungsten",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/tungsten",
-          "sourceUpdatedAt": "2026-07-16T13:06:15.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:46:50.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "purchase",
               "label": "直接购买或采矿精炼",
-              "location": "稳定购买点示例：弧光集团采矿区 045/056/061、舒宾星际 SCD-1、SMCa-6/8。\n也可在莉瑞雅、瓦菈、法伊罗、派罗 IV 等矿区开采后精炼。兑换要求按 SCU 计算。",
+              "location": "稳定购买点示例：弧光集团采矿区 045/056/061、舒宾星际 SCD-1、SMCa-6/8。\n也可在 莉瑞雅、瓦菈、法伊罗、派罗 IV 等矿区开采后精炼。兑换要求按 SCU 计算。",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://starcitizen.tools/Tungsten",
@@ -29198,15 +29198,15 @@
           "imageSourceUrl": "https://cstone.space/uifimages/e3522bd2-4420-4b3a-8679-7fc929411e85.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/valakkar-fang-juvenile",
-          "sourceUpdatedAt": "2026-07-16T13:15:56.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:48:02.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "harvest",
               "label": "从幼年瓦拉卡采集",
-              "location": "瓦拉卡出没于戴玛尔、殁氧星与派罗 I 等地。击杀幼年个体后从口部采集；不要与带绿色辐射外观的受辐射版本混用。",
+              "location": "瓦拉卡出没于 戴玛尔、殁氧星 与 派罗 I 等地。击杀幼年个体后从口部采集；不要与带绿色辐射外观的受辐射版本混用。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Valakkar_Fang_(Juvenile)",
@@ -29481,7 +29481,7 @@
             {
               "tradeId": "a026b45d-6726-4a86-898c-e0207f2880c4",
               "tradeName": {
-                "zh": "枪太多了",
+                "zh": "太多枪了",
                 "en": "Too Much Gun",
                 "localizationSource": "official_global_ini"
               },
@@ -29524,7 +29524,7 @@
             {
               "tradeId": "a026b45d-6726-4a86-898c-e0207f2880c4",
               "tradeName": {
-                "zh": "枪太多了",
+                "zh": "太多枪了",
                 "en": "Too Much Gun",
                 "localizationSource": "official_global_ini"
               },
@@ -29554,7 +29554,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Cubby 18区",
+              "location": "可购买地点：立方爆炸 18区",
               "price": 27150,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=vendetta-hmg&tab=about",
@@ -29604,7 +29604,7 @@
             {
               "tradeId": "a026b45d-6726-4a86-898c-e0207f2880c4",
               "tradeName": {
-                "zh": "枪太多了",
+                "zh": "太多枪了",
                 "en": "Too Much Gun",
                 "localizationSource": "official_global_ini"
               },
@@ -29627,7 +29627,7 @@
           "imageSourceUrl": "https://starcitizen.tools/Vendetta_HMG",
           "imageKind": "ai_redraw",
           "sourceUrl": "https://api.star-citizen.wiki/items/vendetta-hmg-magazine-1000-cap",
-          "sourceUpdatedAt": "2026-09-17T00:01:32.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:01:25.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": false,
@@ -29635,7 +29635,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor CRU-L4、FPS Armor Everus、FPS Armor HUR-L1、FPS Armor Tressler 等 72 处",
+              "location": "可购买地点：Sharp Shooters - 死局空间站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 72 处",
               "price": 7425,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=vendetta-hmg-magazine-(1000-cap)&tab=about",
@@ -29657,7 +29657,7 @@
             {
               "tradeId": "a026b45d-6726-4a86-898c-e0207f2880c4",
               "tradeName": {
-                "zh": "枪太多了",
+                "zh": "太多枪了",
                 "en": "Too Much Gun",
                 "localizationSource": "official_global_ini"
               },
@@ -30019,7 +30019,7 @@
           "imageSourceUrl": "https://starcitizen.tools/Venture_Core",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/venture-core",
-          "sourceUpdatedAt": "2026-09-12T00:22:08.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:19:43.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -30027,11 +30027,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - CRU-L1、Armor - MIC-L4、Armor - 炽天使空间站、护甲店 · 微 L1 浅边站、科途便利店 · 云景中心 · 奥里森、科途便利店 · 志远大厦 · 新巴贝奇",
+              "location": "可购买地点：护甲店 - 十 L1 雄心伟梦站、护甲店 - 微 L1 浅边站、护甲店 - 微 L4 红色十字路口站、护甲店 - 炽天使空间站、科途便利店 - 云景中心 - 奥里森、科途便利店 - 志远大厦 - 新巴贝奇",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=venture-core&tab=about",
-              "sourceUpdatedAt": "2026-09-11T18:43:10+00:00"
+              "sourceUpdatedAt": "2026-09-16T18:16:29+00:00"
             },
             {
               "type": "craft",
@@ -30040,7 +30040,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-core",
-              "sourceUpdatedAt": "2026-09-12T00:22:08.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:19:43.000000Z"
             }
           ],
           "crafting": {
@@ -30483,7 +30483,7 @@
           "imageSourceUrl": "https://starcitizen.tools/Venture_Legs",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/venture-legs",
-          "sourceUpdatedAt": "2026-09-17T00:06:18.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:06:00.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -30491,11 +30491,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Armor - CRU-L1、Armor - CRU-L4、Armor - MIC-L4、Armor - 炽天使空间站、坦姆尼父子 - Metro Center - 罗威尔、科途便利店 · 云景中心 · 奥里森、科途便利店 · 志远大厦 · 新巴贝奇",
+              "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 十 L1 雄心伟梦站、护甲店 - 十 L4 轻浅田野站、护甲店 - 微 L4 红色十字路口站、护甲店 - 炽天使空间站、科途便利店 - 云景中心 - 奥里森、科途便利店 - 志远大厦 - 新巴贝奇",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=venture-legs&tab=about",
-              "sourceUpdatedAt": "2026-09-16T18:16:29+00:00"
+              "sourceUpdatedAt": "2026-09-18T14:51:56+00:00"
             },
             {
               "type": "craft",
@@ -30504,7 +30504,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-legs",
-              "sourceUpdatedAt": "2026-09-17T00:06:18.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:06:00.000000Z"
             }
           ],
           "crafting": {
@@ -31441,7 +31441,7 @@
             {
               "tradeId": "a026b45d-6726-4a86-898c-e0207f2880c4",
               "tradeName": {
-                "zh": "枪太多了",
+                "zh": "太多枪了",
                 "en": "Too Much Gun",
                 "localizationSource": "official_global_ini"
               },
@@ -31786,15 +31786,15 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/yormandi-eye",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/yormandi-eye",
-          "sourceUpdatedAt": "2026-07-16T13:15:56.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:48:02.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "harvest",
               "label": "玛瑙设施地下洞穴采集",
-              "location": "地点：ASD 玛瑙设施深层洞穴。\n获取：击杀约曼迪后采集眼睛；这是生物部位，不是普通战利品箱掉落。",
+              "location": "地点：ASD 玛瑙设施 深层洞穴。\n获取：击杀约曼迪后采集眼睛；这是生物部位，不是普通战利品箱掉落。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Yormandi",
@@ -31879,15 +31879,15 @@
           "imageSourceUrl": "https://api.star-citizen.wiki/items/yormandi-tongue",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/yormandi-tongue",
-          "sourceUpdatedAt": "2026-07-16T13:06:07.000000Z",
-          "sourceGameVersion": "4.9.0-LIVE.12232306",
+          "sourceUpdatedAt": "2026-08-27T09:46:47.000000Z",
+          "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": false,
           "isCraftable": false,
           "acquisition": [
             {
               "type": "harvest",
               "label": "玛瑙设施地下洞穴采集",
-              "location": "地点：ASD 玛瑙设施深层洞穴。\n获取：击杀约曼迪后采集舌头；这是生物部位，不是普通战利品箱掉落。",
+              "location": "地点：ASD 玛瑙设施 深层洞穴。\n获取：击杀约曼迪后采集舌头；这是生物部位，不是普通战利品箱掉落。",
               "price": null,
               "currency": null,
               "sourceUrl": "https://starcitizen.tools/Yormandi",
@@ -32174,7 +32174,7 @@
           "imageSourceUrl": "https://media.starcitizen.tools/6/6c/Zenith_Snow_Camo_Laser_Sniper_Rifle.png",
           "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/zenith-laser-sniper-rifle-battery-22-cap",
-          "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z",
+          "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z",
           "sourceGameVersion": "4.10.0-LIVE.12519617",
           "isLootable": true,
           "isCraftable": true,
@@ -32182,11 +32182,11 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：CenterMass 18区、CenterMass 新巴贝奇、Cubby 18区、FPS Armor CRU-L1、FPS Armor CRU-L4、FPS Armor Everus、FPS Armor HUR-L1、FPS Armor MIC-L4 等 76 处",
+              "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 76 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=zenith-laser-sniper-rifle-battery-(22-cap)&tab=about",
-              "sourceUpdatedAt": "2026-08-30T20:10:43+00:00"
+              "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
             },
             {
               "type": "craft",
@@ -32195,7 +32195,7 @@
               "price": null,
               "currency": null,
               "sourceUrl": "https://api.star-citizen.wiki/blueprints/zenith-laser-sniper-rifle-battery-22-cap",
-              "sourceUpdatedAt": "2026-08-31T00:02:00.000000Z"
+              "sourceUpdatedAt": "2026-09-21T00:01:24.000000Z"
             },
             {
               "type": "wikelo",

@@ -4,7 +4,7 @@ on:
   schedule:
     # Every six hours, deliberately away from the top of the hour where GitHub
     # documents higher schedule delay/drop risk. Only the lightweight Dumper's
-    # Repo Wikelo page is read here.
+    # Repo Wikelo page and the NAS-synchronized input manifest are checked here.
     - cron: "23 */6 * * *"
   workflow_dispatch:
     inputs:
@@ -54,6 +54,14 @@ jobs:
         id: live_version
         run: npm run check:live-version -- --github-output
 
+      - name: Recall successfully reviewed localization input
+        id: localization_review
+        if: steps.live_version.outputs.changed == 'true' && !inputs.force_refresh
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/localization-reviewed
+          key: wikelo-localization-${{ steps.live_version.outputs.localization_sha256 }}-${{ steps.live_version.outputs.remote_version }}-${{ hashFiles('scripts/**', 'data/localization/**') }}
+
       - name: Verify the expected LIVE version for a forced refresh
         if: inputs.expected_live_version != ''
         env:
@@ -62,15 +70,26 @@ jobs:
         run: test "$REMOTE_LIVE_VERSION" = "$EXPECTED_LIVE_VERSION"
 
       - name: Refresh staging data and enforce publish gates
-        if: steps.live_version.outputs.changed == 'true' || inputs.force_refresh
+        if: (steps.live_version.outputs.changed == 'true' && steps.localization_review.outputs.cache-hit != 'true') || inputs.force_refresh
+        env:
+          GVY_LOCALIZATION_COMMIT: ${{ steps.live_version.outputs.localization_commit }}
         run: npm run refresh:data:publish-check
 
+      - name: Detect material candidate changes
+        id: candidate
+        run: |
+          if git diff --quiet -- src/data/generated data/localization; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Audit public content
-        if: steps.live_version.outputs.changed == 'true' || inputs.force_refresh
+        if: steps.candidate.outputs.changed == 'true'
         run: npm run audit:data
 
       - name: Test, validate, and build
-        if: steps.live_version.outputs.changed == 'true' || inputs.force_refresh
+        if: steps.candidate.outputs.changed == 'true'
         run: |
           npm test
           npm run lint:data
@@ -89,7 +108,7 @@ jobs:
           retention-days: 14
 
       - name: Commit only verified data changes
-        if: steps.live_version.outputs.changed == 'true' || inputs.force_refresh
+        if: steps.candidate.outputs.changed == 'true'
         run: |
           git add src/data/generated data/audits data/localization data/source-snapshots public/images
           if git diff --cached --quiet; then
@@ -107,6 +126,17 @@ jobs:
           npm run build
           git push origin HEAD:main
 
-      # Scheduled runs stop after the lightweight version check when LIVE is unchanged.
+      - name: Mark a no-op input as reviewed without a production commit
+        if: success() && steps.live_version.outputs.changed == 'true' && steps.localization_review.outputs.cache-hit != 'true' && !inputs.force_refresh
+        run: node -e "require('fs').mkdirSync('.cache/localization-reviewed',{recursive:true}); require('fs').writeFileSync('.cache/localization-reviewed/success','verified')"
+
+      - name: Remember successfully reviewed input
+        if: success() && steps.live_version.outputs.changed == 'true' && steps.localization_review.outputs.cache-hit != 'true' && !inputs.force_refresh
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/localization-reviewed
+          key: ${{ steps.localization_review.outputs.cache-primary-key }}
+
+      # Scheduled runs stop when both LIVE and NAS input are unchanged/reviewed.
       # Full refreshes update repository data for EdgeOne's connected build.
       # It intentionally contains no GitHub Pages action or Pages configuration.

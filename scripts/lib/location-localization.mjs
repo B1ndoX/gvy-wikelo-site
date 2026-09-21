@@ -1,3 +1,15 @@
+import snapshot from "../../data/localization/official-global-derived.json" with { type: "json" };
+import { TERMINAL_ALIASES, deriveOfficialLocations } from "./official-location-source.mjs";
+
+let officialEntries = deriveOfficialLocations(new Map(Object.entries(snapshot.entries)));
+export function setOfficialLocationSource(entries) {
+  officialEntries = deriveOfficialLocations(entries);
+}
+const escapePattern = value => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+function replaceToken(text, english, chinese) {
+  return text.replace(new RegExp(`(?<![A-Za-z0-9])${escapePattern(english)}(?![A-Za-z0-9])`, "gi"), () => chinese);
+}
+
 const EXACT_REPLACEMENTS = [
   ["Kel-To - August Dunlow Spaceport - Orison", "科途便利店 · 奥古斯特·顿洛空港 · 奥里森"],
   ["Kel-To - Cloudview Center - Orison", "科途便利店 · 云景中心 · 奥里森"],
@@ -117,7 +129,6 @@ const TOKEN_REPLACEMENTS = [
   ["Nyx", "尼克斯"],
   ["Hathor", "哈索尔"],
   ["Lazarus", "拉撒路"],
-  ["Ghost Arena", "幽灵竞技场（Ghost Arena）"],
   ["Crypt Keycard", "地穴密钥卡"],
   ["Crypt", "地穴"],
   ["Ace Pilot", "王牌飞行员"],
@@ -133,20 +144,43 @@ const TOKEN_REPLACEMENTS = [
 export function localizeLocationText(value) {
   if (!value) return value;
   let output = String(value);
+  output = output.replace(/\bSeraphim Station\b/g, "Seraphim");
+  output = output.replace(/\bWeapons (?:&|and) Armor\b/g, "武器与护甲店");
+  // Canonical terminal labels only; e.g. don't expand an arbitrary "Ruin".
+  for (const [alias, record] of Object.entries(TERMINAL_ALIASES)) {
+    output = output.replace(new RegExp(`(^|[：、])${escapePattern(alias)}(?=、|\\s*等 \\d+ 处|$)`, "g"), (_, prefix) => `${prefix}${record.canonical}`);
+  }
+  for (const [english, entry] of Object.entries(officialEntries).sort((a, b) => b[0].length - a[0].length)) {
+    output = replaceToken(output, english, entry.zh);
+  }
   for (const [english, chinese] of EXACT_REPLACEMENTS) output = output.replaceAll(english, chinese);
   for (const [english, chinese] of TOKEN_REPLACEMENTS) output = output.replaceAll(english, chinese);
+  // Generic API service labels, not fabricated proper names.
+  output = replaceToken(output, "Juice Bar", "果汁吧");
+  output = replaceToken(output, "FPS Shop", "商店");
+  output = replaceToken(output, "Shop", "商店");
+  output = replaceToken(output, "Equipment", "装备");
+  output = replaceToken(output, "Whammer's", "重锤汉堡");
   return output
-    .replace(/\bStorm Breaker\b/g, "风暴破坏者研究区（Storm Breaker）")
-    .replace(/\bRockbreaker\b/g, "碎岩者采矿区（Rockbreaker）")
+    .replace(/(?<!幽灵竞技场（)\bGhost Arena\b/g, "幽灵竞技场（Ghost Arena）")
+    .replace(/(?<!风暴破坏者研究区（)\bStorm Breaker\b/g, "风暴破坏者研究区（Storm Breaker）")
+    .replace(/(?<!碎岩者采矿区（)\bRockbreaker\b/g, "碎岩者采矿区（Rockbreaker）")
     .replace(/Weapons & Armor/g, "武器与护甲店")
     .replace(/\bSCU\b/g, "SCU")
-    .replace(/([\u3400-\u9fff）])\s+(?=[\u3400-\u9fff])/g, "$1")
     .replace(/完好（完好）/g, "完好")
     .replace(/基格小行星带\s*小行星带/g, "基格小行星带");
 }
 
 export function remainingUnlocalizedLocationTokens(value) {
   const text = String(value ?? "");
+  if (text.includes("可购买地点：")) {
+    // Audit all residual words, not a finite list of yesterday's place names.
+    // Station codes and roman numerals are not untranslated prose.
+    const stripped = text.slice(text.indexOf("可购买地点：") + 6)
+      .replace(/IO(?=北塔)/g, "")
+      .replace(/\b(?:L[1-5]|I{1,3}|IV|VI)\b/g, "");
+    return [...new Set(stripped.replace(/\b(?:Green Circle|Sharp Shooters)\b/g, "").match(/[A-Za-z][A-Za-z'’ -]*[A-Za-z]|[A-Za-z]/g) ?? [])].map(word => word.trim());
+  }
   return [
     "New Babbage", "Orison", "Levski", "Lorville", "Area 18", "Nyx Gateway", "Pyro Gateway",
     "Stanton Gateway", "Port Tressler", "Baijini Point", "Security Post Kareah", "Ruin Station",
@@ -154,4 +188,9 @@ export function remainingUnlocalizedLocationTokens(value) {
     "Aberdeen", "Daymar", "Euterpe", "Magda", "microTech", "Monox", "Bloom", "Glaciem Ring", "Keeger Belt",
     "Farro", "ArcCorp Mining Area", "Shubin",
   ].filter((token) => text.includes(token));
+}
+
+export function reviewedLocationExceptions(value) {
+  if (!String(value ?? "").includes("可购买地点：")) return [];
+  return [...new Set(String(value).match(/\b(?:Green Circle|Sharp Shooters)\b/g) ?? [])];
 }
