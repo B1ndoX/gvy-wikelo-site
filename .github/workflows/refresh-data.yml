@@ -56,7 +56,7 @@ jobs:
 
       - name: Recall successfully reviewed localization input
         id: localization_review
-        if: steps.live_version.outputs.changed == 'true' && !inputs.force_refresh
+        if: steps.live_version.outputs.changed == 'true' && steps.live_version.outputs.current_version == steps.live_version.outputs.remote_version && !inputs.force_refresh
         uses: actions/cache/restore@v4
         with:
           path: .cache/localization-reviewed
@@ -70,7 +70,8 @@ jobs:
         run: test "$REMOTE_LIVE_VERSION" = "$EXPECTED_LIVE_VERSION"
 
       - name: Refresh staging data and enforce publish gates
-        if: (steps.live_version.outputs.changed == 'true' && steps.localization_review.outputs.cache-hit != 'true') || inputs.force_refresh
+        id: refresh_data
+        if: steps.live_version.outputs.current_version != steps.live_version.outputs.remote_version || (steps.live_version.outputs.changed == 'true' && steps.localization_review.outputs.cache-hit != 'true') || inputs.force_refresh
         env:
           GVY_LOCALIZATION_COMMIT: ${{ steps.live_version.outputs.localization_commit }}
         run: npm run refresh:data:publish-check
@@ -127,11 +128,11 @@ jobs:
           git push origin HEAD:main
 
       - name: Mark a no-op input as reviewed without a production commit
-        if: success() && steps.live_version.outputs.changed == 'true' && steps.localization_review.outputs.cache-hit != 'true' && !inputs.force_refresh
+        if: success() && steps.refresh_data.outcome == 'success' && steps.candidate.outputs.changed != 'true' && steps.live_version.outputs.current_version == steps.live_version.outputs.remote_version && steps.live_version.outputs.changed == 'true' && steps.localization_review.outputs.cache-hit != 'true' && !inputs.force_refresh
         run: node -e "require('fs').mkdirSync('.cache/localization-reviewed',{recursive:true}); require('fs').writeFileSync('.cache/localization-reviewed/success','verified')"
 
       - name: Remember successfully reviewed input
-        if: success() && steps.live_version.outputs.changed == 'true' && steps.localization_review.outputs.cache-hit != 'true' && !inputs.force_refresh
+        if: success() && steps.refresh_data.outcome == 'success' && steps.candidate.outputs.changed != 'true' && steps.live_version.outputs.current_version == steps.live_version.outputs.remote_version && steps.live_version.outputs.changed == 'true' && steps.localization_review.outputs.cache-hit != 'true' && !inputs.force_refresh
         uses: actions/cache/save@v4
         with:
           path: .cache/localization-reviewed
