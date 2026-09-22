@@ -675,6 +675,15 @@ main {
   scrollbar-color: rgba(126, 221, 242, 0.18) transparent;
 }
 
+.trade-modal {
+  width: min(1040px, 100%);
+  max-height: calc(100dvh - 40px);
+}
+
+.trade-modal .detail-content {
+  padding: clamp(12px, 2vw, 20px);
+}
+
 .detail-hero,
 .item-modal-head {
   border-bottom-color: rgba(126, 221, 242, 0.16);
@@ -682,7 +691,14 @@ main {
 
 .detail-hero {
   position: relative;
+  grid-template-columns: clamp(120px, 28vw, 260px) minmax(0, 1fr);
+  gap: clamp(12px, 2vw, 24px);
+  padding-right: 40px;
   padding-bottom: 30px;
+}
+
+.detail-hero-visual {
+  height: clamp(96px, 18vw, 150px);
 }
 
 .detail-credit {
@@ -713,6 +729,81 @@ main {
   overflow: visible;
   border: 0;
   border-radius: 0;
+}
+
+/* Keep reading order; zoom/narrow viewports naturally fall back to one column. */
+.trade-modal .entry-list {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
+  gap: 10px;
+}
+
+/* Scale the content with both available dimensions, not an empty fixed-height box.
+   The px component preserves browser zoom; narrow screens keep their own layout. */
+@media (min-width: 881px) {
+  .trade-modal {
+    --detail-unit: clamp(1px, min(calc(0.65px + 0.06dvh), calc(0.65px + 0.035vw)), 2.1px);
+    width: min(calc(1040 * var(--detail-unit)), 92vw);
+    max-height: 92dvh;
+  }
+
+  .trade-modal .detail-content { padding: calc(20 * var(--detail-unit)); }
+  .trade-modal .detail-hero {
+    grid-template-columns: calc(260 * var(--detail-unit)) minmax(0, 1fr);
+    gap: calc(24 * var(--detail-unit));
+    padding-right: calc(40 * var(--detail-unit));
+    padding-bottom: calc(30 * var(--detail-unit));
+  }
+  .trade-modal .detail-hero-visual { height: calc(150 * var(--detail-unit)); }
+  .trade-modal .detail-hero-visual.media-landscape > :is(.image-zoom-trigger, .image-frame-surface) {
+    width: 100%;
+  }
+  .trade-modal .detail-heading h2 {
+    font-size: calc(24 * var(--detail-unit));
+    margin: calc(7 * var(--detail-unit)) 0 calc(4 * var(--detail-unit));
+  }
+  .trade-modal .detail-heading p {
+    font-size: calc(12 * var(--detail-unit));
+    margin-bottom: calc(10 * var(--detail-unit));
+  }
+  .trade-modal .category-chip {
+    font-size: calc(10 * var(--detail-unit));
+    padding: calc(3 * var(--detail-unit)) calc(7 * var(--detail-unit));
+  }
+  .trade-modal .detail-credit {
+    font-size: calc(10 * var(--detail-unit));
+    bottom: calc(8 * var(--detail-unit));
+  }
+  .trade-modal .detail-section { padding-top: calc(14 * var(--detail-unit)); }
+  .trade-modal .section-heading { margin-bottom: calc(7 * var(--detail-unit)); }
+  .trade-modal .section-heading h3 { font-size: calc(15 * var(--detail-unit)); }
+  .trade-modal .section-heading > span { font-size: calc(11 * var(--detail-unit)); }
+  .trade-modal .entry-list {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, calc(352 * var(--detail-unit))), 1fr));
+    gap: calc(10 * var(--detail-unit));
+  }
+  .trade-modal .entry-row {
+    min-height: calc(72 * var(--detail-unit));
+    grid-template-columns: calc(52 * var(--detail-unit)) minmax(0, 1fr) auto calc(16 * var(--detail-unit));
+    gap: calc(12 * var(--detail-unit));
+    padding: calc(9 * var(--detail-unit)) calc(11 * var(--detail-unit));
+  }
+  .trade-modal .entry-image { width: calc(52 * var(--detail-unit)); height: calc(52 * var(--detail-unit)); }
+  .trade-modal .entry-name strong { font-size: calc(14 * var(--detail-unit)); }
+  .trade-modal .entry-name small { font-size: calc(11 * var(--detail-unit)); }
+  .trade-modal .entry-amount strong { font-size: calc(15 * var(--detail-unit)); }
+  .trade-modal .entry-amount small { font-size: calc(10 * var(--detail-unit)); }
+  .trade-modal .entry-row > svg { width: calc(16 * var(--detail-unit)); height: calc(16 * var(--detail-unit)); }
+  .trade-modal .facts-grid { gap: calc(7 * var(--detail-unit)); margin-top: calc(14 * var(--detail-unit)); }
+  .trade-modal .facts-grid div { padding: calc(9 * var(--detail-unit)); }
+  .trade-modal .facts-grid dt { font-size: calc(10 * var(--detail-unit)); }
+  .trade-modal .facts-grid dd { font-size: calc(12 * var(--detail-unit)); margin-top: calc(4 * var(--detail-unit)); }
+  .trade-modal .modal-close {
+    width: calc(36 * var(--detail-unit));
+    height: calc(36 * var(--detail-unit));
+    top: calc(10 * var(--detail-unit));
+    right: calc(10 * var(--detail-unit));
+  }
+  .trade-modal .modal-close svg { width: calc(18 * var(--detail-unit)); height: calc(18 * var(--detail-unit)); }
 }
 
 .entry-row {
@@ -936,6 +1027,11 @@ main {
     max-height: calc(100dvh - max(24px, env(safe-area-inset-top) + env(safe-area-inset-bottom) + 12px));
     border-radius: 18px;
   }
+
+  .trade-modal .detail-hero {
+    grid-template-columns: 112px minmax(0, 1fr);
+    padding-right: 40px;
+  }
 }
 
 @media (max-width: 620px) {
@@ -1004,6 +1100,11 @@ main {
 }
 
 @media (max-width: 430px) {
+  .trade-modal .detail-hero {
+    grid-template-columns: 88px minmax(0, 1fr);
+    gap: 10px;
+  }
+
   .topbar {
     padding-inline: 14px;
   }
