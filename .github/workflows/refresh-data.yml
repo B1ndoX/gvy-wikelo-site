@@ -60,7 +60,10 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: .cache/localization-reviewed
-          key: wikelo-localization-${{ steps.live_version.outputs.localization_sha256 }}-${{ steps.live_version.outputs.remote_version }}-${{ hashFiles('scripts/**', 'data/localization/**') }}
+          # A review only applies to the currently published semantic dataset.
+          # An A -> B -> A localization switch must not reuse A's old no-op
+          # review while B is applied, even if its source hash is familiar.
+          key: wikelo-localization-${{ steps.live_version.outputs.localization_sha256 }}-${{ steps.live_version.outputs.remote_version }}-${{ hashFiles('scripts/**', 'data/localization/**', 'src/data/generated/metadata.json') }}
 
       - name: Verify the expected LIVE version for a forced refresh
         if: inputs.expected_live_version != ''

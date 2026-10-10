@@ -55,6 +55,13 @@ export async function loadRefreshLocalization() {
 
 const CJK_RE = /[\u3400-\u9fff]/;
 export const OFFICIAL_KEY_ALIASES = {
+  // These exact IDs used the same VehicleName keys in both NAS variants;
+  // the official bilingual edition removed their embedded English suffixes.
+  misc_fortune_collector_industrial: "TheCollector_ShipMod_MISC_Fortune_VehicleName",
+  mrai_guardian_qi_collector_indust: "TheCollector_ShipMod_MRAI_GuardianQI_VehicleName",
+  mrai_pulse_collector_civ: "TheCollector_ShipMod_MRAI_Pulse_VehicleName",
+  rsi_ursa_medivac_stealth: "TheCollector_ShipMod_URSA_Medivac_VehicleName",
+  xian_nox_collector_mod: "TheCollector_ShipMod_XIAN_Nox_VehicleName",
   anvl_hornet_f7_mk2_collector_mod: "TheCollector_ShipMod_F7_Hornet_VehicleName",
   argo_atls_geo_collector_grad01: "TheCollector_Mod_ATLS_Geo_Grad1_Name",
   argo_atls_geo_collector_grad02: "TheCollector_Mod_ATLS_Geo_Grad2_Name",
@@ -171,6 +178,10 @@ export const CONTRACT_KEY_ALIASES = {
   thecollector_gg_karna: "TheCollector_Trade_GG_Karna_Name",
   thecollector_redhunterarmour: "TheCollector_Recipes_Title_RedHunterArmor",
   thecollector_geminishotgun: "TheCollector_Recipes_Title_GMNI_Shotgun",
+  // Explicitly reviewed 4.10.2 recipe identities against the official keys,
+  // internal recipe names and their F55 / Monolith rewards (2026-10-10).
+  thecollector_gmni_lmg: "TheCollector_Recipes_Title_GMNI_LMG",
+  thecollector_greyheavycombatarmour: "TheCollector_Recipes_Title_GreyHeavyCombat",
   thecollector_nov_heavyutil: "TheCollector_Recipes_Title_HeavyUtil",
   thecollector_ad_zapzip: "TheCollector_Recipes_Title_ZipZap",
   thecollector_vglflightsuit: "TheCollector_Recipes_Title_VGLflightsuit",
@@ -242,12 +253,18 @@ export function parseOfficialLocalizationText(text) {
   return entries;
 }
 
-function firstChineseLine(value) {
+export function firstChineseLine(value) {
   const lines = String(value ?? "")
-    .split("\\n")
+    .split(/\\n|\r?\n/)
     .map((line) => line.trim())
     .filter(Boolean);
-  return lines.find((line) => CJK_RE.test(line)) ?? null;
+  const line = lines.find((candidate) => CJK_RE.test(candidate));
+  if (!line) return null;
+  // Official bilingual names/places can use English [中文] on one line.
+  // Only unwrap an entirely non-Chinese prefix and a complete Chinese bracket;
+  // preserve manufacturer codes and brackets within a real Chinese name.
+  const bracketed = line.match(/^[^\u3400-\u9fff\[\]]+\[([^\[\]]*[\u3400-\u9fff][^\[\]]*)\]$/);
+  return bracketed?.[1].trim() || line;
 }
 
 function officialChinese(value, englishName, key = "") {
@@ -358,10 +375,24 @@ export function resolveEntityLocalization(localization, entityClass, englishName
 }
 
 export function buildContractLocalizationResolver(localization) {
+  // Future official entries may include the exact English title. Only accept
+  // an unambiguous Wikelo title/name entry; never infer a key from a debug name.
+  const exactTitles = new Map();
+  for (const entry of localization.entries.values()) {
+    if (!/^thecollector_.*(?:title|name)$/i.test(entry.key.replace(/,[a-z]+$/i, ""))) continue;
+    if (!firstChineseLine(entry.value)) continue;
+    for (const line of String(entry.value).split("\\n").map(value => value.trim()).filter(Boolean)) {
+      if (CJK_RE.test(line)) continue;
+      const title = normalizedEnglish(line);
+      if (exactTitles.has(title) && exactTitles.get(title)?.key !== entry.key) exactTitles.set(title, null);
+      else if (!exactTitles.has(title)) exactTitles.set(title, entry);
+    }
+  }
   return (trade) => {
     const debugName = String(trade.debugName ?? "").replace(/\(.+$/, "").toLowerCase();
     const key = CONTRACT_KEY_ALIASES[debugName];
-    const entry = key ? localization.entries.get(key.toLowerCase()) : null;
+    const entry = (key ? localization.entries.get(key.toLowerCase()) : null)
+      || exactTitles.get(normalizedEnglish(trade.title));
     const zh = firstChineseLine(entry?.value);
     if (zh) return { zh, en: trade.title, localizationSource: "official_global_ini", key: entry.key };
     return { zh: null, en: trade.title, localizationSource: "english_fallback", key: null };

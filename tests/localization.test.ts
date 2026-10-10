@@ -1,6 +1,8 @@
 import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
 import { buildContractLocalizationResolver, loadOfficialLocalization, parseOfficialLocalizationText, resolveEntityLocalization } from "../scripts/lib/localization.mjs";
+import source from "../data/localization/official-global-derived.json";
+import { firstChineseLine } from "../scripts/lib/localization.mjs";
 
 describe("official localization parser", () => {
   it("uses the committed derivative on remote runners and covers top-level and crafting names", async () => {
@@ -18,7 +20,7 @@ describe("official localization parser", () => {
     expect(resolveEntityLocalization(localization, "cds_combat_superheavy_helmet_01_03_01", "BUL-H4 Helmet Snow Camo").zh)
       .toBe("BUL-H4 头盔 雪地迷彩");
     expect(resolveEntityLocalization(localization, "cds_combat_superheavy_backpack_01_03_01", "H4-PBF Ammo Carrier Snow Camo").zh)
-      .toBe("H4-PBF 弹药携具 雪地迷彩");
+      .toBe(firstChineseLine(source.entries.item_name_cds_combat_superheavy_backpack_01_03_01.value));
     expect(resolveEntityLocalization(localization, "carryable_2h_sq_collectormaterial_002", "Metamaterial Test #152").zh)
       .toBe("超材料测试 #152");
   });
@@ -50,6 +52,44 @@ describe("official localization parser", () => {
       en: "Wikelo Favor",
       localizationSource: "official_global_ini",
     });
+  });
+
+  it("selects real Chinese in enhanced, English-first and bracketed bilingual names without guessing", () => {
+    const localization = { entries: parseOfficialLocalizationText([
+      "item_Nameold=原中文\\nOriginal English",
+      "item_Namebilingual,P=Original English\\n官方中文",
+      "item_Namebracket=Original English [官方中文（基础）]",
+      "item_Nameuntranslated=Monolith Armor Core\\nMonolith Armor Core",
+      "item_Namebrand=F55 重机枪（基础）",
+    ].join("\n")) };
+    expect(resolveEntityLocalization(localization, "old", "Original English").zh).toBe("原中文");
+    expect(resolveEntityLocalization(localization, "bilingual", "Original English").zh).toBe("官方中文");
+    expect(resolveEntityLocalization(localization, "bracket", "Original English").zh).toBe("官方中文（基础）");
+    expect(resolveEntityLocalization(localization, "brand", "F55 LMG").zh).toBe("F55 重机枪（基础）");
+    expect(resolveEntityLocalization(localization, "untranslated", "Monolith Armor Core").localizationSource).toBe("english_fallback");
+  });
+
+  it("uses the reviewed new LIVE recipe keys, retaining untranslated Monolith titles", () => {
+    const localization = { entries: parseOfficialLocalizationText([
+      "TheCollector_Recipes_Title_GMNI_LMG=大风格轻机枪",
+      "TheCollector_Recipes_Title_GreyHeavyCombat=Monolith Armor Very Smooth",
+    ].join("\n")) };
+    const resolver = buildContractLocalizationResolver(localization);
+    expect(resolver({ debugName: "TheCollector_GMNI_LMG", title: "Big Style LMG" }).zh).toBe("大风格轻机枪");
+    expect(resolver({ debugName: "TheCollector_GreyHeavyCombatArmour", title: "Monolith Armor Very Smooth" }).localizationSource).toBe("english_fallback");
+  });
+  it("retains reviewed special-vehicle identities when official entries lose their English suffix", () => {
+    const cases = [
+      ["misc_fortune_collector_industrial", "TheCollector_ShipMod_MISC_Fortune_VehicleName", "MISC Fortune Wikelo Special", "武藏 财运 维克洛特别版"],
+      ["mrai_guardian_qi_collector_indust", "TheCollector_ShipMod_MRAI_GuardianQI_VehicleName", "Mirai Guardian QI Wikelo Special", "未来 守护者 QI 维克洛特别版"],
+      ["mrai_pulse_collector_civ", "TheCollector_ShipMod_MRAI_Pulse_VehicleName", "Mirai Pulse Wikelo Special", "未来 脉冲 维克洛特别版"],
+      ["rsi_ursa_medivac_stealth", "TheCollector_ShipMod_URSA_Medivac_VehicleName", "RSI Ursa Medivac Wikelo Special", "RSI 大熊座 医疗 维克洛特别版"],
+      ["xian_nox_collector_mod", "TheCollector_ShipMod_XIAN_Nox_VehicleName", "Aopoa Nox Wikelo Special", "奥波亚 Nox 维克洛特别版"],
+    ];
+    for (const [id, key, en, zh] of cases) for (const value of [zh, `${zh}\\n${en}`, `${en}\\n${zh}`]) {
+      const localization = { entries: parseOfficialLocalizationText(`${key},P=${value}`) };
+      expect(resolveEntityLocalization(localization, id, en)).toEqual({ zh, en, localizationSource: "official_global_ini" });
+    }
   });
 
   it("maps the Tevarin service marker to its differently named official key", () => {
@@ -163,5 +203,17 @@ describe("official localization parser", () => {
     const resolveContract = buildContractLocalizationResolver(localization);
     expect(resolveContract({ debugName: "TheCollector_Vehicle_Small_Kruger_Wolf_Unique", title: "Most Special Wolf" }).zh).toBe("最特别的狼");
     expect(resolveContract({ debugName: "TheCollector_CombatClothing", title: "CombatClothing" }).zh).toBeNull();
+  });
+  it("automatically uses newly supplied exact official English title evidence, not similar titles", () => {
+    const trade = { debugName: "TheCollector_UnmappedFixture", title: "New LIVE Task" };
+    expect(buildContractLocalizationResolver({ entries: new Map() })(trade).localizationSource).toBe("english_fallback");
+    const updated = { entries: parseOfficialLocalizationText("TheCollector_Fixture_Title=官方新任务\\nNew LIVE Task") };
+    const resolveContract = buildContractLocalizationResolver(updated);
+    expect(resolveContract(trade).zh).toBe("官方新任务");
+    expect(resolveContract({ ...trade, title: "New LIVE Task Plus" }).zh).toBeNull();
+    const ambiguous = { entries: parseOfficialLocalizationText([
+      "TheCollector_A_Title=官方甲\\nNew LIVE Task", "TheCollector_B_Title=官方乙\\nNew LIVE Task",
+    ].join("\n")) };
+    expect(buildContractLocalizationResolver(ambiguous)(trade).zh).toBeNull();
   });
 });

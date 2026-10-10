@@ -1,3 +1,5 @@
+import { firstChineseLine } from "./localization.mjs";
+
 // Explicit official keys, never fuzzy English-name matching. Generic shop labels
 // are UI categories; they do not invent a physical shop or change its location.
 export const LOCATION_KEYS = {
@@ -97,10 +99,13 @@ export function deriveOfficialLocations(entries) {
   return Object.fromEntries(Object.entries(LOCATION_KEYS).map(([english, key]) => {
     const entry = entries.get(key.toLowerCase());
     if (!entry) throw new Error(`Missing official location key: ${key}`);
-    let zh = entry.value.split("\\n")[0].replace(/\s*\([^()]*[A-Za-z][^()]*\)\s*$/, "").trim();
+    let zh = (firstChineseLine(entry.value) || "").replace(/\s*\([^()]*[A-Za-z][^()]*\)\s*$/, "").trim();
     if (english === "IO North Tower") {
-      if (!zh.includes("IO北塔")) throw new Error("Official IO North Tower dialogue changed; review phrase mapping");
-      zh = "IO北塔";
+      // This verified greeting key names the same building. The official
+      // translation changed from 北塔 to 北区大厦 in the 2026-10-10 input.
+      const phrase = zh.match(/IO北区大厦|IO北塔/)?.[0];
+      if (!phrase) throw new Error("Official IO North Tower dialogue changed; review phrase mapping");
+      zh = phrase;
     }
     if (!/[\u3400-\u9fff]/.test(zh)) throw new Error(`Untranslated official location key: ${key}`);
     return [english, { zh, key: entry.key }];
@@ -111,8 +116,17 @@ export function assertLocalizationSeries(entries, liveVersion) {
   if (!/^\d+\.\d+\.\d+ LIVE\.\d+$/.test(liveVersion)) throw new Error("Calibration requires an exact LIVE build");
   const label = entries.get("frontend_pu_version")?.value ?? "";
   const series = label.match(/\b(\d+\.\d+)(?:\.\d+)?\b/)?.[1];
-  if (!series || series !== liveVersion.split(".").slice(0, 2).join(".") || /\b(?:EPTU|PTU)\b/i.test(label)) {
+  const liveSeries = liveVersion.split(".").slice(0, 2).join(".");
+  const compareSeries = (left, right) => {
+    const a = left.split(".").map(Number), b = right.split(".").map(Number);
+    return a[0] - b[0] || a[1] - b[1];
+  };
+  if (!series || compareSeries(series, liveSeries) > 0 || /\b(?:EPTU|PTU)\b/i.test(label)) {
     throw new Error(`NAS localization series mismatch: ${label || "unknown"}; LIVE=${liveVersion}`);
   }
+  if (series !== liveSeries) return {
+    label, series, matchedLiveVersion: null, targetLiveVersion: liveVersion, localizationPending: true,
+    verification: "older localization series; use verified keyed names and English fallback, not exact LIVE localization",
+  };
   return { label, series, matchedLiveVersion: liveVersion, verification: "series-only; source does not identify an exact LIVE build" };
 }

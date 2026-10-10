@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import Ajv from "ajv/dist/2020.js";
 import { blockingRefreshReasons, detectDataAnomalies } from "./lib/anomalies.mjs";
+import { detectSupplementRegressions } from "./lib/content-policy.mjs";
 import { buildItemIndex, loadWikiImages } from "./lib/enrich.mjs";
 import { downloadBinary, fetchJson, fetchText } from "./lib/http.mjs";
 import { loadRefreshLocalization } from "./lib/localization.mjs";
@@ -200,7 +201,10 @@ async function main() {
 
   const coverage = localizationCoverage(trades);
   const anomalyBaseline = anomalyBaselineForVersion(previousVersionedData?.datasets ?? [], previousTrades, gameVersion);
-  const anomalies = detectDataAnomalies({ previousTrades: anomalyBaseline, previousMetadata, trades, gameVersion, localizationCoverage: coverage });
+  const anomalies = [
+    ...detectDataAnomalies({ previousTrades: anomalyBaseline, trades, gameVersion }),
+    ...detectSupplementRegressions({ previousTrades: previousTrades?.trades, previousItems: previousItems?.items, trades, items }),
+  ];
   const refreshBlockers = blockingRefreshReasons(anomalies, sourceStatus);
   if (refreshBlockers.length) throw new Error(`Stable-data replacement blocked: ${refreshBlockers.join("; ")}`);
   const partialSources = sourceStatus.filter((source) => source.status === "partial" || source.status === "failed");

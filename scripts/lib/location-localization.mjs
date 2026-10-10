@@ -177,7 +177,7 @@ export function remainingUnlocalizedLocationTokens(value) {
     // Audit all residual words, not a finite list of yesterday's place names.
     // Station codes and roman numerals are not untranslated prose.
     const stripped = text.slice(text.indexOf("可购买地点：") + 6)
-      .replace(/IO(?=北塔)/g, "")
+      .replace(/IO(?=北塔|北区大厦)/g, "")
       .replace(/\b(?:L[1-5]|I{1,3}|IV|VI)\b/g, "");
     return [...new Set(stripped.replace(/\b(?:Green Circle|Sharp Shooters)\b/g, "").match(/[A-Za-z][A-Za-z'’ -]*[A-Za-z]|[A-Za-z]/g) ?? [])].map(word => word.trim());
   }

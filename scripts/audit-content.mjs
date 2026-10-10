@@ -2,6 +2,7 @@ import { access, mkdir, readFile, rename, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { remainingUnlocalizedLocationTokens, reviewedLocationExceptions } from "./lib/location-localization.mjs";
+import { supplementalAuditIssues } from "./lib/content-policy.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const generatedDir = path.join(projectRoot, "src/data/generated");
@@ -54,17 +55,7 @@ async function main() {
   const items = datasets.flatMap((dataset) => dataset.items);
   const requirementIds = new Set(trades.flatMap((trade) => trade.requirements.map((item) => item.id)));
   const requirements = items.filter((item) => requirementIds.has(item.id));
-  const errors = [];
-  const warnings = [];
-
-  const fallbackTrades = trades.filter((trade) => trade.name.localizationSource === "english_fallback");
-  const fallbackItems = items.filter((item) => item.name.localizationSource === "english_fallback");
-  const fallbackIngredients = items.flatMap((item) => (item.crafting?.ingredients ?? [])
-    .filter((ingredient) => ingredient.name.localizationSource === "english_fallback")
-    .map((ingredient) => `${item.id}:${ingredient.id || ingredient.name.en}`));
-  if (fallbackTrades.length) errors.push({ code: "trade-localization-fallback", ids: fallbackTrades.map((trade) => trade.id) });
-  if (fallbackItems.length) errors.push({ code: "item-localization-fallback", ids: fallbackItems.map((item) => item.id) });
-  if (fallbackIngredients.length) errors.push({ code: "crafting-ingredient-localization-fallback", ids: fallbackIngredients });
+  const { errors, warnings } = supplementalAuditIssues(trades, items, requirements);
 
   const malformedNames = items.filter((item) => hasUnbalancedBrackets(item.name.zh) || hasUnbalancedBrackets(item.name.en));
   if (malformedNames.length) errors.push({ code: "malformed-item-name", ids: malformedNames.map((item) => item.id) });
@@ -85,9 +76,6 @@ async function main() {
   if (internalAcquisitionCopy.length) errors.push({ code: "internal-acquisition-copy", ids: internalAcquisitionCopy.map((item) => item.id) });
 
   const unknownRoutes = requirements.filter((item) => item.acquisition.length === 0 || item.acquisition.some((method) => method.type === "unknown"));
-  if (unknownRoutes.length) errors.push({ code: "unknown-requirement-acquisition", ids: unknownRoutes.map((item) => item.id) });
-  const unsourcedRoutes = requirements.filter((item) => item.acquisition.some((method) => !method.sourceUrl));
-  if (unsourcedRoutes.length) errors.push({ code: "unsourced-requirement-acquisition", ids: unsourcedRoutes.map((item) => item.id) });
 
   const untranslatedLocations = items.flatMap((item) => item.acquisition.flatMap((method) => {
     const tokens = remainingUnlocalizedLocationTokens(`${method.label ?? ""} ${method.location ?? ""}`);

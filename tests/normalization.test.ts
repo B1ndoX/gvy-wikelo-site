@@ -100,7 +100,7 @@ describe("source parsing and normalization fixtures", () => {
       gameVersion: "4.8.1 LIVE.1",
       localizationCoverage: 0.4,
     });
-    expect(anomalies).toHaveLength(3);
+    expect(anomalies).toHaveLength(2);
     expect(blockingRefreshReasons(anomalies, [
       { url: "https://primary.example", status: "partial" },
       { url: "https://wiki.example", status: "snapshot" },

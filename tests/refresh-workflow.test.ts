@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
+import { createHash } from "node:crypto";
 
 const workflow = readFileSync(`${process.cwd()}/.github/workflows/refresh-data.yml`, "utf8");
 // Exercise the actual checked-in GitHub expressions, not a duplicate policy.
@@ -23,10 +24,28 @@ describe("localization no-op cache workflow policy", () => {
     expect(condition("Refresh staging data and enforce publish gates", rollback)).toBe(true);
     expect(condition("Remember successfully reviewed input", rollback)).toBe(false);
   });
+  it("refreshes the same LIVE on a new official localization input without forcing a run", () => {
+    expect(condition("Refresh staging data and enforce publish gates", { changed: "true", hit: "false" })).toBe(true);
+    expect(condition("Refresh staging data and enforce publish gates", { changed: "false" })).toBe(false);
+    expect(workflow).toContain("steps.live_version.outputs.localization_sha256");
+  });
   it("does not cache material changes, skipped/failed gates or forced runs", () => {
     for (const change of [{ candidate: "true" }, { outcome: "failure" }, { outcome: "skipped" }, { force: true }]) {
       expect(condition("Mark a no-op input as reviewed without a production commit", change)).toBe(false);
       expect(condition("Remember successfully reviewed input", change)).toBe(false);
     }
+  });
+  it("scopes historical no-op reviews to the applied dataset on A -> B -> A switches", () => {
+    const template = workflow.match(/key: (wikelo-localization-.+)/)?.[1];
+    expect(template).toContain("src/data/generated/metadata.json");
+    const key = (incoming: string, applied: string) => template!.replace(/\$\{\{\s*(.*?)\s*\}\}/g, (_, expression) => {
+      const evaluate = new Function("steps", "hashFiles", `return (${expression})`);
+      return evaluate({ live_version: { outputs: { localization_sha256: incoming, remote_version: "4.10.2 LIVE.2" } } },
+        (...patterns: string[]) => createHash("sha256").update(JSON.stringify(patterns.map(pattern =>
+          pattern === "src/data/generated/metadata.json" ? applied : "unchanged-reviewed-code-and-dictionary"))).digest("hex"));
+    });
+    expect(key("A", "applied-A")).not.toBe(key("A", "applied-B"));
+    expect(key("A", "applied-A")).toBe(key("A", "applied-A"));
+    expect(condition("Refresh staging data and enforce publish gates", { changed: "true", hit: "false" })).toBe(true);
   });
 });

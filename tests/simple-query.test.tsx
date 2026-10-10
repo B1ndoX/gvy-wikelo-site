@@ -2,6 +2,12 @@ import { fireEvent, render, screen, within } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 import App from "../src/App";
 import tradesData from "../src/data/generated/trades.json";
+import itemsData from "../src/data/generated/items.json";
+const itemName = (id: string) => {
+  const item = itemsData.items.find(candidate => candidate.id === id)!;
+  return item.name.zh || item.name.en;
+};
+const escapeRegExp = (text: string) => text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 describe("simple material query flow", () => {
   it("keeps the compact header links and removes the obsolete data strip", () => {
@@ -38,7 +44,7 @@ describe("simple material query flow", () => {
     }
 
     fireEvent.click(within(tradeDialog).getAllByRole("button", { name: /查看获取方式/ })[0]);
-    const itemDialog = screen.getByRole("dialog", { name: "维科洛人情" });
+    const itemDialog = screen.getByRole("dialog", { name: itemName("carryable_1h_cy_banu_favour_wikelo") });
     expect(within(itemDialog).queryByRole("link", { name: /图片来源|资料来源|配方来源/ })).not.toBeInTheDocument();
     expect(itemDialog).not.toHaveTextContent(/公开来源|内部任务占位|物品资料版本/);
 
@@ -133,12 +139,13 @@ describe("simple material query flow", () => {
 
     const dialog = screen.getByRole("dialog");
     expect(within(dialog).getByText("先解锁制作蓝图")).toBeInTheDocument();
-    expect(within(dialog).getByText(/完成交易：格外特别的狼/)).toBeInTheDocument();
+    const unlockTrade = tradesData.trades.find(trade => trade.name.en === "Extra Special Wolf")!;
+    expect(within(dialog).getByText(new RegExp(`完成交易：${escapeRegExp(unlockTrade.name.zh || unlockTrade.name.en)}`))).toBeInTheDocument();
     expect(within(dialog).getByText("准备材料并开始制作")).toBeInTheDocument();
     expect(within(dialog).getByText("钛")).toBeInTheDocument();
     expect(within(dialog).getByText("Titanium")).toBeInTheDocument();
     expect(within(dialog).getByText("愈金")).toBeInTheDocument();
-    expect(within(dialog).getByText("约曼迪之眼")).toBeInTheDocument();
+    expect(within(dialog).getByText(itemName("harvestable_trophy_1h_yormandi_eye"))).toBeInTheDocument();
     expect(within(dialog).getByText("预计制作耗时：70 秒")).toBeInTheDocument();
     expect(within(dialog).getByText("可用于哪些交易")).toBeInTheDocument();
     expect(within(dialog).getAllByText("需要 1 个").length).toBeGreaterThan(0);
@@ -149,11 +156,12 @@ describe("simple material query flow", () => {
     fireEvent.change(screen.getByPlaceholderText("搜索合同、物品、奖励、飞船或地点"), {
       target: { value: "Irradiated Valakkar Pearl (Grade AAA)" },
     });
-    fireEvent.click(screen.getAllByRole("button", { name: /受辐射的瓦拉卡珍珠（AAA 级）.*查看获取方式/ })[0]);
+    const pearlName = itemName("carryable_2h_fl_vlk_pearl_irradiated_super_01");
+    fireEvent.click(screen.getAllByRole("button", { name: new RegExp(`${escapeRegExp(pearlName)}.*查看获取方式`) })[0]);
     const dialog = screen.getByRole("dialog");
-    expect(within(dialog).getByRole("heading", { name: "受辐射的瓦拉卡珍珠（AAA 级）" })).toBeInTheDocument();
+    expect(within(dialog).getByRole("heading", { name: pearlName })).toBeInTheDocument();
     expect(within(dialog).getByText("Irradiated Valakkar Pearl (Grade AAA)")).toBeInTheDocument();
-    expect(within(dialog).getByRole("img", { name: "受辐射的瓦拉卡珍珠（AAA 级）" })).toHaveAttribute("src", expect.stringContaining("irradiated-valakkar-pearl-grade-aaa"));
+    expect(within(dialog).getByRole("img", { name: pearlName })).toHaveAttribute("src", expect.stringContaining("irradiated-valakkar-pearl-grade-aaa"));
     expect(within(dialog).getByText(/AAA 是稀有等级，不能把 AA 当作 AAA 上交/)).toBeInTheDocument();
   });
 

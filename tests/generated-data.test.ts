@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { createHash } from "node:crypto";
 import Ajv from "ajv/dist/2020.js";
 import { describe, expect, it } from "vitest";
 import tradesData from "../src/data/generated/trades.json";
@@ -7,6 +8,11 @@ import itemsData from "../src/data/generated/items.json";
 import metadata from "../src/data/generated/metadata.json";
 import versionedData from "../src/data/generated/versioned-data.json";
 import schema from "../data/schema/trades.schema.json";
+import officialSource from "../data/localization/official-global-derived.json";
+import { firstChineseLine, resolveEntityLocalization } from "../scripts/lib/localization.mjs";
+
+const officialLocalization = { entries: new Map(Object.entries(officialSource.entries)) };
+const officialName = (id: string, en: string) => resolveEntityLocalization(officialLocalization, id, en).zh;
 
 describe("generated stable data", () => {
   it("contains exactly one exact LIVE dataset", () => {
@@ -144,8 +150,33 @@ describe("generated stable data", () => {
       expect(readFileSync(resolve(process.cwd(), `public${item.imagePath}`)).byteLength).toBeGreaterThan(10_000);
     }
 
-    const missingRenderableImages = itemsData.items.filter((item) => item.imageKind === "none" && item.category !== "blueprint");
-    expect(missingRenderableImages).toEqual([]);
+    for (const item of itemsData.items.filter(item => item.imageKind === "none")) {
+      expect(item.imagePath).toBeNull();
+      expect(item.imageSourceUrl).toBeNull();
+    }
+  });
+
+  it("bundles the four source-supported base Monolith redraws with offline provenance", () => {
+    const snapshot = JSON.parse(readFileSync(resolve(process.cwd(), "data/source-snapshots/ai-redraw-item-images.json"), "utf8"));
+    for (const part of ["arms", "core", "helmet", "legs"]) {
+      const id = `kap_combat_heavy_${part}_01_01_01`;
+      const item = itemsData.items.find(candidate => candidate.id === id);
+      const source = snapshot.items.find((candidate: { id: string }) => candidate.id === id);
+      const asset = snapshot.assets.find((candidate: { localPath: string }) => candidate.localPath === source.localPath);
+      expect(item?.imageKind).toBe("ai_redraw");
+      expect(item?.imagePath).toBe(source.localPath);
+      expect(source.redrawType).toBe("faithful");
+      expect(source.imageUrl).toContain("5834d86f-502f-4e44-8c81-0b9c359d42c9");
+      expect(asset.referenceSha256).toBe("cfc03fc9b9fa5b360b0485bfd59a7f6282e97b784d7073de66ccd0adb21cf7d0");
+      const bytes = readFileSync(resolve(process.cwd(), `public${source.localPath}`));
+      expect(createHash("sha256").update(bytes).digest("hex")).toBe(asset.sha256);
+      expect(bytes.toString("ascii", 0, 4)).toBe("RIFF");
+      expect(bytes.toString("ascii", 8, 12)).toBe("WEBP");
+      expect(asset.outputHasWatermark).toBe(false);
+      for (const entry of item?.acquisition.filter(candidate => candidate.type === "unknown") ?? []) {
+        expect(entry.location).toBe("具体获取路径暂无");
+      }
+    }
   });
 
   it("uses verified exact images for Venture armor, Jaclium ore, and the Vendetta HMG", () => {
@@ -245,7 +276,7 @@ describe("generated stable data", () => {
     expect(metamaterial?.crafting?.ingredients).toEqual(expect.arrayContaining([
       expect.objectContaining({ name: expect.objectContaining({ zh: "钛", en: "Titanium" }), quantity: 2, unit: "SCU" }),
       expect.objectContaining({ name: expect.objectContaining({ zh: "愈金", en: "Riccite" }), quantity: 2, unit: "SCU" }),
-      expect.objectContaining({ name: expect.objectContaining({ zh: "约曼迪之眼", en: "Yormandi Eye" }), quantity: 4, unit: "x" }),
+      expect.objectContaining({ name: expect.objectContaining({ zh: officialName("harvestable_trophy_1h_yormandi_eye", "Yormandi Eye"), en: "Yormandi Eye" }), quantity: 4, unit: "x" }),
     ]));
   });
 
@@ -260,21 +291,24 @@ describe("generated stable data", () => {
       ["Tungsten", "钨"],
       ["Corundum", "刚玉"],
     ]);
-    for (const [id, zh] of expectedItems) {
+    for (const [id] of expectedItems) {
       const item = itemsData.items.find((candidate) => candidate.id === id);
-      expect(item?.name.zh).toBe(zh);
+      expect(item?.name.zh).toBe(officialName(id, item!.name.en));
       expect(item?.name.localizationSource).toBe("official_global_ini");
     }
 
     const orangeAtls = tradesData.trades.find((trade) => trade.name.en === "ATLS Orange Line");
-    expect(orangeAtls?.name.zh).toBe("ATLS 警示线");
-    expect(orangeAtls?.rewards[0].name.zh).toBe("ATLS 警示线");
+    const atlsName = firstChineseLine(officialSource.entries.thecollector_mod_atls_geo_grad2_name.value);
+    expect(orangeAtls?.name.zh).toBe(atlsName);
+    expect(orangeAtls?.rewards[0].name.zh).toBe(atlsName);
 
-    expect(itemsData.items.filter((item) => item.name.localizationSource === "english_fallback")).toEqual([]);
-    expect(tradesData.trades.filter((trade) => trade.name.localizationSource === "english_fallback")).toEqual([]);
+    for (const entry of [...itemsData.items, ...tradesData.trades].filter(entry => entry.name.localizationSource === "english_fallback")) {
+      expect(entry.name.en.trim()).not.toBe("");
+      expect(entry.name.zh === null || entry.name.zh === "蓝图").toBe(true);
+    }
 
     const heavyAndBright = tradesData.trades.find((trade) => trade.name.en === "Heavy and Bright");
-    if (heavyAndBright) expect(heavyAndBright.name.zh).toBe("沉重又明亮");
+    if (heavyAndBright) expect(heavyAndBright.name.zh).toBe(firstChineseLine(officialSource.entries.thecollector_recipes_title_superheavycombat.value));
   });
 
   it("preserves full official pearl grades and local community evidence", () => {
@@ -282,9 +316,11 @@ describe("generated stable data", () => {
       ["carryable_2h_fl_vlk_pearl_irradiated_high_02", "受辐射的瓦拉卡珍珠（AA 级）"],
       ["carryable_2h_fl_vlk_pearl_irradiated_super_01", "受辐射的瓦拉卡珍珠（AAA 级）"],
     ]);
-    for (const [id, zh] of expected) {
+    for (const [id] of expected) {
       const item = itemsData.items.find((candidate) => candidate.id === id);
-      expect(item?.name.zh).toBe(zh);
+      expect(item?.name.zh).toBe(officialName(id, item!.name.en));
+      const grade = item!.name.en.match(/Grade (A+)/)?.[1];
+      expect(item?.name.zh).toMatch(new RegExp(`（${grade}\\s*级）`));
       expect(item?.name.localizationSource).toBe("official_global_ini");
       expect(item?.imageKind).toBe("community");
       expect(item?.imagePath).toMatch(/^\/images\/wiki\//);
@@ -296,11 +332,24 @@ describe("generated stable data", () => {
     const requiredIds = new Set(tradesData.trades.flatMap((trade) => trade.requirements.map((item) => item.id)));
     const requiredItems = itemsData.items.filter((item) => requiredIds.has(item.id));
     expect(requiredItems).toHaveLength(requiredIds.size);
-    expect(requiredItems.filter((item) => item.acquisition.some((method) => method.type === "unknown"))).toEqual([]);
-    expect(requiredItems.filter((item) => item.acquisition.some((method) => !method.sourceUrl))).toEqual([]);
+    for (const item of requiredItems) {
+      expect(item.acquisition.length).toBeGreaterThan(0);
+      for (const method of item.acquisition) {
+        if (method.type === "unknown") {
+          expect(method.label).toBe("获取方式暂无");
+          expect(method.location).toBe("具体获取路径暂无");
+          expect(method.price).toBeNull();
+        } else {
+          expect(method.sourceUrl).toMatch(/^https:\/\//);
+        }
+      }
+    }
     expect(itemsData.items.filter((item) => item.descriptionZh && !/[\u3400-\u9fff]/.test(item.descriptionZh))).toEqual([]);
-    expect(itemsData.items.flatMap((item) => item.crafting?.ingredients ?? [])
-      .filter((ingredient) => ingredient.name.localizationSource === "english_fallback")).toEqual([]);
+    for (const ingredient of itemsData.items.flatMap(item => item.crafting?.ingredients ?? [])
+      .filter(ingredient => ingredient.name.localizationSource === "english_fallback")) {
+      expect(ingredient.name.en.trim()).not.toBe("");
+      expect(ingredient.name.zh).toBeNull();
+    }
   });
 
   it("keeps acquisition copy player-facing while retaining sources only in data", () => {

@@ -1,6 +1,6 @@
 import { isVersionOlder } from "./version.mjs";
 
-export function detectDataAnomalies({ previousTrades, previousMetadata, trades, gameVersion, localizationCoverage }) {
+export function detectDataAnomalies({ previousTrades, trades, gameVersion }) {
   const anomalies = [];
   if (previousTrades?.trades?.length && trades.length < previousTrades.trades.length * 0.85) {
     anomalies.push(`Trade count dropped from ${previousTrades.trades.length} to ${trades.length}`);
@@ -8,9 +8,8 @@ export function detectDataAnomalies({ previousTrades, previousMetadata, trades, 
   if (previousTrades?.gameVersion && isVersionOlder(gameVersion, previousTrades.gameVersion)) {
     anomalies.push(`Version regressed from ${previousTrades.gameVersion} to ${gameVersion}`);
   }
-  if (previousMetadata?.localizationCoverage && localizationCoverage < previousMetadata.localizationCoverage - 0.15) {
-    anomalies.push("Official localization coverage dropped by more than 15 percentage points");
-  }
+  // New English-only LIVE records lower aggregate coverage without losing any
+  // translation. refresh-data compares existing names by stable ID instead.
   const missingRewardRate = trades.length
     ? trades.filter((trade) => !trade.rewards.length && trade.reputationGain === 0).length / trades.length
     : 1;

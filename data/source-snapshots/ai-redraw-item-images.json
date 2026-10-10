@@ -1,6 +1,46 @@
 {
   "items": [
     {
+      "id": "kap_combat_heavy_arms_01_01_01",
+      "title": "Monolith Arms",
+      "pageUrl": "https://www.mmopixel.com/news/star-citizen-4-10-2-leaks-and-reveals",
+      "imageUrl": "https://files.mmopixel.com/cdn-cgi/image/format%3Dauto/tinymce/5834d86f-502f-4e44-8c81-0b9c359d42c9.png",
+      "localPath": "/images/ai-redraw/monolith-arms-base-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "2026-10-10，依据可辨认的 Monolith 基础深灰整套游戏截图重绘臂甲；保留层叠弧形护板及肩部三道浅色短线，不冒充独立物品原截图，不套用 Shadowflux 配色。"
+    },
+    {
+      "id": "kap_combat_heavy_core_01_01_01",
+      "title": "Monolith Core",
+      "pageUrl": "https://www.mmopixel.com/news/star-citizen-4-10-2-leaks-and-reveals",
+      "imageUrl": "https://files.mmopixel.com/cdn-cgi/image/format%3Dauto/tinymce/5834d86f-502f-4e44-8c81-0b9c359d42c9.png",
+      "localPath": "/images/ai-redraw/monolith-core-base-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "2026-10-10，依据同一基础版实拍可见的抬高领口、弧形胸腹板及浅色厂标重绘；移除属于臂甲的外肩甲。只作视觉参考，不证明未拍到的背面结构或获取方式。"
+    },
+    {
+      "id": "kap_combat_heavy_helmet_01_01_01",
+      "title": "Monolith Helmet",
+      "pageUrl": "https://www.mmopixel.com/news/star-citizen-4-10-2-leaks-and-reveals",
+      "imageUrl": "https://files.mmopixel.com/cdn-cgi/image/format%3Dauto/tinymce/5834d86f-502f-4e44-8c81-0b9c359d42c9.png",
+      "localPath": "/images/ai-redraw/monolith-helmet-base-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "2026-10-10，依据基础版实拍的深灰圆角外壳、三角形金铜色面罩及包覆下颌重绘，不改变成 Shadowflux 或透明面罩，不冒充游戏原始截图。"
+    },
+    {
+      "id": "kap_combat_heavy_legs_01_01_01",
+      "title": "Monolith Legs",
+      "pageUrl": "https://www.mmopixel.com/news/star-citizen-4-10-2-leaks-and-reveals",
+      "imageUrl": "https://files.mmopixel.com/cdn-cgi/image/format%3Dauto/tinymce/5834d86f-502f-4e44-8c81-0b9c359d42c9.png",
+      "localPath": "/images/ai-redraw/monolith-legs-base-ai-redraw.webp",
+      "imageKind": "ai_redraw",
+      "redrawType": "faithful",
+      "sourceNote": "2026-10-10，依据基础版实拍可见的骨盆、大腿、膝胫护板与宽靴重绘为完整腿甲目录图；保留深灰基础配色及弧形结构，不补猜未确认的背包或特殊涂装。"
+    },
+    {
       "id": "argo_atls_geo_collector_grad02",
       "title": "ATLS Orange Line",
       "pageUrl": "https://api.star-citizen.wiki/vehicles/argo-atls-geo-collector-grad02",
@@ -287,6 +327,50 @@
   ],
   "assets": [
     {
+      "localPath": "/images/ai-redraw/monolith-arms-base-ai-redraw.webp",
+      "sha256": "eaf7e6626ccd054da363c6ff64569b456fa7ad240c464be037ae4ac6ebd5f811",
+      "generationArtifact": "exec-bcd43160-77a7-4caa-a273-1e9ad98a04b9.png",
+      "generationTool": "builtin imagegen; model identifier not exposed",
+      "promptSummary": "Real base reference -> separate paired arm pieces, preserve curved dark plates/gloves; refine visible shoulder markings to three short pale stripes. Neutral blue-black 3:4 portrait, no extra text.",
+      "referenceSha256": "cfc03fc9b9fa5b360b0485bfd59a7f6282e97b784d7073de66ccd0adb21cf7d0",
+      "referenceHasWatermark": false,
+      "outputHasWatermark": false,
+      "reviewedAt": "2026-10-10"
+    },
+    {
+      "localPath": "/images/ai-redraw/monolith-core-base-ai-redraw.webp",
+      "sha256": "5c403468db4692c1e69edb2d5536e426de7d4c7933ecde1c998a5f24ae6ab322",
+      "generationArtifact": "exec-d702f22e-b4b9-4588-8167-5b2d3f1929d7.png",
+      "generationTool": "builtin imagegen; model identifier not exposed",
+      "promptSummary": "Real base reference -> isolated core vest with raised collar, sweeping chest/abdominal plates, dark grey paint and pale emblem; remove separate arm pauldrons. Neutral blue-black 3:4 portrait, no invented variant.",
+      "referenceSha256": "cfc03fc9b9fa5b360b0485bfd59a7f6282e97b784d7073de66ccd0adb21cf7d0",
+      "referenceHasWatermark": false,
+      "outputHasWatermark": false,
+      "reviewedAt": "2026-10-10"
+    },
+    {
+      "localPath": "/images/ai-redraw/monolith-helmet-base-ai-redraw.webp",
+      "sha256": "092e711763c7decfde57a3607e9ddc49475392ae3dd4e349ef57e111da73f304",
+      "generationArtifact": "exec-d54ab8c5-441b-46b1-bd75-8e547d071b60.png",
+      "generationTool": "builtin imagegen; model identifier not exposed",
+      "promptSummary": "Real base reference -> only rounded angular helmet, bronze/gold opaque triangular visor and wrapped chin/neck ring. Preserve source paint and silhouette, no invented face/glass. Neutral blue-black 3:4 portrait.",
+      "referenceSha256": "cfc03fc9b9fa5b360b0485bfd59a7f6282e97b784d7073de66ccd0adb21cf7d0",
+      "referenceHasWatermark": false,
+      "outputHasWatermark": false,
+      "reviewedAt": "2026-10-10"
+    },
+    {
+      "localPath": "/images/ai-redraw/monolith-legs-base-ai-redraw.webp",
+      "sha256": "4a7e46f6ea1b57b1b7430da6c14c82bfcee8524c5425591674ae8400e9eec083",
+      "generationArtifact": "exec-91c88647-a9ac-4e3c-8d3c-4a0d70b22c24.png",
+      "generationTool": "builtin imagegen; model identifier not exposed",
+      "promptSummary": "Real base reference -> complete paired waist/pelvis, thigh, knee/shin and boots, dark grey curved armour and broad boots. No upper body/rigging/new paint. Neutral blue-black 3:4 portrait with uncropped subject.",
+      "referenceSha256": "cfc03fc9b9fa5b360b0485bfd59a7f6282e97b784d7073de66ccd0adb21cf7d0",
+      "referenceHasWatermark": false,
+      "outputHasWatermark": false,
+      "reviewedAt": "2026-10-10"
+    },
+    {
       "localPath": "/images/ai-redraw/atls-orange-line-ai-redraw.webp",
       "sha256": "1ff8b2b75dd814d8ad449618f46db920f87daab9e078196f4aa8301427e02a9d",
       "generationArtifact": "exec-98e1a238-00b3-45f9-9447-ae91d41e400c.png",
@@ -426,5 +510,5 @@
     }
   ],
   "generatedAt": "2026-08-28T02:26:17+08:00",
-  "assetPolicy": "AI redraws are locally bundled, visibly labeled on the public UI, and retain their factual reference URLs in this internal snapshot."
+  "assetPolicy": "AI redraws are locally bundled and retain reference URLs, provenance, watermark state and asset hashes offline. No public AI badges or source links. Unverified variants and unseen geometry remain without images."
 }
