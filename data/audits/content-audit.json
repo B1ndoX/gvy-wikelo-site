@@ -1,47 +1,19 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-10T13:25:14.403Z",
+  "generatedAt": "2026-10-11T04:27:13.819Z",
   "gameVersion": "4.10.2 LIVE.12881860",
   "totals": {
     "trades": 88,
     "items": 289,
     "requirementItems": 123,
-    "localizedItems": 272,
-    "localizedTrades": 87,
+    "localizedItems": 289,
+    "localizedTrades": 88,
     "localizedCraftingIngredients": 267,
     "requirementItemsWithImages": 122,
     "requirementItemsWithAcquisition": 118
   },
   "errors": [],
   "warnings": [
-    {
-      "code": "trade-localization-fallback",
-      "ids": [
-        "c99e22e9-643c-4822-9f06-8c119722caee"
-      ]
-    },
-    {
-      "code": "item-localization-fallback",
-      "ids": [
-        "gmni_lmg_ballistic_01_collector02",
-        "bp_reward_gmni_lmg_ballistic_01_collector02",
-        "kap_combat_heavy_arms_01_01_01",
-        "kap_combat_heavy_arms_01_04_01",
-        "bp_reward_kap_combat_heavy_arms_01_04_01",
-        "kap_combat_heavy_core_01_01_01",
-        "kap_combat_heavy_core_01_04_01",
-        "bp_reward_kap_combat_heavy_core_01_04_01",
-        "kap_combat_heavy_legs_01_01_01",
-        "kap_combat_heavy_legs_01_04_01",
-        "bp_reward_kap_combat_heavy_legs_01_04_01",
-        "kap_combat_heavy_backpack_01_01_01",
-        "kap_combat_heavy_backpack_01_04_01",
-        "bp_reward_kap_combat_heavy_backpack_01_04_01",
-        "kap_combat_heavy_helmet_01_01_01",
-        "kap_combat_heavy_helmet_01_04_01",
-        "bp_reward_kap_combat_heavy_helmet_01_04_01"
-      ]
-    },
     {
       "code": "unknown-requirement-acquisition",
       "ids": [

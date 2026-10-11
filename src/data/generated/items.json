@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-10T13:25:14.403Z",
+  "generatedAt": "2026-10-11T04:27:13.819Z",
   "items": [
     {
       "id": "basl_combat_light_helmet_02_01_01",
       "name": {
-        "zh": "王牌 截击者 头盔",
+        "zh": "王牌截击者 头盔",
         "en": "Ace Interceptor Helmet",
         "localizationSource": "official_global_ini"
       },
@@ -35,7 +35,7 @@
         {
           "tradeId": "1ef81be1-714c-4fea-9185-e7a4c2604256",
           "tradeName": {
-            "zh": "火鸟改版",
+            "zh": "火鸟改款",
             "en": "Firebird Mod",
             "localizationSource": "official_global_ini"
           },
@@ -45,7 +45,7 @@
         {
           "tradeId": "684c9209-3dec-4519-a86c-7f49df47d14c",
           "tradeName": {
-            "zh": "守护者的战斗改版",
+            "zh": "守护者战斗改款",
             "en": "Guardian Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -55,7 +55,7 @@
         {
           "tradeId": "ad595a7c-d314-442b-acce-ea140a56cffd",
           "tradeName": {
-            "zh": "守护者 WiK-X",
+            "zh": "守护者 Wik-X",
             "en": "Guardian WiK-X",
             "localizationSource": "official_global_ini"
           },
@@ -65,7 +65,7 @@
         {
           "tradeId": "99b90562-4e98-46d2-aa7e-0926bed3bdf8",
           "tradeName": {
-            "zh": "比最多还多",
+            "zh": "不仅仅是 MAX",
             "en": "More than a Max",
             "localizationSource": "official_global_ini"
           },
@@ -75,7 +75,7 @@
         {
           "tradeId": "5c494816-ebc0-46a6-a23c-d463d4b0330d",
           "tradeName": {
-            "zh": "新的移动大型星际枪骑兵飞船",
+            "zh": "新技巧大型星际枪骑兵飞船",
             "en": "New Move Big Starlancer Ship",
             "localizationSource": "official_global_ini"
           },
@@ -85,7 +85,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -95,7 +95,7 @@
         {
           "tradeId": "71b27232-bb75-417e-8009-a8b5d9787e5a",
           "tradeName": {
-            "zh": "RSI 流星改版",
+            "zh": "RSI 流星改款",
             "en": "RSI Meteor Mod",
             "localizationSource": "official_global_ini"
           },
@@ -105,7 +105,7 @@
         {
           "tradeId": "da19d1a7-be72-4fea-803e-880d97ffdbe3",
           "tradeName": {
-            "zh": "隐身星际战斗机离子光",
+            "zh": "鬼鬼祟祟星际战斗机离子光",
             "en": "Sneaky Starfighter Ion",
             "localizationSource": "official_global_ini"
           },
@@ -115,7 +115,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -125,7 +125,7 @@
         {
           "tradeId": "f7e6a331-3f4c-4400-a4cf-dbd75bffa102",
           "tradeName": {
-            "zh": "星际战斗机 地狱火特别版",
+            "zh": "星际战斗机地狱火特别版",
             "en": "Starfighter Inferno Special",
             "localizationSource": "official_global_ini"
           },
@@ -135,7 +135,7 @@
         {
           "tradeId": "c63d9c5a-5e25-49da-8254-b78706abea86",
           "tradeName": {
-            "zh": "维克洛的海军F7",
+            "zh": "维科洛海军 F7",
             "en": "Wikelo Navy F7",
             "localizationSource": "official_global_ini"
           },
@@ -165,7 +165,7 @@
         {
           "tradeId": "dbe950bb-885f-4c12-ad7d-878723bb251c",
           "tradeName": {
-            "zh": "望着沙漠却不见你",
+            "zh": "望着沙漠看不见你",
             "en": "Look at desert but don't see you",
             "localizationSource": "official_global_ini"
           },
@@ -175,7 +175,7 @@
         {
           "tradeId": "6472920a-5588-4378-89a1-b2c5bcbfc75c",
           "tradeName": {
-            "zh": "把枪做成沙子",
+            "zh": "把枪做成沙色",
             "en": "Make gun sandy",
             "localizationSource": "official_global_ini"
           },
@@ -185,7 +185,7 @@
         {
           "tradeId": "82d178e8-e7c1-4436-981c-c51dbaa87f3b",
           "tradeName": {
-            "zh": "制造太空海军盔甲",
+            "zh": "打造太空海军护甲",
             "en": "Make space navy armor",
             "localizationSource": "official_global_ini"
           },
@@ -195,7 +195,7 @@
         {
           "tradeId": "e44de29c-a2c3-49ef-864b-03eb7ae466db",
           "tradeName": {
-            "zh": "更像海军的VOLT枪",
+            "zh": "更像海军的电击枪",
             "en": "Volt gun more Navy-like",
             "localizationSource": "official_global_ini"
           },
@@ -205,7 +205,7 @@
         {
           "tradeId": "c4c7fa2d-91f5-4171-988b-9003841f4fcd",
           "tradeName": {
-            "zh": "想要盔甲看起来像树吗？",
+            "zh": "想要树皮一样的护甲？",
             "en": "Want armor look like tree?",
             "localizationSource": "official_global_ini"
           },
@@ -215,7 +215,7 @@
         {
           "tradeId": "2453dcac-761d-4f95-8783-d31106fcfe1e",
           "tradeName": {
-            "zh": "把希安贤梭服做得更好",
+            "zh": "希安贤梭服装变更好",
             "en": "Xi'an Xanthule Suit made better",
             "localizationSource": "official_global_ini"
           },
@@ -256,7 +256,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲商店 - 微-L4 红色十字路口站、护甲商店 - 炽天使空间站、护甲商店 - 特雷斯勒空间站、立方爆炸 - 18区",
+          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 微 L4 红色十字路口站、护甲店 - 炽天使空间站、护甲店 - 特雷斯勒空间站、立方爆炸 - 18区",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-arms-woodland&tab=about",
@@ -391,7 +391,7 @@
         {
           "tradeId": "dbe950bb-885f-4c12-ad7d-878723bb251c",
           "tradeName": {
-            "zh": "望着沙漠却不见你",
+            "zh": "望着沙漠看不见你",
             "en": "Look at desert but don't see you",
             "localizationSource": "official_global_ini"
           },
@@ -401,7 +401,7 @@
         {
           "tradeId": "82d178e8-e7c1-4436-981c-c51dbaa87f3b",
           "tradeName": {
-            "zh": "制造太空海军盔甲",
+            "zh": "打造太空海军护甲",
             "en": "Make space navy armor",
             "localizationSource": "official_global_ini"
           },
@@ -411,7 +411,7 @@
         {
           "tradeId": "c4c7fa2d-91f5-4171-988b-9003841f4fcd",
           "tradeName": {
-            "zh": "想要盔甲看起来像树吗？",
+            "zh": "想要树皮一样的护甲？",
             "en": "Want armor look like tree?",
             "localizationSource": "official_global_ini"
           },
@@ -442,7 +442,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲商店 - 微-L4 红色十字路口站、护甲商店 - 炽天使空间站、护甲商店 - 特雷斯勒空间站、立方爆炸 - 18区",
+          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 微 L4 红色十字路口站、护甲店 - 炽天使空间站、护甲店 - 特雷斯勒空间站、立方爆炸 - 18区",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-core-woodland&tab=about",
@@ -577,7 +577,7 @@
         {
           "tradeId": "dbe950bb-885f-4c12-ad7d-878723bb251c",
           "tradeName": {
-            "zh": "望着沙漠却不见你",
+            "zh": "望着沙漠看不见你",
             "en": "Look at desert but don't see you",
             "localizationSource": "official_global_ini"
           },
@@ -587,7 +587,7 @@
         {
           "tradeId": "82d178e8-e7c1-4436-981c-c51dbaa87f3b",
           "tradeName": {
-            "zh": "制造太空海军盔甲",
+            "zh": "打造太空海军护甲",
             "en": "Make space navy armor",
             "localizationSource": "official_global_ini"
           },
@@ -597,7 +597,7 @@
         {
           "tradeId": "c4c7fa2d-91f5-4171-988b-9003841f4fcd",
           "tradeName": {
-            "zh": "想要盔甲看起来像树吗？",
+            "zh": "想要树皮一样的护甲？",
             "en": "Want armor look like tree?",
             "localizationSource": "official_global_ini"
           },
@@ -628,7 +628,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲商店 - 尼克斯星门 (斯坦顿)、护甲商店 - 尼克斯星门 (派罗)、护甲商店 - 微-L4 红色十字路口站、护甲商店 - 斯坦顿星门 (尼克斯)、护甲商店 - 斯坦顿星门 (派罗)、护甲商店 - 泰拉星门 (斯坦顿)、护甲商店 - 派罗星门 (尼克斯) 等 12 处",
+          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 尼克斯星门 (斯坦顿)、护甲店 - 尼克斯星门 (派罗)、护甲店 - 微 L4 红色十字路口站、护甲店 - 斯坦顿星门 (尼克斯)、护甲店 - 斯坦顿星门 (派罗)、护甲店 - 泰拉星门 (斯坦顿)、护甲店 - 派罗星门 (尼克斯) 等 12 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-helmet-woodland&tab=about",
@@ -763,7 +763,7 @@
         {
           "tradeId": "dbe950bb-885f-4c12-ad7d-878723bb251c",
           "tradeName": {
-            "zh": "望着沙漠却不见你",
+            "zh": "望着沙漠看不见你",
             "en": "Look at desert but don't see you",
             "localizationSource": "official_global_ini"
           },
@@ -773,7 +773,7 @@
         {
           "tradeId": "82d178e8-e7c1-4436-981c-c51dbaa87f3b",
           "tradeName": {
-            "zh": "制造太空海军盔甲",
+            "zh": "打造太空海军护甲",
             "en": "Make space navy armor",
             "localizationSource": "official_global_ini"
           },
@@ -783,7 +783,7 @@
         {
           "tradeId": "c4c7fa2d-91f5-4171-988b-9003841f4fcd",
           "tradeName": {
-            "zh": "想要盔甲看起来像树吗？",
+            "zh": "想要树皮一样的护甲？",
             "en": "Want armor look like tree?",
             "localizationSource": "official_global_ini"
           },
@@ -814,7 +814,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲商店 - 尼克斯星门 (斯坦顿)、护甲商店 - 尼克斯星门 (派罗)、护甲商店 - 微-L4 红色十字路口站、护甲商店 - 斯坦顿星门 (尼克斯)、护甲商店 - 斯坦顿星门 (派罗)、护甲商店 - 泰拉星门 (斯坦顿)、护甲商店 - 派罗星门 (尼克斯) 等 12 处",
+          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 尼克斯星门 (斯坦顿)、护甲店 - 尼克斯星门 (派罗)、护甲店 - 微 L4 红色十字路口站、护甲店 - 斯坦顿星门 (尼克斯)、护甲店 - 斯坦顿星门 (派罗)、护甲店 - 泰拉星门 (斯坦顿)、护甲店 - 派罗星门 (尼克斯) 等 12 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-legs-woodland&tab=about",
@@ -949,7 +949,7 @@
         {
           "tradeId": "dbe950bb-885f-4c12-ad7d-878723bb251c",
           "tradeName": {
-            "zh": "望着沙漠却不见你",
+            "zh": "望着沙漠看不见你",
             "en": "Look at desert but don't see you",
             "localizationSource": "official_global_ini"
           },
@@ -959,7 +959,7 @@
         {
           "tradeId": "82d178e8-e7c1-4436-981c-c51dbaa87f3b",
           "tradeName": {
-            "zh": "制造太空海军盔甲",
+            "zh": "打造太空海军护甲",
             "en": "Make space navy armor",
             "localizationSource": "official_global_ini"
           },
@@ -969,7 +969,7 @@
         {
           "tradeId": "c4c7fa2d-91f5-4171-988b-9003841f4fcd",
           "tradeName": {
-            "zh": "想要盔甲看起来像树吗？",
+            "zh": "想要树皮一样的护甲？",
             "en": "Want armor look like tree?",
             "localizationSource": "official_global_ini"
           },
@@ -1012,7 +1012,7 @@
         {
           "tradeId": "dbe950bb-885f-4c12-ad7d-878723bb251c",
           "tradeName": {
-            "zh": "望着沙漠却不见你",
+            "zh": "望着沙漠看不见你",
             "en": "Look at desert but don't see you",
             "localizationSource": "official_global_ini"
           },
@@ -1022,7 +1022,7 @@
         {
           "tradeId": "6472920a-5588-4378-89a1-b2c5bcbfc75c",
           "tradeName": {
-            "zh": "把枪做成沙子",
+            "zh": "把枪做成沙色",
             "en": "Make gun sandy",
             "localizationSource": "official_global_ini"
           },
@@ -1035,7 +1035,7 @@
     {
       "id": "aegs_idris_p_collector_military",
       "name": {
-        "zh": "圣盾 伊德里斯-P 维克洛战争特别版",
+        "zh": "圣盾 伊德里斯-P 维科洛 战争特别版",
         "en": "Aegis Idris-P Wikelo War Special",
         "localizationSource": "official_global_ini"
       },
@@ -1066,7 +1066,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -1078,7 +1078,7 @@
     {
       "id": "aegs_sabre_firebird_collector_milt",
       "name": {
-        "zh": "圣盾 军刀 火鸟 维克洛战争特别版",
+        "zh": "圣盾 军刀 火鸟 维科洛 战争特别版",
         "en": "Aegis Sabre Firebird Wikelo War Special",
         "localizationSource": "official_global_ini"
       },
@@ -1109,7 +1109,7 @@
         {
           "tradeId": "1ef81be1-714c-4fea-9185-e7a4c2604256",
           "tradeName": {
-            "zh": "火鸟改版",
+            "zh": "火鸟改款",
             "en": "Firebird Mod",
             "localizationSource": "official_global_ini"
           },
@@ -1121,7 +1121,7 @@
     {
       "id": "aegs_sabre_peregrine_collector_competition",
       "name": {
-        "zh": "圣盾 军刀 游隼 维克洛极速特别版",
+        "zh": "圣盾 军刀 游隼 维科洛 极速特别版",
         "en": "Aegis Sabre Peregrine Wikelo Speedy Special",
         "localizationSource": "official_global_ini"
       },
@@ -1152,7 +1152,7 @@
         {
           "tradeId": "ade95587-2c0d-433e-87c4-865e7dc80b0c",
           "tradeName": {
-            "zh": "游隼的维克洛改版",
+            "zh": "游隼维科洛改款",
             "en": "Peregrine Wikelo Mod",
             "localizationSource": "official_global_ini"
           },
@@ -1195,7 +1195,7 @@
         {
           "tradeId": "eda899b9-c58b-48df-88d9-6b34368af2f2",
           "tradeName": {
-            "zh": "带有角和绳的护甲",
+            "zh": "有角和绳子的护甲",
             "en": "Armor with horn and string",
             "localizationSource": "official_global_ini"
           },
@@ -1238,7 +1238,7 @@
         {
           "tradeId": "eda899b9-c58b-48df-88d9-6b34368af2f2",
           "tradeName": {
-            "zh": "带有角和绳的护甲",
+            "zh": "有角和绳子的护甲",
             "en": "Armor with horn and string",
             "localizationSource": "official_global_ini"
           },
@@ -1281,7 +1281,7 @@
         {
           "tradeId": "eda899b9-c58b-48df-88d9-6b34368af2f2",
           "tradeName": {
-            "zh": "带有角和绳的护甲",
+            "zh": "有角和绳子的护甲",
             "en": "Armor with horn and string",
             "localizationSource": "official_global_ini"
           },
@@ -1324,7 +1324,7 @@
         {
           "tradeId": "eda899b9-c58b-48df-88d9-6b34368af2f2",
           "tradeName": {
-            "zh": "带有角和绳的护甲",
+            "zh": "有角和绳子的护甲",
             "en": "Armor with horn and string",
             "localizationSource": "official_global_ini"
           },
@@ -1447,7 +1447,7 @@
         {
           "tradeId": "eda899b9-c58b-48df-88d9-6b34368af2f2",
           "tradeName": {
-            "zh": "带有角和绳的护甲",
+            "zh": "有角和绳子的护甲",
             "en": "Armor with horn and string",
             "localizationSource": "official_global_ini"
           },
@@ -1457,7 +1457,7 @@
         {
           "tradeId": "b4a0ba2d-a5f6-496b-bc04-5f0bce49067a",
           "tradeName": {
-            "zh": "制造发光护甲",
+            "zh": "制作发光的护甲",
             "en": "Make glowy armor",
             "localizationSource": "official_global_ini"
           },
@@ -1550,7 +1550,7 @@
         {
           "tradeId": "3c839c32-d313-4c13-ade0-eb45b5bdea4b",
           "tradeName": {
-            "zh": "最特殊的狼",
+            "zh": "最特别的狼",
             "en": "Most Special Wolf",
             "localizationSource": "official_global_ini"
           },
@@ -1673,7 +1673,7 @@
         {
           "tradeId": "eda899b9-c58b-48df-88d9-6b34368af2f2",
           "tradeName": {
-            "zh": "带有角和绳的护甲",
+            "zh": "有角和绳子的护甲",
             "en": "Armor with horn and string",
             "localizationSource": "official_global_ini"
           },
@@ -1683,7 +1683,7 @@
         {
           "tradeId": "b4a0ba2d-a5f6-496b-bc04-5f0bce49067a",
           "tradeName": {
-            "zh": "制造发光护甲",
+            "zh": "制作发光的护甲",
             "en": "Make glowy armor",
             "localizationSource": "official_global_ini"
           },
@@ -1776,7 +1776,7 @@
         {
           "tradeId": "3c839c32-d313-4c13-ade0-eb45b5bdea4b",
           "tradeName": {
-            "zh": "最特殊的狼",
+            "zh": "最特别的狼",
             "en": "Most Special Wolf",
             "localizationSource": "official_global_ini"
           },
@@ -1899,7 +1899,7 @@
         {
           "tradeId": "eda899b9-c58b-48df-88d9-6b34368af2f2",
           "tradeName": {
-            "zh": "带有角和绳的护甲",
+            "zh": "有角和绳子的护甲",
             "en": "Armor with horn and string",
             "localizationSource": "official_global_ini"
           },
@@ -1909,7 +1909,7 @@
         {
           "tradeId": "b4a0ba2d-a5f6-496b-bc04-5f0bce49067a",
           "tradeName": {
-            "zh": "制造发光护甲",
+            "zh": "制作发光的护甲",
             "en": "Make glowy armor",
             "localizationSource": "official_global_ini"
           },
@@ -2002,7 +2002,7 @@
         {
           "tradeId": "3c839c32-d313-4c13-ade0-eb45b5bdea4b",
           "tradeName": {
-            "zh": "最特殊的狼",
+            "zh": "最特别的狼",
             "en": "Most Special Wolf",
             "localizationSource": "official_global_ini"
           },
@@ -2125,7 +2125,7 @@
         {
           "tradeId": "eda899b9-c58b-48df-88d9-6b34368af2f2",
           "tradeName": {
-            "zh": "带有角和绳的护甲",
+            "zh": "有角和绳子的护甲",
             "en": "Armor with horn and string",
             "localizationSource": "official_global_ini"
           },
@@ -2135,7 +2135,7 @@
         {
           "tradeId": "b4a0ba2d-a5f6-496b-bc04-5f0bce49067a",
           "tradeName": {
-            "zh": "制造发光护甲",
+            "zh": "制作发光的护甲",
             "en": "Make glowy armor",
             "localizationSource": "official_global_ini"
           },
@@ -2228,7 +2228,7 @@
         {
           "tradeId": "3c839c32-d313-4c13-ade0-eb45b5bdea4b",
           "tradeName": {
-            "zh": "最特殊的狼",
+            "zh": "最特别的狼",
             "en": "Most Special Wolf",
             "localizationSource": "official_global_ini"
           },
@@ -2240,7 +2240,7 @@
     {
       "id": "anvl_asgard_collector_military",
       "name": {
-        "zh": "铁砧 阿斯加德 维克洛战争特别版",
+        "zh": "铁砧 阿斯加德 维科洛 战争特别版",
         "en": "Anvil Asgard Wikelo War Special",
         "localizationSource": "official_global_ini"
       },
@@ -2271,7 +2271,7 @@
         {
           "tradeId": "5bf19672-f057-4ccf-bdd4-d309edfeea15",
           "tradeName": {
-            "zh": "阿斯加德的战斗改版",
+            "zh": "阿斯加德战斗改款",
             "en": "Asgard Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -2283,7 +2283,7 @@
     {
       "id": "anvl_hornet_f7_mk2_collector_mod",
       "name": {
-        "zh": "铁砧 F7 大黄蜂 Mk 维克洛",
+        "zh": "铁砧 F7C-M 超级大黄蜂 Mk II 维科洛 特别版",
         "en": "Anvil F7 Hornet Mk Wikelo",
         "localizationSource": "official_global_ini"
       },
@@ -2314,7 +2314,7 @@
         {
           "tradeId": "c63d9c5a-5e25-49da-8254-b78706abea86",
           "tradeName": {
-            "zh": "维克洛的海军F7",
+            "zh": "维科洛海军 F7",
             "en": "Wikelo Navy F7",
             "localizationSource": "official_global_ini"
           },
@@ -2326,7 +2326,7 @@
     {
       "id": "anvl_lightning_f8c_collector_stealth",
       "name": {
-        "zh": "铁砧 F8C 闪电 维克洛鬼祟特别版",
+        "zh": "铁砧 F8C 闪电 维科洛 鬼祟特别版",
         "en": "Anvil F8C Lightning Wikelo Sneak Special",
         "localizationSource": "official_global_ini"
       },
@@ -2357,7 +2357,7 @@
         {
           "tradeId": "6357945d-2e51-426f-b183-9c6f84c6a88b",
           "tradeName": {
-            "zh": "狡猾的刺客",
+            "zh": "鬼鬼祟祟刺客",
             "en": "Sneaky Stabber",
             "localizationSource": "official_global_ini"
           },
@@ -2369,7 +2369,7 @@
     {
       "id": "anvl_lightning_f8c_collector_military",
       "name": {
-        "zh": "铁砧 F8C 闪电 维克洛战争特别版",
+        "zh": "铁砧 F8C 闪电 维科洛 战争特别版",
         "en": "Anvil F8C Lightning Wikelo War Special",
         "localizationSource": "official_global_ini"
       },
@@ -2400,7 +2400,7 @@
         {
           "tradeId": "eba10cd5-37dc-440a-8eff-18dbcc5e5d8c",
           "tradeName": {
-            "zh": "F8的战斗改版",
+            "zh": "F8 战争改款",
             "en": "F8 War Mod",
             "localizationSource": "official_global_ini"
           },
@@ -2412,7 +2412,7 @@
     {
       "id": "anvl_terrapin_medic_collector_medic",
       "name": {
-        "zh": "铁砧 水龟 医疗 维克洛拯救者特别版",
+        "zh": "铁砧 水龟 医疗 维科洛 拯救者特别版",
         "en": "Anvil Terrapin Medic Wikelo Savior Special",
         "localizationSource": "official_global_ini"
       },
@@ -2443,7 +2443,7 @@
         {
           "tradeId": "94bdfda2-a4d9-4d1a-877b-68518eedf320",
           "tradeName": {
-            "zh": "什么是水龟？",
+            "zh": "水龟是啥？",
             "en": "What is Terrapin?",
             "localizationSource": "official_global_ini"
           },
@@ -2455,7 +2455,7 @@
     {
       "id": "xian_nox_collector_mod",
       "name": {
-        "zh": "奥波亚 Nox 维克洛特别版",
+        "zh": "奥波亚 Nox 维科洛 特别版",
         "en": "Aopoa Nox Wikelo Special",
         "localizationSource": "official_global_ini"
       },
@@ -2486,7 +2486,7 @@
         {
           "tradeId": "a033aab9-262e-44da-9213-35e225fc828a",
           "tradeName": {
-            "zh": "Nox改版",
+            "zh": "Nox 改款",
             "en": "Noxy Mod",
             "localizationSource": "official_global_ini"
           },
@@ -2528,7 +2528,7 @@
         {
           "tradeId": "2fba83a9-7652-40a7-b761-1cf8651bbc34",
           "tradeName": {
-            "zh": "ATLS 冷铁涂装",
+            "zh": "ATLS 冷铁",
             "en": "ATLS Cool Metal Color",
             "localizationSource": "official_global_ini"
           },
@@ -2538,7 +2538,7 @@
         {
           "tradeId": "1a9c813d-f143-49e6-addf-5d068a456cc5",
           "tradeName": {
-            "zh": "ATLS 警示线涂装",
+            "zh": "ATLS 警示线",
             "en": "ATLS Orange Line",
             "localizationSource": "official_global_ini"
           },
@@ -2548,7 +2548,7 @@
         {
           "tradeId": "7649f7a6-e0e0-44b5-87bc-803d6052c9f8",
           "tradeName": {
-            "zh": "ATLS 雪地涂装",
+            "zh": "ATLS 雪地",
             "en": "ATLS Snowland Color",
             "localizationSource": "official_global_ini"
           },
@@ -2558,7 +2558,7 @@
         {
           "tradeId": "12926a62-afde-4984-8887-dbe564527192",
           "tradeName": {
-            "zh": "让ATLS会开火",
+            "zh": "让 ATLS 能射击",
             "en": "Make ATLS shoot",
             "localizationSource": "official_global_ini"
           },
@@ -2568,7 +2568,7 @@
         {
           "tradeId": "7b7cd8d9-d3e4-4f48-b995-487933fd332e",
           "tradeName": {
-            "zh": "让会跳的ATLS会开火",
+            "zh": "让 ATLS 能跳又能射",
             "en": "Make jumpy ATLS shoot",
             "localizationSource": "official_global_ini"
           },
@@ -2612,7 +2612,7 @@
         {
           "tradeId": "7b7cd8d9-d3e4-4f48-b995-487933fd332e",
           "tradeName": {
-            "zh": "让会跳的ATLS会开火",
+            "zh": "让 ATLS 能跳又能射",
             "en": "Make jumpy ATLS shoot",
             "localizationSource": "official_global_ini"
           },
@@ -2655,7 +2655,7 @@
         {
           "tradeId": "12926a62-afde-4984-8887-dbe564527192",
           "tradeName": {
-            "zh": "让ATLS会开火",
+            "zh": "让 ATLS 能射击",
             "en": "Make ATLS shoot",
             "localizationSource": "official_global_ini"
           },
@@ -2667,7 +2667,7 @@
     {
       "id": "argo_raft_collector_indust",
       "name": {
-        "zh": "南船座 木筏 维克洛工作特别版",
+        "zh": "南船座 木筏 维科洛 工作特别版",
         "en": "Argo RAFT Wikelo Work Special",
         "localizationSource": "official_global_ini"
       },
@@ -2698,7 +2698,7 @@
         {
           "tradeId": "fec4c8e6-df2f-4775-b8c3-c0e3fb7c35e7",
           "tradeName": {
-            "zh": "准备好要木筏了？",
+            "zh": "准备好木筏了吗？",
             "en": "Ready for RAFT?",
             "localizationSource": "official_global_ini"
           },
@@ -2710,7 +2710,7 @@
     {
       "id": "fps_consumable_harddrive_delving_hardened_asd_red",
       "name": {
-        "zh": "联科发安全驱动器",
+        "zh": "ASD 安全驱动器",
         "en": "ASD Secure Drive",
         "localizationSource": "official_global_ini"
       },
@@ -2740,7 +2740,7 @@
         {
           "tradeId": "5bf19672-f057-4ccf-bdd4-d309edfeea15",
           "tradeName": {
-            "zh": "阿斯加德的战斗改版",
+            "zh": "阿斯加德战斗改款",
             "en": "Asgard Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -2760,7 +2760,7 @@
         {
           "tradeId": "5c494816-ebc0-46a6-a23c-d463d4b0330d",
           "tradeName": {
-            "zh": "新的移动大型星际枪骑兵飞船",
+            "zh": "新技巧大型星际枪骑兵飞船",
             "en": "New Move Big Starlancer Ship",
             "localizationSource": "official_global_ini"
           },
@@ -2770,7 +2770,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -2780,7 +2780,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -2790,7 +2790,7 @@
         {
           "tradeId": "3b698db0-7623-4210-9653-2025d491ab10",
           "tradeName": {
-            "zh": "星际运输船 A2战斗改版",
+            "zh": "星际运输船 A2 战争改款",
             "en": "Starlifter A2 War Mod",
             "localizationSource": "official_global_ini"
           },
@@ -2800,7 +2800,7 @@
         {
           "tradeId": "94bdfda2-a4d9-4d1a-877b-68518eedf320",
           "tradeName": {
-            "zh": "什么是水龟？",
+            "zh": "水龟是啥？",
             "en": "What is Terrapin?",
             "localizationSource": "official_global_ini"
           },
@@ -2810,7 +2810,7 @@
         {
           "tradeId": "ab52c274-a29e-4730-a311-917a27191416",
           "tradeName": {
-            "zh": "重型VOLT电击枪",
+            "zh": "重型 Volt 滋滋枪",
             "en": "Heavy VOLT Zapper",
             "localizationSource": "official_global_ini"
           },
@@ -2820,7 +2820,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413743",
           "tradeName": {
-            "zh": "可以藏在雪里的装备",
+            "zh": "躲藏雪地套装",
             "en": "Hide Snow Suit",
             "localizationSource": "official_global_ini"
           },
@@ -2830,7 +2830,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413745",
           "tradeName": {
-            "zh": "闪亮的工服",
+            "zh": "闪亮的工装服",
             "en": "Shiny Builder Suit",
             "localizationSource": "official_global_ini"
           },
@@ -2840,7 +2840,7 @@
         {
           "tradeId": "ab52c274-a29e-4730-a311-917a271917a8",
           "tradeName": {
-            "zh": "雪狙击枪",
+            "zh": "雪天狙击",
             "en": "Snow Snipe",
             "localizationSource": "official_global_ini"
           },
@@ -2853,7 +2853,7 @@
     {
       "id": "argo_atls_geo_collector_grad03",
       "name": {
-        "zh": "ATLS 冷铁涂装",
+        "zh": "ATLS 冷铁",
         "en": "ATLS Cool Metal Color",
         "localizationSource": "official_global_ini"
       },
@@ -2884,7 +2884,7 @@
         {
           "tradeId": "2fba83a9-7652-40a7-b761-1cf8651bbc34",
           "tradeName": {
-            "zh": "ATLS 冷铁涂装",
+            "zh": "ATLS 冷铁",
             "en": "ATLS Cool Metal Color",
             "localizationSource": "official_global_ini"
           },
@@ -2896,7 +2896,7 @@
     {
       "id": "argo_atls_geo_collector_grad02",
       "name": {
-        "zh": "ATLS 警示线涂装",
+        "zh": "ATLS 警示线",
         "en": "ATLS Orange Line",
         "localizationSource": "official_global_ini"
       },
@@ -2927,7 +2927,7 @@
         {
           "tradeId": "1a9c813d-f143-49e6-addf-5d068a456cc5",
           "tradeName": {
-            "zh": "ATLS 警示线涂装",
+            "zh": "ATLS 警示线",
             "en": "ATLS Orange Line",
             "localizationSource": "official_global_ini"
           },
@@ -2939,7 +2939,7 @@
     {
       "id": "argo_atls_geo_collector_grad01",
       "name": {
-        "zh": "ATLS 雪地涂装",
+        "zh": "ATLS 雪地",
         "en": "ATLS Snowland Color",
         "localizationSource": "official_global_ini"
       },
@@ -2970,7 +2970,7 @@
         {
           "tradeId": "7649f7a6-e0e0-44b5-87bc-803d6052c9f8",
           "tradeName": {
-            "zh": "ATLS 雪地涂装",
+            "zh": "ATLS 雪地",
             "en": "ATLS Snowland Color",
             "localizationSource": "official_global_ini"
           },
@@ -3000,7 +3000,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：果汁吧 - 十-L1 雄心伟梦站 、果汁吧 - 十-L4 轻浅田野站、果汁吧 - 十-L5 美丽峡谷站、果汁吧 - 埃弗勒斯空间站、果汁吧 - 尼克斯星门 (斯坦顿)、果汁吧 - 尼克斯星门 (派罗)、果汁吧 - 弧-L1 广袤森林站、果汁吧 - 弧-L2 活力小径站 等 22 处",
+          "location": "可购买地点：果汁吧 - 十 L1 雄心伟梦站 、果汁吧 - 十 L4 轻浅田野站、果汁吧 - 十 L5 美丽峡谷站、果汁吧 - 埃弗勒斯空间站、果汁吧 - 尼克斯星门 (斯坦顿)、果汁吧 - 尼克斯星门 (派罗)、果汁吧 - 弧 L1 广袤森林站、果汁吧 - 弧 L2 活力小径站 等 22 处",
           "price": 7,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=berry-blend-smoothie&tab=about",
@@ -3012,7 +3012,7 @@
         {
           "tradeId": "2597ef18-f1d5-4d97-bba4-8b6f900ded50",
           "tradeName": {
-            "zh": "非常饿",
+            "zh": "非常饥饿",
             "en": "Very Hungry",
             "localizationSource": "official_global_ini"
           },
@@ -3055,7 +3055,7 @@
         {
           "tradeId": "ba4e3db4-0f7d-4692-8b9d-8efe3085e84d",
           "tradeName": {
-            "zh": "神射手",
+            "zh": "热辣射击手枪",
             "en": "Hot Shot",
             "localizationSource": "official_global_ini"
           },
@@ -3099,7 +3099,7 @@
         {
           "tradeId": "41231c57-f186-4c5e-ae51-524fc1e1d9a3",
           "tradeName": {
-            "zh": "快帆现在出战",
+            "zh": "快帆现在主打战斗",
             "en": "Clipper Fight Now",
             "localizationSource": "official_global_ini"
           },
@@ -3142,7 +3142,7 @@
         {
           "tradeId": "d4d26850-d4f4-4549-a0af-a478ee0be480",
           "tradeName": {
-            "zh": "非常特殊的狼",
+            "zh": "格外特别的狼",
             "en": "Extra Special Wolf",
             "localizationSource": "official_global_ini"
           },
@@ -3185,7 +3185,7 @@
         {
           "tradeId": "b4a0ba2d-a5f6-496b-bc04-5f0bce49067a",
           "tradeName": {
-            "zh": "制造发光护甲",
+            "zh": "制作发光的护甲",
             "en": "Make glowy armor",
             "localizationSource": "official_global_ini"
           },
@@ -3228,7 +3228,7 @@
         {
           "tradeId": "b4a0ba2d-a5f6-496b-bc04-5f0bce49067a",
           "tradeName": {
-            "zh": "制造发光护甲",
+            "zh": "制作发光的护甲",
             "en": "Make glowy armor",
             "localizationSource": "official_global_ini"
           },
@@ -3271,7 +3271,7 @@
         {
           "tradeId": "b4a0ba2d-a5f6-496b-bc04-5f0bce49067a",
           "tradeName": {
-            "zh": "制造发光护甲",
+            "zh": "制作发光的护甲",
             "en": "Make glowy armor",
             "localizationSource": "official_global_ini"
           },
@@ -3314,7 +3314,7 @@
         {
           "tradeId": "b4a0ba2d-a5f6-496b-bc04-5f0bce49067a",
           "tradeName": {
-            "zh": "制造发光护甲",
+            "zh": "制作发光的护甲",
             "en": "Make glowy armor",
             "localizationSource": "official_global_ini"
           },
@@ -3326,7 +3326,7 @@
     {
       "id": "none_special_ballistic_01_collector01",
       "name": {
-        "zh": "爆破筒 火箭发射器 “氏卫”",
+        "zh": "爆破筒 “氏卫” 发射器",
         "en": "Boomtube \"Clanguard\" Rocket Launcher",
         "localizationSource": "official_global_ini"
       },
@@ -3357,7 +3357,7 @@
         {
           "tradeId": "9c4459ac-2527-4024-b8f1-a08081df252a",
           "tradeName": {
-            "zh": "奇异武器",
+            "zh": "稀奇武器",
             "en": "Curious Weapon",
             "localizationSource": "official_global_ini"
           },
@@ -3409,7 +3409,7 @@
         {
           "tradeId": "9c4459ac-2527-4024-b8f1-a08081df252a",
           "tradeName": {
-            "zh": "奇异武器",
+            "zh": "稀奇武器",
             "en": "Curious Weapon",
             "localizationSource": "official_global_ini"
           },
@@ -3421,7 +3421,7 @@
     {
       "id": "none_special_ballistic_01",
       "name": {
-        "zh": "爆破筒 火箭发射器",
+        "zh": "爆破筒 发射器",
         "en": "Boomtube Rocket Launcher",
         "localizationSource": "official_global_ini"
       },
@@ -3451,7 +3451,7 @@
         {
           "tradeId": "9c4459ac-2527-4024-b8f1-a08081df252a",
           "tradeName": {
-            "zh": "奇异武器",
+            "zh": "稀奇武器",
             "en": "Curious Weapon",
             "localizationSource": "official_global_ini"
           },
@@ -3539,7 +3539,7 @@
         {
           "tradeId": "88bb3702-e20a-42e3-8ba3-328f2333e30c",
           "tradeName": {
-            "zh": "又重又亮",
+            "zh": "沉重又明亮",
             "en": "Heavy and Bright",
             "localizationSource": "official_global_ini"
           },
@@ -3637,7 +3637,7 @@
         {
           "tradeId": "88bb3702-e20a-42e3-8ba3-328f2333e30c",
           "tradeName": {
-            "zh": "又重又亮",
+            "zh": "沉重又明亮",
             "en": "Heavy and Bright",
             "localizationSource": "official_global_ini"
           },
@@ -3680,7 +3680,7 @@
         {
           "tradeId": "88bb3702-e20a-42e3-8ba3-328f2333e30c",
           "tradeName": {
-            "zh": "又重又亮",
+            "zh": "沉重又明亮",
             "en": "Heavy and Bright",
             "localizationSource": "official_global_ini"
           },
@@ -3767,7 +3767,7 @@
         {
           "tradeId": "88bb3702-e20a-42e3-8ba3-328f2333e30c",
           "tradeName": {
-            "zh": "又重又亮",
+            "zh": "沉重又明亮",
             "en": "Heavy and Bright",
             "localizationSource": "official_global_ini"
           },
@@ -3865,7 +3865,7 @@
         {
           "tradeId": "88bb3702-e20a-42e3-8ba3-328f2333e30c",
           "tradeName": {
-            "zh": "又重又亮",
+            "zh": "沉重又明亮",
             "en": "Heavy and Bright",
             "localizationSource": "official_global_ini"
           },
@@ -3908,7 +3908,7 @@
         {
           "tradeId": "88bb3702-e20a-42e3-8ba3-328f2333e30c",
           "tradeName": {
-            "zh": "又重又亮",
+            "zh": "沉重又明亮",
             "en": "Heavy and Bright",
             "localizationSource": "official_global_ini"
           },
@@ -3950,7 +3950,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -3970,7 +3970,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -3990,7 +3990,7 @@
         {
           "tradeId": "4df999a1-93ba-47a4-b498-cfaad7553da3",
           "tradeName": {
-            "zh": "加强S71步枪",
+            "zh": "改造 S71 步枪",
             "en": "Built on S71 rifle",
             "localizationSource": "official_global_ini"
           },
@@ -4000,7 +4000,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e4154f5",
           "tradeName": {
-            "zh": "做熔岩衣服",
+            "zh": "做熔岩套装",
             "en": "Do Lava Suit",
             "localizationSource": "official_global_ini"
           },
@@ -4010,7 +4010,7 @@
         {
           "tradeId": "314c16b2-fffd-445d-9bfd-fde1414286cd",
           "tradeName": {
-            "zh": "更好看的F55",
+            "zh": "F55 更好看",
             "en": "F55 Look Better",
             "localizationSource": "official_global_ini"
           },
@@ -4060,7 +4060,7 @@
         {
           "tradeId": "ba4e3db4-0f7d-4692-8b9d-8efe3085e84d",
           "tradeName": {
-            "zh": "神射手",
+            "zh": "热辣射击手枪",
             "en": "Hot Shot",
             "localizationSource": "official_global_ini"
           },
@@ -4083,7 +4083,7 @@
     {
       "id": "harvestable_mineral_1h_carinitepure",
       "name": {
-        "zh": "科力晶（纯）",
+        "zh": "纯净科力晶",
         "en": "Carinite (Pure)",
         "localizationSource": "official_global_ini"
       },
@@ -4113,7 +4113,7 @@
         {
           "tradeId": "2fba83a9-7652-40a7-b761-1cf8651bbc34",
           "tradeName": {
-            "zh": "ATLS 冷铁涂装",
+            "zh": "ATLS 冷铁",
             "en": "ATLS Cool Metal Color",
             "localizationSource": "official_global_ini"
           },
@@ -4123,7 +4123,7 @@
         {
           "tradeId": "eba10cd5-37dc-440a-8eff-18dbcc5e5d8c",
           "tradeName": {
-            "zh": "F8的战斗改版",
+            "zh": "F8 战争改款",
             "en": "F8 War Mod",
             "localizationSource": "official_global_ini"
           },
@@ -4133,7 +4133,7 @@
         {
           "tradeId": "7c5bdaa6-ad6a-44b3-a374-796b13ddd5e4",
           "tradeName": {
-            "zh": "给你的财运飞船",
+            "zh": "给你财运飞船",
             "en": "Fortune ship for you",
             "localizationSource": "official_global_ini"
           },
@@ -4143,7 +4143,7 @@
         {
           "tradeId": "99b90562-4e98-46d2-aa7e-0926bed3bdf8",
           "tradeName": {
-            "zh": "比最多还多",
+            "zh": "不仅仅是 MAX",
             "en": "More than a Max",
             "localizationSource": "official_global_ini"
           },
@@ -4153,7 +4153,7 @@
         {
           "tradeId": "5c494816-ebc0-46a6-a23c-d463d4b0330d",
           "tradeName": {
-            "zh": "新的移动大型星际枪骑兵飞船",
+            "zh": "新技巧大型星际枪骑兵飞船",
             "en": "New Move Big Starlancer Ship",
             "localizationSource": "official_global_ini"
           },
@@ -4163,7 +4163,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -4183,7 +4183,7 @@
         {
           "tradeId": "fec1ba32-a1bb-4cfb-adc9-8a2f792544e6",
           "tradeName": {
-            "zh": "徘徊者更多功能",
+            "zh": "徘徊者更加多功能",
             "en": "Prowler More Utility",
             "localizationSource": "official_global_ini"
           },
@@ -4193,7 +4193,7 @@
         {
           "tradeId": "6357945d-2e51-426f-b183-9c6f84c6a88b",
           "tradeName": {
-            "zh": "狡猾的刺客",
+            "zh": "鬼鬼祟祟刺客",
             "en": "Sneaky Stabber",
             "localizationSource": "official_global_ini"
           },
@@ -4203,7 +4203,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -4213,7 +4213,7 @@
         {
           "tradeId": "3b698db0-7623-4210-9653-2025d491ab10",
           "tradeName": {
-            "zh": "星际运输船 A2战斗改版",
+            "zh": "星际运输船 A2 战争改款",
             "en": "Starlifter A2 War Mod",
             "localizationSource": "official_global_ini"
           },
@@ -4223,7 +4223,7 @@
         {
           "tradeId": "8d7849fe-85c5-4c63-9754-a71bae57792f",
           "tradeName": {
-            "zh": "想要金牛座飞船吗",
+            "zh": "想要金牛座飞船",
             "en": "Want Taurus ship",
             "localizationSource": "official_global_ini"
           },
@@ -4243,7 +4243,7 @@
         {
           "tradeId": "956685c4-0324-4cf8-8a67-fed823254e61",
           "tradeName": {
-            "zh": "探索探险家护甲",
+            "zh": "冒险探险家",
             "en": "Adventure a A-Venture",
             "localizationSource": "official_global_ini"
           },
@@ -4253,7 +4253,7 @@
         {
           "tradeId": "eda899b9-c58b-48df-88d9-6b34368af2f2",
           "tradeName": {
-            "zh": "带有角和绳的护甲",
+            "zh": "有角和绳子的护甲",
             "en": "Armor with horn and string",
             "localizationSource": "official_global_ini"
           },
@@ -4263,7 +4263,7 @@
         {
           "tradeId": "4df999a1-93ba-47a4-b498-cfaad7553da3",
           "tradeName": {
-            "zh": "加强S71步枪",
+            "zh": "改造 S71 步枪",
             "en": "Built on S71 rifle",
             "localizationSource": "official_global_ini"
           },
@@ -4276,7 +4276,7 @@
     {
       "id": "ksar_pistol_ballistic_01_iae2023",
       "name": {
-        "zh": "终曲 手枪 “升天”",
+        "zh": "终曲 “升天” 手枪",
         "en": "Coda \"Ascension\" Pistol",
         "localizationSource": "official_global_ini"
       },
@@ -4319,7 +4319,7 @@
     {
       "id": "ksar_pistol_ballistic_01",
       "name": {
-        "zh": "终曲 手枪",
+        "zh": "终曲实弹手枪",
         "en": "Coda Pistol",
         "localizationSource": "official_global_ini"
       },
@@ -4475,7 +4475,7 @@
     {
       "id": "ksar_pistol_ballistic_01_mag",
       "name": {
-        "zh": "终曲 手枪弹匣（6 发）",
+        "zh": "终曲实弹手枪弹匣 (6 发)",
         "en": "Coda Pistol Magazine (6 cap)",
         "localizationSource": "official_global_ini"
       },
@@ -4493,7 +4493,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地、商店终端 - 冰结镇、商店终端 - 卡比尔驿站 等 81 处",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=coda-pistol-magazine-(6-cap)&tab=about",
@@ -4668,7 +4668,7 @@
         {
           "tradeId": "1a9c813d-f143-49e6-addf-5d068a456cc5",
           "tradeName": {
-            "zh": "ATLS 警示线涂装",
+            "zh": "ATLS 警示线",
             "en": "ATLS Orange Line",
             "localizationSource": "official_global_ini"
           },
@@ -4761,7 +4761,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413745",
           "tradeName": {
-            "zh": "闪亮的工服",
+            "zh": "闪亮的工装服",
             "en": "Shiny Builder Suit",
             "localizationSource": "official_global_ini"
           },
@@ -4848,7 +4848,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413745",
           "tradeName": {
-            "zh": "闪亮的工服",
+            "zh": "闪亮的工装服",
             "en": "Shiny Builder Suit",
             "localizationSource": "official_global_ini"
           },
@@ -4941,7 +4941,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413745",
           "tradeName": {
-            "zh": "闪亮的工服",
+            "zh": "闪亮的工装服",
             "en": "Shiny Builder Suit",
             "localizationSource": "official_global_ini"
           },
@@ -5028,7 +5028,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413745",
           "tradeName": {
-            "zh": "闪亮的工服",
+            "zh": "闪亮的工装服",
             "en": "Shiny Builder Suit",
             "localizationSource": "official_global_ini"
           },
@@ -5121,7 +5121,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413745",
           "tradeName": {
-            "zh": "闪亮的工服",
+            "zh": "闪亮的工装服",
             "en": "Shiny Builder Suit",
             "localizationSource": "official_global_ini"
           },
@@ -5208,7 +5208,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413745",
           "tradeName": {
-            "zh": "闪亮的工服",
+            "zh": "闪亮的工装服",
             "en": "Shiny Builder Suit",
             "localizationSource": "official_global_ini"
           },
@@ -5301,7 +5301,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413745",
           "tradeName": {
-            "zh": "闪亮的工服",
+            "zh": "闪亮的工装服",
             "en": "Shiny Builder Suit",
             "localizationSource": "official_global_ini"
           },
@@ -5388,7 +5388,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413745",
           "tradeName": {
-            "zh": "闪亮的工服",
+            "zh": "闪亮的工装服",
             "en": "Shiny Builder Suit",
             "localizationSource": "official_global_ini"
           },
@@ -5431,7 +5431,7 @@
         {
           "tradeId": "1a9c813d-f143-49e6-addf-5d068a456cc5",
           "tradeName": {
-            "zh": "ATLS 警示线涂装",
+            "zh": "ATLS 警示线",
             "en": "ATLS Orange Line",
             "localizationSource": "official_global_ini"
           },
@@ -5474,7 +5474,7 @@
         {
           "tradeId": "6472920a-5588-4378-89a1-b2c5bcbfc75c",
           "tradeName": {
-            "zh": "把枪做成沙子",
+            "zh": "把枪做成沙色",
             "en": "Make gun sandy",
             "localizationSource": "official_global_ini"
           },
@@ -5497,7 +5497,7 @@
     {
       "id": "crus_starlifter_a2_collector_military",
       "name": {
-        "zh": "十字军 大力神 A2 星际运输船 维克洛战争特别版",
+        "zh": "十字军 大力神 A2 星际运输船 维科洛 战争特别版",
         "en": "Crusader A2 Hercules Starlifter Wikelo War Special",
         "localizationSource": "official_global_ini"
       },
@@ -5528,7 +5528,7 @@
         {
           "tradeId": "3b698db0-7623-4210-9653-2025d491ab10",
           "tradeName": {
-            "zh": "星际运输船 A2战斗改版",
+            "zh": "星际运输船 A2 战争改款",
             "en": "Starlifter A2 War Mod",
             "localizationSource": "official_global_ini"
           },
@@ -5540,7 +5540,7 @@
     {
       "id": "crus_starfighter_inferno_collector_military",
       "name": {
-        "zh": "十字军 战神 星际战斗机 地狱火 维克洛战争特别版",
+        "zh": "十字军 战神 星际战斗机 地狱火 维科洛 战争特别版",
         "en": "Crusader Ares Star Fighter Inferno Wikelo War Special",
         "localizationSource": "official_global_ini"
       },
@@ -5571,7 +5571,7 @@
         {
           "tradeId": "f7e6a331-3f4c-4400-a4cf-dbd75bffa102",
           "tradeName": {
-            "zh": "星际战斗机 地狱火特别版",
+            "zh": "星际战斗机地狱火特别版",
             "en": "Starfighter Inferno Special",
             "localizationSource": "official_global_ini"
           },
@@ -5583,7 +5583,7 @@
     {
       "id": "crus_starfighter_ion_collector_stealth",
       "name": {
-        "zh": "十字军 战神 星际战斗机 离子光 维克洛鬼祟特别版",
+        "zh": "十字军 战神 星际战斗机 离子光 维科洛 鬼祟特别版",
         "en": "Crusader Ares Star Fighter Ion Wikelo Sneak Special",
         "localizationSource": "official_global_ini"
       },
@@ -5614,7 +5614,7 @@
         {
           "tradeId": "da19d1a7-be72-4fea-803e-880d97ffdbe3",
           "tradeName": {
-            "zh": "隐身星际战斗机离子光",
+            "zh": "鬼鬼祟祟星际战斗机离子光",
             "en": "Sneaky Starfighter Ion",
             "localizationSource": "official_global_ini"
           },
@@ -5626,7 +5626,7 @@
     {
       "id": "crus_spirit_c1_civilian",
       "name": {
-        "zh": "十字军 星灵 C1 维克洛特别版",
+        "zh": "十字军 星灵 C1 维科洛 特别版",
         "en": "Crusader C1 Spirit Wikelo Special",
         "localizationSource": "official_global_ini"
       },
@@ -5657,7 +5657,7 @@
         {
           "tradeId": "64f01a7a-62c6-42fa-8a62-6b537dfa3668",
           "tradeName": {
-            "zh": "星灵的货运改版",
+            "zh": "星灵货运改款",
             "en": "Spirit Cargo mod",
             "localizationSource": "official_global_ini"
           },
@@ -5669,7 +5669,7 @@
     {
       "id": "crus_intrepid_collector_indust",
       "name": {
-        "zh": "十字军 无畏 维克洛工作特别版",
+        "zh": "十字军 无畏 维科洛 工作特别版",
         "en": "Crusader Intrepid Wikelo Work Special",
         "localizationSource": "official_global_ini"
       },
@@ -5700,7 +5700,7 @@
         {
           "tradeId": "c55c9f61-84d9-4180-8715-eab2fe524deb",
           "tradeName": {
-            "zh": "升级无畏",
+            "zh": "升级的无畏",
             "en": "Upgrade Intrepid",
             "localizationSource": "official_global_ini"
           },
@@ -5712,7 +5712,7 @@
     {
       "id": "carryable_1h_sq_pyro_serverblade_5",
       "name": {
-        "zh": "DCHS-05 轨道定位计算板",
+        "zh": "DCHS-05 轨道定位 计算板",
         "en": "DCHS-05 Orbital Positioning Comp-Board",
         "localizationSource": "official_global_ini"
       },
@@ -5742,7 +5742,7 @@
         {
           "tradeId": "0424e501-e57e-47cb-bada-79f849560b4e",
           "tradeName": {
-            "zh": "制造天蝎座改版",
+            "zh": "造一个改款天蝎座",
             "en": "Build a Mod Scorpius",
             "localizationSource": "official_global_ini"
           },
@@ -5752,7 +5752,7 @@
         {
           "tradeId": "1ef81be1-714c-4fea-9185-e7a4c2604256",
           "tradeName": {
-            "zh": "火鸟改版",
+            "zh": "火鸟改款",
             "en": "Firebird Mod",
             "localizationSource": "official_global_ini"
           },
@@ -5772,7 +5772,7 @@
         {
           "tradeId": "5c494816-ebc0-46a6-a23c-d463d4b0330d",
           "tradeName": {
-            "zh": "新的移动大型星际枪骑兵飞船",
+            "zh": "新技巧大型星际枪骑兵飞船",
             "en": "New Move Big Starlancer Ship",
             "localizationSource": "official_global_ini"
           },
@@ -5782,7 +5782,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -5792,7 +5792,7 @@
         {
           "tradeId": "ade95587-2c0d-433e-87c4-865e7dc80b0c",
           "tradeName": {
-            "zh": "游隼的维克洛改版",
+            "zh": "游隼维科洛改款",
             "en": "Peregrine Wikelo Mod",
             "localizationSource": "official_global_ini"
           },
@@ -5802,7 +5802,7 @@
         {
           "tradeId": "6357945d-2e51-426f-b183-9c6f84c6a88b",
           "tradeName": {
-            "zh": "狡猾的刺客",
+            "zh": "鬼鬼祟祟刺客",
             "en": "Sneaky Stabber",
             "localizationSource": "official_global_ini"
           },
@@ -5812,7 +5812,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -5822,7 +5822,7 @@
         {
           "tradeId": "3b698db0-7623-4210-9653-2025d491ab10",
           "tradeName": {
-            "zh": "星际运输船 A2战斗改版",
+            "zh": "星际运输船 A2 战争改款",
             "en": "Starlifter A2 War Mod",
             "localizationSource": "official_global_ini"
           },
@@ -5832,7 +5832,7 @@
         {
           "tradeId": "c63d9c5a-5e25-49da-8254-b78706abea86",
           "tradeName": {
-            "zh": "维克洛的海军F7",
+            "zh": "维科洛海军 F7",
             "en": "Wikelo Navy F7",
             "localizationSource": "official_global_ini"
           },
@@ -5845,7 +5845,7 @@
     {
       "id": "cds_combat_heavy_arms_03_02_01",
       "name": {
-        "zh": "DCP护甲 臂甲 钴蓝迷彩",
+        "zh": "DCP 护甲 臂甲 钴蓝迷彩",
         "en": "DCP Armor Arms Cobalt Camo",
         "localizationSource": "official_global_ini"
       },
@@ -5876,7 +5876,7 @@
         {
           "tradeId": "82d178e8-e7c1-4436-981c-c51dbaa87f3b",
           "tradeName": {
-            "zh": "制造太空海军盔甲",
+            "zh": "打造太空海军护甲",
             "en": "Make space navy armor",
             "localizationSource": "official_global_ini"
           },
@@ -5888,7 +5888,7 @@
     {
       "id": "cds_combat_heavy_arms_03_01_01",
       "name": {
-        "zh": "DCP护甲 臂甲 猎人迷彩",
+        "zh": "DCP 护甲 臂甲 猎人迷彩",
         "en": "DCP Armor Arms Hunter Camo",
         "localizationSource": "official_global_ini"
       },
@@ -5919,7 +5919,7 @@
         {
           "tradeId": "dbe950bb-885f-4c12-ad7d-878723bb251c",
           "tradeName": {
-            "zh": "望着沙漠却不见你",
+            "zh": "望着沙漠看不见你",
             "en": "Look at desert but don't see you",
             "localizationSource": "official_global_ini"
           },
@@ -5931,7 +5931,7 @@
     {
       "id": "cds_combat_heavy_arms_03_03_01",
       "name": {
-        "zh": "DCP护甲 臂甲 丛林迷彩",
+        "zh": "DCP 护甲 臂甲 丛林迷彩",
         "en": "DCP Armor Arms Jungle Camo",
         "localizationSource": "official_global_ini"
       },
@@ -5962,7 +5962,7 @@
         {
           "tradeId": "c4c7fa2d-91f5-4171-988b-9003841f4fcd",
           "tradeName": {
-            "zh": "想要盔甲看起来像树吗？",
+            "zh": "想要树皮一样的护甲？",
             "en": "Want armor look like tree?",
             "localizationSource": "official_global_ini"
           },
@@ -5974,7 +5974,7 @@
     {
       "id": "cds_combat_heavy_core_03_02_01",
       "name": {
-        "zh": "DCP护甲 胸甲 钴蓝迷彩",
+        "zh": "DCP 护甲 胸甲 钴蓝迷彩",
         "en": "DCP Armor Core Cobalt Camo",
         "localizationSource": "official_global_ini"
       },
@@ -6005,7 +6005,7 @@
         {
           "tradeId": "82d178e8-e7c1-4436-981c-c51dbaa87f3b",
           "tradeName": {
-            "zh": "制造太空海军盔甲",
+            "zh": "打造太空海军护甲",
             "en": "Make space navy armor",
             "localizationSource": "official_global_ini"
           },
@@ -6017,7 +6017,7 @@
     {
       "id": "cds_combat_heavy_core_03_01_01",
       "name": {
-        "zh": "DCP护甲 胸甲 猎人迷彩",
+        "zh": "DCP 护甲 胸甲 猎人迷彩",
         "en": "DCP Armor Core Hunter Camo",
         "localizationSource": "official_global_ini"
       },
@@ -6048,7 +6048,7 @@
         {
           "tradeId": "dbe950bb-885f-4c12-ad7d-878723bb251c",
           "tradeName": {
-            "zh": "望着沙漠却不见你",
+            "zh": "望着沙漠看不见你",
             "en": "Look at desert but don't see you",
             "localizationSource": "official_global_ini"
           },
@@ -6060,7 +6060,7 @@
     {
       "id": "cds_combat_heavy_core_03_03_01",
       "name": {
-        "zh": "DCP护甲 胸甲 丛林迷彩",
+        "zh": "DCP 护甲 胸甲 丛林迷彩",
         "en": "DCP Armor Core Jungle Camo",
         "localizationSource": "official_global_ini"
       },
@@ -6091,7 +6091,7 @@
         {
           "tradeId": "c4c7fa2d-91f5-4171-988b-9003841f4fcd",
           "tradeName": {
-            "zh": "想要盔甲看起来像树吗？",
+            "zh": "想要树皮一样的护甲？",
             "en": "Want armor look like tree?",
             "localizationSource": "official_global_ini"
           },
@@ -6103,7 +6103,7 @@
     {
       "id": "cds_combat_heavy_helmet_03_02_01",
       "name": {
-        "zh": "DCP护甲 头盔 钴蓝迷彩",
+        "zh": "DCP 护甲 头盔 钴蓝迷彩",
         "en": "DCP Armor Helmet Cobalt Camo",
         "localizationSource": "official_global_ini"
       },
@@ -6134,7 +6134,7 @@
         {
           "tradeId": "82d178e8-e7c1-4436-981c-c51dbaa87f3b",
           "tradeName": {
-            "zh": "制造太空海军盔甲",
+            "zh": "打造太空海军护甲",
             "en": "Make space navy armor",
             "localizationSource": "official_global_ini"
           },
@@ -6146,7 +6146,7 @@
     {
       "id": "cds_combat_heavy_helmet_03_01_01",
       "name": {
-        "zh": "DCP护甲 头盔 猎人迷彩",
+        "zh": "DCP 护甲 头盔 猎人迷彩",
         "en": "DCP Armor Helmet Hunter Camo",
         "localizationSource": "official_global_ini"
       },
@@ -6177,7 +6177,7 @@
         {
           "tradeId": "dbe950bb-885f-4c12-ad7d-878723bb251c",
           "tradeName": {
-            "zh": "望着沙漠却不见你",
+            "zh": "望着沙漠看不见你",
             "en": "Look at desert but don't see you",
             "localizationSource": "official_global_ini"
           },
@@ -6189,7 +6189,7 @@
     {
       "id": "cds_combat_heavy_helmet_03_03_01",
       "name": {
-        "zh": "DCP护甲 头盔 丛林迷彩",
+        "zh": "DCP 护甲 头盔 丛林迷彩",
         "en": "DCP Armor Helmet Jungle Camo",
         "localizationSource": "official_global_ini"
       },
@@ -6220,7 +6220,7 @@
         {
           "tradeId": "c4c7fa2d-91f5-4171-988b-9003841f4fcd",
           "tradeName": {
-            "zh": "想要盔甲看起来像树吗？",
+            "zh": "想要树皮一样的护甲？",
             "en": "Want armor look like tree?",
             "localizationSource": "official_global_ini"
           },
@@ -6232,7 +6232,7 @@
     {
       "id": "cds_combat_heavy_legs_03_02_01",
       "name": {
-        "zh": "DCP护甲 腿甲 钴蓝迷彩",
+        "zh": "DCP 护甲 腿甲 钴蓝迷彩",
         "en": "DCP Armor Legs Cobalt Camo",
         "localizationSource": "official_global_ini"
       },
@@ -6263,7 +6263,7 @@
         {
           "tradeId": "82d178e8-e7c1-4436-981c-c51dbaa87f3b",
           "tradeName": {
-            "zh": "制造太空海军盔甲",
+            "zh": "打造太空海军护甲",
             "en": "Make space navy armor",
             "localizationSource": "official_global_ini"
           },
@@ -6275,7 +6275,7 @@
     {
       "id": "cds_combat_heavy_legs_03_01_01",
       "name": {
-        "zh": "DCP护甲 腿甲 猎人迷彩",
+        "zh": "DCP 护甲 腿甲 猎人迷彩",
         "en": "DCP Armor Legs Hunter Camo",
         "localizationSource": "official_global_ini"
       },
@@ -6306,7 +6306,7 @@
         {
           "tradeId": "dbe950bb-885f-4c12-ad7d-878723bb251c",
           "tradeName": {
-            "zh": "望着沙漠却不见你",
+            "zh": "望着沙漠看不见你",
             "en": "Look at desert but don't see you",
             "localizationSource": "official_global_ini"
           },
@@ -6318,7 +6318,7 @@
     {
       "id": "cds_combat_heavy_legs_03_03_01",
       "name": {
-        "zh": "DCP护甲 腿甲 丛林迷彩",
+        "zh": "DCP 护甲 腿甲 丛林迷彩",
         "en": "DCP Armor Legs Jungle Camo",
         "localizationSource": "official_global_ini"
       },
@@ -6349,7 +6349,7 @@
         {
           "tradeId": "c4c7fa2d-91f5-4171-988b-9003841f4fcd",
           "tradeName": {
-            "zh": "想要盔甲看起来像树吗？",
+            "zh": "想要树皮一样的护甲？",
             "en": "Want armor look like tree?",
             "localizationSource": "official_global_ini"
           },
@@ -6361,7 +6361,7 @@
     {
       "id": "drak_clipper_collector_military",
       "name": {
-        "zh": "德雷克 快帆 维克洛战争特别版",
+        "zh": "德雷克 快帆 维科洛 战争特别版",
         "en": "Drake Clipper Wikelo War Special",
         "localizationSource": "official_global_ini"
       },
@@ -6392,7 +6392,7 @@
         {
           "tradeId": "41231c57-f186-4c5e-ae51-524fc1e1d9a3",
           "tradeName": {
-            "zh": "快帆现在出战",
+            "zh": "快帆现在主打战斗",
             "en": "Clipper Fight Now",
             "localizationSource": "official_global_ini"
           },
@@ -6404,7 +6404,7 @@
     {
       "id": "drak_golem_collector_indust",
       "name": {
-        "zh": "德雷克 魔像 维克洛工作特别版",
+        "zh": "德雷克 魔像 维科洛 工作特别版",
         "en": "Drake Golem Wikelo Work Special",
         "localizationSource": "official_global_ini"
       },
@@ -6465,7 +6465,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：埃尔罗伊咖啡店 - Green Circle - 奥里森、埃尔罗伊咖啡店 - 十-L1 雄心伟梦站、埃尔罗伊咖啡店 - 埃弗勒斯空间站、埃尔罗伊咖啡店 - 奥古斯特·顿洛空港 - 奥里森、埃尔罗伊咖啡店 - 尼克斯星门 (斯坦顿)、埃尔罗伊咖啡店 - 尼克斯星门 (派罗)、埃尔罗伊咖啡店 - 弧-L1 广袤森林站、埃尔罗伊咖啡店 - 微-L1 浅边站 等 23 处",
+          "location": "可购买地点：埃尔罗伊咖啡店 - Green Circle - 奥里森、埃尔罗伊咖啡店 - 十 L1 雄心伟梦站、埃尔罗伊咖啡店 - 埃弗勒斯空间站、埃尔罗伊咖啡店 - 奥古斯特·顿洛空港 - 奥里森、埃尔罗伊咖啡店 - 尼克斯星门 (斯坦顿)、埃尔罗伊咖啡店 - 尼克斯星门 (派罗)、埃尔罗伊咖啡店 - 弧 L1 广袤森林站、埃尔罗伊咖啡店 - 微 L1 浅边站 等 23 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=ermer-family-farms-fat-free-ice-cream&tab=about",
@@ -6477,7 +6477,7 @@
         {
           "tradeId": "2597ef18-f1d5-4d97-bba4-8b6f900ded50",
           "tradeName": {
-            "zh": "非常饿",
+            "zh": "非常饥饿",
             "en": "Very Hungry",
             "localizationSource": "official_global_ini"
           },
@@ -6490,7 +6490,7 @@
     {
       "id": "espr_prowler_utility_collector_indust",
       "name": {
-        "zh": "埃斯佩里亚 徘徊者 多功能 维克洛工作特别版",
+        "zh": "埃斯佩里亚 徘徊者 多功能 维科洛 工作特别版",
         "en": "Esperia Prowler Utility Wikelo Work Special",
         "localizationSource": "official_global_ini"
       },
@@ -6521,7 +6521,7 @@
         {
           "tradeId": "fec1ba32-a1bb-4cfb-adc9-8a2f792544e6",
           "tradeName": {
-            "zh": "徘徊者更多功能",
+            "zh": "徘徊者更加多功能",
             "en": "Prowler More Utility",
             "localizationSource": "official_global_ini"
           },
@@ -6533,7 +6533,7 @@
     {
       "id": "carryable_tbo_missionitem_tsg_fueltank",
       "name": {
-        "zh": "过期的量子燃料箱",
+        "zh": "过期量子燃料罐",
         "en": "Expired Quantanium Fuel Canister",
         "localizationSource": "official_global_ini"
       },
@@ -6563,7 +6563,7 @@
         {
           "tradeId": "eae3334f-310a-4213-88e5-b84d248cc083",
           "tradeName": {
-            "zh": "整装待发",
+            "zh": "穿搭好再起飞",
             "en": "Suit Up Take Off",
             "localizationSource": "official_global_ini"
           },
@@ -6573,7 +6573,7 @@
         {
           "tradeId": "dcc744eb-e9c5-4364-a1d2-9b39864baecf",
           "tradeName": {
-            "zh": "你最好的一击",
+            "zh": "你的最好的枪",
             "en": "Your Best Shot",
             "localizationSource": "official_global_ini"
           },
@@ -6586,7 +6586,7 @@
     {
       "id": "gmni_lmg_ballistic_01_collector01",
       "name": {
-        "zh": "F55 轻机枪 I 型",
+        "zh": "F55 “I 型” 轻机枪",
         "en": "F55 \"Mark I\" LMG",
         "localizationSource": "official_global_ini"
       },
@@ -6666,7 +6666,7 @@
         {
           "tradeId": "314c16b2-fffd-445d-9bfd-fde1414286cd",
           "tradeName": {
-            "zh": "更好看的F55",
+            "zh": "F55 更好看",
             "en": "F55 Look Better",
             "localizationSource": "official_global_ini"
           },
@@ -6678,9 +6678,9 @@
     {
       "id": "gmni_lmg_ballistic_01_collector02",
       "name": {
-        "zh": null,
+        "zh": "F55 “Shadowflux” 轻机枪",
         "en": "F55 \"Shadowflux\" LMG",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "item",
       "descriptionZh": null,
@@ -6709,7 +6709,7 @@
         {
           "tradeId": "b46612e0-4eae-4827-8038-e460e00f8967",
           "tradeName": {
-            "zh": "大风格轻机枪",
+            "zh": "大派头轻机枪",
             "en": "Big Style LMG",
             "localizationSource": "official_global_ini"
           },
@@ -6721,9 +6721,9 @@
     {
       "id": "bp_reward_gmni_lmg_ballistic_01_collector02",
       "name": {
-        "zh": "蓝图",
+        "zh": "F55 “Shadowflux” 轻机枪 蓝图",
         "en": "F55 \"Shadowflux\" LMG Blueprint",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "blueprint",
       "descriptionZh": null,
@@ -6752,7 +6752,7 @@
         {
           "tradeId": "b46612e0-4eae-4827-8038-e460e00f8967",
           "tradeName": {
-            "zh": "大风格轻机枪",
+            "zh": "大派头轻机枪",
             "en": "Big Style LMG",
             "localizationSource": "official_global_ini"
           },
@@ -6843,7 +6843,7 @@
         {
           "tradeId": "b46612e0-4eae-4827-8038-e460e00f8967",
           "tradeName": {
-            "zh": "大风格轻机枪",
+            "zh": "大派头轻机枪",
             "en": "Big Style LMG",
             "localizationSource": "official_global_ini"
           },
@@ -6853,7 +6853,7 @@
         {
           "tradeId": "314c16b2-fffd-445d-9bfd-fde1414286cd",
           "tradeName": {
-            "zh": "更好看的F55",
+            "zh": "F55 更好看",
             "en": "F55 Look Better",
             "localizationSource": "official_global_ini"
           },
@@ -6866,7 +6866,7 @@
     {
       "id": "gmni_lmg_ballistic_01_mag",
       "name": {
-        "zh": "F55 轻机枪弹匣（150 发）",
+        "zh": "F55 轻机枪弹匣 (150 发)",
         "en": "F55 LMG Magazine (150 cap)",
         "localizationSource": "official_global_ini"
       },
@@ -6884,7 +6884,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地、商店终端 - 冰结镇、商店终端 - 卡比尔驿站 等 81 处",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=f55-lmg-magazine-(150-cap)&tab=about",
@@ -6953,7 +6953,7 @@
         {
           "tradeId": "b46612e0-4eae-4827-8038-e460e00f8967",
           "tradeName": {
-            "zh": "大风格轻机枪",
+            "zh": "大派头轻机枪",
             "en": "Big Style LMG",
             "localizationSource": "official_global_ini"
           },
@@ -6965,7 +6965,7 @@
     {
       "id": "volt_lmg_energy_01_collector01",
       "name": {
-        "zh": "菲涅耳 能量轻机枪 深水",
+        "zh": "菲涅尔 “深水” 能量轻机枪",
         "en": "Fresnel \"Deepwater\" Energy LMG",
         "localizationSource": "official_global_ini"
       },
@@ -6996,7 +6996,7 @@
         {
           "tradeId": "3c839c32-d313-4c13-ade0-eb45b5bdea4b",
           "tradeName": {
-            "zh": "最特殊的狼",
+            "zh": "最特别的狼",
             "en": "Most Special Wolf",
             "localizationSource": "official_global_ini"
           },
@@ -7006,7 +7006,7 @@
         {
           "tradeId": "ab52c274-a29e-4730-a311-917a27191416",
           "tradeName": {
-            "zh": "重型VOLT电击枪",
+            "zh": "重型 Volt 滋滋枪",
             "en": "Heavy VOLT Zapper",
             "localizationSource": "official_global_ini"
           },
@@ -7018,7 +7018,7 @@
     {
       "id": "volt_lmg_energy_01_collector02",
       "name": {
-        "zh": "菲涅耳 能量轻机枪 约曼迪",
+        "zh": "菲涅尔 “约曼迪” 能量轻机枪",
         "en": "Fresnel \"Yormandi\" Energy LMG",
         "localizationSource": "official_global_ini"
       },
@@ -7061,7 +7061,7 @@
     {
       "id": "volt_lmg_energy_01",
       "name": {
-        "zh": "菲涅耳 能量轻机枪",
+        "zh": "菲涅尔 能量轻机枪",
         "en": "Fresnel Energy LMG",
         "localizationSource": "official_global_ini"
       },
@@ -7105,7 +7105,7 @@
           {
             "id": "21825507-7923-4683-9bf3-9cfe316940e3",
             "name": {
-              "zh": "金",
+              "zh": "万寿菊Mari",
               "en": "Gold",
               "localizationSource": "official_global_ini"
             },
@@ -7136,7 +7136,7 @@
         {
           "tradeId": "ab52c274-a29e-4730-a311-917a27191416",
           "tradeName": {
-            "zh": "重型VOLT电击枪",
+            "zh": "重型 Volt 滋滋枪",
             "en": "Heavy VOLT Zapper",
             "localizationSource": "official_global_ini"
           },
@@ -7159,7 +7159,7 @@
     {
       "id": "volt_lmg_energy_01_mag",
       "name": {
-        "zh": "菲涅耳 能量轻机枪电池（165发）",
+        "zh": "菲涅尔 能量轻机枪电池（165 发）",
         "en": "Fresnel Energy LMG Battery (165 Cap)",
         "localizationSource": "official_global_ini"
       },
@@ -7177,7 +7177,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 81 处",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=fresnel-energy-lmg-battery-(165-cap)&tab=about",
@@ -7250,7 +7250,7 @@
         {
           "tradeId": "ab52c274-a29e-4730-a311-917a27191416",
           "tradeName": {
-            "zh": "重型VOLT电击枪",
+            "zh": "重型 Volt 滋滋枪",
             "en": "Heavy VOLT Zapper",
             "localizationSource": "official_global_ini"
           },
@@ -7262,7 +7262,7 @@
     {
       "id": "kap_combat_light_arms_02_01_01",
       "name": {
-        "zh": "幽影护甲 臂甲 联科发版",
+        "zh": "幽影 臂甲 ASD 版",
         "en": "Geist Armor Arms ASD Edition",
         "localizationSource": "official_global_ini"
       },
@@ -7337,7 +7337,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413743",
           "tradeName": {
-            "zh": "可以藏在雪里的装备",
+            "zh": "躲藏雪地套装",
             "en": "Hide Snow Suit",
             "localizationSource": "official_global_ini"
           },
@@ -7350,7 +7350,7 @@
     {
       "id": "kap_combat_light_arms_02_02_01",
       "name": {
-        "zh": "幽影护甲 臂甲 雪地迷彩",
+        "zh": "幽影 臂甲 雪地迷彩",
         "en": "Geist Armor Arms Snow Camo",
         "localizationSource": "official_global_ini"
       },
@@ -7430,7 +7430,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413743",
           "tradeName": {
-            "zh": "可以藏在雪里的装备",
+            "zh": "躲藏雪地套装",
             "en": "Hide Snow Suit",
             "localizationSource": "official_global_ini"
           },
@@ -7442,7 +7442,7 @@
     {
       "id": "kap_combat_light_core_02_01_01",
       "name": {
-        "zh": "幽影护甲 胸甲 联科发版",
+        "zh": "幽影 胸甲 ASD 版",
         "en": "Geist Armor Core ASD Edition",
         "localizationSource": "official_global_ini"
       },
@@ -7517,7 +7517,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413743",
           "tradeName": {
-            "zh": "可以藏在雪里的装备",
+            "zh": "躲藏雪地套装",
             "en": "Hide Snow Suit",
             "localizationSource": "official_global_ini"
           },
@@ -7530,7 +7530,7 @@
     {
       "id": "kap_combat_light_core_02_02_01",
       "name": {
-        "zh": "幽影护甲 胸甲 雪地迷彩",
+        "zh": "幽影 胸甲 雪地迷彩",
         "en": "Geist Armor Core Snow Camo",
         "localizationSource": "official_global_ini"
       },
@@ -7610,7 +7610,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413743",
           "tradeName": {
-            "zh": "可以藏在雪里的装备",
+            "zh": "躲藏雪地套装",
             "en": "Hide Snow Suit",
             "localizationSource": "official_global_ini"
           },
@@ -7622,7 +7622,7 @@
     {
       "id": "kap_combat_light_helmet_02_01_01",
       "name": {
-        "zh": "幽影护甲 头盔 联科发版",
+        "zh": "幽影 头盔 ASD 版",
         "en": "Geist Armor Helmet ASD Edition",
         "localizationSource": "official_global_ini"
       },
@@ -7697,7 +7697,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413743",
           "tradeName": {
-            "zh": "可以藏在雪里的装备",
+            "zh": "躲藏雪地套装",
             "en": "Hide Snow Suit",
             "localizationSource": "official_global_ini"
           },
@@ -7710,7 +7710,7 @@
     {
       "id": "kap_combat_light_helmet_02_02_01",
       "name": {
-        "zh": "幽影护甲 头盔 雪地迷彩",
+        "zh": "幽影 头盔 雪地迷彩",
         "en": "Geist Armor Helmet Snow Camo",
         "localizationSource": "official_global_ini"
       },
@@ -7790,7 +7790,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413743",
           "tradeName": {
-            "zh": "可以藏在雪里的装备",
+            "zh": "躲藏雪地套装",
             "en": "Hide Snow Suit",
             "localizationSource": "official_global_ini"
           },
@@ -7802,7 +7802,7 @@
     {
       "id": "kap_combat_light_legs_02_01_01",
       "name": {
-        "zh": "幽影护甲 腿甲 联科发版",
+        "zh": "幽影 腿甲 ASD 版",
         "en": "Geist Armor Legs ASD Edition",
         "localizationSource": "official_global_ini"
       },
@@ -7877,7 +7877,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413743",
           "tradeName": {
-            "zh": "可以藏在雪里的装备",
+            "zh": "躲藏雪地套装",
             "en": "Hide Snow Suit",
             "localizationSource": "official_global_ini"
           },
@@ -7890,7 +7890,7 @@
     {
       "id": "kap_combat_light_legs_02_02_01",
       "name": {
-        "zh": "幽影护甲 腿甲 雪地迷彩",
+        "zh": "幽影 腿甲 雪地迷彩",
         "en": "Geist Armor Legs Snow Camo",
         "localizationSource": "official_global_ini"
       },
@@ -7970,7 +7970,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413743",
           "tradeName": {
-            "zh": "可以藏在雪里的装备",
+            "zh": "躲藏雪地套装",
             "en": "Hide Snow Suit",
             "localizationSource": "official_global_ini"
           },
@@ -7982,7 +7982,7 @@
     {
       "id": "cds_combat_light_backpack_01_03_01",
       "name": {
-        "zh": "幽影 背包 联科发版",
+        "zh": "幽影 背包 ASD 版",
         "en": "Geist Backpack ASD Edition",
         "localizationSource": "official_global_ini"
       },
@@ -8012,7 +8012,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413743",
           "tradeName": {
-            "zh": "可以藏在雪里的装备",
+            "zh": "躲藏雪地套装",
             "en": "Hide Snow Suit",
             "localizationSource": "official_global_ini"
           },
@@ -8056,7 +8056,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413743",
           "tradeName": {
-            "zh": "可以藏在雪里的装备",
+            "zh": "躲藏雪地套装",
             "en": "Hide Snow Suit",
             "localizationSource": "official_global_ini"
           },
@@ -8098,7 +8098,7 @@
         {
           "tradeId": "1ef81be1-714c-4fea-9185-e7a4c2604256",
           "tradeName": {
-            "zh": "火鸟改版",
+            "zh": "火鸟改款",
             "en": "Firebird Mod",
             "localizationSource": "official_global_ini"
           },
@@ -8108,7 +8108,7 @@
         {
           "tradeId": "c55c9f61-84d9-4180-8715-eab2fe524deb",
           "tradeName": {
-            "zh": "升级无畏",
+            "zh": "升级的无畏",
             "en": "Upgrade Intrepid",
             "localizationSource": "official_global_ini"
           },
@@ -8118,7 +8118,7 @@
         {
           "tradeId": "8d7849fe-85c5-4c63-9754-a71bae57792f",
           "tradeName": {
-            "zh": "想要金牛座飞船吗",
+            "zh": "想要金牛座飞船",
             "en": "Want Taurus ship",
             "localizationSource": "official_global_ini"
           },
@@ -8128,7 +8128,7 @@
         {
           "tradeId": "c63d9c5a-5e25-49da-8254-b78706abea86",
           "tradeName": {
-            "zh": "维克洛的海军F7",
+            "zh": "维科洛海军 F7",
             "en": "Wikelo Navy F7",
             "localizationSource": "official_global_ini"
           },
@@ -8180,7 +8180,7 @@
         {
           "tradeId": "82d178e8-e7c1-4436-981c-c51dbaa87f3b",
           "tradeName": {
-            "zh": "制造太空海军盔甲",
+            "zh": "打造太空海军护甲",
             "en": "Make space navy armor",
             "localizationSource": "official_global_ini"
           },
@@ -8190,7 +8190,7 @@
         {
           "tradeId": "e44de29c-a2c3-49ef-864b-03eb7ae466db",
           "tradeName": {
-            "zh": "更像海军的VOLT枪",
+            "zh": "更像海军的电击枪",
             "en": "Volt gun more Navy-like",
             "localizationSource": "official_global_ini"
           },
@@ -8203,7 +8203,7 @@
     {
       "id": "cds_combat_superheavy_backpack_01_01_01",
       "name": {
-        "zh": "H4-PBF 弹药携行具",
+        "zh": "H4-PBF 弹药携具",
         "en": "H4-PBF Ammo Carrier",
         "localizationSource": "official_global_ini"
       },
@@ -8256,7 +8256,7 @@
         {
           "tradeId": "88bb3702-e20a-42e3-8ba3-328f2333e30c",
           "tradeName": {
-            "zh": "又重又亮",
+            "zh": "沉重又明亮",
             "en": "Heavy and Bright",
             "localizationSource": "official_global_ini"
           },
@@ -8269,7 +8269,7 @@
     {
       "id": "cds_combat_superheavy_backpack_01_03_01",
       "name": {
-        "zh": "H4-PBF 弹药携行具 雪地迷彩",
+        "zh": "H4-PBF 弹药携具 雪地迷彩",
         "en": "H4-PBF Ammo Carrier Snow Camo",
         "localizationSource": "official_global_ini"
       },
@@ -8332,7 +8332,7 @@
         {
           "tradeId": "88bb3702-e20a-42e3-8ba3-328f2333e30c",
           "tradeName": {
-            "zh": "又重又亮",
+            "zh": "沉重又明亮",
             "en": "Heavy and Bright",
             "localizationSource": "official_global_ini"
           },
@@ -8344,7 +8344,7 @@
     {
       "id": "bp_reward_cds_combat_superheavy_backpack_01_03_01",
       "name": {
-        "zh": "H4-PBF 弹药携行具 雪地迷彩 蓝图",
+        "zh": "H4-PBF 弹药携具 雪地迷彩 蓝图",
         "en": "H4-PBF Ammo Carrier Snow Camo Blueprint",
         "localizationSource": "official_global_ini"
       },
@@ -8375,7 +8375,7 @@
         {
           "tradeId": "88bb3702-e20a-42e3-8ba3-328f2333e30c",
           "tradeName": {
-            "zh": "又重又亮",
+            "zh": "沉重又明亮",
             "en": "Heavy and Bright",
             "localizationSource": "official_global_ini"
           },
@@ -8387,7 +8387,7 @@
     {
       "id": "harvestable_trophy_1h_kopionhorn_irradiated",
       "name": {
-        "zh": "被辐射的寇骈犬角",
+        "zh": "受辐射的寇骈犬角",
         "en": "Irradiated Kopion Horn",
         "localizationSource": "official_global_ini"
       },
@@ -8417,7 +8417,7 @@
         {
           "tradeId": "fec4c8e6-df2f-4775-b8c3-c0e3fb7c35e7",
           "tradeName": {
-            "zh": "准备好要木筏了？",
+            "zh": "准备好木筏了吗？",
             "en": "Ready for RAFT?",
             "localizationSource": "official_global_ini"
           },
@@ -8427,7 +8427,7 @@
         {
           "tradeId": "698c51c9-2a49-46c4-baf6-2d1abad7661e",
           "tradeName": {
-            "zh": "把卡纳枪变得更好看",
+            "zh": "卡纳枪变漂亮",
             "en": "Prettify Karna Gun",
             "localizationSource": "official_global_ini"
           },
@@ -8440,7 +8440,7 @@
     {
       "id": "harvestable_trophy_1h_vlkadultfang_irradiated",
       "name": {
-        "zh": "被辐射的瓦拉卡蠕虫牙（成年）",
+        "zh": "受辐射的瓦拉卡獠牙 (成年期)",
         "en": "Irradiated Valakkar Fang (Adult)",
         "localizationSource": "official_global_ini"
       },
@@ -8470,7 +8470,7 @@
         {
           "tradeId": "fec4c8e6-df2f-4775-b8c3-c0e3fb7c35e7",
           "tradeName": {
-            "zh": "准备好要木筏了？",
+            "zh": "准备好木筏了吗？",
             "en": "Ready for RAFT?",
             "localizationSource": "official_global_ini"
           },
@@ -8480,7 +8480,7 @@
         {
           "tradeId": "e404f6c6-997d-4195-8e48-1a8f859398c9",
           "tradeName": {
-            "zh": "让VOLT霰弹枪更愤怒",
+            "zh": "让 VOLT 霰弹枪更愤怒",
             "en": "Make VOLT shotgun angrier",
             "localizationSource": "official_global_ini"
           },
@@ -8490,7 +8490,7 @@
         {
           "tradeId": "698c51c9-2a49-46c4-baf6-2d1abad7661e",
           "tradeName": {
-            "zh": "把卡纳枪变得更好看",
+            "zh": "卡纳枪变漂亮",
             "en": "Prettify Karna Gun",
             "localizationSource": "official_global_ini"
           },
@@ -8500,7 +8500,7 @@
         {
           "tradeId": "3d432269-ee32-4127-abda-60b30a5c3660",
           "tradeName": {
-            "zh": "行走在危险中。看起来很棒。",
+            "zh": "在危险中行走。看起来很棒。",
             "en": "Walk in danger. Look good.",
             "localizationSource": "official_global_ini"
           },
@@ -8513,7 +8513,7 @@
     {
       "id": "carryable_tbo_creature_trophy_vlkapexfang_irradiated",
       "name": {
-        "zh": "被辐射的瓦拉卡蠕虫牙（巅峰期）",
+        "zh": "受辐射的瓦拉卡獠牙 (巅峰期)",
         "en": "Irradiated Valakkar Fang (Apex)",
         "localizationSource": "official_global_ini"
       },
@@ -8543,7 +8543,7 @@
         {
           "tradeId": "12926a62-afde-4984-8887-dbe564527192",
           "tradeName": {
-            "zh": "让ATLS会开火",
+            "zh": "让 ATLS 能射击",
             "en": "Make ATLS shoot",
             "localizationSource": "official_global_ini"
           },
@@ -8553,7 +8553,7 @@
         {
           "tradeId": "7b7cd8d9-d3e4-4f48-b995-487933fd332e",
           "tradeName": {
-            "zh": "让会跳的ATLS会开火",
+            "zh": "让 ATLS 能跳又能射",
             "en": "Make jumpy ATLS shoot",
             "localizationSource": "official_global_ini"
           },
@@ -8563,7 +8563,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -8573,7 +8573,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -8586,7 +8586,7 @@
     {
       "id": "harvestable_trophy_1h_vlkjuvenilefang_irradiated",
       "name": {
-        "zh": "被辐射的瓦拉卡蠕虫牙（幼年）",
+        "zh": "受辐射的瓦拉卡獠牙 (幼年期)",
         "en": "Irradiated Valakkar Fang (Juvenile)",
         "localizationSource": "official_global_ini"
       },
@@ -8616,7 +8616,7 @@
         {
           "tradeId": "fec4c8e6-df2f-4775-b8c3-c0e3fb7c35e7",
           "tradeName": {
-            "zh": "准备好要木筏了？",
+            "zh": "准备好木筏了吗？",
             "en": "Ready for RAFT?",
             "localizationSource": "official_global_ini"
           },
@@ -8636,7 +8636,7 @@
         {
           "tradeId": "e404f6c6-997d-4195-8e48-1a8f859398c9",
           "tradeName": {
-            "zh": "让VOLT霰弹枪更愤怒",
+            "zh": "让 VOLT 霰弹枪更愤怒",
             "en": "Make VOLT shotgun angrier",
             "localizationSource": "official_global_ini"
           },
@@ -8646,7 +8646,7 @@
         {
           "tradeId": "698c51c9-2a49-46c4-baf6-2d1abad7661e",
           "tradeName": {
-            "zh": "把卡纳枪变得更好看",
+            "zh": "卡纳枪变漂亮",
             "en": "Prettify Karna Gun",
             "localizationSource": "official_global_ini"
           },
@@ -8656,7 +8656,7 @@
         {
           "tradeId": "3d432269-ee32-4127-abda-60b30a5c3660",
           "tradeName": {
-            "zh": "行走在危险中。看起来很棒。",
+            "zh": "在危险中行走。看起来很棒。",
             "en": "Walk in danger. Look good.",
             "localizationSource": "official_global_ini"
           },
@@ -8669,7 +8669,7 @@
     {
       "id": "carryable_2h_fl_vlk_pearl_irradiated_high_02",
       "name": {
-        "zh": "被辐射的瓦拉卡蠕虫珍珠（AA级）",
+        "zh": "受辐射的瓦拉卡珍珠（AA 级）",
         "en": "Irradiated Valakkar Pearl (Grade AA)",
         "localizationSource": "official_global_ini"
       },
@@ -8699,7 +8699,7 @@
         {
           "tradeId": "684c9209-3dec-4519-a86c-7f49df47d14c",
           "tradeName": {
-            "zh": "守护者的战斗改版",
+            "zh": "守护者战斗改款",
             "en": "Guardian Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -8732,7 +8732,7 @@
     {
       "id": "carryable_2h_fl_vlk_pearl_irradiated_super_01",
       "name": {
-        "zh": "被辐射的瓦拉卡蠕虫珍珠（AAA级）",
+        "zh": "受辐射的瓦拉卡珍珠（AAA 级）",
         "en": "Irradiated Valakkar Pearl (Grade AAA)",
         "localizationSource": "official_global_ini"
       },
@@ -8762,7 +8762,7 @@
         {
           "tradeId": "7649f7a6-e0e0-44b5-87bc-803d6052c9f8",
           "tradeName": {
-            "zh": "ATLS 雪地涂装",
+            "zh": "ATLS 雪地",
             "en": "ATLS Snowland Color",
             "localizationSource": "official_global_ini"
           },
@@ -8772,7 +8772,7 @@
         {
           "tradeId": "eba10cd5-37dc-440a-8eff-18dbcc5e5d8c",
           "tradeName": {
-            "zh": "F8的战斗改版",
+            "zh": "F8 战争改款",
             "en": "F8 War Mod",
             "localizationSource": "official_global_ini"
           },
@@ -8782,7 +8782,7 @@
         {
           "tradeId": "99b90562-4e98-46d2-aa7e-0926bed3bdf8",
           "tradeName": {
-            "zh": "比最多还多",
+            "zh": "不仅仅是 MAX",
             "en": "More than a Max",
             "localizationSource": "official_global_ini"
           },
@@ -8792,7 +8792,7 @@
         {
           "tradeId": "5c494816-ebc0-46a6-a23c-d463d4b0330d",
           "tradeName": {
-            "zh": "新的移动大型星际枪骑兵飞船",
+            "zh": "新技巧大型星际枪骑兵飞船",
             "en": "New Move Big Starlancer Ship",
             "localizationSource": "official_global_ini"
           },
@@ -8802,7 +8802,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -8812,7 +8812,7 @@
         {
           "tradeId": "fec1ba32-a1bb-4cfb-adc9-8a2f792544e6",
           "tradeName": {
-            "zh": "徘徊者更多功能",
+            "zh": "徘徊者更加多功能",
             "en": "Prowler More Utility",
             "localizationSource": "official_global_ini"
           },
@@ -8822,7 +8822,7 @@
         {
           "tradeId": "fec4c8e6-df2f-4775-b8c3-c0e3fb7c35e7",
           "tradeName": {
-            "zh": "准备好要木筏了？",
+            "zh": "准备好木筏了吗？",
             "en": "Ready for RAFT?",
             "localizationSource": "official_global_ini"
           },
@@ -8832,7 +8832,7 @@
         {
           "tradeId": "6357945d-2e51-426f-b183-9c6f84c6a88b",
           "tradeName": {
-            "zh": "狡猾的刺客",
+            "zh": "鬼鬼祟祟刺客",
             "en": "Sneaky Stabber",
             "localizationSource": "official_global_ini"
           },
@@ -8842,7 +8842,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -8852,7 +8852,7 @@
         {
           "tradeId": "3b698db0-7623-4210-9653-2025d491ab10",
           "tradeName": {
-            "zh": "星际运输船 A2战斗改版",
+            "zh": "星际运输船 A2 战争改款",
             "en": "Starlifter A2 War Mod",
             "localizationSource": "official_global_ini"
           },
@@ -8862,7 +8862,7 @@
         {
           "tradeId": "8d7849fe-85c5-4c63-9754-a71bae57792f",
           "tradeName": {
-            "zh": "想要金牛座飞船吗",
+            "zh": "想要金牛座飞船",
             "en": "Want Taurus ship",
             "localizationSource": "official_global_ini"
           },
@@ -8872,7 +8872,7 @@
         {
           "tradeId": "b4a0ba2d-a5f6-496b-bc04-5f0bce49067a",
           "tradeName": {
-            "zh": "制造发光护甲",
+            "zh": "制作发光的护甲",
             "en": "Make glowy armor",
             "localizationSource": "official_global_ini"
           },
@@ -8882,7 +8882,7 @@
         {
           "tradeId": "698c51c9-2a49-46c4-baf6-2d1abad7661e",
           "tradeName": {
-            "zh": "把卡纳枪变得更好看",
+            "zh": "卡纳枪变漂亮",
             "en": "Prettify Karna Gun",
             "localizationSource": "official_global_ini"
           },
@@ -8892,7 +8892,7 @@
         {
           "tradeId": "3d432269-ee32-4127-abda-60b30a5c3660",
           "tradeName": {
-            "zh": "行走在危险中。看起来很棒。",
+            "zh": "在危险中行走。看起来很棒。",
             "en": "Walk in danger. Look good.",
             "localizationSource": "official_global_ini"
           },
@@ -8935,7 +8935,7 @@
         {
           "tradeId": "5dec704a-de79-4311-88d1-53f9d05db952",
           "tradeName": {
-            "zh": "制造大熊座改版",
+            "zh": "做一个大熊座改款",
             "en": "Make a Ursa Mod",
             "localizationSource": "official_global_ini"
           },
@@ -8955,7 +8955,7 @@
         {
           "tradeId": "956685c4-0324-4cf8-8a67-fed823254e61",
           "tradeName": {
-            "zh": "探索探险家护甲",
+            "zh": "冒险探险家",
             "en": "Adventure a A-Venture",
             "localizationSource": "official_global_ini"
           },
@@ -8965,7 +8965,7 @@
         {
           "tradeId": "b46612e0-4eae-4827-8038-e460e00f8967",
           "tradeName": {
-            "zh": "大风格轻机枪",
+            "zh": "大派头轻机枪",
             "en": "Big Style LMG",
             "localizationSource": "official_global_ini"
           },
@@ -8975,7 +8975,7 @@
         {
           "tradeId": "4df999a1-93ba-47a4-b498-cfaad7553da3",
           "tradeName": {
-            "zh": "加强S71步枪",
+            "zh": "改造 S71 步枪",
             "en": "Built on S71 rifle",
             "localizationSource": "official_global_ini"
           },
@@ -9028,7 +9028,7 @@
     {
       "id": "ksar_rifle_energy_01_iae2023",
       "name": {
-        "zh": "卡纳 步枪 “升天”",
+        "zh": "卡纳 “升天” 步枪",
         "en": "Karna \"Ascension\" Rifle",
         "localizationSource": "official_global_ini"
       },
@@ -9059,7 +9059,7 @@
         {
           "tradeId": "698c51c9-2a49-46c4-baf6-2d1abad7661e",
           "tradeName": {
-            "zh": "把卡纳枪变得更好看",
+            "zh": "卡纳枪变漂亮",
             "en": "Prettify Karna Gun",
             "localizationSource": "official_global_ini"
           },
@@ -9089,7 +9089,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲商店 - 埃弗勒斯空间站、护甲商店 - 尼克斯星门 (斯坦顿)、护甲商店 - 尼克斯星门 (派罗)、护甲商店 - 斯坦顿星门 (尼克斯)、护甲商店 - 斯坦顿星门 (派罗)、护甲商店 - 泰拉星门 (斯坦顿)、护甲商店 - 派罗星门 (尼克斯) 等 11 处",
+          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 埃弗勒斯空间站、护甲店 - 尼克斯星门 (斯坦顿)、护甲店 - 尼克斯星门 (派罗)、护甲店 - 斯坦顿星门 (尼克斯)、护甲店 - 斯坦顿星门 (派罗)、护甲店 - 泰拉星门 (斯坦顿)、护甲店 - 派罗星门 (尼克斯) 等 11 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=karna-rifle&tab=about",
@@ -9187,7 +9187,7 @@
         {
           "tradeId": "698c51c9-2a49-46c4-baf6-2d1abad7661e",
           "tradeName": {
-            "zh": "把卡纳枪变得更好看",
+            "zh": "卡纳枪变漂亮",
             "en": "Prettify Karna Gun",
             "localizationSource": "official_global_ini"
           },
@@ -9200,7 +9200,7 @@
     {
       "id": "ksar_rifle_energy_01_mag",
       "name": {
-        "zh": "卡纳 步枪电池（35 发）",
+        "zh": "卡纳 步枪电池 (35 发)",
         "en": "Karna Rifle Battery (35 cap)",
         "localizationSource": "official_global_ini"
       },
@@ -9218,7 +9218,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地、商店终端 - 冰结镇、商店终端 - 卡比尔驿站 等 81 处",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=karna-rifle-battery-(35-cap)&tab=about",
@@ -9395,7 +9395,7 @@
         {
           "tradeId": "698c51c9-2a49-46c4-baf6-2d1abad7661e",
           "tradeName": {
-            "zh": "把卡纳枪变得更好看",
+            "zh": "卡纳枪变漂亮",
             "en": "Prettify Karna Gun",
             "localizationSource": "official_global_ini"
           },
@@ -9407,7 +9407,7 @@
     {
       "id": "none_rifle_multi_01_collector01",
       "name": {
-        "zh": "绝杀 步枪 “统御迷彩”",
+        "zh": "绝杀 “统御迷彩” 步枪",
         "en": "Killshot \"Dominion Camo\" Rifle",
         "localizationSource": "official_global_ini"
       },
@@ -9481,7 +9481,7 @@
         {
           "tradeId": "dcc744eb-e9c5-4364-a1d2-9b39864baecf",
           "tradeName": {
-            "zh": "你最好的一击",
+            "zh": "你的最好的枪",
             "en": "Your Best Shot",
             "localizationSource": "official_global_ini"
           },
@@ -9493,7 +9493,7 @@
     {
       "id": "bp_reward_none_rifle_multi_01_collector01",
       "name": {
-        "zh": "绝杀 步枪 “统御迷彩” 蓝图",
+        "zh": "绝杀 “统御迷彩” 步枪 蓝图",
         "en": "Killshot \"Dominion Camo\" Rifle Blueprint",
         "localizationSource": "official_global_ini"
       },
@@ -9524,7 +9524,7 @@
         {
           "tradeId": "dcc744eb-e9c5-4364-a1d2-9b39864baecf",
           "tradeName": {
-            "zh": "你最好的一击",
+            "zh": "你的最好的枪",
             "en": "Your Best Shot",
             "localizationSource": "official_global_ini"
           },
@@ -9617,7 +9617,7 @@
         {
           "tradeId": "dcc744eb-e9c5-4364-a1d2-9b39864baecf",
           "tradeName": {
-            "zh": "你最好的一击",
+            "zh": "你的最好的枪",
             "en": "Your Best Shot",
             "localizationSource": "official_global_ini"
           },
@@ -9630,7 +9630,7 @@
     {
       "id": "none_rifle_multi_01_mag",
       "name": {
-        "zh": "绝杀 步枪弹匣（45 发）",
+        "zh": "绝杀 步枪弹匣 (45 发)",
         "en": "Killshot Rifle Magazine (45 Cap)",
         "localizationSource": "official_global_ini"
       },
@@ -9648,7 +9648,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 死局空间站、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所、商店 杰克森交易站、商店 涸泽 等 75 处",
+          "location": "可购买地点：Sharp Shooters - 死局空间站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 75 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=killshot-rifle-magazine-(45-cap)&tab=about",
@@ -9721,7 +9721,7 @@
         {
           "tradeId": "dcc744eb-e9c5-4364-a1d2-9b39864baecf",
           "tradeName": {
-            "zh": "你最好的一击",
+            "zh": "你的最好的枪",
             "en": "Your Best Shot",
             "localizationSource": "official_global_ini"
           },
@@ -9733,7 +9733,7 @@
     {
       "id": "krig_l21_wolf_collector_stealth",
       "name": {
-        "zh": "克鲁格 L-21 狼式 维克洛鬼祟特别版",
+        "zh": "克鲁格 L-21 狼式 维科洛 鬼祟特别版",
         "en": "Kruger L-21 Wolf Wikelo Sneak Special",
         "localizationSource": "official_global_ini"
       },
@@ -9776,7 +9776,7 @@
     {
       "id": "krig_l21_wolf_collector_military",
       "name": {
-        "zh": "克鲁格 L-21 狼式 维克洛战争特别版",
+        "zh": "克鲁格 L-21 狼式 维科洛 战争特别版",
         "en": "Kruger L-21 Wolf Wikelo War Special",
         "localizationSource": "official_global_ini"
       },
@@ -9807,7 +9807,7 @@
         {
           "tradeId": "3c839c32-d313-4c13-ade0-eb45b5bdea4b",
           "tradeName": {
-            "zh": "最特殊的狼",
+            "zh": "最特别的狼",
             "en": "Most Special Wolf",
             "localizationSource": "official_global_ini"
           },
@@ -9819,7 +9819,7 @@
     {
       "id": "krig_l22_alphawolf_collector_military",
       "name": {
-        "zh": "克鲁格 L-22 头狼 维克洛战争特别版",
+        "zh": "克鲁格 L-22 头狼 维科洛 战争特别版",
         "en": "Kruger L-22 Alpha Wolf Wikelo War Special",
         "localizationSource": "official_global_ini"
       },
@@ -9850,7 +9850,7 @@
         {
           "tradeId": "d4d26850-d4f4-4549-a0af-a478ee0be480",
           "tradeName": {
-            "zh": "非常特殊的狼",
+            "zh": "格外特别的狼",
             "en": "Extra Special Wolf",
             "localizationSource": "official_global_ini"
           },
@@ -9892,7 +9892,7 @@
         {
           "tradeId": "ad595a7c-d314-442b-acce-ea140a56cffd",
           "tradeName": {
-            "zh": "守护者 WiK-X",
+            "zh": "守护者 Wik-X",
             "en": "Guardian WiK-X",
             "localizationSource": "official_global_ini"
           },
@@ -9902,7 +9902,7 @@
         {
           "tradeId": "71b27232-bb75-417e-8009-a8b5d9787e5a",
           "tradeName": {
-            "zh": "RSI 流星改版",
+            "zh": "RSI 流星改款",
             "en": "RSI Meteor Mod",
             "localizationSource": "official_global_ini"
           },
@@ -9980,7 +9980,7 @@
           {
             "id": "124da32f-de8f-45f6-a2f1-81fd47752b2d",
             "name": {
-              "zh": "约曼迪眼",
+              "zh": "约曼迪之眼",
               "en": "Yormandi Eye",
               "localizationSource": "official_global_ini"
             },
@@ -10000,7 +10000,7 @@
         {
           "tradeId": "d4d26850-d4f4-4549-a0af-a478ee0be480",
           "tradeName": {
-            "zh": "非常特殊的狼",
+            "zh": "格外特别的狼",
             "en": "Extra Special Wolf",
             "localizationSource": "official_global_ini"
           },
@@ -10077,7 +10077,7 @@
         {
           "tradeId": "41231c57-f186-4c5e-ae51-524fc1e1d9a3",
           "tradeName": {
-            "zh": "快帆现在出战",
+            "zh": "快帆现在主打战斗",
             "en": "Clipper Fight Now",
             "localizationSource": "official_global_ini"
           },
@@ -10120,7 +10120,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -10130,7 +10130,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -10140,7 +10140,7 @@
         {
           "tradeId": "3b698db0-7623-4210-9653-2025d491ab10",
           "tradeName": {
-            "zh": "星际运输船 A2战斗改版",
+            "zh": "星际运输船 A2 战争改款",
             "en": "Starlifter A2 War Mod",
             "localizationSource": "official_global_ini"
           },
@@ -10150,7 +10150,7 @@
         {
           "tradeId": "956685c4-0324-4cf8-8a67-fed823254e61",
           "tradeName": {
-            "zh": "探索探险家护甲",
+            "zh": "冒险探险家",
             "en": "Adventure a A-Venture",
             "localizationSource": "official_global_ini"
           },
@@ -10170,7 +10170,7 @@
         {
           "tradeId": "e44de29c-a2c3-49ef-864b-03eb7ae466db",
           "tradeName": {
-            "zh": "更像海军的VOLT枪",
+            "zh": "更像海军的电击枪",
             "en": "Volt gun more Navy-like",
             "localizationSource": "official_global_ini"
           },
@@ -10180,7 +10180,7 @@
         {
           "tradeId": "3d432269-ee32-4127-abda-60b30a5c3660",
           "tradeName": {
-            "zh": "行走在危险中。看起来很棒。",
+            "zh": "在危险中行走。看起来很棒。",
             "en": "Walk in danger. Look good.",
             "localizationSource": "official_global_ini"
           },
@@ -10190,7 +10190,7 @@
         {
           "tradeId": "2453dcac-761d-4f95-8783-d31106fcfe1e",
           "tradeName": {
-            "zh": "把希安贤梭服做得更好",
+            "zh": "希安贤梭服装变更好",
             "en": "Xi'an Xanthule Suit made better",
             "localizationSource": "official_global_ini"
           },
@@ -10223,7 +10223,7 @@
     {
       "id": "mrai_guardian_mx_collector_military",
       "name": {
-        "zh": "未来 守护者 MX 维克洛战争特别版",
+        "zh": "未来 守护者 MX 维科洛战争版",
         "en": "Mirai Guardian MX Wikelo War Special",
         "localizationSource": "official_global_ini"
       },
@@ -10254,7 +10254,7 @@
         {
           "tradeId": "ad595a7c-d314-442b-acce-ea140a56cffd",
           "tradeName": {
-            "zh": "守护者 WiK-X",
+            "zh": "守护者 Wik-X",
             "en": "Guardian WiK-X",
             "localizationSource": "official_global_ini"
           },
@@ -10266,7 +10266,7 @@
     {
       "id": "mrai_guardian_qi_collector_indust",
       "name": {
-        "zh": "未来 守护者 QI 维克洛特别版",
+        "zh": "未来 守护者 QI 维科洛 特别版",
         "en": "Mirai Guardian QI Wikelo Special",
         "localizationSource": "official_global_ini"
       },
@@ -10309,7 +10309,7 @@
     {
       "id": "mrai_guardian_military",
       "name": {
-        "zh": "未来 守护者 维克洛战争特别版",
+        "zh": "未来 守护者 维科洛 战争特别版",
         "en": "Mirai Guardian Wikelo War Special",
         "localizationSource": "official_global_ini"
       },
@@ -10340,7 +10340,7 @@
         {
           "tradeId": "684c9209-3dec-4519-a86c-7f49df47d14c",
           "tradeName": {
-            "zh": "守护者的战斗改版",
+            "zh": "守护者战斗改款",
             "en": "Guardian Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -10352,7 +10352,7 @@
     {
       "id": "mrai_pulse_collector_civ",
       "name": {
-        "zh": "未来 脉冲 维克洛特别版",
+        "zh": "未来 脉冲 维科洛 特别版",
         "en": "Mirai Pulse Wikelo Special",
         "localizationSource": "official_global_ini"
       },
@@ -10383,7 +10383,7 @@
         {
           "tradeId": "7304cb29-5e2a-4d01-80bb-2795b6e789d4",
           "tradeName": {
-            "zh": "脉冲升级版",
+            "zh": "脉冲 Plus",
             "en": "Pulse Plus",
             "localizationSource": "official_global_ini"
           },
@@ -10395,7 +10395,7 @@
     {
       "id": "misc_fortune_collector_industrial",
       "name": {
-        "zh": "武藏 财运 维克洛特别版",
+        "zh": "武藏 财运 维科洛 特别版",
         "en": "MISC Fortune Wikelo Special",
         "localizationSource": "official_global_ini"
       },
@@ -10426,7 +10426,7 @@
         {
           "tradeId": "7c5bdaa6-ad6a-44b3-a374-796b13ddd5e4",
           "tradeName": {
-            "zh": "给你的财运飞船",
+            "zh": "给你财运飞船",
             "en": "Fortune ship for you",
             "localizationSource": "official_global_ini"
           },
@@ -10438,7 +10438,7 @@
     {
       "id": "misc_prospector_collector_indust",
       "name": {
-        "zh": "武藏 勘探者 维克洛工作特别版",
+        "zh": "武藏 勘探者 维科洛 工作特别版",
         "en": "MISC Prospector Wikelo Work Special",
         "localizationSource": "official_global_ini"
       },
@@ -10481,7 +10481,7 @@
     {
       "id": "misc_starlancer_max_collector_indust",
       "name": {
-        "zh": "武藏 星际枪骑兵 MAX 维克洛工作特别版",
+        "zh": "武藏 星际枪骑兵 MAX 维科洛 工作特别版",
         "en": "MISC Starlancer MAX Wikelo Work Special",
         "localizationSource": "official_global_ini"
       },
@@ -10512,7 +10512,7 @@
         {
           "tradeId": "99b90562-4e98-46d2-aa7e-0926bed3bdf8",
           "tradeName": {
-            "zh": "比最多还多",
+            "zh": "不仅仅是 MAX",
             "en": "More than a Max",
             "localizationSource": "official_global_ini"
           },
@@ -10524,7 +10524,7 @@
     {
       "id": "misc_starlancer_tac_collector_military",
       "name": {
-        "zh": "武藏 星际枪骑兵 TAC 维克洛战争特别版",
+        "zh": "武藏 星际枪骑兵 TAC 维科洛 战争特别版",
         "en": "MISC Starlancer TAC Wikelo War Special",
         "localizationSource": "official_global_ini"
       },
@@ -10555,7 +10555,7 @@
         {
           "tradeId": "5c494816-ebc0-46a6-a23c-d463d4b0330d",
           "tradeName": {
-            "zh": "新的移动大型星际枪骑兵飞船",
+            "zh": "新技巧大型星际枪骑兵飞船",
             "en": "New Move Big Starlancer Ship",
             "localizationSource": "official_global_ini"
           },
@@ -11835,9 +11835,9 @@
     {
       "id": "kap_combat_heavy_arms_01_01_01",
       "name": {
-        "zh": null,
+        "zh": "Monolith 臂甲",
         "en": "Monolith Armor Arms",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "item",
       "descriptionZh": null,
@@ -11865,9 +11865,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 1,
           "unit": "x"
@@ -11878,9 +11878,9 @@
     {
       "id": "kap_combat_heavy_arms_01_04_01",
       "name": {
-        "zh": null,
+        "zh": "Monolith 臂甲 Shadowflux",
         "en": "Monolith Armor Arms Shadowflux",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "item",
       "descriptionZh": null,
@@ -11909,9 +11909,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 1,
           "unit": "x"
@@ -11921,9 +11921,9 @@
     {
       "id": "bp_reward_kap_combat_heavy_arms_01_04_01",
       "name": {
-        "zh": "蓝图",
+        "zh": "Monolith 臂甲 Shadowflux 蓝图",
         "en": "Monolith Armor Arms Shadowflux Blueprint",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "blueprint",
       "descriptionZh": null,
@@ -11952,9 +11952,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 1,
           "unit": "x"
@@ -11964,9 +11964,9 @@
     {
       "id": "kap_combat_heavy_core_01_01_01",
       "name": {
-        "zh": null,
+        "zh": "Monolith 胸甲",
         "en": "Monolith Armor Core",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "item",
       "descriptionZh": null,
@@ -11994,9 +11994,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 1,
           "unit": "x"
@@ -12007,9 +12007,9 @@
     {
       "id": "kap_combat_heavy_core_01_04_01",
       "name": {
-        "zh": null,
+        "zh": "Monolith 胸甲 Shadowflux",
         "en": "Monolith Armor Core Shadowflux",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "item",
       "descriptionZh": null,
@@ -12038,9 +12038,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 1,
           "unit": "x"
@@ -12050,9 +12050,9 @@
     {
       "id": "bp_reward_kap_combat_heavy_core_01_04_01",
       "name": {
-        "zh": "蓝图",
+        "zh": "Monolith 胸甲 Shadowflux 蓝图",
         "en": "Monolith Armor Core Shadowflux Blueprint",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "blueprint",
       "descriptionZh": null,
@@ -12081,9 +12081,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 1,
           "unit": "x"
@@ -12093,9 +12093,9 @@
     {
       "id": "kap_combat_heavy_legs_01_01_01",
       "name": {
-        "zh": null,
+        "zh": "Monolith 腿甲",
         "en": "Monolith Armor Legs",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "item",
       "descriptionZh": null,
@@ -12123,9 +12123,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 1,
           "unit": "x"
@@ -12136,9 +12136,9 @@
     {
       "id": "kap_combat_heavy_legs_01_04_01",
       "name": {
-        "zh": null,
+        "zh": "Monolith 腿甲 Shadowflux",
         "en": "Monolith Armor Legs Shadowflux",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "item",
       "descriptionZh": null,
@@ -12167,9 +12167,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 1,
           "unit": "x"
@@ -12179,9 +12179,9 @@
     {
       "id": "bp_reward_kap_combat_heavy_legs_01_04_01",
       "name": {
-        "zh": "蓝图",
+        "zh": "Monolith 腿甲 Shadowflux 蓝图",
         "en": "Monolith Armor Legs Shadowflux Blueprint",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "blueprint",
       "descriptionZh": null,
@@ -12210,9 +12210,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 1,
           "unit": "x"
@@ -12222,9 +12222,9 @@
     {
       "id": "kap_combat_heavy_backpack_01_01_01",
       "name": {
-        "zh": null,
+        "zh": "Monolith 背包",
         "en": "Monolith Backpack",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "item",
       "descriptionZh": null,
@@ -12252,9 +12252,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 1,
           "unit": "x"
@@ -12265,9 +12265,9 @@
     {
       "id": "kap_combat_heavy_backpack_01_04_01",
       "name": {
-        "zh": null,
+        "zh": "Monolith 背包 Shadowflux",
         "en": "Monolith Backpack Shadowflux",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "item",
       "descriptionZh": null,
@@ -12296,9 +12296,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 1,
           "unit": "x"
@@ -12308,9 +12308,9 @@
     {
       "id": "bp_reward_kap_combat_heavy_backpack_01_04_01",
       "name": {
-        "zh": "蓝图",
+        "zh": "Monolith 背包 Shadowflux 蓝图",
         "en": "Monolith Backpack Shadowflux Blueprint",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "blueprint",
       "descriptionZh": null,
@@ -12339,9 +12339,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 1,
           "unit": "x"
@@ -12351,9 +12351,9 @@
     {
       "id": "kap_combat_heavy_helmet_01_01_01",
       "name": {
-        "zh": null,
+        "zh": "Monolith 头盔",
         "en": "Monolith Helmet",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "item",
       "descriptionZh": null,
@@ -12381,9 +12381,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 1,
           "unit": "x"
@@ -12394,9 +12394,9 @@
     {
       "id": "kap_combat_heavy_helmet_01_04_01",
       "name": {
-        "zh": null,
+        "zh": "Monolith 头盔 Shadowflux",
         "en": "Monolith Helmet Shadowflux",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "item",
       "descriptionZh": null,
@@ -12425,9 +12425,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 1,
           "unit": "x"
@@ -12437,9 +12437,9 @@
     {
       "id": "bp_reward_kap_combat_heavy_helmet_01_04_01",
       "name": {
-        "zh": "蓝图",
+        "zh": "Monolith 头盔 Shadowflux 蓝图",
         "en": "Monolith Helmet Shadowflux Blueprint",
-        "localizationSource": "english_fallback"
+        "localizationSource": "official_global_ini"
       },
       "category": "blueprint",
       "descriptionZh": null,
@@ -12468,9 +12468,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 1,
           "unit": "x"
@@ -12608,7 +12608,7 @@
         {
           "tradeId": "12926a62-afde-4984-8887-dbe564527192",
           "tradeName": {
-            "zh": "让ATLS会开火",
+            "zh": "让 ATLS 能射击",
             "en": "Make ATLS shoot",
             "localizationSource": "official_global_ini"
           },
@@ -12618,7 +12618,7 @@
         {
           "tradeId": "7b7cd8d9-d3e4-4f48-b995-487933fd332e",
           "tradeName": {
-            "zh": "让会跳的ATLS会开火",
+            "zh": "让 ATLS 能跳又能射",
             "en": "Make jumpy ATLS shoot",
             "localizationSource": "official_global_ini"
           },
@@ -12631,7 +12631,7 @@
     {
       "id": "clda_env_heavy_backpack_01_iae2023_01",
       "name": {
-        "zh": "诺维科夫 背包 升天",
+        "zh": "诺维科夫 升天 背包",
         "en": "Novikov \"Ascension\" Backpack",
         "localizationSource": "official_global_ini"
       },
@@ -12662,7 +12662,7 @@
         {
           "tradeId": "3d432269-ee32-4127-abda-60b30a5c3660",
           "tradeName": {
-            "zh": "行走在危险中。看起来很棒。",
+            "zh": "在危险中行走。看起来很棒。",
             "en": "Walk in danger. Look good.",
             "localizationSource": "official_global_ini"
           },
@@ -12674,7 +12674,7 @@
     {
       "id": "clda_env_heavy_unified_01_iae2023_01",
       "name": {
-        "zh": "诺维科夫 探索服 升天",
+        "zh": "诺维科夫 升天 探索服",
         "en": "Novikov \"Ascension\" Exploration Suit",
         "localizationSource": "official_global_ini"
       },
@@ -12705,7 +12705,7 @@
         {
           "tradeId": "3d432269-ee32-4127-abda-60b30a5c3660",
           "tradeName": {
-            "zh": "行走在危险中。看起来很棒。",
+            "zh": "在危险中行走。看起来很棒。",
             "en": "Walk in danger. Look good.",
             "localizationSource": "official_global_ini"
           },
@@ -12717,7 +12717,7 @@
     {
       "id": "clda_env_heavy_helmet_01_iae2023_01",
       "name": {
-        "zh": "诺维科夫 头盔 升天",
+        "zh": "诺维科夫 升天 头盔",
         "en": "Novikov \"Ascension\" Helmet",
         "localizationSource": "official_global_ini"
       },
@@ -12748,7 +12748,7 @@
         {
           "tradeId": "3d432269-ee32-4127-abda-60b30a5c3660",
           "tradeName": {
-            "zh": "行走在危险中。看起来很棒。",
+            "zh": "在危险中行走。看起来很棒。",
             "en": "Walk in danger. Look good.",
             "localizationSource": "official_global_ini"
           },
@@ -12791,7 +12791,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413745",
           "tradeName": {
-            "zh": "闪亮的工服",
+            "zh": "闪亮的工装服",
             "en": "Shiny Builder Suit",
             "localizationSource": "official_global_ini"
           },
@@ -12856,7 +12856,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413745",
           "tradeName": {
-            "zh": "闪亮的工服",
+            "zh": "闪亮的工装服",
             "en": "Shiny Builder Suit",
             "localizationSource": "official_global_ini"
           },
@@ -12887,7 +12887,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：射手 - 六角湾、护甲商店 - 特雷斯勒空间站、货运服务 - 列夫斯基、货运服务 - 尼克斯星门 (派罗)、货运服务 - 废墟空间站、货运服务 - 恩惠加油站、货运服务 - 斯坦顿星门 (尼克斯)、货运服务 - 死局空间站 等 18 处",
+          "location": "可购买地点：射手 - 六角湾、护甲店 - 特雷斯勒空间站、货物供应 - 埃弗勒斯空间站、货物供应 - 尼克斯星门 (斯坦顿)、货物供应 - 拜基尼空间站、货物供应 - 斯坦顿星门 (派罗)、货物供应 - 派罗星门 (斯坦顿)、货物供应 - 炽天使空间站 等 18 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=novikov-exploration-suit&tab=about",
@@ -12962,7 +12962,7 @@
         {
           "tradeId": "3d432269-ee32-4127-abda-60b30a5c3660",
           "tradeName": {
-            "zh": "行走在危险中。看起来很棒。",
+            "zh": "在危险中行走。看起来很棒。",
             "en": "Walk in danger. Look good.",
             "localizationSource": "official_global_ini"
           },
@@ -12993,7 +12993,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：射手 - 六角湾、护甲商店 - 特雷斯勒空间站、货运服务 - 列夫斯基、货运服务 - 尼克斯星门 (派罗)、货运服务 - 废墟空间站、货运服务 - 恩惠加油站、货运服务 - 斯坦顿星门 (尼克斯)、货运服务 - 死局空间站 等 18 处",
+          "location": "可购买地点：射手 - 六角湾、护甲店 - 特雷斯勒空间站、货物供应 - 埃弗勒斯空间站、货物供应 - 尼克斯星门 (斯坦顿)、货物供应 - 拜基尼空间站、货物供应 - 斯坦顿星门 (派罗)、货物供应 - 派罗星门 (斯坦顿)、货物供应 - 炽天使空间站 等 18 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=novikov-helmet&tab=about",
@@ -13068,7 +13068,7 @@
         {
           "tradeId": "3d432269-ee32-4127-abda-60b30a5c3660",
           "tradeName": {
-            "zh": "行走在危险中。看起来很棒。",
+            "zh": "在危险中行走。看起来很棒。",
             "en": "Walk in danger. Look good.",
             "localizationSource": "official_global_ini"
           },
@@ -13707,7 +13707,7 @@
     {
       "id": "volt_rifle_energy_01_collector02",
       "name": {
-        "zh": "视差 能量突击步枪 “趣味寇骈犬头骨”",
+        "zh": "视差 “趣味寇骈犬头骨” 能量突击步枪",
         "en": "Parallax \"Fun Kopion Skull\" Energy Assault Rifle",
         "localizationSource": "official_global_ini"
       },
@@ -13750,7 +13750,7 @@
     {
       "id": "volt_rifle_energy_01_collector01",
       "name": {
-        "zh": "视差 能量突击步枪 “趣味寇骈犬牙齿”",
+        "zh": "视差 “趣味寇骈犬牙齿” 能量突击步枪",
         "en": "Parallax \"Fun Kopion Tooth\" Energy Assault Rifle",
         "localizationSource": "official_global_ini"
       },
@@ -13793,7 +13793,7 @@
     {
       "id": "volt_rifle_energy_01_collector03",
       "name": {
-        "zh": "视差 能量突击步枪 “趣味军用头骨”",
+        "zh": "视差 “趣味军用头骨” 能量突击步枪",
         "en": "Parallax \"Fun Military Skull\" Energy Assault Rifle",
         "localizationSource": "official_global_ini"
       },
@@ -13836,7 +13836,7 @@
     {
       "id": "volt_rifle_energy_01_collector04",
       "name": {
-        "zh": "视差 能量突击步枪 “趣味军用牙齿”",
+        "zh": "视差 “趣味军用牙齿” 能量突击步枪",
         "en": "Parallax \"Fun Military Tooth\" Energy Assault Rifle",
         "localizationSource": "official_global_ini"
       },
@@ -13923,7 +13923,7 @@
           {
             "id": "21825507-7923-4683-9bf3-9cfe316940e3",
             "name": {
-              "zh": "金",
+              "zh": "万寿菊Mari",
               "en": "Gold",
               "localizationSource": "official_global_ini"
             },
@@ -14033,7 +14033,7 @@
     {
       "id": "volt_rifle_energy_01_mag",
       "name": {
-        "zh": "视差 步枪电池（80发）",
+        "zh": "视差 步枪电池 (80 发)",
         "en": "Parallax Rifle Battery (80 Cap)",
         "localizationSource": "official_global_ini"
       },
@@ -14051,7 +14051,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 81 处",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=parallax-rifle-battery-(80-cap)&tab=about",
@@ -14095,7 +14095,7 @@
           {
             "id": "21825507-7923-4683-9bf3-9cfe316940e3",
             "name": {
-              "zh": "金",
+              "zh": "万寿菊Mari",
               "en": "Gold",
               "localizationSource": "official_global_ini"
             },
@@ -14368,7 +14368,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -14378,7 +14378,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -14388,7 +14388,7 @@
         {
           "tradeId": "3b698db0-7623-4210-9653-2025d491ab10",
           "tradeName": {
-            "zh": "星际运输船 A2战斗改版",
+            "zh": "星际运输船 A2 战争改款",
             "en": "Starlifter A2 War Mod",
             "localizationSource": "official_global_ini"
           },
@@ -14400,7 +14400,7 @@
         {
           "tradeId": "82a0d506-def3-4ab5-b0e0-8833c7102f34",
           "tradeName": {
-            "zh": "想要北极星吗？需要特别的东西。",
+            "zh": "想要北极星吗？需要点特别的东西。",
             "en": "Want Polaris? Need something special.",
             "localizationSource": "official_global_ini"
           },
@@ -14412,7 +14412,7 @@
     {
       "id": "volt_shotgun_energy_01_collector01",
       "name": {
-        "zh": "棱镜 激光霰弹枪 “辐照”",
+        "zh": "棱镜 “辐照” 激光霰弹枪",
         "en": "Prism \"Irradiated\" Laser Shotgun",
         "localizationSource": "official_global_ini"
       },
@@ -14443,7 +14443,7 @@
         {
           "tradeId": "e404f6c6-997d-4195-8e48-1a8f859398c9",
           "tradeName": {
-            "zh": "让VOLT霰弹枪更愤怒",
+            "zh": "让 VOLT 霰弹枪更愤怒",
             "en": "Make VOLT shotgun angrier",
             "localizationSource": "official_global_ini"
           },
@@ -14499,7 +14499,7 @@
           {
             "id": "21825507-7923-4683-9bf3-9cfe316940e3",
             "name": {
-              "zh": "金",
+              "zh": "万寿菊Mari",
               "en": "Gold",
               "localizationSource": "official_global_ini"
             },
@@ -14530,7 +14530,7 @@
         {
           "tradeId": "e404f6c6-997d-4195-8e48-1a8f859398c9",
           "tradeName": {
-            "zh": "让VOLT霰弹枪更愤怒",
+            "zh": "让 VOLT 霰弹枪更愤怒",
             "en": "Make VOLT shotgun angrier",
             "localizationSource": "official_global_ini"
           },
@@ -14543,7 +14543,7 @@
     {
       "id": "volt_shotgun_energy_01_mag",
       "name": {
-        "zh": "棱镜 激光霰弹枪 电池（20发）",
+        "zh": "棱镜 激光霰弹枪电池（20 发）",
         "en": "Prism Laser Shotgun Battery (20 cap)",
         "localizationSource": "official_global_ini"
       },
@@ -14561,7 +14561,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 81 处",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=prism-laser-shotgun-battery-(20-cap)&tab=about",
@@ -14626,7 +14626,7 @@
         {
           "tradeId": "e404f6c6-997d-4195-8e48-1a8f859398c9",
           "tradeName": {
-            "zh": "让VOLT霰弹枪更愤怒",
+            "zh": "让 VOLT 霰弹枪更愤怒",
             "en": "Make VOLT shotgun angrier",
             "localizationSource": "official_global_ini"
           },
@@ -14638,7 +14638,7 @@
     {
       "id": "Quantainium",
       "name": {
-        "zh": "量子矿",
+        "zh": "量子矿物",
         "en": "Quantainium",
         "localizationSource": "official_global_ini"
       },
@@ -14668,7 +14668,7 @@
         {
           "tradeId": "1a9c813d-f143-49e6-addf-5d068a456cc5",
           "tradeName": {
-            "zh": "ATLS 警示线涂装",
+            "zh": "ATLS 警示线",
             "en": "ATLS Orange Line",
             "localizationSource": "official_global_ini"
           },
@@ -14678,7 +14678,7 @@
         {
           "tradeId": "7b7cd8d9-d3e4-4f48-b995-487933fd332e",
           "tradeName": {
-            "zh": "让会跳的ATLS会开火",
+            "zh": "让 ATLS 能跳又能射",
             "en": "Make jumpy ATLS shoot",
             "localizationSource": "official_global_ini"
           },
@@ -14688,7 +14688,7 @@
         {
           "tradeId": "82a0d506-def3-4ab5-b0e0-8833c7102f34",
           "tradeName": {
-            "zh": "想要北极星吗？需要特别的东西。",
+            "zh": "想要北极星吗？需要点特别的东西。",
             "en": "Want Polaris? Need something special.",
             "localizationSource": "official_global_ini"
           },
@@ -14701,7 +14701,7 @@
     {
       "id": "volt_smg_energy_01_collector03",
       "name": {
-        "zh": "石英 能量冲锋枪 “钴蓝迷彩”",
+        "zh": "石英 “钴蓝迷彩” 能量冲锋枪",
         "en": "Quartz \"Cobalt Camo\" Energy SMG",
         "localizationSource": "official_global_ini"
       },
@@ -14732,7 +14732,7 @@
         {
           "tradeId": "e44de29c-a2c3-49ef-864b-03eb7ae466db",
           "tradeName": {
-            "zh": "更像海军的VOLT枪",
+            "zh": "更像海军的电击枪",
             "en": "Volt gun more Navy-like",
             "localizationSource": "official_global_ini"
           },
@@ -14744,7 +14744,7 @@
     {
       "id": "volt_smg_energy_01_collector02",
       "name": {
-        "zh": "石英 能量冲锋枪 “猎人迷彩”",
+        "zh": "石英 “猎人迷彩” 能量冲锋枪",
         "en": "Quartz \"Hunter Camo\" Energy SMG",
         "localizationSource": "official_global_ini"
       },
@@ -14775,7 +14775,7 @@
         {
           "tradeId": "6472920a-5588-4378-89a1-b2c5bcbfc75c",
           "tradeName": {
-            "zh": "把枪做成沙子",
+            "zh": "把枪做成沙色",
             "en": "Make gun sandy",
             "localizationSource": "official_global_ini"
           },
@@ -14787,7 +14787,7 @@
     {
       "id": "volt_smg_energy_01_collector01",
       "name": {
-        "zh": "石英 能量冲锋枪 “丛林迷彩”",
+        "zh": "石英 “丛林迷彩” 能量冲锋枪",
         "en": "Quartz \"Jungle Camo\" Energy SMG",
         "localizationSource": "official_global_ini"
       },
@@ -14874,7 +14874,7 @@
           {
             "id": "21825507-7923-4683-9bf3-9cfe316940e3",
             "name": {
-              "zh": "金",
+              "zh": "万寿菊Mari",
               "en": "Gold",
               "localizationSource": "official_global_ini"
             },
@@ -14921,7 +14921,7 @@
         {
           "tradeId": "6472920a-5588-4378-89a1-b2c5bcbfc75c",
           "tradeName": {
-            "zh": "把枪做成沙子",
+            "zh": "把枪做成沙色",
             "en": "Make gun sandy",
             "localizationSource": "official_global_ini"
           },
@@ -14931,7 +14931,7 @@
         {
           "tradeId": "e44de29c-a2c3-49ef-864b-03eb7ae466db",
           "tradeName": {
-            "zh": "更像海军的VOLT枪",
+            "zh": "更像海军的电击枪",
             "en": "Volt gun more Navy-like",
             "localizationSource": "official_global_ini"
           },
@@ -14954,7 +14954,7 @@
     {
       "id": "volt_smg_energy_01_mag",
       "name": {
-        "zh": "石英 能量冲锋枪电池（45发）",
+        "zh": "石英 能量冲锋枪电池 (45 发)",
         "en": "Quartz Energy SMG Battery (45 cap)",
         "localizationSource": "official_global_ini"
       },
@@ -14972,7 +14972,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 81 处",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=quartz-energy-smg-battery-(45-cap)&tab=about",
@@ -15065,7 +15065,7 @@
         {
           "tradeId": "6472920a-5588-4378-89a1-b2c5bcbfc75c",
           "tradeName": {
-            "zh": "把枪做成沙子",
+            "zh": "把枪做成沙色",
             "en": "Make gun sandy",
             "localizationSource": "official_global_ini"
           },
@@ -15075,7 +15075,7 @@
         {
           "tradeId": "e44de29c-a2c3-49ef-864b-03eb7ae466db",
           "tradeName": {
-            "zh": "更像海军的VOLT枪",
+            "zh": "更像海军的电击枪",
             "en": "Volt gun more Navy-like",
             "localizationSource": "official_global_ini"
           },
@@ -15097,7 +15097,7 @@
     {
       "id": "gmni_shotgun_ballistic_01_reward01",
       "name": {
-        "zh": "R97 霰弹枪 “猩红迷彩”",
+        "zh": "R97 “猩红迷彩” 霰弹枪",
         "en": "R97 \"Crimson Camo\" Shotgun",
         "localizationSource": "official_global_ini"
       },
@@ -15373,7 +15373,7 @@
     {
       "id": "gmni_shotgun_ballistic_01_mag",
       "name": {
-        "zh": "R97 霰弹枪弹匣（18 发）",
+        "zh": "R97 霰弹枪弹匣 (18 发)",
         "en": "R97 Shotgun Magazine (18 cap)",
         "localizationSource": "official_global_ini"
       },
@@ -15391,7 +15391,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地、商店终端 - 冰结镇、商店终端 - 卡比尔驿站 等 81 处",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=r97-shotgun-magazine-(18-cap)&tab=about",
@@ -15678,7 +15678,7 @@
         {
           "tradeId": "5bf19672-f057-4ccf-bdd4-d309edfeea15",
           "tradeName": {
-            "zh": "阿斯加德的战斗改版",
+            "zh": "阿斯加德战斗改款",
             "en": "Asgard Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -15688,7 +15688,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -15698,7 +15698,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -15708,7 +15708,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e4154f5",
           "tradeName": {
-            "zh": "做熔岩衣服",
+            "zh": "做熔岩套装",
             "en": "Do Lava Suit",
             "localizationSource": "official_global_ini"
           },
@@ -15751,7 +15751,7 @@
         {
           "tradeId": "5bf19672-f057-4ccf-bdd4-d309edfeea15",
           "tradeName": {
-            "zh": "阿斯加德的战斗改版",
+            "zh": "阿斯加德战斗改款",
             "en": "Asgard Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -15761,7 +15761,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -15771,7 +15771,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -15781,7 +15781,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e4154f5",
           "tradeName": {
-            "zh": "做熔岩衣服",
+            "zh": "做熔岩套装",
             "en": "Do Lava Suit",
             "localizationSource": "official_global_ini"
           },
@@ -15824,7 +15824,7 @@
         {
           "tradeId": "5bf19672-f057-4ccf-bdd4-d309edfeea15",
           "tradeName": {
-            "zh": "阿斯加德的战斗改版",
+            "zh": "阿斯加德战斗改款",
             "en": "Asgard Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -15834,7 +15834,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -15844,7 +15844,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -15854,7 +15854,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e4154f5",
           "tradeName": {
-            "zh": "做熔岩衣服",
+            "zh": "做熔岩套装",
             "en": "Do Lava Suit",
             "localizationSource": "official_global_ini"
           },
@@ -15897,7 +15897,7 @@
         {
           "tradeId": "5bf19672-f057-4ccf-bdd4-d309edfeea15",
           "tradeName": {
-            "zh": "阿斯加德的战斗改版",
+            "zh": "阿斯加德战斗改款",
             "en": "Asgard Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -15907,7 +15907,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -15917,7 +15917,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -15927,7 +15927,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413745",
           "tradeName": {
-            "zh": "闪亮的工服",
+            "zh": "闪亮的工装服",
             "en": "Shiny Builder Suit",
             "localizationSource": "official_global_ini"
           },
@@ -15970,7 +15970,7 @@
         {
           "tradeId": "5bf19672-f057-4ccf-bdd4-d309edfeea15",
           "tradeName": {
-            "zh": "阿斯加德的战斗改版",
+            "zh": "阿斯加德战斗改款",
             "en": "Asgard Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -15980,7 +15980,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -15990,7 +15990,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -16000,7 +16000,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413745",
           "tradeName": {
-            "zh": "闪亮的工服",
+            "zh": "闪亮的工装服",
             "en": "Shiny Builder Suit",
             "localizationSource": "official_global_ini"
           },
@@ -16043,7 +16043,7 @@
         {
           "tradeId": "5bf19672-f057-4ccf-bdd4-d309edfeea15",
           "tradeName": {
-            "zh": "阿斯加德的战斗改版",
+            "zh": "阿斯加德战斗改款",
             "en": "Asgard Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -16053,7 +16053,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -16063,7 +16063,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -16073,7 +16073,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e413745",
           "tradeName": {
-            "zh": "闪亮的工服",
+            "zh": "闪亮的工装服",
             "en": "Shiny Builder Suit",
             "localizationSource": "official_global_ini"
           },
@@ -16116,7 +16116,7 @@
         {
           "tradeId": "5bf19672-f057-4ccf-bdd4-d309edfeea15",
           "tradeName": {
-            "zh": "阿斯加德的战斗改版",
+            "zh": "阿斯加德战斗改款",
             "en": "Asgard Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -16126,7 +16126,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -16136,7 +16136,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -16146,7 +16146,7 @@
         {
           "tradeId": "ab52c274-a29e-4730-a311-917a27191416",
           "tradeName": {
-            "zh": "重型VOLT电击枪",
+            "zh": "重型 Volt 滋滋枪",
             "en": "Heavy VOLT Zapper",
             "localizationSource": "official_global_ini"
           },
@@ -16189,7 +16189,7 @@
         {
           "tradeId": "5bf19672-f057-4ccf-bdd4-d309edfeea15",
           "tradeName": {
-            "zh": "阿斯加德的战斗改版",
+            "zh": "阿斯加德战斗改款",
             "en": "Asgard Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -16199,7 +16199,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -16209,7 +16209,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -16219,7 +16219,7 @@
         {
           "tradeId": "ab52c274-a29e-4730-a311-917a27191416",
           "tradeName": {
-            "zh": "重型VOLT电击枪",
+            "zh": "重型 Volt 滋滋枪",
             "en": "Heavy VOLT Zapper",
             "localizationSource": "official_global_ini"
           },
@@ -16262,7 +16262,7 @@
         {
           "tradeId": "5bf19672-f057-4ccf-bdd4-d309edfeea15",
           "tradeName": {
-            "zh": "阿斯加德的战斗改版",
+            "zh": "阿斯加德战斗改款",
             "en": "Asgard Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -16272,7 +16272,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -16282,7 +16282,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -16292,7 +16292,7 @@
         {
           "tradeId": "ab52c274-a29e-4730-a311-917a27191416",
           "tradeName": {
-            "zh": "重型VOLT电击枪",
+            "zh": "重型 Volt 滋滋枪",
             "en": "Heavy VOLT Zapper",
             "localizationSource": "official_global_ini"
           },
@@ -16305,7 +16305,7 @@
     {
       "id": "rsi_apollo_triage_collector_stealth",
       "name": {
-        "zh": "RSI 阿波罗 分诊鬼祟特别版",
+        "zh": "RSI 阿波罗 分诊 维科洛 鬼祟特别版",
         "en": "RSI Apollo Triage Wikelo Sneak Special",
         "localizationSource": "official_global_ini"
       },
@@ -16348,7 +16348,7 @@
     {
       "id": "rsi_constellation_taurus_gs_military",
       "name": {
-        "zh": "RSI 星座 Mk IV 金牛座 维克洛战争特别版",
+        "zh": "RSI 星座 Mk IV 金牛座 维科洛 战争特别版",
         "en": "RSI Constellation Mk IV Taurus Wikelo War Special",
         "localizationSource": "official_global_ini"
       },
@@ -16379,7 +16379,7 @@
         {
           "tradeId": "8d7849fe-85c5-4c63-9754-a71bae57792f",
           "tradeName": {
-            "zh": "想要金牛座飞船吗",
+            "zh": "想要金牛座飞船",
             "en": "Want Taurus ship",
             "localizationSource": "official_global_ini"
           },
@@ -16391,7 +16391,7 @@
     {
       "id": "rsi_meteor_collector_stealth",
       "name": {
-        "zh": "RSI 流星 维克洛鬼祟特别版",
+        "zh": "RSI 流星 维科洛 鬼祟特别版",
         "en": "RSI Meteor Wikelo Sneak Special",
         "localizationSource": "official_global_ini"
       },
@@ -16422,7 +16422,7 @@
         {
           "tradeId": "71b27232-bb75-417e-8009-a8b5d9787e5a",
           "tradeName": {
-            "zh": "RSI 流星改版",
+            "zh": "RSI 流星改款",
             "en": "RSI Meteor Mod",
             "localizationSource": "official_global_ini"
           },
@@ -16434,7 +16434,7 @@
     {
       "id": "rsi_polaris_collector_military",
       "name": {
-        "zh": "RSI 北极星 维克洛特别版",
+        "zh": "RSI 北极星 维科洛特别版",
         "en": "RSI Polaris Wikelo Special",
         "localizationSource": "official_global_ini"
       },
@@ -16465,7 +16465,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -16477,7 +16477,7 @@
     {
       "id": "rsi_scorpius_stealth",
       "name": {
-        "zh": "RSI 天蝎座 维克洛鬼祟特别版",
+        "zh": "RSI 天蝎座 维科洛 鬼祟特别版",
         "en": "RSI Scorpius Wikelo Sneak Special",
         "localizationSource": "official_global_ini"
       },
@@ -16508,7 +16508,7 @@
         {
           "tradeId": "0424e501-e57e-47cb-bada-79f849560b4e",
           "tradeName": {
-            "zh": "制造天蝎座改版",
+            "zh": "造一个改款天蝎座",
             "en": "Build a Mod Scorpius",
             "localizationSource": "official_global_ini"
           },
@@ -16520,7 +16520,7 @@
     {
       "id": "rsi_ursa_medivac_stealth",
       "name": {
-        "zh": "RSI 大熊座 医疗 维克洛特别版",
+        "zh": "RSI 大熊座 医疗 维科洛 特别版",
         "en": "RSI Ursa Medivac Wikelo Special",
         "localizationSource": "official_global_ini"
       },
@@ -16551,7 +16551,7 @@
         {
           "tradeId": "5dec704a-de79-4311-88d1-53f9d05db952",
           "tradeName": {
-            "zh": "制造大熊座改版",
+            "zh": "做一个大熊座改款",
             "en": "Make a Ursa Mod",
             "localizationSource": "official_global_ini"
           },
@@ -16563,7 +16563,7 @@
     {
       "id": "rsi_zeus_cl_collector_indust",
       "name": {
-        "zh": "RSI 宙斯 Mk II CL 维克洛工作特别版",
+        "zh": "RSI 宙斯 MK II CL 维科洛 工作特别版",
         "en": "RSI Zeus Mk II CL",
         "localizationSource": "official_global_ini"
       },
@@ -16606,7 +16606,7 @@
     {
       "id": "rsi_zeus_es_collector_indust",
       "name": {
-        "zh": "RSI 宙斯 Mk II ES 维克洛工作特别版",
+        "zh": "RSI 宙斯 MK II ES 维科洛 工作特别版",
         "en": "RSI Zeus Mk II ES Wikelo Work Special",
         "localizationSource": "official_global_ini"
       },
@@ -16649,7 +16649,7 @@
     {
       "id": "gmni_rifle_ballistic_01_iae2023",
       "name": {
-        "zh": "S71 步枪 “升天”",
+        "zh": "S71 “升天” 步枪",
         "en": "S71 \"Ascension\" Rifle",
         "localizationSource": "official_global_ini"
       },
@@ -16680,7 +16680,7 @@
         {
           "tradeId": "4df999a1-93ba-47a4-b498-cfaad7553da3",
           "tradeName": {
-            "zh": "加强S71步枪",
+            "zh": "改造 S71 步枪",
             "en": "Built on S71 rifle",
             "localizationSource": "official_global_ini"
           },
@@ -16787,7 +16787,7 @@
         {
           "tradeId": "4df999a1-93ba-47a4-b498-cfaad7553da3",
           "tradeName": {
-            "zh": "加强S71步枪",
+            "zh": "改造 S71 步枪",
             "en": "Built on S71 rifle",
             "localizationSource": "official_global_ini"
           },
@@ -16800,7 +16800,7 @@
     {
       "id": "gmni_rifle_ballistic_01_mag",
       "name": {
-        "zh": "S71 步枪弹匣（30 发）",
+        "zh": "S71 步枪弹匣 (30 发)",
         "en": "S71 Rifle Magazine (30 cap)",
         "localizationSource": "official_global_ini"
       },
@@ -16818,7 +16818,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地、商店终端 - 冰结镇、商店终端 - 卡比尔驿站 等 81 处",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=s71-rifle-magazine-(30-cap)&tab=about",
@@ -16903,7 +16903,7 @@
         {
           "tradeId": "4df999a1-93ba-47a4-b498-cfaad7553da3",
           "tradeName": {
-            "zh": "加强S71步枪",
+            "zh": "改造 S71 步枪",
             "en": "Built on S71 rifle",
             "localizationSource": "official_global_ini"
           },
@@ -16998,7 +16998,7 @@
         {
           "tradeId": "5dec704a-de79-4311-88d1-53f9d05db952",
           "tradeName": {
-            "zh": "制造大熊座改版",
+            "zh": "做一个大熊座改款",
             "en": "Make a Ursa Mod",
             "localizationSource": "official_global_ini"
           },
@@ -17018,7 +17018,7 @@
         {
           "tradeId": "956685c4-0324-4cf8-8a67-fed823254e61",
           "tradeName": {
-            "zh": "探索探险家护甲",
+            "zh": "冒险探险家",
             "en": "Adventure a A-Venture",
             "localizationSource": "official_global_ini"
           },
@@ -17028,7 +17028,7 @@
         {
           "tradeId": "4df999a1-93ba-47a4-b498-cfaad7553da3",
           "tradeName": {
-            "zh": "加强S71步枪",
+            "zh": "改造 S71 步枪",
             "en": "Built on S71 rifle",
             "localizationSource": "official_global_ini"
           },
@@ -17078,9 +17078,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 25,
           "unit": "x"
@@ -17254,7 +17254,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e4154f5",
           "tradeName": {
-            "zh": "做熔岩衣服",
+            "zh": "做熔岩套装",
             "en": "Do Lava Suit",
             "localizationSource": "official_global_ini"
           },
@@ -17298,7 +17298,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e4154f5",
           "tradeName": {
-            "zh": "做熔岩衣服",
+            "zh": "做熔岩套装",
             "en": "Do Lava Suit",
             "localizationSource": "official_global_ini"
           },
@@ -17378,7 +17378,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e4154f5",
           "tradeName": {
-            "zh": "做熔岩衣服",
+            "zh": "做熔岩套装",
             "en": "Do Lava Suit",
             "localizationSource": "official_global_ini"
           },
@@ -17422,7 +17422,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e4154f5",
           "tradeName": {
-            "zh": "做熔岩衣服",
+            "zh": "做熔岩套装",
             "en": "Do Lava Suit",
             "localizationSource": "official_global_ini"
           },
@@ -17554,7 +17554,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e4154f5",
           "tradeName": {
-            "zh": "做熔岩衣服",
+            "zh": "做熔岩套装",
             "en": "Do Lava Suit",
             "localizationSource": "official_global_ini"
           },
@@ -17598,7 +17598,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e4154f5",
           "tradeName": {
-            "zh": "做熔岩衣服",
+            "zh": "做熔岩套装",
             "en": "Do Lava Suit",
             "localizationSource": "official_global_ini"
           },
@@ -17689,7 +17689,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e4154f5",
           "tradeName": {
-            "zh": "做熔岩衣服",
+            "zh": "做熔岩套装",
             "en": "Do Lava Suit",
             "localizationSource": "official_global_ini"
           },
@@ -17733,7 +17733,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e4154f5",
           "tradeName": {
-            "zh": "做熔岩衣服",
+            "zh": "做熔岩套装",
             "en": "Do Lava Suit",
             "localizationSource": "official_global_ini"
           },
@@ -17865,7 +17865,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e4154f5",
           "tradeName": {
-            "zh": "做熔岩衣服",
+            "zh": "做熔岩套装",
             "en": "Do Lava Suit",
             "localizationSource": "official_global_ini"
           },
@@ -17909,7 +17909,7 @@
         {
           "tradeId": "9d32ff6d-6b62-43d4-8b71-85d50e4154f5",
           "tradeName": {
-            "zh": "做熔岩衣服",
+            "zh": "做熔岩套装",
             "en": "Do Lava Suit",
             "localizationSource": "official_global_ini"
           },
@@ -17951,7 +17951,7 @@
         {
           "tradeId": "eae3334f-310a-4213-88e5-b84d248cc083",
           "tradeName": {
-            "zh": "整装待发",
+            "zh": "穿搭好再起飞",
             "en": "Suit Up Take Off",
             "localizationSource": "official_global_ini"
           },
@@ -18027,7 +18027,7 @@
         {
           "tradeId": "eae3334f-310a-4213-88e5-b84d248cc083",
           "tradeName": {
-            "zh": "整装待发",
+            "zh": "穿搭好再起飞",
             "en": "Suit Up Take Off",
             "localizationSource": "official_global_ini"
           },
@@ -18070,7 +18070,7 @@
         {
           "tradeId": "eae3334f-310a-4213-88e5-b84d248cc083",
           "tradeName": {
-            "zh": "整装待发",
+            "zh": "穿搭好再起飞",
             "en": "Suit Up Take Off",
             "localizationSource": "official_global_ini"
           },
@@ -18148,7 +18148,7 @@
         {
           "tradeId": "eae3334f-310a-4213-88e5-b84d248cc083",
           "tradeName": {
-            "zh": "整装待发",
+            "zh": "穿搭好再起飞",
             "en": "Suit Up Take Off",
             "localizationSource": "official_global_ini"
           },
@@ -18224,7 +18224,7 @@
         {
           "tradeId": "eae3334f-310a-4213-88e5-b84d248cc083",
           "tradeName": {
-            "zh": "整装待发",
+            "zh": "穿搭好再起飞",
             "en": "Suit Up Take Off",
             "localizationSource": "official_global_ini"
           },
@@ -18267,7 +18267,7 @@
         {
           "tradeId": "eae3334f-310a-4213-88e5-b84d248cc083",
           "tradeName": {
-            "zh": "整装待发",
+            "zh": "穿搭好再起飞",
             "en": "Suit Up Take Off",
             "localizationSource": "official_global_ini"
           },
@@ -18364,7 +18364,7 @@
         {
           "tradeId": "372b0eff-0e55-4654-a3ca-542058cb84cf",
           "tradeName": {
-            "zh": "剜度的护甲",
+            "zh": "剜度护甲",
             "en": "Armor with Vanduul",
             "localizationSource": "official_global_ini"
           },
@@ -18459,7 +18459,7 @@
         {
           "tradeId": "372b0eff-0e55-4654-a3ca-542058cb84cf",
           "tradeName": {
-            "zh": "剜度的护甲",
+            "zh": "剜度护甲",
             "en": "Armor with Vanduul",
             "localizationSource": "official_global_ini"
           },
@@ -18503,7 +18503,7 @@
         {
           "tradeId": "372b0eff-0e55-4654-a3ca-542058cb84cf",
           "tradeName": {
-            "zh": "剜度的护甲",
+            "zh": "剜度护甲",
             "en": "Armor with Vanduul",
             "localizationSource": "official_global_ini"
           },
@@ -18576,7 +18576,7 @@
         {
           "tradeId": "372b0eff-0e55-4654-a3ca-542058cb84cf",
           "tradeName": {
-            "zh": "剜度的护甲",
+            "zh": "剜度护甲",
             "en": "Armor with Vanduul",
             "localizationSource": "official_global_ini"
           },
@@ -18674,7 +18674,7 @@
         {
           "tradeId": "372b0eff-0e55-4654-a3ca-542058cb84cf",
           "tradeName": {
-            "zh": "剜度的护甲",
+            "zh": "剜度护甲",
             "en": "Armor with Vanduul",
             "localizationSource": "official_global_ini"
           },
@@ -18769,7 +18769,7 @@
         {
           "tradeId": "372b0eff-0e55-4654-a3ca-542058cb84cf",
           "tradeName": {
-            "zh": "剜度的护甲",
+            "zh": "剜度护甲",
             "en": "Armor with Vanduul",
             "localizationSource": "official_global_ini"
           },
@@ -18867,7 +18867,7 @@
         {
           "tradeId": "372b0eff-0e55-4654-a3ca-542058cb84cf",
           "tradeName": {
-            "zh": "剜度的护甲",
+            "zh": "剜度护甲",
             "en": "Armor with Vanduul",
             "localizationSource": "official_global_ini"
           },
@@ -18962,7 +18962,7 @@
         {
           "tradeId": "372b0eff-0e55-4654-a3ca-542058cb84cf",
           "tradeName": {
-            "zh": "剜度的护甲",
+            "zh": "剜度护甲",
             "en": "Armor with Vanduul",
             "localizationSource": "official_global_ini"
           },
@@ -19060,7 +19060,7 @@
         {
           "tradeId": "372b0eff-0e55-4654-a3ca-542058cb84cf",
           "tradeName": {
-            "zh": "剜度的护甲",
+            "zh": "剜度护甲",
             "en": "Armor with Vanduul",
             "localizationSource": "official_global_ini"
           },
@@ -19155,7 +19155,7 @@
         {
           "tradeId": "372b0eff-0e55-4654-a3ca-542058cb84cf",
           "tradeName": {
-            "zh": "剜度的护甲",
+            "zh": "剜度护甲",
             "en": "Armor with Vanduul",
             "localizationSource": "official_global_ini"
           },
@@ -19198,7 +19198,7 @@
         {
           "tradeId": "0424e501-e57e-47cb-bada-79f849560b4e",
           "tradeName": {
-            "zh": "制造天蝎座改版",
+            "zh": "造一个改款天蝎座",
             "en": "Build a Mod Scorpius",
             "localizationSource": "official_global_ini"
           },
@@ -19208,7 +19208,7 @@
         {
           "tradeId": "eba10cd5-37dc-440a-8eff-18dbcc5e5d8c",
           "tradeName": {
-            "zh": "F8的战斗改版",
+            "zh": "F8 战争改款",
             "en": "F8 War Mod",
             "localizationSource": "official_global_ini"
           },
@@ -19218,7 +19218,7 @@
         {
           "tradeId": "684c9209-3dec-4519-a86c-7f49df47d14c",
           "tradeName": {
-            "zh": "守护者的战斗改版",
+            "zh": "守护者战斗改款",
             "en": "Guardian Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -19228,7 +19228,7 @@
         {
           "tradeId": "5c494816-ebc0-46a6-a23c-d463d4b0330d",
           "tradeName": {
-            "zh": "新的移动大型星际枪骑兵飞船",
+            "zh": "新技巧大型星际枪骑兵飞船",
             "en": "New Move Big Starlancer Ship",
             "localizationSource": "official_global_ini"
           },
@@ -19238,7 +19238,7 @@
         {
           "tradeId": "da19d1a7-be72-4fea-803e-880d97ffdbe3",
           "tradeName": {
-            "zh": "隐身星际战斗机离子光",
+            "zh": "鬼鬼祟祟星际战斗机离子光",
             "en": "Sneaky Starfighter Ion",
             "localizationSource": "official_global_ini"
           },
@@ -19248,7 +19248,7 @@
         {
           "tradeId": "64f01a7a-62c6-42fa-8a62-6b537dfa3668",
           "tradeName": {
-            "zh": "星灵的货运改版",
+            "zh": "星灵货运改款",
             "en": "Spirit Cargo mod",
             "localizationSource": "official_global_ini"
           },
@@ -19258,7 +19258,7 @@
         {
           "tradeId": "3b698db0-7623-4210-9653-2025d491ab10",
           "tradeName": {
-            "zh": "星际运输船 A2战斗改版",
+            "zh": "星际运输船 A2 战争改款",
             "en": "Starlifter A2 War Mod",
             "localizationSource": "official_global_ini"
           },
@@ -19268,7 +19268,7 @@
         {
           "tradeId": "94bdfda2-a4d9-4d1a-877b-68518eedf320",
           "tradeName": {
-            "zh": "什么是水龟？",
+            "zh": "水龟是啥？",
             "en": "What is Terrapin?",
             "localizationSource": "official_global_ini"
           },
@@ -19288,7 +19288,7 @@
         {
           "tradeId": "2453dcac-761d-4f95-8783-d31106fcfe1e",
           "tradeName": {
-            "zh": "把希安贤梭服做得更好",
+            "zh": "希安贤梭服装变更好",
             "en": "Xi'an Xanthule Suit made better",
             "localizationSource": "official_global_ini"
           },
@@ -19301,7 +19301,7 @@
     {
       "id": "none_pistol_ballistic_01_collector01",
       "name": {
-        "zh": "三重击 手枪 “热浪”",
+        "zh": "三重击 “热浪” 手枪",
         "en": "Tripledown \"Heatwave\" Pistol",
         "localizationSource": "official_global_ini"
       },
@@ -19332,7 +19332,7 @@
         {
           "tradeId": "ba4e3db4-0f7d-4692-8b9d-8efe3085e84d",
           "tradeName": {
-            "zh": "神射手",
+            "zh": "热辣射击手枪",
             "en": "Hot Shot",
             "localizationSource": "official_global_ini"
           },
@@ -19421,7 +19421,7 @@
         {
           "tradeId": "ba4e3db4-0f7d-4692-8b9d-8efe3085e84d",
           "tradeName": {
-            "zh": "神射手",
+            "zh": "热辣射击手枪",
             "en": "Hot Shot",
             "localizationSource": "official_global_ini"
           },
@@ -19434,7 +19434,7 @@
     {
       "id": "none_pistol_ballistic_01_mag",
       "name": {
-        "zh": "三重击 手枪弹匣（12 发）",
+        "zh": "三重击 手枪弹匣 (12 发)",
         "en": "Tripledown Pistol Magazine (12 Cap)",
         "localizationSource": "official_global_ini"
       },
@@ -19452,7 +19452,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 死局空间站、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所、商店 杰克森交易站、商店 涸泽 等 64 处",
+          "location": "可购买地点：Sharp Shooters - 死局空间站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 64 处",
           "price": 154,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=tripledown-pistol-magazine-(12-cap)&tab=about",
@@ -19521,7 +19521,7 @@
         {
           "tradeId": "ba4e3db4-0f7d-4692-8b9d-8efe3085e84d",
           "tradeName": {
-            "zh": "神射手",
+            "zh": "热辣射击手枪",
             "en": "Hot Shot",
             "localizationSource": "official_global_ini"
           },
@@ -19593,7 +19593,7 @@
         {
           "tradeId": "028d7a46-bd97-4e32-a5bf-0b1775f05e1c",
           "tradeName": {
-            "zh": "维克洛来到星系",
+            "zh": "维科洛抵达这个星系",
             "en": "Wikelo Arrive to System",
             "localizationSource": "official_global_ini"
           },
@@ -19636,7 +19636,7 @@
         {
           "tradeId": "1a9c813d-f143-49e6-addf-5d068a456cc5",
           "tradeName": {
-            "zh": "ATLS 警示线涂装",
+            "zh": "ATLS 警示线",
             "en": "ATLS Orange Line",
             "localizationSource": "official_global_ini"
           },
@@ -19689,7 +19689,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -19699,7 +19699,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -19709,7 +19709,7 @@
         {
           "tradeId": "f7e6a331-3f4c-4400-a4cf-dbd75bffa102",
           "tradeName": {
-            "zh": "星际战斗机 地狱火特别版",
+            "zh": "星际战斗机地狱火特别版",
             "en": "Starfighter Inferno Special",
             "localizationSource": "official_global_ini"
           },
@@ -19732,7 +19732,7 @@
     {
       "id": "harvestable_trophy_1h_vlkjuvenilefang",
       "name": {
-        "zh": "瓦拉卡蠕虫牙（幼年）",
+        "zh": "瓦拉卡獠牙 (幼年期)",
         "en": "Valakkar Fang (Juvenile)",
         "localizationSource": "official_global_ini"
       },
@@ -19772,7 +19772,7 @@
         {
           "tradeId": "c4c7fa2d-91f5-4171-988b-9003841f4fcd",
           "tradeName": {
-            "zh": "想要盔甲看起来像树吗？",
+            "zh": "想要树皮一样的护甲？",
             "en": "Want armor look like tree?",
             "localizationSource": "official_global_ini"
           },
@@ -19815,7 +19815,7 @@
         {
           "tradeId": "ad595a7c-d314-442b-acce-ea140a56cffd",
           "tradeName": {
-            "zh": "守护者 WiK-X",
+            "zh": "守护者 Wik-X",
             "en": "Guardian WiK-X",
             "localizationSource": "official_global_ini"
           },
@@ -19825,7 +19825,7 @@
         {
           "tradeId": "71b27232-bb75-417e-8009-a8b5d9787e5a",
           "tradeName": {
-            "zh": "RSI 流星改版",
+            "zh": "RSI 流星改款",
             "en": "RSI Meteor Mod",
             "localizationSource": "official_global_ini"
           },
@@ -19845,7 +19845,7 @@
         {
           "tradeId": "372b0eff-0e55-4654-a3ca-542058cb84cf",
           "tradeName": {
-            "zh": "剜度的护甲",
+            "zh": "剜度护甲",
             "en": "Armor with Vanduul",
             "localizationSource": "official_global_ini"
           },
@@ -19855,7 +19855,7 @@
         {
           "tradeId": "b46612e0-4eae-4827-8038-e460e00f8967",
           "tradeName": {
-            "zh": "大风格轻机枪",
+            "zh": "大派头轻机枪",
             "en": "Big Style LMG",
             "localizationSource": "official_global_ini"
           },
@@ -19865,7 +19865,7 @@
         {
           "tradeId": "9c4459ac-2527-4024-b8f1-a08081df252a",
           "tradeName": {
-            "zh": "奇异武器",
+            "zh": "稀奇武器",
             "en": "Curious Weapon",
             "localizationSource": "official_global_ini"
           },
@@ -19875,9 +19875,9 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": null,
+            "zh": "非常光滑的Monolith",
             "en": "Monolith Armor Very Smooth",
-            "localizationSource": "english_fallback"
+            "localizationSource": "official_global_ini"
           },
           "quantity": 10,
           "unit": "x"
@@ -19918,7 +19918,7 @@
         {
           "tradeId": "ad595a7c-d314-442b-acce-ea140a56cffd",
           "tradeName": {
-            "zh": "守护者 WiK-X",
+            "zh": "守护者 Wik-X",
             "en": "Guardian WiK-X",
             "localizationSource": "official_global_ini"
           },
@@ -19928,7 +19928,7 @@
         {
           "tradeId": "71b27232-bb75-417e-8009-a8b5d9787e5a",
           "tradeName": {
-            "zh": "RSI 流星改版",
+            "zh": "RSI 流星改款",
             "en": "RSI Meteor Mod",
             "localizationSource": "official_global_ini"
           },
@@ -19948,7 +19948,7 @@
         {
           "tradeId": "372b0eff-0e55-4654-a3ca-542058cb84cf",
           "tradeName": {
-            "zh": "剜度的护甲",
+            "zh": "剜度护甲",
             "en": "Armor with Vanduul",
             "localizationSource": "official_global_ini"
           },
@@ -19958,7 +19958,7 @@
         {
           "tradeId": "9c4459ac-2527-4024-b8f1-a08081df252a",
           "tradeName": {
-            "zh": "奇异武器",
+            "zh": "稀奇武器",
             "en": "Curious Weapon",
             "localizationSource": "official_global_ini"
           },
@@ -19971,7 +19971,7 @@
     {
       "id": "apar_hmg_ballistic_01_collector01",
       "name": {
-        "zh": "世仇 重机枪 雪地迷彩",
+        "zh": "世仇 “雪地迷彩” 重机枪",
         "en": "Vendetta \"Snow Camo\" HMG",
         "localizationSource": "official_global_ini"
       },
@@ -20057,7 +20057,7 @@
     {
       "id": "bp_reward_apar_hmg_ballistic_01_collector01",
       "name": {
-        "zh": "世仇 重机枪 雪地迷彩 蓝图",
+        "zh": "世仇 “雪地迷彩” 重机枪 蓝图",
         "en": "Vendetta \"Snow Camo\" HMG Blueprint",
         "localizationSource": "official_global_ini"
       },
@@ -20172,7 +20172,7 @@
     {
       "id": "apar_hmg_ballistic_01_mag",
       "name": {
-        "zh": "世仇 重机枪弹匣（1000发）",
+        "zh": "世仇 重机枪弹匣 (1000 发)",
         "en": "Vendetta HMG Magazine (1000 Cap)",
         "localizationSource": "official_global_ini"
       },
@@ -20190,7 +20190,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 死局空间站、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所、商店 杰克森交易站、商店 涸泽 等 72 处",
+          "location": "可购买地点：Sharp Shooters - 死局空间站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 72 处",
           "price": 7425,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=vendetta-hmg-magazine-(1000-cap)&tab=about",
@@ -20508,7 +20508,7 @@
         {
           "tradeId": "956685c4-0324-4cf8-8a67-fed823254e61",
           "tradeName": {
-            "zh": "探索探险家护甲",
+            "zh": "冒险探险家",
             "en": "Adventure a A-Venture",
             "localizationSource": "official_global_ini"
           },
@@ -20552,7 +20552,7 @@
         {
           "tradeId": "956685c4-0324-4cf8-8a67-fed823254e61",
           "tradeName": {
-            "zh": "探索探险家护甲",
+            "zh": "冒险探险家",
             "en": "Adventure a A-Venture",
             "localizationSource": "official_global_ini"
           },
@@ -20582,7 +20582,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：护甲商店 - 十-L1 雄心伟梦站、护甲商店 - 微-L1 浅边站、护甲商店 - 微-L4 红色十字路口站、护甲商店 - 炽天使空间站、科途便利店 - 云景中心 - 奥里森、科途便利店 - 志远大厦 - 新巴贝奇",
+          "location": "可购买地点：护甲店 - 十 L1 雄心伟梦站、护甲店 - 微 L1 浅边站、护甲店 - 微 L4 红色十字路口站、护甲店 - 炽天使空间站、科途便利店 - 云景中心 - 奥里森、科途便利店 - 志远大厦 - 新巴贝奇",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=venture-core&tab=about",
@@ -20857,7 +20857,7 @@
         {
           "tradeId": "956685c4-0324-4cf8-8a67-fed823254e61",
           "tradeName": {
-            "zh": "探索探险家护甲",
+            "zh": "冒险探险家",
             "en": "Adventure a A-Venture",
             "localizationSource": "official_global_ini"
           },
@@ -20901,7 +20901,7 @@
         {
           "tradeId": "956685c4-0324-4cf8-8a67-fed823254e61",
           "tradeName": {
-            "zh": "探索探险家护甲",
+            "zh": "冒险探险家",
             "en": "Adventure a A-Venture",
             "localizationSource": "official_global_ini"
           },
@@ -20944,7 +20944,7 @@
         {
           "tradeId": "956685c4-0324-4cf8-8a67-fed823254e61",
           "tradeName": {
-            "zh": "探索探险家护甲",
+            "zh": "冒险探险家",
             "en": "Adventure a A-Venture",
             "localizationSource": "official_global_ini"
           },
@@ -21015,7 +21015,7 @@
         {
           "tradeId": "956685c4-0324-4cf8-8a67-fed823254e61",
           "tradeName": {
-            "zh": "探索探险家护甲",
+            "zh": "冒险探险家",
             "en": "Adventure a A-Venture",
             "localizationSource": "official_global_ini"
           },
@@ -21046,7 +21046,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲商店 - 十-L1 雄心伟梦站、护甲商店 - 十-L4 轻浅田野站、护甲商店 - 微-L4 红色十字路口站、护甲商店 - 炽天使空间站、科途便利店 - 云景中心 - 奥里森、科途便利店 - 志远大厦 - 新巴贝奇",
+          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 十 L1 雄心伟梦站、护甲店 - 十 L4 轻浅田野站、护甲店 - 微 L4 红色十字路口站、护甲店 - 炽天使空间站、科途便利店 - 云景中心 - 奥里森、科途便利店 - 志远大厦 - 新巴贝奇",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=venture-legs&tab=about",
@@ -21321,7 +21321,7 @@
         {
           "tradeId": "956685c4-0324-4cf8-8a67-fed823254e61",
           "tradeName": {
-            "zh": "探索探险家护甲",
+            "zh": "冒险探险家",
             "en": "Adventure a A-Venture",
             "localizationSource": "official_global_ini"
           },
@@ -21365,7 +21365,7 @@
         {
           "tradeId": "956685c4-0324-4cf8-8a67-fed823254e61",
           "tradeName": {
-            "zh": "探索探险家护甲",
+            "zh": "冒险探险家",
             "en": "Adventure a A-Venture",
             "localizationSource": "official_global_ini"
           },
@@ -21407,7 +21407,7 @@
         {
           "tradeId": "028d7a46-bd97-4e32-a5bf-0b1775f05e1c",
           "tradeName": {
-            "zh": "维克洛来到星系",
+            "zh": "维科洛抵达这个星系",
             "en": "Wikelo Arrive to System",
             "localizationSource": "official_global_ini"
           },
@@ -21506,7 +21506,7 @@
     {
       "id": "carryable_1h_cy_banu_favour_wikelo",
       "name": {
-        "zh": "维克洛的人情",
+        "zh": "维科洛人情",
         "en": "Wikelo Favor",
         "localizationSource": "official_global_ini"
       },
@@ -21536,7 +21536,7 @@
         {
           "tradeId": "5bf19672-f057-4ccf-bdd4-d309edfeea15",
           "tradeName": {
-            "zh": "阿斯加德的战斗改版",
+            "zh": "阿斯加德战斗改款",
             "en": "Asgard Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -21546,7 +21546,7 @@
         {
           "tradeId": "2fba83a9-7652-40a7-b761-1cf8651bbc34",
           "tradeName": {
-            "zh": "ATLS 冷铁涂装",
+            "zh": "ATLS 冷铁",
             "en": "ATLS Cool Metal Color",
             "localizationSource": "official_global_ini"
           },
@@ -21556,7 +21556,7 @@
         {
           "tradeId": "1a9c813d-f143-49e6-addf-5d068a456cc5",
           "tradeName": {
-            "zh": "ATLS 警示线涂装",
+            "zh": "ATLS 警示线",
             "en": "ATLS Orange Line",
             "localizationSource": "official_global_ini"
           },
@@ -21566,7 +21566,7 @@
         {
           "tradeId": "7649f7a6-e0e0-44b5-87bc-803d6052c9f8",
           "tradeName": {
-            "zh": "ATLS 雪地涂装",
+            "zh": "ATLS 雪地",
             "en": "ATLS Snowland Color",
             "localizationSource": "official_global_ini"
           },
@@ -21576,7 +21576,7 @@
         {
           "tradeId": "0424e501-e57e-47cb-bada-79f849560b4e",
           "tradeName": {
-            "zh": "制造天蝎座改版",
+            "zh": "造一个改款天蝎座",
             "en": "Build a Mod Scorpius",
             "localizationSource": "official_global_ini"
           },
@@ -21586,7 +21586,7 @@
         {
           "tradeId": "eba10cd5-37dc-440a-8eff-18dbcc5e5d8c",
           "tradeName": {
-            "zh": "F8的战斗改版",
+            "zh": "F8 战争改款",
             "en": "F8 War Mod",
             "localizationSource": "official_global_ini"
           },
@@ -21596,7 +21596,7 @@
         {
           "tradeId": "1ef81be1-714c-4fea-9185-e7a4c2604256",
           "tradeName": {
-            "zh": "火鸟改版",
+            "zh": "火鸟改款",
             "en": "Firebird Mod",
             "localizationSource": "official_global_ini"
           },
@@ -21606,7 +21606,7 @@
         {
           "tradeId": "7c5bdaa6-ad6a-44b3-a374-796b13ddd5e4",
           "tradeName": {
-            "zh": "给你的财运飞船",
+            "zh": "给你财运飞船",
             "en": "Fortune ship for you",
             "localizationSource": "official_global_ini"
           },
@@ -21626,7 +21626,7 @@
         {
           "tradeId": "684c9209-3dec-4519-a86c-7f49df47d14c",
           "tradeName": {
-            "zh": "守护者的战斗改版",
+            "zh": "守护者战斗改款",
             "en": "Guardian Fight Mod",
             "localizationSource": "official_global_ini"
           },
@@ -21646,7 +21646,7 @@
         {
           "tradeId": "ad595a7c-d314-442b-acce-ea140a56cffd",
           "tradeName": {
-            "zh": "守护者 WiK-X",
+            "zh": "守护者 Wik-X",
             "en": "Guardian WiK-X",
             "localizationSource": "official_global_ini"
           },
@@ -21656,7 +21656,7 @@
         {
           "tradeId": "5dec704a-de79-4311-88d1-53f9d05db952",
           "tradeName": {
-            "zh": "制造大熊座改版",
+            "zh": "做一个大熊座改款",
             "en": "Make a Ursa Mod",
             "localizationSource": "official_global_ini"
           },
@@ -21666,7 +21666,7 @@
         {
           "tradeId": "12926a62-afde-4984-8887-dbe564527192",
           "tradeName": {
-            "zh": "让ATLS会开火",
+            "zh": "让 ATLS 能射击",
             "en": "Make ATLS shoot",
             "localizationSource": "official_global_ini"
           },
@@ -21676,7 +21676,7 @@
         {
           "tradeId": "7b7cd8d9-d3e4-4f48-b995-487933fd332e",
           "tradeName": {
-            "zh": "让会跳的ATLS会开火",
+            "zh": "让 ATLS 能跳又能射",
             "en": "Make jumpy ATLS shoot",
             "localizationSource": "official_global_ini"
           },
@@ -21686,7 +21686,7 @@
         {
           "tradeId": "99b90562-4e98-46d2-aa7e-0926bed3bdf8",
           "tradeName": {
-            "zh": "比最多还多",
+            "zh": "不仅仅是 MAX",
             "en": "More than a Max",
             "localizationSource": "official_global_ini"
           },
@@ -21696,7 +21696,7 @@
         {
           "tradeId": "3c839c32-d313-4c13-ade0-eb45b5bdea4b",
           "tradeName": {
-            "zh": "最特殊的狼",
+            "zh": "最特别的狼",
             "en": "Most Special Wolf",
             "localizationSource": "official_global_ini"
           },
@@ -21706,7 +21706,7 @@
         {
           "tradeId": "5c494816-ebc0-46a6-a23c-d463d4b0330d",
           "tradeName": {
-            "zh": "新的移动大型星际枪骑兵飞船",
+            "zh": "新技巧大型星际枪骑兵飞船",
             "en": "New Move Big Starlancer Ship",
             "localizationSource": "official_global_ini"
           },
@@ -21716,7 +21716,7 @@
         {
           "tradeId": "e05b8ffb-7455-4f24-bbcf-43e9dffc0cca",
           "tradeName": {
-            "zh": "现在制造北极星。短期交易。",
+            "zh": "现在可以造北极星了。限时交易。",
             "en": "Now make Polaris. Short Time Deal.",
             "localizationSource": "official_global_ini"
           },
@@ -21726,7 +21726,7 @@
         {
           "tradeId": "a033aab9-262e-44da-9213-35e225fc828a",
           "tradeName": {
-            "zh": "Nox改版",
+            "zh": "Nox 改款",
             "en": "Noxy Mod",
             "localizationSource": "official_global_ini"
           },
@@ -21736,7 +21736,7 @@
         {
           "tradeId": "ade95587-2c0d-433e-87c4-865e7dc80b0c",
           "tradeName": {
-            "zh": "游隼的维克洛改版",
+            "zh": "游隼维科洛改款",
             "en": "Peregrine Wikelo Mod",
             "localizationSource": "official_global_ini"
           },
@@ -21756,7 +21756,7 @@
         {
           "tradeId": "fec1ba32-a1bb-4cfb-adc9-8a2f792544e6",
           "tradeName": {
-            "zh": "徘徊者更多功能",
+            "zh": "徘徊者更加多功能",
             "en": "Prowler More Utility",
             "localizationSource": "official_global_ini"
           },
@@ -21766,7 +21766,7 @@
         {
           "tradeId": "7304cb29-5e2a-4d01-80bb-2795b6e789d4",
           "tradeName": {
-            "zh": "脉冲升级版",
+            "zh": "脉冲 Plus",
             "en": "Pulse Plus",
             "localizationSource": "official_global_ini"
           },
@@ -21776,7 +21776,7 @@
         {
           "tradeId": "fec4c8e6-df2f-4775-b8c3-c0e3fb7c35e7",
           "tradeName": {
-            "zh": "准备好要木筏了？",
+            "zh": "准备好木筏了吗？",
             "en": "Ready for RAFT?",
             "localizationSource": "official_global_ini"
           },
@@ -21796,7 +21796,7 @@
         {
           "tradeId": "71b27232-bb75-417e-8009-a8b5d9787e5a",
           "tradeName": {
-            "zh": "RSI 流星改版",
+            "zh": "RSI 流星改款",
             "en": "RSI Meteor Mod",
             "localizationSource": "official_global_ini"
           },
@@ -21806,7 +21806,7 @@
         {
           "tradeId": "6357945d-2e51-426f-b183-9c6f84c6a88b",
           "tradeName": {
-            "zh": "狡猾的刺客",
+            "zh": "鬼鬼祟祟刺客",
             "en": "Sneaky Stabber",
             "localizationSource": "official_global_ini"
           },
@@ -21816,7 +21816,7 @@
         {
           "tradeId": "da19d1a7-be72-4fea-803e-880d97ffdbe3",
           "tradeName": {
-            "zh": "隐身星际战斗机离子光",
+            "zh": "鬼鬼祟祟星际战斗机离子光",
             "en": "Sneaky Starfighter Ion",
             "localizationSource": "official_global_ini"
           },
@@ -21826,7 +21826,7 @@
         {
           "tradeId": "77fa8882-e82f-4c97-9cab-a7151758cb99",
           "tradeName": {
-            "zh": "为了大开杀戒的特殊伊德里斯",
+            "zh": "用于杀人的特别款伊德里斯",
             "en": "Special Idris For Killing",
             "localizationSource": "official_global_ini"
           },
@@ -21836,7 +21836,7 @@
         {
           "tradeId": "64f01a7a-62c6-42fa-8a62-6b537dfa3668",
           "tradeName": {
-            "zh": "星灵的货运改版",
+            "zh": "星灵货运改款",
             "en": "Spirit Cargo mod",
             "localizationSource": "official_global_ini"
           },
@@ -21846,7 +21846,7 @@
         {
           "tradeId": "f7e6a331-3f4c-4400-a4cf-dbd75bffa102",
           "tradeName": {
-            "zh": "星际战斗机 地狱火特别版",
+            "zh": "星际战斗机地狱火特别版",
             "en": "Starfighter Inferno Special",
             "localizationSource": "official_global_ini"
           },
@@ -21856,7 +21856,7 @@
         {
           "tradeId": "3b698db0-7623-4210-9653-2025d491ab10",
           "tradeName": {
-            "zh": "星际运输船 A2战斗改版",
+            "zh": "星际运输船 A2 战争改款",
             "en": "Starlifter A2 War Mod",
             "localizationSource": "official_global_ini"
           },
@@ -21866,7 +21866,7 @@
         {
           "tradeId": "c55c9f61-84d9-4180-8715-eab2fe524deb",
           "tradeName": {
-            "zh": "升级无畏",
+            "zh": "升级的无畏",
             "en": "Upgrade Intrepid",
             "localizationSource": "official_global_ini"
           },
@@ -21876,7 +21876,7 @@
         {
           "tradeId": "8d7849fe-85c5-4c63-9754-a71bae57792f",
           "tradeName": {
-            "zh": "想要金牛座飞船吗",
+            "zh": "想要金牛座飞船",
             "en": "Want Taurus ship",
             "localizationSource": "official_global_ini"
           },
@@ -21886,7 +21886,7 @@
         {
           "tradeId": "94bdfda2-a4d9-4d1a-877b-68518eedf320",
           "tradeName": {
-            "zh": "什么是水龟？",
+            "zh": "水龟是啥？",
             "en": "What is Terrapin?",
             "localizationSource": "official_global_ini"
           },
@@ -21906,7 +21906,7 @@
         {
           "tradeId": "c63d9c5a-5e25-49da-8254-b78706abea86",
           "tradeName": {
-            "zh": "维克洛的海军F7",
+            "zh": "维科洛海军 F7",
             "en": "Wikelo Navy F7",
             "localizationSource": "official_global_ini"
           },
@@ -21936,7 +21936,7 @@
         {
           "tradeId": "88bb3702-e20a-42e3-8ba3-328f2333e30c",
           "tradeName": {
-            "zh": "又重又亮",
+            "zh": "沉重又明亮",
             "en": "Heavy and Bright",
             "localizationSource": "official_global_ini"
           },
@@ -21946,7 +21946,7 @@
         {
           "tradeId": "dbe950bb-885f-4c12-ad7d-878723bb251c",
           "tradeName": {
-            "zh": "望着沙漠却不见你",
+            "zh": "望着沙漠看不见你",
             "en": "Look at desert but don't see you",
             "localizationSource": "official_global_ini"
           },
@@ -21956,7 +21956,7 @@
         {
           "tradeId": "82d178e8-e7c1-4436-981c-c51dbaa87f3b",
           "tradeName": {
-            "zh": "制造太空海军盔甲",
+            "zh": "打造太空海军护甲",
             "en": "Make space navy armor",
             "localizationSource": "official_global_ini"
           },
@@ -21986,7 +21986,7 @@
         {
           "tradeId": "eae3334f-310a-4213-88e5-b84d248cc083",
           "tradeName": {
-            "zh": "整装待发",
+            "zh": "穿搭好再起飞",
             "en": "Suit Up Take Off",
             "localizationSource": "official_global_ini"
           },
@@ -22006,7 +22006,7 @@
         {
           "tradeId": "c4c7fa2d-91f5-4171-988b-9003841f4fcd",
           "tradeName": {
-            "zh": "想要盔甲看起来像树吗？",
+            "zh": "想要树皮一样的护甲？",
             "en": "Want armor look like tree?",
             "localizationSource": "official_global_ini"
           },
@@ -22016,7 +22016,7 @@
         {
           "tradeId": "e7352f49-da6c-45c3-a7f7-6e897d788913",
           "tradeName": {
-            "zh": "想要更好的眼睛吗？",
+            "zh": "想要更好的眼睛？",
             "en": "Want Better Eyes?",
             "localizationSource": "official_global_ini"
           },
@@ -22026,7 +22026,7 @@
         {
           "tradeId": "dcc744eb-e9c5-4364-a1d2-9b39864baecf",
           "tradeName": {
-            "zh": "你最好的一击",
+            "zh": "你的最好的枪",
             "en": "Your Best Shot",
             "localizationSource": "official_global_ini"
           },
@@ -22080,7 +22080,7 @@
     {
       "id": "syfb_flightsuit_helmet_01_iae2023_01",
       "name": {
-        "zh": "贤梭 飞行头盔 升天",
+        "zh": "贤梭 升天 飞行头盔",
         "en": "Xanthule Ascension Flight Helmet",
         "localizationSource": "official_global_ini"
       },
@@ -22111,7 +22111,7 @@
         {
           "tradeId": "2453dcac-761d-4f95-8783-d31106fcfe1e",
           "tradeName": {
-            "zh": "把希安贤梭服做得更好",
+            "zh": "希安贤梭服装变更好",
             "en": "Xi'an Xanthule Suit made better",
             "localizationSource": "official_global_ini"
           },
@@ -22123,7 +22123,7 @@
     {
       "id": "syfb_flightsuit_01_iae2023_01",
       "name": {
-        "zh": "贤梭 飞行服 升天",
+        "zh": "贤梭 升天 飞行套装",
         "en": "Xanthule Ascension Flight Suit",
         "localizationSource": "official_global_ini"
       },
@@ -22154,7 +22154,7 @@
         {
           "tradeId": "2453dcac-761d-4f95-8783-d31106fcfe1e",
           "tradeName": {
-            "zh": "把希安贤梭服做得更好",
+            "zh": "希安贤梭服装变更好",
             "en": "Xi'an Xanthule Suit made better",
             "localizationSource": "official_global_ini"
           },
@@ -22214,7 +22214,7 @@
         {
           "tradeId": "2453dcac-761d-4f95-8783-d31106fcfe1e",
           "tradeName": {
-            "zh": "把希安贤梭服做得更好",
+            "zh": "希安贤梭服装变更好",
             "en": "Xi'an Xanthule Suit made better",
             "localizationSource": "official_global_ini"
           },
@@ -22227,7 +22227,7 @@
     {
       "id": "syfb_flightsuit_suit_01_01_01",
       "name": {
-        "zh": "贤梭 飞行服",
+        "zh": "贤梭 飞行套装",
         "en": "Xanthule Flight Suit",
         "localizationSource": "official_global_ini"
       },
@@ -22275,7 +22275,7 @@
         {
           "tradeId": "2453dcac-761d-4f95-8783-d31106fcfe1e",
           "tradeName": {
-            "zh": "把希安贤梭服做得更好",
+            "zh": "希安贤梭服装变更好",
             "en": "Xi'an Xanthule Suit made better",
             "localizationSource": "official_global_ini"
           },
@@ -22288,7 +22288,7 @@
     {
       "id": "behr_binoculars_01_collector01",
       "name": {
-        "zh": "XDL 单筒测距仪 I 型",
+        "zh": "XDL “I 型” 单筒测距仪",
         "en": "XDL \"Mark I\" Monocular Rangefinder",
         "localizationSource": "official_global_ini"
       },
@@ -22319,7 +22319,7 @@
         {
           "tradeId": "e7352f49-da6c-45c3-a7f7-6e897d788913",
           "tradeName": {
-            "zh": "想要更好的眼睛吗？",
+            "zh": "想要更好的眼睛？",
             "en": "Want Better Eyes?",
             "localizationSource": "official_global_ini"
           },
@@ -22331,7 +22331,7 @@
     {
       "id": "harvestable_trophy_1h_yormandi_eye",
       "name": {
-        "zh": "约曼迪眼",
+        "zh": "约曼迪之眼",
         "en": "Yormandi Eye",
         "localizationSource": "official_global_ini"
       },
@@ -22361,7 +22361,7 @@
         {
           "tradeId": "fec1ba32-a1bb-4cfb-adc9-8a2f792544e6",
           "tradeName": {
-            "zh": "徘徊者更多功能",
+            "zh": "徘徊者更加多功能",
             "en": "Prowler More Utility",
             "localizationSource": "official_global_ini"
           },
@@ -22371,7 +22371,7 @@
         {
           "tradeId": "da19d1a7-be72-4fea-803e-880d97ffdbe3",
           "tradeName": {
-            "zh": "隐身星际战斗机离子光",
+            "zh": "鬼鬼祟祟星际战斗机离子光",
             "en": "Sneaky Starfighter Ion",
             "localizationSource": "official_global_ini"
           },
@@ -22381,7 +22381,7 @@
         {
           "tradeId": "314c16b2-fffd-445d-9bfd-fde1414286cd",
           "tradeName": {
-            "zh": "更好看的F55",
+            "zh": "F55 更好看",
             "en": "F55 Look Better",
             "localizationSource": "official_global_ini"
           },
@@ -22401,7 +22401,7 @@
         {
           "tradeId": "e7352f49-da6c-45c3-a7f7-6e897d788913",
           "tradeName": {
-            "zh": "想要更好的眼睛吗？",
+            "zh": "想要更好的眼睛？",
             "en": "Want Better Eyes?",
             "localizationSource": "official_global_ini"
           },
@@ -22424,7 +22424,7 @@
     {
       "id": "carryable_2h_cy_yormandi_tongue",
       "name": {
-        "zh": "约曼迪舌",
+        "zh": "约曼迪舌头",
         "en": "Yormandi Tongue",
         "localizationSource": "official_global_ini"
       },
@@ -22454,7 +22454,7 @@
         {
           "tradeId": "fec1ba32-a1bb-4cfb-adc9-8a2f792544e6",
           "tradeName": {
-            "zh": "徘徊者更多功能",
+            "zh": "徘徊者更加多功能",
             "en": "Prowler More Utility",
             "localizationSource": "official_global_ini"
           },
@@ -22464,7 +22464,7 @@
         {
           "tradeId": "f7e6a331-3f4c-4400-a4cf-dbd75bffa102",
           "tradeName": {
-            "zh": "星际战斗机 地狱火特别版",
+            "zh": "星际战斗机地狱火特别版",
             "en": "Starfighter Inferno Special",
             "localizationSource": "official_global_ini"
           },
@@ -22474,7 +22474,7 @@
         {
           "tradeId": "314c16b2-fffd-445d-9bfd-fde1414286cd",
           "tradeName": {
-            "zh": "更好看的F55",
+            "zh": "F55 更好看",
             "en": "F55 Look Better",
             "localizationSource": "official_global_ini"
           },
@@ -22494,7 +22494,7 @@
         {
           "tradeId": "e7352f49-da6c-45c3-a7f7-6e897d788913",
           "tradeName": {
-            "zh": "想要更好的眼睛吗？",
+            "zh": "想要更好的眼睛？",
             "en": "Want Better Eyes?",
             "localizationSource": "official_global_ini"
           },
@@ -22517,7 +22517,7 @@
     {
       "id": "volt_sniper_energy_01_collector01",
       "name": {
-        "zh": "天顶 激光狙击步枪 雪地迷彩",
+        "zh": "天顶 “雪地迷彩” 激光狙击步枪",
         "en": "Zenith \"Snow Camo\" Laser Sniper Rifle",
         "localizationSource": "official_global_ini"
       },
@@ -22570,7 +22570,7 @@
           {
             "id": "21825507-7923-4683-9bf3-9cfe316940e3",
             "name": {
-              "zh": "金",
+              "zh": "万寿菊Mari",
               "en": "Gold",
               "localizationSource": "official_global_ini"
             },
@@ -22608,7 +22608,7 @@
         {
           "tradeId": "ab52c274-a29e-4730-a311-917a271917a8",
           "tradeName": {
-            "zh": "雪狙击枪",
+            "zh": "雪天狙击",
             "en": "Snow Snipe",
             "localizationSource": "official_global_ini"
           },
@@ -22664,7 +22664,7 @@
           {
             "id": "21825507-7923-4683-9bf3-9cfe316940e3",
             "name": {
-              "zh": "金",
+              "zh": "万寿菊Mari",
               "en": "Gold",
               "localizationSource": "official_global_ini"
             },
@@ -22706,7 +22706,7 @@
         {
           "tradeId": "ab52c274-a29e-4730-a311-917a271917a8",
           "tradeName": {
-            "zh": "雪狙击枪",
+            "zh": "雪天狙击",
             "en": "Snow Snipe",
             "localizationSource": "official_global_ini"
           },
@@ -22719,7 +22719,7 @@
     {
       "id": "volt_sniper_energy_01_mag",
       "name": {
-        "zh": "天顶 激光狙击步枪电池（22发）",
+        "zh": "天顶激光狙击步枪电池 (22发)",
         "en": "Zenith Laser Sniper Rifle Battery (22 Cap)",
         "localizationSource": "official_global_ini"
       },
@@ -22737,7 +22737,7 @@
         {
           "type": "purchase",
           "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 76 处",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 76 处",
           "price": null,
           "currency": "aUEC",
           "sourceUrl": "https://uexcorp.space/items/info?name=zenith-laser-sniper-rifle-battery-(22-cap)&tab=about",
@@ -22781,7 +22781,7 @@
           {
             "id": "21825507-7923-4683-9bf3-9cfe316940e3",
             "name": {
-              "zh": "金",
+              "zh": "万寿菊Mari",
               "en": "Gold",
               "localizationSource": "official_global_ini"
             },
@@ -22806,7 +22806,7 @@
         {
           "tradeId": "ab52c274-a29e-4730-a311-917a271917a8",
           "tradeName": {
-            "zh": "雪狙击枪",
+            "zh": "雪天狙击",
             "en": "Snow Snipe",
             "localizationSource": "official_global_ini"
           },

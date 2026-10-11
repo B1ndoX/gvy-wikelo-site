@@ -1,19 +1,19 @@
 {
   "sourcePath": "nas:/volume1/docker/starcitizen-shared-input/localization/data/localization/chinese_(simplified)/global.ini",
-  "sourceSha256": "ddbc1bdeba2085dc3d1e608187cee83c3f0253943fbbd0c81e009b1ef107e280",
-  "sourceUpdatedAt": "2026-10-10T13:03:46+00:00",
-  "sourceCommit": "a0a751354fddc4bef72dcadfcd186b7039229379",
+  "sourceSha256": "19c6e78aeec18ed2f055a2555af9449ffd16fc0152e51f8cee04de169ac97bd7",
+  "sourceUpdatedAt": "2026-10-11T02:34:31+00:00",
+  "sourceCommit": "b9d6559f7fcca02f3aa392c0e8246cc1abf720bb",
   "usingDerivedSnapshot": false,
   "sourceVersion": {
-    "label": "Alpha 4.10：奥里森之围",
+    "label": "4.10.2",
     "series": "4.10",
     "matchedLiveVersion": "4.10.2 LIVE.12881860",
     "verification": "series-only; source does not identify an exact LIVE build"
   },
-  "generatedAt": "2026-10-10T13:25:14.403Z",
+  "generatedAt": "2026-10-11T04:27:13.819Z",
   "entries": {
     "basl_combat_light_helmet_02_01_01": {
-      "zh": "王牌 截击者 头盔",
+      "zh": "王牌截击者 头盔",
       "en": "Ace Interceptor Helmet",
       "localizationSource": "official_global_ini"
     },
@@ -43,17 +43,17 @@
       "localizationSource": "official_global_ini"
     },
     "aegs_idris_p_collector_military": {
-      "zh": "圣盾 伊德里斯-P 维克洛战争特别版",
+      "zh": "圣盾 伊德里斯-P 维科洛 战争特别版",
       "en": "Aegis Idris-P Wikelo War Special",
       "localizationSource": "official_global_ini"
     },
     "aegs_sabre_firebird_collector_milt": {
-      "zh": "圣盾 军刀 火鸟 维克洛战争特别版",
+      "zh": "圣盾 军刀 火鸟 维科洛 战争特别版",
       "en": "Aegis Sabre Firebird Wikelo War Special",
       "localizationSource": "official_global_ini"
     },
     "aegs_sabre_peregrine_collector_competition": {
-      "zh": "圣盾 军刀 游隼 维克洛极速特别版",
+      "zh": "圣盾 军刀 游隼 维科洛 极速特别版",
       "en": "Aegis Sabre Peregrine Wikelo Speedy Special",
       "localizationSource": "official_global_ini"
     },
@@ -118,32 +118,32 @@
       "localizationSource": "official_global_ini"
     },
     "anvl_asgard_collector_military": {
-      "zh": "铁砧 阿斯加德 维克洛战争特别版",
+      "zh": "铁砧 阿斯加德 维科洛 战争特别版",
       "en": "Anvil Asgard Wikelo War Special",
       "localizationSource": "official_global_ini"
     },
     "anvl_hornet_f7_mk2_collector_mod": {
-      "zh": "铁砧 F7 大黄蜂 Mk 维克洛",
+      "zh": "铁砧 F7C-M 超级大黄蜂 Mk II 维科洛 特别版",
       "en": "Anvil F7 Hornet Mk Wikelo",
       "localizationSource": "official_global_ini"
     },
     "anvl_lightning_f8c_collector_stealth": {
-      "zh": "铁砧 F8C 闪电 维克洛鬼祟特别版",
+      "zh": "铁砧 F8C 闪电 维科洛 鬼祟特别版",
       "en": "Anvil F8C Lightning Wikelo Sneak Special",
       "localizationSource": "official_global_ini"
     },
     "anvl_lightning_f8c_collector_military": {
-      "zh": "铁砧 F8C 闪电 维克洛战争特别版",
+      "zh": "铁砧 F8C 闪电 维科洛 战争特别版",
       "en": "Anvil F8C Lightning Wikelo War Special",
       "localizationSource": "official_global_ini"
     },
     "anvl_terrapin_medic_collector_medic": {
-      "zh": "铁砧 水龟 医疗 维克洛拯救者特别版",
+      "zh": "铁砧 水龟 医疗 维科洛 拯救者特别版",
       "en": "Anvil Terrapin Medic Wikelo Savior Special",
       "localizationSource": "official_global_ini"
     },
     "xian_nox_collector_mod": {
-      "zh": "奥波亚 Nox 维克洛特别版",
+      "zh": "奥波亚 Nox 维科洛 特别版",
       "en": "Aopoa Nox Wikelo Special",
       "localizationSource": "official_global_ini"
     },
@@ -163,27 +163,27 @@
       "localizationSource": "official_global_ini"
     },
     "argo_raft_collector_indust": {
-      "zh": "南船座 木筏 维克洛工作特别版",
+      "zh": "南船座 木筏 维科洛 工作特别版",
       "en": "Argo RAFT Wikelo Work Special",
       "localizationSource": "official_global_ini"
     },
     "fps_consumable_harddrive_delving_hardened_asd_red": {
-      "zh": "联科发安全驱动器",
+      "zh": "ASD 安全驱动器",
       "en": "ASD Secure Drive",
       "localizationSource": "official_global_ini"
     },
     "argo_atls_geo_collector_grad03": {
-      "zh": "ATLS 冷铁涂装",
+      "zh": "ATLS 冷铁",
       "en": "ATLS Cool Metal Color",
       "localizationSource": "official_global_ini"
     },
     "argo_atls_geo_collector_grad02": {
-      "zh": "ATLS 警示线涂装",
+      "zh": "ATLS 警示线",
       "en": "ATLS Orange Line",
       "localizationSource": "official_global_ini"
     },
     "argo_atls_geo_collector_grad01": {
-      "zh": "ATLS 雪地涂装",
+      "zh": "ATLS 雪地",
       "en": "ATLS Snowland Color",
       "localizationSource": "official_global_ini"
     },
@@ -228,7 +228,7 @@
       "localizationSource": "official_global_ini"
     },
     "none_special_ballistic_01_collector01": {
-      "zh": "爆破筒 火箭发射器 “氏卫”",
+      "zh": "爆破筒 “氏卫” 发射器",
       "en": "Boomtube \"Clanguard\" Rocket Launcher",
       "localizationSource": "official_global_ini"
     },
@@ -238,7 +238,7 @@
       "localizationSource": "official_global_ini"
     },
     "none_special_ballistic_01": {
-      "zh": "爆破筒 火箭发射器",
+      "zh": "爆破筒 发射器",
       "en": "Boomtube Rocket Launcher",
       "localizationSource": "official_global_ini"
     },
@@ -278,22 +278,22 @@
       "localizationSource": "official_global_ini"
     },
     "harvestable_mineral_1h_carinitepure": {
-      "zh": "科力晶（纯）",
+      "zh": "纯净科力晶",
       "en": "Carinite (Pure)",
       "localizationSource": "official_global_ini"
     },
     "ksar_pistol_ballistic_01_iae2023": {
-      "zh": "终曲 手枪 “升天”",
+      "zh": "终曲 “升天” 手枪",
       "en": "Coda \"Ascension\" Pistol",
       "localizationSource": "official_global_ini"
     },
     "ksar_pistol_ballistic_01": {
-      "zh": "终曲 手枪",
+      "zh": "终曲实弹手枪",
       "en": "Coda Pistol",
       "localizationSource": "official_global_ini"
     },
     "ksar_pistol_ballistic_01_mag": {
-      "zh": "终曲 手枪弹匣（6 发）",
+      "zh": "终曲实弹手枪弹匣 (6 发)",
       "en": "Coda Pistol Magazine (6 cap)",
       "localizationSource": "official_global_ini"
     },
@@ -353,102 +353,102 @@
       "localizationSource": "official_global_ini"
     },
     "crus_starlifter_a2_collector_military": {
-      "zh": "十字军 大力神 A2 星际运输船 维克洛战争特别版",
+      "zh": "十字军 大力神 A2 星际运输船 维科洛 战争特别版",
       "en": "Crusader A2 Hercules Starlifter Wikelo War Special",
       "localizationSource": "official_global_ini"
     },
     "crus_starfighter_inferno_collector_military": {
-      "zh": "十字军 战神 星际战斗机 地狱火 维克洛战争特别版",
+      "zh": "十字军 战神 星际战斗机 地狱火 维科洛 战争特别版",
       "en": "Crusader Ares Star Fighter Inferno Wikelo War Special",
       "localizationSource": "official_global_ini"
     },
     "crus_starfighter_ion_collector_stealth": {
-      "zh": "十字军 战神 星际战斗机 离子光 维克洛鬼祟特别版",
+      "zh": "十字军 战神 星际战斗机 离子光 维科洛 鬼祟特别版",
       "en": "Crusader Ares Star Fighter Ion Wikelo Sneak Special",
       "localizationSource": "official_global_ini"
     },
     "crus_spirit_c1_civilian": {
-      "zh": "十字军 星灵 C1 维克洛特别版",
+      "zh": "十字军 星灵 C1 维科洛 特别版",
       "en": "Crusader C1 Spirit Wikelo Special",
       "localizationSource": "official_global_ini"
     },
     "crus_intrepid_collector_indust": {
-      "zh": "十字军 无畏 维克洛工作特别版",
+      "zh": "十字军 无畏 维科洛 工作特别版",
       "en": "Crusader Intrepid Wikelo Work Special",
       "localizationSource": "official_global_ini"
     },
     "carryable_1h_sq_pyro_serverblade_5": {
-      "zh": "DCHS-05 轨道定位计算板",
+      "zh": "DCHS-05 轨道定位 计算板",
       "en": "DCHS-05 Orbital Positioning Comp-Board",
       "localizationSource": "official_global_ini"
     },
     "cds_combat_heavy_arms_03_02_01": {
-      "zh": "DCP护甲 臂甲 钴蓝迷彩",
+      "zh": "DCP 护甲 臂甲 钴蓝迷彩",
       "en": "DCP Armor Arms Cobalt Camo",
       "localizationSource": "official_global_ini"
     },
     "cds_combat_heavy_arms_03_01_01": {
-      "zh": "DCP护甲 臂甲 猎人迷彩",
+      "zh": "DCP 护甲 臂甲 猎人迷彩",
       "en": "DCP Armor Arms Hunter Camo",
       "localizationSource": "official_global_ini"
     },
     "cds_combat_heavy_arms_03_03_01": {
-      "zh": "DCP护甲 臂甲 丛林迷彩",
+      "zh": "DCP 护甲 臂甲 丛林迷彩",
       "en": "DCP Armor Arms Jungle Camo",
       "localizationSource": "official_global_ini"
     },
     "cds_combat_heavy_core_03_02_01": {
-      "zh": "DCP护甲 胸甲 钴蓝迷彩",
+      "zh": "DCP 护甲 胸甲 钴蓝迷彩",
       "en": "DCP Armor Core Cobalt Camo",
       "localizationSource": "official_global_ini"
     },
     "cds_combat_heavy_core_03_01_01": {
-      "zh": "DCP护甲 胸甲 猎人迷彩",
+      "zh": "DCP 护甲 胸甲 猎人迷彩",
       "en": "DCP Armor Core Hunter Camo",
       "localizationSource": "official_global_ini"
     },
     "cds_combat_heavy_core_03_03_01": {
-      "zh": "DCP护甲 胸甲 丛林迷彩",
+      "zh": "DCP 护甲 胸甲 丛林迷彩",
       "en": "DCP Armor Core Jungle Camo",
       "localizationSource": "official_global_ini"
     },
     "cds_combat_heavy_helmet_03_02_01": {
-      "zh": "DCP护甲 头盔 钴蓝迷彩",
+      "zh": "DCP 护甲 头盔 钴蓝迷彩",
       "en": "DCP Armor Helmet Cobalt Camo",
       "localizationSource": "official_global_ini"
     },
     "cds_combat_heavy_helmet_03_01_01": {
-      "zh": "DCP护甲 头盔 猎人迷彩",
+      "zh": "DCP 护甲 头盔 猎人迷彩",
       "en": "DCP Armor Helmet Hunter Camo",
       "localizationSource": "official_global_ini"
     },
     "cds_combat_heavy_helmet_03_03_01": {
-      "zh": "DCP护甲 头盔 丛林迷彩",
+      "zh": "DCP 护甲 头盔 丛林迷彩",
       "en": "DCP Armor Helmet Jungle Camo",
       "localizationSource": "official_global_ini"
     },
     "cds_combat_heavy_legs_03_02_01": {
-      "zh": "DCP护甲 腿甲 钴蓝迷彩",
+      "zh": "DCP 护甲 腿甲 钴蓝迷彩",
       "en": "DCP Armor Legs Cobalt Camo",
       "localizationSource": "official_global_ini"
     },
     "cds_combat_heavy_legs_03_01_01": {
-      "zh": "DCP护甲 腿甲 猎人迷彩",
+      "zh": "DCP 护甲 腿甲 猎人迷彩",
       "en": "DCP Armor Legs Hunter Camo",
       "localizationSource": "official_global_ini"
     },
     "cds_combat_heavy_legs_03_03_01": {
-      "zh": "DCP护甲 腿甲 丛林迷彩",
+      "zh": "DCP 护甲 腿甲 丛林迷彩",
       "en": "DCP Armor Legs Jungle Camo",
       "localizationSource": "official_global_ini"
     },
     "drak_clipper_collector_military": {
-      "zh": "德雷克 快帆 维克洛战争特别版",
+      "zh": "德雷克 快帆 维科洛 战争特别版",
       "en": "Drake Clipper Wikelo War Special",
       "localizationSource": "official_global_ini"
     },
     "drak_golem_collector_indust": {
-      "zh": "德雷克 魔像 维克洛工作特别版",
+      "zh": "德雷克 魔像 维科洛 工作特别版",
       "en": "Drake Golem Wikelo Work Special",
       "localizationSource": "official_global_ini"
     },
@@ -458,29 +458,29 @@
       "localizationSource": "official_global_ini"
     },
     "espr_prowler_utility_collector_indust": {
-      "zh": "埃斯佩里亚 徘徊者 多功能 维克洛工作特别版",
+      "zh": "埃斯佩里亚 徘徊者 多功能 维科洛 工作特别版",
       "en": "Esperia Prowler Utility Wikelo Work Special",
       "localizationSource": "official_global_ini"
     },
     "carryable_tbo_missionitem_tsg_fueltank": {
-      "zh": "过期的量子燃料箱",
+      "zh": "过期量子燃料罐",
       "en": "Expired Quantanium Fuel Canister",
       "localizationSource": "official_global_ini"
     },
     "gmni_lmg_ballistic_01_collector01": {
-      "zh": "F55 轻机枪 I 型",
+      "zh": "F55 “I 型” 轻机枪",
       "en": "F55 \"Mark I\" LMG",
       "localizationSource": "official_global_ini"
     },
     "gmni_lmg_ballistic_01_collector02": {
-      "zh": null,
+      "zh": "F55 “Shadowflux” 轻机枪",
       "en": "F55 \"Shadowflux\" LMG",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "bp_reward_gmni_lmg_ballistic_01_collector02": {
-      "zh": "蓝图",
+      "zh": "F55 “Shadowflux” 轻机枪 蓝图",
       "en": "F55 \"Shadowflux\" LMG Blueprint",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "gmni_lmg_ballistic_01": {
       "zh": "F55 轻机枪",
@@ -488,72 +488,72 @@
       "localizationSource": "official_global_ini"
     },
     "gmni_lmg_ballistic_01_mag": {
-      "zh": "F55 轻机枪弹匣（150 发）",
+      "zh": "F55 轻机枪弹匣 (150 发)",
       "en": "F55 LMG Magazine (150 cap)",
       "localizationSource": "official_global_ini"
     },
     "volt_lmg_energy_01_collector01": {
-      "zh": "菲涅耳 能量轻机枪 深水",
+      "zh": "菲涅尔 “深水” 能量轻机枪",
       "en": "Fresnel \"Deepwater\" Energy LMG",
       "localizationSource": "official_global_ini"
     },
     "volt_lmg_energy_01_collector02": {
-      "zh": "菲涅耳 能量轻机枪 约曼迪",
+      "zh": "菲涅尔 “约曼迪” 能量轻机枪",
       "en": "Fresnel \"Yormandi\" Energy LMG",
       "localizationSource": "official_global_ini"
     },
     "volt_lmg_energy_01": {
-      "zh": "菲涅耳 能量轻机枪",
+      "zh": "菲涅尔 能量轻机枪",
       "en": "Fresnel Energy LMG",
       "localizationSource": "official_global_ini"
     },
     "volt_lmg_energy_01_mag": {
-      "zh": "菲涅耳 能量轻机枪电池（165发）",
+      "zh": "菲涅尔 能量轻机枪电池（165 发）",
       "en": "Fresnel Energy LMG Battery (165 Cap)",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_light_arms_02_01_01": {
-      "zh": "幽影护甲 臂甲 联科发版",
+      "zh": "幽影 臂甲 ASD 版",
       "en": "Geist Armor Arms ASD Edition",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_light_arms_02_02_01": {
-      "zh": "幽影护甲 臂甲 雪地迷彩",
+      "zh": "幽影 臂甲 雪地迷彩",
       "en": "Geist Armor Arms Snow Camo",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_light_core_02_01_01": {
-      "zh": "幽影护甲 胸甲 联科发版",
+      "zh": "幽影 胸甲 ASD 版",
       "en": "Geist Armor Core ASD Edition",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_light_core_02_02_01": {
-      "zh": "幽影护甲 胸甲 雪地迷彩",
+      "zh": "幽影 胸甲 雪地迷彩",
       "en": "Geist Armor Core Snow Camo",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_light_helmet_02_01_01": {
-      "zh": "幽影护甲 头盔 联科发版",
+      "zh": "幽影 头盔 ASD 版",
       "en": "Geist Armor Helmet ASD Edition",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_light_helmet_02_02_01": {
-      "zh": "幽影护甲 头盔 雪地迷彩",
+      "zh": "幽影 头盔 雪地迷彩",
       "en": "Geist Armor Helmet Snow Camo",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_light_legs_02_01_01": {
-      "zh": "幽影护甲 腿甲 联科发版",
+      "zh": "幽影 腿甲 ASD 版",
       "en": "Geist Armor Legs ASD Edition",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_light_legs_02_02_01": {
-      "zh": "幽影护甲 腿甲 雪地迷彩",
+      "zh": "幽影 腿甲 雪地迷彩",
       "en": "Geist Armor Legs Snow Camo",
       "localizationSource": "official_global_ini"
     },
     "cds_combat_light_backpack_01_03_01": {
-      "zh": "幽影 背包 联科发版",
+      "zh": "幽影 背包 ASD 版",
       "en": "Geist Backpack ASD Edition",
       "localizationSource": "official_global_ini"
     },
@@ -573,47 +573,47 @@
       "localizationSource": "official_global_ini"
     },
     "cds_combat_superheavy_backpack_01_01_01": {
-      "zh": "H4-PBF 弹药携行具",
+      "zh": "H4-PBF 弹药携具",
       "en": "H4-PBF Ammo Carrier",
       "localizationSource": "official_global_ini"
     },
     "cds_combat_superheavy_backpack_01_03_01": {
-      "zh": "H4-PBF 弹药携行具 雪地迷彩",
+      "zh": "H4-PBF 弹药携具 雪地迷彩",
       "en": "H4-PBF Ammo Carrier Snow Camo",
       "localizationSource": "official_global_ini"
     },
     "bp_reward_cds_combat_superheavy_backpack_01_03_01": {
-      "zh": "H4-PBF 弹药携行具 雪地迷彩 蓝图",
+      "zh": "H4-PBF 弹药携具 雪地迷彩 蓝图",
       "en": "H4-PBF Ammo Carrier Snow Camo Blueprint",
       "localizationSource": "official_global_ini"
     },
     "harvestable_trophy_1h_kopionhorn_irradiated": {
-      "zh": "被辐射的寇骈犬角",
+      "zh": "受辐射的寇骈犬角",
       "en": "Irradiated Kopion Horn",
       "localizationSource": "official_global_ini"
     },
     "harvestable_trophy_1h_vlkadultfang_irradiated": {
-      "zh": "被辐射的瓦拉卡蠕虫牙（成年）",
+      "zh": "受辐射的瓦拉卡獠牙 (成年期)",
       "en": "Irradiated Valakkar Fang (Adult)",
       "localizationSource": "official_global_ini"
     },
     "carryable_tbo_creature_trophy_vlkapexfang_irradiated": {
-      "zh": "被辐射的瓦拉卡蠕虫牙（巅峰期）",
+      "zh": "受辐射的瓦拉卡獠牙 (巅峰期)",
       "en": "Irradiated Valakkar Fang (Apex)",
       "localizationSource": "official_global_ini"
     },
     "harvestable_trophy_1h_vlkjuvenilefang_irradiated": {
-      "zh": "被辐射的瓦拉卡蠕虫牙（幼年）",
+      "zh": "受辐射的瓦拉卡獠牙 (幼年期)",
       "en": "Irradiated Valakkar Fang (Juvenile)",
       "localizationSource": "official_global_ini"
     },
     "carryable_2h_fl_vlk_pearl_irradiated_high_02": {
-      "zh": "被辐射的瓦拉卡蠕虫珍珠（AA级）",
+      "zh": "受辐射的瓦拉卡珍珠（AA 级）",
       "en": "Irradiated Valakkar Pearl (Grade AA)",
       "localizationSource": "official_global_ini"
     },
     "carryable_2h_fl_vlk_pearl_irradiated_super_01": {
-      "zh": "被辐射的瓦拉卡蠕虫珍珠（AAA级）",
+      "zh": "受辐射的瓦拉卡珍珠（AAA 级）",
       "en": "Irradiated Valakkar Pearl (Grade AAA)",
       "localizationSource": "official_global_ini"
     },
@@ -623,7 +623,7 @@
       "localizationSource": "official_global_ini"
     },
     "ksar_rifle_energy_01_iae2023": {
-      "zh": "卡纳 步枪 “升天”",
+      "zh": "卡纳 “升天” 步枪",
       "en": "Karna \"Ascension\" Rifle",
       "localizationSource": "official_global_ini"
     },
@@ -633,17 +633,17 @@
       "localizationSource": "official_global_ini"
     },
     "ksar_rifle_energy_01_mag": {
-      "zh": "卡纳 步枪电池（35 发）",
+      "zh": "卡纳 步枪电池 (35 发)",
       "en": "Karna Rifle Battery (35 cap)",
       "localizationSource": "official_global_ini"
     },
     "none_rifle_multi_01_collector01": {
-      "zh": "绝杀 步枪 “统御迷彩”",
+      "zh": "绝杀 “统御迷彩” 步枪",
       "en": "Killshot \"Dominion Camo\" Rifle",
       "localizationSource": "official_global_ini"
     },
     "bp_reward_none_rifle_multi_01_collector01": {
-      "zh": "绝杀 步枪 “统御迷彩” 蓝图",
+      "zh": "绝杀 “统御迷彩” 步枪 蓝图",
       "en": "Killshot \"Dominion Camo\" Rifle Blueprint",
       "localizationSource": "official_global_ini"
     },
@@ -653,22 +653,22 @@
       "localizationSource": "official_global_ini"
     },
     "none_rifle_multi_01_mag": {
-      "zh": "绝杀 步枪弹匣（45 发）",
+      "zh": "绝杀 步枪弹匣 (45 发)",
       "en": "Killshot Rifle Magazine (45 Cap)",
       "localizationSource": "official_global_ini"
     },
     "krig_l21_wolf_collector_stealth": {
-      "zh": "克鲁格 L-21 狼式 维克洛鬼祟特别版",
+      "zh": "克鲁格 L-21 狼式 维科洛 鬼祟特别版",
       "en": "Kruger L-21 Wolf Wikelo Sneak Special",
       "localizationSource": "official_global_ini"
     },
     "krig_l21_wolf_collector_military": {
-      "zh": "克鲁格 L-21 狼式 维克洛战争特别版",
+      "zh": "克鲁格 L-21 狼式 维科洛 战争特别版",
       "en": "Kruger L-21 Wolf Wikelo War Special",
       "localizationSource": "official_global_ini"
     },
     "krig_l22_alphawolf_collector_military": {
-      "zh": "克鲁格 L-22 头狼 维克洛战争特别版",
+      "zh": "克鲁格 L-22 头狼 维科洛 战争特别版",
       "en": "Kruger L-22 Alpha Wolf Wikelo War Special",
       "localizationSource": "official_global_ini"
     },
@@ -693,42 +693,42 @@
       "localizationSource": "official_global_ini"
     },
     "mrai_guardian_mx_collector_military": {
-      "zh": "未来 守护者 MX 维克洛战争特别版",
+      "zh": "未来 守护者 MX 维科洛战争版",
       "en": "Mirai Guardian MX Wikelo War Special",
       "localizationSource": "official_global_ini"
     },
     "mrai_guardian_qi_collector_indust": {
-      "zh": "未来 守护者 QI 维克洛特别版",
+      "zh": "未来 守护者 QI 维科洛 特别版",
       "en": "Mirai Guardian QI Wikelo Special",
       "localizationSource": "official_global_ini"
     },
     "mrai_guardian_military": {
-      "zh": "未来 守护者 维克洛战争特别版",
+      "zh": "未来 守护者 维科洛 战争特别版",
       "en": "Mirai Guardian Wikelo War Special",
       "localizationSource": "official_global_ini"
     },
     "mrai_pulse_collector_civ": {
-      "zh": "未来 脉冲 维克洛特别版",
+      "zh": "未来 脉冲 维科洛 特别版",
       "en": "Mirai Pulse Wikelo Special",
       "localizationSource": "official_global_ini"
     },
     "misc_fortune_collector_industrial": {
-      "zh": "武藏 财运 维克洛特别版",
+      "zh": "武藏 财运 维科洛 特别版",
       "en": "MISC Fortune Wikelo Special",
       "localizationSource": "official_global_ini"
     },
     "misc_prospector_collector_indust": {
-      "zh": "武藏 勘探者 维克洛工作特别版",
+      "zh": "武藏 勘探者 维科洛 工作特别版",
       "en": "MISC Prospector Wikelo Work Special",
       "localizationSource": "official_global_ini"
     },
     "misc_starlancer_max_collector_indust": {
-      "zh": "武藏 星际枪骑兵 MAX 维克洛工作特别版",
+      "zh": "武藏 星际枪骑兵 MAX 维科洛 工作特别版",
       "en": "MISC Starlancer MAX Wikelo Work Special",
       "localizationSource": "official_global_ini"
     },
     "misc_starlancer_tac_collector_military": {
-      "zh": "武藏 星际枪骑兵 TAC 维克洛战争特别版",
+      "zh": "武藏 星际枪骑兵 TAC 维科洛 战争特别版",
       "en": "MISC Starlancer TAC Wikelo War Special",
       "localizationSource": "official_global_ini"
     },
@@ -773,79 +773,79 @@
       "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_arms_01_01_01": {
-      "zh": null,
+      "zh": "Monolith 臂甲",
       "en": "Monolith Armor Arms",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_arms_01_04_01": {
-      "zh": null,
+      "zh": "Monolith 臂甲 Shadowflux",
       "en": "Monolith Armor Arms Shadowflux",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "bp_reward_kap_combat_heavy_arms_01_04_01": {
-      "zh": "蓝图",
+      "zh": "Monolith 臂甲 Shadowflux 蓝图",
       "en": "Monolith Armor Arms Shadowflux Blueprint",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_core_01_01_01": {
-      "zh": null,
+      "zh": "Monolith 胸甲",
       "en": "Monolith Armor Core",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_core_01_04_01": {
-      "zh": null,
+      "zh": "Monolith 胸甲 Shadowflux",
       "en": "Monolith Armor Core Shadowflux",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "bp_reward_kap_combat_heavy_core_01_04_01": {
-      "zh": "蓝图",
+      "zh": "Monolith 胸甲 Shadowflux 蓝图",
       "en": "Monolith Armor Core Shadowflux Blueprint",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_legs_01_01_01": {
-      "zh": null,
+      "zh": "Monolith 腿甲",
       "en": "Monolith Armor Legs",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_legs_01_04_01": {
-      "zh": null,
+      "zh": "Monolith 腿甲 Shadowflux",
       "en": "Monolith Armor Legs Shadowflux",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "bp_reward_kap_combat_heavy_legs_01_04_01": {
-      "zh": "蓝图",
+      "zh": "Monolith 腿甲 Shadowflux 蓝图",
       "en": "Monolith Armor Legs Shadowflux Blueprint",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_backpack_01_01_01": {
-      "zh": null,
+      "zh": "Monolith 背包",
       "en": "Monolith Backpack",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_backpack_01_04_01": {
-      "zh": null,
+      "zh": "Monolith 背包 Shadowflux",
       "en": "Monolith Backpack Shadowflux",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "bp_reward_kap_combat_heavy_backpack_01_04_01": {
-      "zh": "蓝图",
+      "zh": "Monolith 背包 Shadowflux 蓝图",
       "en": "Monolith Backpack Shadowflux Blueprint",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_helmet_01_01_01": {
-      "zh": null,
+      "zh": "Monolith 头盔",
       "en": "Monolith Helmet",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_helmet_01_04_01": {
-      "zh": null,
+      "zh": "Monolith 头盔 Shadowflux",
       "en": "Monolith Helmet Shadowflux",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "bp_reward_kap_combat_heavy_helmet_01_04_01": {
-      "zh": "蓝图",
+      "zh": "Monolith 头盔 Shadowflux 蓝图",
       "en": "Monolith Helmet Shadowflux Blueprint",
-      "localizationSource": "english_fallback"
+      "localizationSource": "official_global_ini"
     },
     "mxox_neutroncannon_s1": {
       "zh": "NN-13 中子加农炮",
@@ -853,17 +853,17 @@
       "localizationSource": "official_global_ini"
     },
     "clda_env_heavy_backpack_01_iae2023_01": {
-      "zh": "诺维科夫 背包 升天",
+      "zh": "诺维科夫 升天 背包",
       "en": "Novikov \"Ascension\" Backpack",
       "localizationSource": "official_global_ini"
     },
     "clda_env_heavy_unified_01_iae2023_01": {
-      "zh": "诺维科夫 探索服 升天",
+      "zh": "诺维科夫 升天 探索服",
       "en": "Novikov \"Ascension\" Exploration Suit",
       "localizationSource": "official_global_ini"
     },
     "clda_env_heavy_helmet_01_iae2023_01": {
-      "zh": "诺维科夫 头盔 升天",
+      "zh": "诺维科夫 升天 头盔",
       "en": "Novikov \"Ascension\" Helmet",
       "localizationSource": "official_global_ini"
     },
@@ -938,22 +938,22 @@
       "localizationSource": "official_global_ini"
     },
     "volt_rifle_energy_01_collector02": {
-      "zh": "视差 能量突击步枪 “趣味寇骈犬头骨”",
+      "zh": "视差 “趣味寇骈犬头骨” 能量突击步枪",
       "en": "Parallax \"Fun Kopion Skull\" Energy Assault Rifle",
       "localizationSource": "official_global_ini"
     },
     "volt_rifle_energy_01_collector01": {
-      "zh": "视差 能量突击步枪 “趣味寇骈犬牙齿”",
+      "zh": "视差 “趣味寇骈犬牙齿” 能量突击步枪",
       "en": "Parallax \"Fun Kopion Tooth\" Energy Assault Rifle",
       "localizationSource": "official_global_ini"
     },
     "volt_rifle_energy_01_collector03": {
-      "zh": "视差 能量突击步枪 “趣味军用头骨”",
+      "zh": "视差 “趣味军用头骨” 能量突击步枪",
       "en": "Parallax \"Fun Military Skull\" Energy Assault Rifle",
       "localizationSource": "official_global_ini"
     },
     "volt_rifle_energy_01_collector04": {
-      "zh": "视差 能量突击步枪 “趣味军用牙齿”",
+      "zh": "视差 “趣味军用牙齿” 能量突击步枪",
       "en": "Parallax \"Fun Military Tooth\" Energy Assault Rifle",
       "localizationSource": "official_global_ini"
     },
@@ -963,7 +963,7 @@
       "localizationSource": "official_global_ini"
     },
     "volt_rifle_energy_01_mag": {
-      "zh": "视差 步枪电池（80发）",
+      "zh": "视差 步枪电池 (80 发)",
       "en": "Parallax Rifle Battery (80 Cap)",
       "localizationSource": "official_global_ini"
     },
@@ -973,7 +973,7 @@
       "localizationSource": "official_global_ini"
     },
     "volt_shotgun_energy_01_collector01": {
-      "zh": "棱镜 激光霰弹枪 “辐照”",
+      "zh": "棱镜 “辐照” 激光霰弹枪",
       "en": "Prism \"Irradiated\" Laser Shotgun",
       "localizationSource": "official_global_ini"
     },
@@ -983,27 +983,27 @@
       "localizationSource": "official_global_ini"
     },
     "volt_shotgun_energy_01_mag": {
-      "zh": "棱镜 激光霰弹枪 电池（20发）",
+      "zh": "棱镜 激光霰弹枪电池（20 发）",
       "en": "Prism Laser Shotgun Battery (20 cap)",
       "localizationSource": "official_global_ini"
     },
     "Quantainium": {
-      "zh": "量子矿",
+      "zh": "量子矿物",
       "en": "Quantainium",
       "localizationSource": "official_global_ini"
     },
     "volt_smg_energy_01_collector03": {
-      "zh": "石英 能量冲锋枪 “钴蓝迷彩”",
+      "zh": "石英 “钴蓝迷彩” 能量冲锋枪",
       "en": "Quartz \"Cobalt Camo\" Energy SMG",
       "localizationSource": "official_global_ini"
     },
     "volt_smg_energy_01_collector02": {
-      "zh": "石英 能量冲锋枪 “猎人迷彩”",
+      "zh": "石英 “猎人迷彩” 能量冲锋枪",
       "en": "Quartz \"Hunter Camo\" Energy SMG",
       "localizationSource": "official_global_ini"
     },
     "volt_smg_energy_01_collector01": {
-      "zh": "石英 能量冲锋枪 “丛林迷彩”",
+      "zh": "石英 “丛林迷彩” 能量冲锋枪",
       "en": "Quartz \"Jungle Camo\" Energy SMG",
       "localizationSource": "official_global_ini"
     },
@@ -1013,12 +1013,12 @@
       "localizationSource": "official_global_ini"
     },
     "volt_smg_energy_01_mag": {
-      "zh": "石英 能量冲锋枪电池（45发）",
+      "zh": "石英 能量冲锋枪电池 (45 发)",
       "en": "Quartz Energy SMG Battery (45 cap)",
       "localizationSource": "official_global_ini"
     },
     "gmni_shotgun_ballistic_01_reward01": {
-      "zh": "R97 霰弹枪 “猩红迷彩”",
+      "zh": "R97 “猩红迷彩” 霰弹枪",
       "en": "R97 \"Crimson Camo\" Shotgun",
       "localizationSource": "official_global_ini"
     },
@@ -1028,7 +1028,7 @@
       "localizationSource": "official_global_ini"
     },
     "gmni_shotgun_ballistic_01_mag": {
-      "zh": "R97 霰弹枪弹匣（18 发）",
+      "zh": "R97 霰弹枪弹匣 (18 发)",
       "en": "R97 Shotgun Magazine (18 cap)",
       "localizationSource": "official_global_ini"
     },
@@ -1078,47 +1078,47 @@
       "localizationSource": "official_global_ini"
     },
     "rsi_apollo_triage_collector_stealth": {
-      "zh": "RSI 阿波罗 分诊鬼祟特别版",
+      "zh": "RSI 阿波罗 分诊 维科洛 鬼祟特别版",
       "en": "RSI Apollo Triage Wikelo Sneak Special",
       "localizationSource": "official_global_ini"
     },
     "rsi_constellation_taurus_gs_military": {
-      "zh": "RSI 星座 Mk IV 金牛座 维克洛战争特别版",
+      "zh": "RSI 星座 Mk IV 金牛座 维科洛 战争特别版",
       "en": "RSI Constellation Mk IV Taurus Wikelo War Special",
       "localizationSource": "official_global_ini"
     },
     "rsi_meteor_collector_stealth": {
-      "zh": "RSI 流星 维克洛鬼祟特别版",
+      "zh": "RSI 流星 维科洛 鬼祟特别版",
       "en": "RSI Meteor Wikelo Sneak Special",
       "localizationSource": "official_global_ini"
     },
     "rsi_polaris_collector_military": {
-      "zh": "RSI 北极星 维克洛特别版",
+      "zh": "RSI 北极星 维科洛特别版",
       "en": "RSI Polaris Wikelo Special",
       "localizationSource": "official_global_ini"
     },
     "rsi_scorpius_stealth": {
-      "zh": "RSI 天蝎座 维克洛鬼祟特别版",
+      "zh": "RSI 天蝎座 维科洛 鬼祟特别版",
       "en": "RSI Scorpius Wikelo Sneak Special",
       "localizationSource": "official_global_ini"
     },
     "rsi_ursa_medivac_stealth": {
-      "zh": "RSI 大熊座 医疗 维克洛特别版",
+      "zh": "RSI 大熊座 医疗 维科洛 特别版",
       "en": "RSI Ursa Medivac Wikelo Special",
       "localizationSource": "official_global_ini"
     },
     "rsi_zeus_cl_collector_indust": {
-      "zh": "RSI 宙斯 Mk II CL 维克洛工作特别版",
+      "zh": "RSI 宙斯 MK II CL 维科洛 工作特别版",
       "en": "RSI Zeus Mk II CL",
       "localizationSource": "official_global_ini"
     },
     "rsi_zeus_es_collector_indust": {
-      "zh": "RSI 宙斯 Mk II ES 维克洛工作特别版",
+      "zh": "RSI 宙斯 MK II ES 维科洛 工作特别版",
       "en": "RSI Zeus Mk II ES Wikelo Work Special",
       "localizationSource": "official_global_ini"
     },
     "gmni_rifle_ballistic_01_iae2023": {
-      "zh": "S71 步枪 “升天”",
+      "zh": "S71 “升天” 步枪",
       "en": "S71 \"Ascension\" Rifle",
       "localizationSource": "official_global_ini"
     },
@@ -1128,7 +1128,7 @@
       "localizationSource": "official_global_ini"
     },
     "gmni_rifle_ballistic_01_mag": {
-      "zh": "S71 步枪弹匣（30 发）",
+      "zh": "S71 步枪弹匣 (30 发)",
       "en": "S71 Rifle Magazine (30 cap)",
       "localizationSource": "official_global_ini"
     },
@@ -1283,7 +1283,7 @@
       "localizationSource": "official_global_ini"
     },
     "none_pistol_ballistic_01_collector01": {
-      "zh": "三重击 手枪 “热浪”",
+      "zh": "三重击 “热浪” 手枪",
       "en": "Tripledown \"Heatwave\" Pistol",
       "localizationSource": "official_global_ini"
     },
@@ -1293,7 +1293,7 @@
       "localizationSource": "official_global_ini"
     },
     "none_pistol_ballistic_01_mag": {
-      "zh": "三重击 手枪弹匣（12 发）",
+      "zh": "三重击 手枪弹匣 (12 发)",
       "en": "Tripledown Pistol Magazine (12 Cap)",
       "localizationSource": "official_global_ini"
     },
@@ -1313,7 +1313,7 @@
       "localizationSource": "official_global_ini"
     },
     "harvestable_trophy_1h_vlkjuvenilefang": {
-      "zh": "瓦拉卡蠕虫牙（幼年）",
+      "zh": "瓦拉卡獠牙 (幼年期)",
       "en": "Valakkar Fang (Juvenile)",
       "localizationSource": "official_global_ini"
     },
@@ -1328,12 +1328,12 @@
       "localizationSource": "official_global_ini"
     },
     "apar_hmg_ballistic_01_collector01": {
-      "zh": "世仇 重机枪 雪地迷彩",
+      "zh": "世仇 “雪地迷彩” 重机枪",
       "en": "Vendetta \"Snow Camo\" HMG",
       "localizationSource": "official_global_ini"
     },
     "bp_reward_apar_hmg_ballistic_01_collector01": {
-      "zh": "世仇 重机枪 雪地迷彩 蓝图",
+      "zh": "世仇 “雪地迷彩” 重机枪 蓝图",
       "en": "Vendetta \"Snow Camo\" HMG Blueprint",
       "localizationSource": "official_global_ini"
     },
@@ -1343,7 +1343,7 @@
       "localizationSource": "official_global_ini"
     },
     "apar_hmg_ballistic_01_mag": {
-      "zh": "世仇 重机枪弹匣（1000发）",
+      "zh": "世仇 重机枪弹匣 (1000 发)",
       "en": "Vendetta HMG Magazine (1000 Cap)",
       "localizationSource": "official_global_ini"
     },
@@ -1403,17 +1403,17 @@
       "localizationSource": "official_global_ini"
     },
     "carryable_1h_cy_banu_favour_wikelo": {
-      "zh": "维克洛的人情",
+      "zh": "维科洛人情",
       "en": "Wikelo Favor",
       "localizationSource": "official_global_ini"
     },
     "syfb_flightsuit_helmet_01_iae2023_01": {
-      "zh": "贤梭 飞行头盔 升天",
+      "zh": "贤梭 升天 飞行头盔",
       "en": "Xanthule Ascension Flight Helmet",
       "localizationSource": "official_global_ini"
     },
     "syfb_flightsuit_01_iae2023_01": {
-      "zh": "贤梭 飞行服 升天",
+      "zh": "贤梭 升天 飞行套装",
       "en": "Xanthule Ascension Flight Suit",
       "localizationSource": "official_global_ini"
     },
@@ -1423,27 +1423,27 @@
       "localizationSource": "official_global_ini"
     },
     "syfb_flightsuit_suit_01_01_01": {
-      "zh": "贤梭 飞行服",
+      "zh": "贤梭 飞行套装",
       "en": "Xanthule Flight Suit",
       "localizationSource": "official_global_ini"
     },
     "behr_binoculars_01_collector01": {
-      "zh": "XDL 单筒测距仪 I 型",
+      "zh": "XDL “I 型” 单筒测距仪",
       "en": "XDL \"Mark I\" Monocular Rangefinder",
       "localizationSource": "official_global_ini"
     },
     "harvestable_trophy_1h_yormandi_eye": {
-      "zh": "约曼迪眼",
+      "zh": "约曼迪之眼",
       "en": "Yormandi Eye",
       "localizationSource": "official_global_ini"
     },
     "carryable_2h_cy_yormandi_tongue": {
-      "zh": "约曼迪舌",
+      "zh": "约曼迪舌头",
       "en": "Yormandi Tongue",
       "localizationSource": "official_global_ini"
     },
     "volt_sniper_energy_01_collector01": {
-      "zh": "天顶 激光狙击步枪 雪地迷彩",
+      "zh": "天顶 “雪地迷彩” 激光狙击步枪",
       "en": "Zenith \"Snow Camo\" Laser Sniper Rifle",
       "localizationSource": "official_global_ini"
     },
@@ -1453,7 +1453,7 @@
       "localizationSource": "official_global_ini"
     },
     "volt_sniper_energy_01_mag": {
-      "zh": "天顶 激光狙击步枪电池（22发）",
+      "zh": "天顶激光狙击步枪电池 (22发)",
       "en": "Zenith Laser Sniper Rifle Battery (22 Cap)",
       "localizationSource": "official_global_ini"
     }
