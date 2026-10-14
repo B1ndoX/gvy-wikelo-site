@@ -1,29 +1,19 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-11T04:27:13.819Z",
-  "gameVersion": "4.10.2 LIVE.12881860",
+  "generatedAt": "2026-10-14T05:01:13.055Z",
+  "gameVersion": "4.10.2 LIVE.12913470",
   "totals": {
     "trades": 88,
     "items": 289,
     "requirementItems": 123,
     "localizedItems": 289,
     "localizedTrades": 88,
-    "localizedCraftingIngredients": 267,
+    "localizedCraftingIngredients": 294,
     "requirementItemsWithImages": 122,
-    "requirementItemsWithAcquisition": 118
+    "requirementItemsWithAcquisition": 123
   },
   "errors": [],
   "warnings": [
-    {
-      "code": "unknown-requirement-acquisition",
-      "ids": [
-        "kap_combat_heavy_arms_01_01_01",
-        "kap_combat_heavy_core_01_01_01",
-        "kap_combat_heavy_legs_01_01_01",
-        "kap_combat_heavy_backpack_01_01_01",
-        "kap_combat_heavy_helmet_01_01_01"
-      ]
-    },
     {
       "code": "reviewed-location-alias-unresolved",
       "entries": [
