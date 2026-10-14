@@ -55,8 +55,8 @@ export async function loadRefreshLocalization() {
 
 const CJK_RE = /[\u3400-\u9fff]/;
 export const OFFICIAL_KEY_ALIASES = {
-  // These exact IDs used the same VehicleName keys in both NAS variants;
-  // the official bilingual edition removed their embedded English suffixes.
+  // Reviewed stable identities use explicit VehicleName keys rather than
+  // depending on optional English suffixes in an approved Chinese package.
   misc_fortune_collector_industrial: "TheCollector_ShipMod_MISC_Fortune_VehicleName",
   mrai_guardian_qi_collector_indust: "TheCollector_ShipMod_MRAI_GuardianQI_VehicleName",
   mrai_pulse_collector_civ: "TheCollector_ShipMod_MRAI_Pulse_VehicleName",
@@ -258,9 +258,12 @@ export function firstChineseLine(value) {
     .split(/\\n|\r?\n/)
     .map((line) => line.trim())
     .filter(Boolean);
-  const line = lines.find((candidate) => CJK_RE.test(candidate));
-  if (!line) return null;
-  // Official bilingual names/places can use English [中文] on one line.
+  // Approved enhanced / fully Chinese inputs put the name on the first line.
+  // Later lines are specifications, exchange annotations, or descriptions;
+  // never promote them to a name when the actual name is an English model.
+  const line = lines[0];
+  if (!line || !CJK_RE.test(line)) return null;
+  // A name line can contain an English brand followed by [中文].
   // Only unwrap an entirely non-Chinese prefix and a complete Chinese bracket;
   // preserve manufacturer codes and brackets within a real Chinese name.
   const bracketed = line.match(/^[^\u3400-\u9fff\[\]]+\[([^\[\]]*[\u3400-\u9fff][^\[\]]*)\]$/);
@@ -275,9 +278,8 @@ function officialChinese(value, englishName, key = "") {
     const stripped = line.slice(0, line.length - normalizedEnglish.length).trim();
     return stripped || line;
   }
-  // Some older commodity values concatenate Chinese and English, but current
-  // bilingual values use a literal `\n`. Never let the first A in a grade
-  // such as “（AAA 级）” be mistaken for the start of an English suffix.
+  // Enhanced commodity values may concatenate Chinese and English. A grade
+  // such as “（AAA 级）” must not be mistaken for the start of an English suffix.
   if (String(key).toLowerCase().startsWith("items_commodities_") && !String(value).includes("\\n")) {
     const bundledLanguages = line.match(/^([\u3400-\u9fff][\u3400-\u9fff（）·\-]*)[A-Za-z]/);
     if (bundledLanguages?.[1]) return bundledLanguages[1];

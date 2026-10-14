@@ -50,10 +50,10 @@ describe("official location localization", () => {
   it("fails closed on missing official location keys", () => {
     expect(() => deriveOfficialLocations(new Map())).toThrow("Missing official location key");
   });
-  it("handles official bilingual place names and the revised IO building greeting", () => {
+  it("keeps the official place name line and verified IO building greeting", () => {
     const entries = new Map(Object.entries(source.entries));
     entries.set("pyro6_outpost_col_s_frm_indy_001", { key: "Pyro6_Outpost_col_s_frm_indy_001", value: "Bullock's Reach [犍牛原]" });
-    entries.set("stanton1_transfer", { key: "Stanton1_Transfer", value: "Everus Harbor\\n埃弗勒斯空间站" });
+    entries.set("stanton1_transfer", { key: "Stanton1_Transfer", value: "埃弗勒斯空间站\\nEverus Harbor" });
     entries.set("pu_iongreet01_ad_greeting_v_bg_003", { key: "PU_IONGREET01_AD_Greeting_V_BG_003,P", value: "欢迎来到 IO北区大厦，18区的主要中央商务区。" });
     const locations = deriveOfficialLocations(entries);
     expect(locations["Bullock's Reach"].zh).toBe("犍牛原");
@@ -62,6 +62,11 @@ describe("official location localization", () => {
     expect(remainingUnlocalizedLocationTokens("可购买地点：IO北区大厦")).toEqual([]);
     entries.set("pu_iongreet01_ad_greeting_v_bg_003", { key: "PU_IONGREET01_AD_Greeting_V_BG_003,P", value: "未知大厦" });
     expect(() => deriveOfficialLocations(entries)).toThrow("review phrase mapping");
+  });
+  it("rejects English-first location values rather than promoting their later Chinese lines", () => {
+    const entries = new Map(Object.entries(source.entries));
+    entries.set("stanton1_transfer", { key: "Stanton1_Transfer", value: "Everus Harbor\\n埃弗勒斯空间站" });
+    expect(() => deriveOfficialLocations(entries)).toThrow("Untranslated official location key");
   });
   it("checks series honestly without claiming exact build verification", () => {
     const entries = new Map([["frontend_pu_version", { value: "4.10: 奥里森之围" }]]);

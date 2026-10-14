@@ -54,19 +54,32 @@ describe("official localization parser", () => {
     });
   });
 
-  it("selects real Chinese in enhanced, English-first and bracketed bilingual names without guessing", () => {
+  it("uses the name line in enhanced / fully Chinese inputs, not later translations or specifications", () => {
     const localization = { entries: parseOfficialLocalizationText([
       "item_Nameold=原中文\\nOriginal English",
-      "item_Namebilingual,P=Original English\\n官方中文",
+      "item_Namebilingual,P=English-first Original\\n官方中文",
       "item_Namebracket=Original English [官方中文（基础）]",
       "item_Nameuntranslated=Monolith Armor Core\\nMonolith Armor Core",
       "item_Namebrand=F55 重机枪（基础）",
     ].join("\n")) };
     expect(resolveEntityLocalization(localization, "old", "Original English").zh).toBe("原中文");
-    expect(resolveEntityLocalization(localization, "bilingual", "Original English").zh).toBe("官方中文");
+    expect(resolveEntityLocalization(localization, "bilingual", "English-first Original").localizationSource).toBe("english_fallback");
     expect(resolveEntityLocalization(localization, "bracket", "Original English").zh).toBe("官方中文（基础）");
     expect(resolveEntityLocalization(localization, "brand", "F55 LMG").zh).toBe("F55 重机枪（基础）");
     expect(resolveEntityLocalization(localization, "untranslated", "Monolith Armor Core").localizationSource).toBe("english_fallback");
+  });
+
+  it("does not mistake actual enhanced-package component specifications for Chinese names", () => {
+    const localization = { entries: parseOfficialLocalizationText([
+      "item_NamePOWR_AMRS_S01_JS300_SCItem=JS-300\\n[发电 S1 军用 A]",
+      "Item_NameRADR_IASI_S01=DelphiDelphi RS-10\\n[雷达 S1 军用 B]",
+      "item_Nametranslated=官方中文名称\\n[组件 S2 军用 A]",
+    ].join("\n")) };
+    for (const [id, en] of [["POWR_AMRS_S01_JS300_SCItem", "JS-300"], ["RADR_IASI_S01", "Delphi RS-10"]]) {
+      expect(resolveEntityLocalization(localization, id, en)).toEqual({ zh: null, en, localizationSource: "english_fallback" });
+    }
+    expect(resolveEntityLocalization(localization, "translated", "Original English").zh).toBe("官方中文名称");
+    expect(firstChineseLine("\r\nJS-300\r\n[发电 S1 军用 A]")).toBeNull();
   });
 
   it("uses the reviewed new LIVE recipe keys, retaining untranslated Monolith titles", () => {
@@ -86,7 +99,7 @@ describe("official localization parser", () => {
       ["rsi_ursa_medivac_stealth", "TheCollector_ShipMod_URSA_Medivac_VehicleName", "RSI Ursa Medivac Wikelo Special", "RSI 大熊座 医疗 维克洛特别版"],
       ["xian_nox_collector_mod", "TheCollector_ShipMod_XIAN_Nox_VehicleName", "Aopoa Nox Wikelo Special", "奥波亚 Nox 维克洛特别版"],
     ];
-    for (const [id, key, en, zh] of cases) for (const value of [zh, `${zh}\\n${en}`, `${en}\\n${zh}`]) {
+    for (const [id, key, en, zh] of cases) for (const value of [zh, `${zh}\\n${en}`]) {
       const localization = { entries: parseOfficialLocalizationText(`${key},P=${value}`) };
       expect(resolveEntityLocalization(localization, id, en)).toEqual({ zh, en, localizationSource: "official_global_ini" });
     }

@@ -85,8 +85,8 @@ describe("LIVE first, official Chinese when available", () => {
     expect(detectSupplementRegressions({ previousItems: before.items, previousTrades: before.trades,
       items: after.items, trades: after.trades })).toEqual([]);
   });
-  it("allows enhanced -> official bilingual -> enhanced changes, not missing Chinese", () => {
-    const variants = ["增强版中文\\nNew LIVE item", "New LIVE item\\n官方版中文", "增强版中文\\nNew LIVE item"];
+  it("allows enhanced -> fully Chinese -> enhanced changes, not missing Chinese", () => {
+    const variants = ["增强版中文\\nNew LIVE item", "官方完全中文", "增强版中文\\nNew LIVE item"];
     const datasets = variants.map(value => ({ gameVersion: "4.10.2 LIVE.2", trades: [], localizationDictionary: {},
       items: [{ ...item(), name: resolveEntityLocalization({ entries: parseOfficialLocalizationText(`item_Namefixture,P=${value}`) }, "fixture", english.en) }] }));
     for (let i = 1; i < datasets.length; i++) {
@@ -95,6 +95,13 @@ describe("LIVE first, official Chinese when available", () => {
     }
     expect(semanticFingerprint(datasets[0])).toBe(semanticFingerprint(datasets[2]));
     expect(detectSupplementRegressions({ previousItems: datasets[2].items, trades: [], items: [item("fixture", english)] }))
+      .toEqual(["Verified localization lost: item:fixture"]);
+  });
+  it("cannot restore verified Chinese from a historical English-first bilingual input", () => {
+    const historical = { entries: parseOfficialLocalizationText("item_Namefixture=New LIVE item\\n旧双语中文") };
+    const restored = { ...item(), name: resolveEntityLocalization(historical, "fixture", english.en) };
+    expect(restored.name).toEqual(english);
+    expect(detectSupplementRegressions({ previousItems: [item()], trades: [], items: [restored] }))
       .toEqual(["Verified localization lost: item:fixture"]);
   });
 });
