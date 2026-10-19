@@ -66,7 +66,7 @@ npm run restore:data     # 只读列出备份；恢复时必须显式跟目录�
 
 任一步失败都不会覆盖稳定数据。语义指纹会忽略抓取时间、来源更新时间、数组顺序及二次来源的小版本噪声；合同、数量、奖励、图片、获取方式、汉化或 LIVE 版本没有实质变化时，脚本通常输出 `unchanged: true`，不改生成文件、不新增备份。唯一例外是页面版本快照与稳定交易/物品文档不一致：此时会先备份并只修复 `versioned-data.json`。发布前额外运行 `npm run refresh:data:publish-check`；来源为 `partial` / `failed` 或出现异常时会阻止发布。人工核验并注明日期的 Wiki 快照只作为背景与地点参考，不会伪装成实时结构化接口。
 
-项目内 `.github/workflows/refresh-data.yml` 在每 6 小时的第 23 分钟检查 Dumper's Repo 维科洛 HTML 的精确 LIVE 版本与 NAS 同步输入清单。两者均未变化则结束，不读取交易 bundle、不构建、不提交。新的 LIVE 或汉化输入变化才进入原完整抓取和校准，真实候选须通过内容审计、测试、Schema、构建，保存 14 天备份后提交。既有 `.github/workflows/refresh-watchdog.yml` 继续在错峰时间检查主任务心跳：超过 8 小时未成功且无运行中任务则补发；最多每 30 天在非生产 `automation-heartbeat` 分支维护心跳。没有新增周审或并行刷新任务，正式部署仍只由 `main` 的真实变更触发 EdgeOne。
+项目内 `.github/workflows/refresh-data.yml` 在每 6 小时的第 23 分钟检查 Dumper's Repo 维科洛 HTML 的精确 LIVE 版本与 NAS 同步输入清单。两者均未变化则结束，不读取交易 bundle、不构建、不提交。新的 LIVE 或汉化输入变化才进入原完整抓取和校准，真实候选须通过内容审计、测试、Schema、构建，保存 14 天备份后提交。既有 `.github/workflows/refresh-watchdog.yml` 每小时第 53 分钟只读取 GitHub 主任务运行记录：按最近成功完成时间判断，超过 8 小时未成功且无排队/运行中任务则补发一次正常轻量检查；最多每 30 天在非生产 `automation-heartbeat` 分支维护心跳。没有新增周审或并行刷新任务，正式部署仍只由 `main` 的真实变更触发 EdgeOne。GitHub schedule 可能延迟或丢轮，主任务与看门狗同受平台调度影响；小时级补偿缩短恢复窗口，但不能承诺严格每六小时必达。同一 LIVE 构建号内的源热修目前不会单独触发完整刷新。
 
 稳定数据位于 `src/data/generated/`；备份位于未提交的 `data/backups/`；HTTP 缓存位于未提交的 `.cache/`。
 

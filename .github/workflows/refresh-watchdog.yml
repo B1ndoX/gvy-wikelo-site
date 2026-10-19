@@ -2,9 +2,10 @@ name: Guard Wikelo refresh automation
 
 on:
   schedule:
-    # Runs 2h30m after each primary check. If one primary schedule was dropped,
-    # the most recent successful refresh check will be older than eight hours.
-    - cron: "53 2,8,14,20 * * *"
+    # Hourly metadata-only checks avoid waiting another six-hour cycle when a
+    # primary schedule is dropped. The primary still checks sources every 6h;
+    # recovery only dispatches after 8h without success and no active run.
+    - cron: "53 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -35,7 +36,7 @@ jobs:
             "repos/${GITHUB_REPOSITORY}/actions/workflows/${REFRESH_WORKFLOW}/runs" \
             -f per_page=50)"
           active_count="$(jq '[.workflow_runs[] | select(.status != "completed")] | length' <<<"$runs_json")"
-          latest_success="$(jq -r '[.workflow_runs[] | select(.status == "completed" and .conclusion == "success")] | sort_by(.created_at) | reverse | .[0].created_at // empty' <<<"$runs_json")"
+          latest_success="$(jq -r '[.workflow_runs[] | select(.status == "completed" and .conclusion == "success")] | sort_by(.updated_at // .created_at) | reverse | .[0] | .updated_at // .created_at // empty' <<<"$runs_json")"
           now_epoch="$(date -u +%s)"
 
           if [[ -n "$latest_success" ]]; then
