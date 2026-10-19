@@ -37,6 +37,6 @@
     "acorn": "latest",
     "jsdom": "latest",
     "typescript": "latest",
-    "vitest": "latest"
+    "vitest": "4.1.11"
   }
 }

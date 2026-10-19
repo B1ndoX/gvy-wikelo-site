@@ -12,7 +12,7 @@ const escapeRegExp = (text: string) => text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&
 describe("simple material query flow", () => {
   it("contains keyboard focus in the top dialog and restores each nested opener", () => {
     render(<App />);
-    const card = screen.getAllByRole("button", { name: /查看交易/ })[0];
+    const card = within(screen.getAllByRole("article")[0]).getByRole("button", { name: /查看交易/ });
     card.focus();
     fireEvent.click(card);
     const trade = screen.getByRole("dialog", { name: "交易详情" });
