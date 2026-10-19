@@ -4,13 +4,13 @@ import { createHash } from "node:crypto";
 
 const workflow = readFileSync(`${process.cwd()}/.github/workflows/refresh-data.yml`, "utf8");
 // Exercise the actual checked-in GitHub expressions, not a duplicate policy.
-function condition(name: string, options: { current?: string; remote?: string; changed?: string; candidate?: string; hit?: string; outcome?: string; force?: boolean } = {}) {
-  const { current = "4.10.1 LIVE.12660092", remote = current, changed = "true", candidate = "false", hit = "false", outcome = "success", force = false } = options;
+function condition(name: string, options: { current?: string; remote?: string; changed?: string; candidate?: string; hit?: string; outcome?: string; force?: boolean; primary?: string; primaryCache?: string; cacheable?: string } = {}) {
+  const { current = "4.10.1 LIVE.12660092", remote = current, changed = "true", candidate = "false", hit = "false", outcome = "success", force = false, primary = "false", primaryCache = "false", cacheable = "true" } = options;
   const block = workflow.split(`- name: ${name}\n`)[1]?.split("\n      - name:")[0];
-  const expression = block?.match(/^\s*if: (.+)$/m)?.[1];
+  const expression = block?.match(/^\s*if: (.+)$/m)?.[1]?.replace(/^\$\{\{\s*/, "").replace(/\s*\}\}$/, "");
   if (!expression) throw new Error(`Missing workflow condition: ${name}`);
-  const evaluate = new Function("steps", "inputs", "success", `return (${expression.replaceAll("outputs.cache-hit", 'outputs["cache-hit"]')})`);
-  return evaluate({ live_version: { outputs: { current_version: current, remote_version: remote, changed } }, candidate: { outputs: { changed: candidate } }, localization_review: { outputs: { "cache-hit": hit } }, refresh_data: { outcome } }, { force_refresh: force }, () => outcome === "success");
+  const evaluate = new Function("steps", "inputs", "success", "always", `return (${expression.replaceAll("outputs.cache-hit", 'outputs["cache-hit"]')})`);
+  return evaluate({ live_version: { outputs: { current_version: current, remote_version: remote, changed, primary_cacheable: cacheable } }, primary_review: { outcome, outputs: { primary_changed: primary } }, primary_cache: { outputs: { "cache-hit": primaryCache } }, candidate: { outputs: { changed: candidate } }, localization_review: { outputs: { "cache-hit": hit } }, refresh_data: { outcome } }, { force_refresh: force }, () => outcome === "success", () => true);
 }
 
 describe("localization no-op cache workflow policy", () => {
@@ -47,5 +47,37 @@ describe("localization no-op cache workflow policy", () => {
     expect(key("A", "applied-A")).not.toBe(key("A", "applied-B"));
     expect(key("A", "applied-A")).toBe(key("A", "applied-A"));
     expect(condition("Refresh staging data and enforce publish gates", { changed: "true", hit: "false" })).toBe(true);
+  });
+
+  it("refreshes a genuine same-LIVE recipe hotfix despite a localization no-op cache hit", () => {
+    expect(condition("Refresh staging data and enforce publish gates", { changed: "false", primary: "true", hit: "true" })).toBe(true);
+    expect(condition("Refresh staging data and enforce publish gates", { changed: "true", primary: "true", hit: "true" })).toBe(true);
+    expect(condition("Refresh staging data and enforce publish gates", { changed: "false", primary: "false" })).toBe(false);
+  });
+
+  it("never caches an unreviewed, changed, uncacheable or failed primary publication", () => {
+    const name = "Remember a verified unchanged primary publication";
+    expect(condition(name)).toBe(true);
+    for (const change of [{ primary: "true" }, { outcome: "failure" }, { outcome: "skipped" }, { force: true }, { cacheable: "false" }, { primaryCache: "true" }]) {
+      expect(condition(name, change)).toBe(false);
+    }
+    expect(workflow).toContain("--manifest-only --github-output");
+    expect(workflow).toContain("--review-primary --github-output");
+  });
+
+  it("keeps recoverable artifacts for real hotfixes even when the later refresh fails", () => {
+    const name = "Keep a 14-day recoverable stable-data artifact";
+    expect(condition(name, { changed: "false", primary: "true", outcome: "failure" })).toBe(true);
+    expect(condition(name, { changed: "false", primary: "false" })).toBe(false);
+  });
+
+  it("only recalls same-LIVE publications and uses exactly the same code-scoped save key", () => {
+    expect(condition("Recall a verified primary publication")).toBe(true);
+    for (const change of [{ remote: "4.11.0 LIVE.2" }, { force: true }, { cacheable: "false" }]) {
+      expect(condition("Recall a verified primary publication", change)).toBe(false);
+    }
+    const keys = [...workflow.matchAll(/key: (wikelo-primary-.+)/g)].map(match => match[1]);
+    expect(keys).toHaveLength(2); expect(keys[0]).toBe(keys[1]);
+    expect(keys[0]).toContain("primary_review_key"); expect(keys[0]).toContain("hashFiles('scripts/**')");
   });
 });

@@ -54,7 +54,7 @@ export async function fetchText(url, options = {}) {
         await mkdir(cacheDir, { recursive: true });
         await writeFile(cacheFile, text, "utf8");
       }
-      return { text, fromCache: false, url };
+      return { text, fromCache: false, url, etag: response.headers.get("etag"), lastModified: response.headers.get("last-modified") };
     } catch (error) {
       lastError = error;
       if (error?.nonRetryable) break;

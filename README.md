@@ -41,7 +41,7 @@ npm run dev
 ```bash
 npm test                 # 固定 fixture、汉化、查询交互与生成数据回归测试
 npm run audit:data       # 全站公开文字、汉化、获取途径和图片路径审计
-npm run check:live-version # 只读取 Dumper's Repo 维科洛页，比较精确 LIVE 版本
+npm run check:live-version # 轻量版本/输入检查；新数据包才核验同 LIVE 的配方语义
 npm run lint:data        # Schema 和异常校验
 npm run build            # TypeScript + Vite 生产构建
 npm run refresh:data     # 手动刷新到稳定数据
@@ -59,14 +59,18 @@ npm run restore:data     # 只读列出备份；恢复时必须显式跟目录�
 4. 解析官方简体中文 `global.ini` 并生成派生词典；
 5. 严格 JSON Schema 校验唯一的 LIVE 版本快照；
 6. 来源交叉校验，保留全部冲突原值；
-7. 拒绝 PTU/EPTU 输入，只更新新的 LIVE 数据；
+7. 拒绝 PTU/EPTU 输入，只更新 LIVE；同构建号的真实配方热修也可更新；
 8. 检测交易数骤降、版本倒退、关键奖励缺失及已有汉化、图片、获取说明和中文描述退化；
 9. 备份上一版稳定数据，再用 `.next` 原子替换；
 10. 清理超过 14 天的备份。
 
 任一步失败都不会覆盖稳定数据。语义指纹会忽略抓取时间、来源更新时间、数组顺序及二次来源的小版本噪声；合同、数量、奖励、图片、获取方式、汉化或 LIVE 版本没有实质变化时，脚本通常输出 `unchanged: true`，不改生成文件、不新增备份。唯一例外是页面版本快照与稳定交易/物品文档不一致：此时会先备份并只修复 `versioned-data.json`。发布前额外运行 `npm run refresh:data:publish-check`；来源为 `partial` / `failed` 或出现异常时会阻止发布。人工核验并注明日期的 Wiki 快照只作为背景与地点参考，不会伪装成实时结构化接口。
 
-项目内 `.github/workflows/refresh-data.yml` 在每 6 小时的第 23 分钟检查 Dumper's Repo 维科洛 HTML 的精确 LIVE 版本与 NAS 同步输入清单。两者均未变化则结束，不读取交易 bundle、不构建、不提交。新的 LIVE 或汉化输入变化才进入原完整抓取和校准，真实候选须通过内容审计、测试、Schema、构建，保存 14 天备份后提交。既有 `.github/workflows/refresh-watchdog.yml` 每小时第 53 分钟只读取 GitHub 主任务运行记录：按最近成功完成时间判断，超过 8 小时未成功且无排队/运行中任务则补发一次正常轻量检查；最多每 30 天在非生产 `automation-heartbeat` 分支维护心跳。没有新增周审或并行刷新任务，正式部署仍只由 `main` 的真实变更触发 EdgeOne。GitHub schedule 可能延迟或丢轮，主任务与看门狗同受平台调度影响；小时级补偿缩短恢复窗口，但不能承诺严格每六小时必达。同一 LIVE 构建号内的源热修目前不会单独触发完整刷新。
+项目内 `.github/workflows/refresh-data.yml` 在每 6 小时的第 23 分钟检查 Dumper's Repo 维科洛 HTML 的精确 LIVE 版本、公开数据包的 HEAD 发布标识及 NAS 同步输入清单。2026-10-19 用户明确同意跟进同一 LIVE 的真实配方变化：构建号未变但数据包 URL/ETag（没有 ETag 时使用 Last-Modified）变化或尚未核验时，只下载一次主源数据包，安全解析并按稳定 ID 比较合同、需求/奖励数量与单位、蓝图/绑定、声望、类别和上下线状态。忽略时间戳、排序、空白、中文显示名和辅助来源状态；材料显示英文也不作身份键，避免官方 RCMBNT 代码与原 ASD 名称差异造成误报。
+
+只有新的 LIVE、真实主源配方变化或待校准的汉化输入才进入原完整抓取；通过原防退化、内容审计、测试、Schema、构建后，保存 14 天备份并只提交实质候选。单纯网站 UI/数据包重打包、格式变化不会完整抓取辅助 API、构建、提交或部署。成功且无变化的主源核验只记在可丢弃 Actions cache，绑定精确 LIVE、发布标识、当前已应用配方指纹和脚本版本；不把抓取时间提交到 main。缓存丢失/损坏必须重核验，真实变化或失败不记为无变化；没有 HTTP 发布标识时保守逐轮下载主数据包比对，但仍不因格式噪声完整刷新。HEAD/GET 发布标识不一致、解析失败或来源不可达时报错并保留稳定数据，不使用陈旧 HTTP 缓存伪装成功。主源热修不能被汉化 no-op 缓存阻止。
+
+既有 `.github/workflows/refresh-watchdog.yml` 每小时第 53 分钟只读取 GitHub 主任务运行记录：按最近成功完成时间判断，超过 8 小时未成功且无排队/运行中任务则补发一次正常轻量检查；最多每 30 天在非生产 `automation-heartbeat` 分支维护心跳。没有新增周审或并行刷新任务，正式部署仍只由 `main` 的真实变更触发 EdgeOne。GitHub schedule 可能延迟或丢轮，主任务与看门狗同受平台调度影响；小时级补偿缩短恢复窗口，但不能承诺严格每六小时必达。辅助 API/图库更新仍不独立触发完整刷新。
 
 稳定数据位于 `src/data/generated/`；备份位于未提交的 `data/backups/`；HTTP 缓存位于未提交的 `.cache/`。
 
@@ -78,7 +82,7 @@ npm run restore:data     # 只读列出备份；恢复时必须显式跟目录�
 
 解析器处理 UTF-8 BOM、CRLF、注释、空行，并只在第一个 `=` 处分割键值。本机原刷新流程直接只读 NAS，读取失败中止，不回退文稿目录旧文件。GitHub 原刷新流程读取本仓库 `nas-localization` 输入分支：先锁定 commit，再从同一个 commit 读取 `source.json` 与 `global.ini.gz`，校验解压字节长度、SHA-256、版本标识；绝不执行输入分支代码。原始 INI 不进入 main 或 dist。派生快照仍只有 `data/localization/official-global-derived.json`，新增地点/商店官方键；`src/data/generated/localization.json` 保存最终词典及来源证据。
 
-现有每 6 小时检查现在同时比较精确 LIVE 版本与 NAS 同步源哈希；任一变化才进入原完整刷新，无新增定时任务、独立校准命令或 push 触发器。本机可继续用原 `npm run localization:derive` 导入 NAS 派生词典。INI 的 `Frontend_PU_Version`（含 Alpha 前缀）只能证明系列，不能声称确认精确 LIVE 构建；可信汉化源系列落后时允许已有精确键译名与英文回退，离线标记 pending。来源系列超前、PTU/EPTU、源不可达或字节校验失败仍保留稳定数据并报错。同一输入重复刷新不写数据；纯格式/排序变化且产品语义未变时不更新 main，现有工作流用可丢弃 Actions cache 记住成功审查的输入，避免重复完整刷新。缓存还绑定当前已应用数据的 metadata，切换汉化 A→B→A 时不能把历史 no-op 审查误当当前状态。没有材料性候选则跳过构建、提交和部署。缓存丢失最多多检查一次，不影响准确性。
+现有每 6 小时检查同时比较精确 LIVE 版本、已核验主源配方与 NAS 同步源哈希；新 LIVE、真实配方热修或待校准的汉化输入才进入原完整刷新，无新增定时任务、独立校准命令或 push 触发器。本机可继续用原 `npm run localization:derive` 导入 NAS 派生词典。INI 的 `Frontend_PU_Version`（含 Alpha 前缀）只能证明系列，不能声称确认精确 LIVE 构建；可信汉化源系列落后时允许已有精确键译名与英文回退，离线标记 pending。来源系列超前、PTU/EPTU、源不可达或字节校验失败仍保留稳定数据并报错。同一输入重复刷新不写数据；纯格式/排序变化且产品语义未变时不更新 main，现有工作流用可丢弃 Actions cache 记住成功审查的输入，避免重复完整刷新。缓存还绑定当前已应用数据的 metadata，切换汉化 A→B→A 时不能把历史 no-op 审查误当当前状态。没有材料性候选则跳过构建、提交和部署。缓存丢失最多多检查一次，不影响准确性。
 
 生产来源限定为 NAS 当前有效的官方增强版或官方完全中文汉化版；不得恢复旧中英双语派生词典补词，读取失败保留当前稳定数据并报错。官方中文包也可能包含英文型号或增强注释，不能按是否含英文推断包种类，更不能按包名、日期、版本或固定 SHA 硬编码。源文件只能由所有者在 NAS 维护，本站无历史包选择或格式切换入口。
 
@@ -133,7 +137,7 @@ npm run restore:data     # 只读列出备份；恢复时必须显式跟目录�
 
 ## LIVE 版本策略
 
-维科洛站只发布 Dumper's Repo 维科洛数据源实际提供的 LIVE 数据，不展示或保存 PTU/EPTU，也不提供版本筛选。搜索框右侧显示当前 LIVE 补丁号，悬停或键盘聚焦显示该版稳定数据的更新时间。当前正式数据为 `4.10.2 LIVE.12913470` 的 88 笔交易，页面显示 `4.10.2 LIVE`；检测到新的精确 LIVE build 或官方汉化输入变化才启动完整刷新。尚未汉化的新内容保留原始英文，不阻塞真实 LIVE 更新。
+维科洛站只发布 Dumper's Repo 维科洛数据源实际提供的 LIVE 数据，不展示或保存 PTU/EPTU，也不提供版本筛选。搜索框右侧显示当前 LIVE 补丁号，悬停或键盘聚焦显示该版稳定数据的更新时间。当前正式数据为 `4.10.2 LIVE.12913470` 的 88 笔交易，页面显示 `4.10.2 LIVE`；检测到新的精确 LIVE build、同 LIVE 的真实主源配方变化或待校准的官方汉化输入才启动完整刷新。尚未汉化的新内容保留原始英文，不阻塞真实 LIVE 更新。
 
 ## 目录说明
 
