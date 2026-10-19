@@ -672,6 +672,8 @@ main {
 }
 
 .modal {
+  max-height: calc(100vh - 40px);
+  max-height: calc(100dvh - 40px);
   border: 1px solid rgba(118, 226, 255, 0.32);
   border-radius: 22px;
   background: var(--panel);
@@ -704,7 +706,6 @@ main {
 
 .trade-modal {
   width: min(1040px, 100%);
-  max-height: calc(100dvh - 40px);
 }
 
 .trade-modal .detail-content {
@@ -764,13 +765,15 @@ main {
   gap: 10px;
 }
 
-/* Scale the content with both available dimensions, not an empty fixed-height box.
-   The px component preserves browser zoom; narrow screens keep their own layout. */
+/* Keep a readable ordinary-desktop scale; large viewports release height, not width.
+   Mobile retains its existing layout. Long lists can use the original 1040px width. */
 @media (min-width: 881px) {
   .trade-modal {
-    --detail-unit: clamp(1px, min(calc(0.65px + 0.06dvh), calc(0.65px + 0.035vw)), 2.1px);
-    width: min(calc(1040 * var(--detail-unit)), 92vw);
-    max-height: 92dvh;
+    --detail-unit: 1.15px;
+  }
+
+  .trade-modal:not(:has(.entry-list > .entry-row:nth-child(n + 5))) {
+    width: min(880px, 100%);
   }
 
   .trade-modal .detail-content { padding: calc(20 * var(--detail-unit)); }
@@ -963,6 +966,11 @@ main {
   backdrop-filter: blur(14px);
 }
 
+.image-lightbox-image {
+  max-height: calc(100vh - 32px);
+  max-height: calc(100dvh - 32px);
+}
+
 .image-lightbox-close {
   border-color: rgba(126, 221, 242, 0.26);
   border-radius: 12px;
@@ -1084,6 +1092,7 @@ main {
   .trade-modal,
   .item-modal {
     align-self: center;
+    max-height: calc(100vh - max(24px, env(safe-area-inset-top) + env(safe-area-inset-bottom) + 12px));
     max-height: calc(100dvh - max(24px, env(safe-area-inset-top) + env(safe-area-inset-bottom) + 12px));
     border-radius: 18px;
   }
@@ -1091,6 +1100,10 @@ main {
   .trade-modal .detail-hero {
     grid-template-columns: 112px minmax(0, 1fr);
     padding-right: 40px;
+  }
+
+  .item-modal-head {
+    padding-right: 54px;
   }
 }
 
