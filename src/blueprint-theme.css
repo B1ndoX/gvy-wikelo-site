@@ -343,6 +343,10 @@ main {
   font-weight: 840;
 }
 
+.filterbar:has(.select-menu) {
+  z-index: 40;
+}
+
 .filter-title svg {
   color: var(--orange);
 }

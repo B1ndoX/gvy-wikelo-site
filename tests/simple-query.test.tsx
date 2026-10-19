@@ -10,6 +10,69 @@ const itemName = (id: string) => {
 const escapeRegExp = (text: string) => text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 describe("simple material query flow", () => {
+  it("contains keyboard focus in the top dialog and restores each nested opener", () => {
+    render(<App />);
+    const card = screen.getAllByRole("button", { name: /查看交易/ })[0];
+    card.focus();
+    fireEvent.click(card);
+    const trade = screen.getByRole("dialog", { name: "交易详情" });
+    const closeTrade = within(trade).getByRole("button", { name: "关闭详情" });
+    expect(closeTrade).toHaveFocus();
+    expect(screen.getByRole("main", { hidden: true })).toHaveAttribute("inert");
+    const controls = within(trade).getAllByRole("button");
+    fireEvent.keyDown(closeTrade, { key: "Tab", shiftKey: true });
+    expect(controls.at(-1)).toHaveFocus();
+    fireEvent.keyDown(controls.at(-1)!, { key: "Tab" });
+    expect(closeTrade).toHaveFocus();
+
+    const material = within(trade).getAllByRole("button", { name: /查看获取方式/ })[0];
+    material.focus();
+    fireEvent.click(material);
+    const item = screen.getByRole("dialog");
+    expect(item).not.toBe(trade);
+    expect(within(item).getByRole("button", { name: "关闭物品详情" })).toHaveFocus();
+    const zoom = within(item).getByRole("button", { name: /放大查看/ });
+    zoom.focus();
+    fireEvent.click(zoom);
+    expect(screen.getByRole("button", { name: "关闭图片预览" })).toHaveFocus();
+    fireEvent.keyDown(window, { key: "Escape" });
+    expect(zoom).toHaveFocus();
+    fireEvent.keyDown(window, { key: "Escape" });
+    expect(material).toHaveFocus();
+    fireEvent.keyDown(window, { key: "Escape" });
+    expect(card).toHaveFocus();
+    expect(screen.getByRole("main")).not.toHaveAttribute("inert");
+  });
+
+  it("keeps focus inside a dialog after an attempted background focus and outside close", () => {
+    render(<App />);
+    const search = screen.getByPlaceholderText("搜索合同、物品、奖励、飞船或地点");
+    const material = screen.getAllByRole("button", { name: /查看获取方式/ })[0];
+    material.focus();
+    fireEvent.click(material);
+    search.focus();
+    const dialog = screen.getByRole("dialog");
+    expect(within(dialog).getByRole("button", { name: "关闭物品详情" })).toHaveFocus();
+    fireEvent.mouseDown(dialog.parentElement!);
+    expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
+    expect(material).toHaveFocus();
+    expect(search.closest("header")).not.toHaveAttribute("aria-hidden");
+  });
+
+  it("can jump from a material to its trade without leaving a stale focus boundary", () => {
+    render(<App />);
+    const material = screen.getAllByRole("button", { name: /查看获取方式/ })[0];
+    material.focus();
+    fireEvent.click(material);
+    const item = screen.getByRole("dialog");
+    fireEvent.click(within(item).getAllByRole("button", { name: /需要 .* 个/ })[0]);
+    const trade = screen.getByRole("dialog", { name: "交易详情" });
+    expect(within(trade).getByRole("button", { name: "关闭详情" })).toHaveFocus();
+    fireEvent.click(within(trade).getByRole("button", { name: "关闭详情" }));
+    expect(material).toHaveFocus();
+    expect(screen.getByRole("main")).not.toHaveAttribute("inert");
+  });
+
   it("keeps the compact header links and removes the obsolete data strip", () => {
     render(<App />);
 
@@ -48,7 +111,7 @@ describe("simple material query flow", () => {
     expect(within(itemDialog).queryByRole("link", { name: /图片来源|资料来源|配方来源/ })).not.toBeInTheDocument();
     expect(itemDialog).not.toHaveTextContent(/公开来源|内部任务占位|物品资料版本/);
 
-    const allowedLinks = screen.getAllByRole("link").map((link) => link.textContent?.trim());
+    const allowedLinks = screen.getAllByRole("link", { hidden: true }).map((link) => link.textContent?.trim());
     expect(allowedLinks).toEqual(expect.arrayContaining(["星远舰队", "蓝图站", "陕ICP备2026017597号-1", "陕公网安备61019702000690号"]));
     expect(allowedLinks).toHaveLength(4);
   });

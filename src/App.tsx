@@ -12,6 +12,7 @@ import metadataJson from "./data/generated/metadata.json";
 import versionedDataJson from "./data/generated/versioned-data.json";
 import { CustomSelect, type SelectOption } from "./components/CustomSelect";
 import { ItemImage } from "./components/ItemImage";
+import { useDialogFocus } from "./lib/useDialogFocus";
 import { formatAmount, formatUpdateLabel, formatVersion, primaryName, reputationLabel, secondaryName } from "./lib/display";
 import type { ItemRecord, Metadata, Trade, TradeEntry, VersionedData } from "./types";
 
@@ -192,6 +193,7 @@ export default function App() {
 
   const selectedTrade = trades.find((trade) => trade.id === selectedTradeId) ?? filteredTrades[0] ?? null;
   const selectedItem = selectedItemId ? itemById.get(selectedItemId) ?? null : null;
+  useDialogFocus(expandedImage ? `image:${expandedImage.src}` : selectedItem ? `item:${selectedItem.id}` : tradeDetailOpen && selectedTrade ? `trade:${selectedTrade.id}` : null);
 
   useEffect(() => {
     if (!filteredTrades.length) return;
@@ -665,7 +667,7 @@ function ImageLightbox({ image, onClose }: { image: ExpandedImage; onClose: () =
       onMouseDown={(event) => event.target === event.currentTarget && onClose()}
     >
       <section className="image-lightbox-content" role="dialog" aria-modal="true" aria-label={`${image.alt}图片预览`}>
-        <button className="image-lightbox-close" type="button" aria-label="关闭图片预览" autoFocus onClick={onClose}><X /></button>
+        <button className="image-lightbox-close" type="button" aria-label="关闭图片预览" onClick={onClose}><X /></button>
         <img className="image-lightbox-image" src={image.src} alt={image.alt} />
       </section>
     </div>
