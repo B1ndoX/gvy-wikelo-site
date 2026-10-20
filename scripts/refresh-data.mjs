@@ -6,6 +6,7 @@ import { blockingRefreshReasons, detectDataAnomalies } from "./lib/anomalies.mjs
 import { detectSupplementRegressions } from "./lib/content-policy.mjs";
 import { buildItemIndex, loadWikiImages } from "./lib/enrich.mjs";
 import { downloadBinary, fetchJson, fetchText } from "./lib/http.mjs";
+import { fillMissingImages, imageOnlyDocuments } from "./lib/image-refresh.mjs";
 import { loadRefreshLocalization } from "./lib/localization.mjs";
 import { assertLocalizationSeries } from "./lib/official-location-source.mjs";
 import { setOfficialLocationSource, remainingUnlocalizedLocationTokens } from "./lib/location-localization.mjs";
@@ -22,6 +23,7 @@ const cacheDir = path.join(projectRoot, ".cache/http");
 const backupRoot = path.join(projectRoot, "data/backups");
 const publishCheck = process.argv.includes("--publish-check");
 const fetchedAt = new Date().toISOString();
+const automaticImagePath = path.join(projectRoot, "data/source-snapshots/automatic-item-images.json");
 
 const sources = {
   dumper: "https://dumpers-repo.com/wikelo/",
@@ -76,6 +78,11 @@ async function backupStableData() {
   const destination = path.join(backupRoot, stamp);
   await mkdir(destination, { recursive: true });
   await Promise.all(existing.map((name) => copyFile(path.join(generatedDir, name), path.join(destination, name))));
+  try {
+    await copyFile(automaticImagePath, path.join(destination, "automatic-item-images.json"));
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
+  }
   return destination;
 }
 
@@ -130,6 +137,7 @@ async function main() {
   const wikiItemImages = await loadWikiImages(path.join(projectRoot, "data/source-snapshots/wiki-item-images.json"));
   const apiItemImages = await loadWikiImages(path.join(projectRoot, "data/source-snapshots/api-item-images.json"));
   wikiItemImages.items = [...wikiItemImages.items, ...apiItemImages.items, ...aiRedrawItemImages.items];
+  const imagePolicy = await readJson(automaticImagePath, {});
   const acquisitionOverrides = await readJson(path.join(projectRoot, "data/source-snapshots/item-acquisition-overrides.json"), { items: {} });
   const acquisitionAudit = await readJson(path.join(projectRoot, "data/source-snapshots/item-acquisition-audit.json"), { items: {} });
   acquisitionOverrides.items = { ...acquisitionOverrides.items, ...acquisitionAudit.items };
@@ -167,7 +175,7 @@ async function main() {
     // Cloudflare may require a normal browser. Never bypass it; retain the inspected snapshot.
   }
 
-  const enrichedItems = await buildItemIndex({ trades, localization: official, cacheDir, projectRoot, wikiImages, wikiItemImages, acquisitionOverrides: acquisitionOverrides.items });
+  const enrichedItems = await buildItemIndex({ trades, localization: official, cacheDir, wikiImages, wikiItemImages, acquisitionOverrides: acquisitionOverrides.items, previousItems: previousItems?.items, imageRejections: imagePolicy.rejectedImages });
   const items = preserveSemanticallyUnchangedEntities(previousItems?.items, enrichedItems);
   const untranslatedLocations = items.flatMap(item => item.acquisition.flatMap(method => remainingUnlocalizedLocationTokens(method.location).map(token => `${item.id}: ${token}`)));
   if (untranslatedLocations.length) throw new Error(`Untranslated purchase locations: ${untranslatedLocations.join("; ")}`);
@@ -335,7 +343,48 @@ async function main() {
   console.log(JSON.stringify({ changed, changeSummary, ...metadata }, null, 2));
 }
 
-main().catch((error) => {
+async function refreshImages() {
+  const [tradeDocument, itemDocument, metadata, localization, versionedData, mapping, state] = await Promise.all([
+    readJson(path.join(generatedDir, "trades.json")), readJson(path.join(generatedDir, "items.json")),
+    readJson(path.join(generatedDir, "metadata.json")), readJson(path.join(generatedDir, "localization.json")),
+    readJson(path.join(generatedDir, "versioned-data.json")), readJson(automaticImagePath),
+    readJson(path.join(projectRoot, ".cache/image-refresh/state.json"), {}),
+  ]);
+  const expectedIndex = process.argv.indexOf("--expected-live-version");
+  const expectedVersion = expectedIndex >= 0 ? process.argv[expectedIndex + 1] : null;
+  if ((expectedIndex >= 0 && !expectedVersion) || (expectedVersion && expectedVersion !== tradeDocument?.gameVersion)) throw new Error("Image refresh LIVE version changed; retry the normal data check");
+  if (!mapping || mapping.schemaVersion !== "1.0.0" || !Array.isArray(mapping.items) || !Array.isArray(mapping.reviewItemIds)) throw new Error("Invalid automatic image mapping");
+  // Validate the stable baseline before requesting media, even on no-op runs.
+  imageOnlyDocuments({ tradeDocument, itemDocument, metadata, localization, versionedData, items: itemDocument.items, generatedAt: metadata.generatedAt });
+  const result = await fillMissingImages({ items: itemDocument.items, gameVersion: tradeDocument.gameVersion, projectRoot, cacheDir, mapping, state });
+  if (result.changed) {
+    const documents = imageOnlyDocuments({ tradeDocument, itemDocument, metadata, localization, versionedData, items: result.items, generatedAt: new Date().toISOString() });
+    const regressions = detectSupplementRegressions({ previousTrades: tradeDocument.trades, previousItems: itemDocument.items, trades: tradeDocument.trades, items: result.items });
+    if (regressions.length) throw new Error(`Image update blocked: ${regressions.join("; ")}`);
+    await backupStableData();
+    await writeJsonAtomically(automaticImagePath, result.mapping);
+    await writeJsonAtomically(path.join(generatedDir, "items.json"), documents.itemDocument);
+    await writeJsonAtomically(path.join(generatedDir, "versioned-data.json"), documents.versionedData);
+    await writeJsonAtomically(path.join(generatedDir, "metadata.json"), documents.metadata);
+    await pruneBackups();
+  }
+  await writeJsonAtomically(path.join(projectRoot, ".cache/image-refresh/state.json"), result.state);
+  if (result.reviewed.length) {
+    const reviewPath = path.join(projectRoot, ".cache/image-refresh/review-candidates.json");
+    const previous = await readJson(reviewPath, { items: [] });
+    const byId = new Map(previous.items.map(entry => [entry.id, entry]));
+    for (const entry of result.reviewed) byId.set(entry.id, entry);
+    await writeJsonAtomically(reviewPath, { items: [...byId.values()].sort((a, b) => a.id.localeCompare(b.id)) });
+  }
+  console.log(JSON.stringify({ imageRefresh: true, changed: result.changed, outcomes: result.outcomes, reviewRequired: result.reviewed.map(entry => entry.id) }, null, 2));
+}
+
+async function run() {
+  if (!process.argv.includes("--images-only")) await main();
+  await refreshImages();
+}
+
+run().catch((error) => {
   console.error(error.stack || error.message || String(error));
   process.exitCode = 1;
 });

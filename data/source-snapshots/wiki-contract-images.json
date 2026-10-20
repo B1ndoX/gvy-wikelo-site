@@ -6,313 +6,497 @@
       "title": "Curious Weapon",
       "imageUrl": "https://media.starcitizen.tools/d/da/Curious_Weapon.png",
       "localPath": "/images/wiki/curious-weapon.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/d/da/Curious_Weapon.png/640px-Curious_Weapon.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/d/da/Curious_Weapon.png/640px-Curious_Weapon.png.webp",
+      "itemIds": [
+        "none_special_ballistic_01_collector01"
+      ]
     },
     {
       "title": "Fun Kopion Skull Gun",
       "imageUrl": "https://media.starcitizen.tools/7/77/Kopion_Skull_Right.png",
       "localPath": "/images/wiki/fun-kopion-skull-gun.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/7/77/Kopion_Skull_Right.png/640px-Kopion_Skull_Right.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/7/77/Kopion_Skull_Right.png/640px-Kopion_Skull_Right.png.webp",
+      "itemIds": [
+        "volt_rifle_energy_01_collector02"
+      ]
     },
     {
       "title": "Fun Military Skull Gun",
       "imageUrl": "https://media.starcitizen.tools/d/de/Fun_Military_Skull_Gun.png",
       "localPath": "/images/wiki/fun-military-skull-gun.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/d/de/Fun_Military_Skull_Gun.png/640px-Fun_Military_Skull_Gun.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/d/de/Fun_Military_Skull_Gun.png/640px-Fun_Military_Skull_Gun.png.webp",
+      "itemIds": [
+        "volt_rifle_energy_01_collector03"
+      ]
     },
     {
       "title": "Hot Shot",
       "imageUrl": "https://media.starcitizen.tools/0/03/Hot_Shot.jpg",
       "localPath": "/images/wiki/hot-shot.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/0/03/Hot_Shot.jpg/640px-Hot_Shot.jpg.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/0/03/Hot_Shot.jpg/640px-Hot_Shot.jpg.webp",
+      "itemIds": [
+        "none_pistol_ballistic_01_collector01"
+      ]
     },
     {
       "title": "Make VOLT shotgun angrier",
       "imageUrl": "https://media.starcitizen.tools/b/b0/Make_VOLT_shotgun_angrier.png",
       "localPath": "/images/wiki/make-volt-shotgun-angrier.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/b/b0/Make_VOLT_shotgun_angrier.png/640px-Make_VOLT_shotgun_angrier.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/b/b0/Make_VOLT_shotgun_angrier.png/640px-Make_VOLT_shotgun_angrier.png.webp",
+      "itemIds": [
+        "volt_shotgun_energy_01_collector01"
+      ]
     },
     {
       "title": "Red Fight Shotgun",
       "imageUrl": "https://media.starcitizen.tools/7/7c/R97_Crimson_Camo_Shotgun.png",
       "localPath": "/images/wiki/red-fight-shotgun.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/7/7c/R97_Crimson_Camo_Shotgun.png/640px-R97_Crimson_Camo_Shotgun.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/7/7c/R97_Crimson_Camo_Shotgun.png/640px-R97_Crimson_Camo_Shotgun.png.webp",
+      "itemIds": [
+        "gmni_shotgun_ballistic_01_reward01"
+      ]
     },
     {
       "title": "Snow Snipe",
       "imageUrl": "https://media.starcitizen.tools/6/6c/Zenith_Snow_Camo_Laser_Sniper_Rifle.png",
       "localPath": "/images/wiki/snow-snipe.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/6c/Zenith_Snow_Camo_Laser_Sniper_Rifle.png/640px-Zenith_Snow_Camo_Laser_Sniper_Rifle.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/6c/Zenith_Snow_Camo_Laser_Sniper_Rifle.png/640px-Zenith_Snow_Camo_Laser_Sniper_Rifle.png.webp",
+      "itemIds": [
+        "volt_sniper_energy_01_collector01"
+      ]
     },
     {
       "title": "Yormandi Gun",
       "imageUrl": "https://media.starcitizen.tools/8/8d/Yormandi_Gun.png",
       "localPath": "/images/wiki/yormandi-gun.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/8/8d/Yormandi_Gun.png/640px-Yormandi_Gun.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/8/8d/Yormandi_Gun.png/640px-Yormandi_Gun.png.webp",
+      "itemIds": [
+        "volt_lmg_energy_01_collector02"
+      ]
     },
     {
       "title": "Your Best Shot",
       "imageUrl": "https://media.starcitizen.tools/7/73/Killshot_Dominion_Camo_Rifle.png",
       "localPath": "/images/wiki/your-best-shot.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/7/73/Killshot_Dominion_Camo_Rifle.png/640px-Killshot_Dominion_Camo_Rifle.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/7/73/Killshot_Dominion_Camo_Rifle.png/640px-Killshot_Dominion_Camo_Rifle.png.webp",
+      "itemIds": [
+        "none_rifle_multi_01_collector01"
+      ]
     },
     {
       "title": "Armor with Vanduul",
       "imageUrl": "https://media.starcitizen.tools/c/c5/Armor_with_Vanduul.png",
       "localPath": "/images/wiki/armor-with-vanduul.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/c/c5/Armor_with_Vanduul.png/640px-Armor_with_Vanduul.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/c/c5/Armor_with_Vanduul.png/640px-Armor_with_Vanduul.png.webp",
+      "itemIds": [
+        "qrt_combat_medium_arms_02_01_01",
+        "qrt_combat_medium_backpack_02_01_01",
+        "qrt_combat_medium_core_02_01_01",
+        "qrt_combat_medium_helmet_02_01_01",
+        "qrt_combat_medium_legs_02_01_01"
+      ]
     },
     {
       "title": "Do Lava Suit",
       "imageUrl": "https://media.starcitizen.tools/f/fe/Lava_armor.jpg",
       "localPath": "/images/wiki/do-lava-suit.jpg",
-      "bundledFromUrl": "https://media.starcitizen.tools/f/fe/Lava_armor.jpg"
+      "bundledFromUrl": "https://media.starcitizen.tools/f/fe/Lava_armor.jpg",
+      "itemIds": [
+        "fta_medium_helmet_02_01_01",
+        "grin_utility_medium_arms_03_04_01",
+        "grin_utility_medium_backpack_03_04_01",
+        "grin_utility_medium_core_03_04_01",
+        "grin_utility_medium_legs_03_04_01"
+      ]
     },
     {
       "title": "Hide Snow Suit",
       "imageUrl": "https://media.starcitizen.tools/3/3c/Hide_Snow_Suit.png",
       "localPath": "/images/wiki/hide-snow-suit.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/3/3c/Hide_Snow_Suit.png/640px-Hide_Snow_Suit.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/3/3c/Hide_Snow_Suit.png/640px-Hide_Snow_Suit.png.webp",
+      "itemIds": [
+        "cds_combat_light_backpack_01_04_01",
+        "kap_combat_light_arms_02_02_01",
+        "kap_combat_light_core_02_02_01",
+        "kap_combat_light_helmet_02_02_01",
+        "kap_combat_light_legs_02_02_01"
+      ]
     },
     {
       "title": "Make glowy armor",
       "imageUrl": "https://media.starcitizen.tools/8/83/Make_glowy_armor.png",
       "localPath": "/images/wiki/make-glowy-armor.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/8/83/Make_glowy_armor.png/640px-Make_glowy_armor.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/8/83/Make_glowy_armor.png/640px-Make_glowy_armor.png.webp",
+      "itemIds": [
+        "qrt_combat_heavy_arms_02_01_01",
+        "qrt_combat_heavy_core_02_01_01",
+        "qrt_combat_heavy_helmet_02_01_01",
+        "qrt_combat_heavy_legs_02_01_01"
+      ]
     },
     {
       "title": "Red Fight Armor",
       "imageUrl": "https://media.starcitizen.tools/c/c2/Monde_Set_Crimson_Camo_Wikelo.png",
       "localPath": "/images/wiki/red-fight-armor.png",
-      "bundledFromUrl": "https://media.starcitizen.tools/c/c2/Monde_Set_Crimson_Camo_Wikelo.png"
+      "bundledFromUrl": "https://media.starcitizen.tools/c/c2/Monde_Set_Crimson_Camo_Wikelo.png",
+      "itemIds": [
+        "kap_combat_heavy_arms_02_06_01",
+        "kap_combat_heavy_core_02_06_01",
+        "kap_combat_heavy_helmet_02_06_01",
+        "kap_combat_heavy_legs_02_06_01",
+        "vgl_combat_heavy_backpack_01_08_01"
+      ]
     },
     {
       "title": "Shiny Builder Suit",
       "imageUrl": "https://media.starcitizen.tools/5/54/Shiny_Builder_Suit.png",
       "localPath": "/images/wiki/shiny-builder-suit.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/5/54/Shiny_Builder_Suit.png/640px-Shiny_Builder_Suit.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/5/54/Shiny_Builder_Suit.png/640px-Shiny_Builder_Suit.png.webp",
+      "itemIds": [
+        "clda_env_heavy_backpack_01_03_01",
+        "omc_utility_heavy_arms_01_02_01",
+        "omc_utility_heavy_core_01_02_01",
+        "omc_utility_heavy_helmet_01_02_01",
+        "omc_utility_heavy_legs_01_02_01"
+      ]
     },
     {
       "title": "Suit Up Take Off",
       "imageUrl": "https://media.starcitizen.tools/0/02/Tailwind_Flight_Suit_Wikelo.png",
       "localPath": "/images/wiki/suit-up-take-off.png",
-      "bundledFromUrl": "https://media.starcitizen.tools/0/02/Tailwind_Flight_Suit_Wikelo.png"
+      "bundledFromUrl": "https://media.starcitizen.tools/0/02/Tailwind_Flight_Suit_Wikelo.png",
+      "itemIds": [
+        "vgl_flightsuit_01_02_01",
+        "vgl_flightsuit_helmet_01_02_01"
+      ]
     },
     {
       "title": "Test Armor",
       "imageUrl": "https://media.starcitizen.tools/e/ee/Test_Armor.png",
       "localPath": "/images/wiki/test-armor.png",
-      "bundledFromUrl": "https://media.starcitizen.tools/e/ee/Test_Armor.png"
+      "bundledFromUrl": "https://media.starcitizen.tools/e/ee/Test_Armor.png",
+      "itemIds": [
+        "qrt_utility_heavy_arms_02_01_01",
+        "qrt_utility_heavy_backpack_02_01_01",
+        "qrt_utility_heavy_core_02_01_01",
+        "qrt_utility_heavy_helmet_02_01_01",
+        "qrt_utility_heavy_legs_02_01_01"
+      ]
     },
     {
       "title": "Make ATLS shoot",
       "imageUrl": "https://media.starcitizen.tools/6/63/ATLS_WIKELO.png",
       "localPath": "/images/wiki/make-atls-shoot.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/63/ATLS_WIKELO.png/640px-ATLS_WIKELO.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/63/ATLS_WIKELO.png/640px-ATLS_WIKELO.png.webp",
+      "itemIds": [
+        "argo_atls_ikti"
+      ]
     },
     {
       "title": "Make a Ursa Mod",
       "imageUrl": "https://media.starcitizen.tools/1/18/Ursa_Medivac_Wikelo.png",
       "localPath": "/images/wiki/make-a-ursa-mod.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/1/18/Ursa_Medivac_Wikelo.png/640px-Ursa_Medivac_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/1/18/Ursa_Medivac_Wikelo.png/640px-Ursa_Medivac_Wikelo.png.webp",
+      "itemIds": [
+        "rsi_ursa_medivac_stealth"
+      ]
     },
     {
       "title": "Make jumpy ATLS shoot",
       "imageUrl": "https://media.starcitizen.tools/6/63/ATLS_WIKELO.png",
       "localPath": "/images/wiki/make-jumpy-atls-shoot.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/63/ATLS_WIKELO.png/640px-ATLS_WIKELO.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/63/ATLS_WIKELO.png/640px-ATLS_WIKELO.png.webp",
+      "itemIds": [
+        "argo_atls_geo_ikti"
+      ]
     },
     {
       "title": "Pulse Plus",
       "imageUrl": "https://media.starcitizen.tools/2/2c/Pulse_Plus_-_infobox.jpg",
       "localPath": "/images/wiki/pulse-plus.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/2/2c/Pulse_Plus_-_infobox.jpg/640px-Pulse_Plus_-_infobox.jpg.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/2/2c/Pulse_Plus_-_infobox.jpg/640px-Pulse_Plus_-_infobox.jpg.webp",
+      "itemIds": [
+        "mrai_pulse_collector_civ"
+      ]
     },
     {
       "title": "Asgard Fight Mod",
       "imageUrl": "https://media.starcitizen.tools/1/13/Asgard_Wikelo.jpg",
       "localPath": "/images/wiki/asgard-fight-mod.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/1/13/Asgard_Wikelo.jpg/640px-Asgard_Wikelo.jpg.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/1/13/Asgard_Wikelo.jpg/640px-Asgard_Wikelo.jpg.webp",
+      "itemIds": [
+        "anvl_asgard_collector_military"
+      ]
     },
     {
       "title": "Build a Mod Scorpius",
       "imageUrl": "https://media.starcitizen.tools/6/6f/Scorpius_Wikelo.jpg",
       "localPath": "/images/wiki/build-a-mod-scorpius.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/6f/Scorpius_Wikelo.jpg/640px-Scorpius_Wikelo.jpg.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/6f/Scorpius_Wikelo.jpg/640px-Scorpius_Wikelo.jpg.webp",
+      "itemIds": [
+        "rsi_scorpius_stealth"
+      ]
     },
     {
       "title": "F8 War Mod",
       "imageUrl": "https://media.starcitizen.tools/7/70/F8C_Lightning_Wikelo.png",
       "localPath": "/images/wiki/f8-war-mod.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/7/70/F8C_Lightning_Wikelo.png/640px-F8C_Lightning_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/7/70/F8C_Lightning_Wikelo.png/640px-F8C_Lightning_Wikelo.png.webp",
+      "itemIds": [
+        "anvl_lightning_f8c_collector_military"
+      ]
     },
     {
       "title": "Firebird Mod",
       "imageUrl": "https://media.starcitizen.tools/d/d7/Sabre_Firebird_Wikelo.png",
       "localPath": "/images/wiki/firebird-mod.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/d/d7/Sabre_Firebird_Wikelo.png/640px-Sabre_Firebird_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/d/d7/Sabre_Firebird_Wikelo.png/640px-Sabre_Firebird_Wikelo.png.webp",
+      "itemIds": [
+        "aegs_sabre_firebird_collector_milt"
+      ]
     },
     {
       "title": "Fortune ship for you",
       "imageUrl": "https://media.starcitizen.tools/2/21/Fortune_Wikelo.jpg",
       "localPath": "/images/wiki/fortune-ship-for-you.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/2/21/Fortune_Wikelo.jpg/640px-Fortune_Wikelo.jpg.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/2/21/Fortune_Wikelo.jpg/640px-Fortune_Wikelo.jpg.webp",
+      "itemIds": [
+        "misc_fortune_collector_industrial"
+      ]
     },
     {
       "title": "Golem Rocks",
       "imageUrl": "https://media.starcitizen.tools/b/ba/Golem_Wikelo.jpg",
       "localPath": "/images/wiki/golem-rocks.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/b/ba/Golem_Wikelo.jpg/640px-Golem_Wikelo.jpg.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/b/ba/Golem_Wikelo.jpg/640px-Golem_Wikelo.jpg.webp",
+      "itemIds": [
+        "drak_golem_collector_indust"
+      ]
     },
     {
       "title": "Guardian Fight Mod",
       "imageUrl": "https://media.starcitizen.tools/5/5d/Guardian_Wikelo.png",
       "localPath": "/images/wiki/guardian-fight-mod.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/5/5d/Guardian_Wikelo.png/640px-Guardian_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/5/5d/Guardian_Wikelo.png/640px-Guardian_Wikelo.png.webp",
+      "itemIds": [
+        "mrai_guardian_military"
+      ]
     },
     {
       "title": "Guardian Wik-X",
       "imageUrl": "https://media.starcitizen.tools/5/5d/Guardian_Wikelo.png",
       "localPath": "/images/wiki/guardian-wik-x.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/5/5d/Guardian_Wikelo.png/640px-Guardian_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/5/5d/Guardian_Wikelo.png/640px-Guardian_Wikelo.png.webp",
+      "itemIds": [
+        "mrai_guardian_mx_collector_military"
+      ]
     },
     {
       "title": "Guardian take down ship",
       "imageUrl": "https://media.starcitizen.tools/5/5d/Guardian_Wikelo.png",
       "localPath": "/images/wiki/guardian-take-down-ship.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/5/5d/Guardian_Wikelo.png/640px-Guardian_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/5/5d/Guardian_Wikelo.png/640px-Guardian_Wikelo.png.webp",
+      "itemIds": [
+        "mrai_guardian_qi_collector_indust"
+      ]
     },
     {
       "title": "More than a Max",
       "imageUrl": "https://media.starcitizen.tools/b/b1/Starlancer_MAX_Wikelo.png",
       "localPath": "/images/wiki/more-than-a-max.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/b/b1/Starlancer_MAX_Wikelo.png/640px-Starlancer_MAX_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/b/b1/Starlancer_MAX_Wikelo.png/640px-Starlancer_MAX_Wikelo.png.webp",
+      "itemIds": [
+        "misc_starlancer_max_collector_indust"
+      ]
     },
     {
       "title": "Most Special Wolf",
       "imageUrl": "https://media.starcitizen.tools/0/00/L-21_Wolf_Military_Wikelo.jpg",
       "localPath": "/images/wiki/most-special-wolf.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/0/00/L-21_Wolf_Military_Wikelo.jpg/640px-L-21_Wolf_Military_Wikelo.jpg.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/0/00/L-21_Wolf_Military_Wikelo.jpg/640px-L-21_Wolf_Military_Wikelo.jpg.webp",
+      "itemIds": [
+        "krig_l21_wolf_collector_military"
+      ]
     },
     {
       "title": "Now make Polaris. Short Time Deal.",
       "imageUrl": "https://media.starcitizen.tools/6/62/Polaris_Wikelo.jpg",
       "localPath": "/images/wiki/now-make-polaris-short-time-deal.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/62/Polaris_Wikelo.jpg/640px-Polaris_Wikelo.jpg.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/62/Polaris_Wikelo.jpg/640px-Polaris_Wikelo.jpg.webp",
+      "itemIds": [
+        "rsi_polaris_collector_military"
+      ]
     },
     {
       "title": "Peregrine Wikelo Mod",
       "imageUrl": "https://media.starcitizen.tools/3/31/Sabre_Peregrine_Wikelo.png",
       "localPath": "/images/wiki/peregrine-wikelo-mod.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/3/31/Sabre_Peregrine_Wikelo.png/640px-Sabre_Peregrine_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/3/31/Sabre_Peregrine_Wikelo.png/640px-Sabre_Peregrine_Wikelo.png.webp",
+      "itemIds": [
+        "aegs_sabre_peregrine_collector_competition"
+      ]
     },
     {
       "title": "Prospects Look Good",
       "imageUrl": "https://media.starcitizen.tools/7/75/Prospector_Wikelo.png",
       "localPath": "/images/wiki/prospects-look-good.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/7/75/Prospector_Wikelo.png/640px-Prospector_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/7/75/Prospector_Wikelo.png/640px-Prospector_Wikelo.png.webp",
+      "itemIds": [
+        "misc_prospector_collector_indust"
+      ]
     },
     {
       "title": "Prowler More Utility",
       "imageUrl": "https://media.starcitizen.tools/6/64/Prowler_Utility_Wikelo.jpg",
       "localPath": "/images/wiki/prowler-more-utility.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/64/Prowler_Utility_Wikelo.jpg/640px-Prowler_Utility_Wikelo.jpg.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/64/Prowler_Utility_Wikelo.jpg/640px-Prowler_Utility_Wikelo.jpg.webp",
+      "itemIds": [
+        "espr_prowler_utility_collector_indust"
+      ]
     },
     {
       "title": "RSI Meteor Mod",
       "imageUrl": "https://media.starcitizen.tools/6/6a/Meteor_Wikelo.png",
       "localPath": "/images/wiki/rsi-meteor-mod.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/6a/Meteor_Wikelo.png/640px-Meteor_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/6a/Meteor_Wikelo.png/640px-Meteor_Wikelo.png.webp",
+      "itemIds": [
+        "rsi_meteor_collector_stealth"
+      ]
     },
     {
       "title": "Ready for Raft?",
       "imageUrl": "https://media.starcitizen.tools/6/6e/RAFT_Wikelo.jpg",
       "localPath": "/images/wiki/ready-for-raft.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/6e/RAFT_Wikelo.jpg/640px-RAFT_Wikelo.jpg.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/6e/RAFT_Wikelo.jpg/640px-RAFT_Wikelo.jpg.webp",
+      "itemIds": [
+        "argo_raft_collector_indust"
+      ]
     },
     {
       "title": "Red Fight Apollo",
       "imageUrl": "https://media.starcitizen.tools/5/51/Apollo_Triage_Wikelo.jpg",
       "localPath": "/images/wiki/red-fight-apollo.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/5/51/Apollo_Triage_Wikelo.jpg/640px-Apollo_Triage_Wikelo.jpg.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/5/51/Apollo_Triage_Wikelo.jpg/640px-Apollo_Triage_Wikelo.jpg.webp",
+      "itemIds": [
+        "rsi_apollo_triage_collector_stealth"
+      ]
     },
     {
       "title": "Sneaky Stabber",
       "imageUrl": "https://media.starcitizen.tools/7/70/F8C_Lightning_Wikelo.png",
       "localPath": "/images/wiki/sneaky-stabber.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/7/70/F8C_Lightning_Wikelo.png/640px-F8C_Lightning_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/7/70/F8C_Lightning_Wikelo.png/640px-F8C_Lightning_Wikelo.png.webp",
+      "itemIds": [
+        "anvl_lightning_f8c_collector_stealth"
+      ]
     },
     {
       "title": "Sneaky Starfighter Ion",
       "imageUrl": "https://media.starcitizen.tools/a/a9/Ares_Wikelo.jpg",
       "localPath": "/images/wiki/sneaky-starfighter-ion.jpg",
-      "bundledFromUrl": "https://media.starcitizen.tools/a/a9/Ares_Wikelo.jpg"
+      "bundledFromUrl": "https://media.starcitizen.tools/a/a9/Ares_Wikelo.jpg",
+      "itemIds": [
+        "crus_starfighter_ion_collector_stealth"
+      ]
     },
     {
       "title": "Special Idris For Killing",
       "imageUrl": "https://media.starcitizen.tools/e/ec/Idris-P_Wikelo.jpg",
       "localPath": "/images/wiki/special-idris-for-killing.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/e/ec/Idris-P_Wikelo.jpg/640px-Idris-P_Wikelo.jpg.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/e/ec/Idris-P_Wikelo.jpg/640px-Idris-P_Wikelo.jpg.webp",
+      "itemIds": [
+        "aegs_idris_p_collector_military"
+      ]
     },
     {
       "title": "Spirit Cargo mod",
       "imageUrl": "https://media.starcitizen.tools/6/6d/C1_Spirit_Wikelo.png",
       "localPath": "/images/wiki/spirit-cargo-mod.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/6d/C1_Spirit_Wikelo.png/640px-C1_Spirit_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/6d/C1_Spirit_Wikelo.png/640px-C1_Spirit_Wikelo.png.webp",
+      "itemIds": [
+        "crus_spirit_c1_civilian"
+      ]
     },
     {
       "title": "Starfighter Inferno Special",
       "imageUrl": "https://media.starcitizen.tools/a/a9/Ares_Wikelo.jpg",
       "localPath": "/images/wiki/starfighter-inferno-special.jpg",
-      "bundledFromUrl": "https://media.starcitizen.tools/a/a9/Ares_Wikelo.jpg"
+      "bundledFromUrl": "https://media.starcitizen.tools/a/a9/Ares_Wikelo.jpg",
+      "itemIds": [
+        "crus_starfighter_inferno_collector_military"
+      ]
     },
     {
       "title": "Starlifter A2 War Mod",
       "imageUrl": "https://media.starcitizen.tools/0/0c/A2_Hercules_Starlifter_Wikelo.png",
       "localPath": "/images/wiki/starlifter-a2-war-mod.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/0/0c/A2_Hercules_Starlifter_Wikelo.png/640px-A2_Hercules_Starlifter_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/0/0c/A2_Hercules_Starlifter_Wikelo.png/640px-A2_Hercules_Starlifter_Wikelo.png.webp",
+      "itemIds": [
+        "crus_starlifter_a2_collector_military"
+      ]
     },
     {
       "title": "Upgrade Intrepid",
       "imageUrl": "https://media.starcitizen.tools/b/bd/Intrepid_Wikelo.png",
       "localPath": "/images/wiki/upgrade-intrepid.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/b/bd/Intrepid_Wikelo.png/640px-Intrepid_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/b/bd/Intrepid_Wikelo.png/640px-Intrepid_Wikelo.png.webp",
+      "itemIds": [
+        "crus_intrepid_collector_indust"
+      ]
     },
     {
       "title": "Want Taurus ship",
       "imageUrl": "https://media.starcitizen.tools/a/a0/Constellation_Taurus_Wikelo.jpg",
       "localPath": "/images/wiki/want-taurus-ship.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/a/a0/Constellation_Taurus_Wikelo.jpg/640px-Constellation_Taurus_Wikelo.jpg.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/a/a0/Constellation_Taurus_Wikelo.jpg/640px-Constellation_Taurus_Wikelo.jpg.webp",
+      "itemIds": [
+        "rsi_constellation_taurus_gs_military"
+      ]
     },
     {
       "title": "What is Terrapin?",
       "imageUrl": "https://media.starcitizen.tools/9/9e/Terrapin_Medic_Wikelo.png",
       "localPath": "/images/wiki/what-is-terrapin.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/9/9e/Terrapin_Medic_Wikelo.png/640px-Terrapin_Medic_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/9/9e/Terrapin_Medic_Wikelo.png/640px-Terrapin_Medic_Wikelo.png.webp",
+      "itemIds": [
+        "anvl_terrapin_medic_collector_medic"
+      ]
     },
     {
       "title": "Where Wolf? Here Wolf",
       "imageUrl": "https://media.starcitizen.tools/6/6e/L-21_Wolf_%28Stealth%29_Wikelo.jpg",
       "localPath": "/images/wiki/where-wolf-here-wolf.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/6e/L-21_Wolf_%28Stealth%29_Wikelo.jpg/640px-L-21_Wolf_%28Stealth%29_Wikelo.jpg.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/6/6e/L-21_Wolf_%28Stealth%29_Wikelo.jpg/640px-L-21_Wolf_%28Stealth%29_Wikelo.jpg.webp",
+      "itemIds": [
+        "krig_l21_wolf_collector_stealth"
+      ]
     },
     {
       "title": "Wikelo Navy F7",
       "imageUrl": "https://media.starcitizen.tools/e/e3/F7C-M_Super_Hornet_MK-II_Wikelo.jpg",
       "localPath": "/images/wiki/wikelo-navy-f7.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/e/e3/F7C-M_Super_Hornet_MK-II_Wikelo.jpg/640px-F7C-M_Super_Hornet_MK-II_Wikelo.jpg.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/e/e3/F7C-M_Super_Hornet_MK-II_Wikelo.jpg/640px-F7C-M_Super_Hornet_MK-II_Wikelo.jpg.webp",
+      "itemIds": [
+        "anvl_hornet_f7_mk2_collector_mod"
+      ]
     },
     {
       "title": "Zeus Cargo Special",
       "imageUrl": "https://media.starcitizen.tools/f/f4/Zeus_MK_II_CL_Wikelo.png",
       "localPath": "/images/wiki/zeus-cargo-special.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/f/f4/Zeus_MK_II_CL_Wikelo.png/640px-Zeus_MK_II_CL_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/f/f4/Zeus_MK_II_CL_Wikelo.png/640px-Zeus_MK_II_CL_Wikelo.png.webp",
+      "itemIds": [
+        "rsi_zeus_cl_collector_indust"
+      ]
     },
     {
       "title": "Zeus Special",
       "imageUrl": "https://media.starcitizen.tools/a/ac/Zeus_Mk_II_ES_Wikelo.png",
       "localPath": "/images/wiki/zeus-special.webp",
-      "bundledFromUrl": "https://media.starcitizen.tools/thumb/a/ac/Zeus_Mk_II_ES_Wikelo.png/640px-Zeus_Mk_II_ES_Wikelo.png.webp"
+      "bundledFromUrl": "https://media.starcitizen.tools/thumb/a/ac/Zeus_Mk_II_ES_Wikelo.png/640px-Zeus_Mk_II_ES_Wikelo.png.webp",
+      "itemIds": [
+        "rsi_zeus_es_collector_indust"
+      ]
     }
   ],
   "bundledAt": "2026-08-04T13:58:04.037Z",

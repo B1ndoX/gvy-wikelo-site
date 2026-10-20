@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.0.0",
+  "policy": "Missing physical items only; exact Wiki API identity and LIVE source; validated original bytes. Existing images are preserved. reviewItemIds are discovery-only and require manual approval before replacement. Provenance is offline, never public UI copy.",
+  "reviewItemIds": [],
+  "items": [
+    {
+      "id": "gmni_shotgun_ballistic_01_mag",
+      "pageUrl": "https://api.star-citizen.wiki/items/r97-shotgun-magazine-18-cap",
+      "imageUrl": "https://media.starcitizen.tools/a/a4/R97_Shotgun_Magazine_-_CutOut_-_Mesh_BG.png",
+      "downloadedUrl": "https://media.starcitizen.tools/a/a4/R97_Shotgun_Magazine_-_CutOut_-_Mesh_BG.png",
+      "imageKind": "exact",
+      "sha256": "8e6d3e52ba0ba613451aed5d064acfc37e0252f8b746e77b964aa1c74c437628",
+      "width": 1024,
+      "height": 576,
+      "bytes": 740815,
+      "identity": {
+        "className": "gmni_shotgun_ballistic_01_mag",
+        "uuid": "b4ef17b2-60b9-4617-a6a4-60dd053a9e73",
+        "sourceVersion": "4.10.2-LIVE.12881860"
+      },
+      "hasWatermark": "unknown",
+      "sourceType": "wiki_api_exact_identity",
+      "localPath": "/images/auto/8e6d3e52ba0ba613451aed5d064acfc37e0252f8b746e77b964aa1c74c437628.png"
+    },
+    {
+      "id": "volt_lmg_energy_01_collector01",
+      "pageUrl": "https://api.star-citizen.wiki/items/fresnel-deepwater-energy-lmg",
+      "imageUrl": "https://media.starcitizen.tools/1/16/Heavy_Volt_Zapper.png",
+      "downloadedUrl": "https://media.starcitizen.tools/1/16/Heavy_Volt_Zapper.png",
+      "imageKind": "exact",
+      "sha256": "b251498d240e40356f339f6437cef915130d7a8de75e636f9a55d032885f4d18",
+      "width": 1286,
+      "height": 643,
+      "bytes": 1295432,
+      "identity": {
+        "className": "volt_lmg_energy_01_collector01",
+        "uuid": "123f7dff-f340-48f9-af35-86f986ec86d2",
+        "sourceVersion": "4.10.2-LIVE.12881860"
+      },
+      "hasWatermark": "unknown",
+      "sourceType": "wiki_api_exact_identity",
+      "localPath": "/images/auto/b251498d240e40356f339f6437cef915130d7a8de75e636f9a55d032885f4d18.png"
+    },
+    {
+      "id": "volt_sniper_energy_01_mag",
+      "pageUrl": "https://api.star-citizen.wiki/items/zenith-laser-sniper-rifle-battery-22-cap",
+      "imageUrl": "https://media.starcitizen.tools/1/17/Zenith_Laser_Sniper_Rifle_Battery.jpg",
+      "downloadedUrl": "https://media.starcitizen.tools/1/17/Zenith_Laser_Sniper_Rifle_Battery.jpg",
+      "imageKind": "exact",
+      "sha256": "cee82699fb59799aba818f89a91ac7bc793dc623ca01809895592d0f632fdfb3",
+      "width": 909,
+      "height": 769,
+      "bytes": 159344,
+      "identity": {
+        "className": "volt_sniper_energy_01_mag",
+        "uuid": "fa12a7a5-6fdd-4e7b-9237-1f2e131a43c4",
+        "sourceVersion": "4.10.2-LIVE.12881860"
+      },
+      "hasWatermark": "unknown",
+      "sourceType": "wiki_api_exact_identity",
+      "localPath": "/images/auto/cee82699fb59799aba818f89a91ac7bc793dc623ca01809895592d0f632fdfb3.jpg"
+    }
+  ],
+  "rejectedImages": [
+    {
+      "id": "qrt_specialist_heavy_arms_01_03_01",
+      "localPath": "/images/wiki/most-special-wolf.webp",
+      "sourceUrl": "https://media.starcitizen.tools/0/00/L-21_Wolf_Military_Wikelo.jpg",
+      "reason": "Ship reward photo does not depict this armor/weapon."
+    },
+    {
+      "id": "qrt_specialist_heavy_core_01_03_01",
+      "localPath": "/images/wiki/most-special-wolf.webp",
+      "sourceUrl": "https://media.starcitizen.tools/0/00/L-21_Wolf_Military_Wikelo.jpg",
+      "reason": "Ship reward photo does not depict this armor/weapon."
+    },
+    {
+      "id": "qrt_specialist_heavy_helmet_01_03_01",
+      "localPath": "/images/wiki/most-special-wolf.webp",
+      "sourceUrl": "https://media.starcitizen.tools/0/00/L-21_Wolf_Military_Wikelo.jpg",
+      "reason": "Ship reward photo does not depict this armor/weapon."
+    },
+    {
+      "id": "qrt_specialist_heavy_legs_01_03_01",
+      "localPath": "/images/wiki/most-special-wolf.webp",
+      "sourceUrl": "https://media.starcitizen.tools/0/00/L-21_Wolf_Military_Wikelo.jpg",
+      "reason": "Ship reward photo does not depict this armor/weapon."
+    },
+    {
+      "id": "none_special_ballistic_01_rocket",
+      "localPath": "/images/wiki/curious-weapon.webp",
+      "sourceUrl": "https://media.starcitizen.tools/d/da/Curious_Weapon.png",
+      "reason": "Whole weapon photo does not depict its separate ammunition/battery."
+    },
+    {
+      "id": "volt_lmg_energy_01_collector01",
+      "localPath": "/images/wiki/most-special-wolf.webp",
+      "sourceUrl": "https://media.starcitizen.tools/0/00/L-21_Wolf_Military_Wikelo.jpg",
+      "reason": "Ship reward photo does not depict this armor/weapon."
+    },
+    {
+      "id": "none_rifle_multi_01_mag",
+      "localPath": "/images/wiki/your-best-shot.webp",
+      "sourceUrl": "https://media.starcitizen.tools/7/73/Killshot_Dominion_Camo_Rifle.png",
+      "reason": "Whole weapon photo does not depict its separate ammunition/battery."
+    },
+    {
+      "id": "volt_rifle_energy_01_mag",
+      "localPath": "/images/wiki/fun-kopion-skull-gun.webp",
+      "sourceUrl": "https://media.starcitizen.tools/7/77/Kopion_Skull_Right.png",
+      "reason": "Whole weapon photo does not depict its separate ammunition/battery."
+    },
+    {
+      "id": "volt_shotgun_energy_01_mag",
+      "localPath": "/images/wiki/make-volt-shotgun-angrier.webp",
+      "sourceUrl": "https://media.starcitizen.tools/b/b0/Make_VOLT_shotgun_angrier.png",
+      "reason": "Whole weapon photo does not depict its separate ammunition/battery."
+    },
+    {
+      "id": "gmni_shotgun_ballistic_01_mag",
+      "localPath": "/images/wiki/red-fight-shotgun.webp",
+      "sourceUrl": "https://media.starcitizen.tools/7/7c/R97_Crimson_Camo_Shotgun.png",
+      "reason": "Whole weapon photo does not depict its separate ammunition/battery."
+    },
+    {
+      "id": "none_pistol_ballistic_01_mag",
+      "localPath": "/images/wiki/hot-shot.webp",
+      "sourceUrl": "https://media.starcitizen.tools/0/03/Hot_Shot.jpg",
+      "reason": "Whole weapon photo does not depict its separate ammunition/battery."
+    },
+    {
+      "id": "volt_sniper_energy_01_mag",
+      "localPath": "/images/wiki/snow-snipe.webp",
+      "sourceUrl": "https://media.starcitizen.tools/6/6c/Zenith_Snow_Camo_Laser_Sniper_Rifle.png",
+      "reason": "Whole weapon photo does not depict its separate ammunition/battery."
+    }
+  ]
+}

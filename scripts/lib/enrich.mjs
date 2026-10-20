@@ -1,8 +1,8 @@
-import { access, readFile } from "node:fs/promises";
-import path from "node:path";
-import { downloadBinary, fetchJson, sha256 } from "./http.mjs";
+import { readFile } from "node:fs/promises";
+import { fetchJson, sha256 } from "./http.mjs";
 import { resolveEntityLocalization } from "./localization.mjs";
 import { localizeLocationText } from "./location-localization.mjs";
+import { rejectedImage } from "./image-refresh.mjs";
 
 const API_ROOT = "https://api.star-citizen.wiki/api";
 
@@ -84,15 +84,6 @@ export function baseItemLookupCandidates(entry, record) {
   ]);
 }
 
-async function exists(filePath) {
-  try {
-    await access(filePath);
-    return true;
-  } catch {
-    return false;
-  }
-}
-
 async function apiRecord(entry, cacheDir) {
   for (const candidate of apiLookupCandidates(entry)) {
     const encoded = encodeURIComponent(candidate);
@@ -130,55 +121,6 @@ async function commodityRecord(entry, cacheDir) {
     }
   }
   return null;
-}
-
-async function baseVehicleImage(entry, record, cacheDir) {
-  if (record?.apiResource !== "vehicles" || sourceImage(record)) return null;
-  for (const candidate of baseVehicleLookupCandidates(entry, record)) {
-    try {
-      const result = await fetchJson(`${API_ROOT}/vehicles/${encodeURIComponent(candidate)}?locale=zh_CN`, {
-        cacheDir,
-        timeoutMs: 20_000,
-        preferCache: true,
-        cacheMaxAgeMs: 7 * 24 * 60 * 60 * 1000,
-      });
-      const baseRecord = result.data?.data;
-      const image = sourceImage(baseRecord);
-      if (baseRecord?.uuid && image) return { ...image, record: baseRecord };
-    } catch {
-      // A base-model reference is optional and must never block stable data.
-    }
-  }
-  return null;
-}
-
-async function baseItemImage(entry, record, cacheDir) {
-  if (record?.apiResource !== "items" || sourceImage(record)) return null;
-  for (const candidate of baseItemLookupCandidates(entry, record)) {
-    try {
-      const result = await fetchJson(`${API_ROOT}/items/${encodeURIComponent(candidate)}?locale=zh_CN`, {
-        cacheDir,
-        timeoutMs: 20_000,
-        preferCache: true,
-        cacheMaxAgeMs: 7 * 24 * 60 * 60 * 1000,
-      });
-      const baseRecord = result.data?.data;
-      const image = sourceImage(baseRecord);
-      if (baseRecord?.uuid && image) return { ...image, record: baseRecord };
-    } catch {
-      // Base-model imagery is optional and remains clearly labelled in the UI.
-    }
-  }
-  return null;
-}
-
-function sourceImage(record) {
-  const images = Array.isArray(record?.images) ? record.images : [];
-  const image = images.find((candidate) => candidate.thumbnail_url || candidate.original_url);
-  return image ? {
-    downloadUrl: stableMediaUrl(image.thumbnail_url || image.original_url),
-    sourceUrl: stableMediaUrl(image.original_url || image.thumbnail_url),
-  } : null;
 }
 
 async function craftingFrom(record, cacheDir, localization) {
@@ -273,7 +215,7 @@ function acquisitionFrom(record, commodity, rewardTrades, crafting, overrides = 
   }));
 }
 
-export async function buildItemIndex({ trades, localization, cacheDir, projectRoot, wikiImages, wikiItemImages = { items: [] }, acquisitionOverrides = {} }) {
+export async function buildItemIndex({ trades, localization, cacheDir, wikiImages, wikiItemImages = { items: [] }, acquisitionOverrides = {}, previousItems = [], imageRejections = [] }) {
   const byId = new Map();
   for (const trade of trades) {
     for (const [role, items] of [["requirement", trade.requirements], ["reward", trade.rewards]]) {
@@ -289,6 +231,7 @@ export async function buildItemIndex({ trades, localization, cacheDir, projectRo
 
   const wikiImageByTitle = new Map((wikiImages.items || []).map((entry) => [entry.title.toLowerCase(), entry]));
   const wikiItemImageById = new Map((wikiItemImages.items || []).map((entry) => [entry.id, entry]));
+  const previousById = new Map(previousItems.map(item => [item.id, item]));
   const entries = [...byId.values()];
   const results = [];
   for (let offset = 0; offset < entries.length; offset += 8) {
@@ -297,34 +240,27 @@ export async function buildItemIndex({ trades, localization, cacheDir, projectRo
       const record = entry.id.startsWith("bp_reward_") ? null : await apiRecord(entry, cacheDir);
       const hasBuiltInRoute = Boolean(record?.uex_prices?.purchase?.length || record?.is_lootable || record?.is_craftable || entry.rewardedBy.length || acquisitionOverrides[entry.id]?.acquisition?.length);
       const commodity = entry.requiredBy.length && !hasBuiltInRoute ? await commodityRecord(entry, cacheDir) : null;
-      const apiImage = sourceImage(record);
-      const baseImage = apiImage ? null : (await baseVehicleImage(entry, record, cacheDir)) || (await baseItemImage(entry, record, cacheDir));
       const crafting = await craftingFrom(record, cacheDir, localization);
-      const rewardTradeImage = entry.rewardedBy.map((relation) => wikiImageByTitle.get(relation.tradeName.en.toLowerCase())).find(Boolean);
+      const rewardTradeImage = entry.rewardedBy.map((relation) => wikiImageByTitle.get(relation.tradeName.en.toLowerCase()))
+        .find(image => image?.itemIds?.includes(entry.id));
       const pinnedItemImage = wikiItemImageById.get(entry.id);
-      const selectedImage = pinnedItemImage?.localPath
-        ? { localPath: pinnedItemImage.localPath, sourceUrl: pinnedItemImage.pageUrl || pinnedItemImage.imageUrl, kind: pinnedItemImage.imageKind || "exact" }
-        : rewardTradeImage?.localPath
-        ? { localPath: rewardTradeImage.localPath, sourceUrl: rewardTradeImage.imageUrl }
-        : apiImage || (rewardTradeImage ? { downloadUrl: rewardTradeImage.imageUrl, sourceUrl: rewardTradeImage.imageUrl } : null) || baseImage;
-      const selectedImageKind = selectedImage?.kind || (baseImage && selectedImage === baseImage ? "base_model" : "exact");
+      const previousImage = previousById.get(entry.id);
+      const selectedImage = [
+        previousImage?.imagePath && previousImage.imageKind === "ai_redraw" ? { localPath: previousImage.imagePath, sourceUrl: previousImage.imageSourceUrl, kind: "ai_redraw" } : null,
+        pinnedItemImage?.localPath ? { localPath: pinnedItemImage.localPath, sourceUrl: pinnedItemImage.pageUrl || pinnedItemImage.imageUrl, kind: pinnedItemImage.imageKind || "exact" } : null,
+        rewardTradeImage?.localPath ? { localPath: rewardTradeImage.localPath, sourceUrl: rewardTradeImage.imageUrl } : null,
+        previousImage?.imagePath ? { localPath: previousImage.imagePath, sourceUrl: previousImage.imageSourceUrl, kind: previousImage.imageKind } : null,
+      ].find(image => image && (image.kind === "ai_redraw" || !rejectedImage(entry, image, imageRejections)));
+      // Automated downloads run after LIVE facts have passed their gates, in
+      // the bounded exact-identity image phase. Never replace verified assets
+      // because an API URL/thumbnail changed, or silently substitute a variant.
+      const selectedImageKind = selectedImage?.kind || "exact";
       const itemOverride = acquisitionOverrides[entry.id] || {};
       let imagePath = null;
       let imageSourceUrl = null;
       if (selectedImage?.localPath) {
         imagePath = selectedImage.localPath;
         imageSourceUrl = selectedImage.sourceUrl;
-      } else if (selectedImage?.downloadUrl && !/Placeholderv2/i.test(selectedImage.downloadUrl)) {
-        const extension = /\.jpe?g(?:$|\?)/i.test(selectedImage.downloadUrl) ? "jpg" : /\.png(?:$|\?)/i.test(selectedImage.downloadUrl) ? "png" : "webp";
-        const relative = `/images/items/${slug(entry.id)}.${extension}`;
-        const absolute = path.join(projectRoot, "public", relative);
-        try {
-          if (!(await exists(absolute))) await downloadBinary(selectedImage.downloadUrl, absolute);
-          imagePath = relative;
-          imageSourceUrl = selectedImage.sourceUrl;
-        } catch {
-          // Media servers may reject non-browser clients. Keep the item factual and image-free.
-        }
       }
       const imageKind = imagePath ? selectedImageKind : "none";
       return {

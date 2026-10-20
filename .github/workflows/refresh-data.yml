@@ -95,6 +95,14 @@ jobs:
           REMOTE_LIVE_VERSION: ${{ steps.live_version.outputs.remote_version }}
         run: test "$REMOTE_LIVE_VERSION" = "$EXPECTED_LIVE_VERSION"
 
+      - name: Recall bounded image retry cooldowns
+        continue-on-error: true
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/image-refresh/
+          key: wikelo-images-v1-${{ hashFiles('scripts/**') }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: wikelo-images-v1-${{ hashFiles('scripts/**') }}-
+
       - name: Refresh staging data and enforce publish gates
         id: refresh_data
         if: steps.live_version.outputs.current_version != steps.live_version.outputs.remote_version || steps.primary_review.outputs.primary_changed == 'true' || (steps.live_version.outputs.changed == 'true' && steps.localization_review.outputs.cache-hit != 'true') || inputs.force_refresh
@@ -102,10 +110,25 @@ jobs:
           GVY_LOCALIZATION_COMMIT: ${{ steps.live_version.outputs.localization_commit }}
         run: npm run refresh:data:publish-check
 
+      - name: Retry missing images without a full data refresh
+        id: image_refresh
+        if: steps.refresh_data.outcome == 'skipped'
+        env:
+          REMOTE_LIVE_VERSION: ${{ steps.live_version.outputs.remote_version }}
+        run: node scripts/refresh-data.mjs --images-only --expected-live-version "$REMOTE_LIVE_VERSION"
+
+      - name: Remember bounded image retry cooldowns
+        if: ${{ always() && (steps.refresh_data.outcome == 'success' || steps.image_refresh.outcome == 'success') }}
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/image-refresh/
+          key: wikelo-images-v1-${{ hashFiles('scripts/**') }}-${{ github.run_id }}-${{ github.run_attempt }}
+
       - name: Detect material candidate changes
         id: candidate
         run: |
-          if git diff --quiet -- src/data/generated data/localization; then
+          if git diff --quiet -- src/data/generated data/localization data/source-snapshots/automatic-item-images.json; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -123,7 +146,7 @@ jobs:
           npm run build
 
       - name: Keep a 14-day recoverable stable-data artifact
-        if: ${{ always() && (steps.live_version.outputs.changed == 'true' || steps.primary_review.outputs.primary_changed == 'true' || inputs.force_refresh) }}
+        if: ${{ always() && (steps.live_version.outputs.changed == 'true' || steps.primary_review.outputs.primary_changed == 'true' || inputs.force_refresh || steps.candidate.outputs.changed == 'true' || steps.image_refresh.outcome == 'failure') }}
         uses: actions/upload-artifact@v7
         with:
           name: wikelo-stable-data-${{ github.run_id }}
@@ -131,6 +154,7 @@ jobs:
             src/data/generated/
             data/audits/
             data/backups/
+            data/source-snapshots/automatic-item-images.json
           if-no-files-found: warn
           retention-days: 14
 
@@ -164,7 +188,8 @@ jobs:
           path: .cache/localization-reviewed
           key: ${{ steps.localization_review.outputs.cache-primary-key }}
 
-      # Scheduled runs stop when LIVE, primary recipes and NAS input are
-      # unchanged/reviewed. Bundle/UI/format changes alone never rebuild main.
+      # Unchanged LIVE/recipes/localization only retry up to four eligible
+      # missing physical images, with a 24h per-entity cooldown. No discoveries
+      # means no production diff/build/commit; cache timestamps stay off main.
       # Full refreshes update repository data for EdgeOne's connected build.
       # It intentionally contains no GitHub Pages action or Pages configuration.

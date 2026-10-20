@@ -24,13 +24,18 @@ if (!available.includes(selected)) {
   } catch {
     // Older backups predate separate LIVE/PTU snapshots and remain restorable.
   }
-  for (const name of names) {
-    JSON.parse(await readFile(path.join(backups, selected, name), "utf8"));
+  const targets = names.map(name => [name, path.join(destination, name)]);
+  try {
+    await access(path.join(backups, selected, "automatic-item-images.json"));
+    targets.push(["automatic-item-images.json", path.join(root, "data/source-snapshots/automatic-item-images.json")]);
+  } catch {
+    // Legacy data backups predate automatic image provenance.
   }
-  for (const name of names) {
-    const temporary = path.join(destination, `${name}.restore-next`);
+  for (const [name] of targets) JSON.parse(await readFile(path.join(backups, selected, name), "utf8"));
+  for (const [name, target] of targets) {
+    const temporary = `${target}.restore-next`;
     await copyFile(path.join(backups, selected, name), temporary);
-    await rename(temporary, path.join(destination, name));
+    await rename(temporary, target);
   }
   console.log(`Restored stable data from ${selected}.`);
 }

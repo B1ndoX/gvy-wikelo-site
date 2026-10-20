@@ -36,6 +36,7 @@
     "@types/react-dom": "latest",
     "acorn": "latest",
     "jsdom": "latest",
+    "sharp": "0.35.5",
     "typescript": "latest",
     "vitest": "4.1.11"
   }
