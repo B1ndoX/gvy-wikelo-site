@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-20T13:27:14.223Z",
+  "generatedAt": "2026-11-01T06:19:42.609Z",
   "gameVersion": "4.10.2 LIVE.12913470",
   "totals": {
     "trades": 88,
@@ -9,7 +9,7 @@
     "localizedItems": 289,
     "localizedTrades": 88,
     "localizedCraftingIngredients": 294,
-    "requirementItemsWithImages": 122,
+    "requirementItemsWithImages": 123,
     "requirementItemsWithAcquisition": 123
   },
   "errors": [],
@@ -112,10 +112,8 @@
     },
     {
       "code": "missing-requirement-images",
-      "count": 1,
-      "ids": [
-        "kap_combat_heavy_backpack_01_01_01"
-      ],
+      "count": 0,
+      "ids": [],
       "note": "Image gaps are reported, not filled with an invented or mismatched image."
     }
   ],

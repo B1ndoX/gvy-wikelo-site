@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-20T13:27:14.223Z",
+  "generatedAt": "2026-11-01T06:19:42.609Z",
   "items": [
     {
       "id": "basl_combat_light_helmet_02_01_01",
@@ -12542,9 +12542,9 @@
       },
       "category": "Backpack (Armor)",
       "descriptionZh": null,
-      "imagePath": null,
-      "imageSourceUrl": null,
-      "imageKind": "none",
+      "imagePath": "/images/auto/250986ae22f4a2e1618b212b67a29377353c3e506fbf8efb88c957504ef952a0.png",
+      "imageSourceUrl": "https://media.starcitizen.tools/b/ba/Monolith_Backpack_-_infobox.png",
+      "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/monolith-backpack",
       "sourceUpdatedAt": "2026-10-11T18:29:15.000000Z",
       "sourceGameVersion": "4.10.2-LIVE.12881860",

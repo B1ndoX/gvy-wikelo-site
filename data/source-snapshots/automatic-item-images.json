@@ -23,6 +23,25 @@
       "localPath": "/images/auto/8e6d3e52ba0ba613451aed5d064acfc37e0252f8b746e77b964aa1c74c437628.png"
     },
     {
+      "id": "kap_combat_heavy_backpack_01_01_01",
+      "pageUrl": "https://api.star-citizen.wiki/items/monolith-backpack",
+      "imageUrl": "https://media.starcitizen.tools/b/ba/Monolith_Backpack_-_infobox.png",
+      "downloadedUrl": "https://media.starcitizen.tools/b/ba/Monolith_Backpack_-_infobox.png",
+      "imageKind": "exact",
+      "sha256": "250986ae22f4a2e1618b212b67a29377353c3e506fbf8efb88c957504ef952a0",
+      "width": 750,
+      "height": 1080,
+      "bytes": 714542,
+      "identity": {
+        "className": "kap_combat_heavy_backpack_01_01_01",
+        "uuid": "5a57e015-d77c-4741-b364-d2488d190fc3",
+        "sourceVersion": "4.10.2-LIVE.12881860"
+      },
+      "hasWatermark": "unknown",
+      "sourceType": "wiki_api_exact_identity",
+      "localPath": "/images/auto/250986ae22f4a2e1618b212b67a29377353c3e506fbf8efb88c957504ef952a0.png"
+    },
+    {
       "id": "volt_lmg_energy_01_collector01",
       "pageUrl": "https://api.star-citizen.wiki/items/fresnel-deepwater-energy-lmg",
       "imageUrl": "https://media.starcitizen.tools/1/16/Heavy_Volt_Zapper.png",
