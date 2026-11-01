@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-01T13:36:29.456Z",
+  "generatedAt": "2026-11-01T22:09:12.830Z",
   "datasets": [
     {
       "gameVersion": "4.10.2 LIVE.12913470",
-      "generatedAt": "2026-11-01T13:36:29.456Z",
+      "generatedAt": "2026-11-01T22:09:12.830Z",
       "sourceStatus": [
         {
           "url": "https://dumpers-repo.com/wikelo/",
@@ -22663,9 +22663,9 @@
           },
           "category": "Arms (Armor)",
           "descriptionZh": null,
-          "imagePath": null,
-          "imageSourceUrl": null,
-          "imageKind": "none",
+          "imagePath": "/images/auto/ab055409fb8bc001611a23003bf24128635fcb94d9e298d2e779e899438a9f14.png",
+          "imageSourceUrl": "https://media.starcitizen.tools/d/d1/Monolith_Armor_Core_Shadowflux_-_infobox.png",
+          "imageKind": "exact",
           "sourceUrl": "https://api.star-citizen.wiki/items/monolith-armor-arms-shadowflux",
           "sourceUpdatedAt": "2026-10-11T18:29:58.000000Z",
           "sourceGameVersion": "4.10.2-LIVE.12881860",

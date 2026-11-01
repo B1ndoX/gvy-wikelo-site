@@ -23,6 +23,25 @@
       "localPath": "/images/auto/8e6d3e52ba0ba613451aed5d064acfc37e0252f8b746e77b964aa1c74c437628.png"
     },
     {
+      "id": "kap_combat_heavy_arms_01_04_01",
+      "pageUrl": "https://api.star-citizen.wiki/items/monolith-armor-arms-shadowflux",
+      "imageUrl": "https://media.starcitizen.tools/d/d1/Monolith_Armor_Core_Shadowflux_-_infobox.png",
+      "downloadedUrl": "https://media.starcitizen.tools/d/d1/Monolith_Armor_Core_Shadowflux_-_infobox.png",
+      "imageKind": "exact",
+      "sha256": "ab055409fb8bc001611a23003bf24128635fcb94d9e298d2e779e899438a9f14",
+      "width": 608,
+      "height": 1080,
+      "bytes": 508292,
+      "identity": {
+        "className": "kap_combat_heavy_arms_01_04_01",
+        "uuid": "b930194d-391e-48db-aa08-3b0e089e7273",
+        "sourceVersion": "4.10.2-LIVE.12881860"
+      },
+      "hasWatermark": "unknown",
+      "sourceType": "wiki_api_exact_identity",
+      "localPath": "/images/auto/ab055409fb8bc001611a23003bf24128635fcb94d9e298d2e779e899438a9f14.png"
+    },
+    {
       "id": "kap_combat_heavy_backpack_01_01_01",
       "pageUrl": "https://api.star-citizen.wiki/items/monolith-backpack",
       "imageUrl": "https://media.starcitizen.tools/b/ba/Monolith_Backpack_-_infobox.png",

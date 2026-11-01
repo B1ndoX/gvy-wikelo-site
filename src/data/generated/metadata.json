@@ -3,10 +3,10 @@
   "availableVersions": [
     "4.10.2 LIVE.12913470"
   ],
-  "generatedAt": "2026-11-01T13:36:29.456Z",
+  "generatedAt": "2026-11-01T22:09:12.830Z",
   "totalTrades": 88,
   "totalItems": 289,
-  "imageCoverage": 0.9238754325259516,
+  "imageCoverage": 0.9273356401384083,
   "localizationCoverage": 0.9450381679389313,
   "validation": {
     "verified": 46,
@@ -61,5 +61,5 @@
   "anomalies": [],
   "publishEligible": true,
   "usageMode": "offline query; no account or upload",
-  "sourceFingerprint": "33fd2e6a17d5432818745c712558f0cc70ade184da06de77a8a3ea96eed4e930"
+  "sourceFingerprint": "4e52550cb4676dcb506504b2bec8ec5c32b704e9fa98adec39adb2877b5bc3b5"
 }
