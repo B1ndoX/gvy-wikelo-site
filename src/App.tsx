@@ -263,7 +263,7 @@ export default function App() {
         <div className="top-actions">
           <nav aria-label="相关站点">
             <a href="https://www.gvyvoyagers.vip" target="_blank" rel="noreferrer">星远舰队</a>
-            <a href="https://lantu.gvyvoyagers.vip" target="_blank" rel="noreferrer">蓝图站</a>
+            <a href="https://lantu.gvyvoyagers.vip" rel="noreferrer">蓝图站</a>
           </nav>
         </div>
       </header>

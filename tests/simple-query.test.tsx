@@ -78,6 +78,7 @@ describe("simple material query flow", () => {
 
     expect(screen.getByRole("link", { name: "星远舰队" })).toHaveAttribute("href", "https://www.gvyvoyagers.vip");
     expect(screen.getByRole("link", { name: "蓝图站" })).toHaveAttribute("href", "https://lantu.gvyvoyagers.vip");
+    expect(screen.getByRole("link", { name: "蓝图站" })).not.toHaveAttribute("target", "_blank");
     expect(screen.getByText("星远", { selector: ".footer-brand strong" })).toBeInTheDocument();
     expect(screen.getAllByText("星远舰队")).toHaveLength(1);
     expect(screen.queryByText("星际远航者")).not.toBeInTheDocument();
