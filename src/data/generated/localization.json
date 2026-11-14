@@ -1,16 +1,16 @@
 {
   "sourcePath": "nas:/volume1/docker/starcitizen-shared-input/localization/data/localization/chinese_(simplified)/global.ini",
-  "sourceSha256": "19c6e78aeec18ed2f055a2555af9449ffd16fc0152e51f8cee04de169ac97bd7",
-  "sourceUpdatedAt": "2026-10-11T02:34:31+00:00",
-  "sourceCommit": "b9d6559f7fcca02f3aa392c0e8246cc1abf720bb",
+  "sourceSha256": "07ced37f52a41f45f2f6dee1cae551bbc8c660a66264617987a39d039f670818",
+  "sourceUpdatedAt": "2026-11-13T14:24:20+00:00",
+  "sourceCommit": "f0e903dadf729a46d24c4e83ea41503f5dfb42be",
   "usingDerivedSnapshot": false,
   "sourceVersion": {
     "label": "4.10.2",
     "series": "4.10",
-    "matchedLiveVersion": "4.10.2 LIVE.12881860",
+    "matchedLiveVersion": "4.10.3 LIVE.13165946",
     "verification": "series-only; source does not identify an exact LIVE build"
   },
-  "generatedAt": "2026-10-11T04:27:13.819Z",
+  "generatedAt": "2026-11-14T01:29:39.586Z",
   "entries": {
     "basl_combat_light_helmet_02_01_01": {
       "zh": "王牌截击者 头盔",
@@ -473,12 +473,12 @@
       "localizationSource": "official_global_ini"
     },
     "gmni_lmg_ballistic_01_collector02": {
-      "zh": "F55 “Shadowflux” 轻机枪",
+      "zh": "F55 “影流” 轻机枪",
       "en": "F55 \"Shadowflux\" LMG",
       "localizationSource": "official_global_ini"
     },
     "bp_reward_gmni_lmg_ballistic_01_collector02": {
-      "zh": "F55 “Shadowflux” 轻机枪 蓝图",
+      "zh": "F55 “影流” 轻机枪 蓝图",
       "en": "F55 \"Shadowflux\" LMG Blueprint",
       "localizationSource": "official_global_ini"
     },
@@ -773,77 +773,77 @@
       "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_arms_01_01_01": {
-      "zh": "Monolith 臂甲",
+      "zh": "巨石 臂甲",
       "en": "Monolith Armor Arms",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_arms_01_04_01": {
-      "zh": "Monolith 臂甲 Shadowflux",
+      "zh": "巨石 臂甲 影流",
       "en": "Monolith Armor Arms Shadowflux",
       "localizationSource": "official_global_ini"
     },
     "bp_reward_kap_combat_heavy_arms_01_04_01": {
-      "zh": "Monolith 臂甲 Shadowflux 蓝图",
+      "zh": "巨石 臂甲 影流 蓝图",
       "en": "Monolith Armor Arms Shadowflux Blueprint",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_core_01_01_01": {
-      "zh": "Monolith 胸甲",
+      "zh": "巨石 胸甲",
       "en": "Monolith Armor Core",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_core_01_04_01": {
-      "zh": "Monolith 胸甲 Shadowflux",
+      "zh": "巨石 胸甲 影流",
       "en": "Monolith Armor Core Shadowflux",
       "localizationSource": "official_global_ini"
     },
     "bp_reward_kap_combat_heavy_core_01_04_01": {
-      "zh": "Monolith 胸甲 Shadowflux 蓝图",
+      "zh": "巨石 胸甲 影流 蓝图",
       "en": "Monolith Armor Core Shadowflux Blueprint",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_legs_01_01_01": {
-      "zh": "Monolith 腿甲",
+      "zh": "巨石 腿甲",
       "en": "Monolith Armor Legs",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_legs_01_04_01": {
-      "zh": "Monolith 腿甲 Shadowflux",
+      "zh": "巨石 腿甲 影流",
       "en": "Monolith Armor Legs Shadowflux",
       "localizationSource": "official_global_ini"
     },
     "bp_reward_kap_combat_heavy_legs_01_04_01": {
-      "zh": "Monolith 腿甲 Shadowflux 蓝图",
+      "zh": "巨石 腿甲 影流 蓝图",
       "en": "Monolith Armor Legs Shadowflux Blueprint",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_backpack_01_01_01": {
-      "zh": "Monolith 背包",
+      "zh": "巨石 背包",
       "en": "Monolith Backpack",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_backpack_01_04_01": {
-      "zh": "Monolith 背包 Shadowflux",
+      "zh": "巨石 背包 影流",
       "en": "Monolith Backpack Shadowflux",
       "localizationSource": "official_global_ini"
     },
     "bp_reward_kap_combat_heavy_backpack_01_04_01": {
-      "zh": "Monolith 背包 Shadowflux 蓝图",
+      "zh": "巨石 背包 影流 蓝图",
       "en": "Monolith Backpack Shadowflux Blueprint",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_helmet_01_01_01": {
-      "zh": "Monolith 头盔",
+      "zh": "巨石 头盔",
       "en": "Monolith Helmet",
       "localizationSource": "official_global_ini"
     },
     "kap_combat_heavy_helmet_01_04_01": {
-      "zh": "Monolith 头盔 Shadowflux",
+      "zh": "巨石 头盔 影流",
       "en": "Monolith Helmet Shadowflux",
       "localizationSource": "official_global_ini"
     },
     "bp_reward_kap_combat_heavy_helmet_01_04_01": {
-      "zh": "Monolith 头盔 Shadowflux 蓝图",
+      "zh": "巨石 头盔 影流 蓝图",
       "en": "Monolith Helmet Shadowflux Blueprint",
       "localizationSource": "official_global_ini"
     },

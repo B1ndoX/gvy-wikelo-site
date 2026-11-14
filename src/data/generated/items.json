@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-13T06:54:28.725Z",
+  "generatedAt": "2026-11-14T01:29:39.586Z",
   "items": [
     {
       "id": "basl_combat_light_helmet_02_01_01",
@@ -248,20 +248,11 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-arms-woodland",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-arms-woodland",
-      "sourceUpdatedAt": "2026-10-10T00:12:12.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 微 L4 红色十字路口站、护甲店 - 炽天使空间站、护甲店 - 特雷斯勒空间站、立方爆炸 - 18区",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-arms-woodland&tab=about",
-          "sourceUpdatedAt": "2026-09-16T18:16:29+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -269,12 +260,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-arms-woodland",
-          "sourceUpdatedAt": "2026-10-10T00:12:12.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-arms-woodland",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 240,
         "ingredients": [
           {
@@ -343,11 +334,11 @@
           },
           {
             "title": "Disable Outlaw Stronghold at [Location]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/8b18d982-1e25-41a5-b159-e7e4ea5c9620"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/8bcab8a3-6237-4ad6-bd25-004a34b540ed"
           },
           {
             "title": "Disable Outlaw Stronghold at [Location]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/8bcab8a3-6237-4ad6-bd25-004a34b540ed"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/8b18d982-1e25-41a5-b159-e7e4ea5c9620"
           },
           {
             "title": "Eliminate Fuel Stores",
@@ -371,11 +362,11 @@
           },
           {
             "title": "Reduce Outlaw's Operational Readiness",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/4445c5ea-6f35-43e1-89e7-8264bd442f89"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e31eeef7-375a-4187-97b2-278765e67b77"
           },
           {
             "title": "Reduce Outlaw's Operational Readiness",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e31eeef7-375a-4187-97b2-278765e67b77"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/4445c5ea-6f35-43e1-89e7-8264bd442f89"
           },
           {
             "title": "Take Outlaws at Rustville Offline",
@@ -434,20 +425,11 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-core-woodland",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-core-woodland",
-      "sourceUpdatedAt": "2026-10-10T00:28:56.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 微 L4 红色十字路口站、护甲店 - 炽天使空间站、护甲店 - 特雷斯勒空间站、立方爆炸 - 18区",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-core-woodland&tab=about",
-          "sourceUpdatedAt": "2026-09-16T18:16:29+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -455,12 +437,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-core-woodland",
-          "sourceUpdatedAt": "2026-10-10T00:28:56.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-core-woodland",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 240,
         "ingredients": [
           {
@@ -529,11 +511,11 @@
           },
           {
             "title": "Disable Outlaw Stronghold at [Location]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/8b18d982-1e25-41a5-b159-e7e4ea5c9620"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/8bcab8a3-6237-4ad6-bd25-004a34b540ed"
           },
           {
             "title": "Disable Outlaw Stronghold at [Location]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/8bcab8a3-6237-4ad6-bd25-004a34b540ed"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/8b18d982-1e25-41a5-b159-e7e4ea5c9620"
           },
           {
             "title": "Eliminate Fuel Stores",
@@ -557,11 +539,11 @@
           },
           {
             "title": "Reduce Outlaw's Operational Readiness",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/4445c5ea-6f35-43e1-89e7-8264bd442f89"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e31eeef7-375a-4187-97b2-278765e67b77"
           },
           {
             "title": "Reduce Outlaw's Operational Readiness",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e31eeef7-375a-4187-97b2-278765e67b77"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/4445c5ea-6f35-43e1-89e7-8264bd442f89"
           },
           {
             "title": "Take Outlaws at Rustville Offline",
@@ -620,20 +602,11 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-helmet-woodland",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-helmet-woodland",
-      "sourceUpdatedAt": "2026-10-10T00:20:39.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 尼克斯星门 (斯坦顿)、护甲店 - 尼克斯星门 (派罗)、护甲店 - 微 L4 红色十字路口站、护甲店 - 斯坦顿星门 (尼克斯)、护甲店 - 斯坦顿星门 (派罗)、护甲店 - 泰拉星门 (斯坦顿)、护甲店 - 派罗星门 (尼克斯) 等 12 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-helmet-woodland&tab=about",
-          "sourceUpdatedAt": "2026-09-11T02:54:47+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -641,12 +614,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-helmet-woodland",
-          "sourceUpdatedAt": "2026-10-10T00:20:39.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-helmet-woodland",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 240,
         "ingredients": [
           {
@@ -715,11 +688,11 @@
           },
           {
             "title": "Disable Outlaw Stronghold at [Location]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/8b18d982-1e25-41a5-b159-e7e4ea5c9620"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/8bcab8a3-6237-4ad6-bd25-004a34b540ed"
           },
           {
             "title": "Disable Outlaw Stronghold at [Location]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/8bcab8a3-6237-4ad6-bd25-004a34b540ed"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/8b18d982-1e25-41a5-b159-e7e4ea5c9620"
           },
           {
             "title": "Eliminate Fuel Stores",
@@ -743,11 +716,11 @@
           },
           {
             "title": "Reduce Outlaw's Operational Readiness",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/4445c5ea-6f35-43e1-89e7-8264bd442f89"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e31eeef7-375a-4187-97b2-278765e67b77"
           },
           {
             "title": "Reduce Outlaw's Operational Readiness",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e31eeef7-375a-4187-97b2-278765e67b77"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/4445c5ea-6f35-43e1-89e7-8264bd442f89"
           },
           {
             "title": "Take Outlaws at Rustville Offline",
@@ -806,20 +779,11 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-legs-woodland",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-legs-woodland",
-      "sourceUpdatedAt": "2026-10-10T00:19:39.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 尼克斯星门 (斯坦顿)、护甲店 - 尼克斯星门 (派罗)、护甲店 - 微 L4 红色十字路口站、护甲店 - 斯坦顿星门 (尼克斯)、护甲店 - 斯坦顿星门 (派罗)、护甲店 - 泰拉星门 (斯坦顿)、护甲店 - 派罗星门 (尼克斯) 等 12 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-legs-woodland&tab=about",
-          "sourceUpdatedAt": "2026-09-11T02:57:16+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -827,12 +791,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-legs-woodland",
-          "sourceUpdatedAt": "2026-10-10T00:19:39.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-legs-woodland",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 240,
         "ingredients": [
           {
@@ -901,11 +865,11 @@
           },
           {
             "title": "Disable Outlaw Stronghold at [Location]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/8b18d982-1e25-41a5-b159-e7e4ea5c9620"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/8bcab8a3-6237-4ad6-bd25-004a34b540ed"
           },
           {
             "title": "Disable Outlaw Stronghold at [Location]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/8bcab8a3-6237-4ad6-bd25-004a34b540ed"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/8b18d982-1e25-41a5-b159-e7e4ea5c9620"
           },
           {
             "title": "Eliminate Fuel Stores",
@@ -929,11 +893,11 @@
           },
           {
             "title": "Reduce Outlaw's Operational Readiness",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/4445c5ea-6f35-43e1-89e7-8264bd442f89"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e31eeef7-375a-4187-97b2-278765e67b77"
           },
           {
             "title": "Reduce Outlaw's Operational Readiness",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e31eeef7-375a-4187-97b2-278765e67b77"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/4445c5ea-6f35-43e1-89e7-8264bd442f89"
           },
           {
             "title": "Take Outlaws at Rustville Offline",
@@ -2992,19 +2956,19 @@
       "imageSourceUrl": "https://media.starcitizen.tools/4/46/Berry_Blend_Smoothie.jpg",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/berry-blend-smoothie",
-      "sourceUpdatedAt": "2026-10-14T00:02:43.000000Z",
-      "sourceGameVersion": "4.10.2-LIVE.12881860",
+      "sourceUpdatedAt": "2026-11-13T10:43:09.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
         {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：果汁吧 - 十 L1 雄心伟梦站 、果汁吧 - 十 L4 轻浅田野站、果汁吧 - 十 L5 美丽峡谷站、果汁吧 - 埃弗勒斯空间站、果汁吧 - 尼克斯星门 (斯坦顿)、果汁吧 - 尼克斯星门 (派罗)、果汁吧 - 弧 L1 广袤森林站、果汁吧 - 弧 L2 活力小径站 等 22 处",
-          "price": 7,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=berry-blend-smoothie&tab=about",
-          "sourceUpdatedAt": "2026-09-11T02:03:15+00:00"
+          "type": "loot",
+          "label": "随机战利品",
+          "location": "可从战利品箱或敌人身上获得，但没有已确认的固定掉落点",
+          "price": null,
+          "currency": null,
+          "sourceUrl": "https://api.star-citizen.wiki/items/berry-blend-smoothie",
+          "sourceUpdatedAt": "2026-11-13T10:43:09.000000Z"
         }
       ],
       "crafting": null,
@@ -3379,20 +3343,11 @@
       "imageSourceUrl": null,
       "imageKind": "none",
       "sourceUrl": "https://api.star-citizen.wiki/items/boomtube-rocket",
-      "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:43:45.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 死局空间站、争夺区 · 死局空间站、商店 乔拉海滩、商店 休耕地、商店 先觉者峡谷、商店 日落方山、商店 灰烬之地、商店 终陆镇 等 22 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=boomtube-rocket&tab=about",
-          "sourceUpdatedAt": "2026-09-05T12:24:38+00:00"
-        },
         {
           "type": "wikelo",
           "label": "完成维科洛合同",
@@ -4485,20 +4440,11 @@
       "imageSourceUrl": "https://media.starcitizen.tools/9/97/Coda_pistol_clip_side_800x400.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/coda-pistol-magazine-6-cap",
-      "sourceUpdatedAt": "2026-10-10T00:29:28.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=coda-pistol-magazine-(6-cap)&tab=about",
-          "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -4506,7 +4452,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/coda-pistol-magazine-6-cap",
-          "sourceUpdatedAt": "2026-10-10T00:29:28.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         },
         {
           "type": "wikelo",
@@ -4520,7 +4466,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/coda-pistol-magazine-6-cap",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -4585,11 +4531,11 @@
           },
           {
             "title": "Need a CFP taken down",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/6c4bd89b-9105-40db-b19e-038cecd41a51"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/ee9d9bf7-f511-4fa0-acc6-d92789248263"
           },
           {
             "title": "Need a CFP taken down",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/ee9d9bf7-f511-4fa0-acc6-d92789248263"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/6c4bd89b-9105-40db-b19e-038cecd41a51"
           },
           {
             "title": "Need a hit on the Riviera",
@@ -6457,19 +6403,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
-      "sourceUpdatedAt": "2026-10-14T00:03:05.000000Z",
-      "sourceGameVersion": "4.10.2-LIVE.12881860",
+      "sourceUpdatedAt": "2026-11-13T10:45:45.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
         {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：埃尔罗伊咖啡店 - Green Circle - 奥里森、埃尔罗伊咖啡店 - 十 L1 雄心伟梦站、埃尔罗伊咖啡店 - 埃弗勒斯空间站、埃尔罗伊咖啡店 - 奥古斯特·顿洛空港 - 奥里森、埃尔罗伊咖啡店 - 尼克斯星门 (斯坦顿)、埃尔罗伊咖啡店 - 尼克斯星门 (派罗)、埃尔罗伊咖啡店 - 弧 L1 广袤森林站、埃尔罗伊咖啡店 - 微 L1 浅边站 等 23 处",
+          "type": "loot",
+          "label": "随机战利品",
+          "location": "可从战利品箱或敌人身上获得，但没有已确认的固定掉落点",
           "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=ermer-family-farms-fat-free-ice-cream&tab=about",
-          "sourceUpdatedAt": "2026-09-11T02:01:41+00:00"
+          "currency": null,
+          "sourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
+          "sourceUpdatedAt": "2026-11-13T10:45:45.000000Z"
         }
       ],
       "crafting": null,
@@ -6678,18 +6624,18 @@
     {
       "id": "gmni_lmg_ballistic_01_collector02",
       "name": {
-        "zh": "F55 “Shadowflux” 轻机枪",
+        "zh": "F55 “影流” 轻机枪",
         "en": "F55 \"Shadowflux\" LMG",
         "localizationSource": "official_global_ini"
       },
       "category": "FPS Weapon",
-      "descriptionZh": "制造商：双子座 (Gemini)\n物品类型：轻机枪\n分类：实弹\n弹容量：150\n射速：1000 rpm\n有效射程：30 米\n附件：瞄具 (S2)，枪管 (N/A)，下挂 (S3)\n高达1000 rpm的射速，再加上双子座公司专业的流线造型，F55这把轻机枪适用于那些独具慧眼的客户，让其他人知道他们可不是好对付的。\nThe Shadowflux variant features a sleek black foundation with subtle chromatic purple tinting.",
+      "descriptionZh": "制造商：双子座 (Gemini)\n物品类型：轻机枪\n分类：实弹\n弹容量：150\n射速：1000 rpm\n有效射程：30 米\n附件：瞄具 (S2)，枪管 (N/A)，下挂 (S3)\n高达1000 rpm的射速，再加上双子座公司专业的流线造型，F55这把轻机枪适用于那些独具慧眼的客户，让其他人知道他们可不是好对付的。\n影流变体以利落的黑色为基底，隐隐泛出紫色光泽。",
       "imagePath": "/images/items/gmni-lmg-ballistic-01-collector02.webp",
       "imageSourceUrl": "https://media.starcitizen.tools/1/1d/F55_-_x2_with_2_clips_-_Flat.jpg",
       "imageKind": "base_model",
       "sourceUrl": "https://api.star-citizen.wiki/items/f55-shadowflux-lmg",
-      "sourceUpdatedAt": "2026-10-28T21:15:35.000000Z",
-      "sourceGameVersion": "4.10.2-LIVE.12881860",
+      "sourceUpdatedAt": "2026-11-13T10:45:47.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": false,
       "isCraftable": true,
       "acquisition": [
@@ -6700,7 +6646,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/f55-shadowflux-lmg",
-          "sourceUpdatedAt": "2026-10-28T21:15:35.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:45:47.000000Z"
         },
         {
           "type": "wikelo",
@@ -6714,7 +6660,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/f55-shadowflux-lmg",
-        "gameVersion": "4.10.2-LIVE.12881860",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 240,
         "ingredients": [
           {
@@ -6775,7 +6721,7 @@
     {
       "id": "bp_reward_gmni_lmg_ballistic_01_collector02",
       "name": {
-        "zh": "F55 “Shadowflux” 轻机枪 蓝图",
+        "zh": "F55 “影流” 轻机枪 蓝图",
         "en": "F55 \"Shadowflux\" LMG Blueprint",
         "localizationSource": "official_global_ini"
       },
@@ -6930,20 +6876,11 @@
       "imageSourceUrl": "https://media.starcitizen.tools/1/1f/F55_-_Ammo_drums_x2.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/f55-lmg-magazine-150-cap",
-      "sourceUpdatedAt": "2026-10-10T00:29:12.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=f55-lmg-magazine-(150-cap)&tab=about",
-          "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -6951,7 +6888,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/f55-lmg-magazine-150-cap",
-          "sourceUpdatedAt": "2026-10-10T00:29:12.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         },
         {
           "type": "wikelo",
@@ -6965,7 +6902,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/f55-lmg-magazine-150-cap",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -6994,11 +6931,11 @@
         "unlocks": [
           {
             "title": "Bounty Assignment: [TargetName] (HRT)",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/4d51db6a-ec13-dad7-6f58-0cd8fe90bf89"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/57333cdf-fae8-439b-9701-cc4dd1978412"
           },
           {
             "title": "Bounty Assignment: [TargetName] (HRT)",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/57333cdf-fae8-439b-9701-cc4dd1978412"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/4d51db6a-ec13-dad7-6f58-0cd8fe90bf89"
           }
         ]
       },
@@ -7223,20 +7160,11 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/fresnel-energy-lmg",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/fresnel-energy-lmg-battery-165-cap",
-      "sourceUpdatedAt": "2026-10-10T00:01:48.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 81 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=fresnel-energy-lmg-battery-(165-cap)&tab=about",
-          "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -7244,7 +7172,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/fresnel-energy-lmg-battery-165-cap",
-          "sourceUpdatedAt": "2026-10-10T00:01:48.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         },
         {
           "type": "wikelo",
@@ -7258,7 +7186,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/fresnel-energy-lmg-battery-165-cap",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -8205,8 +8133,8 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/grassland-quasi-grazer-egg",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/grassland-quasi-grazer-egg",
-      "sourceUpdatedAt": "2026-10-10T00:22:43.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:43:26.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": false,
       "isCraftable": false,
       "acquisition": [
@@ -8218,15 +8146,6 @@
           "currency": null,
           "sourceUrl": "https://starcitizen.tools/Grassland_Quasi_Grazer_Egg",
           "sourceUpdatedAt": "2026-07-07T01:21:00Z"
-        },
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：商店终端 - “庭院”、商店终端 - 容善镇、商店终端 - 牧人驿站、商店终端 - 犍牛原",
-          "price": 56,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=grassland-quasi-grazer-egg&tab=about",
-          "sourceUpdatedAt": "2026-09-04T18:51:39+00:00"
         }
       ],
       "crafting": null,
@@ -9135,20 +9054,11 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/karna-rifle",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/karna-rifle",
-      "sourceUpdatedAt": "2026-10-10T00:09:16.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 埃弗勒斯空间站、护甲店 - 尼克斯星门 (斯坦顿)、护甲店 - 尼克斯星门 (派罗)、护甲店 - 斯坦顿星门 (尼克斯)、护甲店 - 斯坦顿星门 (派罗)、护甲店 - 泰拉星门 (斯坦顿)、护甲店 - 派罗星门 (尼克斯) 等 11 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=karna-rifle&tab=about",
-          "sourceUpdatedAt": "2026-09-11T03:05:34+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -9156,12 +9066,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle",
-          "sourceUpdatedAt": "2026-10-10T00:09:16.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 180,
         "ingredients": [
           {
@@ -9264,20 +9174,11 @@
       "imageSourceUrl": "https://media.starcitizen.tools/4/40/Kasta_magazine_800x400.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/karna-rifle-battery-35-cap",
-      "sourceUpdatedAt": "2026-10-10T00:29:28.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=karna-rifle-battery-(35-cap)&tab=about",
-          "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -9285,7 +9186,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle-battery-35-cap",
-          "sourceUpdatedAt": "2026-10-10T00:29:28.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         },
         {
           "type": "wikelo",
@@ -9299,7 +9200,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle-battery-35-cap",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -9344,6 +9245,10 @@
           },
           {
             "title": "Call for Help: [Location]",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e63fa30b-1e93-4d1a-bee8-28f359640bdb"
+          },
+          {
+            "title": "Call for Help: [Location]",
             "sourceUrl": "https://api.star-citizen.wiki/missions/234e8d71-7ae0-4987-94fc-cb7d4ff113d4"
           },
           {
@@ -9353,10 +9258,6 @@
           {
             "title": "Call for Help: [Location]",
             "sourceUrl": "https://api.star-citizen.wiki/missions/94be848a-e2a8-4a3e-99f9-f88e1b2a4a7a"
-          },
-          {
-            "title": "Call for Help: [Location]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e63fa30b-1e93-4d1a-bee8-28f359640bdb"
           },
           {
             "title": "Campaign to reclaim XenoThreat outposts",
@@ -9372,11 +9273,11 @@
           },
           {
             "title": "Defenders needed against Headhunters",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/1c5e4a84-749c-4747-9f37-e1ad310da801"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/cbb0aa67-fb76-47d4-8a54-6864a241e70d"
           },
           {
             "title": "Defenders needed against Headhunters",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/cbb0aa67-fb76-47d4-8a54-6864a241e70d"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/1c5e4a84-749c-4747-9f37-e1ad310da801"
           },
           {
             "title": "Headhunter attack on [Location]",
@@ -9412,11 +9313,11 @@
           },
           {
             "title": "Reclaim Headhunter Outpost",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/0fed970e-9222-490a-b1d8-993c9d896b58"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e096645e-cb7d-4873-bc60-2b1ad0e48e6e"
           },
           {
             "title": "Reclaim Headhunter Outpost",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e096645e-cb7d-4873-bc60-2b1ad0e48e6e"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/0fed970e-9222-490a-b1d8-993c9d896b58"
           },
           {
             "title": "Reclaim XenoThreat Outpost",
@@ -9600,20 +9501,11 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/killshot-rifle",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/killshot-rifle",
-      "sourceUpdatedAt": "2026-10-10T00:01:48.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：尽职之物 · 列夫斯基",
-          "price": 4074,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=killshot-rifle&tab=about",
-          "sourceUpdatedAt": "2026-09-01T00:15:55+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -9621,12 +9513,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/killshot-rifle",
-          "sourceUpdatedAt": "2026-10-10T00:01:48.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/killshot-rifle",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 150,
         "ingredients": [
           {
@@ -9694,20 +9586,11 @@
       "imageSourceUrl": null,
       "imageKind": "none",
       "sourceUrl": "https://api.star-citizen.wiki/items/killshot-rifle-magazine-45-cap",
-      "sourceUpdatedAt": "2026-10-10T00:01:48.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 死局空间站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 75 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=killshot-rifle-magazine-(45-cap)&tab=about",
-          "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -9715,7 +9598,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/killshot-rifle-magazine-45-cap",
-          "sourceUpdatedAt": "2026-10-10T00:01:48.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         },
         {
           "type": "wikelo",
@@ -9729,7 +9612,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/killshot-rifle-magazine-45-cap",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -10631,8 +10514,8 @@
       "imageSourceUrl": "https://starcitizen.tools/File:Keystone_Gear_Pack.webp",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/monde-arms",
-      "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
@@ -10643,12 +10526,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/monde-arms",
-          "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/monde-arms",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 270,
         "ingredients": [
           {
@@ -10688,6 +10571,10 @@
         "unlocks": [
           {
             "title": "A Well Deserved Break",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/db20811c-814f-4e3f-b79f-9dd0d259fa98"
+          },
+          {
+            "title": "A Well Deserved Break",
             "sourceUrl": "https://api.star-citizen.wiki/missions/12a01016-d0e9-400c-b285-0016401eebda"
           },
           {
@@ -10697,10 +10584,6 @@
           {
             "title": "A Well Deserved Break",
             "sourceUrl": "https://api.star-citizen.wiki/missions/4d1cc670-7249-4edc-ab59-75a26aaa78d0"
-          },
-          {
-            "title": "A Well Deserved Break",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/db20811c-814f-4e3f-b79f-9dd0d259fa98"
           },
           {
             "title": "Bounty Nyx - Easy",
@@ -10719,16 +10602,16 @@
             "sourceUrl": "https://api.star-citizen.wiki/missions/44d85e9e-b93a-4488-9273-61c3445ab4aa"
           },
           {
-            "title": "Bounty Nyx Rehire",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/b7e2fdb1-cb2b-4608-ac51-f396d7b62814"
-          },
-          {
-            "title": "Bounty Nyx Very Easy",
+            "title": "Bounty Nyx - Very Easy",
             "sourceUrl": "https://api.star-citizen.wiki/missions/8794972a-d90e-4549-8dfb-aaf80592231a"
           },
           {
-            "title": "Bounty Nyx Very Hard",
+            "title": "Bounty Nyx - Very Hard",
             "sourceUrl": "https://api.star-citizen.wiki/missions/44616d84-c549-4c9f-b967-573b035c3c3e"
+          },
+          {
+            "title": "Bounty Nyx Rehire",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/b7e2fdb1-cb2b-4608-ac51-f396d7b62814"
           },
           {
             "title": "Come to Aid of Convoy",
@@ -10808,15 +10691,15 @@
           },
           {
             "title": "Verified Bounty: [TargetName] at QV Breaker Station",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/128d40e5-6bcb-4503-bb60-45ac58c634fb"
-          },
-          {
-            "title": "Verified Bounty: [TargetName] at QV Breaker Station",
             "sourceUrl": "https://api.star-citizen.wiki/missions/ccd48707-050e-4f79-ac7f-e6008e1e91ed"
           },
           {
             "title": "Verified Bounty: [TargetName] at QV Breaker Station",
             "sourceUrl": "https://api.star-citizen.wiki/missions/f0ff85a8-ee91-4ffb-8f9c-bcaf9d97acdb"
+          },
+          {
+            "title": "Verified Bounty: [TargetName] at QV Breaker Station",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/128d40e5-6bcb-4503-bb60-45ac58c634fb"
           }
         ]
       },
@@ -10948,8 +10831,8 @@
       "imageSourceUrl": "https://starcitizen.tools/File:Keystone_Gear_Pack.webp",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/monde-core",
-      "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
@@ -10960,12 +10843,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/monde-core",
-          "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/monde-core",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 270,
         "ingredients": [
           {
@@ -11005,6 +10888,10 @@
         "unlocks": [
           {
             "title": "A Well Deserved Break",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/db20811c-814f-4e3f-b79f-9dd0d259fa98"
+          },
+          {
+            "title": "A Well Deserved Break",
             "sourceUrl": "https://api.star-citizen.wiki/missions/12a01016-d0e9-400c-b285-0016401eebda"
           },
           {
@@ -11014,10 +10901,6 @@
           {
             "title": "A Well Deserved Break",
             "sourceUrl": "https://api.star-citizen.wiki/missions/4d1cc670-7249-4edc-ab59-75a26aaa78d0"
-          },
-          {
-            "title": "A Well Deserved Break",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/db20811c-814f-4e3f-b79f-9dd0d259fa98"
           },
           {
             "title": "Bounty Nyx - Easy",
@@ -11036,16 +10919,16 @@
             "sourceUrl": "https://api.star-citizen.wiki/missions/44d85e9e-b93a-4488-9273-61c3445ab4aa"
           },
           {
-            "title": "Bounty Nyx Rehire",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/b7e2fdb1-cb2b-4608-ac51-f396d7b62814"
-          },
-          {
-            "title": "Bounty Nyx Very Easy",
+            "title": "Bounty Nyx - Very Easy",
             "sourceUrl": "https://api.star-citizen.wiki/missions/8794972a-d90e-4549-8dfb-aaf80592231a"
           },
           {
-            "title": "Bounty Nyx Very Hard",
+            "title": "Bounty Nyx - Very Hard",
             "sourceUrl": "https://api.star-citizen.wiki/missions/44616d84-c549-4c9f-b967-573b035c3c3e"
+          },
+          {
+            "title": "Bounty Nyx Rehire",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/b7e2fdb1-cb2b-4608-ac51-f396d7b62814"
           },
           {
             "title": "Come to Aid of Convoy",
@@ -11125,15 +11008,15 @@
           },
           {
             "title": "Verified Bounty: [TargetName] at QV Breaker Station",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/128d40e5-6bcb-4503-bb60-45ac58c634fb"
-          },
-          {
-            "title": "Verified Bounty: [TargetName] at QV Breaker Station",
             "sourceUrl": "https://api.star-citizen.wiki/missions/ccd48707-050e-4f79-ac7f-e6008e1e91ed"
           },
           {
             "title": "Verified Bounty: [TargetName] at QV Breaker Station",
             "sourceUrl": "https://api.star-citizen.wiki/missions/f0ff85a8-ee91-4ffb-8f9c-bcaf9d97acdb"
+          },
+          {
+            "title": "Verified Bounty: [TargetName] at QV Breaker Station",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/128d40e5-6bcb-4503-bb60-45ac58c634fb"
           }
         ]
       },
@@ -11265,8 +11148,8 @@
       "imageSourceUrl": "https://starcitizen.tools/File:Keystone_Gear_Pack.webp",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/monde-helmet",
-      "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
@@ -11277,12 +11160,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/monde-helmet",
-          "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/monde-helmet",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 270,
         "ingredients": [
           {
@@ -11322,6 +11205,10 @@
         "unlocks": [
           {
             "title": "A Well Deserved Break",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/db20811c-814f-4e3f-b79f-9dd0d259fa98"
+          },
+          {
+            "title": "A Well Deserved Break",
             "sourceUrl": "https://api.star-citizen.wiki/missions/12a01016-d0e9-400c-b285-0016401eebda"
           },
           {
@@ -11331,10 +11218,6 @@
           {
             "title": "A Well Deserved Break",
             "sourceUrl": "https://api.star-citizen.wiki/missions/4d1cc670-7249-4edc-ab59-75a26aaa78d0"
-          },
-          {
-            "title": "A Well Deserved Break",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/db20811c-814f-4e3f-b79f-9dd0d259fa98"
           },
           {
             "title": "Bounty Nyx - Easy",
@@ -11353,16 +11236,16 @@
             "sourceUrl": "https://api.star-citizen.wiki/missions/44d85e9e-b93a-4488-9273-61c3445ab4aa"
           },
           {
-            "title": "Bounty Nyx Rehire",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/b7e2fdb1-cb2b-4608-ac51-f396d7b62814"
-          },
-          {
-            "title": "Bounty Nyx Very Easy",
+            "title": "Bounty Nyx - Very Easy",
             "sourceUrl": "https://api.star-citizen.wiki/missions/8794972a-d90e-4549-8dfb-aaf80592231a"
           },
           {
-            "title": "Bounty Nyx Very Hard",
+            "title": "Bounty Nyx - Very Hard",
             "sourceUrl": "https://api.star-citizen.wiki/missions/44616d84-c549-4c9f-b967-573b035c3c3e"
+          },
+          {
+            "title": "Bounty Nyx Rehire",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/b7e2fdb1-cb2b-4608-ac51-f396d7b62814"
           },
           {
             "title": "Come to Aid of Convoy",
@@ -11442,15 +11325,15 @@
           },
           {
             "title": "Verified Bounty: [TargetName] at QV Breaker Station",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/128d40e5-6bcb-4503-bb60-45ac58c634fb"
-          },
-          {
-            "title": "Verified Bounty: [TargetName] at QV Breaker Station",
             "sourceUrl": "https://api.star-citizen.wiki/missions/ccd48707-050e-4f79-ac7f-e6008e1e91ed"
           },
           {
             "title": "Verified Bounty: [TargetName] at QV Breaker Station",
             "sourceUrl": "https://api.star-citizen.wiki/missions/f0ff85a8-ee91-4ffb-8f9c-bcaf9d97acdb"
+          },
+          {
+            "title": "Verified Bounty: [TargetName] at QV Breaker Station",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/128d40e5-6bcb-4503-bb60-45ac58c634fb"
           }
         ]
       },
@@ -11582,8 +11465,8 @@
       "imageSourceUrl": "https://starcitizen.tools/File:Keystone_Gear_Pack.webp",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/monde-legs",
-      "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z",
-      "sourceGameVersion": "4.9.0-LIVE.12232306",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
@@ -11594,12 +11477,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/monde-legs",
-          "sourceUpdatedAt": "2026-07-16T13:18:25.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/monde-legs",
-        "gameVersion": "4.9.0-LIVE.12232306",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 270,
         "ingredients": [
           {
@@ -11639,6 +11522,10 @@
         "unlocks": [
           {
             "title": "A Well Deserved Break",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/db20811c-814f-4e3f-b79f-9dd0d259fa98"
+          },
+          {
+            "title": "A Well Deserved Break",
             "sourceUrl": "https://api.star-citizen.wiki/missions/12a01016-d0e9-400c-b285-0016401eebda"
           },
           {
@@ -11648,10 +11535,6 @@
           {
             "title": "A Well Deserved Break",
             "sourceUrl": "https://api.star-citizen.wiki/missions/4d1cc670-7249-4edc-ab59-75a26aaa78d0"
-          },
-          {
-            "title": "A Well Deserved Break",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/db20811c-814f-4e3f-b79f-9dd0d259fa98"
           },
           {
             "title": "Bounty Nyx - Easy",
@@ -11670,16 +11553,16 @@
             "sourceUrl": "https://api.star-citizen.wiki/missions/44d85e9e-b93a-4488-9273-61c3445ab4aa"
           },
           {
-            "title": "Bounty Nyx Rehire",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/b7e2fdb1-cb2b-4608-ac51-f396d7b62814"
-          },
-          {
-            "title": "Bounty Nyx Very Easy",
+            "title": "Bounty Nyx - Very Easy",
             "sourceUrl": "https://api.star-citizen.wiki/missions/8794972a-d90e-4549-8dfb-aaf80592231a"
           },
           {
-            "title": "Bounty Nyx Very Hard",
+            "title": "Bounty Nyx - Very Hard",
             "sourceUrl": "https://api.star-citizen.wiki/missions/44616d84-c549-4c9f-b967-573b035c3c3e"
+          },
+          {
+            "title": "Bounty Nyx Rehire",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/b7e2fdb1-cb2b-4608-ac51-f396d7b62814"
           },
           {
             "title": "Come to Aid of Convoy",
@@ -11759,15 +11642,15 @@
           },
           {
             "title": "Verified Bounty: [TargetName] at QV Breaker Station",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/128d40e5-6bcb-4503-bb60-45ac58c634fb"
-          },
-          {
-            "title": "Verified Bounty: [TargetName] at QV Breaker Station",
             "sourceUrl": "https://api.star-citizen.wiki/missions/ccd48707-050e-4f79-ac7f-e6008e1e91ed"
           },
           {
             "title": "Verified Bounty: [TargetName] at QV Breaker Station",
             "sourceUrl": "https://api.star-citizen.wiki/missions/f0ff85a8-ee91-4ffb-8f9c-bcaf9d97acdb"
+          },
+          {
+            "title": "Verified Bounty: [TargetName] at QV Breaker Station",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/128d40e5-6bcb-4503-bb60-45ac58c634fb"
           }
         ]
       },
@@ -11889,7 +11772,7 @@
     {
       "id": "kap_combat_heavy_arms_01_01_01",
       "name": {
-        "zh": "Monolith 臂甲",
+        "zh": "巨石 臂甲",
         "en": "Monolith Armor Arms",
         "localizationSource": "official_global_ini"
       },
@@ -11899,8 +11782,8 @@
       "imageSourceUrl": "https://www.mmopixel.com/news/star-citizen-4-10-2-leaks-and-reveals",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/monolith-armor-arms",
-      "sourceUpdatedAt": "2026-10-28T20:58:08.000000Z",
-      "sourceGameVersion": "4.10.2-LIVE.12881860",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
@@ -11911,12 +11794,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-armor-arms",
-          "sourceUpdatedAt": "2026-10-28T20:58:08.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-armor-arms",
-        "gameVersion": "4.10.2-LIVE.12881860",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 240,
         "ingredients": [
           {
@@ -11948,7 +11831,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -11961,7 +11844,7 @@
     {
       "id": "kap_combat_heavy_arms_01_04_01",
       "name": {
-        "zh": "Monolith 臂甲 Shadowflux",
+        "zh": "巨石 臂甲 影流",
         "en": "Monolith Armor Arms Shadowflux",
         "localizationSource": "official_global_ini"
       },
@@ -11971,8 +11854,8 @@
       "imageSourceUrl": "https://media.starcitizen.tools/d/d1/Monolith_Armor_Core_Shadowflux_-_infobox.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/monolith-armor-arms-shadowflux",
-      "sourceUpdatedAt": "2026-10-28T21:15:37.000000Z",
-      "sourceGameVersion": "4.10.2-LIVE.12881860",
+      "sourceUpdatedAt": "2026-11-13T10:45:52.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": false,
       "isCraftable": true,
       "acquisition": [
@@ -11983,7 +11866,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-armor-arms-shadowflux",
-          "sourceUpdatedAt": "2026-10-28T21:15:37.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:45:52.000000Z"
         },
         {
           "type": "wikelo",
@@ -11997,7 +11880,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-armor-arms-shadowflux",
-        "gameVersion": "4.10.2-LIVE.12881860",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 240,
         "ingredients": [
           {
@@ -12035,7 +11918,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -12047,7 +11930,7 @@
     {
       "id": "bp_reward_kap_combat_heavy_arms_01_04_01",
       "name": {
-        "zh": "Monolith 臂甲 Shadowflux 蓝图",
+        "zh": "巨石 臂甲 影流 蓝图",
         "en": "Monolith Armor Arms Shadowflux Blueprint",
         "localizationSource": "official_global_ini"
       },
@@ -12078,7 +11961,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -12090,7 +11973,7 @@
     {
       "id": "kap_combat_heavy_core_01_01_01",
       "name": {
-        "zh": "Monolith 胸甲",
+        "zh": "巨石 胸甲",
         "en": "Monolith Armor Core",
         "localizationSource": "official_global_ini"
       },
@@ -12100,8 +11983,8 @@
       "imageSourceUrl": "https://www.mmopixel.com/news/star-citizen-4-10-2-leaks-and-reveals",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/monolith-armor-core",
-      "sourceUpdatedAt": "2026-10-28T20:58:13.000000Z",
-      "sourceGameVersion": "4.10.2-LIVE.12881860",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
@@ -12112,12 +11995,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-armor-core",
-          "sourceUpdatedAt": "2026-10-28T20:58:13.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-armor-core",
-        "gameVersion": "4.10.2-LIVE.12881860",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 250,
         "ingredients": [
           {
@@ -12160,7 +12043,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -12173,7 +12056,7 @@
     {
       "id": "kap_combat_heavy_core_01_04_01",
       "name": {
-        "zh": "Monolith 胸甲 Shadowflux",
+        "zh": "巨石 胸甲 影流",
         "en": "Monolith Armor Core Shadowflux",
         "localizationSource": "official_global_ini"
       },
@@ -12183,8 +12066,8 @@
       "imageSourceUrl": "https://media.starcitizen.tools/d/d1/Monolith_Armor_Core_Shadowflux_-_infobox.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/monolith-armor-core-shadowflux",
-      "sourceUpdatedAt": "2026-10-28T21:15:38.000000Z",
-      "sourceGameVersion": "4.10.2-LIVE.12881860",
+      "sourceUpdatedAt": "2026-11-13T10:45:53.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": false,
       "isCraftable": true,
       "acquisition": [
@@ -12195,7 +12078,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-armor-core-shadowflux",
-          "sourceUpdatedAt": "2026-10-28T21:15:38.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:45:53.000000Z"
         },
         {
           "type": "wikelo",
@@ -12209,7 +12092,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-armor-core-shadowflux",
-        "gameVersion": "4.10.2-LIVE.12881860",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 250,
         "ingredients": [
           {
@@ -12258,7 +12141,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -12270,7 +12153,7 @@
     {
       "id": "bp_reward_kap_combat_heavy_core_01_04_01",
       "name": {
-        "zh": "Monolith 胸甲 Shadowflux 蓝图",
+        "zh": "巨石 胸甲 影流 蓝图",
         "en": "Monolith Armor Core Shadowflux Blueprint",
         "localizationSource": "official_global_ini"
       },
@@ -12301,7 +12184,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -12313,7 +12196,7 @@
     {
       "id": "kap_combat_heavy_legs_01_01_01",
       "name": {
-        "zh": "Monolith 腿甲",
+        "zh": "巨石 腿甲",
         "en": "Monolith Armor Legs",
         "localizationSource": "official_global_ini"
       },
@@ -12323,8 +12206,8 @@
       "imageSourceUrl": "https://www.mmopixel.com/news/star-citizen-4-10-2-leaks-and-reveals",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/monolith-armor-legs",
-      "sourceUpdatedAt": "2026-10-28T20:58:23.000000Z",
-      "sourceGameVersion": "4.10.2-LIVE.12881860",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
@@ -12335,12 +12218,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-armor-legs",
-          "sourceUpdatedAt": "2026-10-28T20:58:23.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-armor-legs",
-        "gameVersion": "4.10.2-LIVE.12881860",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 250,
         "ingredients": [
           {
@@ -12383,7 +12266,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -12396,7 +12279,7 @@
     {
       "id": "kap_combat_heavy_legs_01_04_01",
       "name": {
-        "zh": "Monolith 腿甲 Shadowflux",
+        "zh": "巨石 腿甲 影流",
         "en": "Monolith Armor Legs Shadowflux",
         "localizationSource": "official_global_ini"
       },
@@ -12406,8 +12289,8 @@
       "imageSourceUrl": "https://media.starcitizen.tools/d/d1/Monolith_Armor_Core_Shadowflux_-_infobox.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/monolith-armor-legs-shadowflux",
-      "sourceUpdatedAt": "2026-10-28T21:15:38.000000Z",
-      "sourceGameVersion": "4.10.2-LIVE.12881860",
+      "sourceUpdatedAt": "2026-11-13T10:45:53.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": false,
       "isCraftable": true,
       "acquisition": [
@@ -12418,7 +12301,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-armor-legs-shadowflux",
-          "sourceUpdatedAt": "2026-10-28T21:15:38.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:45:53.000000Z"
         },
         {
           "type": "wikelo",
@@ -12432,7 +12315,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-armor-legs-shadowflux",
-        "gameVersion": "4.10.2-LIVE.12881860",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 250,
         "ingredients": [
           {
@@ -12481,7 +12364,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -12493,7 +12376,7 @@
     {
       "id": "bp_reward_kap_combat_heavy_legs_01_04_01",
       "name": {
-        "zh": "Monolith 腿甲 Shadowflux 蓝图",
+        "zh": "巨石 腿甲 影流 蓝图",
         "en": "Monolith Armor Legs Shadowflux Blueprint",
         "localizationSource": "official_global_ini"
       },
@@ -12524,7 +12407,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -12536,18 +12419,18 @@
     {
       "id": "kap_combat_heavy_backpack_01_01_01",
       "name": {
-        "zh": "Monolith 背包",
+        "zh": "巨石 背包",
         "en": "Monolith Backpack",
         "localizationSource": "official_global_ini"
       },
       "category": "Backpack (Armor)",
-      "descriptionZh": "物品类型：重型背包\n储物空间：150.0 uSCU\n可适配胸甲类型：重型\n采用三层复合陶瓷硬壳，并在连接点加入碳纤维编织加固。线条简洁、容量充足的巨石背包，是克林格与波罗将风格与实用性融为一体的又一例证。",
+      "descriptionZh": "物品类型：重型背包\n储物空间：150.0 uSCU\n可适配胸甲类型：重型\n采用三层复合陶瓷外壳，连接处以碳纤维织物加固。外形简洁且容量充足的巨石背包，在兼顾实用的同时展现了克林格与波罗标志性的风格。",
       "imagePath": "/images/auto/250986ae22f4a2e1618b212b67a29377353c3e506fbf8efb88c957504ef952a0.png",
       "imageSourceUrl": "https://media.starcitizen.tools/b/ba/Monolith_Backpack_-_infobox.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/monolith-backpack",
-      "sourceUpdatedAt": "2026-10-28T20:58:12.000000Z",
-      "sourceGameVersion": "4.10.2-LIVE.12881860",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
@@ -12558,12 +12441,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-backpack",
-          "sourceUpdatedAt": "2026-10-28T20:58:12.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-backpack",
-        "gameVersion": "4.10.2-LIVE.12881860",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 105,
         "ingredients": [
           {
@@ -12584,7 +12467,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -12597,7 +12480,7 @@
     {
       "id": "kap_combat_heavy_backpack_01_04_01",
       "name": {
-        "zh": "Monolith 背包 Shadowflux",
+        "zh": "巨石 背包 影流",
         "en": "Monolith Backpack Shadowflux",
         "localizationSource": "official_global_ini"
       },
@@ -12607,8 +12490,8 @@
       "imageSourceUrl": "https://media.starcitizen.tools/3/38/Monolith_Backpack_Shadowflux_-_infobox.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/monolith-backpack-shadowflux",
-      "sourceUpdatedAt": "2026-10-11T18:29:58.000000Z",
-      "sourceGameVersion": "4.10.2-LIVE.12881860",
+      "sourceUpdatedAt": "2026-11-13T10:45:52.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": false,
       "isCraftable": true,
       "acquisition": [
@@ -12619,7 +12502,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-backpack-shadowflux",
-          "sourceUpdatedAt": "2026-10-11T18:29:58.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:45:52.000000Z"
         },
         {
           "type": "wikelo",
@@ -12633,7 +12516,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-backpack-shadowflux",
-        "gameVersion": "4.10.2-LIVE.12881860",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 105,
         "ingredients": [
           {
@@ -12660,7 +12543,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -12672,7 +12555,7 @@
     {
       "id": "bp_reward_kap_combat_heavy_backpack_01_04_01",
       "name": {
-        "zh": "Monolith 背包 Shadowflux 蓝图",
+        "zh": "巨石 背包 影流 蓝图",
         "en": "Monolith Backpack Shadowflux Blueprint",
         "localizationSource": "official_global_ini"
       },
@@ -12703,7 +12586,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -12715,7 +12598,7 @@
     {
       "id": "kap_combat_heavy_helmet_01_01_01",
       "name": {
-        "zh": "Monolith 头盔",
+        "zh": "巨石 头盔",
         "en": "Monolith Helmet",
         "localizationSource": "official_global_ini"
       },
@@ -12725,8 +12608,8 @@
       "imageSourceUrl": "https://www.mmopixel.com/news/star-citizen-4-10-2-leaks-and-reveals",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/monolith-helmet",
-      "sourceUpdatedAt": "2026-10-11T18:29:15.000000Z",
-      "sourceGameVersion": "4.10.2-LIVE.12881860",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
@@ -12737,12 +12620,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-helmet",
-          "sourceUpdatedAt": "2026-10-11T18:29:15.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-helmet",
-        "gameVersion": "4.10.2-LIVE.12881860",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 250,
         "ingredients": [
           {
@@ -12785,7 +12668,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -12798,7 +12681,7 @@
     {
       "id": "kap_combat_heavy_helmet_01_04_01",
       "name": {
-        "zh": "Monolith 头盔 Shadowflux",
+        "zh": "巨石 头盔 影流",
         "en": "Monolith Helmet Shadowflux",
         "localizationSource": "official_global_ini"
       },
@@ -12808,8 +12691,8 @@
       "imageSourceUrl": "https://media.starcitizen.tools/d/df/Monolith_Helmet_Shadowflux_-_infobox.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/monolith-helmet-shadowflux",
-      "sourceUpdatedAt": "2026-10-28T21:15:38.000000Z",
-      "sourceGameVersion": "4.10.2-LIVE.12881860",
+      "sourceUpdatedAt": "2026-11-13T10:45:53.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": false,
       "isCraftable": true,
       "acquisition": [
@@ -12820,7 +12703,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-helmet-shadowflux",
-          "sourceUpdatedAt": "2026-10-28T21:15:38.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:45:53.000000Z"
         },
         {
           "type": "wikelo",
@@ -12834,7 +12717,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/monolith-helmet-shadowflux",
-        "gameVersion": "4.10.2-LIVE.12881860",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 250,
         "ingredients": [
           {
@@ -12878,7 +12761,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -12890,7 +12773,7 @@
     {
       "id": "bp_reward_kap_combat_heavy_helmet_01_04_01",
       "name": {
-        "zh": "Monolith 头盔 Shadowflux 蓝图",
+        "zh": "巨石 头盔 影流 蓝图",
         "en": "Monolith Helmet Shadowflux Blueprint",
         "localizationSource": "official_global_ini"
       },
@@ -12921,7 +12804,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -12943,20 +12826,11 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/nn-13-cannon",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/nn-13-cannon",
-      "sourceUpdatedAt": "2026-10-10T00:29:36.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": false,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：蒂奇的物品店 · 列夫斯基",
-          "price": 17970,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=nn-13-cannon&tab=about",
-          "sourceUpdatedAt": "2026-09-01T00:35:30+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -12964,12 +12838,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/nn-13-cannon",
-          "sourceUpdatedAt": "2026-10-10T00:29:36.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/nn-13-cannon",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 540,
         "ingredients": [
           {
@@ -13332,20 +13206,11 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/novikov-exploration-suit",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/novikov-exploration-suit",
-      "sourceUpdatedAt": "2026-11-13T00:13:45.000000Z",
-      "sourceGameVersion": "4.10.2-LIVE.12881860",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：射手 - 六角湾、护甲店 - 特雷斯勒空间站、货物供应 - 埃弗勒斯空间站、货物供应 - 尼克斯星门 (斯坦顿)、货物供应 - 拜基尼空间站、货物供应 - 斯坦顿星门 (派罗)、货物供应 - 派罗星门 (斯坦顿)、货物供应 - 炽天使空间站 等 18 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=novikov-exploration-suit&tab=about",
-          "sourceUpdatedAt": "2026-11-12T04:26:07+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -13353,12 +13218,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-exploration-suit",
-          "sourceUpdatedAt": "2026-11-13T00:13:45.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-exploration-suit",
-        "gameVersion": "4.10.2-LIVE.12881860",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 390,
         "ingredients": [
           {
@@ -13438,20 +13303,11 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/novikov-helmet",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/novikov-helmet",
-      "sourceUpdatedAt": "2026-11-13T00:13:44.000000Z",
-      "sourceGameVersion": "4.10.2-LIVE.12881860",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": false,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：射手 - 六角湾、护甲店 - 特雷斯勒空间站、货物供应 - 埃弗勒斯空间站、货物供应 - 尼克斯星门 (斯坦顿)、货物供应 - 拜基尼空间站、货物供应 - 斯坦顿星门 (派罗)、货物供应 - 派罗星门 (斯坦顿)、货物供应 - 炽天使空间站 等 18 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=novikov-helmet&tab=about",
-          "sourceUpdatedAt": "2026-11-12T04:02:50+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -13459,12 +13315,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-helmet",
-          "sourceUpdatedAt": "2026-11-13T00:13:44.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-helmet",
-        "gameVersion": "4.10.2-LIVE.12881860",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 390,
         "ingredients": [
           {
@@ -14496,20 +14352,11 @@
       "imageSourceUrl": null,
       "imageKind": "none",
       "sourceUrl": "https://api.star-citizen.wiki/items/parallax-rifle-battery-80-cap",
-      "sourceUpdatedAt": "2026-10-10T00:01:48.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 81 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=parallax-rifle-battery-(80-cap)&tab=about",
-          "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -14517,7 +14364,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/parallax-rifle-battery-80-cap",
-          "sourceUpdatedAt": "2026-10-10T00:01:48.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         },
         {
           "type": "wikelo",
@@ -14531,7 +14378,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/parallax-rifle-battery-80-cap",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -14596,19 +14443,19 @@
           },
           {
             "title": "Orange Level Contract: Ship Protection Needed",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d198028e-178b-4f77-b76f-28a35664d90b"
-          },
-          {
-            "title": "Orange Level Contract: Ship Protection Needed",
             "sourceUrl": "https://api.star-citizen.wiki/missions/e3cfd26a-39e5-4af4-8c18-635d19a9c740"
           },
           {
-            "title": "Orange Level Contract: Spring a Trap",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/b0da62b2-a43c-42e6-9588-a293f890ce4e"
+            "title": "Orange Level Contract: Ship Protection Needed",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d198028e-178b-4f77-b76f-28a35664d90b"
           },
           {
             "title": "Orange Level Contract: Spring a Trap",
             "sourceUrl": "https://api.star-citizen.wiki/missions/dda8c4fb-b0fd-44af-9276-b13f0c781e90"
+          },
+          {
+            "title": "Orange Level Contract: Spring a Trap",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/b0da62b2-a43c-42e6-9588-a293f890ce4e"
           },
           {
             "title": "Orange Level Contract: Take Out Criminal Fleet",
@@ -14624,27 +14471,27 @@
           },
           {
             "title": "Red Level Contract: Ambush Attack Squad",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/3e7d0f51-7185-4674-bdc5-50ca2d0798b5"
-          },
-          {
-            "title": "Red Level Contract: Ambush Attack Squad",
             "sourceUrl": "https://api.star-citizen.wiki/missions/d4b57d33-a3da-4902-8695-16732ea20b41"
           },
           {
-            "title": "Red Level Contract: High-Risk Security Patrol",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/696ffb18-5211-4e4d-bb67-5e31eb562a9d"
+            "title": "Red Level Contract: Ambush Attack Squad",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/3e7d0f51-7185-4674-bdc5-50ca2d0798b5"
           },
           {
             "title": "Red Level Contract: High-Risk Security Patrol",
             "sourceUrl": "https://api.star-citizen.wiki/missions/cf2bff54-209a-427d-a137-bce73d6a7cae"
           },
           {
-            "title": "Red Level Contract: Save Ships at [DefendLocationWrapperLocation]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/8445139c-9b30-4789-8003-39f32fc5ebd5"
+            "title": "Red Level Contract: High-Risk Security Patrol",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/696ffb18-5211-4e4d-bb67-5e31eb562a9d"
           },
           {
             "title": "Red Level Contract: Save Ships at [DefendLocationWrapperLocation]",
             "sourceUrl": "https://api.star-citizen.wiki/missions/d9529d19-9752-4893-a812-e266cf5ef9c9"
+          },
+          {
+            "title": "Red Level Contract: Save Ships at [DefendLocationWrapperLocation]",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/8445139c-9b30-4789-8003-39f32fc5ebd5"
           },
           {
             "title": "Red Level Contract: Secure Threatened Space",
@@ -14712,11 +14559,11 @@
           },
           {
             "title": "Yellow Level Contract: Security Sweep",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/501df9ce-0359-4492-80aa-cf5a746bbf9b"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f055aa9c-f9d9-4f93-82d1-e3a4a6b22f4e"
           },
           {
             "title": "Yellow Level Contract: Security Sweep",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f055aa9c-f9d9-4f93-82d1-e3a4a6b22f4e"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/501df9ce-0359-4492-80aa-cf5a746bbf9b"
           },
           {
             "title": "Yellow Level Contract: Stand Up to Aggressors",
@@ -15006,20 +14853,11 @@
       "imageSourceUrl": null,
       "imageKind": "none",
       "sourceUrl": "https://api.star-citizen.wiki/items/prism-laser-shotgun-battery-20-cap",
-      "sourceUpdatedAt": "2026-10-10T00:01:48.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 81 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=prism-laser-shotgun-battery-(20-cap)&tab=about",
-          "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -15027,7 +14865,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/prism-laser-shotgun-battery-20-cap",
-          "sourceUpdatedAt": "2026-10-10T00:01:48.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         },
         {
           "type": "wikelo",
@@ -15041,7 +14879,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/prism-laser-shotgun-battery-20-cap",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -15417,20 +15255,11 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/quartz-energy-smg-battery-45-cap",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/quartz-energy-smg-battery-45-cap",
-      "sourceUpdatedAt": "2026-10-10T00:01:48.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 81 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=quartz-energy-smg-battery-(45-cap)&tab=about",
-          "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -15438,7 +15267,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/quartz-energy-smg-battery-45-cap",
-          "sourceUpdatedAt": "2026-10-10T00:01:48.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         },
         {
           "type": "wikelo",
@@ -15452,7 +15281,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/quartz-energy-smg-battery-45-cap",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -15481,15 +15310,15 @@
         "unlocks": [
           {
             "title": "Need Resource for Research",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/cb582593-5230-4146-9e15-6e04e8cdcdac"
+          },
+          {
+            "title": "Need Resource for Research",
             "sourceUrl": "https://api.star-citizen.wiki/missions/0137aa6a-c647-4e30-92d5-5bd91acbd270"
           },
           {
             "title": "Need Resource for Research",
             "sourceUrl": "https://api.star-citizen.wiki/missions/5e4608e6-cf31-4f36-a82a-9e8540934e0b"
-          },
-          {
-            "title": "Need Resource for Research",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/cb582593-5230-4146-9e15-6e04e8cdcdac"
           },
           {
             "title": "Patrol Dangerous Sector",
@@ -15603,20 +15432,11 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun",
-      "sourceUpdatedAt": "2026-09-21T00:23:59.000000Z",
-      "sourceGameVersion": "4.10.0-LIVE.12519617",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 西风镇、寒霜镇、射手 - 六角湾、科途便利店 - 云景中心 - 奥里森、立方爆炸 - 18区",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=r97-shotgun&tab=about",
-          "sourceUpdatedAt": "2026-09-12T13:38:25+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -15624,12 +15444,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun",
-          "sourceUpdatedAt": "2026-09-21T00:23:59.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun",
-        "gameVersion": "4.10.0-LIVE.12519617",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 150,
         "ingredients": [
           {
@@ -15669,6 +15489,10 @@
         "unlocks": [
           {
             "title": "A Well Deserved Break",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/db20811c-814f-4e3f-b79f-9dd0d259fa98"
+          },
+          {
+            "title": "A Well Deserved Break",
             "sourceUrl": "https://api.star-citizen.wiki/missions/12a01016-d0e9-400c-b285-0016401eebda"
           },
           {
@@ -15678,10 +15502,6 @@
           {
             "title": "A Well Deserved Break",
             "sourceUrl": "https://api.star-citizen.wiki/missions/4d1cc670-7249-4edc-ab59-75a26aaa78d0"
-          },
-          {
-            "title": "A Well Deserved Break",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/db20811c-814f-4e3f-b79f-9dd0d259fa98"
           },
           {
             "title": "Bounty Nyx - Easy",
@@ -15700,16 +15520,16 @@
             "sourceUrl": "https://api.star-citizen.wiki/missions/44d85e9e-b93a-4488-9273-61c3445ab4aa"
           },
           {
-            "title": "Bounty Nyx Rehire",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/b7e2fdb1-cb2b-4608-ac51-f396d7b62814"
-          },
-          {
-            "title": "Bounty Nyx Very Easy",
+            "title": "Bounty Nyx - Very Easy",
             "sourceUrl": "https://api.star-citizen.wiki/missions/8794972a-d90e-4549-8dfb-aaf80592231a"
           },
           {
-            "title": "Bounty Nyx Very Hard",
+            "title": "Bounty Nyx - Very Hard",
             "sourceUrl": "https://api.star-citizen.wiki/missions/44616d84-c549-4c9f-b967-573b035c3c3e"
+          },
+          {
+            "title": "Bounty Nyx Rehire",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/b7e2fdb1-cb2b-4608-ac51-f396d7b62814"
           },
           {
             "title": "Come to Aid of Convoy",
@@ -15797,15 +15617,15 @@
           },
           {
             "title": "Verified Bounty: [TargetName] at QV Breaker Station",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/ccd48707-050e-4f79-ac7f-e6008e1e91ed"
+          },
+          {
+            "title": "Verified Bounty: [TargetName] at QV Breaker Station",
             "sourceUrl": "https://api.star-citizen.wiki/missions/f0ff85a8-ee91-4ffb-8f9c-bcaf9d97acdb"
           },
           {
             "title": "Verified Bounty: [TargetName] at QV Breaker Station",
             "sourceUrl": "https://api.star-citizen.wiki/missions/128d40e5-6bcb-4503-bb60-45ac58c634fb"
-          },
-          {
-            "title": "Verified Bounty: [TargetName] at QV Breaker Station",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/ccd48707-050e-4f79-ac7f-e6008e1e91ed"
           }
         ]
       },
@@ -15836,20 +15656,11 @@
       "imageSourceUrl": "https://media.starcitizen.tools/a/a4/R97_Shotgun_Magazine_-_CutOut_-_Mesh_BG.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun-magazine-18-cap",
-      "sourceUpdatedAt": "2026-10-10T00:29:14.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=r97-shotgun-magazine-(18-cap)&tab=about",
-          "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -15857,7 +15668,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun-magazine-18-cap",
-          "sourceUpdatedAt": "2026-10-10T00:29:14.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         },
         {
           "type": "wikelo",
@@ -15871,7 +15682,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun-magazine-18-cap",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -15900,15 +15711,27 @@
         "unlocks": [
           {
             "title": "[Contractor|RecoverItemTitle]",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e931d5bc-88eb-44f4-aebb-c72038ff1efc"
+          },
+          {
+            "title": "[Contractor|RecoverItemTitle]",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d23d7e30-28d4-481a-b0f4-8a4478a5baa6"
+          },
+          {
+            "title": "[Contractor|RecoverItemTitle]",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f912aaa1-24d5-4f6c-b89f-00dc201e5c98"
+          },
+          {
+            "title": "[Contractor|RecoverItemTitle]",
             "sourceUrl": "https://api.star-citizen.wiki/missions/00d65b75-6d4d-4443-8b0d-499817943b09"
           },
           {
             "title": "[Contractor|RecoverItemTitle]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/02349039-42c0-42b9-a8a0-c2b07b8d78e3"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/03f26bb1-2604-4e1b-b0ec-8ceba202b3aa"
           },
           {
             "title": "[Contractor|RecoverItemTitle]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/03f26bb1-2604-4e1b-b0ec-8ceba202b3aa"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/02349039-42c0-42b9-a8a0-c2b07b8d78e3"
           },
           {
             "title": "[Contractor|RecoverItemTitle]",
@@ -15923,16 +15746,8 @@
             "sourceUrl": "https://api.star-citizen.wiki/missions/aeea7abc-8f44-4986-9524-fbb922142260"
           },
           {
-            "title": "[Contractor|RecoverItemTitle]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d23d7e30-28d4-481a-b0f4-8a4478a5baa6"
-          },
-          {
-            "title": "[Contractor|RecoverItemTitle]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e931d5bc-88eb-44f4-aebb-c72038ff1efc"
-          },
-          {
-            "title": "[Contractor|RecoverItemTitle]",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f912aaa1-24d5-4f6c-b89f-00dc201e5c98"
+            "title": "A Well Deserved Break",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/db20811c-814f-4e3f-b79f-9dd0d259fa98"
           },
           {
             "title": "A Well Deserved Break",
@@ -15945,10 +15760,6 @@
           {
             "title": "A Well Deserved Break",
             "sourceUrl": "https://api.star-citizen.wiki/missions/4d1cc670-7249-4edc-ab59-75a26aaa78d0"
-          },
-          {
-            "title": "A Well Deserved Break",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/db20811c-814f-4e3f-b79f-9dd0d259fa98"
           },
           {
             "title": "Bounty Nyx - Easy",
@@ -15967,16 +15778,16 @@
             "sourceUrl": "https://api.star-citizen.wiki/missions/44d85e9e-b93a-4488-9273-61c3445ab4aa"
           },
           {
-            "title": "Bounty Nyx Rehire",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/b7e2fdb1-cb2b-4608-ac51-f396d7b62814"
-          },
-          {
-            "title": "Bounty Nyx Very Easy",
+            "title": "Bounty Nyx - Very Easy",
             "sourceUrl": "https://api.star-citizen.wiki/missions/8794972a-d90e-4549-8dfb-aaf80592231a"
           },
           {
-            "title": "Bounty Nyx Very Hard",
+            "title": "Bounty Nyx - Very Hard",
             "sourceUrl": "https://api.star-citizen.wiki/missions/44616d84-c549-4c9f-b967-573b035c3c3e"
+          },
+          {
+            "title": "Bounty Nyx Rehire",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/b7e2fdb1-cb2b-4608-ac51-f396d7b62814"
           },
           {
             "title": "Come to Aid of Convoy",
@@ -16072,15 +15883,15 @@
           },
           {
             "title": "Verified Bounty: [TargetName] at QV Breaker Station",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/128d40e5-6bcb-4503-bb60-45ac58c634fb"
-          },
-          {
-            "title": "Verified Bounty: [TargetName] at QV Breaker Station",
             "sourceUrl": "https://api.star-citizen.wiki/missions/ccd48707-050e-4f79-ac7f-e6008e1e91ed"
           },
           {
             "title": "Verified Bounty: [TargetName] at QV Breaker Station",
             "sourceUrl": "https://api.star-citizen.wiki/missions/f0ff85a8-ee91-4ffb-8f9c-bcaf9d97acdb"
+          },
+          {
+            "title": "Verified Bounty: [TargetName] at QV Breaker Station",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/128d40e5-6bcb-4503-bb60-45ac58c634fb"
           }
         ]
       },
@@ -17263,20 +17074,11 @@
       "imageSourceUrl": "https://media.starcitizen.tools/c/c0/S71_magazine_800x400.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/s71-rifle-magazine-30-cap",
-      "sourceUpdatedAt": "2026-10-10T00:29:14.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=s71-rifle-magazine-(30-cap)&tab=about",
-          "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -17284,7 +17086,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/s71-rifle-magazine-30-cap",
-          "sourceUpdatedAt": "2026-10-10T00:29:14.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         },
         {
           "type": "wikelo",
@@ -17298,7 +17100,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/s71-rifle-magazine-30-cap",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -17335,11 +17137,11 @@
           },
           {
             "title": "Intercepted Supply Run",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/0b3b9b85-ef42-4dcd-8c5f-d644d8e691f6"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/dd2e2360-d42b-4459-bf8f-21beb7faf0c6"
           },
           {
             "title": "Intercepted Supply Run",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/dd2e2360-d42b-4459-bf8f-21beb7faf0c6"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/0b3b9b85-ef42-4dcd-8c5f-d644d8e691f6"
           },
           {
             "title": "Recovering Valuable Supplies",
@@ -17431,8 +17233,8 @@
       "imageSourceUrl": "https://sc-market.space/market/60603ff3-9ef2-438c-acbd-615064f7846e/",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/saldynium-ore",
-      "sourceUpdatedAt": "2026-09-22T07:12:14.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:42:34.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": false,
       "isCraftable": false,
       "acquisition": [
@@ -17531,7 +17333,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -17597,20 +17399,11 @@
       "imageSourceUrl": "https://starcitizen.tools/Strata",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/strata-arms",
-      "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：货运服务 · 列夫斯基",
-          "price": 1916,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=strata-arms&tab=about",
-          "sourceUpdatedAt": "2026-08-30T11:41:52+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -17618,12 +17411,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-arms",
-          "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-arms",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 200,
         "ingredients": [
           {
@@ -17663,15 +17456,19 @@
         "unlocks": [
           {
             "title": "Lrg. Purchase Order: Hand Mined Materials",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/01438a02-9c90-46e9-b9de-4d841402b9fe"
-          },
-          {
-            "title": "Lrg. Purchase Order: Hand Mined Materials",
             "sourceUrl": "https://api.star-citizen.wiki/missions/f0fec745-1249-42a1-8e65-8b352b07d61e"
           },
           {
             "title": "Lrg. Purchase Order: Hand Mined Materials",
             "sourceUrl": "https://api.star-citizen.wiki/missions/f60cb769-10a7-474d-9158-76ff48020fa5"
+          },
+          {
+            "title": "Lrg. Purchase Order: Hand Mined Materials",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/01438a02-9c90-46e9-b9de-4d841402b9fe"
+          },
+          {
+            "title": "Med. Purchase Order: Hand Mined Materials",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/cab436ab-95ba-4c9f-aa9b-ea51563e8f21"
           },
           {
             "title": "Med. Purchase Order: Hand Mined Materials",
@@ -17680,10 +17477,6 @@
           {
             "title": "Med. Purchase Order: Hand Mined Materials",
             "sourceUrl": "https://api.star-citizen.wiki/missions/6fdbb285-4279-450d-86af-c452a31c388e"
-          },
-          {
-            "title": "Med. Purchase Order: Hand Mined Materials",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/cab436ab-95ba-4c9f-aa9b-ea51563e8f21"
           },
           {
             "title": "Small Purchase Order: Hand Mined Materials",
@@ -17773,20 +17566,11 @@
       "imageSourceUrl": "https://media.starcitizen.tools/b/b2/StrataBPBase.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/strata-backpack",
-      "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：货运服务 · 列夫斯基",
-          "price": 1900,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=strata-backpack&tab=about",
-          "sourceUpdatedAt": "2026-08-30T11:41:21+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -17794,12 +17578,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-backpack",
-          "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-backpack",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 90,
         "ingredients": [
           {
@@ -17897,20 +17681,11 @@
       "imageSourceUrl": "https://starcitizen.tools/Strata",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/strata-core",
-      "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：货运服务 · 列夫斯基",
-          "price": 10722,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=strata-core&tab=about",
-          "sourceUpdatedAt": "2026-08-30T11:42:18+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -17918,12 +17693,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-core",
-          "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-core",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 200,
         "ingredients": [
           {
@@ -17963,15 +17738,19 @@
         "unlocks": [
           {
             "title": "Lrg. Purchase Order: Hand Mined Materials",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/01438a02-9c90-46e9-b9de-4d841402b9fe"
-          },
-          {
-            "title": "Lrg. Purchase Order: Hand Mined Materials",
             "sourceUrl": "https://api.star-citizen.wiki/missions/f0fec745-1249-42a1-8e65-8b352b07d61e"
           },
           {
             "title": "Lrg. Purchase Order: Hand Mined Materials",
             "sourceUrl": "https://api.star-citizen.wiki/missions/f60cb769-10a7-474d-9158-76ff48020fa5"
+          },
+          {
+            "title": "Lrg. Purchase Order: Hand Mined Materials",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/01438a02-9c90-46e9-b9de-4d841402b9fe"
+          },
+          {
+            "title": "Med. Purchase Order: Hand Mined Materials",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/cab436ab-95ba-4c9f-aa9b-ea51563e8f21"
           },
           {
             "title": "Med. Purchase Order: Hand Mined Materials",
@@ -17980,10 +17759,6 @@
           {
             "title": "Med. Purchase Order: Hand Mined Materials",
             "sourceUrl": "https://api.star-citizen.wiki/missions/6fdbb285-4279-450d-86af-c452a31c388e"
-          },
-          {
-            "title": "Med. Purchase Order: Hand Mined Materials",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/cab436ab-95ba-4c9f-aa9b-ea51563e8f21"
           },
           {
             "title": "Small Purchase Order: Hand Mined Materials",
@@ -18073,20 +17848,11 @@
       "imageSourceUrl": "https://media.starcitizen.tools/2/25/StrataHelmetBase.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/strata-helmet",
-      "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:45:46.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：货运服务 · 列夫斯基",
-          "price": 3308,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=strata-helmet&tab=about",
-          "sourceUpdatedAt": "2026-08-30T11:40:53+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -18094,12 +17860,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-helmet",
-          "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:45:46.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-helmet",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 200,
         "ingredients": [
           {
@@ -18208,20 +17974,11 @@
       "imageSourceUrl": "https://starcitizen.tools/Strata",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/strata-legs",
-      "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：货运服务 · 列夫斯基",
-          "price": 4233,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=strata-legs&tab=about",
-          "sourceUpdatedAt": "2026-08-30T11:42:48+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -18229,12 +17986,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-legs",
-          "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-legs",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 200,
         "ingredients": [
           {
@@ -18274,15 +18031,19 @@
         "unlocks": [
           {
             "title": "Lrg. Purchase Order: Hand Mined Materials",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/01438a02-9c90-46e9-b9de-4d841402b9fe"
-          },
-          {
-            "title": "Lrg. Purchase Order: Hand Mined Materials",
             "sourceUrl": "https://api.star-citizen.wiki/missions/f0fec745-1249-42a1-8e65-8b352b07d61e"
           },
           {
             "title": "Lrg. Purchase Order: Hand Mined Materials",
             "sourceUrl": "https://api.star-citizen.wiki/missions/f60cb769-10a7-474d-9158-76ff48020fa5"
+          },
+          {
+            "title": "Lrg. Purchase Order: Hand Mined Materials",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/01438a02-9c90-46e9-b9de-4d841402b9fe"
+          },
+          {
+            "title": "Med. Purchase Order: Hand Mined Materials",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/cab436ab-95ba-4c9f-aa9b-ea51563e8f21"
           },
           {
             "title": "Med. Purchase Order: Hand Mined Materials",
@@ -18291,10 +18052,6 @@
           {
             "title": "Med. Purchase Order: Hand Mined Materials",
             "sourceUrl": "https://api.star-citizen.wiki/missions/6fdbb285-4279-450d-86af-c452a31c388e"
-          },
-          {
-            "title": "Med. Purchase Order: Hand Mined Materials",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/cab436ab-95ba-4c9f-aa9b-ea51563e8f21"
           },
           {
             "title": "Small Purchase Order: Hand Mined Materials",
@@ -18384,19 +18141,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-helmet",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-helmet",
-      "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:41.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
         {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：商店 冰结镇、商店 卡比尔驿站、商店 杰克森交易站、商店 萨克伦领地、商店 鸭翼观景处、商店 黑岩交易所、坦姆尼父子、射手 六角湾 等 9 处",
+          "type": "loot",
+          "label": "随机战利品",
+          "location": "可从战利品箱或敌人身上获得，但没有已确认的固定掉落点",
           "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=tailwind-flight-helmet&tab=about",
-          "sourceUpdatedAt": "2026-08-31T23:58:38+00:00"
+          "currency": null,
+          "sourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-helmet",
+          "sourceUpdatedAt": "2026-11-13T10:44:41.000000Z"
         }
       ],
       "crafting": null,
@@ -18545,20 +18302,11 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-suit",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-suit",
-      "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：商店 冰结镇、商店 卡比尔驿站、商店 杰克森交易站、商店 萨克伦领地、商店 鸭翼观景处、商店 黑岩交易所、坦姆尼父子、射手 六角湾 等 9 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=tailwind-flight-suit&tab=about",
-          "sourceUpdatedAt": "2026-09-01T00:03:55+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -18566,12 +18314,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/tailwind-flight-suit",
-          "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/tailwind-flight-suit",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 90,
         "ingredients": [
           {
@@ -19807,20 +19555,11 @@
       "imageSourceUrl": "https://media.starcitizen.tools/0/0a/Shotgun-Pistol.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/tripledown-pistol",
-      "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：尽职之物 · 列夫斯基、武器与护甲店 人民服务空间站 德尔塔、武器与护甲店 人民服务空间站 拉姆达、武器与护甲店 人民服务空间站 西塔、武器与护甲店 人民服务空间站 阿尔法",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=tripledown-pistol&tab=about",
-          "sourceUpdatedAt": "2026-09-13T21:29:32+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -19828,12 +19567,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/tripledown-pistol",
-          "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/tripledown-pistol",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 90,
         "ingredients": [
           {
@@ -19897,20 +19636,11 @@
       "imageSourceUrl": null,
       "imageKind": "none",
       "sourceUrl": "https://api.star-citizen.wiki/items/tripledown-pistol-magazine-12-cap",
-      "sourceUpdatedAt": "2026-10-10T00:01:48.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 死局空间站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 64 处",
-          "price": 154,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=tripledown-pistol-magazine-(12-cap)&tab=about",
-          "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -19918,7 +19648,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/tripledown-pistol-magazine-12-cap",
-          "sourceUpdatedAt": "2026-10-10T00:01:48.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         },
         {
           "type": "wikelo",
@@ -19932,7 +19662,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/tripledown-pistol-magazine-12-cap",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
@@ -20248,8 +19978,8 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/vanduul-metal",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/vanduul-metal",
-      "sourceUpdatedAt": "2026-09-22T07:32:41.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:45:16.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
@@ -20328,7 +20058,7 @@
         {
           "tradeId": "c99e22e9-643c-4822-9f06-8c119722caee",
           "tradeName": {
-            "zh": "非常光滑的Monolith",
+            "zh": "非常光滑的巨石护甲",
             "en": "Monolith Armor Very Smooth",
             "localizationSource": "official_global_ini"
           },
@@ -20635,20 +20365,11 @@
       "imageSourceUrl": "https://starcitizen.tools/Vendetta_HMG",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/vendetta-hmg-magazine-1000-cap",
-      "sourceUpdatedAt": "2026-10-10T00:01:49.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:42:20.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 死局空间站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 72 处",
-          "price": 7425,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=vendetta-hmg-magazine-(1000-cap)&tab=about",
-          "sourceUpdatedAt": "2026-09-11T02:32:32+00:00"
-        },
         {
           "type": "wikelo",
           "label": "完成维科洛合同",
@@ -21027,20 +20748,11 @@
       "imageSourceUrl": "https://starcitizen.tools/Venture_Core",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/venture-core",
-      "sourceUpdatedAt": "2026-10-10T00:18:29.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：护甲店 - 十 L1 雄心伟梦站、护甲店 - 微 L1 浅边站、护甲店 - 微 L4 红色十字路口站、护甲店 - 炽天使空间站、科途便利店 - 云景中心 - 奥里森、科途便利店 - 志远大厦 - 新巴贝奇",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=venture-core&tab=about",
-          "sourceUpdatedAt": "2026-09-16T18:16:29+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -21048,12 +20760,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-core",
-          "sourceUpdatedAt": "2026-10-10T00:18:29.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-core",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 120,
         "ingredients": [
           {
@@ -21082,6 +20794,14 @@
         "unlocks": [
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/efbc2237-6e78-476b-82a5-2375b7a45d85"
+          },
+          {
+            "title": "Lrg. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f7004cfd-0408-4a2d-a7d7-71feea68993a"
+          },
+          {
+            "title": "Lrg. Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/2fc64955-e31a-4dd3-807a-c93a5ac51bcb"
           },
           {
@@ -21094,11 +20814,11 @@
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/436204e1-e129-4608-b517-817f97e89be7"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/4d46a0e8-74ac-4bb2-a0f9-a28c9ff6b21c"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/4d46a0e8-74ac-4bb2-a0f9-a28c9ff6b21c"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/436204e1-e129-4608-b517-817f97e89be7"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
@@ -21118,11 +20838,11 @@
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/93ba2efb-b310-4f2a-9351-b0aec5043914"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/990b2c3d-2032-45a0-a19d-302997248791"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/990b2c3d-2032-45a0-a19d-302997248791"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/93ba2efb-b310-4f2a-9351-b0aec5043914"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
@@ -21133,12 +20853,16 @@
             "sourceUrl": "https://api.star-citizen.wiki/missions/b6eff75e-6840-4db4-91f3-b12896e83443"
           },
           {
-            "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/efbc2237-6e78-476b-82a5-2375b7a45d85"
+            "title": "Med. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d79f1f13-d99a-48b8-b602-d2704cb38d67"
           },
           {
-            "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f7004cfd-0408-4a2d-a7d7-71feea68993a"
+            "title": "Med. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/c98e0f2d-5dcd-447f-88c8-05e44f7d4f9e"
+          },
+          {
+            "title": "Med. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f7f795d3-1814-4257-a213-d80057d5c6a7"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
@@ -21146,11 +20870,11 @@
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/056640ec-c485-4991-9436-143acec96d42"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/0adf4c25-97af-4180-923a-42d65ba185be"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/0adf4c25-97af-4180-923a-42d65ba185be"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/056640ec-c485-4991-9436-143acec96d42"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
@@ -21170,27 +20894,15 @@
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/6364bd24-f431-4c45-b128-e2ad7379ecf1"
-          },
-          {
-            "title": "Med. Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/6bb34cd6-89a5-49e0-bdee-1ebc7e597a12"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/6364bd24-f431-4c45-b128-e2ad7379ecf1"
+          },
+          {
+            "title": "Med. Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/bb87d679-7918-4194-bdcb-b25113a63ab5"
-          },
-          {
-            "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/c98e0f2d-5dcd-447f-88c8-05e44f7d4f9e"
-          },
-          {
-            "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d79f1f13-d99a-48b8-b602-d2704cb38d67"
-          },
-          {
-            "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f7f795d3-1814-4257-a213-d80057d5c6a7"
           },
           {
             "title": "Mjr. Purchase Order: Ship Mined Ore",
@@ -21230,7 +20942,7 @@
           },
           {
             "title": "Special Purchase Order: Mined Materials",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/b613986b-7f74-4d9d-9ab7-62984187d246"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f94f5fa2-fd5e-4330-b978-21db6bdc25be"
           },
           {
             "title": "Special Purchase Order: Mined Materials",
@@ -21238,7 +20950,23 @@
           },
           {
             "title": "Special Purchase Order: Mined Materials",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f94f5fa2-fd5e-4330-b978-21db6bdc25be"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/b613986b-7f74-4d9d-9ab7-62984187d246"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e4365a62-dc90-44af-9ada-1defd9e56c6e"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f239d149-f487-4c6c-9a00-f27f06b8c2e1"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d3099447-1935-4d10-9217-0b45493f7ba9"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d79459df-3f86-4f97-8810-8dfa76fa190a"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
@@ -21254,15 +20982,15 @@
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/69966b28-bc45-4efc-bd5f-68d4f07b8e59"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/6e799a97-94e6-4e53-a4b7-46e3a0c2891c"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/78b2b227-f298-483f-b0a8-504cd29716a8"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/69966b28-bc45-4efc-bd5f-68d4f07b8e59"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
@@ -21283,22 +21011,6 @@
           {
             "title": "XL Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/c3ad1f55-cc47-46a3-8d02-fda7a75cd26c"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d3099447-1935-4d10-9217-0b45493f7ba9"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d79459df-3f86-4f97-8810-8dfa76fa190a"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e4365a62-dc90-44af-9ada-1defd9e56c6e"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f239d149-f487-4c6c-9a00-f27f06b8c2e1"
           },
           {
             "title": "XS Purchase Order: Ship Mined Ore",
@@ -21491,20 +21203,11 @@
       "imageSourceUrl": "https://starcitizen.tools/Venture_Legs",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/venture-legs",
-      "sourceUpdatedAt": "2026-10-10T00:07:50.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 十 L1 雄心伟梦站、护甲店 - 十 L4 轻浅田野站、护甲店 - 微 L4 红色十字路口站、护甲店 - 炽天使空间站、科途便利店 - 云景中心 - 奥里森、科途便利店 - 志远大厦 - 新巴贝奇",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=venture-legs&tab=about",
-          "sourceUpdatedAt": "2026-09-18T14:51:56+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -21512,12 +21215,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-legs",
-          "sourceUpdatedAt": "2026-10-10T00:07:50.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-legs",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 120,
         "ingredients": [
           {
@@ -21546,6 +21249,14 @@
         "unlocks": [
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/efbc2237-6e78-476b-82a5-2375b7a45d85"
+          },
+          {
+            "title": "Lrg. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f7004cfd-0408-4a2d-a7d7-71feea68993a"
+          },
+          {
+            "title": "Lrg. Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/2fc64955-e31a-4dd3-807a-c93a5ac51bcb"
           },
           {
@@ -21558,11 +21269,11 @@
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/436204e1-e129-4608-b517-817f97e89be7"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/4d46a0e8-74ac-4bb2-a0f9-a28c9ff6b21c"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/4d46a0e8-74ac-4bb2-a0f9-a28c9ff6b21c"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/436204e1-e129-4608-b517-817f97e89be7"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
@@ -21582,11 +21293,11 @@
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/93ba2efb-b310-4f2a-9351-b0aec5043914"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/990b2c3d-2032-45a0-a19d-302997248791"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/990b2c3d-2032-45a0-a19d-302997248791"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/93ba2efb-b310-4f2a-9351-b0aec5043914"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
@@ -21597,12 +21308,16 @@
             "sourceUrl": "https://api.star-citizen.wiki/missions/b6eff75e-6840-4db4-91f3-b12896e83443"
           },
           {
-            "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/efbc2237-6e78-476b-82a5-2375b7a45d85"
+            "title": "Med. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d79f1f13-d99a-48b8-b602-d2704cb38d67"
           },
           {
-            "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f7004cfd-0408-4a2d-a7d7-71feea68993a"
+            "title": "Med. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/c98e0f2d-5dcd-447f-88c8-05e44f7d4f9e"
+          },
+          {
+            "title": "Med. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f7f795d3-1814-4257-a213-d80057d5c6a7"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
@@ -21610,11 +21325,11 @@
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/056640ec-c485-4991-9436-143acec96d42"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/0adf4c25-97af-4180-923a-42d65ba185be"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/0adf4c25-97af-4180-923a-42d65ba185be"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/056640ec-c485-4991-9436-143acec96d42"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
@@ -21634,27 +21349,15 @@
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/6364bd24-f431-4c45-b128-e2ad7379ecf1"
-          },
-          {
-            "title": "Med. Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/6bb34cd6-89a5-49e0-bdee-1ebc7e597a12"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/6364bd24-f431-4c45-b128-e2ad7379ecf1"
+          },
+          {
+            "title": "Med. Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/bb87d679-7918-4194-bdcb-b25113a63ab5"
-          },
-          {
-            "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/c98e0f2d-5dcd-447f-88c8-05e44f7d4f9e"
-          },
-          {
-            "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d79f1f13-d99a-48b8-b602-d2704cb38d67"
-          },
-          {
-            "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f7f795d3-1814-4257-a213-d80057d5c6a7"
           },
           {
             "title": "Mjr. Purchase Order: Ship Mined Ore",
@@ -21694,7 +21397,7 @@
           },
           {
             "title": "Special Purchase Order: Mined Materials",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/b613986b-7f74-4d9d-9ab7-62984187d246"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f94f5fa2-fd5e-4330-b978-21db6bdc25be"
           },
           {
             "title": "Special Purchase Order: Mined Materials",
@@ -21702,7 +21405,23 @@
           },
           {
             "title": "Special Purchase Order: Mined Materials",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f94f5fa2-fd5e-4330-b978-21db6bdc25be"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/b613986b-7f74-4d9d-9ab7-62984187d246"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e4365a62-dc90-44af-9ada-1defd9e56c6e"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f239d149-f487-4c6c-9a00-f27f06b8c2e1"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d3099447-1935-4d10-9217-0b45493f7ba9"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d79459df-3f86-4f97-8810-8dfa76fa190a"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
@@ -21718,15 +21437,15 @@
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/69966b28-bc45-4efc-bd5f-68d4f07b8e59"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/6e799a97-94e6-4e53-a4b7-46e3a0c2891c"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/78b2b227-f298-483f-b0a8-504cd29716a8"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/69966b28-bc45-4efc-bd5f-68d4f07b8e59"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
@@ -21747,22 +21466,6 @@
           {
             "title": "XL Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/c3ad1f55-cc47-46a3-8d02-fda7a75cd26c"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d3099447-1935-4d10-9217-0b45493f7ba9"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d79459df-3f86-4f97-8810-8dfa76fa190a"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e4365a62-dc90-44af-9ada-1defd9e56c6e"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f239d149-f487-4c6c-9a00-f27f06b8c2e1"
           },
           {
             "title": "XS Purchase Order: Ship Mined Ore",
@@ -23182,20 +22885,11 @@
       "imageSourceUrl": "https://media.starcitizen.tools/1/17/Zenith_Laser_Sniper_Rifle_Battery.jpg",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/zenith-laser-sniper-rifle-battery-22-cap",
-      "sourceUpdatedAt": "2026-10-10T00:01:48.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
-        {
-          "type": "purchase",
-          "label": "商店购买",
-          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 76 处",
-          "price": null,
-          "currency": "aUEC",
-          "sourceUrl": "https://uexcorp.space/items/info?name=zenith-laser-sniper-rifle-battery-(22-cap)&tab=about",
-          "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
-        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -23203,7 +22897,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/zenith-laser-sniper-rifle-battery-22-cap",
-          "sourceUpdatedAt": "2026-10-10T00:01:48.000000Z"
+          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
         },
         {
           "type": "wikelo",
@@ -23217,7 +22911,7 @@
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/zenith-laser-sniper-rifle-battery-22-cap",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 10,
         "ingredients": [
           {
