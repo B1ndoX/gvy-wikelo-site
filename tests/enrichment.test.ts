@@ -105,4 +105,22 @@ describe("vehicle acquisition from its canonical resource", () => {
     expect(detectSupplementRegressions({ previousItems: [previous], trades: [trade], items }))
       .toContain("Sourced acquisition lost: argo_atls");
   });
+
+  it("keeps ordinary items on the item resource without querying vehicles", async () => {
+    const fetcher = vi.fn(async (_input: string) => new Response(JSON.stringify({ data: {
+      uuid: "fixture-rifle", class_name: "FIXTURE_RIFLE", name: "Fixture rifle", is_vehicle: false,
+      uex_prices: { purchase: [{ terminal_name: "Fixture shop", price_buy: 250,
+        uex_link: "https://uexcorp.space/fixture-rifle" }] },
+    } })));
+    vi.stubGlobal("fetch", fetcher);
+    const items = await buildItemIndex({
+      trades: [{ ...trade, requirements: [{ ...trade.requirements[0], id: "fixture_rifle",
+        name: { en: "Fixture rifle" }, category: "weapon" }] }],
+      localization: { entries: new Map() }, wikiImages: { items: [] },
+    });
+    expect(fetcher.mock.calls.map(([url]) => url)).toEqual([
+      "https://api.star-citizen.wiki/api/items/fixture_rifle?locale=zh_CN",
+    ]);
+    expect(items[0].acquisition[0]).toMatchObject({ type: "purchase", price: 250 });
+  });
 });
