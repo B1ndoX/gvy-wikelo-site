@@ -1,11 +1,15 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import {
   apiLookupCandidates,
   baseItemLookupCandidates,
   baseVehicleLookupCandidates,
+  buildItemIndex,
   stableLocationSummary,
   stableMediaUrl,
 } from "../scripts/lib/enrich.mjs";
+import { detectSupplementRegressions } from "../scripts/lib/content-policy.mjs";
+
+afterEach(() => vi.unstubAllGlobals());
 
 describe("item enrichment lookup fallbacks", () => {
   it("looks up public records by both internal id and English-name slug", () => {
@@ -47,5 +51,58 @@ describe("item enrichment lookup fallbacks", () => {
       .toBe("https://media.starcitizen.tools/9/97/item.png");
     expect(stableMediaUrl("https://uexcorp.space/items/info?name=item&tab=about"))
       .toBe("https://uexcorp.space/items/info?name=item&tab=about");
+  });
+});
+
+describe("vehicle acquisition from its canonical resource", () => {
+  const vehicle = {
+    uuid: "09c9fa95-5b5a-4200-9ff8-3b288df9925b", class_name: "ARGO_ATLS",
+    name: "ATLS", is_vehicle: true, web_url: "https://api.star-citizen.wiki/vehicles/argo-atls",
+    uex_prices: { purchase: [] },
+  };
+  const trade = {
+    id: "atls-trade", name: { en: "ATLS trade" },
+    requirements: [{ id: "argo_atls", name: { en: "Argo ATLS" }, category: "vehicle", quantity: 1, unit: "x" }],
+    rewards: [],
+  };
+  const previous = {
+    id: "argo_atls", acquisition: [{ type: "purchase", sourceUrl: "https://uexcorp.space/atls" }],
+  };
+
+  async function enrich(purchases: unknown[] | null) {
+    const fetcher = vi.fn(async (input: string) => {
+      if (input.includes("/items/argo_atls?")) return new Response(JSON.stringify({ data: vehicle }));
+      if (input.includes("/vehicles/argo_atls?") && purchases !== null) {
+        return new Response(JSON.stringify({ data: { ...vehicle, uex_prices: { purchase: purchases } } }));
+      }
+      return new Response("Not found", { status: 404 });
+    });
+    vi.stubGlobal("fetch", fetcher);
+    const items = await buildItemIndex({
+      trades: [trade], localization: { entries: new Map() }, wikiImages: { items: [] },
+    });
+    return { items, fetcher };
+  }
+
+  it("uses the vehicle endpoint when the generic item endpoint omits purchase data", async () => {
+    const { items, fetcher } = await enrich([{
+      terminal_name: "Teach's Ship Shop - Levski", price_buy: 75600,
+      uex_link: "https://uexcorp.space/atls", date_updated: "2026-11-13T12:26:57Z",
+    }]);
+    expect(fetcher.mock.calls.map(([url]) => url)).toEqual([
+      "https://api.star-citizen.wiki/api/items/argo_atls?locale=zh_CN",
+      "https://api.star-citizen.wiki/api/vehicles/argo_atls?locale=zh_CN",
+    ]);
+    expect(items[0].acquisition).toEqual([expect.objectContaining({
+      type: "purchase", price: 75600, sourceUrl: "https://uexcorp.space/atls",
+    })]);
+    expect(detectSupplementRegressions({ previousItems: [previous], trades: [trade], items })).toEqual([]);
+  });
+
+  it.each([[], null])("keeps the regression gate when the canonical source has no route (%s)", async purchases => {
+    const { items } = await enrich(purchases);
+    expect(items[0].acquisition[0].type).toBe("unknown");
+    expect(detectSupplementRegressions({ previousItems: [previous], trades: [trade], items }))
+      .toContain("Sourced acquisition lost: argo_atls");
   });
 });

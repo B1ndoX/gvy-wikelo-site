@@ -96,6 +96,9 @@ async function apiRecord(entry, cacheDir) {
           cacheMaxAgeMs: 7 * 24 * 60 * 60 * 1000,
         });
         if (result.data?.data?.uuid) {
+          // Generic item responses identify vehicles but omit their shops.
+          // Resolve the same identifier through the vehicle resource instead.
+          if (resource === "items" && result.data.data.is_vehicle === true) continue;
           return { ...result.data.data, apiResource: resource, fromCache: result.fromCache, lookupKey: candidate };
         }
       } catch {
