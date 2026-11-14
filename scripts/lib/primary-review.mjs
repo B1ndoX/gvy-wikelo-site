@@ -78,7 +78,7 @@ export async function reviewPrimaryTrades(manifest, stableTrades, cachedReview, 
   const bundle = await fetchBundle(manifest.primaryBundleUrl, { timeoutMs: 120_000, retries: 3, allowStaleCache: false });
   if (bundle.fromCache) throw new Error("Primary review must not accept stale source data");
   const publication = manifest.primaryPublication;
-  if (publication.etag && bundle.etag !== publication.etag) throw new Error("Primary publication changed between HEAD and GET; retry review");
+  if (publication.etag && bundle.etag !== publication.etag) throw new Error(`Primary publication changed between HEAD and GET; retry review (HEAD ETag ${JSON.stringify(publication.etag)}, GET ETag ${JSON.stringify(bundle.etag)})`);
   if (!publication.etag && publication.lastModified && Date.parse(bundle.lastModified || "") !== Date.parse(publication.lastModified)) throw new Error("Primary publication changed during review");
   const raw = parseAssignedLiteralBySourceLabel(bundle.text, sourceLabel, "trades");
   const incoming = normalizeTrades({ dumperData: raw, secondaryTrades: [], localization: { entries: new Map() }, gameVersion: manifest.remoteVersion, fetchedAt: manifest.checkedAt });
