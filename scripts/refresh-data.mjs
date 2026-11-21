@@ -3,13 +3,13 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import Ajv from "ajv/dist/2020.js";
 import { blockingRefreshReasons, detectDataAnomalies } from "./lib/anomalies.mjs";
-import { detectSupplementRegressions } from "./lib/content-policy.mjs";
+import { detectSupplementRegressions, localizationGaps } from "./lib/content-policy.mjs";
 import { buildItemIndex, loadWikiImages } from "./lib/enrich.mjs";
 import { downloadBinary, fetchJson, fetchText } from "./lib/http.mjs";
 import { fillMissingImages, imageOnlyDocuments } from "./lib/image-refresh.mjs";
 import { loadRefreshLocalization } from "./lib/localization.mjs";
 import { assertLocalizationSeries } from "./lib/official-location-source.mjs";
-import { setOfficialLocationSource, remainingUnlocalizedLocationTokens } from "./lib/location-localization.mjs";
+import { setOfficialLocationSource } from "./lib/location-localization.mjs";
 import { syncOfficialSnapshot } from "./generate-localization-source.mjs";
 import { normalizeTrades, summarizeValidation } from "./lib/normalize.mjs";
 import { parseAssignedLiteral, parseAssignedLiteralBySourceLabel } from "./lib/parse-static.mjs";
@@ -177,8 +177,8 @@ async function main() {
 
   const enrichedItems = await buildItemIndex({ trades, localization: official, cacheDir, wikiImages, wikiItemImages, acquisitionOverrides: acquisitionOverrides.items, previousItems: previousItems?.items, imageRejections: imagePolicy.rejectedImages });
   const items = preserveSemanticallyUnchangedEntities(previousItems?.items, enrichedItems);
-  const untranslatedLocations = items.flatMap(item => item.acquisition.flatMap(method => remainingUnlocalizedLocationTokens(method.location).map(token => `${item.id}: ${token}`)));
-  if (untranslatedLocations.length) throw new Error(`Untranslated purchase locations: ${untranslatedLocations.join("; ")}`);
+  const localizationWarnings = localizationGaps(trades, items);
+  if (localizationWarnings.length) console.warn(JSON.stringify({ localizationWarnings }));
   const portraitPath = path.join(projectRoot, "public/images/wikelo.webp");
   try {
     await stat(portraitPath);

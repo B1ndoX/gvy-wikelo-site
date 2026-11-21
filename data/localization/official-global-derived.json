@@ -6,10 +6,10 @@
   "sourceVersion": {
     "label": "4.10.2",
     "series": "4.10",
-    "matchedLiveVersion": "4.10.3 LIVE.13165946",
+    "matchedLiveVersion": "4.10.3 LIVE.13220821",
     "verification": "series-only; source does not identify an exact LIVE build"
   },
-  "generatedAt": "2026-11-14T01:29:49.118Z",
+  "generatedAt": "2026-11-21T04:18:37.984Z",
   "note": "Project-scoped derivative of the read-only official Simplified Chinese global.ini. It keeps all official item/vehicle names and Wikelo contract keys so remote LIVE refreshes can localize newly introduced records without the local source file.",
   "entries": {
     "bitzeros_recoveritem_generic_desc_001": {
@@ -608,9 +608,17 @@
       "key": "RR_ARC_L2",
       "value": "弧 L2 活力小径站\\nARC-L2 Lively Pathway Station"
     },
+    "rr_arc_l3": {
+      "key": "RR_ARC_L3",
+      "value": "弧 L3 摩登快车站\\nARC-L3 Modern Express Station"
+    },
     "rr_arc_l4": {
       "key": "RR_ARC_L4",
       "value": "弧 L4 黯淡幽谷站\\nARC-L4 Faint Glen Station"
+    },
+    "rr_arc_l5": {
+      "key": "RR_ARC_L5",
+      "value": "弧 L5 黄色核心站\\nARC-L5 Yellow Core Station"
     },
     "rr_cru_l1": {
       "key": "RR_CRU_L1",
@@ -1784,6 +1792,10 @@
       "key": "Vehicle_NameGRIN_UTV",
       "value": "灰猫 UTV\\nGreycat UTV"
     },
+    "wip_org_torpedoburrito": {
+      "key": "WIP_Org_TorpedoBurrito,P",
+      "value": "鱼雷卷饼"
+    },
     "area_name_weaponshop": {
       "key": "area_name_WeaponShop",
       "value": "武器店"
@@ -1795,6 +1807,10 @@
     "area_name_fdcrt_ellroys": {
       "key": "area_name_fdcrt_ellroys",
       "value": "埃尔罗伊咖啡店"
+    },
+    "area_name_fdcrt_gen_sml_brt": {
+      "key": "area_name_fdcrt_gen_sml_brt",
+      "value": "墨西哥卷饼"
     },
     "area_name_shop_armor_gen_sml_a": {
       "key": "area_name_shop_armor_gen_sml_a",

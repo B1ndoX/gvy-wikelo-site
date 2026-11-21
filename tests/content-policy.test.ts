@@ -12,6 +12,20 @@ const item = (id = "fixture", name: { zh: string | null; en: string; localizatio
 });
 
 describe("LIVE first, official Chinese when available", () => {
+  it("preserves sourced English locations and records translation gaps as warnings", () => {
+    const pending = { ...item(), acquisition: [{ type: "purchase", label: "商店购买",
+      location: "可购买地点：Unreviewed New Shop", sourceUrl: "https://api.star-citizen.wiki/fixture" }] };
+    const before = JSON.stringify(pending);
+    const issues = supplementalAuditIssues([], [pending], [pending]);
+    expect(issues.errors).toEqual([]);
+    expect(issues.warnings).toContainEqual({ code: "untranslated-public-location",
+      entries: [{ id: pending.id, tokens: ["Unreviewed New Shop"] }] });
+    expect(JSON.stringify(pending)).toBe(before);
+    expect(detectSupplementRegressions({ previousItems: [item()], trades: [], items: [pending] })).toEqual([]);
+    const unsourced = { ...pending, acquisition: [{ ...pending.acquisition[0], sourceUrl: "" }] };
+    expect(supplementalAuditIssues([], [unsourced], [unsourced]).errors[0].code)
+      .toBe("unsourced-requirement-acquisition");
+  });
   it("allows honest unknown routes but still rejects unsourced claims, fabricated unknown copy and blank English", () => {
     const unknown = { ...item("new", english), acquisition: [{ type: "unknown", label: "获取方式暂无", location: "具体获取路径暂无", price: null, currency: null, sourceUrl: null }] };
     expect(supplementalAuditIssues([], [unknown], [unknown]).errors).toEqual([]);

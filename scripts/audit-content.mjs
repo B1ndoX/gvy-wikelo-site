@@ -1,7 +1,7 @@
 import { access, mkdir, readFile, rename, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { remainingUnlocalizedLocationTokens, reviewedLocationExceptions } from "./lib/location-localization.mjs";
+import { reviewedLocationExceptions } from "./lib/location-localization.mjs";
 import { supplementalAuditIssues } from "./lib/content-policy.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -77,11 +77,6 @@ async function main() {
 
   const unknownRoutes = requirements.filter((item) => item.acquisition.length === 0 || item.acquisition.some((method) => method.type === "unknown"));
 
-  const untranslatedLocations = items.flatMap((item) => item.acquisition.flatMap((method) => {
-    const tokens = remainingUnlocalizedLocationTokens(`${method.label ?? ""} ${method.location ?? ""}`);
-    return tokens.length ? [{ id: item.id, tokens }] : [];
-  }));
-  if (untranslatedLocations.length) errors.push({ code: "untranslated-public-location", entries: untranslatedLocations });
   const locationExceptions = items.flatMap(item => item.acquisition.flatMap(method => {
     const tokens = reviewedLocationExceptions(method.location);
     return tokens.length ? [{ id: item.id, tokens }] : [];

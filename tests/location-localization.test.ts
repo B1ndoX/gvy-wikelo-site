@@ -3,6 +3,7 @@ import { localizeLocationText, remainingUnlocalizedLocationTokens, reviewedLocat
 import { assertLocalizationSeries, deriveOfficialLocations } from "../scripts/lib/official-location-source.mjs";
 import source from "../data/localization/official-global-derived.json";
 import items from "../src/data/generated/items.json";
+import burritoTerminals from "./fixtures/burrito-terminals.json";
 import { gzipSync } from "node:zlib";
 import { createHash } from "node:crypto";
 import { verifySyncedLocalization } from "../scripts/lib/localization.mjs";
@@ -35,6 +36,27 @@ describe("official location localization", () => {
     expect(remainingUnlocalizedLocationTokens("可购买地点：Shop Terminal - Brand New Outpost").length).toBeGreaterThan(0);
     expect(remainingUnlocalizedLocationTokens("可购买地点：商店终端 - 犍牛原")).toEqual([]);
   });
+  it("uses separate official keys for burrito counters and the Torpedo Burrito brand", () => {
+    expect(currentLocations["Burrito Bar"]).toMatchObject({ zh: "墨西哥卷饼", key: "area_name_fdcrt_gen_sml_brt" });
+    expect(currentLocations["Torpedo Burrito"]).toMatchObject({ zh: "鱼雷卷饼", key: "WIP_Org_TorpedoBurrito,P" });
+    expect(localizeLocationText("可购买地点：Burrito Bar - ARC-L5、Torpedo Burrito - Area 18"))
+      .toBe("可购买地点：墨西哥卷饼 - 弧 L5 黄色核心站、鱼雷卷饼 - 18区");
+    expect(localizeLocationText("Burrito Bar - ARC-L3")).toBe("墨西哥卷饼 - 弧 L3 摩登快车站");
+  });
+  it("localizes every reported burrito terminal, including those beyond the summary limit", () => {
+    expect(burritoTerminals.terminals.length).toBe(20);
+    for (const terminal of burritoTerminals.terminals) {
+      const localized = localizeLocationText(`可购买地点：${terminal.name}`);
+      expect(remainingUnlocalizedLocationTokens(localized), String(terminal.terminalId)).toEqual([]);
+      expect(localizeLocationText(localized), String(terminal.terminalId)).toBe(localized);
+    }
+  });
+  it("still identifies unknown shops and location suffixes for review", () => {
+    expect(localizeLocationText("Burrito Baritone - Unknown Outpost")).toBe("Burrito Baritone - Unknown Outpost");
+    expect(remainingUnlocalizedLocationTokens(localizeLocationText("可购买地点：Burrito Bar - Unknown Outpost")))
+      .toEqual(["Unknown Outpost"]);
+    expect(remainingUnlocalizedLocationTokens("可购买地点：Unreviewed New Shop")).toEqual(["Unreviewed New Shop"]);
+  });
   it("reports ambiguous abbreviations explicitly, retaining their identity", () => {
     expect(reviewedLocationExceptions("可购买地点：Green Circle、Sharp Shooters")).toEqual(["Green Circle", "Sharp Shooters"]);
     expect(localizeLocationText("Green Circle SCU RCMBNT-PWL-1")).toBe("Green Circle SCU RCMBNT-PWL-1");
@@ -44,7 +66,6 @@ describe("official location localization", () => {
     for (const item of items.items) for (const method of item.acquisition) {
       const once = localizeLocationText(method.location);
       expect(localizeLocationText(once), item.id).toBe(once);
-      expect(remainingUnlocalizedLocationTokens(once), item.id).toEqual([]);
     }
   });
   it("fails closed on missing official location keys", () => {

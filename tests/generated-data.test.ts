@@ -53,7 +53,11 @@ describe("generated stable data", () => {
   it("keeps SC Market as a documented secondary version source without overriding LIVE", () => {
     const source = metadata.sources.find((candidate) => candidate.url === "https://api.sc-market.space/api/v2");
     expect(["ok", "snapshot"]).toContain(source?.status);
-    expect(source?.note).toMatch(/\d+\.\d+\.\d+-LIVE\.\d+/);
+    const recordedVersion = source?.note?.match(/^Public secondary game-data API: (.+)\. Player listing prices/)?.[1];
+    expect(recordedVersion).toBeTruthy();
+    if (!recordedVersion?.startsWith(metadata.gameVersion.split(" ")[0])) expect(source?.status).toBe("snapshot");
+    expect(metadata.gameVersion).toBe(tradesData.gameVersion);
+    expect(metadata.gameVersion).toMatch(/^\d+\.\d+\.\d+ LIVE\.\d+$/);
     expect(source?.note).toContain("Player listing prices are not imported");
   });
 

@@ -1,13 +1,21 @@
 // Missing supplemental information must not hold back authoritative LIVE facts.
 // Existing verified information must not silently disappear during enrichment.
+import { remainingUnlocalizedLocationTokens } from "./location-localization.mjs";
+
 export function localizationGaps(trades, items) {
   const fallback = name => name?.localizationSource === "english_fallback";
-  return [
+  const gaps = [
     { code: "trade-localization-fallback", ids: trades.filter(trade => fallback(trade.name)).map(trade => trade.id) },
     { code: "item-localization-fallback", ids: items.filter(item => fallback(item.name)).map(item => item.id) },
     { code: "crafting-ingredient-localization-fallback", ids: items.flatMap(item => (item.crafting?.ingredients ?? [])
       .filter(ingredient => fallback(ingredient.name)).map(ingredient => `${item.id}:${ingredient.id || ingredient.name.en}`)) },
   ].filter(gap => gap.ids.length);
+  const locations = items.flatMap(item => (item.acquisition ?? []).flatMap(method => {
+    const tokens = remainingUnlocalizedLocationTokens(`${method.label ?? ""} ${method.location ?? ""}`);
+    return tokens.length ? [{ id: item.id, tokens }] : [];
+  }));
+  if (locations.length) gaps.push({ code: "untranslated-public-location", entries: locations });
+  return gaps;
 }
 
 export function hasSourcedAcquisition(item) {

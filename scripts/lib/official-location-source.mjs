@@ -63,6 +63,8 @@ export const LOCATION_KEYS = {
   "CenterMass": "shop_name_centermass",
   "Cubby Blast": "shop_name_cubbyblast",
   "Ellroy's": "area_name_fdcrt_ellroys",
+  "Burrito Bar": "area_name_fdcrt_gen_sml_brt",
+  "Torpedo Burrito": "WIP_Org_TorpedoBurrito",
   "Skutters": "shop_name_skutters",
   "Kel-To": "shop_name_kelto",
   "Live Fire Weapons": "shop_name_livefireweapons",
@@ -73,7 +75,7 @@ export const LOCATION_KEYS = {
   "Guns": "area_name_WeaponShop",
   "Cargo Services": "shop_name_cargodepot",
   "Cargo Center Supplies": "area_name_cargo_shop",
-  ...Object.fromEntries(["ARC-L1", "ARC-L2", "ARC-L4", "CRU-L1", "CRU-L4", "CRU-L5", "HUR-L1", "HUR-L2", "HUR-L3", "HUR-L4", "HUR-L5", "MIC-L1", "MIC-L2", "MIC-L3", "MIC-L4", "MIC-L5"].map(code => [code, `RR_${code.replaceAll("-", "_")}`])),
+  ...Object.fromEntries(["ARC-L1", "ARC-L2", "ARC-L3", "ARC-L4", "ARC-L5", "CRU-L1", "CRU-L4", "CRU-L5", "HUR-L1", "HUR-L2", "HUR-L3", "HUR-L4", "HUR-L5", "MIC-L1", "MIC-L2", "MIC-L3", "MIC-L4", "MIC-L5"].map(code => [code, `RR_${code.replaceAll("-", "_")}`])),
 };
 
 // Verified terminal aliases from Wiki API uex_prices.purchase.starmap_location.
