@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-14T01:29:39.586Z",
+  "generatedAt": "2026-11-21T04:24:04.233Z",
   "items": [
     {
       "id": "basl_combat_light_helmet_02_01_01",
@@ -248,11 +248,20 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-arms-woodland",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-arms-woodland",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:35:41.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 微 L4 红色十字路口站、护甲店 - 炽天使空间站、护甲店 - 特雷斯勒空间站、立方爆炸 - 18区",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-arms-woodland&tab=about",
+          "sourceUpdatedAt": "2026-11-18T18:12:24+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -260,7 +269,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-arms-woodland",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:35:41.000000Z"
         }
       ],
       "crafting": {
@@ -425,11 +434,20 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-core-woodland",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-core-woodland",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:25:57.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 微 L4 红色十字路口站、护甲店 - 炽天使空间站、护甲店 - 特雷斯勒空间站、立方爆炸 - 18区",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-core-woodland&tab=about",
+          "sourceUpdatedAt": "2026-11-18T18:12:25+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -437,7 +455,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-core-woodland",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:25:57.000000Z"
         }
       ],
       "crafting": {
@@ -602,11 +620,20 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-helmet-woodland",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-helmet-woodland",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:26:47.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 尼克斯星门 (斯坦顿)、护甲店 - 尼克斯星门 (派罗)、护甲店 - 微 L4 红色十字路口站、护甲店 - 斯坦顿星门 (尼克斯)、护甲店 - 斯坦顿星门 (派罗)、护甲店 - 泰拉星门 (斯坦顿)、护甲店 - 派罗星门 (尼克斯) 等 12 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-helmet-woodland&tab=about",
+          "sourceUpdatedAt": "2026-09-11T02:54:47+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -614,7 +641,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-helmet-woodland",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:26:47.000000Z"
         }
       ],
       "crafting": {
@@ -779,11 +806,20 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-legs-woodland",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/adp-mk4-legs-woodland",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:32:08.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 尼克斯星门 (斯坦顿)、护甲店 - 尼克斯星门 (派罗)、护甲店 - 微 L4 红色十字路口站、护甲店 - 斯坦顿星门 (尼克斯)、护甲店 - 斯坦顿星门 (派罗)、护甲店 - 泰拉星门 (斯坦顿)、护甲店 - 派罗星门 (尼克斯) 等 12 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=adp-mk4-legs-woodland&tab=about",
+          "sourceUpdatedAt": "2026-09-11T02:57:16+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -791,7 +827,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/adp-mk4-legs-woodland",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:32:08.000000Z"
         }
       ],
       "crafting": {
@@ -2956,19 +2992,19 @@
       "imageSourceUrl": "https://media.starcitizen.tools/4/46/Berry_Blend_Smoothie.jpg",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/berry-blend-smoothie",
-      "sourceUpdatedAt": "2026-11-13T10:43:09.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:06:21.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
         {
-          "type": "loot",
-          "label": "随机战利品",
-          "location": "可从战利品箱或敌人身上获得，但没有已确认的固定掉落点",
-          "price": null,
-          "currency": null,
-          "sourceUrl": "https://api.star-citizen.wiki/items/berry-blend-smoothie",
-          "sourceUpdatedAt": "2026-11-13T10:43:09.000000Z"
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：果汁吧 - 十 L1 雄心伟梦站 、果汁吧 - 十 L4 轻浅田野站、果汁吧 - 十 L5 美丽峡谷站、果汁吧 - 埃弗勒斯空间站、果汁吧 - 尼克斯星门 (斯坦顿)、果汁吧 - 尼克斯星门 (派罗)、果汁吧 - 弧 L1 广袤森林站、果汁吧 - 弧 L2 活力小径站 等 22 处",
+          "price": 7,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=berry-blend-smoothie&tab=about",
+          "sourceUpdatedAt": "2026-09-11T02:03:15+00:00"
         }
       ],
       "crafting": null,
@@ -3343,11 +3379,20 @@
       "imageSourceUrl": null,
       "imageKind": "none",
       "sourceUrl": "https://api.star-citizen.wiki/items/boomtube-rocket",
-      "sourceUpdatedAt": "2026-11-13T10:43:45.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Sharp Shooters - 死局空间站、争夺区 · 死局空间站、商店 乔拉海滩、商店 休耕地、商店 先觉者峡谷、商店 日落方山、商店 灰烬之地、商店 终陆镇 等 22 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=boomtube-rocket&tab=about",
+          "sourceUpdatedAt": "2026-11-19T22:11:01+00:00"
+        },
         {
           "type": "wikelo",
           "label": "完成维科洛合同",
@@ -4440,11 +4485,20 @@
       "imageSourceUrl": "https://media.starcitizen.tools/9/97/Coda_pistol_clip_side_800x400.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/coda-pistol-magazine-6-cap",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:12:54.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=coda-pistol-magazine-(6-cap)&tab=about",
+          "sourceUpdatedAt": "2026-11-12T03:08:28+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -4452,7 +4506,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/coda-pistol-magazine-6-cap",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:12:54.000000Z"
         },
         {
           "type": "wikelo",
@@ -6403,19 +6457,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
-      "sourceUpdatedAt": "2026-11-13T10:45:45.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:06:55.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
         {
-          "type": "loot",
-          "label": "随机战利品",
-          "location": "可从战利品箱或敌人身上获得，但没有已确认的固定掉落点",
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：埃尔罗伊咖啡店 - Green Circle - 奥里森、埃尔罗伊咖啡店 - 十 L1 雄心伟梦站、埃尔罗伊咖啡店 - 埃弗勒斯空间站、埃尔罗伊咖啡店 - 奥古斯特·顿洛空港 - 奥里森、埃尔罗伊咖啡店 - 尼克斯星门 (斯坦顿)、埃尔罗伊咖啡店 - 尼克斯星门 (派罗)、埃尔罗伊咖啡店 - 弧 L1 广袤森林站、埃尔罗伊咖啡店 - 微 L1 浅边站 等 23 处",
           "price": null,
-          "currency": null,
-          "sourceUrl": "https://api.star-citizen.wiki/items/ermer-family-farms-fat-free-ice-cream",
-          "sourceUpdatedAt": "2026-11-13T10:45:45.000000Z"
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=ermer-family-farms-fat-free-ice-cream&tab=about",
+          "sourceUpdatedAt": "2026-09-11T02:01:41+00:00"
         }
       ],
       "crafting": null,
@@ -6876,11 +6930,20 @@
       "imageSourceUrl": "https://media.starcitizen.tools/1/1f/F55_-_Ammo_drums_x2.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/f55-lmg-magazine-150-cap",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:12:27.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=f55-lmg-magazine-(150-cap)&tab=about",
+          "sourceUpdatedAt": "2026-11-12T03:08:28+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -6888,7 +6951,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/f55-lmg-magazine-150-cap",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:12:27.000000Z"
         },
         {
           "type": "wikelo",
@@ -7160,11 +7223,20 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/fresnel-energy-lmg",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/fresnel-energy-lmg-battery-165-cap",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 81 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=fresnel-energy-lmg-battery-(165-cap)&tab=about",
+          "sourceUpdatedAt": "2026-11-12T03:08:28+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -7172,7 +7244,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/fresnel-energy-lmg-battery-165-cap",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z"
         },
         {
           "type": "wikelo",
@@ -8133,7 +8205,7 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/grassland-quasi-grazer-egg",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/grassland-quasi-grazer-egg",
-      "sourceUpdatedAt": "2026-11-13T10:43:26.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:22:45.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": false,
       "isCraftable": false,
@@ -8146,6 +8218,15 @@
           "currency": null,
           "sourceUrl": "https://starcitizen.tools/Grassland_Quasi_Grazer_Egg",
           "sourceUpdatedAt": "2026-07-07T01:21:00Z"
+        },
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：商店终端 - “庭院”、商店终端 - 容善镇、商店终端 - 牧人驿站、商店终端 - 犍牛原",
+          "price": 56,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=grassland-quasi-grazer-egg&tab=about",
+          "sourceUpdatedAt": "2026-09-04T18:51:39+00:00"
         }
       ],
       "crafting": null,
@@ -9054,11 +9135,20 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/karna-rifle",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/karna-rifle",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:34:44.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 埃弗勒斯空间站、护甲店 - 尼克斯星门 (斯坦顿)、护甲店 - 尼克斯星门 (派罗)、护甲店 - 斯坦顿星门 (尼克斯)、护甲店 - 斯坦顿星门 (派罗)、护甲店 - 泰拉星门 (斯坦顿)、护甲店 - 派罗星门 (尼克斯) 等 11 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=karna-rifle&tab=about",
+          "sourceUpdatedAt": "2026-09-11T03:05:34+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -9066,7 +9156,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:34:44.000000Z"
         }
       ],
       "crafting": {
@@ -9174,11 +9264,20 @@
       "imageSourceUrl": "https://media.starcitizen.tools/4/40/Kasta_magazine_800x400.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/karna-rifle-battery-35-cap",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:12:58.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=karna-rifle-battery-(35-cap)&tab=about",
+          "sourceUpdatedAt": "2026-11-12T03:08:28+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -9186,7 +9285,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/karna-rifle-battery-35-cap",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:12:58.000000Z"
         },
         {
           "type": "wikelo",
@@ -9501,11 +9600,20 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/killshot-rifle",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/killshot-rifle",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：尽职之物 · 列夫斯基",
+          "price": 4074,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=killshot-rifle&tab=about",
+          "sourceUpdatedAt": "2026-10-12T15:22:31+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -9513,7 +9621,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/killshot-rifle",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z"
         }
       ],
       "crafting": {
@@ -9586,11 +9694,20 @@
       "imageSourceUrl": null,
       "imageKind": "none",
       "sourceUrl": "https://api.star-citizen.wiki/items/killshot-rifle-magazine-45-cap",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Sharp Shooters - 死局空间站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 75 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=killshot-rifle-magazine-(45-cap)&tab=about",
+          "sourceUpdatedAt": "2026-11-12T03:08:28+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -9598,7 +9715,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/killshot-rifle-magazine-45-cap",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z"
         },
         {
           "type": "wikelo",
@@ -12826,11 +12943,20 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/nn-13-cannon",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/nn-13-cannon",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:13:02.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": false,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：蒂奇的物品店 · 列夫斯基",
+          "price": 17970,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=nn-13-cannon&tab=about",
+          "sourceUpdatedAt": "2026-11-13T12:47:16+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -12838,7 +12964,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/nn-13-cannon",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:13:02.000000Z"
         }
       ],
       "crafting": {
@@ -13206,11 +13332,20 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/novikov-exploration-suit",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/novikov-exploration-suit",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:12:23.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：射手 - 六角湾、护甲店 - 特雷斯勒空间站、货物供应 - 埃弗勒斯空间站、货物供应 - 尼克斯星门 (斯坦顿)、货物供应 - 拜基尼空间站、货物供应 - 斯坦顿星门 (派罗)、货物供应 - 派罗星门 (斯坦顿)、货物供应 - 炽天使空间站 等 18 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=novikov-exploration-suit&tab=about",
+          "sourceUpdatedAt": "2026-11-12T04:26:07+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -13218,7 +13353,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-exploration-suit",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:12:23.000000Z"
         }
       ],
       "crafting": {
@@ -13303,11 +13438,20 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/novikov-helmet",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/novikov-helmet",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:12:20.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": false,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：射手 - 六角湾、护甲店 - 特雷斯勒空间站、货物供应 - 埃弗勒斯空间站、货物供应 - 尼克斯星门 (斯坦顿)、货物供应 - 拜基尼空间站、货物供应 - 斯坦顿星门 (派罗)、货物供应 - 派罗星门 (斯坦顿)、货物供应 - 炽天使空间站 等 18 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=novikov-helmet&tab=about",
+          "sourceUpdatedAt": "2026-11-12T04:02:50+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -13315,7 +13459,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/novikov-helmet",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:12:20.000000Z"
         }
       ],
       "crafting": {
@@ -14352,11 +14496,20 @@
       "imageSourceUrl": null,
       "imageKind": "none",
       "sourceUrl": "https://api.star-citizen.wiki/items/parallax-rifle-battery-80-cap",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 81 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=parallax-rifle-battery-(80-cap)&tab=about",
+          "sourceUpdatedAt": "2026-11-12T03:08:28+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -14364,7 +14517,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/parallax-rifle-battery-80-cap",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z"
         },
         {
           "type": "wikelo",
@@ -14853,11 +15006,20 @@
       "imageSourceUrl": null,
       "imageKind": "none",
       "sourceUrl": "https://api.star-citizen.wiki/items/prism-laser-shotgun-battery-20-cap",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 81 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=prism-laser-shotgun-battery-(20-cap)&tab=about",
+          "sourceUpdatedAt": "2026-11-12T03:08:28+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -14865,7 +15027,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/prism-laser-shotgun-battery-20-cap",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z"
         },
         {
           "type": "wikelo",
@@ -15255,11 +15417,20 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/quartz-energy-smg-battery-45-cap",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/quartz-energy-smg-battery-45-cap",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 81 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=quartz-energy-smg-battery-(45-cap)&tab=about",
+          "sourceUpdatedAt": "2026-11-12T03:08:28+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -15267,7 +15438,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/quartz-energy-smg-battery-45-cap",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z"
         },
         {
           "type": "wikelo",
@@ -15432,11 +15603,20 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:10:42.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 西风镇、寒霜镇、射手 - 六角湾、科途便利店 - 云景中心 - 奥里森、立方爆炸 - 18区",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=r97-shotgun&tab=about",
+          "sourceUpdatedAt": "2026-11-15T02:33:08+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -15444,7 +15624,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:10:42.000000Z"
         }
       ],
       "crafting": {
@@ -15656,11 +15836,20 @@
       "imageSourceUrl": "https://media.starcitizen.tools/a/a4/R97_Shotgun_Magazine_-_CutOut_-_Mesh_BG.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/r97-shotgun-magazine-18-cap",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:07:12.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=r97-shotgun-magazine-(18-cap)&tab=about",
+          "sourceUpdatedAt": "2026-11-12T03:08:28+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -15668,7 +15857,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/r97-shotgun-magazine-18-cap",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:07:12.000000Z"
         },
         {
           "type": "wikelo",
@@ -17074,11 +17263,20 @@
       "imageSourceUrl": "https://media.starcitizen.tools/c/c0/S71_magazine_800x400.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/s71-rifle-magazine-30-cap",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:12:28.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 - IO北塔 - 18区、中心质量 - 新巴贝奇、商店 - 阿斯特空地、商店 - 顿波罗镇、商店终端 - 休耕地 等 81 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=s71-rifle-magazine-(30-cap)&tab=about",
+          "sourceUpdatedAt": "2026-11-12T03:08:28+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -17086,7 +17284,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/s71-rifle-magazine-30-cap",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:12:28.000000Z"
         },
         {
           "type": "wikelo",
@@ -17399,11 +17597,20 @@
       "imageSourceUrl": "https://starcitizen.tools/Strata",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/strata-arms",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:14.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：货运服务 · 列夫斯基",
+          "price": 1916,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=strata-arms&tab=about",
+          "sourceUpdatedAt": "2026-11-12T04:01:14+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -17411,7 +17618,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-arms",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:02:14.000000Z"
         }
       ],
       "crafting": {
@@ -17566,11 +17773,20 @@
       "imageSourceUrl": "https://media.starcitizen.tools/b/b2/StrataBPBase.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/strata-backpack",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:14.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：货运服务 · 列夫斯基",
+          "price": 1900,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=strata-backpack&tab=about",
+          "sourceUpdatedAt": "2026-11-12T04:02:03+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -17578,7 +17794,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-backpack",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:02:14.000000Z"
         }
       ],
       "crafting": {
@@ -17681,11 +17897,20 @@
       "imageSourceUrl": "https://starcitizen.tools/Strata",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/strata-core",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:14.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：货运服务 · 列夫斯基",
+          "price": 10722,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=strata-core&tab=about",
+          "sourceUpdatedAt": "2026-11-12T04:04:28+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -17693,7 +17918,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-core",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:02:14.000000Z"
         }
       ],
       "crafting": {
@@ -17848,11 +18073,20 @@
       "imageSourceUrl": "https://media.starcitizen.tools/2/25/StrataHelmetBase.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/strata-helmet",
-      "sourceUpdatedAt": "2026-11-13T10:45:46.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:14.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：货运服务 · 列夫斯基",
+          "price": 3308,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=strata-helmet&tab=about",
+          "sourceUpdatedAt": "2026-11-12T04:02:50+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -17860,7 +18094,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-helmet",
-          "sourceUpdatedAt": "2026-11-13T10:45:46.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:02:14.000000Z"
         }
       ],
       "crafting": {
@@ -17974,11 +18208,20 @@
       "imageSourceUrl": "https://starcitizen.tools/Strata",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/strata-legs",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:14.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：货运服务 · 列夫斯基",
+          "price": 4233,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=strata-legs&tab=about",
+          "sourceUpdatedAt": "2026-11-12T04:03:44+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -17986,7 +18229,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/strata-legs",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:02:14.000000Z"
         }
       ],
       "crafting": {
@@ -18141,19 +18384,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-helmet",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-helmet",
-      "sourceUpdatedAt": "2026-11-13T10:44:41.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:14.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
         {
-          "type": "loot",
-          "label": "随机战利品",
-          "location": "可从战利品箱或敌人身上获得，但没有已确认的固定掉落点",
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：商店 冰结镇、商店 卡比尔驿站、商店 杰克森交易站、商店 萨克伦领地、商店 鸭翼观景处、商店 黑岩交易所、坦姆尼父子、射手 六角湾 等 9 处",
           "price": null,
-          "currency": null,
-          "sourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-helmet",
-          "sourceUpdatedAt": "2026-11-13T10:44:41.000000Z"
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=tailwind-flight-helmet&tab=about",
+          "sourceUpdatedAt": "2026-08-31T23:58:38+00:00"
         }
       ],
       "crafting": null,
@@ -18302,11 +18545,20 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-suit",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/tailwind-flight-suit",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:14.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：商店 冰结镇、商店 卡比尔驿站、商店 杰克森交易站、商店 萨克伦领地、商店 鸭翼观景处、商店 黑岩交易所、坦姆尼父子、射手 六角湾 等 9 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=tailwind-flight-suit&tab=about",
+          "sourceUpdatedAt": "2026-09-01T00:03:55+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -18314,7 +18566,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/tailwind-flight-suit",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:02:14.000000Z"
         }
       ],
       "crafting": {
@@ -19555,11 +19807,20 @@
       "imageSourceUrl": "https://media.starcitizen.tools/0/0a/Shotgun-Pistol.png",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/tripledown-pistol",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：尽职之物 · 列夫斯基、武器与护甲店 人民服务空间站 德尔塔、武器与护甲店 人民服务空间站 拉姆达、武器与护甲店 人民服务空间站 西塔、武器与护甲店 人民服务空间站 阿尔法",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=tripledown-pistol&tab=about",
+          "sourceUpdatedAt": "2026-11-12T03:11:13+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -19567,7 +19828,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/tripledown-pistol",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z"
         }
       ],
       "crafting": {
@@ -19636,11 +19897,20 @@
       "imageSourceUrl": null,
       "imageKind": "none",
       "sourceUrl": "https://api.star-citizen.wiki/items/tripledown-pistol-magazine-12-cap",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Sharp Shooters - 死局空间站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 64 处",
+          "price": 154,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=tripledown-pistol-magazine-(12-cap)&tab=about",
+          "sourceUpdatedAt": "2026-11-12T03:08:28+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -19648,7 +19918,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/tripledown-pistol-magazine-12-cap",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z"
         },
         {
           "type": "wikelo",
@@ -20365,11 +20635,20 @@
       "imageSourceUrl": "https://starcitizen.tools/Vendetta_HMG",
       "imageKind": "ai_redraw",
       "sourceUrl": "https://api.star-citizen.wiki/items/vendetta-hmg-magazine-1000-cap",
-      "sourceUpdatedAt": "2026-11-13T10:42:20.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:14.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Sharp Shooters - 死局空间站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇、商店 卡比尔驿站、商店 垂死者交易所 等 73 处",
+          "price": 7425,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=vendetta-hmg-magazine-(1000-cap)&tab=about",
+          "sourceUpdatedAt": "2026-11-12T03:08:28+00:00"
+        },
         {
           "type": "wikelo",
           "label": "完成维科洛合同",
@@ -20408,11 +20687,20 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/venture-arms",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/venture-arms",
-      "sourceUpdatedAt": "2026-09-22T07:32:30.000000Z",
-      "sourceGameVersion": "4.10.1-LIVE.12660092",
+      "sourceUpdatedAt": "2026-11-20T00:37:24.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 埃弗勒斯空间站、护甲店 - 尼克斯星门 (斯坦顿)、护甲店 - 尼克斯星门 (派罗)、护甲店 - 微 L4 红色十字路口站、护甲店 - 斯坦顿星门 (尼克斯)、护甲店 - 斯坦顿星门 (派罗)、护甲店 - 泰拉星门 (斯坦顿) 等 13 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=venture-arms&tab=about",
+          "sourceUpdatedAt": "2026-09-11T02:51:02+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -20420,12 +20708,12 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-arms",
-          "sourceUpdatedAt": "2026-09-22T07:32:30.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:37:24.000000Z"
         }
       ],
       "crafting": {
         "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-arms",
-        "gameVersion": "4.10.1-LIVE.12660092",
+        "gameVersion": "4.10.3-LIVE.13165946",
         "craftTimeSeconds": 120,
         "ingredients": [
           {
@@ -20454,6 +20742,14 @@
         "unlocks": [
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/efbc2237-6e78-476b-82a5-2375b7a45d85"
+          },
+          {
+            "title": "Lrg. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f7004cfd-0408-4a2d-a7d7-71feea68993a"
+          },
+          {
+            "title": "Lrg. Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/2fc64955-e31a-4dd3-807a-c93a5ac51bcb"
           },
           {
@@ -20466,11 +20762,11 @@
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/436204e1-e129-4608-b517-817f97e89be7"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/4d46a0e8-74ac-4bb2-a0f9-a28c9ff6b21c"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/4d46a0e8-74ac-4bb2-a0f9-a28c9ff6b21c"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/436204e1-e129-4608-b517-817f97e89be7"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
@@ -20490,11 +20786,11 @@
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/93ba2efb-b310-4f2a-9351-b0aec5043914"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/990b2c3d-2032-45a0-a19d-302997248791"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/990b2c3d-2032-45a0-a19d-302997248791"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/93ba2efb-b310-4f2a-9351-b0aec5043914"
           },
           {
             "title": "Lrg. Purchase Order: Ship Mined Ore",
@@ -20505,12 +20801,16 @@
             "sourceUrl": "https://api.star-citizen.wiki/missions/b6eff75e-6840-4db4-91f3-b12896e83443"
           },
           {
-            "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/efbc2237-6e78-476b-82a5-2375b7a45d85"
+            "title": "Med. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d79f1f13-d99a-48b8-b602-d2704cb38d67"
           },
           {
-            "title": "Lrg. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f7004cfd-0408-4a2d-a7d7-71feea68993a"
+            "title": "Med. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/c98e0f2d-5dcd-447f-88c8-05e44f7d4f9e"
+          },
+          {
+            "title": "Med. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f7f795d3-1814-4257-a213-d80057d5c6a7"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
@@ -20518,11 +20818,11 @@
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/056640ec-c485-4991-9436-143acec96d42"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/0adf4c25-97af-4180-923a-42d65ba185be"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/0adf4c25-97af-4180-923a-42d65ba185be"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/056640ec-c485-4991-9436-143acec96d42"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
@@ -20542,27 +20842,15 @@
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/6364bd24-f431-4c45-b128-e2ad7379ecf1"
-          },
-          {
-            "title": "Med. Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/6bb34cd6-89a5-49e0-bdee-1ebc7e597a12"
           },
           {
             "title": "Med. Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/6364bd24-f431-4c45-b128-e2ad7379ecf1"
+          },
+          {
+            "title": "Med. Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/bb87d679-7918-4194-bdcb-b25113a63ab5"
-          },
-          {
-            "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/c98e0f2d-5dcd-447f-88c8-05e44f7d4f9e"
-          },
-          {
-            "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d79f1f13-d99a-48b8-b602-d2704cb38d67"
-          },
-          {
-            "title": "Med. Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f7f795d3-1814-4257-a213-d80057d5c6a7"
           },
           {
             "title": "Mjr. Purchase Order: Ship Mined Ore",
@@ -20602,7 +20890,7 @@
           },
           {
             "title": "Special Purchase Order: Mined Materials",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/b613986b-7f74-4d9d-9ab7-62984187d246"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f94f5fa2-fd5e-4330-b978-21db6bdc25be"
           },
           {
             "title": "Special Purchase Order: Mined Materials",
@@ -20610,7 +20898,23 @@
           },
           {
             "title": "Special Purchase Order: Mined Materials",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f94f5fa2-fd5e-4330-b978-21db6bdc25be"
+            "sourceUrl": "https://api.star-citizen.wiki/missions/b613986b-7f74-4d9d-9ab7-62984187d246"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/e4365a62-dc90-44af-9ada-1defd9e56c6e"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/f239d149-f487-4c6c-9a00-f27f06b8c2e1"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d3099447-1935-4d10-9217-0b45493f7ba9"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/d79459df-3f86-4f97-8810-8dfa76fa190a"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
@@ -20626,15 +20930,15 @@
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/69966b28-bc45-4efc-bd5f-68d4f07b8e59"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/6e799a97-94e6-4e53-a4b7-46e3a0c2891c"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/78b2b227-f298-483f-b0a8-504cd29716a8"
+          },
+          {
+            "title": "XL Purchase Order: Ship Mined Ore",
+            "sourceUrl": "https://api.star-citizen.wiki/missions/69966b28-bc45-4efc-bd5f-68d4f07b8e59"
           },
           {
             "title": "XL Purchase Order: Ship Mined Ore",
@@ -20655,22 +20959,6 @@
           {
             "title": "XL Purchase Order: Ship Mined Ore",
             "sourceUrl": "https://api.star-citizen.wiki/missions/c3ad1f55-cc47-46a3-8d02-fda7a75cd26c"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d3099447-1935-4d10-9217-0b45493f7ba9"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/d79459df-3f86-4f97-8810-8dfa76fa190a"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/e4365a62-dc90-44af-9ada-1defd9e56c6e"
-          },
-          {
-            "title": "XL Purchase Order: Ship Mined Ore",
-            "sourceUrl": "https://api.star-citizen.wiki/missions/f239d149-f487-4c6c-9a00-f27f06b8c2e1"
           },
           {
             "title": "XS Purchase Order: Ship Mined Ore",
@@ -20748,11 +21036,20 @@
       "imageSourceUrl": "https://starcitizen.tools/Venture_Core",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/venture-core",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:32:51.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：护甲店 - 十 L1 雄心伟梦站、护甲店 - 微 L1 浅边站、护甲店 - 微 L4 红色十字路口站、护甲店 - 炽天使空间站、科途便利店 - 云景中心 - 奥里森、科途便利店 - 志远大厦 - 新巴贝奇",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=venture-core&tab=about",
+          "sourceUpdatedAt": "2026-11-18T18:14:05+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -20760,7 +21057,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-core",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:32:51.000000Z"
         }
       ],
       "crafting": {
@@ -21203,11 +21500,20 @@
       "imageSourceUrl": "https://starcitizen.tools/Venture_Legs",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/venture-legs",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:18:05.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：坦姆尼父子 - 地铁中心 - 罗威尔、护甲店 - 十 L1 雄心伟梦站、护甲店 - 十 L4 轻浅田野站、护甲店 - 微 L4 红色十字路口站、护甲店 - 炽天使空间站、科途便利店 - 云景中心 - 奥里森、科途便利店 - 志远大厦 - 新巴贝奇",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=venture-legs&tab=about",
+          "sourceUpdatedAt": "2026-11-18T17:22:20+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -21215,7 +21521,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/venture-legs",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:18:05.000000Z"
         }
       ],
       "crafting": {
@@ -21543,19 +21849,19 @@
       "imageSourceUrl": "https://api.star-citizen.wiki/items/vestal-water",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/vestal-water",
-      "sourceUpdatedAt": "2026-10-11T18:13:57.000000Z",
-      "sourceGameVersion": "4.10.2-LIVE.12881860",
+      "sourceUpdatedAt": "2026-11-20T00:06:23.000000Z",
+      "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": false,
       "acquisition": [
         {
-          "type": "loot",
-          "label": "随机战利品",
-          "location": "可从战利品箱或敌人身上获得，但没有已确认的固定掉落点",
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Casaba Outlet - 18区、Casaba Outlet - 十 L4 轻浅田野站、Casaba Outlet - 弧 L4 黯淡幽谷站、Casaba Outlet - 泰拉星门 (斯坦顿)、Casaba Outlet - 派罗星门 (斯坦顿)、Casaba Outlet - 炽天使空间站、Casaba Outlet - 赫 L1 绿色林地站、Casaba Outlet - 赫 L4 旋律领域站 等 119 处",
           "price": null,
-          "currency": null,
-          "sourceUrl": "https://api.star-citizen.wiki/items/vestal-water",
-          "sourceUpdatedAt": "2026-10-11T18:13:57.000000Z"
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=vestal-water&tab=about",
+          "sourceUpdatedAt": "2026-10-26T05:09:35+00:00"
         }
       ],
       "crafting": null,
@@ -22885,11 +23191,20 @@
       "imageSourceUrl": "https://media.starcitizen.tools/1/17/Zenith_Laser_Sniper_Rifle_Battery.jpg",
       "imageKind": "exact",
       "sourceUrl": "https://api.star-citizen.wiki/items/zenith-laser-sniper-rifle-battery-22-cap",
-      "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z",
+      "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z",
       "sourceGameVersion": "4.10.3-LIVE.13165946",
       "isLootable": true,
       "isCraftable": true,
       "acquisition": [
+        {
+          "type": "purchase",
+          "label": "商店购买",
+          "location": "可购买地点：Sharp Shooters - 废墟空间站、Sharp Shooters - 死局空间站、Sharp Shooters - 轨道讣闻站、中心质量 18区、中心质量 新巴贝奇、争夺区 · 死局空间站、商店 休耕地、商店 冰结镇 等 76 处",
+          "price": null,
+          "currency": "aUEC",
+          "sourceUrl": "https://uexcorp.space/items/info?name=zenith-laser-sniper-rifle-battery-(22-cap)&tab=about",
+          "sourceUpdatedAt": "2026-09-11T03:03:06+00:00"
+        },
         {
           "type": "craft",
           "label": "使用蓝图制作",
@@ -22897,7 +23212,7 @@
           "price": null,
           "currency": null,
           "sourceUrl": "https://api.star-citizen.wiki/blueprints/zenith-laser-sniper-rifle-battery-22-cap",
-          "sourceUpdatedAt": "2026-11-13T10:44:57.000000Z"
+          "sourceUpdatedAt": "2026-11-20T00:02:13.000000Z"
         },
         {
           "type": "wikelo",
