@@ -3,7 +3,7 @@
   "availableVersions": [
     "4.10.3 LIVE.13220821"
   ],
-  "generatedAt": "2026-11-21T04:24:04.233Z",
+  "generatedAt": "2026-11-21T04:37:53.562Z",
   "totalTrades": 88,
   "totalItems": 289,
   "imageCoverage": 0.9273356401384083,
@@ -19,47 +19,47 @@
       "url": "https://dumpers-repo.com/wikelo/",
       "status": "ok",
       "updatedAt": "2026-11-20T00:34:24.537Z",
-      "checkedAt": "2026-11-21T04:24:04.233Z",
+      "checkedAt": "2026-11-21T04:37:53.562Z",
       "note": null
     },
     {
       "url": "https://wikelotrades.com/how-it-works",
       "status": "ok",
       "updatedAt": "2026-06-04 06:59:50 UTC",
-      "checkedAt": "2026-11-21T04:24:04.233Z",
+      "checkedAt": "2026-11-21T04:37:53.562Z",
       "note": "Latest published secondary patch: 4.8.1"
     },
     {
       "url": "https://starcitizen.tools/Wikelo",
       "status": "ok",
       "updatedAt": "2026-07-14T14:39:00.000Z",
-      "checkedAt": "2026-11-21T04:24:04.233Z",
+      "checkedAt": "2026-11-21T04:37:53.562Z",
       "note": null
     },
     {
       "url": "https://starcitizen.tools/Wikelo_Emporium",
       "status": "snapshot",
       "updatedAt": "2025-08-09T16:35:00.000Z",
-      "checkedAt": "2026-11-21T04:24:04.233Z",
+      "checkedAt": "2026-11-21T04:37:53.562Z",
       "note": "Station list cross-check snapshot."
     },
     {
       "url": "https://api.star-citizen.wiki",
       "status": "ok",
       "updatedAt": null,
-      "checkedAt": "2026-11-21T04:24:04.233Z",
+      "checkedAt": "2026-11-21T04:37:53.562Z",
       "note": "Item API version unavailable."
     },
     {
       "url": "https://api.sc-market.space/api/v2",
       "status": "snapshot",
       "updatedAt": "2026-11-19T01:53:04.605Z",
-      "checkedAt": "2026-11-21T04:24:04.233Z",
+      "checkedAt": "2026-11-21T04:37:53.562Z",
       "note": "Public secondary game-data API: 4.10-LIVE (Data.p4k 2026-11-14). Player listing prices are not imported into fixed Wikelo recipes."
     }
   ],
   "anomalies": [],
   "publishEligible": true,
   "usageMode": "offline query; no account or upload",
-  "sourceFingerprint": "304dd9894f6eb8b9796590c3b7d4b72b3cd183a0c840225dc93a7fd052d8ee4c"
+  "sourceFingerprint": "f3ee7389f538767c876027def4614aec2be4ff0aaf3ee5962f39bcb244a91445"
 }

@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-21T04:24:04.233Z",
+  "generatedAt": "2026-11-21T04:37:53.562Z",
   "datasets": [
     {
       "gameVersion": "4.10.3 LIVE.13220821",
-      "generatedAt": "2026-11-21T04:24:04.233Z",
+      "generatedAt": "2026-11-21T04:37:53.562Z",
       "sourceStatus": [
         {
           "url": "https://dumpers-repo.com/wikelo/",
@@ -32553,7 +32553,7 @@
             {
               "type": "purchase",
               "label": "商店购买",
-              "location": "可购买地点：Casaba Outlet - 18区、Casaba Outlet - 十 L4 轻浅田野站、Casaba Outlet - 弧 L4 黯淡幽谷站、Casaba Outlet - 泰拉星门 (斯坦顿)、Casaba Outlet - 派罗星门 (斯坦顿)、Casaba Outlet - 炽天使空间站、Casaba Outlet - 赫 L1 绿色林地站、Casaba Outlet - 赫 L4 旋律领域站 等 119 处",
+              "location": "可购买地点：乌鸦表哥 - 天意平台 - 奥里森、十字军探索中心餐饮处、卡莎巴服装店 - 18区、卡莎巴服装店 - 十 L4 轻浅田野站、卡莎巴服装店 - 弧 L4 黯淡幽谷站、卡莎巴服装店 - 泰拉星门 (斯坦顿)、卡莎巴服装店 - 派罗星门 (斯坦顿)、卡莎巴服装店 - 炽天使空间站 等 119 处",
               "price": null,
               "currency": "aUEC",
               "sourceUrl": "https://uexcorp.space/items/info?name=vestal-water&tab=about",

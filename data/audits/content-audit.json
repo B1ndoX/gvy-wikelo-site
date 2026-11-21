@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-21T04:24:04.233Z",
+  "generatedAt": "2026-11-21T04:37:53.562Z",
   "gameVersion": "4.10.3 LIVE.13220821",
   "totals": {
     "trades": 88,
@@ -14,17 +14,6 @@
   },
   "errors": [],
   "warnings": [
-    {
-      "code": "untranslated-public-location",
-      "entries": [
-        {
-          "id": "drink_bottle_vestal_01_a",
-          "tokens": [
-            "Casaba Outlet"
-          ]
-        }
-      ]
-    },
     {
       "code": "reviewed-location-alias-unresolved",
       "entries": [
