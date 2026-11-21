@@ -1,0 +1,612 @@
+{
+  "source": "https://api.star-citizen.wiki/api/items/vestal-water?locale=zh_CN",
+  "itemUuid": "3d4210ba-aaa9-4154-b3a9-2b917d832257",
+  "sourceVersion": "4.10.3-LIVE.13165946",
+  "terminals": [
+    {
+      "name": "Torpedo Burrito - Area 18",
+      "terminalId": 554,
+      "locationId": null
+    },
+    {
+      "name": "Burrito Bar - Pyro Gateway (Nyx)",
+      "terminalId": 759,
+      "locationId": "a66119fa-6d93-4e56-bcd1-c9bd2c50beb7"
+    },
+    {
+      "name": "Burrito Bar - Stanton Gateway (Nyx)",
+      "terminalId": 799,
+      "locationId": "6396623a-61bd-4ced-9c8b-77c47753ef8f"
+    },
+    {
+      "name": "Burrito Bar - Stanton Gateway (Pyro)",
+      "terminalId": 561,
+      "locationId": "a1b8a311-6465-45dc-873d-e8d06d4372df"
+    },
+    {
+      "name": "Burrito Bar - Nyx Gateway (Pyro)",
+      "terminalId": 739,
+      "locationId": "2cc61d92-b7bc-4533-9b97-6a32482a28f1"
+    },
+    {
+      "name": "Burrito Bar - Terra Gateway (Stanton)",
+      "terminalId": 735,
+      "locationId": "a3a7fa73-42bd-40ff-958c-e5c0d300ddc8"
+    },
+    {
+      "name": "Burrito Bar - Pyro Gateway (Stanton)",
+      "terminalId": 560,
+      "locationId": "59b22155-405f-4785-9f73-d2028b46f5c3"
+    },
+    {
+      "name": "Burrito Bar - Seraphim Station",
+      "terminalId": 716,
+      "locationId": "45d2d370-9fab-4e6b-b84b-e9c913bc316a"
+    },
+    {
+      "name": "Burrito Bar - Everus Harbor",
+      "terminalId": 664,
+      "locationId": "ab29f65e-c792-4b1f-b23d-5810cb0ef416"
+    },
+    {
+      "name": "Burrito Bar - HUR-L3",
+      "terminalId": 618,
+      "locationId": "de5f2d1d-78e5-4273-8028-c06690c03685"
+    },
+    {
+      "name": "Burrito Bar - HUR-L1",
+      "terminalId": 625,
+      "locationId": "689ff011-e2e9-4f6e-b5a3-7cea4bbc86c7"
+    },
+    {
+      "name": "Burrito Bar - CRU-L4",
+      "terminalId": 566,
+      "locationId": "8f23301d-0711-47ec-9efb-76a6d8d1c9e6"
+    },
+    {
+      "name": "Burrito Bar - Port Tressler",
+      "terminalId": 699,
+      "locationId": "233238ee-adeb-4405-8045-49fa07370f37"
+    },
+    {
+      "name": "Burrito Bar - CRU-L1",
+      "terminalId": 607,
+      "locationId": "75e777cf-a055-4bc3-8ca7-602eb38be4f3"
+    },
+    {
+      "name": "Burrito Bar - MIC-L1",
+      "terminalId": 637,
+      "locationId": "f4b118f8-3102-4a5c-b8ca-ff013c2f674a"
+    },
+    {
+      "name": "Burrito Bar - ARC-L5",
+      "terminalId": 572,
+      "locationId": "137c093d-a3fd-47ce-bd78-94772ce8f46e"
+    },
+    {
+      "name": "Burrito Bar - MIC-L4",
+      "terminalId": 620,
+      "locationId": "317b7505-e562-4caf-9691-1516ab639bbf"
+    },
+    {
+      "name": "Burrito Bar - Nyx Gateway (Stanton)",
+      "terminalId": 532,
+      "locationId": "e1501a68-09e5-472e-93a4-01efcde8c8f8"
+    },
+    {
+      "name": "Burrito Bar - ARC-L1",
+      "terminalId": 575,
+      "locationId": "59485d8c-7947-4e00-871c-d35f6451aab8"
+    },
+    {
+      "name": "Burrito Bar - Baijini Point",
+      "terminalId": 671,
+      "locationId": "164ca676-83eb-448d-ab0b-1ddde8a9c0bd"
+    }
+  ],
+  "casabaTerminals": [
+    {
+      "name": "Casaba Outlet - Area 18",
+      "terminalId": 94,
+      "locationId": "c6535844-c615-494e-9dc1-c2d0c6e7190a"
+    },
+    {
+      "name": "Casaba Outlet - Terra Gateway (Stanton)",
+      "terminalId": 297,
+      "locationId": "a3a7fa73-42bd-40ff-958c-e5c0d300ddc8"
+    },
+    {
+      "name": "Casaba Outlet - Pyro Gateway (Stanton)",
+      "terminalId": 316,
+      "locationId": "59b22155-405f-4785-9f73-d2028b46f5c3"
+    },
+    {
+      "name": "Casaba Outlet - HUR-L1",
+      "terminalId": 99,
+      "locationId": "689ff011-e2e9-4f6e-b5a3-7cea4bbc86c7"
+    },
+    {
+      "name": "Casaba Outlet - CRU-L4",
+      "terminalId": 96,
+      "locationId": "8f23301d-0711-47ec-9efb-76a6d8d1c9e6"
+    },
+    {
+      "name": "Casaba Outlet - HUR-L4",
+      "terminalId": 102,
+      "locationId": "6e99473c-8446-4c5a-81cb-039a53c1960d"
+    },
+    {
+      "name": "Casaba Outlet - ARC-L4",
+      "terminalId": 172,
+      "locationId": "2dbccd4e-81de-45fa-a24c-cd32d29a8ec4"
+    },
+    {
+      "name": "Casaba Outlet - Seraphim",
+      "terminalId": 278,
+      "locationId": "45d2d370-9fab-4e6b-b84b-e9c913bc316a"
+    }
+  ],
+  "otherTerminals": [
+    {
+      "name": "Pizza - Everus Harbor",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 663
+    },
+    {
+      "name": "Pizza - Seraphim",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 519
+    },
+    {
+      "name": "Pizza - Baijini Point",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 672
+    },
+    {
+      "name": "Noodle Bar - Pyro Gateway (Nyx)",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 825,
+      "locationId": "a66119fa-6d93-4e56-bcd1-c9bd2c50beb7"
+    },
+    {
+      "name": "Pizza - Pyro Gateway (Nyx)",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 771,
+      "locationId": "a66119fa-6d93-4e56-bcd1-c9bd2c50beb7"
+    },
+    {
+      "name": "Noodle Bar - Stanton Gateway (Nyx)",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 813,
+      "locationId": "6396623a-61bd-4ced-9c8b-77c47753ef8f"
+    },
+    {
+      "name": "Pizza - Stanton Gateway (Nyx)",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 812,
+      "locationId": "6396623a-61bd-4ced-9c8b-77c47753ef8f"
+    },
+    {
+      "name": "Pizza - Stanton Gateway (Pyro)",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 657,
+      "locationId": "a1b8a311-6465-45dc-873d-e8d06d4372df"
+    },
+    {
+      "name": "Noodle Bar - Stanton Gateway (Pyro)",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 658,
+      "locationId": "a1b8a311-6465-45dc-873d-e8d06d4372df"
+    },
+    {
+      "name": "Pizza - Nyx Gateway (Pyro)",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 752,
+      "locationId": "2cc61d92-b7bc-4533-9b97-6a32482a28f1"
+    },
+    {
+      "name": "Noodle Bar - Nyx Gateway (Pyro)",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 751,
+      "locationId": "2cc61d92-b7bc-4533-9b97-6a32482a28f1"
+    },
+    {
+      "name": "Twyn's Sandwiches - New Babbage",
+      "tokens": [
+        "Twyn's Sandwiches"
+      ],
+      "terminalId": 424,
+      "locationId": "122e8057-831d-4517-a23b-0eb8382b90a2"
+    },
+    {
+      "name": "Pizza - Terra Gateway (Stanton)",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 733,
+      "locationId": "a3a7fa73-42bd-40ff-958c-e5c0d300ddc8"
+    },
+    {
+      "name": "Noodle Bar - Terra Gateway (Stanton)",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 737,
+      "locationId": "a3a7fa73-42bd-40ff-958c-e5c0d300ddc8"
+    },
+    {
+      "name": "Pizza - Pyro Gateway (Stanton)",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 650,
+      "locationId": "59b22155-405f-4785-9f73-d2028b46f5c3"
+    },
+    {
+      "name": "Noodle Bar - Pyro Gateway (Stanton)",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 651,
+      "locationId": "59b22155-405f-4785-9f73-d2028b46f5c3"
+    },
+    {
+      "name": "Noodle Bar - Seraphim",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 714,
+      "locationId": "45d2d370-9fab-4e6b-b84b-e9c913bc316a"
+    },
+    {
+      "name": "Noodle Bar - Everus Harbor",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 661,
+      "locationId": "ab29f65e-c792-4b1f-b23d-5810cb0ef416"
+    },
+    {
+      "name": "Clothing Shop - MIC-L5",
+      "tokens": [
+        "Clothing"
+      ],
+      "terminalId": 175,
+      "locationId": "54ab7b59-e808-43c4-9e5b-fbfaa03eb3d5"
+    },
+    {
+      "name": "Pizza - MIC-L5",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 601,
+      "locationId": "54ab7b59-e808-43c4-9e5b-fbfaa03eb3d5"
+    },
+    {
+      "name": "Noodle Bar - MIC-L5",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 603,
+      "locationId": "54ab7b59-e808-43c4-9e5b-fbfaa03eb3d5"
+    },
+    {
+      "name": "Noodle Bar - HUR-L1",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 627,
+      "locationId": "689ff011-e2e9-4f6e-b5a3-7cea4bbc86c7"
+    },
+    {
+      "name": "Pizza - HUR-L1",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 628,
+      "locationId": "689ff011-e2e9-4f6e-b5a3-7cea4bbc86c7"
+    },
+    {
+      "name": "Noodle Bar - HUR-L2",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 623,
+      "locationId": "81e3150a-9c12-4715-85d4-afd6da69b8f0"
+    },
+    {
+      "name": "Pizza - HUR-L2",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 622,
+      "locationId": "81e3150a-9c12-4715-85d4-afd6da69b8f0"
+    },
+    {
+      "name": "Cousin Crow's - Providence Platform - Orison",
+      "tokens": [
+        "Cousin Crow's - Providence Platform"
+      ],
+      "terminalId": 111,
+      "locationId": "567f92d7-d34c-42fa-b57b-f1939d4c5f5b"
+    },
+    {
+      "name": "Noodle Bar - Port Tressler",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 698,
+      "locationId": "233238ee-adeb-4405-8045-49fa07370f37"
+    },
+    {
+      "name": "Pizza - Port Tressler",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 701,
+      "locationId": "233238ee-adeb-4405-8045-49fa07370f37"
+    },
+    {
+      "name": "Pizza - HUR-L4",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 630,
+      "locationId": "6e99473c-8446-4c5a-81cb-039a53c1960d"
+    },
+    {
+      "name": "Noodle Bar - HUR-L5",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 632,
+      "locationId": "8e83f4da-c85d-4f00-b98d-bc734a07c5d4"
+    },
+    {
+      "name": "Noodle Bar - Lorville",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 829,
+      "locationId": "f1759f46-e3c0-4dc1-94bc-c94488b58913"
+    },
+    {
+      "name": "Pizza - CRU-L1",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 609,
+      "locationId": "75e777cf-a055-4bc3-8ca7-602eb38be4f3"
+    },
+    {
+      "name": "Noodle Bar - CRU-L1",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 608,
+      "locationId": "75e777cf-a055-4bc3-8ca7-602eb38be4f3"
+    },
+    {
+      "name": "Clothing Shop - MIC-L1",
+      "tokens": [
+        "Clothing"
+      ],
+      "terminalId": 281,
+      "locationId": "f4b118f8-3102-4a5c-b8ca-ff013c2f674a"
+    },
+    {
+      "name": "Noodle Bar - MIC-L1",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 635,
+      "locationId": "f4b118f8-3102-4a5c-b8ca-ff013c2f674a"
+    },
+    {
+      "name": "Pizza - MIC-L1",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 633,
+      "locationId": "f4b118f8-3102-4a5c-b8ca-ff013c2f674a"
+    },
+    {
+      "name": "Clothing Shop - ARC-L5",
+      "tokens": [
+        "Clothing"
+      ],
+      "terminalId": 173,
+      "locationId": "137c093d-a3fd-47ce-bd78-94772ce8f46e"
+    },
+    {
+      "name": "Noodle Bar - ARC-L5",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 616,
+      "locationId": "137c093d-a3fd-47ce-bd78-94772ce8f46e"
+    },
+    {
+      "name": "Pizza - MIC-L3",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 617,
+      "locationId": "2800c56f-0123-4c31-95d6-bfcf73ba8485"
+    },
+    {
+      "name": "Noodle Bar - Nyx Gateway (Stanton)",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 677,
+      "locationId": "e1501a68-09e5-472e-93a4-01efcde8c8f8"
+    },
+    {
+      "name": "Pizza - Nyx Gateway (Stanton)",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 824,
+      "locationId": "e1501a68-09e5-472e-93a4-01efcde8c8f8"
+    },
+    {
+      "name": "Noodle Bar - MIC-L4",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 619,
+      "locationId": "317b7505-e562-4caf-9691-1516ab639bbf"
+    },
+    {
+      "name": "Clothing Shop - ARC-L2",
+      "tokens": [
+        "Clothing"
+      ],
+      "terminalId": 93,
+      "locationId": "45b909df-7b0c-40c9-ab83-a7cd7d3a980f"
+    },
+    {
+      "name": "Pizza - ARC-L1",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 579,
+      "locationId": "59485d8c-7947-4e00-871c-d35f6451aab8"
+    },
+    {
+      "name": "Noodle Bar - ARC-L1",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 578,
+      "locationId": "59485d8c-7947-4e00-871c-d35f6451aab8"
+    },
+    {
+      "name": "Noodle Bar - Baijini Point",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 669,
+      "locationId": "164ca676-83eb-448d-ab0b-1ddde8a9c0bd"
+    },
+    {
+      "name": "Pizza - ARC-L2",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 645,
+      "locationId": "45b909df-7b0c-40c9-ab83-a7cd7d3a980f"
+    },
+    {
+      "name": "Pizza - ARC-L4",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 642,
+      "locationId": "2dbccd4e-81de-45fa-a24c-cd32d29a8ec4"
+    },
+    {
+      "name": "Noodle Bar - ARC-L4",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 640,
+      "locationId": "2dbccd4e-81de-45fa-a24c-cd32d29a8ec4"
+    },
+    {
+      "name": "Pizza - MIC-L2",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 583,
+      "locationId": "f602528f-acf3-4564-960c-fc344269a7a9"
+    },
+    {
+      "name": "Providence Surplus - Providence Platform - Orison",
+      "tokens": [
+        "Providence Surplus - Providence Platform"
+      ],
+      "terminalId": 141,
+      "locationId": "567f92d7-d34c-42fa-b57b-f1939d4c5f5b"
+    },
+    {
+      "name": "Crusader Discovery Center Refreshments",
+      "tokens": [
+        "Crusader Discovery Center Refreshments"
+      ],
+      "terminalId": 350,
+      "locationId": "567f92d7-d34c-42fa-b57b-f1939d4c5f5b"
+    },
+    {
+      "name": "Covalex Shipping - Providence Platform - Orison",
+      "tokens": [
+        "Covalex Shipping - Providence Platform"
+      ],
+      "terminalId": 206,
+      "locationId": "567f92d7-d34c-42fa-b57b-f1939d4c5f5b"
+    },
+    {
+      "name": "Clothing Shop - ARC-L3",
+      "tokens": [
+        "Clothing"
+      ],
+      "terminalId": 171,
+      "locationId": "3a43118d-b1b7-4822-8fb2-13f7abe6ac8b"
+    },
+    {
+      "name": "Pizza - ARC-L3",
+      "tokens": [
+        "Pizza"
+      ],
+      "terminalId": 643,
+      "locationId": "3a43118d-b1b7-4822-8fb2-13f7abe6ac8b"
+    },
+    {
+      "name": "Noodle Bar - CRU-L5",
+      "tokens": [
+        "Noodle Bar"
+      ],
+      "terminalId": 613,
+      "locationId": "5905eecd-258a-4046-ad08-90571c41b03c"
+    },
+    {
+      "name": "Hot Dogs - Area 18",
+      "tokens": [
+        "Hot Dogs"
+      ],
+      "terminalId": 553,
+      "locationId": "c6535844-c615-494e-9dc1-c2d0c6e7190a"
+    },
+    {
+      "name": "Clothing Shop - MIC-L2",
+      "tokens": [
+        "Clothing"
+      ],
+      "terminalId": 279,
+      "locationId": "f602528f-acf3-4564-960c-fc344269a7a9"
+    }
+  ]
+}

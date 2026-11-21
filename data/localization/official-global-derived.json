@@ -9,7 +9,7 @@
     "matchedLiveVersion": "4.10.3 LIVE.13220821",
     "verification": "series-only; source does not identify an exact LIVE build"
   },
-  "generatedAt": "2026-11-21T04:18:37.984Z",
+  "generatedAt": "2026-11-21T04:35:08.108Z",
   "note": "Project-scoped derivative of the read-only official Simplified Chinese global.ini. It keeps all official item/vehicle names and Wikelo contract keys so remote LIVE refreshes can localize newly introduced records without the local source file.",
   "entries": {
     "bitzeros_recoveritem_generic_desc_001": {
@@ -488,9 +488,17 @@
       "key": "Nyx_SocialStation_004",
       "value": "人民服务空间站 拉姆达\\nPeople's Service Station Lambda"
     },
+    "orison_destination_providenceplatform": {
+      "key": "Orison_Destination_ProvidencePlatform",
+      "value": "天意平台"
+    },
     "pu_iongreet01_ad_greeting_v_bg_003": {
       "key": "PU_IONGREET01_AD_Greeting_V_BG_003,P",
       "value": "欢迎来到IO北塔。这里是18区首屈一指的商业发展中心。如需帮助或租赁咨询，请联系我们的任何一位工作人员。"
+    },
+    "pu_vendor01_m_vfo_welcome_twyns_ig_001_hiwelcometo": {
+      "key": "PU_VENDOR01_M_VFO_Welcome_Twyns_IG_001_HiWelcomeTo",
+      "value": "欢迎光临吐温三明治。"
     },
     "pyro": {
       "key": "Pyro",
@@ -1811,6 +1819,18 @@
     "area_name_fdcrt_gen_sml_brt": {
       "key": "area_name_fdcrt_gen_sml_brt",
       "value": "墨西哥卷饼"
+    },
+    "area_name_fdcrt_gen_sml_htdg": {
+      "key": "area_name_fdcrt_gen_sml_htdg",
+      "value": "热狗店"
+    },
+    "area_name_fdcrt_gen_sml_ndle_a": {
+      "key": "area_name_fdcrt_gen_sml_ndle_a",
+      "value": "面条档"
+    },
+    "area_name_fdcrt_gen_sml_pza": {
+      "key": "area_name_fdcrt_gen_sml_pza",
+      "value": "披萨"
     },
     "area_name_shop_armor_gen_sml_a": {
       "key": "area_name_shop_armor_gen_sml_a",
@@ -44908,9 +44928,29 @@
       "key": "shop_name_cargodepot",
       "value": "货运服务"
     },
+    "shop_name_casaba": {
+      "key": "shop_name_casaba",
+      "value": "卡莎巴服装店"
+    },
     "shop_name_centermass": {
       "key": "shop_name_centermass",
       "value": "中心质量"
+    },
+    "shop_name_clothing": {
+      "key": "shop_name_clothing",
+      "value": "服饰"
+    },
+    "shop_name_cousincrows": {
+      "key": "shop_name_cousincrows",
+      "value": "乌鸦表哥"
+    },
+    "shop_name_covalex": {
+      "key": "shop_name_covalex",
+      "value": "科瓦莱什货运"
+    },
+    "shop_name_crusaderprovidencesurplus": {
+      "key": "shop_name_crusaderprovidencesurplus",
+      "value": "天意军品店"
     },
     "shop_name_cubbyblast": {
       "key": "shop_name_cubbyblast",

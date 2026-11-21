@@ -3,7 +3,7 @@ import { localizeLocationText, remainingUnlocalizedLocationTokens, reviewedLocat
 import { assertLocalizationSeries, deriveOfficialLocations } from "../scripts/lib/official-location-source.mjs";
 import source from "../data/localization/official-global-derived.json";
 import items from "../src/data/generated/items.json";
-import burritoTerminals from "./fixtures/burrito-terminals.json";
+import shopTerminals from "./fixtures/shop-terminals.json";
 import { gzipSync } from "node:zlib";
 import { createHash } from "node:crypto";
 import { verifySyncedLocalization } from "../scripts/lib/localization.mjs";
@@ -44,12 +44,43 @@ describe("official location localization", () => {
     expect(localizeLocationText("Burrito Bar - ARC-L3")).toBe("墨西哥卷饼 - 弧 L3 摩登快车站");
   });
   it("localizes every reported burrito terminal, including those beyond the summary limit", () => {
-    expect(burritoTerminals.terminals.length).toBe(20);
-    for (const terminal of burritoTerminals.terminals) {
+    expect(shopTerminals.terminals.length).toBe(20);
+    for (const terminal of shopTerminals.terminals) {
       const localized = localizeLocationText(`可购买地点：${terminal.name}`);
       expect(remainingUnlocalizedLocationTokens(localized), String(terminal.terminalId)).toEqual([]);
       expect(localizeLocationText(localized), String(terminal.terminalId)).toBe(localized);
     }
+  });
+  it("uses the official Casaba name for all reported outlets", () => {
+    expect(currentLocations["Casaba Outlet"]).toMatchObject({ zh: "卡莎巴服装店", key: "shop_name_casaba" });
+    expect(localizeLocationText("Casaba Outlet - Area 18")).toBe("卡莎巴服装店 - 18区");
+    expect(shopTerminals.casabaTerminals).toHaveLength(8);
+    for (const terminal of shopTerminals.casabaTerminals) {
+      const localized = localizeLocationText(`可购买地点：${terminal.name}`);
+      expect(remainingUnlocalizedLocationTokens(localized), String(terminal.terminalId)).toEqual([]);
+      expect(localizeLocationText(localized), String(terminal.terminalId)).toBe(localized);
+    }
+  });
+  it("covers all other reported food and clothing terminals", () => {
+    for (const terminal of shopTerminals.otherTerminals) {
+      const localized = localizeLocationText(`可购买地点：${terminal.name}`);
+      expect(remainingUnlocalizedLocationTokens(localized), String(terminal.terminalId)).toEqual([]);
+      expect(localizeLocationText(localized), String(terminal.terminalId)).toBe(localized);
+    }
+  });
+  it("retains reviewed names until an unambiguous official identity replaces them", () => {
+    const name = "Crusader Discovery Center Refreshments";
+    const entries = new Map(Object.entries(source.entries));
+    expect(deriveOfficialLocations(entries)[name]).toMatchObject({ zh: "十字军探索中心餐饮处", source: "reviewed_manual" });
+    entries.set("area_name_future_discovery", { key: "area_name_future_discovery", value: `官方场馆餐饮\\n${name}` });
+    expect(deriveOfficialLocations(entries)[name]).toMatchObject({ zh: "官方场馆餐饮", source: "official" });
+    entries.set("shop_name_duplicate_discovery", { key: "shop_name_duplicate_discovery", value: `另一同名场馆\\n${name}` });
+    expect(deriveOfficialLocations(entries)[name].source).toBe("reviewed_manual");
+    entries.delete("area_name_future_discovery"); entries.delete("shop_name_duplicate_discovery");
+    entries.set("area_name_english_discovery", { key: "area_name_english_discovery", value: name });
+    expect(deriveOfficialLocations(entries)[name].source).toBe("reviewed_manual");
+    entries.set("area_name_partial_discovery", { key: "area_name_partial_discovery", value: "其他场馆\\nCrusader Discovery Center" });
+    expect(deriveOfficialLocations(entries)[name].source).toBe("reviewed_manual");
   });
   it("still identifies unknown shops and location suffixes for review", () => {
     expect(localizeLocationText("Burrito Baritone - Unknown Outpost")).toBe("Burrito Baritone - Unknown Outpost");

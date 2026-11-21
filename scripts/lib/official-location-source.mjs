@@ -1,4 +1,5 @@
 import { firstChineseLine } from "./localization.mjs";
+import reviewedNames from "../../data/source-snapshots/reviewed-location-names.json" with { type: "json" };
 
 // Explicit official keys, never fuzzy English-name matching. Generic shop labels
 // are UI categories; they do not invent a physical shop or change its location.
@@ -65,6 +66,16 @@ export const LOCATION_KEYS = {
   "Ellroy's": "area_name_fdcrt_ellroys",
   "Burrito Bar": "area_name_fdcrt_gen_sml_brt",
   "Torpedo Burrito": "WIP_Org_TorpedoBurrito",
+  "Casaba Outlet": "shop_name_casaba",
+  "Clothing Shop": "shop_name_clothing",
+  "Pizza": "area_name_fdcrt_gen_sml_pza",
+  "Noodle Bar": "area_name_fdcrt_gen_sml_ndle_a",
+  "Hot Dogs": "area_name_fdcrt_gen_sml_htdg",
+  "Twyn's Sandwiches": "PU_VENDOR01_M_VFO_Welcome_Twyns_IG_001_HiWelcomeTo",
+  "Cousin Crow's": "shop_name_cousincrows",
+  "Covalex Shipping": "shop_name_covalex",
+  "Providence Surplus": "shop_name_crusaderprovidencesurplus",
+  "Providence Platform": "Orison_Destination_ProvidencePlatform",
   "Skutters": "shop_name_skutters",
   "Kel-To": "shop_name_kelto",
   "Live Fire Weapons": "shop_name_livefireweapons",
@@ -98,7 +109,7 @@ export const TERMINAL_ALIASES = {
 };
 
 export function deriveOfficialLocations(entries) {
-  return Object.fromEntries(Object.entries(LOCATION_KEYS).map(([english, key]) => {
+  const locations = Object.fromEntries(Object.entries(LOCATION_KEYS).map(([english, key]) => {
     const entry = entries.get(key.toLowerCase());
     if (!entry) throw new Error(`Missing official location key: ${key}`);
     let zh = (firstChineseLine(entry.value) || "").replace(/\s*\([^()]*[A-Za-z][^()]*\)\s*$/, "").trim();
@@ -109,9 +120,26 @@ export function deriveOfficialLocations(entries) {
       if (!phrase) throw new Error("Official IO North Tower dialogue changed; review phrase mapping");
       zh = phrase;
     }
+    if (english === "Twyn's Sandwiches") {
+      if (!zh.includes("吐温三明治")) throw new Error("Official Twyn's greeting changed; review phrase mapping");
+      zh = "吐温三明治";
+    }
     if (!/[\u3400-\u9fff]/.test(zh)) throw new Error(`Untranslated official location key: ${key}`);
     return [english, { zh, key: entry.key }];
   }));
+  // Reviewed names live in Git, never in disposable request caches. Only an
+  // unambiguous exact English identity may promote a future official string.
+  const normalize = value => value.trim().toLowerCase().replace(/\s+/g, " ");
+  for (const reviewed of reviewedNames.entries) {
+    const matches = [...entries.values()].filter(entry =>
+      /^(?:shop_name_|area_name_|room_|item_nameshop_?)/i.test(entry.key)
+      && /[\u3400-\u9fff]/.test(firstChineseLine(entry.value) || "")
+      && String(entry.value).split("\\n").some(line => normalize(line) === normalize(reviewed.english)));
+    locations[reviewed.english] = matches.length === 1
+      ? { zh: firstChineseLine(matches[0].value), key: matches[0].key, source: "official" }
+      : { zh: reviewed.zh, key: null, source: "reviewed_manual" };
+  }
+  return locations;
 }
 
 export function assertLocalizationSeries(entries, liveVersion) {

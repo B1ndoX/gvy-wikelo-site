@@ -201,6 +201,7 @@ describe("image-only persistence guards", () => {
     await symlink(path.join(process.cwd(), "node_modules"), path.join(root, "node_modules"), "dir");
     await mkdir(path.join(root, "src/data/generated"), { recursive: true });
     await mkdir(path.join(root, "data/source-snapshots"), { recursive: true });
+    await cp(path.join(process.cwd(), "data/source-snapshots/reviewed-location-names.json"), path.join(root, "data/source-snapshots/reviewed-location-names.json"));
     await cp(path.join(process.cwd(), "data/localization"), path.join(root, "data/localization"), { recursive: true });
     const documents = { "trades.json": before.tradeDocument, "items.json": before.itemDocument, "metadata.json": before.metadata, "localization.json": before.localization, "versioned-data.json": before.versionedData };
     for (const [name, value] of Object.entries(documents)) await writeFile(path.join(root, "src/data/generated", name), JSON.stringify(value));

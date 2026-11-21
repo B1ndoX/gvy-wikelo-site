@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "english": "Crusader Discovery Center Refreshments",
+      "zh": "十字军探索中心餐饮处",
+      "terminalIds": [
+        350
+      ],
+      "reviewedAt": "2026-11-21",
+      "kind": "reviewed_manual",
+      "evidence": [
+        "https://uexcorp.space/terminals/info/name/crusader-discovery-centre-refreshments/tab/home/",
+        "https://robertsspaceindustries.com/en/comm-link/spectrum-dispatch/18873-Portfolio-Cousin-Crows-Custom-Crafts"
+      ],
+      "note": "Project-reviewed translation of terminal CDCRE / 350; the Discovery Center is distinct from the Crusader Industries Showroom. This is not an official Chinese string. Use an unambiguous exact English match from official location/shop entries when available."
+    }
+  ]
+}

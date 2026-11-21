@@ -27,7 +27,7 @@ export async function syncOfficialSnapshot(official, gameVersion) {
   const allEntries = official.entries;
   const { sourcePath, sourceSha256, sourceUpdatedAt } = official.metadata;
   const sourceVersion = assertLocalizationSeries(allEntries, gameVersion);
-  deriveOfficialLocations(allEntries); // Fail before replacing any verified snapshot.
+  const locations = deriveOfficialLocations(allEntries); // Fail before replacing any verified snapshot.
   const items = JSON.parse(await readFile(generatedItemsPath, "utf8")).items;
   const trades = JSON.parse(await readFile(generatedTradesPath, "utf8")).trades;
   const tradeEntries = trades.flatMap((trade) => [...trade.requirements, ...trade.rewards]);
@@ -43,6 +43,7 @@ export async function syncOfficialSnapshot(official, gameVersion) {
     ...Object.values(OFFICIAL_KEY_ALIASES),
     ...Object.values(CONTRACT_KEY_ALIASES),
     ...Object.values(LOCATION_KEYS),
+    ...Object.values(locations).map(location => location.key).filter(Boolean),
     ...localizedEntities.flatMap((item) => officialLocalizationKeyCandidates(item.id)),
   ].map(normalize));
 
