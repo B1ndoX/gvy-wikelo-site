@@ -27,9 +27,9 @@
 
 ## 本地运行
 
-需要 Node.js >= 22.12。EdgeOne 当前固定使用其受支持的 Node.js `22.21.1`（见 `edgeone.json`）。
+与舰队官网、蓝图站统一使用准确 Node.js `24.22.1`。`.node-version`是数值权威，`.nvmrc`、package/锁文件根engines、EdgeOne及Actions保持一致，运行`npm run check:node`检查实际进程。云端使用`npm ci --ignore-scripts`按锁文件安装。
 
-2026-10-19 安全维护将 Vitest 固定为 `4.1.11`，并只升级 `fast-uri`、`nanoid`、`source-map-js`、`undici` 的兼容安全补丁；配套 Vitest 包保持同版。完整依赖与生产依赖审计均为 0 项告警，功能/数据/样式不变。使用锁文件安装（本地和 CI 优先 `npm ci --ignore-scripts`），发布前重新执行 `npm audit`，不能将本次离线最低补丁测试当成未来漏洞扫描。现有 JSDOM 30 的开发测试官方 Node 范围为 `^22.22.2 || ^24.15.0 || >=26.0.0`；固定 EdgeOne `22.21.1` 的安装/构建及本次测试已实测通过，但不代表扩展上游支持范围，也不擅自修改云运行时。
+2026-10-19 安全维护将 Vitest 固定为 `4.1.11`，并只升级 `fast-uri`、`nanoid`、`source-map-js`、`undici` 的兼容安全补丁；配套 Vitest 包保持同版。完整依赖与生产依赖审计均为 0 项告警，功能/数据/样式不变。使用锁文件安装（本地和 CI 优先 `npm ci --ignore-scripts`），发布前重新执行 `npm audit`，不能将本次离线最低补丁测试当成未来漏洞扫描。现有 JSDOM 30 的开发测试官方 Node 范围为 `^22.22.2 || ^24.15.0 || >=26.0.0`；固定 EdgeOne `22.21.1` 的安装/构建及本次测试已实测通过，但不代表扩展上游支持范围，该句是当时的验证记录；本轮候选已统一到24.22.1，真实云构建仍按发布流程验收。
 
 ```bash
 npm install

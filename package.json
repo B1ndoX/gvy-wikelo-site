@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=22.12.0"
+    "node": "24.22.1"
   },
   "scripts": {
     "dev": "vite --host 0.0.0.0",
@@ -18,7 +18,8 @@
     "lint:data": "node scripts/validate-data.mjs",
     "refresh:data": "node scripts/refresh-data.mjs",
     "refresh:data:publish-check": "node scripts/refresh-data.mjs --publish-check",
-    "restore:data": "node scripts/restore-data.mjs"
+    "restore:data": "node scripts/restore-data.mjs",
+    "check:node": "node scripts/check-node.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

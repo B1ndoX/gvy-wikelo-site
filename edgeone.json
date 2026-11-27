@@ -1,8 +1,8 @@
 {
   "buildCommand": "npm run build",
-  "installCommand": "npm install --ignore-scripts",
+  "installCommand": "node scripts/check-node.mjs && npm --version && npm ci --ignore-scripts",
   "outputDirectory": "./dist",
-  "nodeVersion": "22.21.1",
+  "nodeVersion": "24.22.1",
   "headers": [
     {
       "source": "/*",
